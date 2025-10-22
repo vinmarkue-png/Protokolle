@@ -1,26 +1,21 @@
 \documentclass[a4paper,12pt,bibtotocnumbered]{scrartcl}
 
-\usepackage[utf8]{inputenc} %Codierung des LaTeX-Dokumentes. Auf Windows-Maschinen ist statt utf8 auch ANSIC als Codierung mÃ¶glich, aber unnÃ¶tig, da utf8 in jeder Hinsicht besser als ANSI ist. Bei Linux: latin1 als Codierung, auf MacOS X: applemac
+\usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
-\usepackage[ngerman]{babel} %Deutsche Zeichen- und Umbruchsetzung
-\usepackage{amsmath, amssymb,amsfonts} %AMS-TeX-Pakete. NÃ¶tig fÃ¼r die Definition der Mathematik-Umgebung
-\usepackage{graphicx} %NÃ¶tig, um Grafiken einbinden zu kÃ¶nnen
-\usepackage[bookmarks,colorlinks=true]{hyperref} %Mittels hyperref lassen sich hyperlinks innerhalb des PDF-Dokumentes benutzen. Beispiel: Mausklick im Inhaltsverzeichnis auf ein Kapitel fÃ¼hrt zum automatischen Sprung in dieses Kapitel
+\usepackage[ngerman]{babel} 
+\usepackage{amsmath, amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage[bookmarks,colorlinks=true]{hyperref}
 \usepackage{geometry}
 \usepackage{float}
-%Ein Paket, mit dem sich ohne Probleme mehrseitige PDF-Dokumente ohne \includegraphics-Rumgemache einbinden lassen. Befehl: \includepdf[pages=a-b]{PDFfile.pdf}. Einzelne Seiten, oder auch alle Seiten (Option pages=-) kÃ¶nnen angewÃ¤hlt werden
-%Wenn keine Option angegeben wird, gilt pages=1!
 \usepackage[final]{pdfpages}
-\usepackage{framed, color} %Framed: Paket, mittels dessen ein Rahmen um einen Bereich definiert werden kann. Color: LÃ¤sst Farbdarstellung in Schrift, Hintergrund etc. zu
-\usepackage{scrlayer-scrpage} %Header fÃ¼r die KOMA-script -Klasse
-\usepackage{siunitx} %Ein schÃ¶nes Paket, um Einheiten und physikalische GrÃ¶ÃŸen richtig zu setzen. Z.B.  \SI{2}{\kilo\gram\per\meter\squared}
-\usepackage{subfigure} %Mehrere Bilder in einer Figure-Umgebung
+\usepackage{framed, color} 
+\usepackage{scrlayer-scrpage}
+\usepackage{siunitx}
+\usepackage{subfigure}
 \renewcaptionname{ngerman}{\figurename}{Abb.}
-%siunitx-Konfiguration. Damit werden die richtigen Font-Einstellungen erkannt (also beispielsweise fett, kursiv etc.) und damit  ebenfalls die deutsche Zeichensetzung, insbesondere Trennungszeichen, benutzt werden. 
-%Ebenso wird bei SIrange das "`to"' in "`bis"' umgewandelt, bei SIlist das "`and"' in "`und"'
 \sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
-%\SI[per-mode = fraction]{1}{\meter\per\second} erzwingt auch im FlieÃŸtext die Bruchdarstellung.
-\DeclareSIUnit\curie{Ci}%ZusÃ¤tzliche Einheit definieren
+\DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
 
