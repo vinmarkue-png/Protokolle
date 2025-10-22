@@ -1,0 +1,154 @@
+\documentclass[a4paper,12pt,bibtotocnumbered]{scrartcl}
+
+\usepackage[utf8]{inputenc} %Codierung des LaTeX-Dokumentes. Auf Windows-Maschinen ist statt utf8 auch ANSIC als Codierung mÃ¶glich, aber unnÃ¶tig, da utf8 in jeder Hinsicht besser als ANSI ist. Bei Linux: latin1 als Codierung, auf MacOS X: applemac
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} %Deutsche Zeichen- und Umbruchsetzung
+\usepackage{amsmath, amssymb,amsfonts} %AMS-TeX-Pakete. NÃ¶tig fÃ¼r die Definition der Mathematik-Umgebung
+\usepackage{graphicx} %NÃ¶tig, um Grafiken einbinden zu kÃ¶nnen
+\usepackage[bookmarks,colorlinks=true]{hyperref} %Mittels hyperref lassen sich hyperlinks innerhalb des PDF-Dokumentes benutzen. Beispiel: Mausklick im Inhaltsverzeichnis auf ein Kapitel fÃ¼hrt zum automatischen Sprung in dieses Kapitel
+\usepackage{geometry}
+\usepackage{float}
+%Ein Paket, mit dem sich ohne Probleme mehrseitige PDF-Dokumente ohne \includegraphics-Rumgemache einbinden lassen. Befehl: \includepdf[pages=a-b]{PDFfile.pdf}. Einzelne Seiten, oder auch alle Seiten (Option pages=-) kÃ¶nnen angewÃ¤hlt werden
+%Wenn keine Option angegeben wird, gilt pages=1!
+\usepackage[final]{pdfpages}
+\usepackage{framed, color} %Framed: Paket, mittels dessen ein Rahmen um einen Bereich definiert werden kann. Color: LÃ¤sst Farbdarstellung in Schrift, Hintergrund etc. zu
+\usepackage{scrlayer-scrpage} %Header fÃ¼r die KOMA-script -Klasse
+\usepackage{siunitx} %Ein schÃ¶nes Paket, um Einheiten und physikalische GrÃ¶ÃŸen richtig zu setzen. Z.B.  \SI{2}{\kilo\gram\per\meter\squared}
+\usepackage{subfigure} %Mehrere Bilder in einer Figure-Umgebung
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+%siunitx-Konfiguration. Damit werden die richtigen Font-Einstellungen erkannt (also beispielsweise fett, kursiv etc.) und damit  ebenfalls die deutsche Zeichensetzung, insbesondere Trennungszeichen, benutzt werden. 
+%Ebenso wird bei SIrange das "`to"' in "`bis"' umgewandelt, bei SIlist das "`and"' in "`und"'
+\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+%\SI[per-mode = fraction]{1}{\meter\per\second} erzwingt auch im FlieÃŸtext die Bruchdarstellung.
+\DeclareSIUnit\curie{Ci}%ZusÃ¤tzliche Einheit definieren
+\usepackage[backend=biber, style=chem-angew]{biblatex} 
+\addbibresource{lit.bib} 
+
+\usepackage{chemgreek}
+\usepackage{chemformula}
+
+\urlstyle{same}
+%Hyperlinks-Setup
+\hypersetup{
+	colorlinks,
+	linktocpage,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+%\numberwithin{equation}{section}
+
+\setlength{\parindent}{0 mm}
+\setlength{\parskip}{2 mm} 
+
+
+
+\pagestyle{scrheadings}
+%Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
+\ihead{\VerfasserEINS\;\&\;\VerfasserZWEI} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
+\ofoot{\thepage} %Footer unten links auf linker und unten rechts auf rechter Seite, enthÃ¤lt die jeweilige Seitenzahl. Im Fall eines einseitigen Elements: Footer unten rechts!
+\cfoot{\empty} %Mittig unten im Footer soll nichts eingetragen werden 
+\ifoot{\empty} %Footer unten rechts auf linker und unten links auf rechter Seite. Hier ebenfalls leer.
+
+
+\newcommand{\VERSUCHSDATUM}{20.10.-27.10.2025}
+\newcommand{\PROTOKOLLDATUM}{\today}
+
+\newcommand{\VerfasserEINS}{Vincent Kümmerle}
+\newcommand{\MatNoEINS}{3712667}
+\newcommand{\EmailEINS}{st187541@stud.uni-stuttgart.de}
+\newcommand{\StudiengangEINS}{B.Sc. Chemie}
+
+\newcommand{\VerfasserZWEI}{Elvis Gnaglo}
+\newcommand{\MatNoZWEI}{3710504}
+\newcommand{\EmailZWEI}{st189318@stud.uni-stuttgart.de}
+\newcommand{\StudiengangZWEI}{B.Sc. Chemie}
+
+\newcommand{\BETREUER}{Benjamin Knies}
+\newcommand{\GRUPPENNR}{A05}
+
+\newcommand{\VERSUCHSNR}{Festkörper Präparat}
+\newcommand{\VERSUCHSNAME}{Cobalteisenstein}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+
+\begin{titlepage}
+
+\begin{center}
+\Huge{\textbf{\VERSUCHSNR\ - \VERSUCHSNAME}}\\
+\vspace{10mm}% Abstand
+\Large{Protokoll zum Versuch des AC2 Praktikums von \\ \textbf{\VerfasserEINS\;\& \VerfasserZWEI}}\\
+\vspace{10mm} 
+\Large{Universität Stuttgart}\\
+\end{center}
+\vspace{1cm}
+\begin{center}
+\begin{tabular}{ll}
+\large{Verfasser:}		& \large{\VerfasserEINS,} \large{\MatNoEINS} \\
+ 						& \large{\EmailEINS} \\
+ 						\vspace{0cm}\\
+						& \large{\VerfasserZWEI,} \large{\MatNoZWEI} \\
+                        & \large{\EmailZWEI} \\
+						\vspace{0cm}\\
+\large{Gruppennummer:}	& \large{\GRUPPENNR} \\
+\vspace{0cm}\\
+\large{Zeitraum:}	& \large{\VERSUCHSDATUM} \\
+\vspace{0cm}\\
+\large{Betreuer:}		& \large{\BETREUER} \\
+\vspace{0cm}\\
+\large{Abgabenummer:} & \large{1. Abgabe}
+\end{tabular}
+\end{center}
+\vspace{15mm}
+
+\begin{center}
+Stuttgart, den \PROTOKOLLDATUM
+\end{center}
+
+\end{titlepage}
+
+
+\thispagestyle{empty}
+
+\tableofcontents 
+
+\clearpage
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+
+\section{Einleitung}
+In der Vergangenheit weckte Cobalteisenstein durch Untersuchung des hohen elektrischen Widerstands, der hohen Remanenz und Koerzitivkraft in den frühen 1930er Jahren in Japan erstmals Interesse, bevor es als nichtleitender Permanentmagnet ab Anfang 1950 durch das günstiger herzustellende Bariumferrit abgelöst wurde.
+%\cite{History}.
+Heutzutage finden Cobaltferritnanopartikel Verwendung für Magnetspeichersysteme mit hoher Kapazität und \ch{CoFe2O4} wird zudem als Katalysator für die Oxidation von Alkenen genutzt.
+%\cite{Rieck}
+
+
+%\cite{Müller}
+
+\section{Charakterisierungsmethoden}
+
+
+\newpage
+
+\section{Durchführung}
+
+
+\section{Ergebnisse}
+
+
+
+\section{Zusammenfassung}
+
+
+
+\printbibliography[title={Literatur}]
+
+
+\end{document}
