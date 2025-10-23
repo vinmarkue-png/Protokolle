@@ -1,18 +1,17 @@
 # Fdb version 4
-["biber Cobalteisenstein"] 0 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 0 0
-  "Cobalteisenstein.bcf" 0 -1 0 "pdflatex"
-  "lit.bib" 0 -1 0 ""
+["biber Cobalteisenstein"] 1761238660.97449 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 1761238856.42638 0
+  "Cobalteisenstein.bcf" 1761238856 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
   (generated)
   "Cobalteisenstein.bbl"
   "Cobalteisenstein.blg"
   (rewritten before read)
-["pdflatex"] 1761153953.13454 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761153957.76029 0
-  "Cobalteisenstein.aux" 1761153956 2273 86b955c476e5a6a45ffa652017532b60 "pdflatex"
-  "Cobalteisenstein.bbl" 0 -1 0 "biber Cobalteisenstein"
-  "Cobalteisenstein.run.xml" 1761153956 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
-  "Cobalteisenstein.tex" 1761153608 4448 284c8cde4db44ab08a3885b4836be773 ""
-  "Cobalteisenstein.toc" 1761153956 449 462bb9ec99c9f2b490045152aaad5b51 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761153608 4448 284c8cde4db44ab08a3885b4836be773 ""
+["pdflatex"] 1761238852.26765 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761238856.4273 0
+  "Cobalteisenstein.aux" 1761238856 2296 98dd45c08198d6191b835ff42c980db0 "pdflatex"
+  "Cobalteisenstein.bbl" 1761238762 486 76d65a242ec496c9b4361af646ff12cb "biber Cobalteisenstein"
+  "Cobalteisenstein.run.xml" 1761238856 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
+  "Cobalteisenstein.tex" 1761238851 4448 284c8cde4db44ab08a3885b4836be773 ""
+  "Cobalteisenstein.toc" 1761238856 449 462bb9ec99c9f2b490045152aaad5b51 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761238851 4448 284c8cde4db44ab08a3885b4836be773 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""

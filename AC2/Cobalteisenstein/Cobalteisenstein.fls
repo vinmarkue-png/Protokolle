@@ -360,6 +360,11 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 INPUT c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
 OUTPUT Cobalteisenstein.bcf
+INPUT Cobalteisenstein.bbl
+INPUT ./Cobalteisenstein.bbl
+INPUT ./Cobalteisenstein.bbl
+INPUT ./Cobalteisenstein.bbl
+INPUT Cobalteisenstein.bbl
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm2488.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1728.tfm
