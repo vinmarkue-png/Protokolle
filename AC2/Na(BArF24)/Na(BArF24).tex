@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,bibtotocnumbered]{scrartcl}
+\documentclass[a4paper,12pt,bibliography=totocnumbered]{scrartcl}
 
 \usepackage[utf8]{inputenc} 
 \usepackage[T1]{fontenc}
@@ -41,14 +41,14 @@
 
 
 \pagestyle{scrheadings}
-%Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
+\ohead{\empty} %Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
 \ihead{\VerfasserEINS\;\&\;\VerfasserZWEI} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
 \ofoot{\thepage} %Footer unten links auf linker und unten rechts auf rechter Seite, enthÃ¤lt die jeweilige Seitenzahl. Im Fall eines einseitigen Elements: Footer unten rechts!
 \cfoot{\empty} %Mittig unten im Footer soll nichts eingetragen werden 
 \ifoot{\empty} %Footer unten rechts auf linker und unten links auf rechter Seite. Hier ebenfalls leer.
 
 
-\newcommand{\VERSUCHSDATUM}{20.10.-27.10.2025}
+\newcommand{\VERSUCHSDATUM}{}
 \newcommand{\PROTOKOLLDATUM}{\today}
 
 \newcommand{\VerfasserEINS}{Vincent Kümmerle}
@@ -61,11 +61,11 @@
 \newcommand{\EmailZWEI}{st189318@stud.uni-stuttgart.de}
 \newcommand{\StudiengangZWEI}{B.Sc. Chemie}
 
-\newcommand{\BETREUER}{Benjamin Knies}
+\newcommand{\BETREUER}{}
 \newcommand{\GRUPPENNR}{A05}
 
-\newcommand{\VERSUCHSNR}{Festkörper Präparat}
-\newcommand{\VERSUCHSNAME}{Cobalteisenstein}
+\newcommand{\VERSUCHSNR}{}
+\newcommand{\VERSUCHSNAME}{}
 
 
 \begin{document}
@@ -92,7 +92,7 @@
 						\vspace{0cm}\\
 \large{Gruppennummer:}	& \large{\GRUPPENNR} \\
 \vspace{0cm}\\
-\large{Zeitraum:}	& \large{\VERSUCHSDATUM} \\
+\large{Versuchszeitraum:}	& \large{\VERSUCHSDATUM} \\
 \vspace{0cm}\\
 \large{Betreuer:}		& \large{\BETREUER} \\
 \vspace{0cm}\\
@@ -117,17 +117,16 @@ Stuttgart, den \PROTOKOLLDATUM
 \renewcommand{\thepage}{\arabic{page}}
 \setcounter{page}{1}
 
-
 \section{Einleitung}
-In der Vergangenheit weckte Cobalteisenstein durch Untersuchung des hohen elektrischen Widerstands, der hohen Remanenz und Koerzitivkraft in den frühen 1930er Jahren in Japan erstmals Interesse, bevor es als nichtleitender Permanentmagnet ab Anfang 1950 durch das günstiger herzustellende Bariumferrit abgelöst wurde.
-%\cite{History}.
-Heutzutage finden Cobaltferritnanopartikel Verwendung für Magnetspeichersysteme mit hoher Kapazität und \ch{CoFe2O4} wird zudem als Katalysator für die Oxidation von Alkenen genutzt.
-%\cite{Rieck}
+
+%\cite{Abk}.
 
 
-%\cite{Müller}
+\section{Ergebnisse}
 
-\section{Charakterisierungsmethoden}
+
+\section{Diskussion}
+
 
 
 \newpage
@@ -135,12 +134,9 @@ Heutzutage finden Cobaltferritnanopartikel Verwendung für Magnetspeichersysteme
 \section{Durchführung}
 
 
-\section{Ergebnisse}
-
 
 
 \section{Zusammenfassung}
-
 
 
 \printbibliography[title={Literatur}]
