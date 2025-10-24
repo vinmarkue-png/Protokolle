@@ -1,18 +1,17 @@
 # Fdb version 4
-["biber Na(BArF24)"] 0 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 0 0
-  "Na(BArF24).bcf" 0 -1 0 "pdflatex"
-  "lit.bib" 0 -1 0 ""
+["biber Na(BArF24)"] 1761316839.08514 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1761316851.0503 0
+  "Na(BArF24).bcf" 1761316850 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1761153808.51123 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1761153813.28148 0
-  "Na(BArF24).aux" 1761153812 2097 30c9320fd9b9c2329cea4d86406892ea "pdflatex"
-  "Na(BArF24).bbl" 0 -1 0 "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1761153812 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1761153784 3834 c229c5c8e00821610434e00ae82d95e8 ""
-  "Na(BArF24).toc" 1761153812 433 1e6fdc9bf3d67e251a20207b0b4dab33 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1761153784 3834 c229c5c8e00821610434e00ae82d95e8 ""
+["pdflatex"] 1761316846.07084 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1761316851.05359 0
+  "Na(BArF24).aux" 1761316850 2120 54dc62da0a8b827635bad2281416a777 "pdflatex"
+  "Na(BArF24).bbl" 1761316841 486 76d65a242ec496c9b4361af646ff12cb "biber Na(BArF24)"
+  "Na(BArF24).run.xml" 1761316850 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1761316846 3857 f3736c457b488a3ef5e2e8a1b975964b ""
+  "Na(BArF24).toc" 1761316850 433 1e6fdc9bf3d67e251a20207b0b4dab33 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1761316846 3857 f3736c457b488a3ef5e2e8a1b975964b ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -154,6 +153,9 @@
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1761072135 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
   "c:/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty" 1761072261 120104 16dc691645502ee13b1718d3f1dc0c8d ""
   "c:/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty" 1761072263 47530 64600845afa9c25b782d42fa33f66772 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1761072701 7068 06f8d141725d114847527a66439066b6 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def" 1761072701 22135 0975a49eeaed232aa861e9425ffb2e7c ""
+  "c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty" 1761072701 62767 e79d6d7a989e7da62dcf3d0a65c1faee ""
   "c:/texlive/2025/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty" 1761073187 13886 d1306dcf79a944f6988e688c1785f9ce ""
   "c:/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty" 1761073221 11876 6ef493863ae0d7a984706973240c2237 ""
   "c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty" 1761073244 46885 8953c67ffba03252c6090aa19568b8ba ""

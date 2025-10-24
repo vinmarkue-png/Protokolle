@@ -59,6 +59,16 @@ INPUT c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.def
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
+INPUT c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/graphicx.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/graphics/graphics.sty
@@ -97,8 +107,6 @@ INPUT c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/kvoptions/kvoptions.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-INPUT c:/texlive/2025/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/stringenc/stringenc.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/hyperref/pd1enc.def
