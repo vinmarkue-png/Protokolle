@@ -1,8 +1,8 @@
-PWD c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein
+PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex
+INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex
 OUTPUT Cobalteisenstein.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
