@@ -16,5 +16,92 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{History}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5a6dc24f4994863ddf0960aa70505cb1}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={T.E.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{fullhash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{fullhashraw}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{bibnamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorbibnamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authornamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorfullhash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorfullhashraw}{5a6dc24f4994863ddf0960aa70505cb1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synthesis, Properties and Mineralogy of Important Inorganic Materials}
+      \field{year}{2011}
+      \field{pages}{109}
+      \range{pages}{1}
+    \endentry
+    \entry{Rieck}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=396e4035b8bcb3a71d6a9adb0b4969d8}{%
+           family={D.\bibnamedelimi Rieck},
+           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi M.\bibnamedelimi Thijssen},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Technological University Eindhoven}%
+      }
+      \strng{namehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{fullhash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{fullhashraw}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{bibnamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{authorbibnamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{authornamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{authorfullhash}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{authorfullhashraw}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acta Cryst. B24}
+      \field{year}{1968}
+      \field{pages}{982}
+      \range{pages}{1}
+    \endentry
+    \entry{Müller}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f18b816e55763faf4b1c483ca9e76231}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vieweg+Teubner}%
+      }
+      \strng{namehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{fullhash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{fullhashraw}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{bibnamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorbibnamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authornamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorfullhash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorfullhashraw}{f18b816e55763faf4b1c483ca9e76231}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Anorganische Strukturchemie}
+      \field{year}{2008}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
