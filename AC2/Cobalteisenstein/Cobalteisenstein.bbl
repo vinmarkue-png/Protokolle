@@ -48,24 +48,29 @@
       \range{pages}{1}
     \endentry
     \entry{Rieck}{book}{}{}
-      \name{author}{1}{}{%
-        {{hash=396e4035b8bcb3a71d6a9adb0b4969d8}{%
-           family={D.\bibnamedelimi Rieck},
-           familyi={D\bibinitperiod\bibinitdelim R\bibinitperiod},
-           given={J.\bibnamedelimi J.\bibnamedelimi M.\bibnamedelimi Thijssen},
-           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+      \name{author}{2}{}{%
+        {{hash=f1f827155fec337f4a085dc4fec37531}{%
+           family={Rieck},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c92a63df1b69e9decd415222a0e17ab6}{%
+           family={Thijssen},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
         {Technological University Eindhoven}%
       }
-      \strng{namehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{fullhash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{fullhashraw}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{bibnamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{authorbibnamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{authornamehash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{authorfullhash}{396e4035b8bcb3a71d6a9adb0b4969d8}
-      \strng{authorfullhashraw}{396e4035b8bcb3a71d6a9adb0b4969d8}
+      \strng{namehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{fullhash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{fullhashraw}{e2736639c40d8a587488457e585fa6a9}
+      \strng{bibnamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorbibnamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authornamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorfullhash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorfullhashraw}{e2736639c40d8a587488457e585fa6a9}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -82,6 +87,9 @@
            familyi={M\bibinitperiod},
            given={U.},
            giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
       }
       \list{publisher}{1}{%
         {Vieweg+Teubner}%
