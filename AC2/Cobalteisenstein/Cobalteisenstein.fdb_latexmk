@@ -1,18 +1,21 @@
 # Fdb version 4
-["biber Cobalteisenstein"] 1761316536.62504 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 1761316808.2498 0
-  "Cobalteisenstein.bcf" 1761316807 108368 3cc15344e8d7783d1efdd2c7188795b4 "pdflatex"
-  "lit.bib" 1761316688 661 a6a786809b4f5e97164407e20a31005c ""
+["biber Cobalteisenstein"] 1761669763.51488 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 1761670127.70032 0
+  "Cobalteisenstein.bcf" 1761670127 108429 b9cdcc5421055d016547d4f3d7cb5972 "pdflatex"
+  "lit.bib" 1761669771 1058 1b5aa6ee397665483dbb768a8200abfb ""
   (generated)
   "Cobalteisenstein.bbl"
   "Cobalteisenstein.blg"
   (rewritten before read)
-["pdflatex"] 1761316804.18069 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761316808.25096 0
-  "Cobalteisenstein.aux" 1761316807 2948 d573ff7884e6af4786d615db2e61266e "pdflatex"
-  "Cobalteisenstein.bbl" 1761316539 4353 205f5a3bc39ca365df4da85f3de00bdc "biber Cobalteisenstein"
-  "Cobalteisenstein.run.xml" 1761316807 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
-  "Cobalteisenstein.tex" 1761316798 5898 96f2699b7310257c182d90dd8711b973 ""
-  "Cobalteisenstein.toc" 1761316807 514 853cb4d37e7e8d3c2f83b268cd6e0c6b "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761316798 5898 96f2699b7310257c182d90dd8711b973 ""
+["pdflatex"] 1761670122.31707 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761670127.70204 0
+  "Cobalteisenstein.aux" 1761670127 3545 09ab51f4b39a8aef03b3565578fae9df "pdflatex"
+  "Cobalteisenstein.bbl" 1761669766 6042 6e361aba4b1c339cc08ee580bec44764 "biber Cobalteisenstein"
+  "Cobalteisenstein.run.xml" 1761670127 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
+  "Cobalteisenstein.tex" 1761670115 6368 588e24b96307b809ee5e58696ae7e3cc ""
+  "Cobalteisenstein.toc" 1761670127 514 cf3a4d65891eb2ad7114017964ef8cf4 "pdflatex"
+  "Elementarzelle.png" 1761669322 542026 259e783b84c1cdf0f3e0a32439165572 ""
+  "Oktaederlücke.png" 1761669323 359185 d849d214ab357bdb00bb1fd41ddb266e ""
+  "Tetraederlücke.png" 1761669323 479194 7cc4a8f1e1051bdd08bdf99484fd391b ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761670115 6368 588e24b96307b809ee5e58696ae7e3cc ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -45,6 +48,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761072415 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761072415 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761072415 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1761070986 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1761070986 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761070986 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  24 OCT 2025 16:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  28 OCT 2025 17:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,28 +1217,63 @@ Overfull \hbox (1.72983pt too wide) in paragraph at lines 123--127
 \T1/cmr/m/n/12 tri-schen Wi-der-stands, der ho-hen Re-ma-nenz und Koer-zi-tiv-kraft in den fr�-hen 1930er
  []
 
+<Elementarzelle.png, id=38, 1882.03125pt x 1412.27625pt>
+File: Elementarzelle.png Graphic file (type png)
+<use Elementarzelle.png>
+Package pdftex.def Info: Elementarzelle.png  used on input line 131.
+(pdftex.def)             Requested size: 376.39958pt x 282.45024pt.
+<Tetraederlücke.png, id=40, 1882.03125pt x 1412.27625pt>
+File: Tetraederlücke.png Graphic file (type png)
+<use Tetraederlücke.png>
+Package pdftex.def Info: Tetraederlücke.png  used on input line 138.
+(pdftex.def)             Requested size: 282.29251pt x 211.83229pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 \newpage
-               [1
+l.142 
+       [1
 
-]
-Overfull \hbox (0.21922pt too wide) in paragraph at lines 156--156
-[]\T1/cmr/m/n/12 U. M�l-ler, \T1/cmr/m/it/12 An-or-ga-ni-sche Struk-tur-che-mie\T1/cmr/m/n/12 , View-eg+Teubner, Wies-ba-den, \T1/cmr/bx/n/12 2008\T1/cmr/m/n/12 . 
- []
 
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.142 
+       <./Elementarzelle.png>]
+<Oktaederlücke.png, id=50, 1882.03125pt x 1412.27625pt>
+File: Oktaederlücke.png Graphic file (type png)
+<use Oktaederlücke.png>
+Package pdftex.def Info: Oktaederlücke.png  used on input line 145.
+(pdftex.def)             Requested size: 282.29251pt x 211.83229pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.159 \end{document}
-                     [2] (./Cobalteisenstein.aux)
+l.164 
+       [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.164 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.164 
+       <./Tetraederlücke.png> <./Oktaederlücke.png>]
+
+[3]
+Overfull \hbox (0.21922pt too wide) in paragraph at lines 185--185
+[]\T1/cmr/m/n/12 U. M�l-ler, \T1/cmr/m/it/12 An-or-ga-ni-sche Struk-tur-che-mie\T1/cmr/m/n/12 , View-eg+Teubner, Wies-ba-den, \T1/cmr/bx/n/12 2008\T1/cmr/m/n/12 . 
+ []
+
+
+
+[4] (./Cobalteisenstein.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1248,18 +1283,18 @@ Package logreq Info: Writing requests to 'Cobalteisenstein.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41443 strings out of 467748
- 878850 string characters out of 5431137
- 1834863 words of memory out of 5000000
- 69586 multiletter control sequences out of 15000+600000
+ 41481 strings out of 467748
+ 879682 string characters out of 5431137
+ 1833978 words of memory out of 5000000
+ 69618 multiletter control sequences out of 15000+600000
  643104 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,11305b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Cobalteisenstein.pdf (4 pages, 222353 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Cobalteisenstein.pdf (6 pages, 1241641 bytes).
 PDF statistics:
- 133 PDF objects out of 1000 (max. 8388607)
- 100 compressed objects within 1 object stream
- 13 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 116 compressed objects within 2 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
