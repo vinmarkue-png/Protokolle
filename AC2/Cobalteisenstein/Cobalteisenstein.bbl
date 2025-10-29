@@ -61,7 +61,7 @@
            giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Technological University Eindhoven}%
+        {B24, Technological University Eindhoven}%
       }
       \strng{namehash}{e2736639c40d8a587488457e585fa6a9}
       \strng{fullhash}{e2736639c40d8a587488457e585fa6a9}
@@ -75,10 +75,10 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Acta Cryst. B24}
+      \field{title}{Acta Cryst.}
       \field{year}{1968}
-      \field{pages}{982}
-      \range{pages}{1}
+      \field{pages}{982\bibrangedash 983}
+      \range{pages}{2}
     \endentry
     \entry{Müller}{book}{}{}
       \name{author}{1}{}{%
@@ -121,7 +121,7 @@
         {Wiesbaden}%
       }
       \list{publisher}{1}{%
-        {B. G. Teubner Verlag}%
+        {8. Auflage, B. G. Teubner Verlag}%
       }
       \strng{namehash}{8fb82ec602aa5d6efa694668e590419c}
       \strng{fullhash}{8fb82ec602aa5d6efa694668e590419c}
@@ -137,6 +137,8 @@
       \field{labeltitlesource}{title}
       \field{title}{Kristallstrukturbestimmung}
       \field{year}{2015}
+      \field{pages}{14\bibrangessep 22\bibrangedash 25}
+      \range{pages}{5}
     \endentry
     \entry{FeDiff}{book}{}{}
       \name{author}{3}{}{%
@@ -157,7 +159,7 @@
            giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {Acta Cryst.}%
+        {Acta Cryst., B50}%
       }
       \strng{namehash}{448c4a9cb0a6b88655622988b502609c}
       \strng{fullhash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
