@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'Cobalteisenstein.blg'
-[642] biber-MSWIN64:342> INFO - === 
-[932] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
-[1119] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[1141] Biber.pm:4487> INFO - Processing section 0
-[1184] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[1330] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1371] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[1571] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1571] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1571] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1571] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[1577] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
-[1583] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl
+[0] Config.pm:331> INFO - Logfile is 'Cobalteisenstein.blg'
+[219] biber-MSWIN64:342> INFO - === 
+[318] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
+[524] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
+[548] Biber.pm:4487> INFO - Processing section 0
+[568] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[733] bibtex.pm:1713> INFO - LaTeX decoding ...
+[747] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[865] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[866] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[866] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[866] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[874] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
+[881] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl
