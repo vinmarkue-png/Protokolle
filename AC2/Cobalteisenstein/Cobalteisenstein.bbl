@@ -109,6 +109,35 @@
       \field{title}{Anorganische Strukturchemie}
       \field{year}{2008}
     \endentry
+    \entry{Kristallgitter}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=8fb82ec602aa5d6efa694668e590419c}{%
+           family={Massa},
+           familyi={M\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {B. G. Teubner Verlag}%
+      }
+      \strng{namehash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{fullhash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{fullhashraw}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{bibnamehash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{authorbibnamehash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{authornamehash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{authorfullhash}{8fb82ec602aa5d6efa694668e590419c}
+      \strng{authorfullhashraw}{8fb82ec602aa5d6efa694668e590419c}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Kristallstrukturbestimmung}
+      \field{year}{2015}
+    \endentry
     \entry{FeDiff}{book}{}{}
       \name{author}{3}{}{%
         {{hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%

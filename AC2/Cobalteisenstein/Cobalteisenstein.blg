@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Cobalteisenstein.blg'
-[157] biber-MSWIN64:342> INFO - === 
-[216] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
-[371] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[388] Biber.pm:4487> INFO - Processing section 0
-[403] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[495] bibtex.pm:1713> INFO - LaTeX decoding ...
-[522] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[602] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[603] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[603] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[603] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[606] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
-[610] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl
+[156] biber-MSWIN64:342> INFO - === 
+[213] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
+[372] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
+[393] Biber.pm:4487> INFO - Processing section 0
+[410] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[487] bibtex.pm:1713> INFO - LaTeX decoding ...
+[500] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[579] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[580] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[580] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[580] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[584] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
+[588] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl

@@ -2390,7 +2390,9 @@
     <bcf:citekey order="8" intorder="1">Rieck</bcf:citekey>
     <bcf:citekey order="9" intorder="1">Rieck</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Müller</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">FeDiff</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Kristallgitter</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Kristallgitter</bcf:citekey>
+    <bcf:citekey order="13" intorder="1">FeDiff</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
