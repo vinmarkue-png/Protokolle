@@ -80,6 +80,35 @@
       \field{pages}{982}
       \range{pages}{1}
     \endentry
+    \entry{Müller}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f18b816e55763faf4b1c483ca9e76231}{%
+           family={Müller},
+           familyi={M\bibinitperiod},
+           given={U.},
+           giveni={U\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Wiesbaden}%
+      }
+      \list{publisher}{1}{%
+        {Vieweg+Teubner}%
+      }
+      \strng{namehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{fullhash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{fullhashraw}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{bibnamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorbibnamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authornamehash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorfullhash}{f18b816e55763faf4b1c483ca9e76231}
+      \strng{authorfullhashraw}{f18b816e55763faf4b1c483ca9e76231}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Anorganische Strukturchemie}
+      \field{year}{2008}
+    \endentry
     \entry{FeDiff}{book}{}{}
       \name{author}{3}{}{%
         {{hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%
