@@ -1,15 +1,9 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'Cobalteisenstein.blg'
-[219] biber-MSWIN64:342> INFO - === 
-[318] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
-[524] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[548] Biber.pm:4487> INFO - Processing section 0
-[568] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[733] bibtex.pm:1713> INFO - LaTeX decoding ...
-[747] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[865] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[866] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[866] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[866] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[874] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
-[881] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl
+[1] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'Cobalteisenstein.blg'
+[244] biber-MSWIN64:342> INFO - === 
+[364] Biber.pm:421> INFO - Reading 'Cobalteisenstein.bcf'
+[600] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
+[619] bbl.pm:676> INFO - Writing 'Cobalteisenstein.bbl' with encoding 'UTF-8'
+[619] bbl.pm:779> INFO - Output to Cobalteisenstein.bbl
+[620] Biber.pm:132> WARN - The file 'Cobalteisenstein.bcf' does not contain any citations!
+[620] Biber.pm:134> INFO - WARNINGS: 1
