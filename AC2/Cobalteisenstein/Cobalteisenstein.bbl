@@ -16,5 +16,109 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{History}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=5a6dc24f4994863ddf0960aa70505cb1}{%
+           family={Warner},
+           familyi={W\bibinitperiod},
+           given={T.E.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{fullhash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{fullhashraw}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{bibnamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorbibnamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authornamehash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorfullhash}{5a6dc24f4994863ddf0960aa70505cb1}
+      \strng{authorfullhashraw}{5a6dc24f4994863ddf0960aa70505cb1}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synthesis, Properties and Mineralogy of Important Inorganic Materials}
+      \field{year}{2011}
+      \field{pages}{109}
+      \range{pages}{1}
+    \endentry
+    \entry{Rieck}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=f1f827155fec337f4a085dc4fec37531}{%
+           family={Rieck},
+           familyi={R\bibinitperiod},
+           given={G.\bibnamedelimi D.},
+           giveni={G\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=c92a63df1b69e9decd415222a0e17ab6}{%
+           family={Thijssen},
+           familyi={T\bibinitperiod},
+           given={J.\bibnamedelimi J.\bibnamedelimi M.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Technological University Eindhoven}%
+      }
+      \strng{namehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{fullhash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{fullhashraw}{e2736639c40d8a587488457e585fa6a9}
+      \strng{bibnamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorbibnamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authornamehash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorfullhash}{e2736639c40d8a587488457e585fa6a9}
+      \strng{authorfullhashraw}{e2736639c40d8a587488457e585fa6a9}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Acta Cryst. B24}
+      \field{year}{1968}
+      \field{pages}{982}
+      \range{pages}{1}
+    \endentry
+    \entry{FeDiff}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%
+           family={Maslen},
+           familyi={M\bibinitperiod},
+           given={E.\bibnamedelimi N.},
+           giveni={E\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=04fe837fd521bf1db53349dd266de78b}{%
+           family={Streltsov},
+           familyi={S\bibinitperiod},
+           given={V.\bibnamedelimi A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=2837cc7074d4fb190ffe2ff6967d0cea}{%
+           family={Streltsova},
+           familyi={S\bibinitperiod},
+           given={N.\bibnamedelimi R.},
+           giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Acta Cryst.}%
+      }
+      \strng{namehash}{448c4a9cb0a6b88655622988b502609c}
+      \strng{fullhash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \strng{fullhashraw}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \strng{bibnamehash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \strng{authorbibnamehash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \strng{authornamehash}{448c4a9cb0a6b88655622988b502609c}
+      \strng{authorfullhash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \strng{authorfullhashraw}{1ad1c6f4b983dda0d0e28d643f1ba39a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Synchrotron X-ray Study of the Electron Density in $\alpha$-Fe2O3}
+      \field{year}{1994}
+      \field{pages}{435\bibrangedash 441}
+      \range{pages}{7}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
