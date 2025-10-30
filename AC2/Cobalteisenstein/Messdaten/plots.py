@@ -17,7 +17,7 @@ base_dir = pathlib.Path(r"C:\Studium\5. Semester\AC II lab\Protokolle")
 # Konstruktion der Pfade mit pathlib (plattformunabhängig und ohne Escape-Probleme)
 file_paths = {
     "Cobalteisenstein": base_dir / "AC2" / "Cobalteisenstein" / "Messdaten" / "A05-CoFe2O4.csv",
-    "Literatur": base_dir / "AC2" / "Cobalteisenstein" / "Messdaten" / "CoFe2O4-Spinell_CollCode109044_R01.csv",
+    "Literatur Cobalteisenstein": base_dir / "AC2" / "Cobalteisenstein" / "Messdaten" / "CoFe2O4-Spinell_CollCode109044_R01.csv",
     "Eisenoxid": base_dir / "AC2" / "Cobalteisenstein" / "Messdaten" / "Fe2O3_Korund_CollCode40142_R01.csv"
 }
 
@@ -118,7 +118,7 @@ def load_and_plot_data():
         # Setze die X-Achse auf den numerischen Bereich der Daten (optional)
         # plt.xlim(df[X_COL].min(), df[X_COL].max()) 
         
-        plot_filename = 'messreihen_vergleich_korrigiert.png'
+        plot_filename = 'messreihen.png'
         plt.savefig(plot_filename)
         print(f"\n✨ Korrigierter Plot wurde unter dem Namen '{plot_filename}' gespeichert.")
         plt.show() # Zeigt den Plot zusätzlich an

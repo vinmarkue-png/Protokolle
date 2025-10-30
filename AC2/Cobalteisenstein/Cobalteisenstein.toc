@@ -6,6 +6,6 @@
 \contentsline {subsection}{\numberline {3.2}Röntgenbeugung}{5}{subsection.3.2}%
 \contentsline {section}{\numberline {4}Durchführung}{6}{section.4}%
 \contentsline {section}{\numberline {5}Ergebnisse}{6}{section.5}%
-\contentsline {section}{\numberline {6}Zusammenfassung}{6}{section.6}%
-\contentsline {section}{\numberline {7}Literatur}{6}{section.7}%
+\contentsline {section}{\numberline {6}Zusammenfassung}{7}{section.6}%
+\contentsline {section}{\numberline {7}Literatur}{7}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
