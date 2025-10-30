@@ -1,24 +1,24 @@
 # Fdb version 4
-["biber Cobalteisenstein"] 1761823880.27303 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 1761823885.12718 0
-  "Cobalteisenstein.bcf" 1761823884 109579 2c783e6ad1826d44628b6f68a94f4b3b "pdflatex"
+["biber Cobalteisenstein"] 1761824098.60228 "Cobalteisenstein.bcf" "Cobalteisenstein.bbl" "Cobalteisenstein" 1761824106.75902 0
+  "Cobalteisenstein.bcf" 1761824106 109579 2c783e6ad1826d44628b6f68a94f4b3b "pdflatex"
   "lit.bib" 1761754447 1527 fb5ecde79ec23f2b79aff268a1c9afed ""
   (generated)
   "Cobalteisenstein.bbl"
   "Cobalteisenstein.blg"
   (rewritten before read)
-["pdflatex"] 1761823882.0352 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761823885.1278 0
+["pdflatex"] 1761824103.60132 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" "Cobalteisenstein.pdf" "Cobalteisenstein" 1761824106.75967 0
   "Bilder/Bragg.png" 1761753066 37620 5c8e3a49c0d881d468b1814635477cb8 ""
   "Bilder/Elementarzelle.png" 1761753066 542026 259e783b84c1cdf0f3e0a32439165572 ""
   "Bilder/Oktaederlücke.png" 1761753066 359185 d849d214ab357bdb00bb1fd41ddb266e ""
   "Bilder/RÖhre.jpg" 1761753066 31610 132949cae009a7039e05878392d6e08f ""
   "Bilder/Tetraederlücke.png" 1761753066 479194 7cc4a8f1e1051bdd08bdf99484fd391b ""
   "Bilder/messreihen.png" 1761814478 60374 e8069e9e3b4d28ecf90ba4a2603f4605 ""
-  "Cobalteisenstein.aux" 1761823884 7500 c48f1ca58cf0e6810b0a171316f6f315 "pdflatex"
-  "Cobalteisenstein.bbl" 1761823881 7303 8f0fbfaefe2b843717961a6ea853e666 "biber Cobalteisenstein"
-  "Cobalteisenstein.run.xml" 1761823884 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
-  "Cobalteisenstein.tex" 1761823860 14560 ecb241084fa3ce52416b1d1fec3b4238 ""
-  "Cobalteisenstein.toc" 1761823884 756 a93315dc37801da7bfa92793ad5fd2fb "pdflatex"
-  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761823860 14560 ecb241084fa3ce52416b1d1fec3b4238 ""
+  "Cobalteisenstein.aux" 1761824106 7522 6d6dfb41fb111bb307ffbe5afa06e11b "pdflatex"
+  "Cobalteisenstein.bbl" 1761824100 7303 8f0fbfaefe2b843717961a6ea853e666 "biber Cobalteisenstein"
+  "Cobalteisenstein.run.xml" 1761824106 2521 d73a1e62b2f7fcd2c5da20b2c53c4c41 "pdflatex"
+  "Cobalteisenstein.tex" 1761824097 14571 079466ce90d8e8dff2569235d49fa439 ""
+  "Cobalteisenstein.toc" 1761824106 756 a93315dc37801da7bfa92793ad5fd2fb "pdflatex"
+  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex" 1761824097 14571 079466ce90d8e8dff2569235d49fa439 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761081966 3584 402da0b29eafbad07963b1224b222f18 ""
