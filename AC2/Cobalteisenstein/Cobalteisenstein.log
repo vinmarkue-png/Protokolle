@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  30 OCT 2025 08:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  30 OCT 2025 08:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1218,14 +1218,14 @@ Overfull \hbox (1.72983pt too wide) in paragraph at lines 123--127
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 129--135
+Underfull \hbox (badness 10000) in paragraph at lines 129--136
 
  []
 
-<Bilder/Elementarzelle.png, id=45, 1882.03125pt x 1412.27625pt>
+<Bilder/Elementarzelle.png, id=46, 1882.03125pt x 1412.27625pt>
 File: Bilder/Elementarzelle.png Graphic file (type png)
 <use Bilder/Elementarzelle.png>
-Package pdftex.def Info: Bilder/Elementarzelle.png  used on input line 138.
+Package pdftex.def Info: Bilder/Elementarzelle.png  used on input line 139.
 (pdftex.def)             Requested size: 376.39958pt x 282.45024pt.
 
 
@@ -1233,14 +1233,14 @@ Package pdftex.def Info: Bilder/Elementarzelle.png  used on input line 138.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.142 
+l.143 
        [1
 
 ]
-<Bilder/Tetraederlücke.png, id=61, 1882.03125pt x 1412.27625pt>
+<Bilder/Tetraederlücke.png, id=62, 1882.03125pt x 1412.27625pt>
 File: Bilder/Tetraederlücke.png Graphic file (type png)
 <use Bilder/Tetraederlücke.png>
-Package pdftex.def Info: Bilder/Tetraederlücke.png  used on input line 150.
+Package pdftex.def Info: Bilder/Tetraederlücke.png  used on input line 151.
 (pdftex.def)             Requested size: 188.21414pt x 141.2359pt.
 
 
@@ -1248,21 +1248,21 @@ Package pdftex.def Info: Bilder/Tetraederlücke.png  used on input line 150.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 
+l.155 
        [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.154 
+l.155 
        <./Bilder/Elementarzelle.png>]
-<Bilder/Oktaederlücke.png, id=70, 1882.03125pt x 1412.27625pt>
+<Bilder/Oktaederlücke.png, id=71, 1882.03125pt x 1412.27625pt>
 File: Bilder/Oktaederlücke.png Graphic file (type png)
 <use Bilder/Oktaederlücke.png>
-Package pdftex.def Info: Bilder/Oktaederlücke.png  used on input line 157.
+Package pdftex.def Info: Bilder/Oktaederlücke.png  used on input line 158.
 (pdftex.def)             Requested size: 282.29251pt x 211.83229pt.
 
-Overfull \hbox (16.88104pt too wide) in paragraph at lines 163--168
-\T1/cmr/m/n/12 sen Spi-nell-struk-tur zu-r�ck-zu-f�h-ren. Die in-di-rek-ten Superaustausch-Wechselwirkungen
+Overfull \hbox (31.89125pt too wide) in paragraph at lines 164--169
+\T1/cmr/m/n/12 sen Spi-nell-struk-tur zu-r�ck-zu-f�h-ren. [[][]3[][]] Die in-di-rek-ten Superaustausch-Wechselwirkungen
  []
 
 
@@ -1271,17 +1271,17 @@ Overfull \hbox (16.88104pt too wide) in paragraph at lines 163--168
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.168 
+l.169 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.168 
+l.169 
        <./Bilder/Tetraederlücke.png> <./Bilder/Oktaederlücke.png>]
-<Bilder/RÖhre.jpg, id=80, 1264.725pt x 710.655pt>
+<Bilder/RÖhre.jpg, id=83, 1264.725pt x 710.655pt>
 File: Bilder/RÖhre.jpg Graphic file (type jpg)
 <use Bilder/RÖhre.jpg>
-Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 178.
+Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 179.
 (pdftex.def)             Requested size: 379.42043pt x 213.19814pt.
 
 
@@ -1289,12 +1289,12 @@ Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 178.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.187 
+l.188 
        <./Bilder/RÖhre.jpg>]
-<Bilder/Bragg.png, id=91, 256.70906pt x 159.59625pt>
+<Bilder/Bragg.png, id=93, 256.70906pt x 159.59625pt>
 File: Bilder/Bragg.png Graphic file (type png)
 <use Bilder/Bragg.png>
-Package pdftex.def Info: Bilder/Bragg.png  used on input line 198.
+Package pdftex.def Info: Bilder/Bragg.png  used on input line 199.
 (pdftex.def)             Requested size: 243.87221pt x 151.61555pt.
 
 
@@ -1302,9 +1302,9 @@ Package pdftex.def Info: Bilder/Bragg.png  used on input line 198.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.203 \newpage
+l.204 \newpage
                <./Bilder/Bragg.png>]
-Overfull \hbox (0.21922pt too wide) in paragraph at lines 223--223
+Overfull \hbox (0.21922pt too wide) in paragraph at lines 224--224
 []\T1/cmr/m/n/12 U. M�l-ler, \T1/cmr/m/it/12 An-or-ga-ni-sche Struk-tur-che-mie\T1/cmr/m/n/12 , View-eg+Teubner, Wies-ba-den, \T1/cmr/bx/n/12 2008\T1/cmr/m/n/12 . 
  []
 
@@ -1322,16 +1322,16 @@ Package logreq Info: Writing requests to 'Cobalteisenstein.run.xml'.
 Here is how much of TeX's memory you used:
  41530 strings out of 467748
  881007 string characters out of 5431137
- 1836304 words of memory out of 5000000
+ 1836305 words of memory out of 5000000
  69657 multiletter control sequences out of 15000+600000
  643876 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,11305b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Cobalteisenstein.pdf (8 pages, 1347404 bytes).
+Output written on Cobalteisenstein.pdf (8 pages, 1347229 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 162 compressed objects within 2 object streams
+ 224 PDF objects out of 1000 (max. 8388607)
+ 164 compressed objects within 2 object streams
  28 named destinations out of 1000 (max. 500000)
  110 words of extra memory for PDF output out of 10000 (max. 10000000)
 
