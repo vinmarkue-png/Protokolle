@@ -23,7 +23,7 @@ file_paths = {
 
 # Standard-Spaltennamen (wie zuvor angenommen)
 X_COL = '2Theta'
-Y_COL = 'Relative Intensität / [%]' 
+Y_COL = 'Relative Intensität / %' 
 
 # =======================================================
 
@@ -90,7 +90,7 @@ def load_and_plot_data():
                 linestyle=line_styles[i],
                 linewidth=1,
                 marker='.',
-                markersize=1 
+                markersize=0 
             )
             data_loaded_successfully = True
             print(f"✅ Messreihe '{label}' erfolgreich geladen, normiert und geplottet.")
@@ -108,12 +108,12 @@ def load_and_plot_data():
         # 2. PLOT-GESTALTUNG
         # =======================================================
         
-        plt.title('Vergleich von drei Messreihen')
-        plt.xlabel(f'{X_COL} / [°]')
+        
+        plt.xlabel(f'{X_COL} / °')
         plt.ylabel(Y_COL)
         
         plt.legend(loc='upper right')
-        plt.grid(True, linestyle=':', alpha=0.6)
+        
         
         # Setze die X-Achse auf den numerischen Bereich der Daten (optional)
         # plt.xlim(df[X_COL].min(), df[X_COL].max()) 
