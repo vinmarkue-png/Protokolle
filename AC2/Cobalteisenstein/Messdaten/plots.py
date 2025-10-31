@@ -23,7 +23,7 @@ file_paths = {
 
 # Standard-Spaltennamen (wie zuvor angenommen)
 X_COL = r'$2 \theta$'
-Y_COL = 'Relative Intensität / %' 
+Y_COL = 'relative Intensität / %' 
 
 # =======================================================
 
