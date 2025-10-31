@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1761316839.08514 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1761316851.0503 0
-  "Na(BArF24).bcf" 1761316850 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
+["biber Na(BArF24)"] 1761316839.08514 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1761896949.17863 0
+  "Na(BArF24).bcf" 1761896948 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1761316846.07084 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1761316851.05359 0
-  "Na(BArF24).aux" 1761316850 2120 54dc62da0a8b827635bad2281416a777 "pdflatex"
+["pdflatex"] 1761896945.07373 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1761896949.17955 0
+  "Na(BArF24).aux" 1761896948 2120 24abf2f2474206efdcc9e3934a4e542b "pdflatex"
   "Na(BArF24).bbl" 1761316841 486 76d65a242ec496c9b4361af646ff12cb "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1761316850 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1761316846 3857 f3736c457b488a3ef5e2e8a1b975964b ""
-  "Na(BArF24).toc" 1761316850 433 1e6fdc9bf3d67e251a20207b0b4dab33 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1761316846 3857 f3736c457b488a3ef5e2e8a1b975964b ""
+  "Na(BArF24).run.xml" 1761896948 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1761896939 3991 fcb0ce464ac1b6519c9d19705ddf7420 ""
+  "Na(BArF24).toc" 1761896948 433 1e6fdc9bf3d67e251a20207b0b4dab33 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1761896939 3991 fcb0ce464ac1b6519c9d19705ddf7420 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""

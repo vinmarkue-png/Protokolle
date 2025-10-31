@@ -80,6 +80,51 @@
       \field{pages}{982\bibrangedash 983}
       \range{pages}{2}
     \endentry
+    \entry{Kat}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=55009b2d4b34796c2cffcd2e872b98ba}{%
+           family={Kooti},
+           familyi={K\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+        {{hash=3cacd9c5893fc9b9a6e911e630500e45}{%
+           family={Afshari},
+           familyi={A\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{fullhash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{fullhashraw}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{bibnamehash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{authorbibnamehash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{authornamehash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{authorfullhash}{8b1128af1a4bc72579678a51d76e54ed}
+      \strng{authorfullhashraw}{8b1128af1a4bc72579678a51d76e54ed}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Cobalt ferrite magnetic nanoparticles with mean sizes of 25 nm were used as a catalyst for the oxidation of various alkenes in the presence of tert- butylhydroperoxide (t-BuOOH). This study has demonstrated that CoFe2O4 nanoparticles can act as an efficient catalyst for the conversion of alkenes to the related aldehydes or epoxides, with almost quantitative yields. The catalyst can be readily isolated by using an external magnet and no obvious loss of activity was observed when the catalyst was reused in five consecutive runs. The effects of some parameters, such as temperature, types of oxidant and solvents, on the oxidation reactions were also investigated. The results showed that when CoFe2O4 is used with t-BuOOH as oxidant for the oxidation of some alkenes, better results are obtained compared to most of the studied similar ferrites.}
+      \field{issn}{1026-3098}
+      \field{journaltitle}{Scientia Iranica}
+      \field{number}{6}
+      \field{title}{Magnetic cobalt ferrite nanoparticles as an efficient catalyst for oxidation of alkenes}
+      \field{volume}{19}
+      \field{year}{2012}
+      \field{pages}{1991\bibrangedash 1995}
+      \range{pages}{5}
+      \verb{doi}
+      \verb https://doi.org/10.1016/j.scient.2012.05.005
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S1026309812001551
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S1026309812001551
+      \endverb
+      \keyw{Cobalt ferrite,Catalyst,Oxidation,Alkenes,Magnetic nanoparticles}
+    \endentry
     \entry{Müller}{book}{}{}
       \name{author}{1}{}{%
         {{hash=f18b816e55763faf4b1c483ca9e76231}{%

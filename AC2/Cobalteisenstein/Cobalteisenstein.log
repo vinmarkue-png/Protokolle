@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  31 OCT 2025 08:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  31 OCT 2025 08:49
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1217,7 +1217,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 130--137
 
  []
 
-<Bilder/Elementarzelle.png, id=46, 1882.03125pt x 1412.27625pt>
+<Bilder/Elementarzelle.png, id=47, 1882.03125pt x 1412.27625pt>
 File: Bilder/Elementarzelle.png Graphic file (type png)
 <use Bilder/Elementarzelle.png>
 Package pdftex.def Info: Bilder/Elementarzelle.png  used on input line 140.
@@ -1237,12 +1237,12 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.148 
        <./Bilder/Elementarzelle.png>]
-<Bilder/Tetraederlücke.png, id=63, 1882.03125pt x 1412.27625pt>
+<Bilder/Tetraederlücke.png, id=65, 1882.03125pt x 1412.27625pt>
 File: Bilder/Tetraederlücke.png Graphic file (type png)
 <use Bilder/Tetraederlücke.png>
 Package pdftex.def Info: Bilder/Tetraederlücke.png  used on input line 152.
 (pdftex.def)             Requested size: 188.21414pt x 141.2359pt.
-<Bilder/Oktaederlücke.png, id=66, 1882.03125pt x 1412.27625pt>
+<Bilder/Oktaederlücke.png, id=68, 1882.03125pt x 1412.27625pt>
 File: Bilder/Oktaederlücke.png Graphic file (type png)
 <use Bilder/Oktaederlücke.png>
 Package pdftex.def Info: Bilder/Oktaederlücke.png  used on input line 159.
@@ -1265,7 +1265,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.170 
        <./Bilder/Tetraederlücke.png> <./Bilder/Oktaederlücke.png>]
-<Bilder/RÖhre.jpg, id=79, 1264.725pt x 710.655pt>
+<Bilder/RÖhre.jpg, id=81, 1264.725pt x 710.655pt>
 File: Bilder/RÖhre.jpg Graphic file (type jpg)
 <use Bilder/RÖhre.jpg>
 Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 180.
@@ -1278,7 +1278,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has
                                                   \__shipout_drop_firstpage_...
 l.190 
        <./Bilder/RÖhre.jpg>]
-<Bilder/Bragg.png, id=93, 256.70906pt x 159.59625pt>
+<Bilder/Bragg.png, id=95, 256.70906pt x 159.59625pt>
 File: Bilder/Bragg.png Graphic file (type png)
 <use Bilder/Bragg.png>
 Package pdftex.def Info: Bilder/Bragg.png  used on input line 211.
@@ -1293,7 +1293,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.227 \newpage
                <./Bilder/Bragg.png>]
-<Bilder/messreihen.png, id=114, 722.7pt x 433.62pt>
+<Bilder/messreihen.png, id=116, 722.7pt x 433.62pt>
 File: Bilder/messreihen.png Graphic file (type png)
 <use Bilder/messreihen.png>
 Package pdftex.def Info: Bilder/messreihen.png  used on input line 235.
@@ -1322,18 +1322,18 @@ Package logreq Info: Writing requests to 'Cobalteisenstein.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41540 strings out of 467748
- 881233 string characters out of 5431137
- 1838589 words of memory out of 5000000
- 69665 multiletter control sequences out of 15000+600000
+ 41551 strings out of 467748
+ 881506 string characters out of 5431137
+ 1838633 words of memory out of 5000000
+ 69675 multiletter control sequences out of 15000+600000
  643876 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11305b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Cobalteisenstein.pdf (9 pages, 1421883 bytes).
+Output written on Cobalteisenstein.pdf (9 pages, 1422422 bytes).
 PDF statistics:
- 244 PDF objects out of 1000 (max. 8388607)
- 177 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
+ 247 PDF objects out of 1000 (max. 8388607)
+ 180 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
