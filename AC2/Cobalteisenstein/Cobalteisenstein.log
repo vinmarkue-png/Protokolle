@@ -1199,4 +1199,141 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 88.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to loa
+LaTeX Font Info:    Trying to load font information for U+msb on input line 88.
+ (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+
+[1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Cobalteisenstein.toc)
+\tf@toc=\write5
+\openout5 = `Cobalteisenstein.toc'.
+
+
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 130--137
+
+ []
+
+<Bilder/Elementarzelle.png, id=47, 1882.03125pt x 1412.27625pt>
+File: Bilder/Elementarzelle.png Graphic file (type png)
+<use Bilder/Elementarzelle.png>
+Package pdftex.def Info: Bilder/Elementarzelle.png  used on input line 140.
+(pdftex.def)             Requested size: 327.56168pt x 245.79442pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.148 
+       [1
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.148 
+       <./Bilder/Elementarzelle.png>]
+<Bilder/Tetraederlücke.png, id=65, 1882.03125pt x 1412.27625pt>
+File: Bilder/Tetraederlücke.png Graphic file (type png)
+<use Bilder/Tetraederlücke.png>
+Package pdftex.def Info: Bilder/Tetraederlücke.png  used on input line 152.
+(pdftex.def)             Requested size: 188.21414pt x 141.2359pt.
+<Bilder/Oktaederlücke.png, id=68, 1882.03125pt x 1412.27625pt>
+File: Bilder/Oktaederlücke.png Graphic file (type png)
+<use Bilder/Oktaederlücke.png>
+Package pdftex.def Info: Bilder/Oktaederlücke.png  used on input line 159.
+(pdftex.def)             Requested size: 282.29251pt x 211.83229pt.
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.170 
+       [2
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 
+      
+pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.170 
+       <./Bilder/Tetraederlücke.png> <./Bilder/Oktaederlücke.png>]
+<Bilder/RÖhre.jpg, id=82, 1264.725pt x 710.655pt>
+File: Bilder/RÖhre.jpg Graphic file (type jpg)
+<use Bilder/RÖhre.jpg>
+Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 180.
+(pdftex.def)             Requested size: 379.42043pt x 213.19814pt.
+
+
+[3
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.188 \newpage
+               <./Bilder/RÖhre.jpg>]
+<Bilder/Bragg.png, id=96, 256.70906pt x 159.59625pt>
+File: Bilder/Bragg.png Graphic file (type png)
+<use Bilder/Bragg.png>
+Package pdftex.def Info: Bilder/Bragg.png  used on input line 212.
+(pdftex.def)             Requested size: 243.87221pt x 151.61555pt.
+
+
+[4]
+
+[5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.228 \newpage
+               <./Bilder/Bragg.png>]
+<Bilder/messreihen.png, id=117, 722.7pt x 433.62pt>
+File: Bilder/messreihen.png Graphic file (type png)
+<use Bilder/messreihen.png>
+Package pdftex.def Info: Bilder/messreihen.png  used on input line 236.
+(pdftex.def)             Requested size: 469.74944pt x 281.84966pt.
+
+Overfull \hbox (33.00053pt too wide) in paragraph at lines 236--237
+ [][] 
+ []
+
+
+
+[6
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.251 
+       <./Bilder/messreihen.png>]
+
+[7] (./Cobalteisenstein.aux)
+ ***********
+LaTeX2e <2025-06-01> patch level 1
+L3 programming layer <2025-09-02>
+ ***********
+Package logreq Info: Writing requests to 'Cobalteisenstein.run.xml'.
+\openout1 = `Cobalteisenstein.run.xml'.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 41551 strings out of 467748
+ 881506 string characters out of 5431137
+ 1839633 words of memory out of 5000000
+ 69675 multiletter control sequences out of 15000+600000
+ 643876 words of font info for 73 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 108i,20n,107p,11305b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Cobalteisenstein.pdf (9 pages, 1422477 bytes).
+PDF statistics:
+ 248 PDF objects out of 1000 (max. 8388607)
+ 181 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 115 words of extra memory for PDF output out of 10000 (max. 10000000)
+
