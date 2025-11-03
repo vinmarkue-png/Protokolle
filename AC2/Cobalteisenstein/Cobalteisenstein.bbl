@@ -175,6 +175,44 @@
       \field{pages}{14\bibrangessep 22\bibrangedash 25}
       \range{pages}{5}
     \endentry
+    \entry{Atkins}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1a3d20037747a74f26783ac158aa22ea}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={P.W.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=44019a83ae2d97d9b6aab8c09f9b4fa3}{%
+           family={Paula},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=aa94fc4559ba6051f1d4331880cd6131}{%
+           family={Keeler},
+           familyi={K\bibinitperiod},
+           given={J.J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {6. Auflage, Wiley-VCH}%
+      }
+      \strng{namehash}{77ad0a34e515e97a78ae304a62bbc407}
+      \strng{fullhash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{fullhashraw}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{bibnamehash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authorbibnamehash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authornamehash}{77ad0a34e515e97a78ae304a62bbc407}
+      \strng{authorfullhash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authorfullhashraw}{bcded7baa9793d824aadeeffa4787dd7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physikalische Chemie}
+      \field{year}{2022}
+    \endentry
     \entry{FeDiff}{article}{}{}
       \name{author}{3}{}{%
         {{hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%
