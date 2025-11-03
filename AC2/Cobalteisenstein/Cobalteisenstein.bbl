@@ -47,7 +47,7 @@
       \field{pages}{109}
       \range{pages}{1}
     \endentry
-    \entry{Rieck}{book}{}{}
+    \entry{Rieck}{article}{}{}
       \name{author}{2}{}{%
         {{hash=f1f827155fec337f4a085dc4fec37531}{%
            family={Rieck},
@@ -61,7 +61,7 @@
            giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
       }
       \list{publisher}{1}{%
-        {B24, Technological University Eindhoven}%
+        {Technological University Eindhoven}%
       }
       \strng{namehash}{e2736639c40d8a587488457e585fa6a9}
       \strng{fullhash}{e2736639c40d8a587488457e585fa6a9}
@@ -74,8 +74,8 @@
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Acta Cryst.}
+      \field{journaltitle}{Acta Cryst.}
+      \field{volume}{B24}
       \field{year}{1968}
       \field{pages}{982\bibrangedash 983}
       \range{pages}{2}
@@ -105,8 +105,6 @@
       \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Cobalt ferrite magnetic nanoparticles with mean sizes of 25 nm were used as a catalyst for the oxidation of various alkenes in the presence of tert- butylhydroperoxide (t-BuOOH). This study has demonstrated that CoFe2O4 nanoparticles can act as an efficient catalyst for the conversion of alkenes to the related aldehydes or epoxides, with almost quantitative yields. The catalyst can be readily isolated by using an external magnet and no obvious loss of activity was observed when the catalyst was reused in five consecutive runs. The effects of some parameters, such as temperature, types of oxidant and solvents, on the oxidation reactions were also investigated. The results showed that when CoFe2O4 is used with t-BuOOH as oxidant for the oxidation of some alkenes, better results are obtained compared to most of the studied similar ferrites.}
-      \field{issn}{1026-3098}
       \field{journaltitle}{Scientia Iranica}
       \field{number}{6}
       \field{title}{Magnetic cobalt ferrite nanoparticles as an efficient catalyst for oxidation of alkenes}
@@ -114,16 +112,6 @@
       \field{year}{2012}
       \field{pages}{1991\bibrangedash 1995}
       \range{pages}{5}
-      \verb{doi}
-      \verb https://doi.org/10.1016/j.scient.2012.05.005
-      \endverb
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S1026309812001551
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S1026309812001551
-      \endverb
-      \keyw{Cobalt ferrite,Catalyst,Oxidation,Alkenes,Magnetic nanoparticles}
     \endentry
     \entry{Müller}{book}{}{}
       \name{author}{1}{}{%
@@ -153,6 +141,8 @@
       \field{labeltitlesource}{title}
       \field{title}{Anorganische Strukturchemie}
       \field{year}{2008}
+      \field{pages}{341\bibrangedash 344}
+      \range{pages}{4}
     \endentry
     \entry{Kristallgitter}{book}{}{}
       \name{author}{1}{}{%
@@ -185,7 +175,45 @@
       \field{pages}{14\bibrangessep 22\bibrangedash 25}
       \range{pages}{5}
     \endentry
-    \entry{FeDiff}{book}{}{}
+    \entry{Atkins}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=1a3d20037747a74f26783ac158aa22ea}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={P.W.},
+           giveni={P\bibinitperiod}}}%
+        {{hash=44019a83ae2d97d9b6aab8c09f9b4fa3}{%
+           family={Paula},
+           familyi={P\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod},
+           prefix={de},
+           prefixi={d\bibinitperiod}}}%
+        {{hash=aa94fc4559ba6051f1d4331880cd6131}{%
+           family={Keeler},
+           familyi={K\bibinitperiod},
+           given={J.J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {6. Auflage, Wiley-VCH}%
+      }
+      \strng{namehash}{77ad0a34e515e97a78ae304a62bbc407}
+      \strng{fullhash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{fullhashraw}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{bibnamehash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authorbibnamehash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authornamehash}{77ad0a34e515e97a78ae304a62bbc407}
+      \strng{authorfullhash}{bcded7baa9793d824aadeeffa4787dd7}
+      \strng{authorfullhashraw}{bcded7baa9793d824aadeeffa4787dd7}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Physikalische Chemie}
+      \field{year}{2022}
+    \endentry
+    \entry{FeDiff}{article}{}{}
       \name{author}{3}{}{%
         {{hash=8f5a68e20ba4ffc7ea8096fd3f641e0a}{%
            family={Maslen},
@@ -203,9 +231,6 @@
            given={N.\bibnamedelimi R.},
            giveni={N\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
       }
-      \list{publisher}{1}{%
-        {Acta Cryst., B50}%
-      }
       \strng{namehash}{448c4a9cb0a6b88655622988b502609c}
       \strng{fullhash}{1ad1c6f4b983dda0d0e28d643f1ba39a}
       \strng{fullhashraw}{1ad1c6f4b983dda0d0e28d643f1ba39a}
@@ -218,7 +243,9 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{Synchrotron X-ray Study of the Electron Density in $\alpha$-Fe2O3}
+      \field{journaltitle}{Acta Cryst.}
+      \field{title}{Synchrotron X-ray Study of the Electron Density in $\alpha$-$Fe_2O_3$}
+      \field{volume}{B50}
       \field{year}{1994}
       \field{pages}{435\bibrangedash 441}
       \range{pages}{7}
