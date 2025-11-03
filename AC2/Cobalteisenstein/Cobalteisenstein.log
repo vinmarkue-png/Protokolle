@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  3 NOV 2025 11:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  3 NOV 2025 20:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Cobalteisenstein/Cobalteisenstein.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1272,45 +1272,43 @@ Package pdftex.def Info: Bilder/RÖhre.jpg  used on input line 183.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.191 \newpage
-               <./Bilder/RÖhre.jpg>]
-
-[4]
-<Bilder/Bragg.png, id=101, 256.70906pt x 159.59625pt>
+l.193 
+       <./Bilder/RÖhre.jpg>]
+<Bilder/Bragg.png, id=97, 256.70906pt x 159.59625pt>
 File: Bilder/Bragg.png Graphic file (type png)
 <use Bilder/Bragg.png>
-Package pdftex.def Info: Bilder/Bragg.png  used on input line 221.
+Package pdftex.def Info: Bilder/Bragg.png  used on input line 220.
 (pdftex.def)             Requested size: 243.87221pt x 151.61555pt.
 
 
-[5]
+[4]
 
-[6
+[5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.237 \newpage
+l.236 \newpage
                <./Bilder/Bragg.png>]
-<Bilder/messreihen.png, id=123, 722.7pt x 433.62pt>
+<Bilder/messreihen.png, id=119, 722.7pt x 433.62pt>
 File: Bilder/messreihen.png Graphic file (type png)
 <use Bilder/messreihen.png>
-Package pdftex.def Info: Bilder/messreihen.png  used on input line 245.
+Package pdftex.def Info: Bilder/messreihen.png  used on input line 244.
 (pdftex.def)             Requested size: 469.74944pt x 281.84966pt.
 
-Overfull \hbox (33.00053pt too wide) in paragraph at lines 245--246
+Overfull \hbox (33.00053pt too wide) in paragraph at lines 244--245
  [][] 
  []
 
 
 
-[7
+[6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.259 
+l.258 
        <./Bilder/messreihen.png>]
 
-[8] (./Cobalteisenstein.aux)
+[7] (./Cobalteisenstein.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1320,18 +1318,18 @@ Package logreq Info: Writing requests to 'Cobalteisenstein.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41539 strings out of 467748
- 881231 string characters out of 5431137
- 1839790 words of memory out of 5000000
+ 41538 strings out of 467748
+ 881282 string characters out of 5431137
+ 1840788 words of memory out of 5000000
  69662 multiletter control sequences out of 15000+600000
  643876 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,107p,11286b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,11305b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Cobalteisenstein.pdf (10 pages, 1422134 bytes).
+Output written on Cobalteisenstein.pdf (9 pages, 1421283 bytes).
 PDF statistics:
- 254 PDF objects out of 1000 (max. 8388607)
- 186 compressed objects within 2 object streams
- 32 named destinations out of 1000 (max. 500000)
+ 250 PDF objects out of 1000 (max. 8388607)
+ 183 compressed objects within 2 object streams
+ 31 named destinations out of 1000 (max. 500000)
  115 words of extra memory for PDF output out of 10000 (max. 10000000)
 
