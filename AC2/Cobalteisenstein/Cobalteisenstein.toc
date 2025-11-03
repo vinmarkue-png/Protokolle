@@ -3,9 +3,9 @@
 \contentsline {section}{\numberline {2}Struktur}{1}{section.2}%
 \contentsline {section}{\numberline {3}Charakterisierungsmethoden}{3}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Erzeugung von Röntgenstrahlung}{3}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.2}Röntgenbeugung}{4}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Durchführung}{5}{section.4}%
-\contentsline {section}{\numberline {5}Ergebnisse}{6}{section.5}%
-\contentsline {section}{\numberline {6}Zusammenfassung}{7}{section.6}%
-\contentsline {section}{\numberline {7}Literatur}{7}{section.7}%
+\contentsline {subsection}{\numberline {3.2}Röntgenbeugung}{5}{subsection.3.2}%
+\contentsline {section}{\numberline {4}Durchführung}{6}{section.4}%
+\contentsline {section}{\numberline {5}Ergebnisse}{7}{section.5}%
+\contentsline {section}{\numberline {6}Zusammenfassung}{8}{section.6}%
+\contentsline {section}{\numberline {7}Literatur}{8}{section.7}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
