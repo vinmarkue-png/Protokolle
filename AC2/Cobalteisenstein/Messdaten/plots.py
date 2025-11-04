@@ -112,7 +112,7 @@ def load_and_plot_data():
         plt.xlabel(f'{X_COL} / °')
         plt.ylabel(Y_COL)
         
-        plt.legend(loc='upper right')
+        
         
         
         # Setze die X-Achse auf den numerischen Bereich der Daten (optional)
