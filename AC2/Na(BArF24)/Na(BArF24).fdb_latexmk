@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1762425537.44163 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762425718.1507 0
-  "Na(BArF24).bcf" 1762425717 108498 abb67269ddc4b98ff292f6a79f8791f8 "pdflatex"
-  "lit.bib" 1762423382 1671 6a9f178950ff9a88221ee11e78429d4f ""
+["biber Na(BArF24)"] 1762457819.10547 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762458422.55684 0
+  "Na(BArF24).bcf" 1762458422 108622 40633d7332cc7bbef7d1f6f0df850a1b "pdflatex"
+  "lit.bib" 1762457834 2477 d69b18f5c60d34ef7ffc85c75e309e3b ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1762425713.87433 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762425718.15172 0
-  "Bilder/NaBArF Rgl.png" 1762425398 52208 692fad17ef1af2512db6a92f1bd1e5e1 ""
-  "Na(BArF24).aux" 1762425717 3652 63d6c83078415db97ad375ef280e1200 "pdflatex"
-  "Na(BArF24).bbl" 1762425540 6210 4b5aea2376d69664eb1e380f0ea06114 "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1762425717 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1762425712 6000 46dd0065746ad2937ae6c0a8f4dea8db ""
-  "Na(BArF24).toc" 1762425717 575 bbf682af43b324eef8b57ef524034970 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762425712 6000 46dd0065746ad2937ae6c0a8f4dea8db ""
+["pdflatex"] 1762458419.25126 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762458422.55762 0
+  "Bilder/NaBArF Rgl.png" 1762458403 66902 df1b07585ca73261fae43b7d25bcb61b ""
+  "Na(BArF24).aux" 1762458422 3841 5663d0bb8904665872627e08bb5be690 "pdflatex"
+  "Na(BArF24).bbl" 1762457821 8009 ee9a2dce816a792990adf8d19daeeb6f "biber Na(BArF24)"
+  "Na(BArF24).run.xml" 1762458422 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1762458418 6941 2ae22d24408b9b632a1fd177a29b48a6 ""
+  "Na(BArF24).toc" 1762458422 575 bbf682af43b324eef8b57ef524034970 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762458418 6941 2ae22d24408b9b632a1fd177a29b48a6 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""

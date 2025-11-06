@@ -411,6 +411,8 @@ INPUT ./Na(BArF24).toc
 INPUT Na(BArF24).toc
 OUTPUT Na(BArF24).toc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./Bilder/NaBArF Rgl.png
 INPUT ./Bilder/NaBArF Rgl.png
 INPUT ./Bilder/NaBArF Rgl.png
@@ -418,8 +420,6 @@ INPUT ./Bilder/NaBArF Rgl.png
 INPUT ./Bilder/NaBArF Rgl.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc

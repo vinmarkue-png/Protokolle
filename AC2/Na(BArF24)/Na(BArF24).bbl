@@ -52,6 +52,48 @@
       \field{pages}{2066\bibrangedash 2090}
       \range{pages}{25}
     \endentry
+    \entry{Gefahr}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eb8041e6ff87d66a5b60f7b50c4541ef}{%
+           family={Leazer},
+           familyi={L\bibinitperiod},
+           given={Johnnie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a558c1f04ecf1a631d9765e1db218ea2}{%
+           family={Cvetovich},
+           familyi={C\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{fullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{fullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{bibnamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorbibnamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authornamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorfullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorfullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Organic Chemistry}
+      \field{number}{9}
+      \field{title}{An Improved Preparation of 3,5-Bis(trifluoromethyl)acetophenone and Safety Considerations in the Preparation of 3,5-Bis(trifluoromethyl)phenyl Grignard Reagent}
+      \field{volume}{68}
+      \field{year}{2003}
+      \field{pages}{3695\bibrangedash 3698}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1021/jo026903n
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jo026903n
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jo026903n
+      \endverb
+    \endentry
     \entry{Synthese}{article}{}{}
       \name{author}{2}{}{%
         {{hash=3fbed3546dfca62c75f9eba2907dfef6}{%
@@ -73,8 +115,8 @@
       \strng{authornamehash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhashraw}{aba7905915460e197e1b38e7c9017153}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Organometallics}
@@ -121,8 +163,8 @@
       \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{sortinit}{5}
-      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}

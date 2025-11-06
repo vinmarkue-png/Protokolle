@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  6 NOV 2025 11:41
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  6 NOV 2025 20:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,29 +1213,33 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<Bilder/NaBArF Rgl.png, id=39, 1151.80313pt x 324.46219pt>
+Overfull \hbox (2.11798pt too wide) in paragraph at lines 129--135
+\T1/cmr/m/n/12 benzols aus-ge-tauscht, wo-durch das sta-bi-le-re Gri-gnard Rea-genz ge-bil-det wird. Durch
+ []
+
+<Bilder/NaBArF Rgl.png, id=42, 1151.80313pt x 324.46219pt>
 File: Bilder/NaBArF Rgl.png Graphic file (type png)
 <use Bilder/NaBArF Rgl.png>
-Package pdftex.def Info: Bilder/NaBArF Rgl.png  used on input line 133.
+Package pdftex.def Info: Bilder/NaBArF Rgl.png  used on input line 138.
 (pdftex.def)             Requested size: 414.64882pt x 116.80629pt.
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 134.
+(scrartcl)           \newlinein caption text  on input line 139.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 \newpage
+l.156 \newpage
                [1
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.151 \newpage
+l.156 \newpage
                <./Bilder/NaBArF Rgl.png>]
-Overfull \hbox (0.4273pt too wide) in paragraph at lines 154--165
+Overfull \hbox (0.4273pt too wide) in paragraph at lines 159--170
 \T1/cmr/m/n/12 Die Syn-the-se von Na-tri-um Tetrakis[3,5-bis(trifluormethyl)phenyl]borat wur-de nach
  []
 
@@ -1245,7 +1249,7 @@ Overfull \hbox (0.4273pt too wide) in paragraph at lines 154--165
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.172 \end{document}
+l.180 \end{document}
                      [2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] (./Na(BArF24).aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1256,18 +1260,18 @@ Package logreq Info: Writing requests to 'Na(BArF24).run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41471 strings out of 467748
- 879483 string characters out of 5431137
- 1836996 words of memory out of 5000000
- 69609 multiletter control sequences out of 15000+600000
+ 41475 strings out of 467748
+ 879619 string characters out of 5431137
+ 1837048 words of memory out of 5000000
+ 69612 multiletter control sequences out of 15000+600000
  644213 words of font info for 74 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,11293b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Na(BArF24).pdf (4 pages, 286800 bytes).
+Output written on Na(BArF24).pdf (4 pages, 299841 bytes).
 PDF statistics:
- 159 PDF objects out of 1000 (max. 8388607)
- 117 compressed objects within 2 object streams
- 15 named destinations out of 1000 (max. 500000)
+ 163 PDF objects out of 1000 (max. 8388607)
+ 121 compressed objects within 2 object streams
+ 16 named destinations out of 1000 (max. 500000)
  74 words of extra memory for PDF output out of 10000 (max. 10000000)
 
