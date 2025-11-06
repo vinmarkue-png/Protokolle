@@ -1,18 +1,19 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1762423408.56273 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762423423.47488 0
-  "Na(BArF24).bcf" 1762423423 108372 b71f7254c3f17c5d0766d1460d949d80 "pdflatex"
+["biber Na(BArF24)"] 1762425537.44163 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762425634.17063 0
+  "Na(BArF24).bcf" 1762425633 108498 abb67269ddc4b98ff292f6a79f8791f8 "pdflatex"
   "lit.bib" 1762423382 1671 6a9f178950ff9a88221ee11e78429d4f ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1762423419.44563 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762423423.47598 0
-  "Na(BArF24).aux" 1762423423 2784 0f92d9f2eaa6be770f99ee795ffbe93a "pdflatex"
-  "Na(BArF24).bbl" 1762423411 6210 e0fab609a7306eb8e74a09db48b17908 "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1762423423 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1762423403 5722 f495e2279afeaab6cab05cb2e3301cd3 ""
-  "Na(BArF24).toc" 1762423423 498 dcf1ec9808c7004cd448dcc64c5897e7 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762423403 5722 f495e2279afeaab6cab05cb2e3301cd3 ""
+["pdflatex"] 1762425630.02957 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762425634.17188 0
+  "Bilder/NaBArF Rgl.png" 1762425398 52208 692fad17ef1af2512db6a92f1bd1e5e1 ""
+  "Na(BArF24).aux" 1762425633 3652 63d6c83078415db97ad375ef280e1200 "pdflatex"
+  "Na(BArF24).bbl" 1762425540 6210 4b5aea2376d69664eb1e380f0ea06114 "biber Na(BArF24)"
+  "Na(BArF24).run.xml" 1762425633 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1762425624 5997 c5cb5ce447b45ae1efc1ba65b26663f2 ""
+  "Na(BArF24).toc" 1762425633 575 bbf682af43b324eef8b57ef524034970 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762425624 5997 c5cb5ce447b45ae1efc1ba65b26663f2 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -28,6 +29,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm" 1761073056 3584 36dd7d4b521e95b0a47034c0d524f2c5 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm" 1761073056 3584 db562fb1d1c474cc55f0ce8a1dd94fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1761073056 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1761073056 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1761073056 3584 a5b048a4e362640a1d2d34e624589d34 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1761073056 3072 8b5a64dc91775463bc95e2d818524028 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1761073056 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
@@ -59,6 +61,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1761072433 131438 c8884c67ccd7382f731c139fbb34a6cb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb" 1761072433 150680 200f05869e9022d53b4b32fa48743f62 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1761072433 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1761072433 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1761072433 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb" 1761072433 198221 29e050730bc4b56b13a53cd149c0a42c ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1761076938 71627 94eb9990bed73c364d7f53f960cc8c5b ""
