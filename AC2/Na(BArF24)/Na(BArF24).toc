@@ -1,9 +1,9 @@
 \babel@toc {ngerman}{}\relax 
 \contentsline {section}{\numberline {1}Einleitung}{1}{section.1}%
 \contentsline {subsection}{\numberline {1.1}Syntheseweg}{1}{subsection.1.1}%
-\contentsline {section}{\numberline {2}Ergebnisse}{1}{section.2}%
-\contentsline {section}{\numberline {3}Diskussion}{1}{section.3}%
-\contentsline {section}{\numberline {4}Durchführung}{2}{section.4}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{2}{section.5}%
-\contentsline {section}{\numberline {6}Literatur}{2}{section.6}%
+\contentsline {section}{\numberline {2}Ergebnisse}{2}{section.2}%
+\contentsline {section}{\numberline {3}Diskussion}{2}{section.3}%
+\contentsline {section}{\numberline {4}Durchführung}{3}{section.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{3}{section.5}%
+\contentsline {section}{\numberline {6}Literatur}{3}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

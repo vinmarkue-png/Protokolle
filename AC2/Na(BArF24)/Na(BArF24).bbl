@@ -19,6 +19,48 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
+    \entry{Einleitung}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=71818f7ae23f9b0666bf843a47ad9d9b}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c8f3b2e9bd0d564808c7bf204fbd7c56}{%
+           family={Suenkel},
+           familyi={S\bibinitperiod},
+           given={Karlheinz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{fullhash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{fullhashraw}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{bibnamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorbibnamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authornamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorfullhash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorfullhashraw}{9a191fe786d665b03f6eae69cff118c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{7}
+      \field{title}{Metal complexes of weakly coordinating anions. Precursors of strong cationic organometallic Lewis acids}
+      \field{volume}{88}
+      \field{year}{1988}
+      \field{pages}{1405\bibrangedash 1421}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1021/cr00089a017
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/cr00089a017
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/cr00089a017
+      \endverb
+    \endentry
     \entry{WCA}{article}{}{}
       \name{author}{2}{}{%
         {{hash=cf3f843840918101bc92c779e8969fc2}{%
@@ -40,8 +82,8 @@
       \strng{authornamehash}{17d932310bc833517d218acd6415eee7}
       \strng{authorfullhash}{17d932310bc833517d218acd6415eee7}
       \strng{authorfullhashraw}{17d932310bc833517d218acd6415eee7}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Angewandte Chemie}
@@ -73,8 +115,8 @@
       \strng{authornamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
       \strng{authorfullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
       \strng{authorfullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{The Journal of Organic Chemistry}
@@ -115,8 +157,8 @@
       \strng{authornamehash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhashraw}{aba7905915460e197e1b38e7c9017153}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Organometallics}
@@ -163,8 +205,8 @@
       \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}
