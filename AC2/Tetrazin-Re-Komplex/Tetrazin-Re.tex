@@ -1,0 +1,157 @@
+\documentclass[a4paper,12pt,bibliography=totocnumbered]{scrartcl}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} 
+\usepackage{amsmath, amssymb,amsfonts}
+\usepackage{csquotes}
+\usepackage{graphicx}
+\usepackage[bookmarks,colorlinks=true]{hyperref}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage[final]{pdfpages}
+\usepackage{framed, color} 
+\usepackage{scrlayer-scrpage}
+\usepackage{siunitx}
+\usepackage{subfigure}
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+\DeclareSIUnit\curie{Ci}
+\usepackage[backend=biber, style=chem-angew]{biblatex} 
+\addbibresource{lit.bib} 
+
+\usepackage{chemgreek}
+\usepackage{chemformula}
+\usepackage{chemscheme}
+
+\urlstyle{same}
+%Hyperlinks-Setup
+\hypersetup{
+	colorlinks,
+	linktocpage,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+%\numberwithin{equation}{section}
+
+\setlength{\parindent}{0 mm}
+\setlength{\parskip}{2 mm} 
+
+
+
+\pagestyle{scrheadings}
+\ohead{\empty} %Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
+\ihead{\VerfasserEINS\;\&\;\VerfasserZWEI} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
+\ofoot{\thepage} %Footer unten links auf linker und unten rechts auf rechter Seite, enthÃ¤lt die jeweilige Seitenzahl. Im Fall eines einseitigen Elements: Footer unten rechts!
+\cfoot{\empty} %Mittig unten im Footer soll nichts eingetragen werden 
+\ifoot{\empty} %Footer unten rechts auf linker und unten links auf rechter Seite. Hier ebenfalls leer.
+
+
+\newcommand{\VERSUCHSDATUM}{29.10.2025 - .11.2025}
+\newcommand{\PROTOKOLLDATUM}{\today}
+
+\newcommand{\VerfasserEINS}{Vincent Kümmerle}
+\newcommand{\MatNoEINS}{3712667}
+\newcommand{\EmailEINS}{st187541@stud.uni-stuttgart.de}
+\newcommand{\StudiengangEINS}{B.Sc. Chemie}
+
+\newcommand{\VerfasserZWEI}{Elvis Gnaglo}
+\newcommand{\MatNoZWEI}{3710504}
+\newcommand{\EmailZWEI}{st189318@stud.uni-stuttgart.de}
+\newcommand{\StudiengangZWEI}{B.Sc. Chemie}
+
+\newcommand{\BETREUER}{Manuel Pech}
+\newcommand{\GRUPPENNR}{A05}
+
+\newcommand{\VERSUCHSNR}{Komplex Präparat}
+\newcommand{\VERSUCHSNAME}{Synthese von \ch{[Re(MeCN)2(CO)3Cl(N2Tz)]}}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+
+\begin{titlepage}
+
+\begin{center}
+\Huge{\textbf{\VERSUCHSNR\ - \\ \VERSUCHSNAME}}\\
+\vspace{10mm}% Abstand
+\Large{Protokoll zum Versuch des AC2 Praktikums von \\ \textbf{\VerfasserEINS\;\& \VerfasserZWEI}}\\
+\vspace{10mm} 
+\Large{Universität Stuttgart}\\
+\end{center}
+\vspace{1cm}
+\begin{center}
+\begin{tabular}{ll}
+\large{Verfasser:}		& \large{\VerfasserEINS,} \large{\MatNoEINS} \\
+ 						& \large{\EmailEINS} \\
+ 						\vspace{0cm}\\
+						& \large{\VerfasserZWEI,} \large{\MatNoZWEI} \\
+                        & \large{\EmailZWEI} \\
+						\vspace{0cm}\\
+\large{Gruppennummer:}	& \large{\GRUPPENNR} \\
+\vspace{0cm}\\
+\large{Versuchszeitraum:}	& \large{\VERSUCHSDATUM} \\
+\vspace{0cm}\\
+\large{Betreuer:}		& \large{\BETREUER} \\
+\vspace{0cm}\\
+\large{Abgabenummer:} & \large{1. Abgabe}
+\end{tabular}
+\end{center}
+\vspace{15mm}
+
+\begin{center}
+Stuttgart, den \PROTOKOLLDATUM
+\end{center}
+
+\end{titlepage}
+
+
+\thispagestyle{empty}
+
+\tableofcontents 
+
+\clearpage
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+\section{Einleitung}
+
+\cite{Dissertation}.
+
+\subsection{Syntheseweg}
+Die erste Stufe der Synthese von \ch{[Re(MeCN)2(CO)3Cl(N2Tz)]} wurde nach der modifizierten Pinner Synthese durchgeführt. \cite{Pinner}
+
+\section{Ergebnisse}
+
+%\begin{figure}[H]
+ %   \centering
+  %  \includegraphics[scale=0.95]{.png}
+   % \caption{.}
+    %\label{fig: NMR}
+%\end{figure}
+
+\section{Diskussion}
+
+
+
+\newpage
+
+\section{Durchführung}
+Die Synthese von  wurde nach dem Syntheseweg von Schnierle et al. durchgeführt. \cite{Synthese}.
+In einem 1l Dreihalskolben wurde 
+
+\section{Zusammenfassung}
+
+
+
+%Fehlerquellen: Waschen mit THF statt DCM, 
+
+\printbibliography[title={Literatur}]
+
+
+\end{document}

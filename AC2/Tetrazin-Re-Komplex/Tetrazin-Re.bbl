@@ -1,0 +1,150 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Dissertation}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=7a2790c9c2f8ce31a4b4d0c218127771}{%
+           family={Löw},
+           familyi={L\bibinitperiod},
+           given={Isabell},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Stuttgart}%
+      }
+      \strng{namehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{fullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{fullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{bibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorbibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authornamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorfullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorfullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Untersuchungen der spektroskopischen, elektrochemischen und strukturellen Eigenschaften von Übergangsmetallkomplexen mit stickstoffreichen Liganden}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+      \field{pages}{18\bibrangedash 20\bibrangessep 33\bibrangedash 34\bibrangessep 148}
+      \range{pages}{6}
+    \endentry
+    \entry{Pinner}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a99e5cd71ae0c1dbb51338e7269097a7}{%
+           family={Górecki},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ebcf4eb275c3dba7f976568dc723abca}{%
+           family={Kudelko},
+           familyi={K\bibinitperiod},
+           given={Agnieszka},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{fullhash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{fullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{bibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorbibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authornamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorfullhash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorfullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nitrogen-rich heterocycles constitute a family of high energy density materials (HEDMs) that have been developing intensively in recent years. A representative of this class is 1,2,4,5-tetrazine, a six-membered aromatic compound containing four nitrogen atoms in the ring. Many energetic compounds with this scaffold exhibit thermal stability, high density, and insensitivity to various stimuli, including friction, impact, and electrostatic discharge. This review presents methods for constructing 1,2,4,5-tetrazine precursors from acyclic reagents and describes their chemical modifications, leading to new energetic compounds with potential applications in the industry as explosives, propellants, or pyrotechnics. Synthetic procedures and reaction conditions are discussed, along with the detonation parameters of new nitrogen-rich tetrazine-based products, which allow estimation of their application potential.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{2}
+      \field{title}{Synthesis and Characteristics of 1,2,4,5-Tetrazines for Using as High Energy Density Materials (HEDMs)}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{7\bibrangedash 8}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/15/2/821
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/15/2/821
+      \endverb
+    \endentry
+    \entry{Synthese}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=37b25372cf519083d490ad053ac8c2f1}{%
+           family={Schnierle},
+           familyi={S\bibinitperiod},
+           given={Marc},
+           giveni={M\bibinitperiod}}}%
+        {{hash=1dce34bc5672f5f65d194d53a9c705d5}{%
+           family={Blickle},
+           familyi={B\bibinitperiod},
+           given={Svenja},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ccbde5b4608ddf1ca2669a4c812feecb}{%
+           family={Filippou},
+           familyi={F\bibinitperiod},
+           given={Vasileios},
+           giveni={V\bibinitperiod}}}%
+        {{hash=a0857802585ca34f28d2d74a6be9863d}{%
+           family={Ringenberg},
+           familyi={R\bibinitperiod},
+           given={Mark\bibnamedelima R.},
+           giveni={M\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{073ccb2f55587a668a4848136ab50487}
+      \strng{fullhash}{6c7fc6059e399537e293e0238fba2498}
+      \strng{fullhashraw}{6c7fc6059e399537e293e0238fba2498}
+      \strng{bibnamehash}{6c7fc6059e399537e293e0238fba2498}
+      \strng{authorbibnamehash}{6c7fc6059e399537e293e0238fba2498}
+      \strng{authornamehash}{073ccb2f55587a668a4848136ab50487}
+      \strng{authorfullhash}{6c7fc6059e399537e293e0238fba2498}
+      \strng{authorfullhashraw}{6c7fc6059e399537e293e0238fba2498}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{80}
+      \field{journaltitle}{Chem. Commun.}
+      \field{title}{Tetrazine metallation boosts rate and regioselectivity of inverse electron demand Diels–Alder (iEDDA) addition of dienophiles}
+      \field{volume}{56}
+      \field{year}{2020}
+      \field{pages}{12033\bibrangedash 12036}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/D0CC03805A
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/D0CC03805A
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/D0CC03805A
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
