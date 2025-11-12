@@ -1,0 +1,233 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Einleitung}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=71818f7ae23f9b0666bf843a47ad9d9b}{%
+           family={Beck},
+           familyi={B\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+        {{hash=c8f3b2e9bd0d564808c7bf204fbd7c56}{%
+           family={Suenkel},
+           familyi={S\bibinitperiod},
+           given={Karlheinz},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{fullhash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{fullhashraw}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{bibnamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorbibnamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authornamehash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorfullhash}{9a191fe786d665b03f6eae69cff118c2}
+      \strng{authorfullhashraw}{9a191fe786d665b03f6eae69cff118c2}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Chemical Reviews}
+      \field{number}{7}
+      \field{title}{Metal complexes of weakly coordinating anions. Precursors of strong cationic organometallic Lewis acids}
+      \field{volume}{88}
+      \field{year}{1988}
+      \field{pages}{1405\bibrangedash 1421}
+      \range{pages}{17}
+      \verb{doi}
+      \verb 10.1021/cr00089a017
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/cr00089a017
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/cr00089a017
+      \endverb
+    \endentry
+    \entry{WCA}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=cf3f843840918101bc92c779e8969fc2}{%
+           family={Krossing},
+           familyi={K\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod}}}%
+        {{hash=97f545e70b097df1651c1f1a5f38c186}{%
+           family={Raabe},
+           familyi={R\bibinitperiod},
+           given={Ines},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{17d932310bc833517d218acd6415eee7}
+      \strng{fullhash}{17d932310bc833517d218acd6415eee7}
+      \strng{fullhashraw}{17d932310bc833517d218acd6415eee7}
+      \strng{bibnamehash}{17d932310bc833517d218acd6415eee7}
+      \strng{authorbibnamehash}{17d932310bc833517d218acd6415eee7}
+      \strng{authornamehash}{17d932310bc833517d218acd6415eee7}
+      \strng{authorfullhash}{17d932310bc833517d218acd6415eee7}
+      \strng{authorfullhashraw}{17d932310bc833517d218acd6415eee7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Angewandte Chemie}
+      \field{number}{16}
+      \field{title}{Noncoordinating anions--fact or fiction? A survey of likely candidates.}
+      \field{volume}{43}
+      \field{year}{2004}
+      \field{pages}{2066\bibrangedash 2090}
+      \range{pages}{25}
+    \endentry
+    \entry{Gefahr}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=eb8041e6ff87d66a5b60f7b50c4541ef}{%
+           family={Leazer},
+           familyi={L\bibinitperiod},
+           given={Johnnie\bibnamedelima L.},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=a558c1f04ecf1a631d9765e1db218ea2}{%
+           family={Cvetovich},
+           familyi={C\bibinitperiod},
+           given={Raymond},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{fullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{fullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{bibnamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorbibnamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authornamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorfullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \strng{authorfullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{The Journal of Organic Chemistry}
+      \field{number}{9}
+      \field{title}{An Improved Preparation of 3,5-Bis(trifluoromethyl)acetophenone and Safety Considerations in the Preparation of 3,5-Bis(trifluoromethyl)phenyl Grignard Reagent}
+      \field{volume}{68}
+      \field{year}{2003}
+      \field{pages}{3695\bibrangedash 3698}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1021/jo026903n
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/jo026903n
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/jo026903n
+      \endverb
+    \endentry
+    \entry{Synthese}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=3fbed3546dfca62c75f9eba2907dfef6}{%
+           family={Yakelis},
+           familyi={Y\bibinitperiod},
+           given={Neal\bibnamedelima A.},
+           giveni={N\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=3b3c87a21e4ea5c597aa479656408912}{%
+           family={Bergman},
+           familyi={B\bibinitperiod},
+           given={Robert\bibnamedelima G.},
+           giveni={R\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{aba7905915460e197e1b38e7c9017153}
+      \strng{fullhash}{aba7905915460e197e1b38e7c9017153}
+      \strng{fullhashraw}{aba7905915460e197e1b38e7c9017153}
+      \strng{bibnamehash}{aba7905915460e197e1b38e7c9017153}
+      \strng{authorbibnamehash}{aba7905915460e197e1b38e7c9017153}
+      \strng{authornamehash}{aba7905915460e197e1b38e7c9017153}
+      \strng{authorfullhash}{aba7905915460e197e1b38e7c9017153}
+      \strng{authorfullhashraw}{aba7905915460e197e1b38e7c9017153}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Organometallics}
+      \field{number}{14}
+      \field{title}{Safe Preparation and Purification of Sodium Tetrakis[(3,5-trifluoromethyl)phenyl]borate (NaBArF24):  Reliable and Sensitive Analysis of Water in Solutions of Fluorinated Tetraarylborates}
+      \field{volume}{24}
+      \field{year}{2005}
+      \field{pages}{3579\bibrangedash 3581}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1021/om0501428
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1021/om0501428
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1021/om0501428
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1021/om0501428
+      \endverb
+    \endentry
+    \entry{Aufarbeitung}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=152db834275f745348944d39ec8997da}{%
+           family={Martínez-Martínez},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Antonio\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=722b7f483aeda438d20d219a682dc7c2}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{fullhash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{fullhashraw}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{bibnamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorbibnamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
+      \field{sortinit}{8}
+      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}
+      \field{issue}{11}
+      \field{journaltitle}{Dalton Trans.}
+      \field{title}{Solvent-free anhydrous Li+{,} Na+ and K+ salts of [B(3{,}5-(CF3)2C6H3)4]−{,} [BArF4]−. Improved synthesis and solid-state structures}
+      \field{volume}{48}
+      \field{year}{2019}
+      \field{pages}{3551\bibrangedash 3554}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/C9DT00235A
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C9DT00235A
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C9DT00235A
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
