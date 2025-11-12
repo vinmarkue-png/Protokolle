@@ -61,38 +61,51 @@
       \verb https://doi.org/10.1021/cr00089a017
       \endverb
     \endentry
-    \entry{WCA}{article}{}{}
+    \entry{Aufarbeitung}{article}{}{}
       \name{author}{2}{}{%
-        {{hash=cf3f843840918101bc92c779e8969fc2}{%
-           family={Krossing},
-           familyi={K\bibinitperiod},
-           given={I.},
-           giveni={I\bibinitperiod}}}%
-        {{hash=97f545e70b097df1651c1f1a5f38c186}{%
-           family={Raabe},
-           familyi={R\bibinitperiod},
-           given={Ines},
-           giveni={I\bibinitperiod}}}%
+        {{hash=152db834275f745348944d39ec8997da}{%
+           family={Martínez-Martínez},
+           familyi={M\bibinithyphendelim M\bibinitperiod},
+           given={Antonio\bibnamedelima J.},
+           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=722b7f483aeda438d20d219a682dc7c2}{%
+           family={Weller},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima S.},
+           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
       }
-      \strng{namehash}{17d932310bc833517d218acd6415eee7}
-      \strng{fullhash}{17d932310bc833517d218acd6415eee7}
-      \strng{fullhashraw}{17d932310bc833517d218acd6415eee7}
-      \strng{bibnamehash}{17d932310bc833517d218acd6415eee7}
-      \strng{authorbibnamehash}{17d932310bc833517d218acd6415eee7}
-      \strng{authornamehash}{17d932310bc833517d218acd6415eee7}
-      \strng{authorfullhash}{17d932310bc833517d218acd6415eee7}
-      \strng{authorfullhashraw}{17d932310bc833517d218acd6415eee7}
+      \list{publisher}{1}{%
+        {The Royal Society of Chemistry}%
+      }
+      \strng{namehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{fullhash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{fullhashraw}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{bibnamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorbibnamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
+      \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Angewandte Chemie}
-      \field{number}{16}
-      \field{title}{Noncoordinating anions--fact or fiction? A survey of likely candidates.}
-      \field{volume}{43}
-      \field{year}{2004}
-      \field{pages}{2066\bibrangedash 2090}
-      \range{pages}{25}
+      \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}
+      \field{issue}{11}
+      \field{journaltitle}{Dalton Trans.}
+      \field{title}{Solvent-free anhydrous Li+{,} Na+ and K+ salts of [B(3{,}5-(CF3)2C6H3)4]−{,} [BArF4]−. Improved synthesis and solid-state structures}
+      \field{volume}{48}
+      \field{year}{2019}
+      \field{pages}{3551\bibrangedash 3554}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1039/C9DT00235A
+      \endverb
+      \verb{urlraw}
+      \verb http://dx.doi.org/10.1039/C9DT00235A
+      \endverb
+      \verb{url}
+      \verb http://dx.doi.org/10.1039/C9DT00235A
+      \endverb
     \endentry
     \entry{Gefahr}{article}{}{}
       \name{author}{2}{}{%
@@ -179,52 +192,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1021/om0501428
-      \endverb
-    \endentry
-    \entry{Aufarbeitung}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=152db834275f745348944d39ec8997da}{%
-           family={Martínez-Martínez},
-           familyi={M\bibinithyphendelim M\bibinitperiod},
-           given={Antonio\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=722b7f483aeda438d20d219a682dc7c2}{%
-           family={Weller},
-           familyi={W\bibinitperiod},
-           given={Andrew\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {The Royal Society of Chemistry}%
-      }
-      \strng{namehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{fullhash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{fullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{bibnamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorbibnamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}
-      \field{issue}{11}
-      \field{journaltitle}{Dalton Trans.}
-      \field{title}{Solvent-free anhydrous Li+{,} Na+ and K+ salts of [B(3{,}5-(CF3)2C6H3)4]−{,} [BArF4]−. Improved synthesis and solid-state structures}
-      \field{volume}{48}
-      \field{year}{2019}
-      \field{pages}{3551\bibrangedash 3554}
-      \range{pages}{4}
-      \verb{doi}
-      \verb 10.1039/C9DT00235A
-      \endverb
-      \verb{urlraw}
-      \verb http://dx.doi.org/10.1039/C9DT00235A
-      \endverb
-      \verb{url}
-      \verb http://dx.doi.org/10.1039/C9DT00235A
       \endverb
     \endentry
   \enddatalist
