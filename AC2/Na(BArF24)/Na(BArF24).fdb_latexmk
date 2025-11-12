@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1762965222.52403 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762965239.35704 0
-  "Na(BArF24).bcf" 1762965238 108687 45e74ec983c2e1dcb10b29483c86e1f3 "pdflatex"
+["biber Na(BArF24)"] 1762965222.52403 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1762965366.17667 0
+  "Na(BArF24).bcf" 1762965365 108687 45e74ec983c2e1dcb10b29483c86e1f3 "pdflatex"
   "lit.bib" 1762457834 2477 d69b18f5c60d34ef7ffc85c75e309e3b ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1762965234.7422 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762965239.35802 0
+["pdflatex"] 1762965361.35352 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1762965366.17777 0
   "Bilder/BArF Struktur.png" 1762941153 41959 7b5b69d2cad7cda76e736a9334b64973 ""
   "Bilder/NaBArF Rgl.png" 1762458403 66902 df1b07585ca73261fae43b7d25bcb61b ""
-  "Na(BArF24).aux" 1762965238 4235 d2bbcd876a01194c21277ca47eb0783c "pdflatex"
+  "Na(BArF24).aux" 1762965365 4235 d2bbcd876a01194c21277ca47eb0783c "pdflatex"
   "Na(BArF24).bbl" 1762965225 9700 e87b7581c017dfb43d32d71b70969a87 "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1762965238 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1762965216 8957 32d48ae2bcd5cee22b8cfc4e75525189 ""
-  "Na(BArF24).toc" 1762965238 561 9e2d44648ddad7a7419ba4570b7671b6 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762965216 8957 32d48ae2bcd5cee22b8cfc4e75525189 ""
+  "Na(BArF24).run.xml" 1762965365 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1762965360 8940 aa659a807ef654c3587fdd7536a0af51 ""
+  "Na(BArF24).toc" 1762965365 561 9e2d44648ddad7a7419ba4570b7671b6 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1762965360 8940 aa659a807ef654c3587fdd7536a0af51 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
