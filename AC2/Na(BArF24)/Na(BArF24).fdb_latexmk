@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1763020514.30436 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763021310.94276 0
-  "Na(BArF24).bcf" 1763021310 108696 ca4c82975f2b51ba47564c31389235d4 "pdflatex"
+["biber Na(BArF24)"] 1763022256.61124 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763023727.8316 0
+  "Na(BArF24).bcf" 1763023727 108696 ca4c82975f2b51ba47564c31389235d4 "pdflatex"
   "lit.bib" 1762457834 2477 d69b18f5c60d34ef7ffc85c75e309e3b ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1763021306.42079 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763021310.94377 0
+["pdflatex"] 1763023723.13941 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763023727.83276 0
   "Bilder/BArF Struktur.png" 1762941153 41959 7b5b69d2cad7cda76e736a9334b64973 ""
   "Bilder/NaBArF Rgl.png" 1762458403 66902 df1b07585ca73261fae43b7d25bcb61b ""
-  "Na(BArF24).aux" 1763021310 4187 8523be7c5bcabccf7d762ba52f658304 "pdflatex"
-  "Na(BArF24).bbl" 1763020516 8291 fc4392a76a4ab68e84a9ab68f7aba8b1 "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1763021310 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1763021305 9435 8f2756706ea1a40762f609975f09854b ""
-  "Na(BArF24).toc" 1763021310 561 9e2d44648ddad7a7419ba4570b7671b6 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1763021305 9435 8f2756706ea1a40762f609975f09854b ""
+  "Na(BArF24).aux" 1763023727 4187 5b2ab846fccc29f8c5020e2023cf76fb "pdflatex"
+  "Na(BArF24).bbl" 1763022269 8291 fc4392a76a4ab68e84a9ab68f7aba8b1 "biber Na(BArF24)"
+  "Na(BArF24).run.xml" 1763023727 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1763023721 10305 9845f41512618ef8bc83343ff76cae2a ""
+  "Na(BArF24).toc" 1763023727 561 6dac2124d7ccda81cc9dc27224efe71c "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1763023721 10305 9845f41512618ef8bc83343ff76cae2a ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -50,6 +50,8 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761072415 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761072415 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761072415 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1761070986 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1761070986 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761070986 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1761070986 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761070986 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
