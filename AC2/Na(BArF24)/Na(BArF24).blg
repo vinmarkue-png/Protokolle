@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Na(BArF24).blg'
-[417] biber-MSWIN64:342> INFO - === 
-[606] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
-[750] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[767] Biber.pm:4487> INFO - Processing section 0
-[802] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[899] bibtex.pm:1713> INFO - LaTeX decoding ...
-[936] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[1095] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1097] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1097] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1097] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[1185] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
-[1189] bbl.pm:779> INFO - Output to Na(BArF24).bbl
+[154] biber-MSWIN64:342> INFO - === 
+[222] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
+[371] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
+[395] Biber.pm:4487> INFO - Processing section 0
+[411] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[488] bibtex.pm:1713> INFO - LaTeX decoding ...
+[498] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[582] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[582] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[582] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[582] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[592] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
+[596] bbl.pm:779> INFO - Output to Na(BArF24).bbl
