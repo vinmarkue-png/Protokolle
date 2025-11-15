@@ -220,14 +220,13 @@
       \field{sortinit}{7}
       \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
       \field{labelnamesource}{author}
-      \field{year}{2019}
+      \field{note}{abgerufen am 15.11.2025}
       \verb{urlraw}
       \verb https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00235a
       \endverb
       \verb{url}
       \verb https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00235a
       \endverb
-      \warn{\item online entry 'Struktur2' (lit.bib): Invalid format '15.11.2025' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection
