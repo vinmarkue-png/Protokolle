@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  15 NOV 2025 10:20
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  15 NOV 2025 10:37
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1200,7 +1200,13 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Na(BArF24).bbl' found.
- (./Na(BArF24).bbl)
+ (./Na(BArF24).bbl
+
+Package biblatex Warning: Biber reported the following issues
+(biblatex)                with 'Struktur2':
+(biblatex)                - online entry 'Struktur2' (lit.bib): Invalid format '15.11.2025' of date field 'urldate' - ignoring.
+
+)
 Package biblatex Info: Reference section=0 on input line 73.
 Package biblatex Info: Reference segment=0 on input line 73.
 

@@ -227,6 +227,7 @@
       \verb{url}
       \verb https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00235a
       \endverb
+      \warn{\item online entry 'Struktur2' (lit.bib): Invalid format '15.11.2025' of date field 'urldate' - ignoring}
     \endentry
   \enddatalist
 \endrefsection

@@ -1,15 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'Na(BArF24).blg'
-[319] biber-MSWIN64:342> INFO - === 
-[416] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
-[760] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
-[808] Biber.pm:4487> INFO - Processing section 0
-[842] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[951] bibtex.pm:1713> INFO - LaTeX decoding ...
-[983] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[1165] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1165] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1165] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1166] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[1190] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
-[1199] bbl.pm:779> INFO - Output to Na(BArF24).bbl
+[0] Config.pm:331> INFO - Logfile is 'Na(BArF24).blg'
+[156] biber-MSWIN64:342> INFO - === 
+[218] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
+[368] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
+[385] Biber.pm:4487> INFO - Processing section 0
+[401] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[482] bibtex.pm:1713> INFO - LaTeX decoding ...
+[499] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[582] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[582] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[583] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[583] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[594] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
+[599] bbl.pm:779> INFO - Output to Na(BArF24).bbl
+[599] Biber.pm:132> WARN - online entry 'Struktur2' (lit.bib): Invalid format '15.11.2025' of date field 'urldate' - ignoring
+[599] Biber.pm:134> INFO - WARNINGS: 1
