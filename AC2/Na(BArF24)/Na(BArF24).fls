@@ -430,7 +430,11 @@ INPUT ./Bilder/BArF Struktur.png
 INPUT ./Bilder/BArF Struktur.png
 INPUT ./Bilder/BArF Struktur.png
 INPUT ./Bilder/BArF Struktur.png
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
+INPUT ./Bilder/1H.png
+INPUT ./Bilder/1H.png
+INPUT ./Bilder/1H.png
+INPUT ./Bilder/1H.png
+INPUT ./Bilder/1H.png
 INPUT ./Bilder/13C final.png
 INPUT ./Bilder/13C final.png
 INPUT ./Bilder/13C final.png
@@ -442,8 +446,9 @@ INPUT ./Bilder/11B_besser.png
 INPUT ./Bilder/11B_besser.png
 INPUT ./Bilder/11B_besser.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm
 INPUT Na(BArF24).aux
 INPUT Na(BArF24).run.xml
 OUTPUT Na(BArF24).run.xml

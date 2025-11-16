@@ -1,22 +1,23 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1763215168.50077 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763215172.79321 0
-  "Na(BArF24).bcf" 1763215172 108889 b24531928cc83e005fe690c3187ba1ce "pdflatex"
+["biber Na(BArF24)"] 1763215168.50077 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763281734.75491 0
+  "Na(BArF24).bcf" 1763281734 108889 b24531928cc83e005fe690c3187ba1ce "pdflatex"
   "lit.bib" 1763215056 2558 d4ad415913f9612ad3f8969b2294353d ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1763215170.21023 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763215172.79383 0
+["pdflatex"] 1763281732.08667 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763281734.75548 0
   "Bilder/11B_besser.png" 1763213867 43454 7db65fa4103816c392416f32c145f80d ""
   "Bilder/13C final.png" 1763215056 66433 a47907275a3ac79418612fef44a2059d ""
+  "Bilder/1H.png" 1763273279 44666 08148e6d7d1ec7521cc17f12e24322b6 ""
   "Bilder/BArF Struktur.png" 1763215056 43104 5aa22918e322544ba521f0b3d92e3e1f ""
   "Bilder/NaBArF Rgl.png" 1762589750 66902 df1b07585ca73261fae43b7d25bcb61b ""
-  "Na(BArF24).aux" 1763215172 5154 532bdb4e5d090261c1c7cef4c89e489e "pdflatex"
+  "Na(BArF24).aux" 1763281734 5470 60b0ae9674c5d33322c74b0adcdad348 "pdflatex"
   "Na(BArF24).bbl" 1763215170 9839 825b943cd207db525baecbaea1f6945b "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1763215172 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
-  "Na(BArF24).tex" 1763215056 13461 e06c204ba07674a7861a2a1d045aeaee ""
-  "Na(BArF24).toc" 1763215172 561 8ee4aa43e1b0a64ce7742b6de465901f "pdflatex"
-  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1763215056 13461 e06c204ba07674a7861a2a1d045aeaee ""
+  "Na(BArF24).run.xml" 1763281734 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).tex" 1763281731 14283 b0690bbaa6b1caec41f4d4b416299e03 ""
+  "Na(BArF24).toc" 1763281734 561 fe00acc0396e30a190a8070a5d092aa2 "pdflatex"
+  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1763281731 14283 b0690bbaa6b1caec41f4d4b416299e03 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761080812 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
