@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Na(BArF24).blg'
-[101] biber-MSWIN64:342> INFO - === 
-[146] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
-[241] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
-[251] Biber.pm:4487> INFO - Processing section 0
-[260] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[334] bibtex.pm:1713> INFO - LaTeX decoding ...
-[342] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[399] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[399] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[399] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[399] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[406] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
-[409] bbl.pm:779> INFO - Output to Na(BArF24).bbl
+[105] biber-MSWIN64:342> INFO - === 
+[152] Biber.pm:421> INFO - Reading 'Na(BArF24).bcf'
+[259] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
+[269] Biber.pm:4487> INFO - Processing section 0
+[279] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[371] bibtex.pm:1713> INFO - LaTeX decoding ...
+[382] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[439] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[439] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[439] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[440] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[448] bbl.pm:676> INFO - Writing 'Na(BArF24).bbl' with encoding 'UTF-8'
+[451] bbl.pm:779> INFO - Output to Na(BArF24).bbl
