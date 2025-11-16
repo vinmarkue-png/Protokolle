@@ -85,7 +85,6 @@
       \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{extraname}{1}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -193,39 +192,6 @@
       \endverb
       \verb{url}
       \verb https://doi.org/10.1021/om0501428
-      \endverb
-    \endentry
-    \entry{Struktur2}{online}{}{}
-      \name{author}{2}{}{%
-        {{hash=152db834275f745348944d39ec8997da}{%
-           family={Martínez-Martínez},
-           familyi={M\bibinithyphendelim M\bibinitperiod},
-           given={Antonio\bibnamedelima J.},
-           giveni={A\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-        {{hash=722b7f483aeda438d20d219a682dc7c2}{%
-           family={Weller},
-           familyi={W\bibinitperiod},
-           given={Andrew\bibnamedelima S.},
-           giveni={A\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
-      }
-      \strng{namehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{fullhash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{fullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{bibnamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorbibnamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
-      \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{extraname}{2}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
-      \field{labelnamesource}{author}
-      \field{note}{abgerufen am 15.11.2025}
-      \verb{urlraw}
-      \verb https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00235a
-      \endverb
-      \verb{url}
-      \verb https://pubs.rsc.org/en/content/articlelanding/2019/dt/c9dt00235a
       \endverb
     \endentry
     \entry{NMR-Werte}{article}{}{}
