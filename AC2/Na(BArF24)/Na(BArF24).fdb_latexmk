@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber Na(BArF24)"] 1763283722.93186 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763284313.08146 0
-  "Na(BArF24).bcf" 1763284312 108889 b24531928cc83e005fe690c3187ba1ce "pdflatex"
+["biber Na(BArF24)"] 1763283722.93186 "Na(BArF24).bcf" "Na(BArF24).bbl" "Na(BArF24)" 1763285110.80283 0
+  "Na(BArF24).bcf" 1763285110 108889 b24531928cc83e005fe690c3187ba1ce "pdflatex"
   "lit.bib" 1763215056 2558 d4ad415913f9612ad3f8969b2294353d ""
   (generated)
   "Na(BArF24).bbl"
   "Na(BArF24).blg"
   (rewritten before read)
-["pdflatex"] 1763284310.35618 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763284313.08217 0
+["pdflatex"] 1763285103.28848 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" "Na(BArF24).pdf" "Na(BArF24)" 1763285110.80428 0
   "Bilder/11B_besser.png" 1763213867 43454 7db65fa4103816c392416f32c145f80d ""
   "Bilder/13C final.png" 1763215056 66433 a47907275a3ac79418612fef44a2059d ""
-  "Bilder/1H.png" 1763283830 44196 f41a1968407065c9f7fdb623cc3f7b41 ""
+  "Bilder/1H.png" 1763285099 45082 88592c06132274beb746ae3af023f35f ""
   "Bilder/BArF Struktur.png" 1763215056 43104 5aa22918e322544ba521f0b3d92e3e1f ""
   "Bilder/NaBArF Rgl.png" 1762589750 66902 df1b07585ca73261fae43b7d25bcb61b ""
-  "Na(BArF24).aux" 1763284312 5471 eae68a03a1dfb16956ac7d73858f9a2a "pdflatex"
+  "Na(BArF24).aux" 1763285110 5471 eae68a03a1dfb16956ac7d73858f9a2a "pdflatex"
   "Na(BArF24).bbl" 1763283735 9839 825b943cd207db525baecbaea1f6945b "biber Na(BArF24)"
-  "Na(BArF24).run.xml" 1763284312 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
+  "Na(BArF24).run.xml" 1763285110 2479 7b43b4eb8139696338981ad3f9c3490d "pdflatex"
   "Na(BArF24).tex" 1763284306 14985 4ec5cdd0261d2e06a8e39712c7348c4e ""
-  "Na(BArF24).toc" 1763284312 561 1ff3e39d9cf3cdabf4b4453d60cb351c "pdflatex"
+  "Na(BArF24).toc" 1763285110 561 1ff3e39d9cf3cdabf4b4453d60cb351c "pdflatex"
   "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex" 1763284306 14985 4ec5cdd0261d2e06a8e39712c7348c4e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761080812 2900 1537cc8184ad1792082cd229ecc269f4 ""
