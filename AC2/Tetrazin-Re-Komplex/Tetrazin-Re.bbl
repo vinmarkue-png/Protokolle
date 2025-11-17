@@ -19,35 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
-    \entry{Dissertation}{thesis}{}{}
-      \name{author}{1}{}{%
-        {{hash=7a2790c9c2f8ce31a4b4d0c218127771}{%
-           family={Löw},
-           familyi={L\bibinitperiod},
-           given={Isabell},
-           giveni={I\bibinitperiod}}}%
-      }
-      \list{institution}{1}{%
-        {Universität Stuttgart}%
-      }
-      \strng{namehash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{fullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{fullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{bibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{authorbibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{authornamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{authorfullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \strng{authorfullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Untersuchungen der spektroskopischen, elektrochemischen und strukturellen Eigenschaften von Übergangsmetallkomplexen mit stickstoffreichen Liganden}
-      \field{type}{phdthesis}
-      \field{year}{2015}
-      \field{pages}{18\bibrangedash 20\bibrangessep 33\bibrangedash 34\bibrangessep 148}
-      \range{pages}{6}
-    \endentry
     \entry{Pinner}{article}{}{}
       \name{author}{2}{}{%
         {{hash=a99e5cd71ae0c1dbb51338e7269097a7}{%
@@ -69,8 +40,8 @@
       \strng{authornamehash}{c9971ce5ad5e903b1a851c7c5f974515}
       \strng{authorfullhash}{c9971ce5ad5e903b1a851c7c5f974515}
       \strng{authorfullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Nitrogen-rich heterocycles constitute a family of high energy density materials (HEDMs) that have been developing intensively in recent years. A representative of this class is 1,2,4,5-tetrazine, a six-membered aromatic compound containing four nitrogen atoms in the ring. Many energetic compounds with this scaffold exhibit thermal stability, high density, and insensitivity to various stimuli, including friction, impact, and electrostatic discharge. This review presents methods for constructing 1,2,4,5-tetrazine precursors from acyclic reagents and describes their chemical modifications, leading to new energetic compounds with potential applications in the industry as explosives, propellants, or pyrotechnics. Synthetic procedures and reaction conditions are discussed, along with the detonation parameters of new nitrogen-rich tetrazine-based products, which allow estimation of their application potential.}
@@ -88,6 +59,35 @@
       \verb{url}
       \verb https://www.mdpi.com/2076-3417/15/2/821
       \endverb
+    \endentry
+    \entry{Dissertation}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=7a2790c9c2f8ce31a4b4d0c218127771}{%
+           family={Löw},
+           familyi={L\bibinitperiod},
+           given={Isabell},
+           giveni={I\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Stuttgart}%
+      }
+      \strng{namehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{fullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{fullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{bibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorbibnamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authornamehash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorfullhash}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \strng{authorfullhashraw}{7a2790c9c2f8ce31a4b4d0c218127771}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Untersuchungen der spektroskopischen, elektrochemischen und strukturellen Eigenschaften von Übergangsmetallkomplexen mit stickstoffreichen Liganden}
+      \field{type}{phdthesis}
+      \field{year}{2015}
+      \field{pages}{18\bibrangedash 20\bibrangessep 33\bibrangedash 34\bibrangessep 148}
+      \range{pages}{6}
     \endentry
     \entry{Synthese}{article}{}{}
       \name{author}{4}{}{%
@@ -123,8 +123,8 @@
       \strng{authornamehash}{073ccb2f55587a668a4848136ab50487}
       \strng{authorfullhash}{6c7fc6059e399537e293e0238fba2498}
       \strng{authorfullhashraw}{6c7fc6059e399537e293e0238fba2498}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{issue}{80}

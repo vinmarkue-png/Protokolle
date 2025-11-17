@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Tetrazin-Re.blg'
-[150] biber-MSWIN64:342> INFO - === 
-[211] Biber.pm:421> INFO - Reading 'Tetrazin-Re.bcf'
-[369] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
-[388] Biber.pm:4487> INFO - Processing section 0
-[401] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[500] bibtex.pm:1713> INFO - LaTeX decoding ...
-[529] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[602] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[602] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[602] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[602] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[610] bbl.pm:676> INFO - Writing 'Tetrazin-Re.bbl' with encoding 'UTF-8'
-[614] bbl.pm:779> INFO - Output to Tetrazin-Re.bbl
+[337] biber-MSWIN64:342> INFO - === 
+[504] Biber.pm:421> INFO - Reading 'Tetrazin-Re.bcf'
+[652] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
+[668] Biber.pm:4487> INFO - Processing section 0
+[706] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[804] bibtex.pm:1713> INFO - LaTeX decoding ...
+[832] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[955] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[956] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[956] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[956] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[1028] bbl.pm:676> INFO - Writing 'Tetrazin-Re.bbl' with encoding 'UTF-8'
+[1032] bbl.pm:779> INFO - Output to Tetrazin-Re.bbl
