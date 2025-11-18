@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  18 NOV 2025 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  18 NOV 2025 11:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1082,7 +1082,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count501
 )) (./Blatt 5.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 16.
+(babel)             Reported on input line 11.
 )
 \openout1 = `"Blatt 5.aux"'.
 
@@ -1176,16 +1176,15 @@ Package biblatex Info: Automatic encoding selection.
 \openout4 = `"Blatt 5.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Blatt 5".bbl' not found.
-
-No file "Blatt 5".bbl.
+Package biblatex Info: ... file '"Blatt 5".bbl' found.
+ (./Blatt 5.bbl)
 Package biblatex Info: Reference section=0 on input line 42.
 Package biblatex Info: Reference segment=0 on input line 42.
 
 Package chemgreek Info: Activating mapping `upgreek' on line 42.
 
 Package hyperref Info: Link coloring OFF on input line 42.
-(c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
+ (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 42.
@@ -1196,38 +1195,30 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 45.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
+) (./Blatt 5.toc)
+\tf@toc=\write5
+\openout5 = `"Blatt 5.toc"'.
 
-LaTeX Warning: Citation 'Skript' on page 1 undefined on input line 51.
-
-<Aliquot 1.png, id=7, 664.4825pt x 440.64626pt>
-File: Aliquot 1.png Graphic file (type png)
-<use Aliquot 1.png>
-Package pdftex.def Info: Aliquot 1.png  used on input line 58.
-(pdftex.def)             Requested size: 265.78828pt x 176.25537pt.
 
 
 [1
 
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-<Aliquot 2.png, id=23, 664.4825pt x 440.64626pt>
-File: Aliquot 2.png Graphic file (type png)
-<use Aliquot 2.png>
-Package pdftex.def Info: Aliquot 2.png  used on input line 65.
+<Aliquot 1.png, id=25, 664.4825pt x 440.64626pt>
+File: Aliquot 1.png Graphic file (type png)
+<use Aliquot 1.png>
+Package pdftex.def Info: Aliquot 1.png  used on input line 53.
 (pdftex.def)             Requested size: 265.78828pt x 176.25537pt.
 
 
-LaTeX Warning: Citation 'Tangente' on page 2 undefined on input line 70.
+[2 <./Aliquot 1.png>] (./Blatt 5.lof)
+\tf@lof=\write6
+\openout6 = `"Blatt 5.lof"'.
 
-
-
-[2 <./Aliquot 1.png> <./Aliquot 2.png>]
-
-LaTeX Warning: Citation 'RGL' on page 3 undefined on input line 87.
-
-
-LaTeX Warning: Empty bibliography on input line 117.
+ (./Blatt 5.lot)
+\tf@lot=\write7
+\openout7 = `"Blatt 5.lot"'.
 
 
 
@@ -1236,32 +1227,23 @@ LaTeX Warning: Empty bibliography on input line 117.
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-
-
-LaTeX Warning: There were undefined references.
-
-
-Package biblatex Warning: Please (re)run Biber on the file:
-(biblatex)                "Blatt 5"
-(biblatex)                and rerun LaTeX afterwards.
-
 Package logreq Info: Writing requests to '"Blatt 5".run.xml'.
 \openout1 = `"Blatt 5.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40665 strings out of 467748
- 843766 string characters out of 5431137
- 1768240 words of memory out of 5000000
- 68815 multiletter control sequences out of 15000+600000
- 646063 words of font info for 90 fonts, out of 8000000 for 9000
+ 40756 strings out of 467748
+ 845699 string characters out of 5431137
+ 1769337 words of memory out of 5000000
+ 68888 multiletter control sequences out of 15000+600000
+ 647066 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,17n,107p,11300b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on "Blatt 5.pdf" (3 pages, 218790 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0700.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
+Output written on "Blatt 5.pdf" (3 pages, 279148 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 96 compressed objects within 1 object stream
- 15 named destinations out of 1000 (max. 500000)
- 63 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 160 PDF objects out of 1000 (max. 8388607)
+ 119 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

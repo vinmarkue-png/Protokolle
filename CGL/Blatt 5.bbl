@@ -1,0 +1,115 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Tangente}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=e69f39bd35419023256690ccc6d5e50b}{%
+           family={Kos},
+           familyi={K\bibinitperiod},
+           given={Nadja},
+           giveni={N\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Berlin}%
+      }
+      \strng{namehash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{fullhash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{fullhashraw}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{bibnamehash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{authorbibnamehash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{authornamehash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{authorfullhash}{e69f39bd35419023256690ccc6d5e50b}
+      \strng{authorfullhashraw}{e69f39bd35419023256690ccc6d5e50b}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Auswertungsmöglichkeiten und Optimierung potentiometrisch und photometrisch indizierter Titrationen}
+      \field{type}{phdthesis}
+      \field{year}{2010}
+      \field{pages}{71\bibrangedash 72}
+      \range{pages}{2}
+    \endentry
+    \entry{RGL}{online}{}{}
+      \name{author}{2}{}{%
+        {{hash=1932f327758c74dd57cb3d5f30667778}{%
+           family={Taubert},
+           familyi={T\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod}}}%
+        {{hash=ebf19d5815753fde2a99be92311ec385}{%
+           family={Oschatz},
+           familyi={O\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{fullhash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{fullhashraw}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{bibnamehash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{authorbibnamehash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{authornamehash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{authorfullhash}{a3423121d62dd054306c409f3d9c6bd1}
+      \strng{authorfullhashraw}{a3423121d62dd054306c409f3d9c6bd1}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Maßanalytische Bestimmungen von Säuren und Basen}
+      \verb{urlraw}
+      \verb https://www.chem.uni-potsdam.de/groups/anorganik2018/SBTitration.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.chem.uni-potsdam.de/groups/anorganik2018/SBTitration.pdf
+      \endverb
+    \endentry
+    \entry{Skript}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=42ae5651bd28c0d571d5db54941fe580}{%
+           family={Blaschkowski},
+           familyi={B\bibinitperiod},
+           given={Björn},
+           giveni={B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Universität Stuttgart}%
+      }
+      \strng{namehash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{fullhash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{fullhashraw}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{bibnamehash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{authorbibnamehash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{authornamehash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{authorfullhash}{42ae5651bd28c0d571d5db54941fe580}
+      \strng{authorfullhashraw}{42ae5651bd28c0d571d5db54941fe580}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Skript zum Praktikum im Modul AC I}
+      \field{year}{2024}
+      \field{pages}{94\bibrangedash 96}
+      \range{pages}{3}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

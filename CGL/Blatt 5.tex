@@ -36,21 +36,16 @@
 
 
 \title{Säure-Base-Titration einer Schwefelsäurelösung mit Natronlauge}
-\author{Anonym}
+\author{Vincent Kümmerle und Elvis Gnaglo}
 \date{\today}
 
 \begin{document}
 
 \maketitle
 
+\tableofcontents
 
-\section{Abstract}
-In der Analyse wurde eine unbekannte Stoffmenge an Schwefelsäure über eine potentiometrisch verfolgte Säure-Base-Titration mit 0,1-molarer \ch{NaOH}-Maßlösung bestimmt. Dazu wurde die Titration mit zwei Aliquoten durchgeführt, wobei die ermittelte Stoffmenge \SI{2,442}{mmol} um 1{,}4 \% von der enthaltenen (\SI{2,4075}{mmol}) abweichte.
-
-\section{Durchführung}
-Die Analysenlösung wurde mit demin. Wasser bis zur Ringmarkierung aufgefüllt und durch Schütteln homogenisiert. Anschließend wurde ein 25 ml-Aliquot entnommen und in einem 250 ml-Becherglas mit 50 ml demin. Wasser versetzt. Zudem wurde ein abgespülter Rührfisch ins Becherglas gegeben, ein pH-Meter mit Abstand zum Rührfisch befestigt und ein Magnetrührer unter dem Becherglas platziert. Zu Beginn der Titration wurde alle 0,5 ml ein Messwert aufgenommen, in der Nähe vom Äquivalenzpunkt alle 0,2 ml und am Äquivalenzpunkt alle 0,05 bis 0,1 ml, was wenigen Tropfen entspricht, die langsam zugegeben wurden. \cite{Skript} 
-Nach jeder Zugabe wurde gewartet und der sich einstellende pH-Wert notiert.
-Die Durchführung wurde für zwei weitere 25 ml-Aliquots sowie für einen 10 ml-Aliquot wiederholt.
+\newpage
 
 \section{Messwerte} \label{Messwerte} % für weiteren Querverweis
 \begin{figure}[H]
@@ -60,14 +55,7 @@ Die Durchführung wurde für zwei weitere 25 ml-Aliquots sowie für einen 10 ml-
     \label{fig: Aliquot 1}
 \end{figure}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.4]{Aliquot 2.png}
-    \caption{Titrationskurve des 2. Aliquots einer \ch{H2SO4}-Lösung mit NaOH.}
-    \label{fig: Aliquot 2}
-\end{figure}
-
-Aus den Titrationskurven in Abbildung \ref{fig: Aliquot 1} und \ref{fig: Aliquot 2} werden die Äquivalenzpunkte mit der Tangentenmethode \cite{Tangente} bestimmt und in Tabelle \ref{tab: Äquivalenz} aufgeführt.
+Aus der Titrationskurve in Abbildung \ref{fig: Aliquot 1} werden die Äquivalenzpunkte mit der Tangentenmethode \cite{Tangente} bestimmt und in Tabelle \ref{tab: Äquivalenz} aufgeführt.
 \begin{table}[H]
     \centering
     \caption{Zugegebene Volumina bis zum Äquivalenzpunkt.}
@@ -80,7 +68,6 @@ Aus den Titrationskurven in Abbildung \ref{fig: Aliquot 1} und \ref{fig: Aliquot
     \end{tabular}
 \end{table}
 
-\newpage
 
 \section{Berechnung des Analysenergebnisses}
 Zuerst wird der Mittelwert der zugegebenen Volumina aus dem Kapitel "\nameref{Messwerte}" \ als $\overline{V} = \SI{12,21}{ml}$ bestimmt.
@@ -89,7 +76,8 @@ Bei der Titration wird ein Mol Schwefelsäure mit zwei Mol NaOH nach Reaktionsgl
     \ch{H2SO4} + 2~\ch{NaOH} \rightleftharpoons \ch{Na2SO4} + 2~\ch{H2O}
     \label{Reaktionsgleichung}
 \end{equation}
-Die unbekannte Stoffmenge an \ch{H2SO4} am Äquivalenzpunkt entspricht der halben Stoffmenge an NaOH, lässt sich für einen Aliquoten nach Gleichung (\ref{Aliquot}) berechnen.
+Die unbekannte Stoffmenge an \ch{H2SO4} am Äquivalenzpunkt entspricht der halben Stoffmenge an NaOH, lässt sich für einen Aliquoten nach Gleichung \eqref{Aliquot} berechnen. \cite{Skript}
+
 \begin{align}
     \begin{split}
     n_\mathrm{Aliquot} &= \frac{1}{2} \cdot c_\mathrm{\ch{NaOH}} \cdot V_\mathrm{\ch{NaOH}} \\
@@ -97,7 +85,9 @@ Die unbekannte Stoffmenge an \ch{H2SO4} am Äquivalenzpunkt entspricht der halbe
     \end{split}
     \label{Aliquot}
 \end{align}
-Für die Gesamtstoffmenge an Schwefelsäure wird die berechnete Stoffmenge des Aliquots mit vier multipliziert und nach Gleichung (\ref{Gesamt}) berechnet.
+
+Für die Gesamtstoffmenge an Schwefelsäure wird die berechnete Stoffmenge des Aliquots mit vier multipliziert und nach Gleichung \eqref{Gesamt} berechnet.
+
 \begin{align}
     \begin{split}
     n_\mathrm{ges} &= 4 \cdot n_\mathrm{Aliquot} \\
@@ -106,14 +96,25 @@ Für die Gesamtstoffmenge an Schwefelsäure wird die berechnete Stoffmenge des A
     \label{Gesamt}
 \end{align}
 
-\section{Analysenergebnis}
-Die Analyse enthielt 2,4075 mmol Schwefelsäure.
-Somit lässt sich die Abweichung der ermittelten Stoffmenge von der tatsächlich enthaltenen folgendermaßen berechnen:
-\begin{align*}
-    \frac{n_{\mathrm{ermittelt}} - n_{\mathrm{enthalten}}} {n_{\mathrm{enthalten}}} \cdot 100\% = \frac{\SI{2,442}{mmol} - \SI{2,4075}{mmol}}{\SI{2,4075}{mmol}} \cdot 100\% = 1{,}4 \%
-\end{align*}
 
+\section{Fließumgebungen}
 
-\printbibliography[title={Bibliografie}]
+Das Konzept der Fließumgebungen (floating) basiert auf Umgebungen, deren Position im Dokument nicht durch ihre Position im Quelltext vorgegeben ist.
+Sie beeinhalten Objekte wie Grafiken, Tabellen, Formeln und Gleichungen.
+Der Positionsparameter [h] platziert das Gleitobjekt so nah wie möglich an derselben Stelle wie im Quelltext.
+Der Parameter [t] platziert das Objekt bei der nächsten Möglichkeit an einem Seitenanfang.
+Der Parameter [b] platziert es bei der nächsten Möglichkeit an einem Seitenende.
+Und der Parameter [H] platziert das Objekt exakt an der Position von der PDF wie im Quelltext und verschiebt bei Notwendigkeit anderen Code Inhalt.
+
+\section{Naturkonstanten}
+Die Lichtgeschwindigkeit $c$ beträgt $\SI{2,99e8}{\mathrm{\frac{m}{s}}}$. \\
+Die Elementarladung $e$ beträgt $e \approx \SI{1,602e-19}{\coulomb}$. \\
+Das Plancksche Wirkungsquantum beträgt $e \approx \SI{6,626e-34}{\joule\second}$.
+
+\listoffigures
+
+\listoftables
+
+\printbibliography[title={Quellenverzeichnis}]
 
 \end{document}
