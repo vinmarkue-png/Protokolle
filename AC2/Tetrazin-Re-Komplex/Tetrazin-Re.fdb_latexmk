@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber Tetrazin-Re"] 1763456369.81873 "Tetrazin-Re.bcf" "Tetrazin-Re.bbl" "Tetrazin-Re" 1763456457.0427 0
-  "Tetrazin-Re.bcf" 1763456456 108562 16f1762972e5f75bc286d01915558b22 "pdflatex"
+["biber Tetrazin-Re"] 1763481377.94234 "Tetrazin-Re.bcf" "Tetrazin-Re.bbl" "Tetrazin-Re" 1763481633.60762 0
+  "Tetrazin-Re.bcf" 1763481633 108562 16f1762972e5f75bc286d01915558b22 "pdflatex"
   "lit.bib" 1762696988 2227 01c4e1e00f2fc1bb4d0e0ae35009d0b0 ""
   (generated)
   "Tetrazin-Re.bbl"
   "Tetrazin-Re.blg"
   (rewritten before read)
-["pdflatex"] 1763456452.41339 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" "Tetrazin-Re.pdf" "Tetrazin-Re" 1763456457.04383 0
+["pdflatex"] 1763481628.94188 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" "Tetrazin-Re.pdf" "Tetrazin-Re" 1763481633.60863 0
   "Bilder/Stufe 1&2.png" 1763456072 46997 35d7136dd9c9469d7b6b4706a1e3650f ""
-  "Bilder/Stufe4.png" 1763456072 95679 10c2dd69be165d263b38a1f4cbcac1b2 ""
-  "Tetrazin-Re.aux" 1763456456 4305 2123980d57f3b33ff1c0c281d862d755 "pdflatex"
-  "Tetrazin-Re.bbl" 1763456382 6770 c7fa3c6a62b2167bd0e9c4fd1f3198aa "biber Tetrazin-Re"
-  "Tetrazin-Re.run.xml" 1763456456 2486 8d7add23688b7c2f36607c880023575f "pdflatex"
-  "Tetrazin-Re.tex" 1763456451 6918 371d656b230803e417754bd4061d54ae ""
-  "Tetrazin-Re.toc" 1763456456 704 43f5421943e83b9324bdc6356b4bb9fc "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" 1763456451 6918 371d656b230803e417754bd4061d54ae ""
+  "Bilder/Stufe4.png" 1763480782 100144 77cc9b5dbd52a0d486ffa7746d3d2b98 ""
+  "Tetrazin-Re.aux" 1763481633 4305 1b9868d85d31214dc05437b56ee7861f "pdflatex"
+  "Tetrazin-Re.bbl" 1763481380 6770 c7fa3c6a62b2167bd0e9c4fd1f3198aa "biber Tetrazin-Re"
+  "Tetrazin-Re.run.xml" 1763481633 2486 8d7add23688b7c2f36607c880023575f "pdflatex"
+  "Tetrazin-Re.tex" 1763481622 7211 bd73fb1b1f5d94f02b1188e8e6312425 ""
+  "Tetrazin-Re.toc" 1763481633 704 51c5da1ba8b38d75126aeabc0b8a1e03 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" 1763481622 7211 bd73fb1b1f5d94f02b1188e8e6312425 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
