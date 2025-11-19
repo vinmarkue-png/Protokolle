@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  19 NOV 2025 10:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  19 NOV 2025 10:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1229,10 +1229,10 @@ Non-PDF special ignored!
 
 
 [2]
-<Bilder/Stufe 1&2.png, id=44, 1290.32062pt x 301.8778pt>
+<Bilder/Stufe 1&2.png, id=45, 1290.32062pt x 301.8778pt>
 File: Bilder/Stufe 1&2.png Graphic file (type png)
 <use Bilder/Stufe 1&2.png>
-Package pdftex.def Info: Bilder/Stufe 1&2.png  used on input line 139.
+Package pdftex.def Info: Bilder/Stufe 1&2.png  used on input line 141.
 (pdftex.def)             Requested size: 418.25368pt x 97.85117pt.
 
 
@@ -1240,18 +1240,18 @@ Package pdftex.def Info: Bilder/Stufe 1&2.png  used on input line 139.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.143 
-       [1
+l.145 I
+       n der dritten Stufe wird das Dihydrotetrazin im sauren Milieu mit \ch... [1
 
 ]
-<Bilder/Stufe4.png, id=61, 1364.84906pt x 890.5772pt>
+<Bilder/Stufe4.png, id=64, 1364.84906pt x 890.5772pt>
 File: Bilder/Stufe4.png Graphic file (type png)
 <use Bilder/Stufe4.png>
-Package pdftex.def Info: Bilder/Stufe4.png  used on input line 148.
+Package pdftex.def Info: Bilder/Stufe4.png  used on input line 150.
 (pdftex.def)             Requested size: 418.25368pt x 272.90982pt.
 
-Overfull \hbox (5.1246pt too wide) in paragraph at lines 153--154
-\T1/cmr/m/n/12 über ei-ne Klick-Reaktion [Re(CO)[]Cl(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)]
+Overfull \hbox (20.12529pt too wide) in paragraph at lines 154--156
+\T1/cmr/m/n/12 Rhenium-Komplex und Bi-cy-clo-no-nin (BCN) über ei-ne Klick-Reaktion [Re(CO)[]Cl(4,5-
  []
 
 
@@ -1260,18 +1260,18 @@ Overfull \hbox (5.1246pt too wide) in paragraph at lines 153--154
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.172 \section
-              {Diskussion} [2
+l.156 
+       [2
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.172 \section
-              {Diskussion}
+l.156 
+      
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.172 \section
-              {Diskussion} <./Bilder/Stufe 1&2.png> <./Bilder/Stufe4.png>]
+l.156 
+       <./Bilder/Stufe 1&2.png> <./Bilder/Stufe4.png>]
 
 [3]
 
@@ -1285,18 +1285,18 @@ Package logreq Info: Writing requests to 'Tetrazin-Re.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41765 strings out of 467748
- 884800 string characters out of 5431137
- 1840986 words of memory out of 5000000
- 69887 multiletter control sequences out of 15000+600000
+ 41769 strings out of 467748
+ 884948 string characters out of 5431137
+ 1842041 words of memory out of 5000000
+ 69890 multiletter control sequences out of 15000+600000
  649292 words of font info for 92 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11303b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,11303b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Tetrazin-Re.pdf (6 pages, 381759 bytes).
+Output written on Tetrazin-Re.pdf (6 pages, 386067 bytes).
 PDF statistics:
- 184 PDF objects out of 1000 (max. 8388607)
- 135 compressed objects within 2 object streams
- 19 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 137 compressed objects within 2 object streams
+ 20 named destinations out of 1000 (max. 500000)
  87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

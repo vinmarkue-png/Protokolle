@@ -20,45 +20,31 @@
 \refsection{0}
   \datalist[entry]{none/global//global/global/global}
     \entry{Pinner}{article}{}{}
-      \name{author}{2}{}{%
-        {{hash=a99e5cd71ae0c1dbb51338e7269097a7}{%
-           family={Górecki},
-           familyi={G\bibinitperiod},
-           given={Sebastian},
-           giveni={S\bibinitperiod}}}%
-        {{hash=ebcf4eb275c3dba7f976568dc723abca}{%
-           family={Kudelko},
-           familyi={K\bibinitperiod},
-           given={Agnieszka},
+      \name{author}{1}{}{%
+        {{hash=5b38b534860dc6858b63f383ccf2a438}{%
+           family={Pinner},
+           familyi={P\bibinitperiod},
+           given={A.},
            giveni={A\bibinitperiod}}}%
       }
-      \strng{namehash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{fullhash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{fullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{bibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{authorbibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{authornamehash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{authorfullhash}{c9971ce5ad5e903b1a851c7c5f974515}
-      \strng{authorfullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{namehash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{fullhash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{fullhashraw}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{bibnamehash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{authorbibnamehash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{authornamehash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{authorfullhash}{5b38b534860dc6858b63f383ccf2a438}
+      \strng{authorfullhashraw}{5b38b534860dc6858b63f383ccf2a438}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Nitrogen-rich heterocycles constitute a family of high energy density materials (HEDMs) that have been developing intensively in recent years. A representative of this class is 1,2,4,5-tetrazine, a six-membered aromatic compound containing four nitrogen atoms in the ring. Many energetic compounds with this scaffold exhibit thermal stability, high density, and insensitivity to various stimuli, including friction, impact, and electrostatic discharge. This review presents methods for constructing 1,2,4,5-tetrazine precursors from acyclic reagents and describes their chemical modifications, leading to new energetic compounds with potential applications in the industry as explosives, propellants, or pyrotechnics. Synthetic procedures and reaction conditions are discussed, along with the detonation parameters of new nitrogen-rich tetrazine-based products, which allow estimation of their application potential.}
-      \field{issn}{2076-3417}
-      \field{journaltitle}{Applied Sciences}
-      \field{number}{2}
-      \field{title}{Synthesis and Characteristics of 1,2,4,5-Tetrazines for Using as High Energy Density Materials (HEDMs)}
-      \field{volume}{15}
-      \field{year}{2025}
-      \field{pages}{7\bibrangedash 8}
-      \range{pages}{2}
-      \verb{urlraw}
-      \verb https://www.mdpi.com/2076-3417/15/2/821
-      \endverb
-      \verb{url}
-      \verb https://www.mdpi.com/2076-3417/15/2/821
-      \endverb
+      \field{journaltitle}{Chem. Ber.}
+      \field{title}{Über die Einwirkung von Hydrazin auf Iminoäther.}
+      \field{volume}{23}
+      \field{year}{1893}
+      \field{pages}{2126}
+      \range{pages}{1}
     \endentry
     \entry{Dissertation}{thesis}{}{}
       \name{author}{1}{}{%
@@ -88,6 +74,47 @@
       \field{year}{2015}
       \field{pages}{18\bibrangedash 20\bibrangessep 33\bibrangedash 34\bibrangessep 148}
       \range{pages}{6}
+    \endentry
+    \entry{modPinner}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=a99e5cd71ae0c1dbb51338e7269097a7}{%
+           family={Górecki},
+           familyi={G\bibinitperiod},
+           given={Sebastian},
+           giveni={S\bibinitperiod}}}%
+        {{hash=ebcf4eb275c3dba7f976568dc723abca}{%
+           family={Kudelko},
+           familyi={K\bibinitperiod},
+           given={Agnieszka},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{fullhash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{fullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{bibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorbibnamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authornamehash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorfullhash}{c9971ce5ad5e903b1a851c7c5f974515}
+      \strng{authorfullhashraw}{c9971ce5ad5e903b1a851c7c5f974515}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Nitrogen-rich heterocycles constitute a family of high energy density materials (HEDMs) that have been developing intensively in recent years. A representative of this class is 1,2,4,5-tetrazine, a six-membered aromatic compound containing four nitrogen atoms in the ring. Many energetic compounds with this scaffold exhibit thermal stability, high density, and insensitivity to various stimuli, including friction, impact, and electrostatic discharge. This review presents methods for constructing 1,2,4,5-tetrazine precursors from acyclic reagents and describes their chemical modifications, leading to new energetic compounds with potential applications in the industry as explosives, propellants, or pyrotechnics. Synthetic procedures and reaction conditions are discussed, along with the detonation parameters of new nitrogen-rich tetrazine-based products, which allow estimation of their application potential.}
+      \field{issn}{2076-3417}
+      \field{journaltitle}{Applied Sciences}
+      \field{number}{2}
+      \field{title}{Synthesis and Characteristics of 1,2,4,5-Tetrazines for Using as High Energy Density Materials (HEDMs)}
+      \field{volume}{15}
+      \field{year}{2025}
+      \field{pages}{7\bibrangedash 8}
+      \range{pages}{2}
+      \verb{urlraw}
+      \verb https://www.mdpi.com/2076-3417/15/2/821
+      \endverb
+      \verb{url}
+      \verb https://www.mdpi.com/2076-3417/15/2/821
+      \endverb
     \endentry
     \entry{Synthese}{article}{}{}
       \name{author}{4}{}{%
