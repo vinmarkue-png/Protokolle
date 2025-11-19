@@ -171,6 +171,12 @@
       \verb http://dx.doi.org/10.1039/D0CC03805A
       \endverb
     \endentry
+    \entry{Manu}{misc}{}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labeltitlesource}{title}
+      \field{title}{"Vorschrift vom Assistenten"}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
