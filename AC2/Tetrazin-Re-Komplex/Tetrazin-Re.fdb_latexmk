@@ -1,20 +1,20 @@
 # Fdb version 4
-["biber Tetrazin-Re"] 1763680156.27611 "Tetrazin-Re.bcf" "Tetrazin-Re.bbl" "Tetrazin-Re" 1763680166.61932 0
-  "Tetrazin-Re.bcf" 1763680165 108683 15e9582ec9520aba744f8cace01f33d3 "pdflatex"
+["biber Tetrazin-Re"] 1763680338.95895 "Tetrazin-Re.bcf" "Tetrazin-Re.bbl" "Tetrazin-Re" 1763680349.30979 0
+  "Tetrazin-Re.bcf" 1763680348 108746 947d8d4f9558e3e12d2c0a13c23b7240 "pdflatex"
   "lit.bib" 1763630103 2428 d797459934028c7c607ecfd8042f33ab ""
   (generated)
   "Tetrazin-Re.bbl"
   "Tetrazin-Re.blg"
   (rewritten before read)
-["pdflatex"] 1763680160.54278 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" "Tetrazin-Re.pdf" "Tetrazin-Re" 1763680166.62082 0
+["pdflatex"] 1763680342.93537 "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" "Tetrazin-Re.pdf" "Tetrazin-Re" 1763680349.31129 0
   "Bilder/Stufe 1&2.png" 1763382996 46997 35d7136dd9c9469d7b6b4706a1e3650f ""
   "Bilder/Stufe4.png" 1763630103 95241 2fa60fb23ef3d8cdc10fc1f7ee069e63 ""
-  "Tetrazin-Re.aux" 1763680165 8378 e119707818c00a7e45339f542b0b3e0e "pdflatex"
-  "Tetrazin-Re.bbl" 1763680160 8147 d1ce2dc8ea57c67daf6359d80d6b7ffe "biber Tetrazin-Re"
-  "Tetrazin-Re.run.xml" 1763680165 2486 8d7add23688b7c2f36607c880023575f "pdflatex"
-  "Tetrazin-Re.tex" 1763680109 9306 c6fe4e4e6b8d83c8385ca5c2ec68fc3e ""
-  "Tetrazin-Re.toc" 1763680165 1335 5d441d3089579dd5429b566365c55042 "pdflatex"
-  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" 1763680109 9306 c6fe4e4e6b8d83c8385ca5c2ec68fc3e ""
+  "Tetrazin-Re.aux" 1763680348 8435 5264e5d9ab7ab76ebf341efccb9f65ad "pdflatex"
+  "Tetrazin-Re.bbl" 1763680342 8147 d1ce2dc8ea57c67daf6359d80d6b7ffe "biber Tetrazin-Re"
+  "Tetrazin-Re.run.xml" 1763680348 2486 8d7add23688b7c2f36607c880023575f "pdflatex"
+  "Tetrazin-Re.tex" 1763680331 11367 17165344b8e87f37150a666c1c88d2a5 ""
+  "Tetrazin-Re.toc" 1763680348 1335 a761357203e0996d02745881866efb66 "pdflatex"
+  "c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Tetrazin-Re-Komplex/Tetrazin-Re.tex" 1763680331 11367 17165344b8e87f37150a666c1c88d2a5 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761080812 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -55,6 +55,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761080790 1120 8b7d695260f3cff42e636090a8002094 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1761076909 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1761076909 35469 dcf3a5f2fc1862f5952e3ee5eb1d98c4 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1761076909 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761076909 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1761076909 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761076909 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
