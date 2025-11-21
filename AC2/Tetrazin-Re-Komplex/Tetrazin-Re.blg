@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'Tetrazin-Re.blg'
-[235] biber-MSWIN64:342> INFO - === 
-[325] Biber.pm:421> INFO - Reading 'Tetrazin-Re.bcf'
-[523] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
-[545] Biber.pm:4487> INFO - Processing section 0
-[565] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[694] bibtex.pm:1713> INFO - LaTeX decoding ...
-[717] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[854] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[854] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[854] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[854] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[877] bbl.pm:676> INFO - Writing 'Tetrazin-Re.bbl' with encoding 'UTF-8'
-[884] bbl.pm:779> INFO - Output to Tetrazin-Re.bbl
+[0] Config.pm:331> INFO - Logfile is 'Tetrazin-Re.blg'
+[149] biber-MSWIN64:342> INFO - === 
+[202] Biber.pm:421> INFO - Reading 'Tetrazin-Re.bcf'
+[348] Biber.pm:1002> INFO - Found 5 citekeys in bib section 0
+[367] Biber.pm:4487> INFO - Processing section 0
+[382] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[460] bibtex.pm:1713> INFO - LaTeX decoding ...
+[472] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[554] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[554] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[554] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[554] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[566] bbl.pm:676> INFO - Writing 'Tetrazin-Re.bbl' with encoding 'UTF-8'
+[571] bbl.pm:779> INFO - Output to Tetrazin-Re.bbl
