@@ -7,21 +7,13 @@ import os
 # 1. DATENEINGABE UND PFADKONSTRUKTION
 # =======================================================
 
-#base_dir = pathlib.Path(r"C:\Studium\5. Semester\AC II lab\Protokolle")
-#messdaten_dir = base_dir / "AC2" / "Tetrazin-Re-Komplex" / "Plots" / "Fluoreszenz"
-
-# Dateipfade
-#file_paths = {
-#    "Tetrazin": messdaten_dir / "Re-Tz.csv",
-#   "Pyridazin": messdaten_dir / "ReTz+BCN.csv"}
-
 base_dir = pathlib.Path(r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle")
-messdaten_dir = base_dir / "AC2" / "Tetrazin-Re-Komplex" / "Plots" / "UV_Vis"
+messdaten_dir = base_dir / "AC2" / "Tetrazin-Re-Komplex" / "Plots" / "Fluoreszenz"
 
 # Dateipfade
 file_paths = {
-    "Tetrazin": messdaten_dir / "Re-Tz_MeCN.csv",
-    "Pyridazin": messdaten_dir / "Re-Pyridazine_MeCN.csv"
+    "Tetrazin": messdaten_dir / "ReTz_MeCN_Fluoro475.csv",
+    "Pyridazin": messdaten_dir / "ReTz+BCN_MeCN_Fluoro450.csv"
 }
 
 # Spaltennamen (müssen exakt mit den CSV-Daten übereinstimmen oder angepasst werden)
@@ -85,8 +77,8 @@ def load_and_plot_data():
     
     # Legende anzeigen
     #plt.legend(loc='upper right')
-    plt.xlim(left=200)
-    plt.xlim(right=900)
+    plt.xlim(left=475)
+    plt.xlim(right=875)
     
     # Beispiel: Zielordner
     folder = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\AC2\Tetrazin-Re-Komplex\Bilder"  # Windows
