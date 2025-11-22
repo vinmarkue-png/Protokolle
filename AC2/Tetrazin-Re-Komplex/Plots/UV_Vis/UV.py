@@ -81,7 +81,16 @@ def load_and_plot_data():
     plt.xlim(right=900)
     
     # Speichern
-    plot_filename = 'UV_Vis.png'
+
+    # Beispiel: Zielordner
+    folder = r"C:\Studium\5. Semester\AC II lab\Protokolle\AC2\Tetrazin-Re-Komplex\Bilder"  # Windows
+    # folder = '/home/deinbenutzername/Bilder/Plots'  # Linux/Mac
+
+    # Sicherstellen, dass der Ordner existiert
+    os.makedirs(folder, exist_ok=True)
+
+    # Dateiname inklusive Pfad
+    plot_filename = os.path.join(folder, 'UV_Vis.png')
     plt.savefig(plot_filename)
     print(f"\n✨ Plot wurde unter dem Namen '{plot_filename}' gespeichert.")
 

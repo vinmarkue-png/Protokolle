@@ -88,8 +88,15 @@ def load_and_plot_data():
     plt.xlim(left=200)
     plt.xlim(right=900)
     
-    # Speichern
-    plot_filename = 'Fluoro.png'
+    # Beispiel: Zielordner
+    folder = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\AC2\Tetrazin-Re-Komplex\Bilder"  # Windows
+    # folder = '/home/deinbenutzername/Bilder/Plots'  # Linux/Mac
+
+    # Sicherstellen, dass der Ordner existiert
+    os.makedirs(folder, exist_ok=True)
+
+    # Dateiname inklusive Pfad
+    plot_filename = os.path.join(folder, 'Fluoro.png')
     plt.savefig(plot_filename)
     print(f"\n✨ Plot wurde unter dem Namen '{plot_filename}' gespeichert.")
 
