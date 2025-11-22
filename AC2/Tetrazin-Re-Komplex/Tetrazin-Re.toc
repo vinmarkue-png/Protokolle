@@ -5,7 +5,7 @@
 \contentsline {section}{\numberline {2}Ergebnisse und Diskussion}{3}{section.2}%
 \contentsline {subsection}{\numberline {2.1}$^{1}$H-NMR}{3}{subsection.2.1}%
 \contentsline {subsection}{\numberline {2.2}UV/Vis}{5}{subsection.2.2}%
-\contentsline {subsection}{\numberline {2.3}Photolumineszenz}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Photolumineszenz}{5}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Experimenteller Teil}{7}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Methoden und Geräte}{7}{subsection.3.1}%
 \contentsline {subsubsection}{\numberline {3.1.1}UV/Vis Spektroskopie}{7}{subsubsection.3.1.1}%

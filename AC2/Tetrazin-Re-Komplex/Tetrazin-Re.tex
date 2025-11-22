@@ -123,13 +123,13 @@ Stuttgart, den \PROTOKOLLDATUM
 Tetrazine als Klasse heterocyclischer Liganden sind bereits seit der Synthese von A. Pinner 1893 bekannt\supercite{Pinner} und sind aufgrund ihrer starken $\pi$-Akzeptorfunktion von Bedeutung für die Koordination an Übergangsmetallkomplexe und Klick-Reaktionen.
 Durch die vier elektronegativen Stickstoffatome weisen Tetrazine ein sehr elektronenarmes aromatisches System mit energetisch sehr tief liegenden $\pi^*$-Molekülorbitalen auf, die energiearme n $\rightarrow \pi^*$ Übergänge mit charakteristischer Absorption ermöglichen.\supercite{Dissertation}
 Deshalb sind Tetrazine sehr leicht reduzierbar und erscheinen sehr oft pink. 
-Tetrazine können durch die Interaktion der tief liegenden $\pi^*$-Molekülorbitale (LUMOs) mit den HOMOs (Lowest/Highest Occupied Molecular Orbitals) eines Diens Diels-Alder-Reaktionen mit inversem Elektronenbedarf eingehen, die auch als Klick-Reaktionen bezeichnet werden.
+Tetrazine können durch die Interaktion der tief liegenden $\pi^*$-Molekülorbitale (LUMOs) mit den HOMOs (Lowest/Highest Occupied Molecular Orbitals) eines Diens Diels-Alder-Reaktionen mit inversem Elektronenbedarf (invers Electron Demand Diels Alder, iEDDA) eingehen, die auch als Klick-Reaktionen bezeichnet werden.
 Zudem sind die $\pi^*$-MOs Zielorbitale für Metal-Ligand-Charge-Transfers (MLCT).
 Durch die Koordination von Tetrazin-Derivaten an Übergangsmetalle wie Rhenium bilden sich Komplexe mit höherer Komplexstabilität, da die Derivate als mehrzähnige Liganden Chelat-Komplexe ausbilden.
 Häufig wird hierfür Pentacarbonylrhenium(I)chlorid verwendet, in dem die Carbonyl-Liganden als $\pi$-Akzeptoren und der Chlorid-Ligand als $\sigma$-Donor oktaedrisch um das $d_6$-System des Rheniums koordiniert sind.
 Die hierbei entstehenden Komplexe der Art \ch{[Re(CO)3Cl(L_x)]} finden Anwendung als Photosensibilisatoren, Katalysatoren für die elektrochemische Reduktion von \ch{CO2} zu \ch{CO} und in der Biodiagnostik, da sie bioorthogonal sind und damit $in~vivo$ genutzt werden können. \\
 Somit ist das Ziel des Versuchs im ersten Teil 3-Methyl-6-(pyrimidin-2-yl)-1,2,4,5-tetrazin (N$_2$-Tz) und ausgehend davon \ch{[Re(CO)3Cl(N2Tz)]} zu synthetisieren. 
-Im zweiten Teil wird eine Klick-Reaktion mit \ch{[Re(CO)3Cl(N2Tz)]} durchgeführt und die Phosphoreszenz des $fac$-\ch{Re(CO)3Cl}-Komplexes untersucht.
+Im zweiten Teil wird eine iEDDA-Reaktion mit \ch{[Re(CO)3Cl(N2Tz)]} durchgeführt und die Phosphoreszenz des $fac$-\ch{Re(CO)3Cl}-Komplexes untersucht.
 
 \subsection{Syntheseweg}
 Die erste Stufe der Synthese von \ch{[Re(CO)3Cl(N2Tz)]} wurde nach der Vorschrift von Schnierle et al. durch eine modifizierte Pinner Synthese durchgeführt.\supercite{modPinner}$^,$\supercite{Synthese}
@@ -152,7 +152,7 @@ Die dritte und vierte Stufe wurden nach dem Syntheseweg, der in \autoref{fig: St
     \label{fig: Stufe4}
 \end{figure}
 Dabei wurde zuerst das N$_2$-Tz mit \ch{[Re(MeCN)2(CO)3Cl]} an Rhenium komplexiert und somit \ch{[Re(CO)3Cl(N2Tz)]} synthetisiert.
-In der vierten Stufe wurde aus dem Rhenium-Komplex und Bicyclononin (BCN) über eine Klick-Reaktion [\ch{Re(CO)3Cl}-(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] synthetisiert.
+In der vierten Stufe wurde aus dem Rhenium-Komplex und Bicyclononin (BCN) über eine iEDDA-Reaktion [\ch{Re(CO)3Cl}-(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] synthetisiert.
 
 
 \section{Ergebnisse und Diskussion}
@@ -193,15 +193,17 @@ So ist das Signal bei 2,1 ppm auf Acetonitril und das bei 0,0 ppm auf Polysiloxa
 %nachher: höheres LUMO, d.h. mehr Energie für Übergang -> kleinere Wellenlänge wird absorbiert
 
 \subsection{Photolumineszenz}
-
-
+Durch die iEDDA-Reaktion mit Bicyclononin wird die Elektronendichte im Ring vom Tetrazin zum Pyridazin erhöht, wodurch die $^3$MLCT Phosphoreszenz aktiviert wird.
+Dies lässt sich in den gemessenen Photolumineszenz-Spektren in \autoref{fig: Fluoro} erkennen.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{Bilder/Fluoro.png}
     \caption{Photolumineszenz-Spektren von \ch{[Re(CO)3Cl(N2Tz)]} (blau) und von [\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] (rot) zwischen 475 und 875 nm, gemessen in \ch{CH3CN}.}
-    \label{fig: Fluro}
+    \label{fig: Fluoro}
 \end{figure}
-
+Die Intensität der Phosphoreszenz nimmt vom Rhenium-Tetrazin-Komplex zum Rhenium-Pyridazin-BCN-Komplex sehr stark zu. 
+Am Intensitätsmaximum des Spektrums von [\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] bei einer Wellenlänge von $\lambda=$ 674 nm weist der Pyridazin-Komplex eine 54-fach größere Intensität als der Tetrazin-Komplex auf.
+Der Intensitätsanstieg nach 850 nm ist auf den Einsatz eines Filters zurückzuführen, der Streulicht bis zu dieser Wellenlänge herausfiltert.
 %Phosphoreszenz nach Zugabe von BCN
 
 
@@ -230,7 +232,7 @@ Zum Schluss wurde der Komplex mit Bicyclononin versetzt, wobei die rotbraune Lö
 
 
 \subsubsection{Fluoreszenzspektrometrie}
-Zur Untersuchung der Phosphoreszenz des Rhenium-Komplexes vor und nach der Klick-Reaktion mit BCN wurde ein Photolumineszenzspektrometer der Serie RF-6000 verwendet.
+Zur Untersuchung der Phosphoreszenz des Rhenium-Komplexes vor und nach der iEDDA-Reaktion mit BCN wurde ein Photolumineszenzspektrometer der Serie RF-6000 verwendet.
 Fluoreszenz bezeichnet die Emission von Licht nach Absorption eines Lichtquants, wohingegen Phosphoreszenz die Emission von Licht nach Übergang eines Elektrons zurück in den Grundzustand beschreibt, die länger andauert als die Fluoreszenz.
 Anders als im UV/Vis Spektrometer wurde im Winkel von 90° gemessen, um die Anregungsstrahlung der Lampe nicht mit zu messen. 
 Zudem wurde ein Filter hinter die Lichtquelle eingebaut, um Streulicht herauszufiltern.
@@ -246,7 +248,7 @@ Zudem wurde ein Filter hinter die Lichtquelle eingebaut, um Streulicht herauszuf
 \subsubsection{[\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)]}
 
 \section{Zusammenfassung}
-Im Rahmen dieses Versuchs wurde der Einkernkomplex \ch{[Re(CO)3Cl(N2Tz)]} mit dem Tetrazinligand 3-Methyl-6-(pyrimidin-2-yl)-1,2,4,5-tetrazin (N$_2$-Tz) ausgehend von 2-Cyanopyrimidin synthetisiert und über eine Klick-Reaktion zu [\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] umgesetzt.
+Im Rahmen dieses Versuchs wurde der Einkernkomplex \ch{[Re(CO)3Cl(N2Tz)]} mit dem Tetrazinligand 3-Methyl-6-(pyrimidin-2-yl)-1,2,4,5-tetrazin (N$_2$-Tz) ausgehend von 2-Cyanopyrimidin synthetisiert und über eine iEDDA-Reaktion zu [\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] umgesetzt.
 Der synthetisierte Ligand und Rhenium-Komplex wurden mittels $\mathrm{^{1}H}$ charakterisiert und \ch{[Re(CO)3Cl(N2Tz)]} sowie [\ch{Re(CO)3Cl}(4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] mittels UV/Vis-\\Spektroskopie und Fluoreszenzspektrometrie untersucht.
 %1-2 Sätze zu UV/Vis und Phosphoreszenz Ergebnis
 
