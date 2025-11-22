@@ -15,7 +15,7 @@ import os
 #    "Tetrazin": messdaten_dir / "Re-Tz.csv",
 #   "Pyridazin": messdaten_dir / "ReTz+BCN.csv"}
 
-base_dir = pathlib.Path(r"C:\Studium\5. Semester\AC II lab\Protokolle")
+base_dir = pathlib.Path(r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle")
 messdaten_dir = base_dir / "AC2" / "Tetrazin-Re-Komplex" / "Plots" / "UV_Vis"
 
 # Dateipfade
@@ -27,7 +27,7 @@ file_paths = {
 # Spaltennamen (müssen exakt mit den CSV-Daten übereinstimmen oder angepasst werden)
 # Wenn die CSV keine Header hat, werden diese Namen zugewiesen.
 X_COL = r'Wellenlänge $\lambda$ [nm]'
-Y_COL = 'Emission'
+Y_COL = 'Intensität'
 
 # =======================================================
 
