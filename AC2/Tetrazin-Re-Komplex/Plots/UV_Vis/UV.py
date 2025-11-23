@@ -78,7 +78,7 @@ def load_and_plot_data():
     # Legende anzeigen
     #plt.legend(loc='upper right')
     plt.xlim(left=200)
-    plt.xlim(right=900)
+    plt.xlim(right=800)
     
     # Speichern
 
