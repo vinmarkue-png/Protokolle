@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  23 NOV 2025 12:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  23 NOV 2025 12:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1300,32 +1300,37 @@ File: Bilder/1H_Tz.2.png Graphic file (type png)
 <use Bilder/1H_Tz.2.png>
 Package pdftex.def Info: Bilder/1H_Tz.2.png  used on input line 165.
 (pdftex.def)             Requested size: 418.25368pt x 295.74039pt.
-
-Overfull \hbox (9.14427pt too wide) in paragraph at lines 169--180
-\OML/cmm/m/it/12 ^^N \OT1/cmr/m/n/12 [[]] = 9\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 08 (d\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 2H\OML/cmm/m/it/12 ;  [][];  J \OT1/cmr/m/n/12 = 5\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0 [])\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 7\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 66 (t\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 1H\OML/cmm/m/it/12 ;  [][];  J \OT1/cmr/m/n/12 = 5\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0 [])\OML/cmm/m/it/12 ; [] 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 169--180
-
- []
-
+<Bilder/Tz.png, id=96, 225.09094pt x 362.10281pt>
+File: Bilder/Tz.png Graphic file (type png)
+<use Bilder/Tz.png>
+Package pdftex.def Info: Bilder/Tz.png  used on input line 173.
+(pdftex.def)             Requested size: 125.47737pt x 201.85347pt.
 
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.180 
+l.177 
        <./Bilder/1H_Tz.2.png (PNG copy)>]
-Overfull \hbox (13.06792pt too wide) in paragraph at lines 181--182
-[]\T1/cmr/m/n/12 Die [][]Ab-bil-dung 4[][][] zeigt das $[]$-NMR Spek-trum des syn-the-ti-sier-ten [Re(CO)[]Cl(N[]Tz)]-
+Overfull \hbox (9.14427pt too wide) in paragraph at lines 178--188
+\OML/cmm/m/it/12 ^^N \OT1/cmr/m/n/12 [[]] = 9\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 08 (d\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 2H\OML/cmm/m/it/12 ;  [][];  J \OT1/cmr/m/n/12 = 5\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0 [])\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 7\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 66 (t\OML/cmm/m/it/12 ;  \OT1/cmr/m/n/12 1H\OML/cmm/m/it/12 ;  [][];  J \OT1/cmr/m/n/12 = 5\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 0 [])\OML/cmm/m/it/12 ; [] 
  []
 
-<Bilder/1H_Re-Tz.png, id=106, 3520.15125pt x 2489.3pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 178--188
+
+ []
+
+
+Overfull \hbox (13.06792pt too wide) in paragraph at lines 189--190
+[]\T1/cmr/m/n/12 Die [][]Ab-bil-dung 5[][][] zeigt das $[]$-NMR Spek-trum des syn-the-ti-sier-ten [Re(CO)[]Cl(N[]Tz)]-
+ []
+
+<Bilder/1H_Re-Tz.png, id=108, 3520.15125pt x 2489.3pt>
 File: Bilder/1H_Re-Tz.png Graphic file (type png)
 <use Bilder/1H_Re-Tz.png>
-Package pdftex.def Info: Bilder/1H_Re-Tz.png  used on input line 185.
+Package pdftex.def Info: Bilder/1H_Re-Tz.png  used on input line 193.
 (pdftex.def)             Requested size: 352.03575pt x 248.94458pt.
 
 
@@ -1333,72 +1338,80 @@ Package pdftex.def Info: Bilder/1H_Re-Tz.png  used on input line 185.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.195 \subsection
-                 {UV/Vis} <./Bilder/1H_Re-Tz.png (PNG copy)>]
-<Bilder/UV_Vis.png, id=114, 722.7pt x 433.62pt>
+l.197 D
+       abei haben sich im Vergleich zu \autoref{fig: TzNMR} die Signale des ... <./Bilder/Tz.png>]
+<Bilder/UV_Vis.png, id=117, 722.7pt x 433.62pt>
 File: Bilder/UV_Vis.png Graphic file (type png)
 <use Bilder/UV_Vis.png>
-Package pdftex.def Info: Bilder/UV_Vis.png  used on input line 200.
+Package pdftex.def Info: Bilder/UV_Vis.png  used on input line 208.
 (pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
-<Bilder/Fluoro.png, id=116, 722.7pt x 433.62pt>
-File: Bilder/Fluoro.png Graphic file (type png)
-<use Bilder/Fluoro.png>
-Package pdftex.def Info: Bilder/Fluoro.png  used on input line 213.
-(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
-
-Underfull \hbox (badness 2653) in paragraph at lines 214--214
-[][][]\T1/cmr/m/n/12 Photolumineszenz-Spektren von [Re(CO)[]Cl(N[]Tz)] (blau) und von
- []
-
 
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.216 \end{figure}
-                   <./Bilder/UV_Vis.png>]
+l.212 
+       <./Bilder/1H_Re-Tz.png (PNG copy)>]
+<Bilder/Fluoro.png, id=124, 722.7pt x 433.62pt>
+File: Bilder/Fluoro.png Graphic file (type png)
+<use Bilder/Fluoro.png>
+Package pdftex.def Info: Bilder/Fluoro.png  used on input line 221.
+(pdftex.def)             Requested size: 418.25368pt x 250.9506pt.
+
+Underfull \hbox (badness 2653) in paragraph at lines 222--222
+[][][]\T1/cmr/m/n/12 Photolumineszenz-Spektren von [Re(CO)[]Cl(N[]Tz)] (blau) und von
+ []
+
+
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.225 \newpage
+l.225 D
+       ie IntensitÃ¤t der Phosphoreszenz nimmt vom Rhenium-Tetrazin-Komplex ... <./Bilder/UV_Vis.png>]
+
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.233 \newpage
                <./Bilder/Fluoro.png>]
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `subscript' on input line 245.
+(hyperref)                removing `subscript' on input line 253.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 245.
+(hyperref)                removing `math shift' on input line 253.
 
 
 
-[7{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-Overfull \hbox (2.59741pt too wide) in paragraph at lines 267--270
+[8{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+Overfull \hbox (2.59741pt too wide) in paragraph at lines 275--278
 \T1/cmr/m/n/12 dem Te-tra-zin-li-gand 3-Methyl-6-(pyrimidin-2-yl)-1,2,4,5-tetrazin (N$[]$-Tz) aus-ge-hend
  []
 
 
-Overfull \hbox (22.22336pt too wide) in paragraph at lines 267--270
-\T1/cmr/m/n/12 von 2-Cyanopyrimidin syn-the-ti-siert und über ei-ne iEDDA-Reaktion zu [Re(CO)[]Cl(4,5-
+Overfull \hbox (2.64482pt too wide) in paragraph at lines 275--278
+\T1/cmr/m/n/12 von 2-Cyanopyrimidin syn-the-ti-siert und über ei-ne iEDDA-Reaktion zu [Re(CO)[]Cl-
  []
 
 
-Overfull \hbox (4.02031pt too wide) in paragraph at lines 267--270
-\T1/cmr/m/n/12 BCN-3-(2-pyrimidyl)-6-methylpyridazin)] um-ge-setzt. Der syn-the-ti-sier-te Li-gand und
+Overfull \hbox (5.32552pt too wide) in paragraph at lines 275--278
+\T1/cmr/m/n/12 (4,5-BCN-3-(2-pyrimidyl)-6-methylpyridazin)] um-ge-setzt. Der syn-the-ti-sier-te Li-gand
  []
 
 
 
-[8]
+[9]
 
-[9] (./Tetrazin-Re.aux)
+[10] (./Tetrazin-Re.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1408,18 +1421,18 @@ Package logreq Info: Writing requests to 'Tetrazin-Re.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41875 strings out of 467748
- 887001 string characters out of 5431137
- 1843970 words of memory out of 5000000
- 69972 multiletter control sequences out of 15000+600000
+ 41885 strings out of 467748
+ 887164 string characters out of 5431137
+ 1844107 words of memory out of 5000000
+ 69980 multiletter control sequences out of 15000+600000
  654826 words of font info for 109 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11303b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Tetrazin-Re.pdf (11 pages, 621625 bytes).
+Output written on Tetrazin-Re.pdf (12 pages, 632690 bytes).
 PDF statistics:
- 304 PDF objects out of 1000 (max. 8388607)
- 231 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
- 171 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 312 PDF objects out of 1000 (max. 8388607)
+ 236 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 

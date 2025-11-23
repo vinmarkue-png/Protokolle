@@ -2390,6 +2390,7 @@
     <bcf:citekey order="8" intorder="1">Manu</bcf:citekey>
     <bcf:citekey order="9" intorder="1">Dissertation</bcf:citekey>
     <bcf:citekey order="10" intorder="1">Synthese</bcf:citekey>
+    <bcf:citekey order="11" intorder="1">Manu</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
