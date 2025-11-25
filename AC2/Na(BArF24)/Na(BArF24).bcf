@@ -2389,14 +2389,13 @@
     <bcf:citekey order="7" intorder="1">Gefahr</bcf:citekey>
     <bcf:citekey order="8" intorder="1">Synthese</bcf:citekey>
     <bcf:citekey order="9" intorder="1">Synthese</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Synthese</bcf:citekey>
+    <bcf:citekey order="10" intorder="1">Aufarbeitung</bcf:citekey>
     <bcf:citekey order="11" intorder="1">Aufarbeitung</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Aufarbeitung</bcf:citekey>
+    <bcf:citekey order="12" intorder="1">Synthese</bcf:citekey>
     <bcf:citekey order="13" intorder="1">Synthese</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Synthese</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">NMR-Werte</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Synthese</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Aufarbeitung</bcf:citekey>
+    <bcf:citekey order="14" intorder="1">NMR-Werte</bcf:citekey>
+    <bcf:citekey order="15" intorder="1">Synthese</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">Aufarbeitung</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="none">
