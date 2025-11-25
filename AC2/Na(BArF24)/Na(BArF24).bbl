@@ -44,7 +44,7 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Chemical Reviews}
+      \field{journaltitle}{Chem. Rev.}
       \field{number}{7}
       \field{title}{Metal complexes of weakly coordinating anions. Precursors of strong cationic organometallic Lewis acids}
       \field{volume}{88}
@@ -161,11 +161,11 @@
       \strng{authornamehash}{a23588aa13b57c4a59b60f8ab154b6ce}
       \strng{authorfullhash}{a23588aa13b57c4a59b60f8ab154b6ce}
       \strng{authorfullhashraw}{a23588aa13b57c4a59b60f8ab154b6ce}
-      \field{sortinit}{7}
-      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{The Journal of Organic Chemistry}
+      \field{journaltitle}{J. Org. Chem.}
       \field{number}{9}
       \field{title}{An Improved Preparation of 3,5-Bis(trifluoromethyl)acetophenone and Safety Considerations in the Preparation of 3,5-Bis(trifluoromethyl)phenyl Grignard Reagent}
       \field{volume}{68}
@@ -203,8 +203,8 @@
       \strng{authornamehash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhash}{aba7905915460e197e1b38e7c9017153}
       \strng{authorfullhashraw}{aba7905915460e197e1b38e7c9017153}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Organometallics}
