@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 NOV 2025 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 NOV 2025 10:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex"
-(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex
+**"c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex"
+(c:/Studium/5. Semester/AC II lab/Protokolle/AC2/Na(BArF24)/Na(BArF24).tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1229,7 +1229,7 @@ Non-PDF special ignored!
 
 
 [2]
-<Bilder/BArF Struktur_2.png, id=42, 488.57532pt x 435.12563pt>
+<Bilder/BArF Struktur_2.png, id=44, 488.57532pt x 435.12563pt>
 File: Bilder/BArF Struktur_2.png Graphic file (type png)
 <use Bilder/BArF Struktur_2.png>
 Package pdftex.def Info: Bilder/BArF Struktur_2.png  used on input line 136.
@@ -1249,13 +1249,13 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.145 
        <./Bilder/BArF Struktur_2.png>]
-<Bilder/NaBArF Rgl.png, id=62, 1252.68pt x 324.46219pt>
+<Bilder/NaBArF Rgl.png, id=65, 1252.68pt x 324.46219pt>
 File: Bilder/NaBArF Rgl.png Graphic file (type png)
 <use Bilder/NaBArF Rgl.png>
 Package pdftex.def Info: Bilder/NaBArF Rgl.png  used on input line 153.
 (pdftex.def)             Requested size: 400.86578pt x 103.83002pt.
 Package hyperref Info: bookmark level for unknown scheme defaults to 0 on input line 154.
-<Bilder/BArF Struktur.png, id=66, 621.82312pt x 558.58687pt>
+<Bilder/BArF Struktur.png, id=69, 621.82312pt x 558.58687pt>
 File: Bilder/BArF Struktur.png Graphic file (type png)
 <use Bilder/BArF Struktur.png>
 Package pdftex.def Info: Bilder/BArF Struktur.png  used on input line 168.
@@ -1268,7 +1268,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.172 
        [2 <./Bilder/NaBArF Rgl.png>]
-<Bilder/1H.png, id=82, 3520.15125pt x 2489.3pt>
+<Bilder/1H.png, id=85, 3520.15125pt x 2489.3pt>
 File: Bilder/1H.png Graphic file (type png)
 <use Bilder/1H.png>
 Package pdftex.def Info: Bilder/1H.png  used on input line 188.
@@ -1281,7 +1281,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.193 
        <./Bilder/BArF Struktur.png>]
-<Bilder/13C final.png, id=93, 3520.15125pt x 2489.3pt>
+<Bilder/13C final.png, id=96, 3520.15125pt x 2489.3pt>
 File: Bilder/13C final.png Graphic file (type png)
 <use Bilder/13C final.png>
 Package pdftex.def Info: Bilder/13C final.png  used on input line 213.
@@ -1294,7 +1294,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has
                                                   \__shipout_drop_firstpage_...
 l.217 
        <./Bilder/1H.png (PNG copy)>]
-<Bilder/11B_besser.png, id=101, 3520.15125pt x 2489.3pt>
+<Bilder/11B_besser.png, id=104, 3520.15125pt x 2489.3pt>
 File: Bilder/11B_besser.png Graphic file (type png)
 <use Bilder/11B_besser.png>
 Package pdftex.def Info: Bilder/11B_besser.png  used on input line 229.
@@ -1332,18 +1332,18 @@ Package logreq Info: Writing requests to 'Na(BArF24).run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41870 strings out of 467748
- 887923 string characters out of 5431137
- 1843578 words of memory out of 5000000
- 69983 multiletter control sequences out of 15000+600000
+ 41874 strings out of 467748
+ 888006 string characters out of 5431137
+ 1843629 words of memory out of 5000000
+ 69986 multiletter control sequences out of 15000+600000
  644213 words of font info for 74 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11293b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,11274b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Na(BArF24).pdf (10 pages, 546934 bytes).
+Output written on Na(BArF24).pdf (10 pages, 547203 bytes).
 PDF statistics:
- 227 PDF objects out of 1000 (max. 8388607)
- 167 compressed objects within 2 object streams
- 28 named destinations out of 1000 (max. 500000)
+ 230 PDF objects out of 1000 (max. 8388607)
+ 170 compressed objects within 2 object streams
+ 29 named destinations out of 1000 (max. 500000)
  91 words of extra memory for PDF output out of 10000 (max. 10000000)
 

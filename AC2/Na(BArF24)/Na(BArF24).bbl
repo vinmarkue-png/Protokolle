@@ -61,6 +61,47 @@
       \verb https://doi.org/10.1021/cr00089a017
       \endverb
     \endentry
+    \entry{strauss}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=2a54c29a71cc178835bf72360840bc3f}{%
+           family={Strauss},
+           familyi={S\bibinitperiod},
+           given={Steven\bibnamedelima H.},
+           giveni={S\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{fullhash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{fullhashraw}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{bibnamehash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{authorbibnamehash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{authornamehash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{authorfullhash}{2a54c29a71cc178835bf72360840bc3f}
+      \strng{authorfullhashraw}{2a54c29a71cc178835bf72360840bc3f}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0009-2665, 1520-6890}
+      \field{journaltitle}{Chem. Rev.}
+      \field{langid}{english}
+      \field{month}{5}
+      \field{number}{3}
+      \field{title}{The Search for Larger and More Weakly Coordinating Anions}
+      \field{urlday}{26}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{93}
+      \field{year}{1993}
+      \field{urldateera}{ce}
+      \field{pages}{927\bibrangedash 942}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1021/cr00019a005
+      \endverb
+      \verb{file}
+      \verb C:\Users\elvis\Zotero\storage\6I8TRF7G\Strauss - 1993 - The search for larger and more weakly coordinating anions.pdf
+      \endverb
+    \endentry
     \entry{Aufarbeitung}{article}{}{}
       \name{author}{2}{}{%
         {{hash=152db834275f745348944d39ec8997da}{%
@@ -85,8 +126,8 @@
       \strng{authornamehash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhash}{ad671491ae3e17baafaaa8a97384429c}
       \strng{authorfullhashraw}{ad671491ae3e17baafaaa8a97384429c}
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{A modified{,} convenient{,} preparation of solvent-free{,} anhydrous{,} Li+{,} Na+ and K+ salts of the ubiquitous [BArF4]− anion is reported{,} that involves a simple additional recrystallisation step. Anhydrous Na[BArF4]{,} K[BArF4]{,} and [Li(H2O)][BArF4]{,} were characterised by single-crystal X-ray diffraction.}
@@ -128,8 +169,8 @@
       \strng{authornamehash}{17d932310bc833517d218acd6415eee7}
       \strng{authorfullhash}{17d932310bc833517d218acd6415eee7}
       \strng{authorfullhashraw}{17d932310bc833517d218acd6415eee7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Angewandte Chemie}
