@@ -35,7 +35,7 @@
 \setkomafont{section}{\normalsize}
 
 
-\title{Säure-Base-Titration einer Schwefelsäurelösung mit Natronlauge}
+\title{Blatt 6}
 \author{Vincent Kümmerle und Elvis Gnaglo}
 \date{\today}
 
@@ -43,71 +43,52 @@
 
 \maketitle
 
-\tableofcontents
+\section{Listen}
+Für die Liste a = [2, "d", 5, 8, 233, "dx", 54, "we", "g", ..., 72, 23, "g"] sind die Zugriff Befehle in \autoref{tab: Liste} aufgeführt.
 
-\newpage
-
-\section{Messwerte} \label{Messwerte} % fü
-Aus der Titrationskurve in Abbildung \ref{fig: Aliquot 1} werden die Äquivalenzpunkte mit der Tangentenmethode \cite{Tangente} bestimmt und in Tabelle \ref{tab: Äquivalenz} aufgeführt.
 \begin{table}[H]
     \centering
-    \caption{Zugegebene Volumina bis zum Äquivalenzpunkt.}
-    \label{tab: Äquivalenz}
-    \begin{tabular}{l|r}
-        Aliquot & Volumen [ml] \\
+    \caption{Zugriff auf verschiedene Listenelemente in Python.}
+    \label{tab: Liste}
+    \begin{tabular}{c|c}
+        Element & Zugriff \\
     \hline
-        1 & 12,19 \\
-        2 & 12,23 \\
+        viertes & a[3] \\
+        vorletztes & a[-2] \\
+        drittes bis drittletztes & a[2:-2] \\
+        jedes 2. ab dem 4.& a[3::2] \\
+        jedes 3. rückwärts ab dem vorletzten & a[-2::-3] \\
+        7. entfernen & del a[6]
     \end{tabular}
 \end{table}
 
+\section{Datentypen und Ausdrücke}
+\begin{table}[H]
+    \centering
+    \caption{Erwartete Ergebnisse für verschiedene Ausdrücke in Python.}
+    \label{tab: Liste}
+    \begin{tabular}{c|c|c}
+        Ausdruck & Ergebnis & Begründung \\
+        \hline
+        3 + 5 & 8 & Ganzzahlsummation: int + int = int \\
+        3 + 5.0 & 8.0 & Typkonvertierung: Addition mit float ergibt float \\
+        ``3'' + ``5'' & ``35'' & Zeichenketten werden aneinandergehängt (Konkatenation) \\
+        ``3'' * 5 & ``33333'' & String wird fünfmal wiederholt \\
+        3 // 2 & 1 & Ganzzahldivision; Ergebnis wird abgerundet \\
+        3 / 2 & 1.5 & Normale Division ergibt float \\
+        int(2.71828) & 2 & int() schneidet Nachkommastellen ab \\
+        round(2.71828) & 3 & Mathematische Rundung auf ganzzahliges Ergebnis \\
+        ``hallo'' + ``Welt'' & ``halloWelt'' & String-Konkatenation \\
+        
+    \end{tabular}
+\end{table}
 
-\section{Berechnung des Analysenergebnisses}
-Zuerst wird der Mittelwert der zugegebenen Volumina aus dem Kapitel "\nameref{Messwerte}" \ als $\overline{V} = \SI{12,21}{ml}$ bestimmt.
-Bei der Titration wird ein Mol Schwefelsäure mit zwei Mol NaOH nach Reaktionsgleichung (\ref{Reaktionsgleichung}) umgesetzt. \cite{RGL}
-\begin{equation}
-    \ch{H2SO4} + 2~\ch{NaOH} \rightleftharpoons \ch{Na2SO4} + 2~\ch{H2O}
-    \label{Reaktionsgleichung}
-\end{equation}
-Die unbekannte Stoffmenge an \ch{H2SO4} am Äquivalenzpunkt entspricht der halben Stoffmenge an NaOH, lässt sich für einen Aliquoten nach Gleichung \eqref{Aliquot} berechnen. \cite{Skript}
-
-\begin{align}
-    \begin{split}
-    n_\mathrm{Aliquot} &= \frac{1}{2} \cdot c_\mathrm{\ch{NaOH}} \cdot V_\mathrm{\ch{NaOH}} \\
-    &= \frac{1}{2} \cdot \SI{0,1}{\frac{mol}{l}} \cdot \SI{0,01221}{l} = \SI{0,6105}{mmol}
-    \end{split}
-    \label{Aliquot}
-\end{align}
-
-Für die Gesamtstoffmenge an Schwefelsäure wird die berechnete Stoffmenge des Aliquots mit vier multipliziert und nach Gleichung \eqref{Gesamt} berechnet.
-
-\begin{align}
-    \begin{split}
-    n_\mathrm{ges} &= 4 \cdot n_\mathrm{Aliquot} \\
-    &= 4 \cdot \SI{0,6105}{mmol} = \SI{2,442}{mmol}
-    \end{split}
-    \label{Gesamt}
-\end{align}
+\section{Gerade / Ungerade}
 
 
-\section{Fließumgebungen}
+\section{Summation}
 
-Das Konzept der Fließumgebungen (floating) basiert auf Umgebungen, deren Position im Dokument nicht durch ihre Position im Quelltext vorgegeben ist.
-Sie beeinhalten Objekte wie Grafiken, Tabellen, Formeln und Gleichungen.
-Der Positionsparameter [h] platziert das Gleitobjekt so nah wie möglich an derselben Stelle wie im Quelltext.
-Der Parameter [t] platziert das Objekt bei der nächsten Möglichkeit an einem Seitenanfang.
-Der Parameter [b] platziert es bei der nächsten Möglichkeit an einem Seitenende.
-Und der Parameter [H] platziert das Objekt exakt an der Position von der PDF wie im Quelltext und verschiebt bei Notwendigkeit anderen Code Inhalt.
 
-\section{Naturkonstanten}
-Die Lichtgeschwindigkeit $c$ beträgt $\SI{2,99e8}{\mathrm{\frac{m}{s}}}$. \\
-Die Elementarladung $e$ beträgt $e \approx \SI{1,602e-19}{\coulomb}$. \\
-Das Plancksche Wirkungsquantum beträgt $e \approx \SI{6,626e-34}{\joule\second}$.
-
-\listoffigures
-
-\listoftables
-
-\printbibliography[title={Quellenverzeichnis}]
+\section{Fakultät}
 
 \end{document}
