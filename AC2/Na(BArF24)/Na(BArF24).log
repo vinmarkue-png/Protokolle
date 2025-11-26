@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 NOV 2025 10:40
-=======
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 NOV 2025 10:53
->>>>>>> 025547583d4ae9ff682433eacd19104a1ac35369
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 NOV 2025 11:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1268,23 +1264,23 @@ File: Bilder/NaBArF Rgl.png Graphic file (type png)
 Package pdftex.def Info: Bilder/NaBArF Rgl.png  used on input line 154.
 (pdftex.def)             Requested size: 400.86578pt x 103.83002pt.
 Package hyperref Info: bookmark level for unknown scheme defaults to 0 on input line 155.
-<Bilder/BArF Struktur.png, id=69, 621.82312pt x 558.58687pt>
-File: Bilder/BArF Struktur.png Graphic file (type png)
-<use Bilder/BArF Struktur.png>
-Package pdftex.def Info: Bilder/BArF Struktur.png  used on input line 169.
-(pdftex.def)             Requested size: 186.54837pt x 167.57735pt.
 
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.173 
-       [2 <./Bilder/NaBArF Rgl.png>]
-<Bilder/1H.png, id=85, 3520.15125pt x 2489.3pt>
+l.163 \newpage
+               [2 <./Bilder/NaBArF Rgl.png>]
+<Bilder/BArF Struktur.png, id=80, 621.82312pt x 558.58687pt>
+File: Bilder/BArF Struktur.png Graphic file (type png)
+<use Bilder/BArF Struktur.png>
+Package pdftex.def Info: Bilder/BArF Struktur.png  used on input line 171.
+(pdftex.def)             Requested size: 186.54837pt x 167.57735pt.
+<Bilder/1H.png, id=84, 3520.15125pt x 2489.3pt>
 File: Bilder/1H.png Graphic file (type png)
 <use Bilder/1H.png>
-Package pdftex.def Info: Bilder/1H.png  used on input line 189.
+Package pdftex.def Info: Bilder/1H.png  used on input line 191.
 (pdftex.def)             Requested size: 418.25368pt x 295.74039pt.
 
 
@@ -1292,12 +1288,12 @@ Package pdftex.def Info: Bilder/1H.png  used on input line 189.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.194 
+l.196 
        <./Bilder/BArF Struktur.png>]
 <Bilder/13C final.png, id=96, 3520.15125pt x 2489.3pt>
 File: Bilder/13C final.png Graphic file (type png)
 <use Bilder/13C final.png>
-Package pdftex.def Info: Bilder/13C final.png  used on input line 214.
+Package pdftex.def Info: Bilder/13C final.png  used on input line 216.
 (pdftex.def)             Requested size: 418.25368pt x 295.74039pt.
 
 
@@ -1305,12 +1301,12 @@ Package pdftex.def Info: Bilder/13C final.png  used on input line 214.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.218 
+l.220 
        <./Bilder/1H.png (PNG copy)>]
 <Bilder/11B_besser.png, id=104, 3520.15125pt x 2489.3pt>
 File: Bilder/11B_besser.png Graphic file (type png)
 <use Bilder/11B_besser.png>
-Package pdftex.def Info: Bilder/11B_besser.png  used on input line 230.
+Package pdftex.def Info: Bilder/11B_besser.png  used on input line 232.
 (pdftex.def)             Requested size: 418.25368pt x 295.74039pt.
 
 
@@ -1318,16 +1314,21 @@ Package pdftex.def Info: Bilder/11B_besser.png  used on input line 230.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.234 
+l.236 
        <./Bilder/13C final.png (PNG copy)>]
+Overfull \hbox (6.38292pt too wide) in paragraph at lines 240--257
+\T1/cmr/m/n/12 nicht luftempfindlich.$[]$ Da-zu wird das Re-ak-ti-ons-ge-misch in ei-ne Lö-sung von Na[]CO[]
+ []
+
+
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.256 
+l.257 
       {c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/11B_besser.png (PNG copy)>]
-Overfull \hbox (1.01309pt too wide) in paragraph at lines 258--261
+Overfull \hbox (1.01309pt too wide) in paragraph at lines 259--263
 \T1/cmr/m/n/12 Reaktion aus 3,5-Bis(trifluormethyl)-1-brombenzol (19 ml; 0,104 mol) und []
  []
 
@@ -1345,27 +1346,15 @@ Package logreq Info: Writing requests to 'Na(BArF24).run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
-<<<<<<< HEAD
- 41874 strings out of 467748
- 888063 string characters out of 5431137
- 1843629 words of memory out of 5000000
- 69986 multiletter control sequences out of 15000+600000
- 644213 words of font info for 74 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11293b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Na(BArF24).pdf (10 pages, 547203 bytes).
-=======
  41976 strings out of 467748
- 889235 string characters out of 5431137
+ 889292 string characters out of 5431137
  1845533 words of memory out of 5000000
  70076 multiletter control sequences out of 15000+600000
  646982 words of font info for 83 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11274b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,11293b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Na(BArF24).pdf (10 pages, 572540 bytes).
->>>>>>> 025547583d4ae9ff682433eacd19104a1ac35369
+Output written on Na(BArF24).pdf (10 pages, 572713 bytes).
 PDF statistics:
  245 PDF objects out of 1000 (max. 8388607)
  179 compressed objects within 2 object streams
