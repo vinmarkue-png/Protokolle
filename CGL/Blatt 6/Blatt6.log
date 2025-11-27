@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  27 NOV 2025 15:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  27 NOV 2025 16:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 6/Blatt6.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 6/Blatt6.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1082,7 +1082,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count501
 )) (./Blatt6.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 16.
+(babel)             Reported on input line 14.
 )
 \openout1 = `Blatt6.aux'.
 
@@ -1218,18 +1218,18 @@ Package logreq Info: Writing requests to 'Blatt6.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40425 strings out of 467748
- 839049 string characters out of 5431137
- 1772838 words of memory out of 5000000
- 68588 multiletter control sequences out of 15000+600000
+ 40421 strings out of 467748
+ 839078 string characters out of 5431137
+ 1771838 words of memory out of 5000000
+ 68586 multiletter control sequences out of 15000+600000
  641288 words of font info for 81 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,9n,107p,11288b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,9n,107p,11307b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on Blatt6.pdf (2 pages, 86985 bytes).
+Output written on Blatt6.pdf (2 pages, 86936 bytes).
 PDF statistics:
- 73 PDF objects out of 1000 (max. 8388607)
- 58 compressed objects within 1 object stream
- 10 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 65 PDF objects out of 1000 (max. 8388607)
+ 50 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 37 words of extra memory for PDF output out of 10000 (max. 10000000)
 

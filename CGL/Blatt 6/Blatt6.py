@@ -1,3 +1,4 @@
+# Gerade/Ungerade
 # 1. Zuerst die Funktion definieren
 def is_even(number):
     """Check, if a given number is even."""
@@ -25,3 +26,8 @@ except ValueError:
     print("Das war keine gültige ganze Zahl!")
 except AssertionError as e:
     print(f"Fehler: {e}")
+
+# Summation
+
+
+# Fakultät
