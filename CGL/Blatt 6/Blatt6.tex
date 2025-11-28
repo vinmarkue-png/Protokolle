@@ -19,7 +19,7 @@
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
 \usepackage{tabularx, booktabs, multirow} 
-
+\usepackage{listings}
 \usepackage{chemgreek}
 \usepackage{chemformula}
 \captionsetup{format=plain}
@@ -34,6 +34,25 @@
 %\renewcaptionname{ngerman}{\tablename}{Tab.} 
 \setkomafont{section}{\normalsize}
 
+\lstset{
+    language=Python,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=8pt,
+    stepnumber=1,
+    frame=single,
+    tabsize=4,
+    showstringspaces=false,
+    breaklines=true,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{orange},
+    commentstyle=\color{green!50!black},
+    basicstyle=\ttfamily\small,
+    literate={ö}{{\"o}}1
+             {ä}{{\"a}}1
+             {ü}{{\"u}}1
+             {ß}{{\ss}}1
+}
 
 \title{Blatt 6}
 \author{Vincent Kümmerle und Elvis Gnaglo}
@@ -84,7 +103,40 @@ Die erwarteten Ergebnisse sind mit Begründungen in \autoref{tab: Datentypen} au
     \end{tabular}
 \end{table}
 
-\section{Gerade / Ungerade, Summation und Fakultät}
-in Python Datei
+\section{Gerade / Ungerade}
+
+\begin{lstlisting}
+def is_even(number):
+    """Check, if a given number is even."""
+    assert isinstance(number, int) and number >= 1, "Die gegebene Zahl ist keine positive, natürliche Zahl."
+    return number % 2 == 0
+
+eingabe_text = input("Bitte gib eine Zahl ein: ")
+
+try:
+    zahl = int(eingabe_text)
+    
+    if is_even(zahl):
+        print(f"Die Zahl {zahl} ist gerade.")
+    else:
+        print(f"Die Zahl {zahl} ist ungerade.")
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
+\end{lstlisting}
+
+\section{Summation}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\section{Fakultät}
+
+\begin{lstlisting}
+
+\end{lstlisting}
 
 \end{document}
