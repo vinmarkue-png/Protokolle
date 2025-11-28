@@ -28,6 +28,55 @@ except AssertionError as e:
     print(f"Fehler: {e}")
 
 # Summation
+def get_summation_sq(number):
+    """Summiere Quadratzahlen bis N."""
+    assert isinstance(number, int) and number >= 1, \
+        "Die gegebene Zahl ist keine positive, natürliche Zahl."
 
+    result = 0
+    for k in range(1, number + 1):
+        result += k**2
+
+    return result
+
+try:
+    eingabe_text = input("Gib eine natürliche Zahl N ein: ")
+    N = int(eingabe_text)
+
+    # Test: Vergleich zur bekannten Formel S(N) = N(N+1)(2N+1)/6
+    assert get_summation_sq(N) == N*(N+1)*(2*N+1)//6
+
+    # Ausgabe
+    result = get_summation_sq(N)
+    print("Die Summe der Quadratzahlen bis", N, "ist:", result)
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
 
 # Fakultät
+def fak(n):
+    """Berechne das Produkt aller natürlichen Zahlen von 1 bis n."""
+    assert isinstance(n, int) and n >= 1, \
+        "Die gegebene Zahl ist keine positive, natürliche Zahl."
+
+    result = 1
+    for k in range(1, n + 1):
+        result *= k
+    return result
+
+
+try:
+    eingabe = input("Gib eine natürliche Zahl n ein: ")
+    n = int(eingabe)
+
+    # Fakultät berechnen
+    result = fak(n)
+
+    print(f"Die Fakultät von {n} ist: {result}")
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
