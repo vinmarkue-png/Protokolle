@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber Blatt6"] 0 "Blatt6.bcf" "Blatt6.bbl" "Blatt6" 1764327445.23608 0
+["biber Blatt6"] 0 "Blatt6.bcf" "Blatt6.bbl" "Blatt6" 1764330253.15286 0
   "Blatt6.bcf" 0 -1 0 "pdflatex"
   "lit.bib" 0 -1 0 ""
   (generated)
   "Blatt6.bbl"
   "Blatt6.blg"
   (rewritten before read)
-["pdflatex"] 1764327440.38663 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex" "Blatt6.pdf" "Blatt6" 1764327445.23727 0
-  "Blatt6.aux" 1764327444 2684 20620a8b9ef70e071dac7e1df71d4308 "pdflatex"
+["pdflatex"] 1764330248.07508 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex" "Blatt6.pdf" "Blatt6" 1764330253.15403 0
+  "Blatt6.aux" 1764330252 2684 2200b27f13f69e82e499ae6030bf0a60 "pdflatex"
   "Blatt6.bbl" 0 -1 0 "biber Blatt6"
-  "Blatt6.run.xml" 1764327444 2451 7c1fb2dc8991998458113745cd1413af "pdflatex"
-  "Blatt6.tex" 1764327434 4227 67c19eef5bbd583f35253d7c7fae999d ""
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex" 1764327434 4227 67c19eef5bbd583f35253d7c7fae999d ""
+  "Blatt6.run.xml" 1764330252 2451 7c1fb2dc8991998458113745cd1413af "pdflatex"
+  "Blatt6.tex" 1764330246 5637 12d993ee7eb4f9210737963d69bc608d ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 6/Blatt6.tex" 1764330246 5637 12d993ee7eb4f9210737963d69bc608d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1761073056 3584 291a5713401683441e0a8c8f4417b17b ""
