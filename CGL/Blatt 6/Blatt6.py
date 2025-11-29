@@ -58,7 +58,7 @@ except AssertionError as e:
 # Fakultät
 def fak(n):
     """Berechne das Produkt aller natürlichen Zahlen von 1 bis n."""
-    assert isinstance(n, int) and n >= 1, \
+    assert isinstance(n, int) and n >= 0, \
         "Die gegebene Zahl ist keine positive, natürliche Zahl."
 
     result = 1
@@ -87,11 +87,11 @@ def berechne_euler(genauigkeit):
     """Berechnet die Eulersche Zahl e mittels der Potenzreihe.
     Eingabe: Anzahl der Summanden (Iterationen), die berechnet werden."""
     e_approx = 0
-    x = 1  # Wir berechnen e^1
+    x = 1  # Mit x=1 wird e^1
     
     for k in range(genauigkeit):
-        # Formel:(x^k)/k!
-        # Da x=1, ist der Zähler immer 1.
+        # Die Formel zur Berechnung lautet:(x^k)/k!
+        # Da x=1 gilt, ist der Zähler immer 1.
         term = 1 / fak(k) 
         e_approx += term
         
@@ -105,10 +105,6 @@ try:
     e_wert = berechne_euler(n_iter)
 
     print(f"Näherungswert für e nach {n_iter} Schritten: {e_wert}")
-    
-    # Zum Vergleich den Wert aus dem math-Modul
-    import math
-    print(f"Echter Wert von math.e:                    {math.e}")
 
 except ValueError:
     print("Bitte gib eine gültige ganze Zahl ein!")
