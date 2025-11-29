@@ -80,3 +80,44 @@ except ValueError:
     print("Das war keine gültige ganze Zahl!")
 except AssertionError as e:
     print(f"Fehler: {e}")
+
+# e Funktion
+
+def berechne_euler(genauigkeit):
+    """
+    Berechnet die Eulersche Zahl e mittels der Potenzreihe.
+    
+    Parameters
+    ----------
+    genauigkeit : int
+        Anzahl der Summanden (Iterationen), die berechnet werden.
+    """
+    e_approx = 0
+    x = 1  # Wir berechnen e^1
+    
+    for k in range(genauigkeit):
+        # Die Formel ist: (x^k) / k!
+        # Da x=1, ist der Zähler immer 1.
+        term = 1 / fak(k) 
+        e_approx += term
+        
+    return e_approx
+
+# --- Hauptprogramm ---
+try:
+    eingabe = input("Gib die Anzahl der Iterationen für die Näherung ein (z.B. 10): ")
+    n_iter = int(eingabe)
+
+    # e berechnen
+    e_wert = berechne_euler(n_iter)
+
+    print(f"Näherungswert für e nach {n_iter} Schritten: {e_wert}")
+    
+    # Zum Vergleich den Wert aus dem math-Modul (falls gewünscht)
+    import math
+    print(f"Echter Wert von math.e:                    {math.e}")
+
+except ValueError:
+    print("Bitte gib eine gültige ganze Zahl ein!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
