@@ -1,0 +1,80 @@
+\documentclass[a4paper,11pt]{scrartcl} 
+\usepackage{geometry} 
+\geometry{left=2.5cm} \geometry{top=3cm}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[ngerman]{babel} 
+\usepackage[T1]{fontenc} 
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage[onehalfspacing]{setspace} 
+\usepackage{graphicx} 
+\usepackage{epstopdf} 
+\usepackage{csquotes} 
+\usepackage{array} 
+\usepackage{upgreek} 
+\usepackage{float} 
+\usepackage{tikz} 
+\usepackage[font=small]{caption}
+\usepackage[backend=biber, style=chem-angew]{biblatex} 
+\addbibresource{lit.bib} 
+\usepackage{tabularx, booktabs, multirow} 
+\usepackage{listings}
+\usepackage{chemgreek}
+\usepackage{chemformula}
+\captionsetup{format=plain}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{siunitx}
+\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+
+\parindent0pt %Kein Einzug am Anfang von Absätzen
+\sloppy %Besserer Blocksatz
+%\renewcaptionname{ngerman}{\figurename}{Abb.} 
+%\renewcaptionname{ngerman}{\tablename}{Tab.} 
+\setkomafont{section}{\normalsize}
+
+\lstset{
+    language=Python,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=8pt,
+    stepnumber=1,
+    frame=single,
+    tabsize=4,
+    showstringspaces=false,
+    breaklines=true,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{orange},
+    commentstyle=\color{green!50!black},
+    basicstyle=\ttfamily\small,
+    literate={ö}{{\"o}}1
+             {ä}{{\"a}}1
+             {ü}{{\"u}}1
+             {ß}{{\ss}}1
+}
+
+\title{Blatt 7}
+\author{Vincent Kümmerle und Elvis Gnaglo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Zotero}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Quantum.png}
+    \caption{Zeitschriftenartikel über Quantum Machine Learning in der Zotero-Bibliothek.}
+    \label{Quantum}
+\end{figure}
+
+\section{Dateien lesen und Daten plotten}
+
+\begin{lstlisting}
+
+\end{lstlisting}
+
+\end{document}
