@@ -83,7 +83,7 @@
       <file>"Blatt 7".bcf</file>
     </requires>
     <requires type="editable">
-      <file>lit.bib</file>
+      <file>Blatt 7.bib</file>
     </requires>
   </external>
 </requests>

@@ -1,0 +1,226 @@
+\documentclass[a4paper,11pt]{scrartcl} 
+\usepackage{geometry} 
+\geometry{left=2.5cm} \geometry{top=3cm}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[ngerman]{babel} 
+\usepackage[T1]{fontenc} 
+\usepackage{amsmath} 
+\usepackage{amssymb} 
+\usepackage[onehalfspacing]{setspace} 
+\usepackage{graphicx} 
+\usepackage{epstopdf} 
+\usepackage{csquotes} 
+\usepackage{array} 
+\usepackage{upgreek} 
+\usepackage{float} 
+\usepackage{tikz} 
+\usepackage[font=small]{caption}
+\usepackage[backend=biber, style=chem-angew]{biblatex} 
+\addbibresource{lit.bib} 
+\usepackage{tabularx, booktabs, multirow} 
+\usepackage{listings}
+\usepackage{chemgreek}
+\usepackage{chemformula}
+\captionsetup{format=plain}
+%\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{siunitx}
+\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+
+\parindent0pt %Kein Einzug am Anfang von Absätzen
+\sloppy %Besserer Blocksatz
+%\renewcaptionname{ngerman}{\figurename}{Abb.} 
+%\renewcaptionname{ngerman}{\tablename}{Tab.} 
+\setkomafont{section}{\normalsize}
+
+\lstset{
+    language=Python,
+    numbers=left,
+    numberstyle=\tiny\color{gray},
+    numbersep=8pt,
+    stepnumber=1,
+    frame=single,
+    tabsize=4,
+    showstringspaces=false,
+    breaklines=true,
+    keywordstyle=\color{blue}\bfseries,
+    stringstyle=\color{orange},
+    commentstyle=\color{green!50!black},
+    basicstyle=\ttfamily\small,
+    literate={ö}{{\"o}}1
+             {ä}{{\"a}}1
+             {ü}{{\"u}}1
+             {ß}{{\ss}}1
+}
+
+\title{Blatt 6}
+\author{Vincent Kümmerle und Elvis Gnaglo}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Listen}
+Für die Liste a = [2, "d", 5, 8, 233, "dx", 54, "we", "g", ..., 72, 23, "g"] sind die Zugriff Ausdrücke in \autoref{tab: Liste} aufgeführt.
+Sie lassen sich durch print(a[x]) überprüfen.
+\begin{table}[H]
+    \centering
+    \caption{Zugriff auf verschiedene Listenelemente in Python.}
+    \label{tab: Liste}
+    \begin{tabular}{c|c}
+        Element & Ausdruck \\
+    \hline
+        viertes & a[3] \\
+        vorletztes & a[-2] \\
+        drittes bis drittletztes & a[2:-2] \\
+        jedes 2. ab dem 4.& a[3::2] \\
+        jedes 3. rückwärts ab dem vorletzten & a[-2::-3] \\
+        7. entfernen & del a[6]
+    \end{tabular}
+\end{table}
+
+\section{Datentypen und Ausdrücke}
+Die erwarteten Ergebnisse sind mit Begründungen in \autoref{tab: Datentypen} aufgelistet.
+\begin{table}[H]
+    \centering
+    \caption{Erwartete Ergebnisse für verschiedene Ausdrücke in Python.}
+    \label{tab: Datentypen}
+    \begin{tabular}{c|c|c}
+        Ausdruck & Ergebnis & Begründung \\
+        \hline
+        3 + 5 & 8 & Ganzzahlsummation: int + int = int \\
+        3 + 5.0 & 8.0 & Typkonvertierung: Addition mit float ergibt float \\
+        ``3'' + ``5'' & ``35'' & Zeichenketten werden aneinander gehängt (Konkatenation) \\
+        ``3'' * 5 & ``33333'' & String wird fünfmal wiederholt \\
+        3 // 2 & 1 & Ganzzahldivision und Ergebnis wird abgerundet \\
+        3 / 2 & 1.5 & Normale Division ergibt float \\
+        int(2.71828) & 2 & int() schneidet alle Nachkommastellen ab \\
+        round(2.71828) & 3 & round() rundet auf ganzzahliges Ergebnis \\
+        ``hallo'' + ``Welt'' & ``halloWelt'' & Strings werden aneinander gehängt \\
+        
+    \end{tabular}
+\end{table}
+
+\section{Gerade / Ungerade}
+
+\begin{lstlisting}
+# 1. Funktion definieren
+def is_even(number):
+    """Check, if a given number is even."""
+    assert isinstance(number, int) and number >= 1, "Die gegebene Zahl ist keine positive, natürliche Zahl."
+    return number % 2 == 0
+
+# 2. Eingabe definieren
+eingabe_text = input("Bitte gib eine Zahl ein: ")
+
+try:
+    zahl = int(eingabe_text)
+    
+    if is_even(zahl):
+        print(f"Die Zahl {zahl} ist gerade.")
+    else:
+        print(f"Die Zahl {zahl} ist ungerade.")
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
+\end{lstlisting}
+
+\section{Summation}
+
+\begin{lstlisting}
+def get_summation_sq(number):
+    """Summiere Quadratzahlen bis N."""
+    assert isinstance(number, int) and number >= 1, \
+        "Die gegebene Zahl ist keine positive, natürliche Zahl."
+
+    result = 0
+    for k in range(1, number + 1):
+        result += k**2
+
+    return result
+
+try:
+    eingabe_text = input("Gib eine natürliche Zahl N ein: ")
+    N = int(eingabe_text)
+
+    # Test: Vergleich zur bekannten Formel S(N) = N(N+1)(2N+1)/6
+    assert get_summation_sq(N) == N*(N+1)*(2*N+1)//6
+
+    # Ausgabe
+    result = get_summation_sq(N)
+    print("Die Summe der Quadratzahlen bis", N, "ist:", result)
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
+\end{lstlisting}
+
+\section{Fakultät}
+
+\begin{lstlisting}
+def fak(n):
+    """Berechne das Produkt aller natürlichen Zahlen von 1 bis n."""
+    assert isinstance(n, int) and n >= 0, \
+        "Die gegebene Zahl ist keine positive, natürliche Zahl."
+
+    result = 0
+    for k in range(1, n + 1):
+        result *= k
+    return result
+
+
+try:
+    eingabe = input("Gib eine natürliche Zahl n ein: ")
+    n = int(eingabe)
+
+    # Fakultät berechnen
+    result = fak(n)
+
+    print(f"Die Fakultät von {n} ist: {result}")
+
+except ValueError:
+    print("Das war keine gültige ganze Zahl!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
+
+\end{lstlisting}
+\newpage
+
+\subsection{Eulersche Zahl}
+
+\begin{lstlisting}
+def berechne_euler(genauigkeit):
+    """Berechnet die Eulersche Zahl e mittels der Potenzreihe.
+    Eingabe: Anzahl der Summanden (Iterationen), die berechnet werden."""
+    e_approx = 0
+    x = 1  # Mit x=1 wird e^1
+    
+    for k in range(genauigkeit):
+        # Die Formel zur Berechnung lautet:(x^k)/k!
+        # Da x=1 gilt, ist der Zähler immer 1.
+        term = 1 / fak(k) 
+        e_approx += term
+        
+    return e_approx
+
+try:
+    eingabe = input("Gib die Anzahl der Iterationen für die Näherung ein: ")
+    n_iter = int(eingabe)
+
+    # e berechnen
+    e_wert = berechne_euler(n_iter)
+
+    print(f"Näherungswert für e nach {n_iter} Schritten: {e_wert}")
+
+except ValueError:
+    print("Bitte gib eine gültige ganze Zahl ein!")
+except AssertionError as e:
+    print(f"Fehler: {e}")
+\end{lstlisting}
+
+\end{document}
