@@ -1,18 +1,17 @@
 # Fdb version 4
-["biber Blatt 7"] 1764756369.47981 "Blatt 7.bcf" "Blatt 7.bbl" "Blatt 7" 1764756373.59339 0
-  "Blatt 7.bcf" 1764756373 108311 fe14202f6cb213356e1b66a5f2370585 "pdflatex"
+["biber Blatt 7"] 1764756369.47981 "Blatt 7.bcf" "Blatt 7.bbl" "Blatt 7" 1764757665.73936 0
+  "Blatt 7.bcf" 1764757665 108311 fe14202f6cb213356e1b66a5f2370585 "pdflatex"
   "Blatt 7.bib" 1764669149 1506 46f9032d33d46d496b10150ce6711ece ""
   (generated)
   "Blatt 7.bbl"
   "Blatt 7.blg"
   (rewritten before read)
-["pdflatex"] 1764756371.22283 "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" "Blatt 7.pdf" "Blatt 7" 1764756373.59405 0
-  "Blatt 7.aux" 1764756373 2546 5b097bcf63b3e8f3c6b680a5943b585a "pdflatex"
+["pdflatex"] 1764757663.13758 "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" "Blatt 7.pdf" "Blatt 7" 1764757665.73996 2
+  "Blatt 7.aux" 1764757665 2544 b2dd84a9feabc6ae48ee2f4d9edbaaf9 "pdflatex"
   "Blatt 7.bbl" 1764756371 4964 1724a54874ad7ed39f704ac3a89f18da "biber Blatt 7"
-  "Blatt 7.run.xml" 1764756373 2476 5adead6d734f15b21377fd1fad99dc4d "pdflatex"
-  "Blatt 7.tex" 1764756364 2625 6b5d86c428aafeb458e325fb6e6c3ce6 ""
+  "Blatt 7.tex" 1764757651 5028 e8f810594ec41e7fbfc210b7c4c09337 ""
   "Quantum.png" 1764668039 47580 32c7d182b501553066fb253db97b83a0 ""
-  "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" 1764756364 2625 6b5d86c428aafeb458e325fb6e6c3ce6 ""
+  "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" 1764757651 5028 e8f810594ec41e7fbfc210b7c4c09337 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1761081966 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -39,12 +38,14 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr12.tfm" 1761080790 1288 655e228510b4c2a1abe905c368440826 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761080790 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb" 1761080812 154600 32e699453da826d3cdd1305e7e476670 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb" 1761080812 162624 077de688981132fb8efe9feeb03a998c ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb" 1761080812 138258 6525c253f16cededa14c7fd0da7f67b2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1761080812 145929 5c9aebea9ba6e33fc93158c04a3bdcd8 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb" 1761080812 131078 3adc08bf3d7686c3b3220602214807d7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb" 1761080812 145807 be8f0482fbcef3edc94ae8b508d5160a ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb" 1761080812 141339 9220e4df258c7a6fd3c0e2c8f7867c95 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb" 1761080812 196446 823e77efd89b89faab342901e22eb237 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb" 1761080812 169201 651a6333c3213b38091f54d2ab2d2cd6 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1761085122 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1761078394 2289 142d4c4e9b9454344e08718ddd1c1070 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf" 1761078394 9519 07567e6a5751b56c75ede8e38d955275 ""
