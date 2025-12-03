@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  3 DEC 2025 11:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  3 DEC 2025 11:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1244,7 +1244,9 @@ Package pdftex.def Info: fisiks.jpg  used on input line 76.
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Quantum.png>]
 
-[2 <./fisiks.jpg>] (./Blatt 7.aux)
+[2 <./fisiks.jpg>]
+
+[3] (./Blatt 7.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1254,24 +1256,18 @@ Package logreq Info: Writing requests to '"Blatt 7".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42426 strings out of 467748
- 867832 string characters out of 5431137
- 1784394 words of memory out of 5000000
- 70575 multiletter control sequences out of 15000+600000
- 637484 words of font info for 64 fonts, out of 8000000 for 9000
+ 42441 strings out of 467748
+ 868199 string characters out of 5431137
+ 1784464 words of memory out of 5000000
+ 70586 multiletter control sequences out of 15000+600000
+ 638956 words of font info for 66 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,7n,107p,11289b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{cite.0@fisiks} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{cite.0@quantum} has been referenced but does not exist, replaced by a fixed one
-
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb>
-Output written on "Blatt 7.pdf" (2 pages, 169326 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb>
+Output written on "Blatt 7.pdf" (3 pages, 219133 bytes).
 PDF statistics:
- 72 PDF objects out of 1000 (max. 8388607)
- 54 compressed objects within 1 object stream
- 11 named destinations out of 1000 (max. 500000)
+ 88 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
  47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
