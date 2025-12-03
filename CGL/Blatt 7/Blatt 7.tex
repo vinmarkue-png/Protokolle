@@ -79,14 +79,79 @@ Das Buch “Experimentalphysik 1” von Wolfgang Demtröder erklärt die Grundla
 \end{figure}
 
 \section{List Comprehension}
+\begin{lstlisting}
+import random
+import math
+import matplotlib.pyplot as plt
 
+# Gegebene Funktion (angenommene Implementierung)
+def generate_random_point_in_square(side_length):
+    """Generiert einen zufälligen Punkt (x, y) in einem Quadrat um den Ursprung."""
+    # Bereich: -side_length/2 bis +side_length/2
+    half_side = side_length / 2
+    x = random.uniform(-half_side, half_side)
+    y = random.uniform(-half_side, half_side)
+    return (x, y)
+
+# --- DEIN CODE HIER ---
+
+def distance(p1, p2):
+    """Berechnet den Euklidischen Abstand zwischen zwei Punkten p1 und p2."""
+    return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
+
+def point_in_circle(point, center, radius):
+    """Prüft, ob point innerhalb des Kreises um center mit radius liegt."""
+    return distance(point, center) <= radius
+
+# Parameter
+seitenlaenge = 2.0
+kreis_radius = 1.0
+kreis_mittelpunkt = (0, 0)
+anzahl_punkte = 1000
+
+# 1. Liste mit 1000 Punkten erzeugen (List Comprehension)
+points = [generate_random_point_in_square(seitenlaenge) for _ in range(anzahl_punkte)]
+
+# 2. Punkte im Kreis filtern (List Comprehension)
+points_inside = [p for p in points if point_in_circle(p, kreis_mittelpunkt, kreis_radius)]
+
+# 3. Verhältnis berechnen
+verhaeltnis = len(points_inside) / len(points)
+print(f"Anzahl Punkte gesamt: {len(points)}")
+print(f"Anzahl Punkte im Kreis: {len(points_inside)}")
+print(f"Verhältnis: {verhaeltnis}")
+
+# Begründung der Konvergenz:
+# Das Verhältnis konvergiert gegen Pi / 4.
+# Grund: 
+# Fläche des Quadrats (A_q) = (2r)² = 4r²
+# Fläche des Kreises (A_k) = pi * r²
+# Verhältnis A_k / A_q = (pi * r²) / (4r²) = pi / 4
+# Bei r=1 und Seitenlänge=2 ist das Verhältnis also pi/4 (~0.785).
+
+# 4. Listen für Plot erstellen (List Comprehension)
+# Alle Punkte (zur Darstellung des Quadrats)
+x_all = [p[0] for p in points]
+y_all = [p[1] for p in points]
+
+# Nur Punkte im Kreis (zur farblichen Unterscheidung)
+x_in = [p[0] for p in points_inside]
+y_in = [p[1] for p in points_inside]
+
+# Plotten
+plt.figure(figsize=(6, 6))
+plt.scatter(x_all, y_all, color='blue', s=5, label='Außerhalb')
+plt.scatter(x_in, y_in, color='red', s=5, label='Innerhalb')
+plt.title(f'Monte Carlo Simulation (Verhältnis = {verhaeltnis})')
+plt.legend(loc='upper right')
+plt.axis('equal') # Wichtig, damit der Kreis rund aussieht
+plt.show()
+\end{lstlisting}
 
 \section{Dateien lesen und Daten plotten}
-
 \begin{lstlisting}
 
 \end{lstlisting}
-
 \printbibliography[title={Literaturverzeichnis}]
 
 \end{document}
