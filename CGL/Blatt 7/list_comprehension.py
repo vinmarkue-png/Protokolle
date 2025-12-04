@@ -48,8 +48,8 @@ y_values_filtered = [p[1] for p in filtered_list_of_points]
 
 # Plotten
 plt.figure(figsize=(6, 6)) # Quadratische Darstellung für korrekte Proportionen
-plt.scatter(x_values_full, y_values_full, s=1, label='Außerhalb', color='blue')
-plt.scatter(x_values_filtered, y_values_filtered, s=1, label='Innerhalb', color='red')
+plt.scatter(x_values_full, y_values_full, s=1, label='außerhalb', color='blue')
+plt.scatter(x_values_filtered, y_values_filtered, s=1, label='innerhalb', color='red')
 plt.legend(loc='upper right')
 plt.title(f'Monte Carlo Simulation (Verhältnis = {ratio})')
 plt.axis('equal') # damit der Kreis nicht verzerrt aussieht
