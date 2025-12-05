@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:331> INFO - Logfile is 'Blatt 7.blg'
+[637] biber-MSWIN64:342> INFO - === 
+[879] Biber.pm:421> INFO - Reading 'Blatt 7.bcf'
+[1331] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[1379] Biber.pm:4487> INFO - Processing section 0
+[1474] Biber.pm:4678> INFO - Looking for bibtex file 'Blatt 7.bib' for section 0
+[1605] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1646] bibtex.pm:1519> INFO - Found BibTeX data source 'Blatt 7.bib'
+[1881] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1882] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1882] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[1882] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[1890] bbl.pm:676> INFO - Writing 'Blatt 7.bbl' with encoding 'UTF-8'
+[1897] bbl.pm:779> INFO - Output to Blatt 7.bbl
