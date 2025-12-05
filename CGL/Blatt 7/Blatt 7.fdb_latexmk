@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber Blatt 7"] 1764940206.66459 "Blatt 7.bcf" "Blatt 7.bbl" "Blatt 7" 1764940879.08296 0
-  "Blatt 7.bcf" 1764940878 108311 fe14202f6cb213356e1b66a5f2370585 "pdflatex"
+["biber Blatt 7"] 1764940206.66459 "Blatt 7.bcf" "Blatt 7.bbl" "Blatt 7" 1764940972.04788 0
+  "Blatt 7.bcf" 1764940971 108311 fe14202f6cb213356e1b66a5f2370585 "pdflatex"
   "Blatt 7.bib" 1764669149 1506 46f9032d33d46d496b10150ce6711ece ""
   (generated)
   "Blatt 7.bbl"
   "Blatt 7.blg"
   (rewritten before read)
-["pdflatex"] 1764940870.12222 "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" "Blatt 7.pdf" "Blatt 7" 1764940879.08501 0
-  "Blatt 7.aux" 1764940878 2958 2944bb4cd4ac67c45e20e8ece1b5dc41 "pdflatex"
+["pdflatex"] 1764940966.55775 "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" "Blatt 7.pdf" "Blatt 7" 1764940972.04946 0
+  "Blatt 7.aux" 1764940971 2958 2944bb4cd4ac67c45e20e8ece1b5dc41 "pdflatex"
   "Blatt 7.bbl" 1764940228 4964 1724a54874ad7ed39f704ac3a89f18da "biber Blatt 7"
-  "Blatt 7.run.xml" 1764940878 2476 5adead6d734f15b21377fd1fad99dc4d "pdflatex"
-  "Blatt 7.tex" 1764940365 8159 dd9283fc905ec773acdae0b2a8c8a6db ""
+  "Blatt 7.run.xml" 1764940971 2476 5adead6d734f15b21377fd1fad99dc4d "pdflatex"
+  "Blatt 7.tex" 1764940965 8259 b62c328d3cc227187732f56da5e0f1be ""
   "Monte.png" 1764870409 69848 539b9469ef2af8f4753ebefb04feadbf ""
   "Quantum.png" 1764668039 47580 32c7d182b501553066fb253db97b83a0 ""
-  "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" 1764940365 8159 dd9283fc905ec773acdae0b2a8c8a6db ""
+  "c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 7/Blatt 7.tex" 1764940965 8259 b62c328d3cc227187732f56da5e0f1be ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1761081966 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -232,7 +232,7 @@
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1761090826 3629008 bcc9c69fd8736b3fb5bdac42766fcc35 ""
   "c:/texlive/2025/texmf.cnf" 1761090261 713 e69b156964470283e0530f5060668171 ""
   "fisiks.jpg" 1764667955 58304 0dcf8dcd270ea77e7f4694cd4fa7c7d2 ""
-  "messdaten_plot.pdf" 1764940867 11073 ab5d63b4bb3569fa2c66b3ca0f53eb90 ""
+  "messdaten_plot.pdf" 1764940893 11073 7637c5e81d00bb1da6430172f82f9e82 ""
   (generated)
   "Blatt 7.aux"
   "Blatt 7.bcf"

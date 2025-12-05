@@ -148,6 +148,7 @@ plt.show()
 \section{Dateien lesen und Daten plotten}
 \begin{lstlisting}
 import matplotlib.pyplot as plt
+import os
 
 dateiname = r"C:\Studium\5. Semester\AC II lab\Protokolle\CGL\Blatt 7\messdaten.txt"
 x_werte = []
@@ -195,7 +196,7 @@ if x_werte:
     print(f"Erfolgreich {len(x_werte)} Datenpunkte gesammelt. Erstelle Plot.")
     
     plt.figure(figsize=(10, 6)) 
-    
+    folder = r'C:\Studium\5. Semester\AC II lab\Protokolle\CGL\Blatt 7'
     # Verwenden Sie plt.scatter() um x_werte gegen y_werte zu plotten
     plt.scatter(x_werte, y_werte, color='red', marker='x', label='Messpunkte')
     
@@ -206,7 +207,7 @@ if x_werte:
     plt.xlabel('X-Koordinate')
     plt.ylabel('Y-Koordinate')
     plt.grid(True)
-    plt.savefig('messdaten_plot.pdf')
+    plt.savefig(os.path.join(folder, 'messdaten_plot.pdf'))
     plt.show()
 else:
     print("Keine gültigen Daten zum Plotten gefunden.")
