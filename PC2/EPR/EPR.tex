@@ -1,0 +1,151 @@
+\documentclass[a4paper,12pt,bibliography=totocnumbered]{scrartcl}
+
+\usepackage[utf8]{inputenc} 
+\usepackage[T1]{fontenc}
+\usepackage[ngerman]{babel} 
+\usepackage{amsmath, amssymb,amsfonts}
+\usepackage{graphicx}
+\usepackage{csquotes}
+\usepackage[bookmarks,colorlinks=true]{hyperref}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage[final]{pdfpages}
+\usepackage{framed, color} 
+\usepackage{scrlayer-scrpage}
+\usepackage{siunitx}
+\usepackage{subfigure}
+\renewcaptionname{ngerman}{\figurename}{Abb.}
+\sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+\DeclareSIUnit\curie{Ci}
+\usepackage[backend=biber, style=chem-angew]{biblatex} 
+\addbibresource{lit.bib} 
+
+\usepackage{chemgreek}
+\usepackage{chemformula}
+\geometry{left = 2.5cm} \geometry{top = 3cm}
+
+\urlstyle{same}
+%Hyperlinks-Setup
+\hypersetup{
+	colorlinks,
+	linktocpage,
+	citecolor=black,
+	filecolor=black,
+	linkcolor=black,
+	urlcolor=black
+}
+
+%\numberwithin{equation}{section}
+
+\setlength{\parindent}{0 mm}
+\setlength{\parskip}{2 mm} 
+
+
+
+\pagestyle{scrheadings}
+%Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
+\ihead{\VerfasserEINS\;\&\;\VerfasserZWEI\;\&\;\VerfasserDREI} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
+\ohead{\VERSUCHSNR}
+\ofoot{\thepage} 
+\cfoot{\empty}  
+\ifoot{\empty} 
+
+
+\newcommand{\VERSUCHSDATUM}{15.12.2025}
+\newcommand{\PROTOKOLLDATUM}{\today}
+
+\newcommand{\VerfasserEINS}{Vincent Kümmerle}
+\newcommand{\MatNoEINS}{3712667}
+\newcommand{\EmailEINS}{st187541@stud.uni-stuttgart.de}
+\newcommand{\StudiengangEINS}{B.Sc. Chemie}
+
+\newcommand{\VerfasserZWEI}{Elvis Gnaglo}
+\newcommand{\MatNoZWEI}{3710504}
+\newcommand{\EmailZWEI}{st189318@stud.uni-stuttgart.de}
+\newcommand{\StudiengangZWEI}{B.Sc. Chemie}
+
+\newcommand{\VerfasserDREI}{Julian Brügger}
+\newcommand{\MatNoDREI}{}
+\newcommand{\EmailDREI}{st190010@stud.uni-stuttgart.de}
+\newcommand{\StudiengangDREI}{B.Sc. Chemie}
+
+\newcommand{\BETREUER}{Valentin Bayer}
+\newcommand{\GRUPPENNR}{A05}
+
+\newcommand{\VERSUCHSNR}{ESR}
+\newcommand{\VERSUCHSNAME}{Elektronen Spin Resonanz Spektroskopie}
+
+
+\begin{document}
+\thispagestyle{empty}
+
+
+\begin{titlepage}
+
+\begin{center}
+\Huge{\textbf{\VERSUCHSNR\ - \VERSUCHSNAME}}\\
+\vspace{10mm}% Abstand
+\Large{Protokoll zum Versuch des Praktikums der Physikalischen Chemie II von \\ \textbf{\VerfasserEINS\;\& \VerfasserZWEI\;\& \VerfasserDREI}}\\
+\vspace{10mm} 
+\Large{Universität Stuttgart}\\
+\end{center}
+\vspace{1cm}
+\begin{center}
+\begin{tabular}{ll}
+\large{authors:}		& \large{\VerfasserEINS,} \large{\MatNoEINS} \\
+ 						& \large{\EmailEINS} \\
+ 						\vspace{0cm}\\
+						& \large{\VerfasserZWEI,} \large{\MatNoZWEI} \\
+                        & \large{\EmailZWEI} \\
+						\vspace{0cm}\\
+						& \large{\VerfasserDREI,} \large{\MatNoDREI} \\
+                        & \large{\EmailDREI} \\
+						\vspace{0cm}\\
+\large{Gruppennummer:}	& \large{\GRUPPENNR} \\
+\vspace{0cm}\\
+\large{Versuchszeitraum:}	& \large{\VERSUCHSDATUM} \\
+\vspace{0cm}\\
+\large{Betreuer:}		& \large{\BETREUER} \\
+\vspace{0cm}\\
+\large{Abgabenummer:} & \large{1}
+\end{tabular}
+\end{center}
+\vspace{15mm}
+
+\begin{center}
+Stuttgart, den \PROTOKOLLDATUM
+\end{center}
+
+\end{titlepage}
+
+
+\thispagestyle{empty}
+
+\tableofcontents 
+
+\clearpage
+
+\renewcommand{\thepage}{\arabic{page}}
+\setcounter{page}{1}
+
+
+\section{Theorie}
+
+
+\section{Versuchsdurchführung}
+
+
+\section{Auswertung}
+
+
+
+\section{Fehlerrechnung}
+
+
+\section{Zusammenfassung}
+
+
+\printbibliography[title={Literatur}]
+
+
+\end{document}
