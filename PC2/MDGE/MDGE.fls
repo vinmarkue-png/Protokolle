@@ -405,6 +405,11 @@ INPUT ./MDGE.toc
 INPUT ./MDGE.toc
 INPUT MDGE.toc
 OUTPUT MDGE.toc
+INPUT ./setup.png
+INPUT ./setup.png
+INPUT ./setup.png
+INPUT ./setup.png
+INPUT ./setup.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT MDGE.aux
 INPUT MDGE.run.xml

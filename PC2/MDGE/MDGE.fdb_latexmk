@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber MDGE"] 0 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765126545.71631 0
+["biber MDGE"] 0 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765223343.94161 0
   "MDGE.bcf" 0 -1 0 "pdflatex"
   "lit.bib" 0 -1 0 ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765126542.17846 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765126545.71723 0
-  "MDGE.aux" 1765126544 2008 05e7ac044113cceb1f37b54e7da23393 "pdflatex"
+["pdflatex"] 1765223338.9798 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765223343.94325 0
+  "MDGE.aux" 1765223342 2230 aedc730784725eae4584ab96e8b658cf "pdflatex"
   "MDGE.bbl" 0 -1 0 "biber MDGE"
-  "MDGE.run.xml" 1765126544 2437 8ffe93c8ed50fec0d6dcd173c2e35c2d "pdflatex"
-  "MDGE.tex" 1765126541 3993 3373c154300f26f22892a6c68bcb42b0 ""
-  "MDGE.toc" 1765126544 424 7507eb26d3db756748a08c56aae1b692 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765126541 3993 3373c154300f26f22892a6c68bcb42b0 ""
+  "MDGE.run.xml" 1765223342 2437 8ffe93c8ed50fec0d6dcd173c2e35c2d "pdflatex"
+  "MDGE.tex" 1765223337 4175 c629ac4710915a516b3f2dc105fa4912 ""
+  "MDGE.toc" 1765223342 424 7507eb26d3db756748a08c56aae1b692 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765223337 4175 c629ac4710915a516b3f2dc105fa4912 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
@@ -231,6 +231,7 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761115918 5574153 af86687748baf417d9e7d549313527be ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1761119734 3629010 209039dccc86d63efe90cd361a5e1bb5 ""
   "c:/texlive/2025/texmf.cnf" 1761115890 713 e69b156964470283e0530f5060668171 ""
+  "setup.png" 1765223173 38658 ef6e4e9c8474d391bcde63caf3399f84 ""
   (generated)
   "MDGE.aux"
   "MDGE.bcf"

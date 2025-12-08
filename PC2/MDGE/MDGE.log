@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  7 DEC 2025 17:55
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  8 DEC 2025 20:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1214,8 +1214,14 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
+<setup.png, id=34, 497.4585pt x 247.52475pt>
+File: setup.png Graphic file (type png)
+<use setup.png>
+Package pdftex.def Info: setup.png  used on input line 137.
+(pdftex.def)             Requested size: 397.96733pt x 198.02007pt.
 
-LaTeX Warning: Empty bibliography on input line 148.
+
+LaTeX Warning: Empty bibliography on input line 155.
 
 
 
@@ -1223,10 +1229,15 @@ LaTeX Warning: Empty bibliography on input line 148.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.151 \end{document}
+l.158 \end{document}
                      [1
 
-] (./MDGE.aux)
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.158 \end{document}
+                     <./setup.png>] (./MDGE.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1236,18 +1247,18 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41200 strings out of 467748
- 873545 string characters out of 5431137
- 1832739 words of memory out of 5000000
- 69353 multiletter control sequences out of 15000+600000
+ 41214 strings out of 467748
+ 873768 string characters out of 5431137
+ 1832794 words of memory out of 5000000
+ 69366 multiletter control sequences out of 15000+600000
  640114 words of font info for 68 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,19n,107p,11281b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on MDGE.pdf (3 pages, 132594 bytes).
+Output written on MDGE.pdf (3 pages, 156830 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 71 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 53 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 97 PDF objects out of 1000 (max. 8388607)
+ 73 compressed objects within 1 object stream
+ 10 named destinations out of 1000 (max. 500000)
+ 58 words of extra memory for PDF output out of 10000 (max. 10000000)
 
