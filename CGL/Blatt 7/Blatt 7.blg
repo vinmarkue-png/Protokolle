@@ -1,15 +1,15 @@
-[1] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'Blatt 7.blg'
-[836] biber-MSWIN64:342> INFO - === 
-[1188] Biber.pm:421> INFO - Reading 'Blatt 7.bcf'
-[1374] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[1396] Biber.pm:4487> INFO - Processing section 0
-[1478] Biber.pm:4678> INFO - Looking for bibtex file 'Blatt 7.bib' for section 0
-[1647] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1693] bibtex.pm:1519> INFO - Found BibTeX data source 'Blatt 7.bib'
-[1954] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1955] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1955] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1956] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[1961] bbl.pm:676> INFO - Writing 'Blatt 7.bbl' with encoding 'UTF-8'
-[1966] bbl.pm:779> INFO - Output to Blatt 7.bbl
+[396] biber-MSWIN64:342> INFO - === 
+[496] Biber.pm:421> INFO - Reading 'Blatt 7.bcf'
+[678] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[695] Biber.pm:4487> INFO - Processing section 0
+[735] Biber.pm:4678> INFO - Looking for bibtex file 'Blatt 7.bib' for section 0
+[831] bibtex.pm:1713> INFO - LaTeX decoding ...
+[860] bibtex.pm:1519> INFO - Found BibTeX data source 'Blatt 7.bib'
+[931] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[932] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[932] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[932] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[937] bbl.pm:676> INFO - Writing 'Blatt 7.bbl' with encoding 'UTF-8'
+[941] bbl.pm:779> INFO - Output to Blatt 7.bbl

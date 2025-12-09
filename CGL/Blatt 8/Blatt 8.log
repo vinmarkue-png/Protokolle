@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  9 DEC 2025 10:03
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  9 DEC 2025 10:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 7/Blatt 7.tex"
-(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 7/Blatt 7.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 8/Blatt 8.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 8/Blatt 8.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1107,11 +1107,11 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count509
-)) (./Blatt 7.aux
+)) (./Blatt 8.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 16.
 )
-\openout1 = `"Blatt 7.aux"'.
+\openout1 = `"Blatt 8.aux"'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 61.
 LaTeX Font Info:    ... okay on input line 61.
@@ -1201,11 +1201,12 @@ File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `"Blatt 7.bcf"'.
+\openout4 = `"Blatt 8.bcf"'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file '"Blatt 7".bbl' found.
- (./Blatt 7.bbl)
+Package biblatex Info: ... file '"Blatt 8".bbl' not found.
+
+No file "Blatt 8".bbl.
 Package biblatex Info: Reference section=0 on input line 61.
 Package biblatex Info: Reference segment=0 on input line 61.
 \c@lstlisting=\count516
@@ -1215,7 +1216,7 @@ Package tocbasic Info: setting babel extension for `lol' on input line 61.
 Package chemgreek Info: Activating mapping `upgreek' on line 61.
 
 Package hyperref Info: Link coloring OFF on input line 61.
- (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
+(c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 61.
@@ -1227,70 +1228,44 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 64.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<Quantum.png, id=8, 624.53325pt x 560.69475pt>
-File: Quantum.png Graphic file (type png)
-<use Quantum.png>
-Package pdftex.def Info: Quantum.png  used on input line 69.
-(pdftex.def)             Requested size: 349.40045pt x 313.67891pt.
-<fisiks.jpg, id=11, 635.37375pt x 685.8122pt>
-File: fisiks.jpg Graphic file (type jpg)
-<use fisiks.jpg>
-Package pdftex.def Info: fisiks.jpg  used on input line 76.
-(pdftex.def)             Requested size: 349.40045pt x 377.14555pt.
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 68.
 
 
 [1
 
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc} <./Quantum.png>]
-LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
-(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 83.
-
-
-[2 <./fisiks.jpg>]
-
-[3]
-<Monte.png, id=85, 433.62pt x 433.62pt>
-File: Monte.png Graphic file (type png)
-<use Monte.png>
-Package pdftex.def Info: Monte.png  used on input line 143.
-(pdftex.def)             Requested size: 349.40045pt x 349.41736pt.
-
-
-[4 <./Monte.png>]
-
-[5]
-<messdaten_plot.pdf, id=148, 722.7pt x 433.62pt>
-File: messdaten_plot.pdf Graphic file (type pdf)
-<use messdaten_plot.pdf>
-Package pdftex.def Info: messdaten_plot.pdf  used on input line 218.
-(pdftex.def)             Requested size: 393.07133pt x 235.84514pt.
-
-
-[6]
-
-[7 <./messdaten_plot.pdf>] (./Blatt 7.aux)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Blatt 8.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
-Package logreq Info: Writing requests to '"Blatt 7".run.xml'.
-\openout1 = `"Blatt 7.run.xml"'.
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                "Blatt 8"
+(biblatex)                and rerun LaTeX afterwards.
+
+Package logreq Info: Writing requests to '"Blatt 8".run.xml'.
+\openout1 = `"Blatt 8.run.xml"'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42650 strings out of 467748
- 871246 string characters out of 5431137
- 2200564 words of memory out of 5000000
- 70668 multiletter control sequences out of 15000+600000
- 638956 words of font info for 66 fonts, out of 8000000 for 9000
+ 42203 strings out of 467748
+ 863399 string characters out of 5431137
+ 1815148 words of memory out of 5000000
+ 70351 multiletter control sequences out of 15000+600000
+ 638255 words of font info for 65 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,8n,107p,11308b,2795s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "Blatt 7.pdf" (7 pages, 366812 bytes).
+ 108i,7n,107p,11308b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on "Blatt 8.pdf" (1 page, 126533 bytes).
 PDF statistics:
- 300 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
- 140 named destinations out of 1000 (max. 500000)
- 57 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 82 PDF objects out of 1000 (max. 8388607)
+ 64 compressed objects within 1 object stream
+ 13 named destinations out of 1000 (max. 500000)
+ 53 words of extra memory for PDF output out of 10000 (max. 10000000)
 
