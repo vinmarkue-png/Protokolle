@@ -23,6 +23,7 @@ def main():
     plt.xlabel("Zeit t [s]")
     plt.ylabel("Auslenkung x(t)")
     plt.legend()
-    # folder = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\CGL\Blatt 8"
     plt.savefig("damped_oscillator.pdf")
     plt.show()
+if __name__ == "__main__":
+    main()
