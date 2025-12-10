@@ -135,10 +135,30 @@ Stuttgart, den \PROTOKOLLDATUM
 
 
 \supercite{Skript}
+
 \begin{equation}
 V(r_{ij})=4\varepsilon_0\left[\left(\frac{\sigma_0}{r_{ij}}\right)^{12}-\left(\frac{\sigma_0}{r_{ij}}\right)^6\right]
 \label{eq:LJ}
 \end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{LJ.png}
+    \caption{.} 
+    \label{fig: LJ}
+\end{figure}
+
+
+\begin{equation}
+T^{\ast} = \frac{k_{\mathrm{B}}\,T}{\varepsilon_0}
+\label{eq:Tred}
+\end{equation}
+
+\begin{equation}
+p^{\ast} = \frac{p\,\sigma_0^{\,3}}{\varepsilon_0}
+\label{eq:pred}
+\end{equation}
+
 
 \begin{equation}
 \ln p=-\frac{\Delta H_{\mathrm{sub}}}{RT}+C
@@ -146,13 +166,7 @@ V(r_{ij})=4\varepsilon_0\left[\left(\frac{\sigma_0}{r_{ij}}\right)^{12}-\left(\f
 \end{equation}
 
 \begin{equation}
-U_{\mathrm{Gitter}}(s)=2 N_A \varepsilon_0
-\left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]
-\label{eq:LatticeEnergy_Pair}
-\end{equation}
-
-\begin{equation}
-\Delta U_s=U_{\mathrm{Gitter}}+U_{\mathrm{vib}}
+\Delta U_s=U_{\mathrm{lattice}}+U_{\mathrm{vib}}
 \label{eq:Us1}
 \end{equation}
 
@@ -166,21 +180,19 @@ U_{\mathrm{vib}}=\frac{9}{8}R\Theta_D + 3RT
 \label{eq:Debye}
 \end{equation}
 
+%Pair potentials
+\begin{equation}
+U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
+\left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]
+\label{eq:LatticeEnergy_Pair}
+\end{equation}
+
 \begin{equation}
 \log(p/ \mathrm{Torr})
 =7.781845-\frac{341.619~\mathrm{K}}{T}-0.0062649\frac{T}{\mathrm{K}}
 \label{eq:HenningOtto}
 \end{equation}
 
-\begin{equation}
-T^{\ast} = \frac{k_{\mathrm{B}}\,T}{\varepsilon_0}
-\label{eq:Tred}
-\end{equation}
-
-\begin{equation}
-p^{\ast} = \frac{p\,\sigma_0^{\,3}}{\varepsilon_0}
-\label{eq:pred}
-\end{equation}
 
 
 \section{Procedure}
