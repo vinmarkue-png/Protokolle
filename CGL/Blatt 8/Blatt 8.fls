@@ -1,8 +1,8 @@
-PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 8
+PWD c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 8
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 8/Blatt 8.tex
+INPUT c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 8/Blatt 8.tex
 OUTPUT Blatt 8.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
