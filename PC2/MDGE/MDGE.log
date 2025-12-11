@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 DEC 2025 18:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  11 DEC 2025 10:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,10 +1213,10 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<LJ.png, id=37, 336.0555pt x 208.3785pt>
+<LJ.png, id=44, 336.0555pt x 208.3785pt>
 File: LJ.png Graphic file (type png)
 <use LJ.png>
-Package pdftex.def Info: LJ.png  used on input line 146.
+Package pdftex.def Info: LJ.png  used on input line 148.
 (pdftex.def)             Requested size: 327.56168pt x 203.12527pt.
 
 
@@ -1224,19 +1224,19 @@ Package pdftex.def Info: LJ.png  used on input line 146.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.194 \end{equation}
+l.159 \end{equation}
                      [1
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.194 \end{equation}
+l.159 \end{equation}
                      <./LJ.png>]
-<setup.png, id=62, 497.4585pt x 247.52475pt>
+<setup.png, id=76, 497.4585pt x 247.52475pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 204.
+Package pdftex.def Info: setup.png  used on input line 208.
 (pdftex.def)             Requested size: 397.96733pt x 198.02007pt.
 
 
@@ -1244,12 +1244,14 @@ Package pdftex.def Info: setup.png  used on input line 204.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.222 \end{document}
-                     [2
+l.212 
+       [2]
+
+[3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.222 \end{document}
+l.243 \end{document}
                      <./setup.png>] (./MDGE.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1260,18 +1262,18 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41470 strings out of 467748
- 878710 string characters out of 5431137
- 1837162 words of memory out of 5000000
- 69605 multiletter control sequences out of 15000+600000
- 642338 words of font info for 71 fonts, out of 8000000 for 9000
+ 41490 strings out of 467748
+ 879255 string characters out of 5431137
+ 1840315 words of memory out of 5000000
+ 69621 multiletter control sequences out of 15000+600000
+ 643110 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11281b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MDGE.pdf (4 pages, 277963 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MDGE.pdf (5 pages, 309204 bytes).
 PDF statistics:
- 172 PDF objects out of 1000 (max. 8388607)
- 124 compressed objects within 2 object streams
- 22 named destinations out of 1000 (max. 500000)
- 71 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 209 PDF objects out of 1000 (max. 8388607)
+ 156 compressed objects within 2 object streams
+ 25 named destinations out of 1000 (max. 500000)
+ 87 words of extra memory for PDF output out of 10000 (max. 10000000)
 

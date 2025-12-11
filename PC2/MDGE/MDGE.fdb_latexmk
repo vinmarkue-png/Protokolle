@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber MDGE"] 1765383968.83373 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765386004.39071 0
-  "MDGE.bcf" 1765386003 108245 48e38ada4b3ef16e380842c42ab8d587 "pdflatex"
+["biber MDGE"] 1765446015.55674 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765446058.07834 0
+  "MDGE.bcf" 1765446057 108672 8aab6561958b955a74dffe74aa12a609 "pdflatex"
   "lit.bib" 1765383953 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765386000.15657 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765386004.39172 0
+["pdflatex"] 1765446053.67322 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765446058.07943 0
   "LJ.png" 1765385870 15568 8582ef2e9a3dfb933ec87e9476e2bd1d ""
-  "MDGE.aux" 1765386003 3277 8e980ca0af4da75f1cb9997fc9eec0ff "pdflatex"
-  "MDGE.bbl" 1765383971 1591 41e842fa6159ee6d2617c5f8da122169 "biber MDGE"
-  "MDGE.run.xml" 1765386003 2437 8ffe93c8ed50fec0d6dcd173c2e35c2d "pdflatex"
-  "MDGE.tex" 1765386003 5499 2f8cfd6c2153c8be33f5889f70f57638 ""
-  "MDGE.toc" 1765386003 490 7147342247dcfe214122832d48c73fe1 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765386003 5499 2f8cfd6c2153c8be33f5889f70f57638 ""
+  "MDGE.aux" 1765446057 5077 32833de4594b8cc755c7ed39eb19867f "pdflatex"
+  "MDGE.bbl" 1765446018 1591 41e842fa6159ee6d2617c5f8da122169 "biber MDGE"
+  "MDGE.run.xml" 1765446057 2437 8ffe93c8ed50fec0d6dcd173c2e35c2d "pdflatex"
+  "MDGE.tex" 1765446052 9342 d9bfde55ab361a20955ea18722c5286c ""
+  "MDGE.toc" 1765446057 675 8d8da5fd3ab7a08fc95f7e8f1568bc80 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765446052 9342 d9bfde55ab361a20955ea18722c5286c ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -27,6 +27,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm" 1761073056 3584 36dd7d4b521e95b0a47034c0d524f2c5 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm" 1761073056 3584 db562fb1d1c474cc55f0ce8a1dd94fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1761073056 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1761073056 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1761073056 3584 a5b048a4e362640a1d2d34e624589d34 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1761073056 3072 8b5a64dc91775463bc95e2d818524028 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1761070986 1004 54797486969f23fa377b128694d548df ""
@@ -61,6 +62,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1761072433 131438 c8884c67ccd7382f731c139fbb34a6cb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb" 1761072433 150680 200f05869e9022d53b4b32fa48743f62 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1761072433 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1761072433 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1761072433 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb" 1761072433 198221 29e050730bc4b56b13a53cd149c0a42c ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1761076938 71627 94eb9990bed73c364d7f53f960cc8c5b ""

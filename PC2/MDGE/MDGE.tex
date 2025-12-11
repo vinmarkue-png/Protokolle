@@ -14,7 +14,7 @@
 \usepackage{scrlayer-scrpage}
 \usepackage{siunitx}
 \usepackage{subfigure}
-\renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcaptionname{ngerman}{\figurename}{Figure}
 \sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
 \DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
@@ -130,62 +130,100 @@ Stuttgart, den \PROTOKOLLDATUM
 
 
 \section{Theory}
-
-
-
-
-\supercite{Skript}
-
+Molecular dynamics simulations (MDS) are used to visualize spatial movements of atoms and molecules.
+For that a numerical algorithm can determine the positions $r_\mathrm{i}$ and momentums $p_\mathrm{i}$ for each particle i.\supercite{Skript}
+A proven algorithm is the Velocity-Verlet algorithm, which assigns each particle a random starting position and velocity at first before calculating the new positions and velocities a small time step later.
+That is achieved by calculating the new accelerations using the provided potential, e.g. lennard-Jones potential.
+So for the computation of particle trajectories in MDS the equation of motion is integrated and then the forces induced by potentials are calculated.
+To approximate the intermolecular interactions between particles, the Lennard-Jones potential (LJ-potential) $V_\mathrm{ij}$ with equation \ref{eq:LJ} is used.
 \begin{equation}
-V(r_{ij})=4\varepsilon_0\left[\left(\frac{\sigma_0}{r_{ij}}\right)^{12}-\left(\frac{\sigma_0}{r_{ij}}\right)^6\right]
+V(r_{ij})=4\varepsilon_0\left[\left(\frac{\sigma_0}{r_{ij}}\right)^{12}-\left(\frac{\sigma_0}{r_{ij}}\right)^6\right],
 \label{eq:LJ}
 \end{equation}
+with the minimum distance $\sigma_0$, the distance $r_\mathrm{ij}$ between particle $i$ and $j$ and the depth of the potential well at the equilibrium distance $r_\mathrm{e}$, which can be seen in figure \ref{fig: LJ}.
+The positive part with a twelfth power-term characterizes the repulsive interactions to the nearest neighbours, whereas the negative part with with a sixth power-term characterizes the attractive electrostatic interactions.\supercite{Skript} 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{LJ.png}
-    \caption{.} 
+    \caption{Potential curve of a Lennard-Jones potential $V\mathrm{ij}$ depending on the particle distance $r_\mathrm{ij}$.\supercite{Skript}} 
     \label{fig: LJ}
 \end{figure}
-
+In MDS reduced properties are used to describe thermodynamical states by defining units and setting the value to 1.0 for shorter calculation times. 
+When using the LJ-potential the fundamental units $\varepsilon_0$, $\sigma_0$ and the mass $m$ are set to 1.0.
+In the experiment the reduced units of pressure $p^{\ast}$ and temperature $T^{\ast}$ are used, which can be calculated with equation \ref{eq:Tred} and \ref{eq:pred}.
 
 \begin{equation}
 T^{\ast} = \frac{k_{\mathrm{B}}\,T}{\varepsilon_0}
 \label{eq:Tred}
 \end{equation}
-
 \begin{equation}
 p^{\ast} = \frac{p\,\sigma_0^{\,3}}{\varepsilon_0}
 \label{eq:pred}
 \end{equation}
 
-
+In an isolated system, where the gaseous and solid phase are in equilibrium and the volume of the gas is much bigger than the volume of the liquid, the Clausius-Clapeyron equation \ref{eq:Clausius} can be used to describe the dependence of the sublimation pressure $p$ on the temperature $T$.
 \begin{equation}
 \ln p=-\frac{\Delta H_{\mathrm{sub}}}{RT}+C
 \label{eq:Clausius}
 \end{equation}
 
-\begin{equation}
-\Delta U_s=U_{\mathrm{lattice}}+U_{\mathrm{vib}}
-\label{eq:Us1}
-\end{equation}
-
+The enthalpy of sublimation $\Delta H_{\mathrm{sub}}$ can be determined by plotting ln $p$ against 1/$T$.
+Argon behaves like an ideal gas at 70 K and the internal energy $\Delta U$ during a phase transition from solid to gaseous is the difference of the corresponding internal energies.
+Because the translational energy of gaseous argon corresponds to the kinetic theory of gases, the total internal energy of the solid $U_\mathrm{s}$ can be calculated with equation \ref{eq:Us1}.
 \begin{equation}
 U_s=\frac{5}{2}RT-\Delta H
 \label{eq:Us2}
 \end{equation}
-
+$U_\mathrm{s}$ consists of two parts, which are described in equation \ref{eq:Us2}.\supercite{Skript}
 \begin{equation}
-U_{\mathrm{vib}}=\frac{9}{8}R\Theta_D + 3RT
+\Delta U_s=U_{\mathrm{lattice}}+U_{\mathrm{vib}}
+\label{eq:Us1}
+\end{equation}
+The first part corresponds with the potential energy of argon atoms at rest on their lattice planes, whereas the second part is the vibrational energy of the atoms.
+For the calculation of $U_{\mathrm{vib}}$, Debyes theory is used, which states that the crystal is composed as independent vibrating lattice atoms with varying frequencies.
+For that the equation \ref{eq:Debye} shows the connection between the vibrational energy and the Debye-temperature $\Theta_D$.
+\begin{equation}
+U_{\mathrm{vib}}=\frac{9}{8}R\Theta_D + 3RT D \left(\mathrm{\frac{\Theta_D}{T}}\right)
 \label{eq:Debye}
 \end{equation}
 
+To calculate the theoretical value of the lattice energy, equation \ref{eq:LatticeEnergy_Pair} can be used, which is derived from the pair potentials $V\mathrm{ij}(r_\mathrm{ij})$ in the LJ-potential equation \ref{eq:LJ}. 
 %Pair potentials
 \begin{equation}
 U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
 \left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]
 \label{eq:LatticeEnergy_Pair}
 \end{equation}
+$N_A$ is Avogadro's constant and $a$ the distance between atoms.
+For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Skript}
+
+\section{Procedure}
+
+
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.8]{setup.png}
+    \caption{Scheme of the measuring apparatus.\supercite{Skript}} 
+    \label{fig: setup}
+\end{figure}
+
+
+\section{Analysis}
+
+\subsection{Molecular Dynamics Simulations}
+
+
+
+
+
+
+\subsection{Lattice Energy of Argon}
+
+
+
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -193,24 +231,7 @@ U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
 \label{eq:HenningOtto}
 \end{equation}
 
-
-
-\section{Procedure}
-
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[scale=0.8]{setup.png}
-    \caption{Scheme of the measuring apparatus.} 
-    \label{fig: setup}
-\end{figure}
-
-\section{Evaluation}
-
-
-
-\section{Error Analysis}
+\section{Error Discussion}
 
 
 \section{Conclusion}
