@@ -42,6 +42,42 @@
       \field{title}{2025-pc2-script-en}
       \field{year}{2025}
     \endentry
+    \entry{Hirschfelder}{book}{}{}
+      \name{author}{3}{}{%
+        {{hash=9db56661ab7bb17c54775b6dfcfb05ae}{%
+           family={Hirschfelder},
+           familyi={H\bibinitperiod},
+           given={Joseph\bibnamedelima O},
+           giveni={J\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+        {{hash=0f83b1272e28f2bd0430898123008614}{%
+           family={Curtiss},
+           familyi={C\bibinitperiod},
+           given={Charles\bibnamedelima F},
+           giveni={C\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=fc1f659d2129d66fb02f7b8ba55cbaa7}{%
+           family={Bird},
+           familyi={B\bibinitperiod},
+           given={R\bibnamedelima Byron},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{c522e63e961ae6b49efe3c87e8797012}
+      \strng{fullhash}{62726f69451e7af9b6597717f7de2bbb}
+      \strng{fullhashraw}{62726f69451e7af9b6597717f7de2bbb}
+      \strng{bibnamehash}{62726f69451e7af9b6597717f7de2bbb}
+      \strng{authorbibnamehash}{62726f69451e7af9b6597717f7de2bbb}
+      \strng{authornamehash}{c522e63e961ae6b49efe3c87e8797012}
+      \strng{authorfullhash}{62726f69451e7af9b6597717f7de2bbb}
+      \strng{authorfullhashraw}{62726f69451e7af9b6597717f7de2bbb}
+      \field{sortinit}{7}
+      \field{sortinithash}{108d0be1b1bee9773a1173443802c0a3}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{The molecular theory of gases and liquids}
+      \field{year}{1964}
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
