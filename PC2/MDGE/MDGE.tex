@@ -135,12 +135,12 @@ For that a numerical algorithm can determine the positions $r_\mathrm{i}$ and mo
 A proven algorithm is the Velocity-Verlet algorithm, which assigns each particle a random starting position and velocity at first before calculating the new positions and velocities a small time step later.
 That is achieved by calculating the new accelerations using the provided potential, e.g. lennard-Jones potential.
 So for the computation of particle trajectories in MDS the equation of motion is integrated and then the forces induced by potentials are calculated.
-To approximate the intermolecular interactions between particles, the Lennard-Jones potential (LJ-potential) $V_\mathrm{ij}$ with equation \ref{eq:LJ} is used.
+To approximate the intermolecular interactions between particles, the Lennard-Jones potential (LJ-potential) $V_\mathrm{ij}$ with equation \ref{eq:LJ} is used.\supercite{Skript}
 \begin{equation}
 V(r_{ij})=4\varepsilon_0\left[\left(\frac{\sigma_0}{r_{ij}}\right)^{12}-\left(\frac{\sigma_0}{r_{ij}}\right)^6\right],
 \label{eq:LJ}
 \end{equation}
-with the minimum distance $\sigma_0$, the distance $r_\mathrm{ij}$ between particle $i$ and $j$ and the depth of the potential well at the equilibrium distance $r_\mathrm{e}$, which can be seen in figure \ref{fig: LJ}.
+$\sigma_0$ describes the minimum distance, $r_\mathrm{ij}$ the distance between particle $i$ and $j$ and $\varepsilon_0$ the depth of the potential well at the equilibrium distance $r_\mathrm{e}$, which can be seen in figure \ref{fig: LJ}.
 The positive part with a twelfth power-term characterizes the repulsive interactions to the nearest neighbours, whereas the negative part with with a sixth power-term characterizes the attractive electrostatic interactions.\supercite{Skript} 
 
 \begin{figure}[H]
