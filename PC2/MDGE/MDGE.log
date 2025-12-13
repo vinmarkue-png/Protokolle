@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  13 DEC 2025 13:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  13 DEC 2025 13:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -144,15 +144,19 @@ LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) o
  (c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
- (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
-Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
- (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 12.
-) (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
-Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
-Package babel Info: Making " an active character on input line 122.
-))) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
+ (c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+ (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
+Package babel Info: Importing font and identification data for english
+(babel)             from babel-en.ini. Reported on input line 12.
+)
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language22). Reported on input line 108.
+)) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2025/06/16 v2.17y AMS math features
 \@mathmargin=\skip65
 
@@ -1062,7 +1066,7 @@ Package hyperref Info: Option `linktocpage' set `true' on input line 36.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
+Package csquotes Info: Redefining alias 'default' -> 'english'.
 Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           Using `bookmark' together with `hyperref' is recommended,
 (scrartcl)           because of handling of possible bookmark level gaps.
@@ -1076,10 +1080,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count503
-)) (./MDGE.aux
-Package babel Info: 'ngerman' activates 'ngerman' shorthands.
-(babel)             Reported on input line 11.
-)
+)) (./MDGE.aux)
 \openout1 = `MDGE.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
@@ -1100,6 +1101,15 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
 LaTeX Font Info:    ... okay on input line 79.
+Package scrbase Info: activating english \abstractname on input line 79.
+Package scrbase Info: activating english \partname on input line 79.
+Package scrbase Info: activating english \figurename on input line 79.
+Package scrbase Info: activating english \tablename on input line 79.
+Package scrbase Info: activating english \contentsname on input line 79.
+Package scrbase Info: activating english \listfigurename on input line 79.
+Package scrbase Info: activating english \listtablename on input line 79.
+Package scrbase Info: activating english \refname on input line 79.
+Package scrbase Info: activating english \indexname on input line 79.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
@@ -1163,24 +1173,15 @@ Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PDF
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
-File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
+)) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 79.
-Package biblatex Info: Trying to load language 'ngerman'...
-Package biblatex Info: ... file 'ngerman.lbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
-File: ngerman.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 79.
+Package biblatex Info: Trying to load language 'english'...
+Package biblatex Info: ... file 'english.lbx' found.
+ (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
+File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 )
-Package biblatex Info: Trying to load language 'german'...
-Package biblatex Info: ... file 'german.lbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/german.lbx
-File: german.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1194,7 +1195,6 @@ Package biblatex Info: Reference segment=0 on input line 79.
 
 Package chemgreek Info: Activating mapping `default' on line 79.
 
-Package scrbase Info: activating ngerman \figurename on input line 79.
 LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1288,15 +1288,15 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41515 strings out of 467748
- 879969 string characters out of 5431137
- 1839420 words of memory out of 5000000
- 69641 multiletter control sequences out of 15000+600000
+ 41427 strings out of 467748
+ 878755 string characters out of 5431137
+ 1822146 words of memory out of 5000000
+ 69563 multiletter control sequences out of 15000+600000
  643110 words of font info for 72 fonts, out of 8000000 for 9000
- 1143 hyphenation exceptions out of 8191
- 108i,20n,107p,11281b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1141 hyphenation exceptions out of 8191
+ 108i,20n,107p,11281b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MDGE.pdf (7 pages, 338744 bytes).
+Output written on MDGE.pdf (7 pages, 338152 bytes).
 PDF statistics:
  286 PDF objects out of 1000 (max. 8388607)
  178 compressed objects within 2 object streams
