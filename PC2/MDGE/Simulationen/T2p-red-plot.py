@@ -33,7 +33,7 @@ pressure2_smooth = pressure2.rolling(window=5, center=True).mean()
 plt.figure(figsize=(8,5))
 
 plt.plot(temp1, pressure1_smooth, label="T2p1", linewidth=2)
-plt.plot(temp2, pressure2_smooth, label="T2p2", linewidth=2)
+plt.plot(temp2, pressure2_smooth, label="T2p2", linewidth=2, color="tab:red")
 
 plt.xlabel("Reduced temperature")
 plt.ylabel("Reduced pressure")
