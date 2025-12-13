@@ -1,20 +1,21 @@
 # Fdb version 4
-["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765126785.04507 0
+["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765631215.80289 0
   "EPR.bcf" 0 -1 0 "pdflatex"
   "lit.bib" 0 -1 0 ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1765126781.47667 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765126785.04605 0
-  "EPR.aux" 1765126784 2196 d78f908a114f078fad25ed8e898b2a93 "pdflatex"
+["pdflatex"] 1765631212.19427 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765631215.8038 0
+  "EPR.aux" 1765631214 2196 d318be147b38c45ff147dddf2e7629b5 "pdflatex"
   "EPR.bbl" 0 -1 0 "biber EPR"
-  "EPR.run.xml" 1765126784 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1765126776 4009 26075f20a7be555248e8d6f352f61eff ""
-  "EPR.toc" 1765126784 442 00bc122c0fa6a245ac4771709ed4e15f "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765126776 4009 26075f20a7be555248e8d6f352f61eff ""
+  "EPR.run.xml" 1765631214 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1765631211 3913 16a1df3f783e06890012c3407ddfd41e ""
+  "EPR.toc" 1765631214 442 00bc122c0fa6a245ac4771709ed4e15f "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765631211 3913 16a1df3f783e06890012c3407ddfd41e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm" 1761073056 3584 0181dbc4d429c3ba4e30feba37b5df96 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1761073056 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
@@ -41,9 +42,9 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761072415 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761072415 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761072415 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1761072433 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1761072433 135938 1a19ff976dd71ec9a67855cdbfd83710 ""
-  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1761072433 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb" 1761072433 131078 3adc08bf3d7686c3b3220602214807d7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1761072433 131438 c8884c67ccd7382f731c139fbb34a6cb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb" 1761072433 150680 200f05869e9022d53b4b32fa48743f62 ""
