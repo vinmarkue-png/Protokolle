@@ -1,0 +1,58 @@
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+
+# ---------- Konstanten ----------
+k_B = 1.380649e-23        # J/K
+epsilon_0 = 1.643e-21     # J  (BEISPIEL – ggf. anpassen)
+sigma_0 = 3.41e-10       # m  (BEISPIEL – ggf. anpassen)
+
+# ---------- Funktion zum Einlesen ----------
+def load_data(filepath):
+    data = pd.read_csv(
+        filepath,
+        skiprows=4,
+        sep=r"\s+",
+        engine="python",
+        names=["T_red", "p_red", "time"]
+    )
+
+    data["T_red"] = pd.to_numeric(data["T_red"], errors="coerce")
+    data["p_red"] = pd.to_numeric(data["p_red"], errors="coerce")
+    data = data.dropna()
+
+    return data["T_red"], data["p_red"]
+
+# ---------- Datensätze laden ----------
+Tred1, pred1 = load_data(
+    r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\MDGE\Simulationen\A05\default\nvt-out.dat"
+)
+
+Tred2, pred2 = load_data(
+    r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\MDGE\Simulationen\A05\default\nvt-out_task_2.dat"
+)
+
+# ---------- Umrechnung in reale Größen ----------
+T1 = (Tred1 * epsilon_0) / k_B
+p1 = (pred1 * epsilon_0) / sigma_0**3
+
+T2 = (Tred2 * epsilon_0) / k_B
+p2 = (pred2 * epsilon_0) / sigma_0**3
+
+# ---------- Glätten ----------
+p1_smooth = p1.rolling(window=5, center=True).mean()
+p2_smooth = p2.rolling(window=5, center=True).mean()
+
+# ---------- Plot ----------
+plt.figure(figsize=(8,5))
+
+plt.plot(T1, p1_smooth, label="T2p1", linewidth=2)
+plt.plot(T2, p2_smooth, label="T2p2", linewidth=2)
+
+plt.xlabel("Temperature T / K")
+plt.ylabel("Pressure p / Pa")
+plt.ylim(bottom=0)
+plt.grid(False)
+plt.legend()
+plt.tight_layout()
+plt.show()
