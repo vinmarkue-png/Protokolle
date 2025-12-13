@@ -1,21 +1,21 @@
 # Fdb version 4
-["biber MDGE"] 1765630401.56398 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765631071.15135 0
-  "MDGE.bcf" 1765631070 108739 5efb531318a35237e1efba1445b67f4e "pdflatex"
+["biber MDGE"] 1765630401.56398 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765631464.31727 0
+  "MDGE.bcf" 1765631463 108739 5efb531318a35237e1efba1445b67f4e "pdflatex"
   "lit.bib" 1765447379 354 d31efc63e3c895741b0ed5433d7c873c ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765631067.88246 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765631071.15237 0
+["pdflatex"] 1765631461.06893 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765631464.31806 0
   "LJ.png" 1765385870 15568 8582ef2e9a3dfb933ec87e9476e2bd1d ""
-  "MDGE.aux" 1765631070 5515 c081243b70960aeeb74ea70d8892fc7b "pdflatex"
+  "MDGE.aux" 1765631463 5748 1262eb4acf6362374da9c673aebb3314 "pdflatex"
   "MDGE.bbl" 1765630414 3209 99ecaa7fbe4c194d01da0aadc7a8e4c0 "biber MDGE"
-  "MDGE.run.xml" 1765631070 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
-  "MDGE.tex" 1765631066 9575 2dbef91f2dff03335c2aa65ca9e30908 ""
-  "MDGE.toc" 1765631070 675 2562e0ff4f4f1be9a359b26b8bdfd415 "pdflatex"
+  "MDGE.run.xml" 1765631463 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
+  "MDGE.tex" 1765631456 9648 374cf16bacf7b967cd728704add15609 ""
+  "MDGE.toc" 1765631463 738 cbd406fe51a182ede2f6dc707236ef19 "pdflatex"
   "Simulationen/T2p+exp.pdf" 1765624421 13986 bb1d72c72d4e2e7158ef2234e88385f1 ""
   "Simulationen/T2p-red.pdf" 1765624894 12920 d2f5187d80b352198f595f3cda68d7d0 ""
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765631066 9575 2dbef91f2dff03335c2aa65ca9e30908 ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765631456 9648 374cf16bacf7b967cd728704add15609 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
