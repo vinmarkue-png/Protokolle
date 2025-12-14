@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  14 DEC 2025 10:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  14 DEC 2025 11:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1213,7 +1213,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<LJ.png, id=54, 336.0555pt x 208.3785pt>
+<LJ.png, id=58, 336.0555pt x 208.3785pt>
 File: LJ.png Graphic file (type png)
 <use LJ.png>
 Package pdftex.def Info: LJ.png  used on input line 148.
@@ -1233,10 +1233,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has
                                                   \__shipout_drop_firstpage_...
 l.159 \end{equation}
                      <./LJ.png>]
-<setup.png, id=86, 497.4585pt x 247.52475pt>
+<setup.png, id=90, 497.4585pt x 247.52475pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
-Package pdftex.def Info: setup.png  used on input line 208.
+Package pdftex.def Info: setup.png  used on input line 212.
 (pdftex.def)             Requested size: 397.96733pt x 198.02007pt.
 
 
@@ -1244,26 +1244,26 @@ Package pdftex.def Info: setup.png  used on input line 208.
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.212 
+l.216 
        [2]
 
 [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.213 \newpage
+l.217 \newpage
                <./setup.png>]
 
 [4]
-<Simulationen/T2p-red.pdf, id=110, 578.16pt x 361.35pt>
+<Simulationen/T2p-red.pdf, id=115, 578.16pt x 361.35pt>
 File: Simulationen/T2p-red.pdf Graphic file (type pdf)
 <use Simulationen/T2p-red.pdf>
-Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 241.
+Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 245.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
-<Simulationen/T2p+exp.pdf, id=111, 578.16pt x 361.35pt>
+<Simulationen/T2p+exp.pdf, id=116, 578.16pt x 361.35pt>
 File: Simulationen/T2p+exp.pdf Graphic file (type pdf)
 <use Simulationen/T2p+exp.pdf>
-Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 248.
+Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 252.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
 
 
@@ -1271,14 +1271,14 @@ Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 248.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.252 
+l.256 
        <./Simulationen/T2p-red.pdf>]
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.271 \end{document}
+l.275 \end{document}
                      <./Simulationen/T2p+exp.pdf>] (./MDGE.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1289,18 +1289,18 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41449 strings out of 467748
- 879365 string characters out of 5431137
- 1822127 words of memory out of 5000000
- 69580 multiletter control sequences out of 15000+600000
+ 41453 strings out of 467748
+ 879405 string characters out of 5431137
+ 1823127 words of memory out of 5000000
+ 69582 multiletter control sequences out of 15000+600000
  643110 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,11281b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MDGE.pdf (8 pages, 339080 bytes).
+Output written on MDGE.pdf (8 pages, 339138 bytes).
 PDF statistics:
- 313 PDF objects out of 1000 (max. 8388607)
- 203 compressed objects within 3 object streams
- 35 named destinations out of 1000 (max. 500000)
- 129 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 326 PDF objects out of 1000 (max. 8388607)
+ 216 compressed objects within 3 object streams
+ 37 named destinations out of 1000 (max. 500000)
+ 145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
