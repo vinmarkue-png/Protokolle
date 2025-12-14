@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 20:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  14 DEC 2025 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1247,26 +1247,37 @@ File: Simulationen/T2p-red.pdf Graphic file (type pdf)
 <use Simulationen/T2p-red.pdf>
 Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 263.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
-
-
-LaTeX Warning: Reference `tab: experiment' on page 6 undefined on input line 270.
-
 <Simulationen/T2p+exp.pdf, id=122, 578.16pt x 361.35pt>
 File: Simulationen/T2p+exp.pdf Graphic file (type pdf)
 <use Simulationen/T2p+exp.pdf>
 Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 273.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
-[6
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.277 \autoref{
-               fig: T2p-exp} shows that the sublimation curve of the longer ... <./Simulationen/T2p-red.pdf>] [7
+               fig: T2p-exp} shows that the sublimation curve of the longer ... <./Simulationen/T2p-red.pdf>]
+<Simulationen/3_1.pdf, id=159, 722.7pt x 433.62pt>
+File: Simulationen/3_1.pdf Graphic file (type pdf)
+<use Simulationen/3_1.pdf>
+Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 286.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.297 \printbibliography[title={References}]
-                                             <./Simulationen/T2p+exp.pdf>] [8] (./MDGE.aux)
+l.290 
+       <./Simulationen/T2p+exp.pdf>]
+
+LaTeX Warning: Reference `fig:t3p3' on page 8 undefined on input line 292.
+
+[8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.308 \printbibliography[title={References}]
+                                             <./Simulationen/3_1.pdf>] [9] (./MDGE.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
@@ -1280,18 +1291,18 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41490 strings out of 467537
- 880425 string characters out of 5423703
- 1830096 words of memory out of 5000000
- 69828 multiletter control sequences out of 15000+600000
+ 41500 strings out of 467537
+ 880654 string characters out of 5423703
+ 1830191 words of memory out of 5000000
+ 69836 multiletter control sequences out of 15000+600000
  643110 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,11305b,2209s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,108p,11305b,2207s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MDGE.pdf (10 pages, 341814 bytes).
+Output written on MDGE.pdf (11 pages, 356533 bytes).
 PDF statistics:
- 333 PDF objects out of 1000 (max. 8388607)
- 221 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 137 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 370 PDF objects out of 1000 (max. 8388607)
+ 234 compressed objects within 3 object streams
+ 39 named destinations out of 1000 (max. 500000)
+ 142 words of extra memory for PDF output out of 10000 (max. 10000000)
 

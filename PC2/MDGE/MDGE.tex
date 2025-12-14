@@ -267,7 +267,7 @@ The temperatures and pressures calculated in the simulations of the second task 
 Both simulations show a very low incline before the sublimation, a steep slope while the sublimation and a transition into a linear increase of the pressure after the sublimation has ended.
 By increasing the number of iteration steps and the number of iterations per temperature from the first simulation T2p1 to the second T2p2, the begin of the big increase in pressure shifts to a higher temperature, while both curves lead to the same value of pressure, from which on they show the same linear increase.
 To compare the simulation results to the experimental results, the values of the reduced temperature and pressure are converted from reduced units into Kelvin and Pascal by using equations \ref{eq:Tred} and \ref{eq:pred}.
-The new values are then plotted with the experimental data from \ref{tab: experiment}, which is shown \autoref{fig: T2p-exp}.
+The new values are then plotted with the experimental data from, which is shown \autoref{fig: T2p-exp}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/T2p+exp.pdf}
@@ -281,7 +281,16 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 \subsubsection{Isobaric simulations} % Julian
 
+\begin{figure}[H]
+ \centering
+    \includegraphics[width=1.0\textwidth]{Simulationen/3_1.pdf}
+    \caption{The volume plotted over the reduced temperature for the three simulations.} 
+    \label{fig: 3_1}
+\end{figure}
 
+Plot T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. Plot T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
+A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume--temperature curve and minimal background noise, as observed in plot~\ref{fig:t3p3}.
+Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot, which is much more pronounced than in plots and. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
 
 
 \subsection{Lattice Energy of Argon} % Elvis
