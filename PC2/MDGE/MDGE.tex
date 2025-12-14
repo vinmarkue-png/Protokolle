@@ -146,7 +146,7 @@ The positive part with a twelfth power-term characterizes the repulsive interact
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{LJ.png}
-    \caption{Potential curve of a Lennard-Jones potential $V\mathrm{ij}$ depending on the particle distance $r_\mathrm{ij}$.\supercite{Skript}} 
+    \caption{Potential curve of a Lennard-Jones potential $V_\mathrm{ij}$ depending on the particle distance $r_\mathrm{ij}$.\supercite{Skript}} 
     \label{fig: LJ}
 \end{figure}
 In MDS reduced properties are used to describe thermodynamical states by defining units and setting the value to 1.0 for shorter calculation times. 
@@ -198,9 +198,13 @@ U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
 $N_A$ is Avogadro's constant and $a$ the distance between atoms.
 For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Hirschfelder}
 
-\section{Procedure}
+\section{Procedure} % Julian
 
-Die messung war super!!
+\subsection{Molecular Dynamics Simulations}
+
+
+\subsection{Lattice Energy of Argon}
+
 
 
 \begin{figure}[H]
@@ -210,8 +214,9 @@ Die messung war super!!
     \label{fig: setup}
 \end{figure}
 
+\newpage
 
-\section{Results}
+\section{Results} % Elvis
 
 
 \begin{equation}
@@ -222,30 +227,46 @@ Die messung war super!!
 
 % Tabelle mit Messdaten von Argon Experiment
 
+% \label{tab: experiment}
+
+\newpage
+
 \section{Analysis}
 
 \subsection{Molecular Dynamics Simulations}
 
+%\subsubsection{Visualization of the particle movement} % ?
 
+
+\subsubsection{Isochor simulations} % Vincent
+
+The temperatures and pressures calculated in the simulations of the second task are reported in reduced units and shown in \autoref{fig: T2p-red}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/T2p-red.pdf}
-    \caption{} 
+    \caption{The reduced temperature is plotted against the reduced pressure for 100 cycles and 1000 steps (T2p1, blue) and for 200 cycles and 4000 steps (T2p2, red).} 
     \label{fig: T2p-red}
 \end{figure}
-
+Both simulations show a very low incline before the sublimation, a steep slope while the sublimation and a transition into a linear increase of the pressure after the sublimation has ended.
+By increasing the number of iteration steps and the number of iterations per temperature from the first simulation T2p1 to the second T2p2, the begin of the big increase in pressure shifts to a higher temperature, while both curves lead to the same value of pressure, from which on they show the same linear increase.
+To compare the simulation results to the experimental results, the values of the reduced temperature and pressure are converted from reduced units into Kelvin and Pascal by using equations \ref{eq:Tred} and \ref{eq:pred}.
+The new values are then plotted with the experimental data from \ref{tab: experiment}, which is shown \autoref{fig: T2p-exp}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/T2p+exp.pdf}
-    \caption{} 
+    \caption{The converted temperature is plotted against the converted pressure from the short simulation (T2p1, blue), long simulation (T2p2, red) and the experimental values (green).} 
     \label{fig: T2p-exp}
 \end{figure}
+\autoref{fig: T2p-exp} shows that the sublimation curve of the longer simulation with more iteration steps and cycles is closer to the experimental data than the shorter simulation. 
+But still, the experimental sublimation curve is located around 10K higher, which can be caused by the approximation of the interactions, which are made in the Lennard-Jones potential.
+Furthermore, it can be concluded that a higher computation time with more iteration steps and cycles in the Velocity-Verlet algorithm would be necessary to fit the simulation values to the experimental values.
 
 
+\subsubsection{Isobaric simulations} % Julian
 
 
-\subsection{Lattice Energy of Argon}
+\subsection{Lattice Energy of Argon} % Elvis
 
 
 
