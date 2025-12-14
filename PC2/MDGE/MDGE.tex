@@ -110,7 +110,10 @@
 \large{submission date:} & \large{\PROTOKOLLDATUM}
 \end{tabular}
 \end{center}
+
 \vspace{1cm}
+
+
 \textbf{Abstract:}
 
 
@@ -198,12 +201,25 @@ U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
 $N_A$ is Avogadro's constant and $a$ the distance between atoms.
 For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Hirschfelder}
 
-\section{Procedure} % Julian
+\section{Procedure}
 
 \subsection{Molecular Dynamics Simulations}
 
+The computational work consisted of three sequential simulation tasks carried out using pre-written Python programs. In the first task, the behavior of argon particles was investigated under conditions of increasing temperature at constant pressure. 
+The simulation focused on visualizing particle motion and the associated expansion of the system volume. To achieve this, the number of cooling steps was gradually increased, followed by an adjustment of the interaction potential depth in order to observe its influence on the system dynamics.
+
+In the second task, the sublimation behavior of argon was studied by analyzing the relationship between temperature and pressure at constant volume. Two simulations were performed with different numerical resolutions. Initially, the system was simulated using 100 cycles with 1000 steps. 
+In a subsequent run, the parameters were increased to 200 cycles and 4000 steps. The resulting pressure--temperature dependence obtained from the simulations was then compared with the experimental measurements.
+
+The third task addressed the temperature dependence of the system volume. For this purpose, three simulations with progressively increased numerical accuracy were carried out. The first simulation employed 50 cooling cycles with 100 cooling steps, 
+followed by 10 cycles and 100 steps. In the second simulation, the cooling cycles were increased to 100, the cooling steps to 1000, and the number of cycles to 100. In the final simulation, the number of steps was further increased to 1000. The results of these simulations were compared in order to analyze phase transitions and to determine the melting and boiling points of argon.
+
 
 \subsection{Lattice Energy of Argon}
+
+The experimental setup was preassembled prior to the start of the measurements as shown in figure \ref{fig: setup} . The experiment began with the removal of residual gases from the system. This was achieved by flushing the apparatus with nitrogen gas followed by evacuation. Subsequently, the pressure was monitored for two minutes to verify the absence of leaks. After confirming system integrity, the argon chamber was adjusted to a pressure of approximately 250 mbar and cooled to 63.9 K, leading to a pressure decrease to about 20 mbar. 
+At this stage, the measured pressure served as an indicator of gas purity, as significantly higher pressures would indicate contamination by other gases. Once a pressure of approximately 15.4 mbar was reached, the nitrogen chamber was filled to the required level and likewise cooled to 63.9 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the vacuum pump was activated. Pumping nitrogen gas from the Dewar further reduced the system temperature.
+Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds. These data were later compared with the results from the second simulation task and used for the determination of the lattice energy of argon.
 
 
 
@@ -264,6 +280,8 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 
 \subsubsection{Isobaric simulations} % Julian
+
+
 
 
 \subsection{Lattice Energy of Argon} % Elvis
