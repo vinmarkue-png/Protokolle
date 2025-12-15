@@ -199,7 +199,6 @@ U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
 \label{eq:LatticeEnergy_Pair}
 \end{equation}
 $N_A$ is Avogadro's constant and $a$ the distance between atoms.
-For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Hirschfelder}
 
 \section{Procedure}
 
@@ -207,10 +206,8 @@ For Argon the best values, which were determined from other properties of the ga
 
 The computational work consisted of three sequential simulation tasks carried out using pre-written Python programs. In the first task, the behavior of argon particles was investigated under conditions of increasing temperature at constant pressure. 
 The simulation focused on visualizing particle motion and the associated expansion of the system volume. To achieve this, the number of cooling steps was gradually increased, followed by an adjustment of the interaction potential depth in order to observe its influence on the system dynamics.
-
 In the second task, the sublimation behavior of argon was studied by analyzing the relationship between temperature and pressure at constant volume. Two simulations were performed with different numerical resolutions. Initially, the system was simulated using 100 cycles with 1000 steps. 
 In a subsequent run, the parameters were increased to 200 cycles and 4000 steps. The resulting pressure-temperature dependence obtained from the simulations was then compared with the experimental measurements.
-
 The third task addressed the temperature dependence of the system volume. For this purpose, three simulations with progressively increased numerical accuracy were carried out. The first simulation employed 50 cooling cycles with 100 cooling steps, 
 followed by 10 cycles and 100 steps. In the second simulation, the cooling cycles were increased to 100, the cooling steps to 1000, and the number of cycles to 100. In the final simulation, the number of steps was further increased to 1000. The results of these simulations were compared in order to analyze phase transitions and to determine the melting and boiling points of argon.
 
@@ -220,7 +217,7 @@ followed by 10 cycles and 100 steps. In the second simulation, the cooling cycle
 The experimental setup was preassembled prior to the start of the measurements as shown in figure \ref{fig: setup}. 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.8]{setup.png}
+    \includegraphics[width=0.85\textwidth]{setup.png}
     \caption{Scheme of the measuring apparatus.\supercite{Skript}} 
     \label{fig: setup}
 \end{figure}
@@ -232,7 +229,9 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \newpage
 
 \section{Results} % Elvis
-In order to calculate the lattice energy of argon, the meassured sublimation energy must first be calculated. This can be done by using the Henning-Otto-Equation \autoref{eq:HenningOtto}, wich uses the meassured pressure of nitrogen after conversion into torr to calculate the temperature of the system.
+% 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
+
+This can be done by using the Henning-Otto-Equation \autoref{eq:HenningOtto}, wich uses the meassured pressure of nitrogen after conversion into torr to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -335,7 +334,8 @@ T = \frac{\,T^{\ast}\,\varepsilon_0}{k_{\mathrm{B}}}
 p = \frac{\,p^{\ast}\,\varepsilon_0}{\sigma_0^{\,3}}
 \label{eq:p}
 \end{equation}
-The new values are then plotted with the experimental data from, which is shown \autoref{fig: T2p-exp}.
+For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Hirschfelder}
+By inserting these values in equation \ref{eq:T} and \ref{eq:p}, the values of $T$ and $p$ are calculated and then plotted with the experimental data from table \ref{tab: experiment1}, which is shown in \autoref{fig: T2p-exp}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/T2p+exp.pdf}
@@ -362,12 +362,13 @@ Higher step and cycle counts also allow the phase transitions to be identified m
 
 
 \subsection{Lattice Energy of Argon} % Elvis
-The sublimation enthalpy can now be determined by plotting the natural logarithm of the pressure of argon in bar from table \ref{tab: experiment1} against $\frac{1}{\mathrm{T}}$. 
+In order to calculate the lattice energy of argon, the meassured sublimation enthalpy must first be calculated.
+The sublimation enthalpy can be determined by plotting the natural logarithm of the pressure of argon in bar from table \ref{tab: experiment1} against $\frac{1}{\mathrm{T}}$. 
 \autoref{fig: LogPlot} shows the the plotted data.
 
 \begin{figure}[H]
     \centering
-    \includegraphics[scale=0.9]{Sub_Plot.png}
+    \includegraphics[width=1.0\textwidth]{Sub_Plot.png}
     \caption{Plot of the logarithm of the pressure of argon in bar over $\frac{1}{\mathrm{T}}$.} 
     \label{fig: LogPlot}
 \end{figure}
