@@ -225,7 +225,7 @@ The experimental setup was preassembled prior to the start of the measurements a
 \end{figure}
 The experiment began with the removal of residual gases from the system. This was achieved by flushing the apparatus with nitrogen gas followed by evacuation. Subsequently, the pressure was monitored for two minutes to verify the absence of leaks. After confirming system integrity, the argon chamber was adjusted to a pressure of approximately 250 mbar and cooled to 63.9 K, leading to a pressure decrease to about 20 mbar. 
 At this stage, the measured pressure served as an indicator of gas purity, as significantly higher pressures would indicate contamination by other gases. Once a pressure of approximately 15.4 mbar was reached, the nitrogen chamber was filled to the required level and likewise cooled to 63.9 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the vacuum pump was activated. Pumping nitrogen gas from the Dewar further reduced the system temperature.
-Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds. These data were later compared with the results from the second simulation task and used for the determination of the lattice energy of argon.
+Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds. This data was later compared with the results from the second simulation task and used for the determination of the lattice energy of argon.
 
 
 \newpage
@@ -233,7 +233,7 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \section{Results} % Elvis
 % 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
 
-This can be done by using the Henning-Otto-Equation \autoref{eq:HenningOtto}, wich uses the meassured pressure of nitrogen after conversion into torr to calculate the temperature of the system.
+The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation (\ref{eq:HenningOtto}), wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in \autoref{tab: experiment1}, to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -247,7 +247,7 @@ This can be done by using the Henning-Otto-Equation \autoref{eq:HenningOtto}, wi
     \centering
     \caption{Listed are the meassured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system. \\}
 \begin{tabular}{c|c|c|c|c}
-t  $[s]$ & p(Ar) $[bar]$ & N2 $[bar]$ & p(Ar) $[torr]$ & T $[K]$ \\
+t  $[s]$ & p(Ar) $[bar]$ & N2 $[bar]$ & p(Ar) $[Torr]$ & T $[K]$ \\
 \hline
 0 & 0.1540 & 1.4440 & 11.5510 & 63.8906 \\
 30 & 0.1760 & 1.5000 & 13.2011 & 64.1048 \\
@@ -370,7 +370,7 @@ The sublimation enthalpy can be determined by plotting the natural logarithm of 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{Sub_Plot.png}
+    \includegraphics[width=1.0\textwidth]{Hsub_plot.pdf}
     \caption{Plot of the logarithm of the pressure of argon in bar over $\frac{1}{\mathrm{T}}$.} 
     \label{fig: LogPlot}
 \end{figure}
@@ -381,40 +381,40 @@ The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{
 \end{equation*}
 the sublimation enthalpy of argon can be calculated as $\SI{8325.640}{\frac{J}{mol}}$.\\
 
-By using \autoref{eq:Us2} the inner energy of argon can be calculated.
+By using equation \ref{eq:Us2} the inner energy of argon can be calculated.
 \begin{align*}
     U_s &= \frac{5}{2}RT-\Delta H_{\mathrm{sub}}\\
     &= \frac{5}{2} \cdot \SI{8.314}{\frac{J}{mol \cdot K}} \cdot \SI{70}{K} - \SI{8325.640}{\frac{J}{mol}}\\
     &= -\SI{6870.69}{\frac{J}{mol}} 
 \end{align*}
 
-As \autoref{eq:Us1} shows, the lattice energy can be calculated with the internal energy and the vibrational energy. Therefore the vibrational energy has to be calculated, wich can be done by using \autoref{eq:Debye}. The Debye temperature $\Theta_D = \SI{85}{K}$ and the Debye funktion $D\left(\frac{\Theta}{T}\right) = \SI{0.617}{}$ at 70 K are given, wich means the vibrational energy can be calculated as
+As equation \ref{eq:Us1} shows, the lattice energy can be calculated with the internal energy and the vibrational energy. Therefore the vibrational energy has to be calculated, wich can be done by using equation \ref{eq:Debye}. The Debye temperature $\Theta_D = \SI{85}{K}$ and the Debye funktion $D\left(\frac{\Theta}{T}\right) = \SI{0.617}{}$ at 70 K are given, wich means the vibrational energy can be calculated as
 \begin{align*}
     U_{\mathrm{vib}} &=\frac{9}{8}R\Theta_D + 3RT D \left(\mathrm{\frac{\Theta_D}{T}}\right)\\
     &= \frac{9}{8}~\cdot~ \SI{8.314}{\frac{J}{mol \cdot K}}~\cdot~ \SI{85}{K} + 3~ \cdot~ \SI{8.314}{\frac{J}{mol \cdot K}} ~\cdot ~\SI{70}{K}~ \cdot~ \SI{0.617}{}\\
     &= \SI{1872.271}{\frac{J}{mol}}
 \end{align*}
 
-The lattice energy can now be calculated by rearranging \autoref{eq:Us1}.
+The lattice energy can now be calculated by rearranging equation \ref{eq:Us1}.
 \begin{align*}
     U_\mathrm{lattice,D} &= U_s - U_{\mathrm{vib}}\\
     &= -\SI{6870.69}{\frac{J}{mol}} - \SI{1872.271}{\frac{J}{mol}}\\
     &= -\SI{8742,961}{\frac{J}{mol}}
 \end{align*}
 
-An alternative method of calculating the lattice energy is by using \autoref{eq:LatticeEnergy_Pair}. To do this, the minimal distance $a$ between atoms has to be calculated by using the equation for a face-centered cubic lattice and the lattice constant of argon wich is given as $5.43 ~\cdot~ 10^{-10}~$ m.
+An alternative method of calculating the lattice energy is by using equation \ref{eq:LatticeEnergy_Pair}. To do this, the minimal distance $a$ between atoms has to be calculated by using the equation for a face-centered cubic lattice and the lattice constant of argon wich is given as $\SI{5.43 e-10}{m}$.
 \begin{align*}
-    a &= \frac{1}{\sqrt{2}} ~ \cdot ~ 5.43 ~\cdot~ 10^{-10}~\mathrm{m}\\
-    &= 3.78 \cdot 10^{-10}~\mathrm{m}
+    a &= \frac{1}{\sqrt{2}} ~ \cdot ~ \SI{5.43 e-10}{m}\\
+    &= \SI{3.78 e-10}{m}
 \end{align*}
-With $\sigma_0$ for argon given as $3.41 ~\cdot~ 10^{-10}~\mathrm{m}$ and $\epsilon_0$ from the lennerd-jones potential given as $1.643 ~\cdot~ 10^{-21}~\mathrm{J}$ the lattice energy can now be calculated. 
+With $\sigma_0$ for argon given as $\SI{3.41 e-10}{m}$ and $\epsilon_0$ from the lennerd-jones potential given as $\SI{1.643 e-21}{J}$ the lattice energy can now be calculated. 
 
 \begin{align*}
 U_{\mathrm{lattice,E}}(s) &=2 N_A \varepsilon_0
 \left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]\\
-&= 2 ~ \cdot~ 6.022 ~\cdot~ 10^{23}~\mathrm{\frac{1}{mol}} ~ \cdot~ 1.643 ~\cdot~ 10^{-21}~\mathrm{J}\\ ~ 
-&\cdot ~ \left[12.132~\cdot~ \left(\frac{3.41 ~\cdot~ 10^{-10}~\mathrm{m}}{3.78 ~\cdot~ 10^{-10}~\mathrm{m}}\right)^{12}
-~-~ 14.454 ~\cdot~\left(\frac{3.41 ~\cdot~ 10^{-10}~\mathrm{m}}{3.78 ~\cdot~ 10^{-10}~\mathrm{m}}\right)^{6} \right]\\
+&= 2 ~ \cdot~ \SI{6.022 e23}{\frac{1}{mol}} ~ \cdot~ \SI{1.643 e-21}{J}\\ 
+&\cdot ~ \left[12.132~\cdot~ \left(\frac{\SI{3.41 e-10}{m}}{\SI{3.78 e-10}~\mathrm{m}}\right)^{12}
+~-~ 14.454 ~\cdot~\left(\frac{\SI{3.41 e-10}{m}}{\SI{3.78 e-10}{m}}\right)^{6} \right]\\
 &= - \SI{8441.849}{\frac{J}{mol}}
 \end{align*}
 In comparison, the calculated lattice energies have a deviation of approximately 3.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.
