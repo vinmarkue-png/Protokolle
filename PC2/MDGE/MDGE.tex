@@ -233,7 +233,7 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \newpage
 
 \section{Results} % Elvis
-
+In order to calculate the lattice energy of argon, the meassured sublimation energy must first be calculated. This can be done by using the Henning-Otto-Equation \autoref{eq:HenningOtto}, wich uses the meassured pressure of nitrogen after conversion into torr to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -241,7 +241,114 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \label{eq:HenningOtto}
 \end{equation}
 
+The sublimation enthalpy can now be determined by plotting the natural logarithm of the pressure of argon in bar against $\frac{1}{\mathrm{T}}$. \autoref{fig: LogPlot} shows the the plotted data.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[scale=0.9]{Sub_Plot.png}
+    \caption{Plot of the logarithm of the pressure of argon in bar over $\frac{1}{\mathrm{T}}$.} 
+    \label{fig: LogPlot}
+\end{figure}
+
+The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By using the equation
+\begin{equation*}
+    \Delta H_\mathrm{sub} = \mathrm{m} \cdot R
+\end{equation*}
+the sublimation enthalpie of argon can be calculated as $\SI{8325.640}{\frac{J}{mol}}$.\\
+
+By using \autoref{eq:Us2} the inner energy of argon can be calculated.
+\begin{align*}
+    U_s &= \frac{5}{2}RT-\Delta H_{\mathrm{sub}}\\
+    &= \frac{5}{2} \cdot \SI{8.314}{\frac{J}{mol \cdot K}} \cdot \SI{70}{K} - \SI{8325.640}{\frac{J}{mol}}\\
+    &= -\SI{6870.69}{\frac{J}{mol}} 
+\end{align*}
+
+As \autoref{eq:Us1} shows, the lattice energy can be calculated with the internal energy and the vibrational energy. Therefore the vibrational energy has to be calculated, wich can be done by using \autoref{eq:Debye}. The Debye temperature $\Theta_D = \SI{85}{K}$ and the Debye funktion at $D\frac{\Theta}{T} = \SI{0.617}{}$ at 70 K are given, wich means the vibrational energy can be calculated as
+\begin{align*}
+    U_{\mathrm{vib}} &=\frac{9}{8}R\Theta_D + 3RT D \left(\mathrm{\frac{\Theta_D}{T}}\right)\\
+    &= \frac{9}{8}~\cdot~ \SI{8.314}{\frac{J}{mol \cdot K}}~\cdot~ \SI{85}{K} + 3~ \cdot~ \SI{8.314}{\frac{J}{mol \cdot K}} ~\cdot ~\SI{70}{K}~ \cdot~ \SI{0.617}{}\\
+    &= \SI{1872.271}{\frac{J}{mol}}
+\end{align*}\\
+
+The lattice energy can now be calculated by rearranging \autoref{eq:Us1}.
+\begin{align*}
+    U_\mathrm{lattice,D} &= U_s - U_{\mathrm{vib}}\\
+    &= -\SI{6870.69}{\frac{J}{mol}} - \SI{1872.271}{\frac{J}{mol}}\\
+    &= -\SI{8742,961}{\frac{J}{mol}}
+\end{align*}
+
+An alternative method of calculating the lattice energy is by using \autoref{eq:LatticeEnergy_Pair}. To do this, the minimal distance $a$ between atoms has to be calculated by using the equation for a face-centered cubic lattice and the lattice constant of argon wich is given as $5.43 ~\cdot~ 10^{-10}~$ m.
+\begin{align*}
+    a &= \frac{1}{\sqrt{2}} ~ \cdot ~ 5.43 ~\cdot~ 10^{-10}~\mathrm{m}\\
+    &= 3.78 \cdot 10^{-10}~\mathrm{m}
+\end{align*}
+With $\sigma_0$ for argon given as $3.41 ~\cdot~ 10^{-10}~\mathrm{m}$ and $\epsilon_0$ from the lennerd-jones potential given as $1.643 ~\cdot~ 10^{-21}~\mathrm{J}$ the lattice energy can now be calculated. 
+
+\begin{align*}
+U_{\mathrm{lattice,E}}(s) &=2 N_A \varepsilon_0
+\left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]\\
+&= 2 ~ \cdot~ 6.022 ~\cdot~ 10^{23}~\mathrm{\frac{1}{mol}} ~ \cdot~ 1.643 ~\cdot~ 10^{-21}~\mathrm{J}\\ ~ 
+&\cdot ~ \left[12.132~\cdot~ \left(\frac{3.41 ~\cdot~ 10^{-10}~\mathrm{m}}{3.78 ~\cdot~ 10^{-10}~\mathrm{m}}\right)^{12}
+~-~ 14.454 ~\cdot~\left(\frac{3.41 ~\cdot~ 10^{-10}~\mathrm{m}}{3.78 ~\cdot~ 10^{-10}~\mathrm{m}}\right)^{6} \right]\\
+&= - \SI{8441.849}{\frac{J}{mol}}
+\end{align*}
+In comparison, the calculated lattice energies have a deviation of approximately 3.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.   
 % Tabelle mit Messdaten von Argon Experiment
+\begin{table}[H]
+    \centering
+    \caption{Listed are the meassured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system.}
+\begin{tabular}{r|r|r|r|r}
+t  $[s]$ & p(Ar) $[bar]$ & N2 $[bar]$ & p(Ar) $[torr]$ & T $[K]$ \\
+\hline
+0 & 0.1540 & 1.4440 & 11.5510 & 63.8906 \\
+30 & 0.1760 & 1.5000 & 13.2011 & 64.1048 \\
+60 & 0.1760 & 1.4960 & 13.2011 & 64.0897 \\
+90 & 0.1810 & 1.5320 & 13.5761 & 64.2243 \\
+120 & 0.2220 & 1.6960 & 16.6514 & 64.8069 \\
+150 & 0.2460 & 1.8340 & 18.4515 & 65.2629 \\
+180 & 0.2680 & 1.9390 & 20.1017 & 65.5917 \\
+210 & 0.2870 & 2.0390 & 21.5268 & 65.8918 \\
+240 & 0.3060 & 2.1560 & 22.9519 & 66.2282 \\
+270 & 0.3330 & 2.2830 & 24.9771 & 66.5773 \\
+300 & 0.3460 & 2.4130 & 25.9521 & 66.9189 \\
+330 & 0.3850 & 2.5490 & 28.8774 & 67.2609 \\
+360 & 0.4170 & 2.6940 & 31.2776 & 67.6098 \\
+390 & 0.4480 & 2.8440 & 33.6028 & 67.9554 \\
+420 & 0.4810 & 2.9960 & 36.0780 & 68.2912 \\
+450 & 0.5190 & 3.1710 & 38.9282 & 68.6614 \\
+480 & 0.5650 & 3.3370 & 42.3785 & 68.9980 \\
+510 & 0.6040 & 3.5220 & 45.3037 & 69.3578 \\
+540 & 0.6480 & 3.7060 & 48.6040 & 69.7012 \\
+570 & 0.6920 & 3.8900 & 51.9043 & 70.0315 \\
+600 & 0.7430 & 4.0910 & 55.7296 & 70.3785 \\
+630 & 0.7980 & 4.2930 & 59.8549 & 70.7141 \\
+660 & 0.8480 & 4.4890 & 63.6053 & 71.0281 \\
+690 & 0.8940 & 4.6940 & 67.0555 & 71.3452 \\
+720 & 0.9570 & 4.9070 & 71.7809 & 71.6635 \\
+750 & 1.0140 & 5.1370 & 76.0563 & 71.9954 \\
+780 & 1.0770 & 5.3570 & 80.7817 & 72.3022 \\
+810 & 1.1460 & 5.6200 & 85.9571 & 72.6564 \\
+840 & 1.2130 & 5.8230 & 90.9825 & 72.9211 \\
+870 & 1.2830 & 6.0500 & 96.2330 & 73.2088 \\
+900 & 1.3550 & 6.2970 & 101.6334 & 73.5125 \\
+930 & 1.4130 & 6.5250 & 105.9838 & 73.7849 \\
+960 & 1.4970 & 6.7740 & 112.2843 & 74.0741 \\
+990 & 1.5700 & 7.0310 & 117.7597 & 74.3642 \\
+1020 & 1.6530 & 7.2790 & 123.9852 & 74.6365 \\
+1050 & 1.7270 & 7.5300 & 129.5357 & 74.9050 \\
+1080 & 1.8130 & 7.7830 & 135.9862 & 75.1687 \\
+1110 & 1.8970 & 8.0410 & 142.2868 & 75.4311 \\
+1140 & 1.9070 & 8.3000 & 143.0368 & 75.6881 \\
+1170 & 2.0600 & 8.5520 & 154.5128 & 75.9324 \\
+1200 & 2.1470 & 8.8050 & 161.0383 & 76.1722 \\
+1230 & 2.2410 & 9.0590 & 168.0889 & 76.4078 \\
+1260 & 2.3400 & 9.3610 & 175.5145 & 76.6814 \\
+1290 & 2.4320 & 9.6220 & 182.4151 & 76.9126 \\
+1320 & 2.5220 & 9.8950 & 189.1656 & 77.1494 \\
+1350 & 2.6150 & 10.1790 & 196.1412 & 77.3906 
+\label{tab: experiment}
+\end{tabular}
+\end{table}
 
 % \label{tab: experiment}
 
