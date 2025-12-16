@@ -235,7 +235,7 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \section{Results} % Elvis
 % 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
 
-The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation (\ref{eq:HenningOtto}), wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in \autoref{tab: experiment1}, to calculate the temperature of the system.
+The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in \autoref{tab: experiment1}, to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -247,7 +247,7 @@ The determination of the sublimation energy of argon requires the calculation of
 % Tabelle mit Messdaten von Argon Experiment
 \begin{table}[H]
     \centering
-    \caption{Listed are the meassured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system. \\}
+    \caption{Listed are the measured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system. \\}
 \begin{tabular}{c|c|c|c|c}
 $t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{Ar}$ [Torr] & $T$ [K] \\
 \hline
@@ -347,7 +347,7 @@ By inserting these values in equation \ref{eq:T} and \ref{eq:p}, the values of $
     \label{fig: T2p-exp}
 \end{figure}
 \autoref{fig: T2p-exp} shows that the sublimation curve of the longer simulation with more iteration steps and cycles is closer to the experimental data than the shorter simulation. 
-But still, the experimental sublimation curve is located around 10K higher, which can be caused by the approximation of the interactions, which are made in the Lennard-Jones potential.
+But still, the experimental sublimation curve is located around 10 K higher, which can be caused by the approximation of the interactions, which are made in the Lennard-Jones potential.
 Furthermore, it can be concluded that a higher computation time with more iteration steps and cycles in the Velocity-Verlet algorithm would be necessary to fit the simulation values to the experimental values.
 
 
@@ -361,7 +361,7 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 \end{figure}
 
 Plot T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. Plot T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
-A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume--temperature curve and minimal background noise, as observed in plot T3V3.
+A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume-temperature curve and minimal background noise, as observed in plot T3V3.
 Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot T3V3, which is much more pronounced than in plots T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
 
 \begin{figure}[H]
@@ -398,7 +398,7 @@ The sublimation enthalpy can be determined by plotting the natural logarithm of 
     \label{fig: LogPlot}
 \end{figure}
 
-The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearanging the Clausius-Clapeyron equation (\ref{eq:Clausius}) it is possible to calculate the sublimation enthalpy.
+The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearanging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.
 \begin{equation*}
     \Delta H_\mathrm{sub} = \mathrm{m} \cdot R,
 \end{equation*}
@@ -456,11 +456,11 @@ Furthermore, the values could be imprecise because the Dewar was manually attach
 \section{Conclusion}
 
 
-The isochor simulation showed a similar sublimation curve as the experimental sublimation curve, but was located around 10K lower due to not enough iteration steps and cycles in the Velocity-Verlet algorithm and the approximations made in the used LJ-potential.
+The isochor simulation showed a similar sublimation curve as the experimental sublimation curve, but was located around 10 K lower due to not enough iteration steps and cycles in the Velocity-Verlet algorithm and the approximations made in the used LJ-potential.
 
 The three Isobaric simulation showed the importancy of of computational accuracy leading to a curve / value much more compareable to real, experimental data. Although even the simulation with the most computational accuracy showed a strong deviation to the meassured value.
 
-The practical part of the experiment made a determination of the lattice energy of argon possible. It was calculated as $-\SI{8742,961}{\frac{J}{mol}}$. To verify the success of the experiment the lattice energy of the experiment was compared to one that was calculated with measurements of the same experiment under ideal sircumstances. The deviation of the two energies was 3.6\%.
+The practical part of the experiment made a determination of the lattice energy of argon possible. It was calculated as $-\SI{8742,961}{\frac{J}{mol}}$. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters for Argon. The deviation from the theoretical lattice energy was 3.6\%.
 
 \printbibliography[title={References}]
 
