@@ -131,12 +131,20 @@ if __name__ == "__main__":
     main()
 \end{lstlisting}
 
+% statt plt.plot geht auch
+\begin{lstlisting}
+    # Alternative zu plt.plot
+    fig, ax = plt.subplots()
+    ax.plot()
+\end{lstlisting}
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{damped_oscillation.pdf}
     \caption{Plot der gedämpften harmonischen Schwingung.}
     \label{damped}
 \end{figure}
+
 
 \subsection{Teil 2: Erweiterung mit argparse (Kommandozeilen-Argumente)}
 
@@ -187,6 +195,7 @@ def main():
 if __name__ == "__main__":
     main()
 \end{lstlisting}
+
 Das Testen hat mit der Eingabe von 
 \begin{lstlisting}
 & "absoluter Pfad von Python" "Pfad von der .py" -A 2.5 -gamma 0.1 -omega 10
