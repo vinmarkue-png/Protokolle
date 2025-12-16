@@ -235,7 +235,7 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \section{Results} % Elvis
 % 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
 
-The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in \autoref{tab: experiment1}, to calculate the temperature of the system.
+The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in figure \ref{tab: experiment1}, to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -352,6 +352,7 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 
 \subsubsection{Isobaric simulations} % Julian
+% Was ist in der figure gegen was geplottet? 
 
 \begin{figure}[H]
  \centering
@@ -360,7 +361,9 @@ Furthermore, it can be concluded that a higher computation time with more iterat
     \label{fig: 3_1}
 \end{figure}
 
-Plot T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. Plot T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
+Plot T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. 
+% T3Vx sind keine Plots, sondern Kurven!
+Plot T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
 A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume-temperature curve and minimal background noise, as observed in plot T3V3.
 Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot T3V3, which is much more pronounced than in plots T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
 
