@@ -1,10 +1,19 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  16 DEC 2025 15:33
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  16 DEC 2025 15:18
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
+<<<<<<< HEAD
 **"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex"
 (c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex
+=======
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1061,6 +1070,7 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions (
 \l__chemformula_plus_space_skip=\skip109
 \l__chemformula_minus_space_skip=\skip110
 )
+<<<<<<< HEAD
 
 Package siunitx Info: Option "per-mode = symbol-or-fraction" has been
 (siunitx)             deprecated in this release.
@@ -1077,6 +1087,10 @@ Package siunitx Info: Option "per-mode = symbol-or-fraction" has been
 
 Package hyperref Info: Option `colorlinks' set `true' on input line 38.
 Package hyperref Info: Option `linktocpage' set `true' on input line 38.
+=======
+Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `linktocpage' set `true' on input line 36.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1088,7 +1102,11 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
+<<<<<<< HEAD
 (scrartcl)           before \begin{document} on input line 81.
+=======
+(scrartcl)           before \begin{document} on input line 79.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1097,6 +1115,7 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 )) (./MDGE.aux)
 \openout1 = `MDGE.aux'.
 
+<<<<<<< HEAD
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 81.
 LaTeX Font Info:    ... okay on input line 81.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 81.
@@ -1124,6 +1143,35 @@ Package scrbase Info: activating english \listfigurename on input line 81.
 Package scrbase Info: activating english \listtablename on input line 81.
 Package scrbase Info: activating english \refname on input line 81.
 Package scrbase Info: activating english \indexname on input line 81.
+=======
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
+LaTeX Font Info:    ... okay on input line 79.
+Package scrbase Info: activating english \abstractname on input line 79.
+Package scrbase Info: activating english \partname on input line 79.
+Package scrbase Info: activating english \figurename on input line 79.
+Package scrbase Info: activating english \tablename on input line 79.
+Package scrbase Info: activating english \contentsname on input line 79.
+Package scrbase Info: activating english \listfigurename on input line 79.
+Package scrbase Info: activating english \listtablename on input line 79.
+Package scrbase Info: activating english \refname on input line 79.
+Package scrbase Info: activating english \indexname on input line 79.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
@@ -1143,7 +1191,11 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+<<<<<<< HEAD
 Package hyperref Info: Link coloring ON on input line 81.
+=======
+Package hyperref Info: Link coloring ON on input line 79.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1190,7 +1242,11 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
+<<<<<<< HEAD
 Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 81.
+=======
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 79.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
@@ -1204,6 +1260,7 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'MDGE.bbl' found.
  (./MDGE.bbl)
+<<<<<<< HEAD
 Package biblatex Info: Reference section=0 on input line 81.
 Package biblatex Info: Reference segment=0 on input line 81.
 
@@ -1214,6 +1271,18 @@ LaTeX Font Info:    Trying to load font information for U+msa on input line 96.
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Trying to load font information for U+msb on input line 96.
+=======
+Package biblatex Info: Reference section=0 on input line 79.
+Package biblatex Info: Reference segment=0 on input line 79.
+
+Package chemgreek Info: Activating mapping `default' on line 79.
+
+LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+ (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
@@ -1230,7 +1299,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <LJ.png, id=56, 336.0555pt x 208.3785pt>
 File: LJ.png Graphic file (type png)
 <use LJ.png>
+<<<<<<< HEAD
 Package pdftex.def Info: LJ.png  used on input line 153.
+=======
+Package pdftex.def Info: LJ.png  used on input line 151.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 327.56168pt x 203.12527pt.
 
 
@@ -1238,26 +1311,42 @@ Package pdftex.def Info: LJ.png  used on input line 153.
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.164 \end{equation}
+=======
+l.162 \end{equation}
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
                      [1
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.164 \end{equation}
+=======
+l.162 \end{equation}
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
                      <./LJ.png>]
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
+<<<<<<< HEAD
 l.205 \newpage
+=======
+l.203 \newpage
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
                [2]
 <setup.png, id=96, 497.4585pt x 247.52475pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
+<<<<<<< HEAD
 Package pdftex.def Info: setup.png  used on input line 224.
+=======
+Package pdftex.def Info: setup.png  used on input line 222.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 371.23923pt x 184.72531pt.
 
 
@@ -1267,24 +1356,39 @@ Package pdftex.def Info: setup.png  used on input line 224.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.233 \newpage
                <./setup.png>]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
 (scrartcl)           \newlinein caption text  on input line 250.
+=======
+l.231 \newpage
+               <./setup.png>]
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 248.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.310 
+=======
+l.308 
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
       ]
 
 [6]
 <Simulationen/T2p-red.pdf, id=125, 578.16pt x 361.35pt>
 File: Simulationen/T2p-red.pdf Graphic file (type pdf)
 <use Simulationen/T2p-red.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 326.
+=======
+Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 324.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
 
 
@@ -1292,17 +1396,29 @@ Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 326.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.340 \end{equation}
+=======
+l.338 \end{equation}
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
                      <./Simulationen/T2p-red.pdf>]
 <Simulationen/T2p+exp.pdf, id=168, 578.16pt x 361.35pt>
 File: Simulationen/T2p+exp.pdf Graphic file (type pdf)
 <use Simulationen/T2p+exp.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 345.
+=======
+Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 343.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
 <Simulationen/3_1.pdf, id=170, 722.7pt x 433.62pt>
 File: Simulationen/3_1.pdf Graphic file (type pdf)
 <use Simulationen/3_1.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 358.
+=======
+Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 356.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1310,12 +1426,24 @@ Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 358.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.362 
        <./Simulationen/T2p+exp.pdf>]
 <Simulationen/3_2.pdf, id=218, 722.7pt x 433.62pt>
 File: Simulationen/3_2.pdf Graphic file (type pdf)
 <use Simulationen/3_2.pdf>
 Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 369.
+=======
+l.360 
+       <./Simulationen/T2p+exp.pdf>]
+
+LaTeX Warning: Reference `5' on page 9 undefined on input line 362.
+
+<Simulationen/3_2.pdf, id=218, 722.7pt x 433.62pt>
+File: Simulationen/3_2.pdf Graphic file (type pdf)
+<use Simulationen/3_2.pdf>
+Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 367.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1323,12 +1451,20 @@ Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 369.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.373 
+=======
+l.371 
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
        <./Simulationen/3_1.pdf>]
 <Simulationen/3_3.pdf, id=259, 722.7pt x 433.62pt>
 File: Simulationen/3_3.pdf Graphic file (type pdf)
 <use Simulationen/3_3.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 380.
+=======
+Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 378.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1336,12 +1472,20 @@ Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 380.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.384 
+=======
+l.382 
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
        <./Simulationen/3_2.pdf>]
 <Hsub_plot.pdf, id=305, 722.7pt x 433.62pt>
 File: Hsub_plot.pdf Graphic file (type pdf)
 <use Hsub_plot.pdf>
+<<<<<<< HEAD
 Package pdftex.def Info: Hsub_plot.pdf  used on input line 396.
+=======
+Package pdftex.def Info: Hsub_plot.pdf  used on input line 394.
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1349,9 +1493,15 @@ Package pdftex.def Info: Hsub_plot.pdf  used on input line 396.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.400 
        <./Simulationen/3_3.pdf>]
 Underfull \hbox (badness 10000) in paragraph at lines 404--406
+=======
+l.398 
+       <./Simulationen/3_3.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 402--404
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 
  []
 
@@ -1361,7 +1511,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 404--406
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.419 \end{align*}
+=======
+l.417 \end{align*}
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
                    <./Hsub_plot.pdf>]
 
 [13]
@@ -1371,11 +1525,19 @@ l.419 \end{align*}
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
  ***********
+<<<<<<< HEAD
+=======
+
+
+LaTeX Warning: There were undefined references.
+
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 Package logreq Info: Writing requests to 'MDGE.run.xml'.
 \openout1 = `MDGE.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  41515 strings out of 467748
  880675 string characters out of 5431137
  1836227 words of memory out of 5000000
@@ -1388,6 +1550,20 @@ Output written on MDGE.pdf (16 pages, 423761 bytes).
 PDF statistics:
  533 PDF objects out of 1000 (max. 8388607)
  307 compressed objects within 4 object streams
+=======
+ 41516 strings out of 467748
+ 880735 string characters out of 5431137
+ 1836170 words of memory out of 5000000
+ 69630 multiletter control sequences out of 15000+600000
+ 643110 words of font info for 72 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 108i,20n,107p,11281b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on MDGE.pdf (16 pages, 423967 bytes).
+PDF statistics:
+ 532 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
  52 named destinations out of 1000 (max. 500000)
  157 words of extra memory for PDF output out of 10000 (max. 10000000)
 
