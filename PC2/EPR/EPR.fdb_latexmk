@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765631215.80289 0
+["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765904436.84249 0
   "EPR.bcf" 0 -1 0 "pdflatex"
   "lit.bib" 0 -1 0 ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1765631212.19427 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765631215.8038 0
-  "EPR.aux" 1765631214 2196 d318be147b38c45ff147dddf2e7629b5 "pdflatex"
+["pdflatex"] 1765904433.26155 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765904436.84341 0
+  "EPR.aux" 1765904435 2733 2efc61fcf160b6d7f9bfce762c083a05 "pdflatex"
   "EPR.bbl" 0 -1 0 "biber EPR"
-  "EPR.run.xml" 1765631214 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1765631211 3913 16a1df3f783e06890012c3407ddfd41e ""
-  "EPR.toc" 1765631214 442 00bc122c0fa6a245ac4771709ed4e15f "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765631211 3913 16a1df3f783e06890012c3407ddfd41e ""
+  "EPR.run.xml" 1765904435 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1765904424 4069 f5ed73049150ce9f1d0e9bc7741304a3 ""
+  "EPR.toc" 1765904435 582 be0d3a0d1f5dc7ebca5d9384dace4685 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765904424 4069 f5ed73049150ce9f1d0e9bc7741304a3 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -25,6 +25,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm" 1761073056 3584 36dd7d4b521e95b0a47034c0d524f2c5 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm" 1761073056 3584 db562fb1d1c474cc55f0ce8a1dd94fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1761073056 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1761073056 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1761073056 3584 a5b048a4e362640a1d2d34e624589d34 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1761070986 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1761070986 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -45,10 +46,12 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1761072433 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1761072433 135938 1a19ff976dd71ec9a67855cdbfd83710 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb" 1761072433 136101 b18d10b3436f8cb0cd04046deb340fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb" 1761072433 131078 3adc08bf3d7686c3b3220602214807d7 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1761072433 131438 c8884c67ccd7382f731c139fbb34a6cb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb" 1761072433 150680 200f05869e9022d53b4b32fa48743f62 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1761072433 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1761072433 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1761072433 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1761076938 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1761071275 2289 142d4c4e9b9454344e08718ddd1c1070 ""
