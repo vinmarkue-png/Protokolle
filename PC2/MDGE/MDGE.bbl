@@ -78,6 +78,16 @@
       \field{title}{The molecular theory of gases and liquids}
       \field{year}{1964}
     \endentry
+    \entry{gestis}{book}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \verb{urlraw}
+      \verb https://gestis.dguv.de/data?name=007180
+      \endverb
+      \verb{url}
+      \verb https://gestis.dguv.de/data?name=007180
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
