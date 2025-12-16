@@ -119,8 +119,8 @@ plt.plot(T2, p2_smooth, label="T2p2", linewidth=2, color="tab:red")
 
 plt.scatter(T_exp, p_exp, label="experimental data", s=20, marker="x", color="tab:green")
 
-plt.xlabel("Temperature $T$ [K]")
-plt.ylabel("Pressure $p$ [Pa]")
+plt.xlabel("temperature $T$ [K]")
+plt.ylabel("pressure $p$ [Pa]")
 plt.ylim(bottom=0)
 plt.grid(False)
 plt.legend()

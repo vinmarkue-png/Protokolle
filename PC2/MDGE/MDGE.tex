@@ -272,18 +272,18 @@ $t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{Ar}$ [Tor
 540 & 0.6480 & 3.7060 & 48.6040 & 69.7012 \\
 570 & 0.6920 & 3.8900 & 51.9043 & 70.0315 \\
 600 & 0.7430 & 4.0910 & 55.7296 & 70.3785 \\
-630 & 0.7980 & 4.2930 & 59.8549 & 70.7141
+630 & 0.7980 & 4.2930 & 59.8549 & 70.7141 \\
+660 & 0.8480 & 4.4890 & 63.6053 & 71.0281 \\
+690 & 0.8940 & 4.6940 & 67.0555 & 71.3452 \\
+720 & 0.9570 & 4.9070 & 71.7809 & 71.6635 \\
+750 & 1.0140 & 5.1370 & 76.0563 & 71.9954 \\
+780 & 1.0770 & 5.3570 & 80.7817 & 72.3022
 \label{tab: experiment1}
 \end{tabular}
 \end{table}
 \begin{table}[H]
     \centering
 \begin{tabular}{c|c|c|c|c}
-660 & 0.8480 & 4.4890 & 63.6053 & 71.0281 \\
-690 & 0.8940 & 4.6940 & 67.0555 & 71.3452 \\
-720 & 0.9570 & 4.9070 & 71.7809 & 71.6635 \\
-750 & 1.0140 & 5.1370 & 76.0563 & 71.9954 \\
-780 & 1.0770 & 5.3570 & 80.7817 & 72.3022 \\
 810 & 1.1460 & 5.6200 & 85.9571 & 72.6564 \\
 840 & 1.2130 & 5.8230 & 90.9825 & 72.9211 \\
 870 & 1.2830 & 6.0500 & 96.2330 & 73.2088 \\
@@ -401,13 +401,13 @@ The sublimation enthalpy can be determined by plotting the natural logarithm of 
     \label{fig: LogPlot}
 \end{figure}
 
-The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearanging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.
+The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearranging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.
 \begin{equation*}
     \Delta H_\mathrm{sub} = \mathrm{m} \cdot R,
 \end{equation*}
 The sublimation enthalpy of argon can be calculated as $\SI{8325.640}{\frac{J}{mol}}$.\\
 
-By using equation \ref{eq:Us2} the inner energy of argon can be calculated.
+By using equation \ref{eq:Us2} the inner energy of argon can now be calculated.
 \begin{align*}
     U_s &= \frac{5}{2}RT-\Delta H_{\mathrm{sub}}\\
     &= \frac{5}{2} \cdot \SI{8.314}{\frac{J}{mol \cdot K}} \cdot \SI{70}{K} - \SI{8325.640}{\frac{J}{mol}}\\
