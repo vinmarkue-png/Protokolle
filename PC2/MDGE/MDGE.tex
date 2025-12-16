@@ -23,7 +23,7 @@
 \usepackage{chemgreek}
 \usepackage{chemformula}
 \sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
-
+%macht komata anstatt kreuze bei Zehnerpotenzen
 \geometry{left = 2.5cm} \geometry{top = 3cm}
 
 \urlstyle{same}
@@ -372,7 +372,7 @@ Higher step and cycle counts also allow the phase transitions to be identified m
 \end{figure}
 
 In figure~\ref{fig: 3_2}, the increase in volume is associated with the onset of melting. For the simulation T3V3, this transition begins at approximately 77~K, whereas for T3V2 and T3V1 it occurs at around 79~K, although the melting point in T3V1 is less clearly defined due to stronger variotion in the volume increase. In all cases, the steep rise in volume transitions back into the approximately linear behavior observed at lower temperatures once a temperature of about 82~K is reached.
-The melting temperatures obtained from the simulations deviate from the literature value for argon, which is approximately 84~K \supercite{gestis} . This discrepancy can be attributed to the simplified nature of the simulation model. Since not all intermolecular interactions and many-body effects are fully represented, the resulting potential landscape is effectively altered, leading to an underestimation of the melting point.
+The melting temperatures obtained from the simulations deviate from the literature value for argon, which is approximately 84~K.\supercite{gestis} This discrepancy can be attributed to the simplified nature of the simulation model. Since not all intermolecular interactions and many-body effects are fully represented, the resulting potential landscape is effectively altered, leading to an underestimation of the melting point.
 
 
 \begin{figure}[H]
@@ -383,7 +383,7 @@ The melting temperatures obtained from the simulations deviate from the literatu
 \end{figure}
 
 When examining figure~\ref{fig: 3_3}, an increase in volume is observed for the simulations T3V2 and T3V3, while no comparable feature is present in T3V1. This behavior arises from the increased number of cycles and steps used in T3V2 and T3V3, which results in improved sampling of the phase space and, consequently, a more accurate representation of the phase transition. This interpretation is further supported by the fact that the volume increase in T3V3 is sharper than in T3V2.
-The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K. As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. In this case, the simulated boiling point exceeds the experimental value, suggesting that the interparticle interactions may be overestimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
+The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K.\supercite{gestis} As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. In this case, the simulated boiling point exceeds the experimental value, suggesting that the interparticle interactions may be overestimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
 
 
 \subsection{Lattice Energy of Argon} % Elvis
@@ -454,6 +454,7 @@ In comparison, the calculated lattice energies have a deviation of approximately
 The isochor simulation showed a similar sublimation curve as the experimental sublimation curve, but was located around 10K lower due to not enough iteration steps and cycles in the Velocity-Verlet algorithm and the approximations made in the used LJ-potential.
 
 The three Isobaric simulation showed the importancy of of computational accuracy leading to a curve / value much more compareable to real, experimental data. Although even the simulation with the most computational accuracy showed a strong deviation to the meassured value.
+
 \printbibliography[title={References}]
 
 

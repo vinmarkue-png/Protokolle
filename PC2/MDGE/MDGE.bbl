@@ -78,9 +78,11 @@
       \field{title}{The molecular theory of gases and liquids}
       \field{year}{1964}
     \endentry
-    \entry{gestis}{book}{}{}
+    \entry{gestis}{online}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{title}{Institut für Arbeitsschutz der Deutschen Gesetzlichen Unfallversicherung, Gestis-Databank, Online Databank}
       \verb{urlraw}
       \verb https://gestis.dguv.de/data?name=007180
       \endverb
