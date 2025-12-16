@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'MDGE.blg'
-[124] biber-MSWIN64:342> INFO - === 
-[167] Biber.pm:421> INFO - Reading 'MDGE.bcf'
-[276] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[288] Biber.pm:4487> INFO - Processing section 0
-[301] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[372] bibtex.pm:1713> INFO - LaTeX decoding ...
-[378] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[417] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[417] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[417] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[417] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[419] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
-[420] bbl.pm:779> INFO - Output to MDGE.bbl
+[1] Config.pm:331> INFO - Logfile is 'MDGE.blg'
+[725] biber-MSWIN64:342> INFO - === 
+[1037] Biber.pm:421> INFO - Reading 'MDGE.bcf'
+[1236] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[1258] Biber.pm:4487> INFO - Processing section 0
+[1325] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[1455] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1494] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[1703] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1704] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1704] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1704] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1708] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
+[1711] bbl.pm:779> INFO - Output to MDGE.bbl
