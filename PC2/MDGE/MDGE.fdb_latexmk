@@ -1,25 +1,25 @@
 # Fdb version 4
-["biber MDGE"] 1765897234.95877 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765898070.15603 0
-  "MDGE.bcf" 1765898069 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
+["biber MDGE"] 1765897234.95877 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765898189.29262 0
+  "MDGE.bcf" 1765898188 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
   "lit.bib" 1765896258 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765898061.92093 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765898070.15895 0
+["pdflatex"] 1765898184.5583 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765898189.29378 0
   "Hsub_plot.pdf" 1765867940 10493 7b5ef2a1cda61a27619653a01a02d82a ""
   "LJ.png" 1765385870 15568 8582ef2e9a3dfb933ec87e9476e2bd1d ""
-  "MDGE.aux" 1765898069 10447 40c5f30c46d3e0539978dcb92a773232 "pdflatex"
+  "MDGE.aux" 1765898188 10447 40c5f30c46d3e0539978dcb92a773232 "pdflatex"
   "MDGE.bbl" 1765896280 3691 a39c32c65f4b74a115a807ba69f72c7c "biber MDGE"
-  "MDGE.run.xml" 1765898069 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
-  "MDGE.tex" 1765898060 28494 163da4a72052132ca861290845bc7120 ""
-  "MDGE.toc" 1765898069 1118 257e8e79094ce471602e6bdf1735acb1 "pdflatex"
+  "MDGE.run.xml" 1765898188 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
+  "MDGE.tex" 1765898183 28498 821f00a916372f393c2c63cde81ef781 ""
+  "MDGE.toc" 1765898188 1118 257e8e79094ce471602e6bdf1735acb1 "pdflatex"
   "Simulationen/3_1.pdf" 1765893784 17077 961c4605031b08252717d0b8246632ba ""
   "Simulationen/3_2.pdf" 1765893784 13305 383ded525ca98e4ab1a762b8fa2fcb8a ""
   "Simulationen/3_3.pdf" 1765893784 13995 372433ccfa7e9e2132c9dfb42a112d7a ""
   "Simulationen/T2p+exp.pdf" 1765871740 16625 8fe76876e8ae11ccff41572a27b384ff ""
   "Simulationen/T2p-red.pdf" 1765624894 12920 d2f5187d80b352198f595f3cda68d7d0 ""
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765898060 28494 163da4a72052132ca861290845bc7120 ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" 1765898183 28498 821f00a916372f393c2c63cde81ef781 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
