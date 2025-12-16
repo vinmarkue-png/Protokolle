@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765904733.62599 0
+["biber EPR"] 0 "EPR.bcf" "EPR.bbl" "EPR" 1765905435.83838 0
   "EPR.bcf" 0 -1 0 "pdflatex"
   "lit.bib" 0 -1 0 ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1765904729.84506 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765904733.6269 0
-  "EPR.aux" 1765904732 2733 d13816f1827939f7287f2cb964cc4532 "pdflatex"
+["pdflatex"] 1765905432.18364 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1765905435.83966 0
+  "EPR.aux" 1765905435 2733 d13816f1827939f7287f2cb964cc4532 "pdflatex"
   "EPR.bbl" 0 -1 0 "biber EPR"
-  "EPR.run.xml" 1765904732 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1765904725 4104 b519380dadf9c6d214764baed5d9c76b ""
-  "EPR.toc" 1765904732 582 be0d3a0d1f5dc7ebca5d9384dace4685 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765904725 4104 b519380dadf9c6d214764baed5d9c76b ""
+  "EPR.run.xml" 1765905435 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1765905431 4110 c44e9bde616e39063f9350632183a1fa ""
+  "EPR.toc" 1765905435 582 be0d3a0d1f5dc7ebca5d9384dace4685 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1765905431 4110 c44e9bde616e39063f9350632183a1fa ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
