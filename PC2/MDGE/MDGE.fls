@@ -1,16 +1,8 @@
-<<<<<<< HEAD
-PWD c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE
-INPUT c:/texlive/2025/texmf.cnf
-INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
-INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex
-=======
 PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex
->>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
 OUTPUT MDGE.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
