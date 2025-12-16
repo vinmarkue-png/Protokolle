@@ -1,4 +1,5 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
+<<<<<<< HEAD
 [1] Config.pm:331> INFO - Logfile is 'MDGE.blg'
 [214] biber-MSWIN64:342> INFO - === 
 [291] Biber.pm:421> INFO - Reading 'MDGE.bcf'
@@ -13,3 +14,35 @@
 [792] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
 [805] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
 [808] bbl.pm:779> INFO - Output to MDGE.bbl
+=======
+[0] Config.pm:331> INFO - Logfile is 'MDGE.blg'
+<<<<<<< HEAD
+[204] biber-MSWIN64:342> INFO - === 
+[289] Biber.pm:421> INFO - Reading 'MDGE.bcf'
+[487] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
+[507] Biber.pm:4487> INFO - Processing section 0
+[529] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[659] bibtex.pm:1713> INFO - LaTeX decoding ...
+[669] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[766] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[767] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[771] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[789] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
+[793] bbl.pm:779> INFO - Output to MDGE.bbl
+=======
+[166] biber-MSWIN64:342> INFO - === 
+[221] Biber.pm:421> INFO - Reading 'MDGE.bcf'
+[375] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
+[394] Biber.pm:4487> INFO - Processing section 0
+[409] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[484] bibtex.pm:1713> INFO - LaTeX decoding ...
+[493] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[560] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[560] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[561] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[561] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[570] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
+[572] bbl.pm:779> INFO - Output to MDGE.bbl
+>>>>>>> 1160728763175ae1dcfd99c9a9ba75f79b6690c6
+>>>>>>> 690ce7d0f0f3d8f77589905f4379e6c6ab524a1e
