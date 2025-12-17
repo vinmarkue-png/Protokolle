@@ -1,19 +1,19 @@
 # Fdb version 4
-["biber MDGE"] 1765964515.86101 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765967208.69103 0
-  "MDGE.bcf" 1765967208 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
+["biber MDGE"] 1765967274.28451 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765967282.58072 0
+  "MDGE.bcf" 1765967282 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
   "lit.bib" 1765896258 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765967204.21429 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765967208.69203 0
+["pdflatex"] 1765967277.51307 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765967282.5817 0
   "Hsub_plot.pdf" 1765867940 10493 7b5ef2a1cda61a27619653a01a02d82a ""
   "LJ.png" 1765385870 15568 8582ef2e9a3dfb933ec87e9476e2bd1d ""
-  "MDGE.aux" 1765967208 10471 d9d7888964d6a88311fcf4961f35d356 "pdflatex"
-  "MDGE.bbl" 1765964528 3691 a39c32c65f4b74a115a807ba69f72c7c "biber MDGE"
-  "MDGE.run.xml" 1765967208 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
+  "MDGE.aux" 1765967282 10471 d9d7888964d6a88311fcf4961f35d356 "pdflatex"
+  "MDGE.bbl" 1765967277 3691 a39c32c65f4b74a115a807ba69f72c7c "biber MDGE"
+  "MDGE.run.xml" 1765967282 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
   "MDGE.tex" 1765967202 28357 8e75aae6b0da450b56c082b2045104c9 ""
-  "MDGE.toc" 1765967208 1118 257e8e79094ce471602e6bdf1735acb1 "pdflatex"
+  "MDGE.toc" 1765967282 1118 257e8e79094ce471602e6bdf1735acb1 "pdflatex"
   "Simulationen/3_1.pdf" 1765893784 17077 961c4605031b08252717d0b8246632ba ""
   "Simulationen/3_2.pdf" 1765893784 13305 383ded525ca98e4ab1a762b8fa2fcb8a ""
   "Simulationen/3_3.pdf" 1765893784 13995 372433ccfa7e9e2132c9dfb42a112d7a ""

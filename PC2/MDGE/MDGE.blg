@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'MDGE.blg'
-[366] biber-MSWIN64:342> INFO - === 
-[514] Biber.pm:421> INFO - Reading 'MDGE.bcf'
-[665] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
-[682] Biber.pm:4487> INFO - Processing section 0
-[718] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[813] bibtex.pm:1713> INFO - LaTeX decoding ...
-[837] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[958] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[958] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[958] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[959] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1048] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
-[1051] bbl.pm:779> INFO - Output to MDGE.bbl
+[149] biber-MSWIN64:342> INFO - === 
+[206] Biber.pm:421> INFO - Reading 'MDGE.bcf'
+[353] Biber.pm:1002> INFO - Found 3 citekeys in bib section 0
+[371] Biber.pm:4487> INFO - Processing section 0
+[387] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[471] bibtex.pm:1713> INFO - LaTeX decoding ...
+[481] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[554] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[554] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[555] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[563] bbl.pm:676> INFO - Writing 'MDGE.bbl' with encoding 'UTF-8'
+[565] bbl.pm:779> INFO - Output to MDGE.bbl

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  16 DEC 2025 11:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  17 DEC 2025 10:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1236,10 +1236,26 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<fit_plot.pdf, id=48, 722.7pt x 433.62pt>
+File: fit_plot.pdf Graphic file (type pdf)
+<use fit_plot.pdf>
+Package pdftex.def Info: fit_plot.pdf  used on input line 129.
+(pdftex.def)             Requested size: 371.23923pt x 222.74446pt.
+
 
 [2]
 
-[3] (./Blatt 9.aux)
+[3 <./fit_plot.pdf>]
+<Sympy.pdf, id=133, 722.7pt x 433.62pt>
+File: Sympy.pdf Graphic file (type pdf)
+<use Sympy.pdf>
+Package pdftex.def Info: Sympy.pdf  used on input line 199.
+(pdftex.def)             Requested size: 371.23923pt x 222.74446pt.
+
+
+[4]
+
+[5 <./Sympy.pdf>] (./Blatt 9.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1249,18 +1265,18 @@ Package logreq Info: Writing requests to '"Blatt 9".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42310 strings out of 467748
- 864472 string characters out of 5431137
- 2113145 words of memory out of 5000000
- 70390 multiletter control sequences out of 15000+600000
+ 42428 strings out of 467748
+ 866209 string characters out of 5431137
+ 2113290 words of memory out of 5000000
+ 70445 multiletter control sequences out of 15000+600000
  637484 words of font info for 64 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,8n,107p,11289b,2771s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "Blatt 9.pdf" (3 pages, 120884 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on "Blatt 9.pdf" (5 pages, 171288 bytes).
 PDF statistics:
- 161 PDF objects out of 1000 (max. 8388607)
- 142 compressed objects within 2 object streams
- 82 named destinations out of 1000 (max. 500000)
- 37 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 317 PDF objects out of 1000 (max. 8388607)
+ 243 compressed objects within 3 object streams
+ 145 named destinations out of 1000 (max. 500000)
+ 47 words of extra memory for PDF output out of 10000 (max. 10000000)
 
