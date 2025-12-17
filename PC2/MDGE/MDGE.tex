@@ -352,11 +352,17 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 \subsubsection{Isobaric simulations} 
 
-As in 4.1.1 discussed, the simulation-results showed reduced temperature values that were transformed into temperature values in Kelvin.
+As in previous section discussed, the simulation-results were given in reduced temperature values that were transformed into temperature values in Kelvin to plot figure \ref{fig: 3_1}
+\begin{figure}[H] 
+\centering
+    \includegraphics[width=1.0\textwidth]{Simulationen/3_1.pdf}
+    \caption{The volume plotted against the temperature for the three simulations.} 
+    \label{fig: 3_1}
+\end{figure}
 Curve T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. 
 Curve T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
-A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume-temperature curve and minimal background noise, as observed in plot T3V3.
-Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot T3V3, which is much more pronounced than in curve T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
+A comparison of the three simulations reveals a clear reduction in the oscillation of the volume as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in oscillations between configurations that are gas-like and configurations that are liquid-like. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume-temperature curve and minimal background noise, as observed in plot T3V3.
+Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the increase in volume in plot T3V3, which is much more abrupt than in curve T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures \ref{fig: 3_2} and \ref{fig: 3_3} were the volume increase is shown in the temperature interval around the melting and boiling point.
 
 \begin{figure}[H]
  \centering
@@ -365,8 +371,8 @@ Higher step and cycle counts also allow the phase transitions to be identified m
     \label{fig: 3_2}
 \end{figure}
 
-In figure~\ref{fig: 3_2}, the increase in volume is associated with the onset of melting. For the simulation T3V3, this transition begins at approximately 77~K, whereas for T3V2 and T3V1 it occurs at around 79~K, although the melting point in T3V1 is less clearly defined due to stronger variotion in the volume increase. In all cases, the steep rise in volume transitions back into the approximately linear behavior observed at lower temperatures once a temperature of about 82~K is reached.
-The melting temperatures obtained from the simulations deviate from the literature value for argon, which is approximately 84~K.\supercite{gestis} This discrepancy can be attributed to the simplified nature of the simulation model. Since not all intermolecular interactions and many-body effects are fully represented, the resulting potential landscape is effectively altered, leading to an underestimation of the melting point.
+In figure~\ref{fig: 3_2}, the increase in volume is associated with the onset of melting. For the simulation T3V3, this transition begins at approximately 77~K, whereas for T3V2 and T3V1 it occurs at around 79~K, although the melting point in T3V1 is less clearly defined due to stronger variation in the volume increase. In all cases, the steep rise in volume transitions back into the approximately linear behavior observed at lower temperatures once a temperature of about 82~K is reached.
+The melting temperatures obtained from the simulations deviate from the literature value for argon, which is approximately 84~K.\supercite{gestis} This discrepancy can be attributed to all the approximations that were made during the simulation.
 
 
 \begin{figure}[H]
@@ -376,8 +382,10 @@ The melting temperatures obtained from the simulations deviate from the literatu
     \label{fig: 3_3}
 \end{figure}
 
-When examining figure~\ref{fig: 3_3}, an increase in volume is observed for the simulations T3V2 and T3V3, while no comparable feature is present in T3V1. This behavior arises from the increased number of cycles and steps used in T3V2 and T3V3, which results in improved sampling of the phase space and, consequently, a more accurate representation of the phase transition. This interpretation is further supported by the fact that the volume increase in T3V3 is sharper than in T3V2.
-The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K.\supercite{gestis} As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. In this case, the simulated boiling point exceeds the experimental value, suggesting that the interparticle interactions may be againstestimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
+When examining figure~\ref{fig: 3_3}, an increase in volume is observed for the simulations T3V2 and T3V3, while no comparable increase is present in T3V1. This behavior arises from the increased number of cycles and steps used in T3V2 and T3V3, which leads to a more accurate representation of the phase transition. This interpretation is further supported by the fact, that the volume increase in T3V3 is sharper than in T3V2.
+The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K.\supercite{gestis} As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. 
+In this case, the simulated boiling point is 50~K higher than the experimental value, which could be explained by the overestimation of interatomic interactions that stabilize the condensed phase.
+%, suggesting that the interparticle interactions may be against estimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
 
 
 \subsection{Lattice Energy of Argon} % Elvis
