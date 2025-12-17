@@ -208,27 +208,26 @@ $N_A$ is Avogadro's constant and $a$ the distance between atoms.
 
 \subsection{Molecular Dynamics Simulations}
 
-The computational work consisted of three sequential simulation tasks carried out using pre-written Python programs. In the first task, the behavior of argon particles was investigated under conditions of increasing temperature at constant pressure. 
-The simulation focused on visualizing particle motion and the associated expansion of the system volume. To achieve this, the number of cooling steps was gradually increased, followed by an adjustment of the interaction potential depth in order to observe its influence on the system dynamics.\\
-In the second task, the sublimation behavior of argon was studied by analyzing the relationship between temperature and pressure at constant volume. Two simulations were performed with different numerical resolutions. Initially, the system was simulated using 100 cycles with 1000 steps. 
-In a subsequent run, the parameters were increased to 200 cycles and 4000 steps. The resulting pressure-temperature dependence obtained from the simulations was then compared with the experimental measurements.\\
-The third task addressed the temperature dependence of the system volume. For this purpose, three simulations with progressively increased numerical accuracy were carried out. The first simulation employed 50 cooling cycles with 100 cooling steps, 
-followed by 10 cycles and 100 steps. In the second simulation, the cooling cycles were increased to 100, the cooling steps to 1000, and the number of cycles to 100. In the final simulation, the number of steps was further increased to 1000. The results of these simulations were compared in order to analyze phase transitions and to determine the melting and boiling points of argon.
+The three simulations were carried out using pre writtenpython scrips based on the espresso programme. In the first task, the behavior of argon atoms was investigated while increasing temperature at constant pressure. 
+The simulation was carried out to visualizing particle motion and the associated expansion of the system volume. To achieve this, the number of cooling steps was increased, followed by an adjustment of the interaction potential depth in order to observe its influence on the system.\\
+In the second task, the sublimation behavior of argon was studied by simulating temperature and pressure at constant volume. Two simulations were performed. Initially, the system was simulated using 100 cycles with 1000 steps. 
+In the following run, the parameters were increased to 200 cycles and 4000 steps. The resulting pressure-temperature dependence obtained from the simulations was then compared with the experimental measurements.\\
+The third task was to investigate the temperature dependence of the system volume. For this, three simulations with progressively increased numerical accuracy were carried out. The first simulation used 50 cooling cycles with 100 cooling steps, 
+followed by 10 cycles and 100 steps. In the second simulation, the cooling cycles were increased to 100, the cooling steps to 1000, and the number of cycles to 100. In the final simulation, the number of steps was increased to 1000. The results of these simulations were compared to analyze phase transitions and to determine the melting and boiling points of argon.
 
 
 \subsection{Lattice Energy of Argon}
 
-The experimental setup was preassembled prior to the start of the measurements as shown in figure \ref{fig: setup}. 
+The experimental setup was already built prior to the start of the measurements as shown in figure \ref{fig: setup}. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{setup.png}
     \caption{Scheme of the measuring apparatus.\supercite{Skript}} 
     \label{fig: setup}
 \end{figure}
-The experiment began with the removal of residual gases from the system. This was achieved by flushing the apparatus with nitrogen gas followed by evacuation. Subsequently, the pressure was monitored for two minutes to verify the absence of leaks. After confirming system integrity, the argon chamber was adjusted to a pressure of approximately 250 mbar and cooled to 63.9 K, leading to a pressure decrease to about 20 mbar. 
-At this stage, the measured pressure served as an indicator of gas purity, as significantly higher pressures would indicate contamination by other gases. Once a pressure of approximately 15.4 mbar was reached, the nitrogen chamber was filled to the required level and likewise cooled to 63.9 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the vacuum pump was activated. Pumping nitrogen gas from the Dewar further reduced the system temperature.
-Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds. This data was later compared with the results from the second simulation task and used for the determination of the lattice energy of argon.
-
+The experiment began with the removal of residual gases from the system. This was achieved by flushing the apparatus with nitrogen gas followed by evacuation. The pressure was monitored for two minutes to verify the absence of leaks. After confirming that the pressurewas constant, the argon chamber was adjusted to a pressure of approximately 250 mbar and cooled to approximately 63.9 K, leading to a pressure decrease to about 20 mbar. 
+Now, the measured pressure served as an indicator of gas purity, as significantly higher pressures indicates contamination by other gases. Once a pressure of approximately 15.4 mbar was reached, the nitrogen chamber was filled to the required level and was cooled to 63.9 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the vacuum pump was activated. Pumping nitrogen gas from the Dewar reduced the system temperature.
+Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds.
 
 \newpage
 
@@ -357,15 +356,14 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 \begin{figure}[H]
  \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/3_1.pdf}
-    \caption{The volume plotted over the temperature for the three simulations.} 
+    \caption{The volume plotted against the temperature for the three simulations.} 
     \label{fig: 3_1}
 \end{figure}
 
-Plot T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. 
-% T3Vx sind keine Plots, sondern Kurven!
-Plot T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
+Curve T3V1 corresponds to the simulation performed with 50 cooling cycles, 100 cooling steps, 10 cycles, and 100 steps. 
+Curve T3V2 represents the simulation using 100 cooling cycles, 1000 cooling steps, 100 cycles, and 100 steps, while plot T3V3 shows the simulation with identical parameters to the second case but with the number of steps increased to 1000.
 A comparison of the three simulations reveals a clear reduction in oscillatory behavior as the number of cycles and steps increases. Simulations with a lower numerical resolution do not sufficiently sample the available microstates, which results in pronounced oscillations between gas-like and liquid-like configurations. By increasing the number of steps, these fluctuations are significantly reduced, leading to a smoother volume-temperature curve and minimal background noise, as observed in plot T3V3.
-Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot T3V3, which is much more pronounced than in plots T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
+Higher step and cycle counts also allow the phase transitions to be identified more distinctly. This is evident from the abrupt increase in volume in plot T3V3, which is much more pronounced than in curve T3V1 and T3V2. To determine the melting and boiling points, the regions of rapid volume increase were analyzed in greater detail. These characteristic changes are highlighted in figures and.
 
 \begin{figure}[H]
  \centering
