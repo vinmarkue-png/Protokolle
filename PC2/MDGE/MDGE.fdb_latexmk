@@ -1,25 +1,25 @@
 # Fdb version 4
-["biber MDGE"] 1765973410.03121 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765975811.66465 0
-  "MDGE.bcf" 1765975811 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
+["biber MDGE"] 1765973410.03121 "MDGE.bcf" "MDGE.bbl" "MDGE" 1765978999.29229 0
+  "MDGE.bcf" 1765978998 108931 b39d79bee476776e0d701d37e143a433 "pdflatex"
   "lit.bib" 1765896397 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "MDGE.bbl"
   "MDGE.blg"
   (rewritten before read)
-["pdflatex"] 1765975805.68142 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765975811.66605 0
+["pdflatex"] 1765978993.52614 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex" "MDGE.pdf" "MDGE" 1765978999.29405 0
   "Hsub_plot.pdf" 1765842021 10493 7b5ef2a1cda61a27619653a01a02d82a ""
   "LJ.png" 1765449144 15568 8582ef2e9a3dfb933ec87e9476e2bd1d ""
-  "MDGE.aux" 1765975811 10471 29f1077b7f812a57eb5d2cb83213d244 "pdflatex"
+  "MDGE.aux" 1765978998 10471 29f1077b7f812a57eb5d2cb83213d244 "pdflatex"
   "MDGE.bbl" 1765964150 3691 a39c32c65f4b74a115a807ba69f72c7c "biber MDGE"
-  "MDGE.run.xml" 1765975811 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
-  "MDGE.tex" 1765975797 28467 0582056caf66339c3cca7f11ff6bbaa7 ""
-  "MDGE.toc" 1765975811 1118 a0d7f3d6bcbd09b452634089231e25f4 "pdflatex"
+  "MDGE.run.xml" 1765978998 2407 b0c169e5b685449f8c049657a9e0d5ee "pdflatex"
+  "MDGE.tex" 1765978992 28525 beaa2fc27269d402153f3b114b3bee6f ""
+  "MDGE.toc" 1765978998 1118 a0d7f3d6bcbd09b452634089231e25f4 "pdflatex"
   "Simulationen/3_1.pdf" 1765893839 17077 961c4605031b08252717d0b8246632ba ""
   "Simulationen/3_2.pdf" 1765893839 13305 383ded525ca98e4ab1a762b8fa2fcb8a ""
   "Simulationen/3_3.pdf" 1765893839 13995 372433ccfa7e9e2132c9dfb42a112d7a ""
   "Simulationen/T2p+exp.pdf" 1765927819 16630 44b4b2efcc86cf4701c88bc144f4586b ""
   "Simulationen/T2p-red.pdf" 1765927819 12572 54c1258961f6f4bd1c25c12b41047db1 ""
-  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex" 1765975797 28467 0582056caf66339c3cca7f11ff6bbaa7 ""
+  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex" 1765978992 28525 beaa2fc27269d402153f3b114b3bee6f ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761081966 3584 402da0b29eafbad07963b1224b222f18 ""
