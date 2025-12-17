@@ -118,9 +118,8 @@
 
 \textbf{Abstract:}
 Molecular Dynamics Simulations (MDS) were used to simulate the sublimation curve and phase transitions of Argon.
-The onset of the simulated sublimation curve was located 10 K lower, the melting and boiling points deviate due to not enough iterations in the Velocity-Verlet algorithm and approximations made in the used LJ-potential.
-
-The sublimation enthalpy of argon was calculated as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$, the lattice energy with experimental values as $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ and the theoretical energy as $U_\mathrm{lattice,D} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
+The onset of the simulated sublimation curve was located 10 K lower, the melting and boiling points $T_m \approx 77$ K and $T_b \approx 137$ K deviate due to not enough iterations in the Velocity-Verlet algorithm and approximations made in the used LJ-potential.\\
+The sublimation enthalpy of argon was calculated as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$, the lattice energy with experimental values as $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ and the theoretical energy as $U_\mathrm{lattice,E} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
 
 
 
@@ -185,7 +184,7 @@ U_s=\frac{5}{2}RT-\Delta H
 \end{equation}
 $U_\mathrm{s}$ consists of two parts, which are described in equation \ref{eq:Us2}.\supercite{Skript}
 \begin{equation}
-\Delta U_s=U_{\mathrm{lattice}}+U_{\mathrm{vib}}
+\Delta U_s=U_{\mathrm{lattice,D}}+U_{\mathrm{vib}}
 \label{eq:Us1}
 \end{equation}
 The first part corresponds with the potential energy of argon atoms at rest on their lattice planes, whereas the second part is the vibrational energy of the atoms.
@@ -199,7 +198,7 @@ U_{\mathrm{vib}}=\frac{9}{8}R\Theta_D + 3RT D \left(\mathrm{\frac{\Theta_D}{T}}\
 To calculate the theoretical value of the lattice energy, equation \ref{eq:LatticeEnergy_Pair} can be used, which is derived from the pair potentials $V_\mathrm{ij}(r_\mathrm{ij})$ in the LJ-potential equation \ref{eq:LJ}. 
 %Pair potentials
 \begin{equation}
-U_{\mathrm{lattice}}(s)=2 N_A \varepsilon_0
+U_{\mathrm{lattice,E}}(s)=2 N_A \varepsilon_0
 \left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]
 \label{eq:LatticeEnergy_Pair}
 \end{equation}
@@ -449,7 +448,7 @@ U_{\mathrm{lattice,E}}(s) &=2 N_A \varepsilon_0
 ~-~ 14.454 ~\cdot~\left(\frac{\SI{3.41 e-10}{m}}{\SI{3.78 e-10}{m}}\right)^{6} \right]\\
 &= - \SI{8441.849}{\frac{J}{mol}}
 \end{align*}
-In comparison, the calculated lattice energies have a deviation of approximately 3.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.
+When compared to the theoretically calculated lattice energy, the experimental lattice energy deviates by approximately 3.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.
 
 
 
@@ -469,8 +468,8 @@ The isochor simulation showed a similar sublimation curve as the experimental su
 
 The three isobaric simulations showed the importance of computational accuracy, as the simulations with more iteration0 steps were much more compareable to real, experimental data. Although the simulation with the most computational accuracy showed a melting point of $T_m \approx 77$ K and a boiling point of $T_b \approx 137$ K which states strong deviation to the meassured value especially for the boiling point.
 
-In the practical part of the experiment the sublimation enthalpy of argon was determined as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$. That made the calculation of the lattice energy $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ possible. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters $U_\mathrm{lattice,D} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
-
+In the practical part of the experiment the sublimation enthalpy of argon was determined as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$. That made the calculation of the lattice energy $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ possible. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters $U_\mathrm{lattice,E} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
+\newpage
 \printbibliography[title={References}]
 
 
