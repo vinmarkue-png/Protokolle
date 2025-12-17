@@ -216,39 +216,41 @@ In the third task the temperature dependence of the volume was investigated. For
 The second simulation increased the cooling cycles and the number of iteration cycles to 100 and the cooling steps to 1000. In the final simulation, the number of steps was increased to 1000. The results of these simulations were compared to analyze phase transitions and to determine the melting and boiling points of argon.
 
 
-\subsection{Lattice Energy of Argon}
-
+\subsection{Lattice energy of argon}
 The experimental setup was already built prior to the start of the measurements as shown in figure \ref{fig: setup}. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{setup.png}
-    \caption{Scheme of the measuring apparatus.\supercite{Skript}} 
+    \caption{Scheme of the experimental setup with two manometers for measuring the pressure of the argon and nitrogen chamber.\supercite{Skript}} 
     \label{fig: setup}
 \end{figure}
-The experiment began with the removal of residual gases from the system. This was achieved by flushing the apparatus with nitrogen gas followed by evacuation. The pressure was monitored for two minutes to verify the absence of leaks. After confirming that the pressure was constant, the argon chamber was adjusted to a pressure of approximately 250 mbar and cooled to approximately 63.9 K, leading to a pressure decrease to about 20 mbar. 
-Now, the measured pressure served as an indicator of gas purity, as significantly higher pressures indicates contamination by other gases. Once a pressure of approximately 15.4 mbar was reached, the nitrogen chamber was filled to the required level and was cooled to 63.9 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the vacuum pump was activated. Pumping nitrogen gas from the Dewar reduced the system temperature.
-Under these conditions, the pressure in the argon chamber was approximately 0.154 bar, while the nitrogen chamber reached about 0.0144 bar. After maintaining constant pressure for an additional five minutes, the pump was switched off and the system was allowed to warm up. During the warming phase, the pressures in both chambers were recorded at intervals of 30 seconds.
+The experiment began with the removal of residual gases from the system, which was achieved by flushing the apparatus with nitrogen gas followed by evacuation. The pressure was checked for two minutes to verify the absence of leaks and the vacuum pump was activated. After confirming that the pressure was constant with a correction pressure of 0.6 mbar, the valve for the argon chamber was opened to set a pressure of approximately 250 mbar and cooled to approximately 64 K, leading to a pressure decrease to about 16 mbar. 
+Once 16 mbar argon pressure was reached, the nitrogen chamber was filled to the required level and was cooled to 64 K. After all pressures stabilized, the valves were closed, the Dewar vessel was sealed, and the valve to the vacuum pump was opened. Pumping nitrogen gas from the Dewar reduced the system temperature in the cryogenic cell as much as possible.
+Under these conditions, the pressure in the argon chamber was approximately 16 mbar and the nitrogen chamber about 144 mbar. After maintaining constant pressure for two minutes, the pump was switched off and the system was allowed to warm up. During the warm-up phase, the pressures in both chambers were noted at intervals of 30 seconds, by reading the manometer display, which showed the pressures in 0.1 bar.
 
-\newpage
 
 \section{Results} % Elvis
 % 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
-
-The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into Torr, that are shown in table \ref{tab: experiment1}, to calculate the temperature of the system.
+The measured pressures were first corrected by 0.6 mbar, then converted to bar and after that the pressure of nitrogen was converted to torr with
+\begin{equation*}
+    \SI{1}{bar} = \SI{750,062}{torr},
+\end{equation*}
+which lead to the pressure data listed in table \ref{tab: experiment1}.
+Additionally, the temperature was calculated by rearranging the Henning-Otto equation \ref{eq:HenningOtto} to $T$ and inserting the measured pressure of nitrogen in torr.
 
 \begin{equation}
-\log(p/ \mathrm{Torr})
+\log(p/ \mathrm{torr})
 =7.781845-\frac{341.619~\mathrm{K}}{\mathrm{T}}-0.0062649\frac{\mathrm{T}}{\mathrm{K}}
 \label{eq:HenningOtto}
 \end{equation}
-
+The calculated values of the temperature in the cryogenic cell are also listed in table \ref{tab: experiment1}.
    
 % Tabelle mit Messdaten von Argon Experiment
 \begin{table}[H]
     \centering
     \caption{Listed are the measured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system. \\}
 \begin{tabular}{c|c|c|c|c}
-$t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{Ar}$ [Torr] & $T$ [K] \\
+$t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{Ar}$ [torr] & $T$ [K] \\
 \hline
 0 & 0.1540 & 1.4440 & 11.5510 & 63.8906 \\
 30 & 0.1760 & 1.5000 & 13.2011 & 64.1048 \\
@@ -352,7 +354,7 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 \subsubsection{Isobaric simulations} 
 
-As in previous section discussed, the simulation-results were given in reduced temperature values that were transformed into temperature values in Kelvin to plot figure \ref{fig: 3_1}
+As in the previous section discussed, the simulation-results were given in reduced temperature values that were transformed into temperature values in Kelvin to plot figure \ref{fig: 3_1}
 \begin{figure}[H] 
 \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/3_1.pdf}
@@ -388,8 +390,8 @@ In this case, the simulated boiling point is 50~K higher than the experimental v
 %, suggesting that the interparticle interactions may be against estimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
 
 
-\subsection{Lattice Energy of Argon} % Elvis
-In order to calculate the lattice energy of argon, the meassured sublimation enthalpy must first be calculated.
+\subsection{Lattice energy of argon} % Elvis
+In order to calculate the lattice energy of argon, the measured sublimation enthalpy must first be calculated.
 The sublimation enthalpy can be determined by plotting the natural logarithm of the pressure of argon in bar from table \ref{tab: experiment1} against $\frac{1}{\mathrm{T}}$. 
 \autoref{fig: LogPlot} shows the the plotted data.
 
