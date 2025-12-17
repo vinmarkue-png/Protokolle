@@ -415,7 +415,7 @@ By using equation \ref{eq:Us2} the inner energy of argon can now be calculated.
     &= -\SI{6870.69}{\frac{J}{mol}} 
 \end{align*}
 
-As equation \ref{eq:Us1} shows, the lattice energy can be calculated with the internal energy and the vibrational energy. Therefore the vibrational energy has to be calculated, which can be done by using equation \ref{eq:Debye}. The Debye temperature $\Theta_D = \SI{85}{K}$ and the Debye funktion $D\left(\frac{\Theta}{T}\right) = \SI{0.617}{}$ at 70 K are given, wich means the vibrational energy can be calculated as
+As equation \ref{eq:Us1} shows, the lattice energy can be calculated with the internal energy and the vibrational energy. Therefore the vibrational energy has to be calculated, which can be done by using equation \ref{eq:Debye}. The Debye temperature $\Theta_D = \SI{85}{K}$ and the Debye funktion $D\left(\frac{\Theta}{T}\right) = \SI{0.617}{}$ at 70 K are given, which means the vibrational energy can be calculated as
 \begin{align*}
     U_{\mathrm{vib}} &=\frac{9}{8}R\Theta_D + 3RT D \left(\mathrm{\frac{\Theta_D}{T}}\right)\\
     &= \frac{9}{8}~\cdot~ \SI{8.314}{\frac{J}{mol \cdot K}}~\cdot~ \SI{85}{K} + 3~ \cdot~ \SI{8.314}{\frac{J}{mol \cdot K}} ~\cdot ~\SI{70}{K}~ \cdot~ \SI{0.617}{}\\
@@ -455,16 +455,16 @@ The room for errors in the molecular dynamics simulations was limited because th
 In the experimental part, the pressures are error-affected, because they were taken from the manometer display and noted every 30s manually. That's why the pressure values exhibit measurement inaccuracy and some outliers, which may have been caused by incorrect readings. 
 That could also be the reason for an inaccurate slope in the fitted plot of the natural logarithm against $\frac{1}{T}$, which in turn has an effect on the calculations of the sublimation enthalpy, inner energy and lattice energy. 
 Therefore, it can be assumed that all calculated thermodynamical properties are not exakt because of measurement uncertainty of the manometer or incorrect reading of pressure values.
-Furthermore, the values could be imprecise because the Dewar was manually attached and screwed to the setup, which is why leaks couldn't be prevented entirely and some liquid nitrogen might have passed out of the System.
+Furthermore, the values could be imprecise because the Dewar was manually attached and screwed to the setup, which is why leaks couldn't be prevented entirely and some liquid nitrogen might have passed out of the system.
 
 \section{Conclusion}
 
 
 The isochor simulation showed a similar sublimation curve as the experimental sublimation curve, but was located around 10 K lower due to not enough iteration steps and cycles in the Velocity-Verlet algorithm and the approximations made in the used LJ-potential.
 
-The three Isobaric simulation showed the importancy of of computational accuracy leading to a curve / value much more compareable to real, experimental data. Although even the simulation with the most computational accuracy showed a strong deviation to the meassured value.
+The three Isobaric simulation showed the importancy of of computational accuracy leading to a curve / value much more compareable to real, experimental data. Although even the simulation with the most computational accuracy showed a strong deviation to the measured value.
 
-The practical part of the experiment made a determination of the lattice energy of argon possible. It was calculated as $-\SI{8742,961}{\frac{J}{mol}}$. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters for Argon. The deviation from the theoretical lattice energy was 3.6\%.
+In the practical part of the experiment the sublimation enthalpy of argon was determined as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$. That made the calculation of the lattice energy $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ possible. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters $U_\mathrm{lattice,D} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
 
 \printbibliography[title={References}]
 
