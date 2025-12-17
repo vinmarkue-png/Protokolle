@@ -117,7 +117,10 @@
 
 
 \textbf{Abstract:}
+Molecular Dynamics Simulations (MDS) were used to simulate the sublimation curve and phase transitions of Argon.
+The onset of the simulated sublimation curve was located 10 K lower, the melting and boiling points deviate due to not enough iterations in the Velocity-Verlet algorithm and approximations made in the used LJ-potential.
 
+The sublimation enthalpy of argon was calculated as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$, the lattice energy with experimental values as $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ and the theoretical energy as $U_\mathrm{lattice,D} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
 
 
 
@@ -135,7 +138,7 @@
 
 
 \section{Theory}
-Molecular dynamics simulations (MDS) are used to visualize spatial movements of atoms and molecules.
+Molecular dynamics simulations are used to visualize spatial movements of atoms and molecules.
 For that a numerical algorithm can determine the positions $r_\mathrm{i}$ and momentums $p_\mathrm{i}$ for each particle i.\supercite{Skript}
 A proven algorithm is the Velocity-Verlet algorithm, which assigns each particle a random starting position and velocity at first before calculating the new positions and velocities a small time step later.
 That is achieved by calculating the new accelerations using the provided potential, e.g. lennard-Jones potential.
@@ -390,6 +393,7 @@ The observed incline occurs at approximately 137~K, which deviates significantly
 In this case, the simulated boiling point is 50~K higher than the experimental value, which could be explained by the overestimation of interatomic interactions that stabilize the condensed phase.
 %, suggesting that the interparticle interactions may be against estimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
 
+\newpage
 
 \subsection{Lattice energy of argon} % Elvis
 In order to calculate the lattice energy of argon, the measured sublimation enthalpy must first be calculated.
