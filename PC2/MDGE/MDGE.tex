@@ -234,7 +234,7 @@ Under these conditions, the pressure in the argon chamber was approximately 0.15
 \section{Results} % Elvis
 % 1 Satz zu Messergebnissen (wurden in 0.1 bar gemessen ..., sind in \ref{tab: } aufgeführt etc.)
 
-The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto-Equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into torr, wich are shown in figure \ref{tab: experiment1}, to calculate the temperature of the system.
+The determination of the sublimation energy of argon requires the calculation of the temperature. This can be done by using the Henning-Otto equation \ref{eq:HenningOtto}, wich uses the measured pressure of nitrogen after conversion into Torr, that are shown in table \ref{tab: experiment1}, to calculate the temperature of the system.
 
 \begin{equation}
 \log(p/ \mathrm{Torr})
@@ -271,18 +271,18 @@ $t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{Ar}$ [Tor
 540 & 0.6480 & 3.7060 & 48.6040 & 69.7012 \\
 570 & 0.6920 & 3.8900 & 51.9043 & 70.0315 \\
 600 & 0.7430 & 4.0910 & 55.7296 & 70.3785 \\
-630 & 0.7980 & 4.2930 & 59.8549 & 70.7141
+630 & 0.7980 & 4.2930 & 59.8549 & 70.7141 \\
+660 & 0.8480 & 4.4890 & 63.6053 & 71.0281 \\
+690 & 0.8940 & 4.6940 & 67.0555 & 71.3452 \\
+720 & 0.9570 & 4.9070 & 71.7809 & 71.6635 \\
+750 & 1.0140 & 5.1370 & 76.0563 & 71.9954 \\
+780 & 1.0770 & 5.3570 & 80.7817 & 72.3022
 \label{tab: experiment1}
 \end{tabular}
 \end{table}
 \begin{table}[H]
     \centering
 \begin{tabular}{c|c|c|c|c}
-660 & 0.8480 & 4.4890 & 63.6053 & 71.0281 \\
-690 & 0.8940 & 4.6940 & 67.0555 & 71.3452 \\
-720 & 0.9570 & 4.9070 & 71.7809 & 71.6635 \\
-750 & 1.0140 & 5.1370 & 76.0563 & 71.9954 \\
-780 & 1.0770 & 5.3570 & 80.7817 & 72.3022 \\
 810 & 1.1460 & 5.6200 & 85.9571 & 72.6564 \\
 840 & 1.2130 & 5.8230 & 90.9825 & 72.9211 \\
 870 & 1.2830 & 6.0500 & 96.2330 & 73.2088 \\
@@ -351,7 +351,7 @@ Furthermore, it can be concluded that a higher computation time with more iterat
 
 
 \subsubsection{Isobaric simulations} % Julian
-% Was ist in der figure gegen was geplottet? -> T against V
+% Was ist in der figure gegen was geplottet? -> reduced T wurde doch gemessen? -> 1 Satz zur Umrechnung
 
 \begin{figure}[H]
  \centering
@@ -368,7 +368,7 @@ Higher step and cycle counts also allow the phase transitions to be identified m
 \begin{figure}[H]
  \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/3_2.pdf}
-    \caption{The volume plotted over the temperature for the three simulations between 70 K and 90 K.} 
+    \caption{The volume plotted against the temperature for the three simulations between 70 K and 90 K.} 
     \label{fig: 3_2}
 \end{figure}
 
@@ -379,12 +379,12 @@ The melting temperatures obtained from the simulations deviate from the literatu
 \begin{figure}[H]
  \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/3_3.pdf}
-    \caption{The volume plotted over the temperature for the three simulations between 110 K and 150 K.} 
+    \caption{The volume plotted against the temperature for the three simulations between 110 K and 150 K.} 
     \label{fig: 3_3}
 \end{figure}
 
 When examining figure~\ref{fig: 3_3}, an increase in volume is observed for the simulations T3V2 and T3V3, while no comparable feature is present in T3V1. This behavior arises from the increased number of cycles and steps used in T3V2 and T3V3, which results in improved sampling of the phase space and, consequently, a more accurate representation of the phase transition. This interpretation is further supported by the fact that the volume increase in T3V3 is sharper than in T3V2.
-The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K.\supercite{gestis} As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. In this case, the simulated boiling point exceeds the experimental value, suggesting that the interparticle interactions may be overestimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
+The observed incline occurs at approximately 137~K, which deviates significantly from the literature boiling point of argon at 87~K.\supercite{gestis} As with the melting point, this discrepancy can be attributed to simplifications and approximations inherent to the simulation model. In this case, the simulated boiling point exceeds the experimental value, suggesting that the interparticle interactions may be againstestimated, thereby stabilizing the condensed phase and shifting the boiling transition to higher temperatures.
 
 
 \subsection{Lattice Energy of Argon} % Elvis
@@ -399,13 +399,13 @@ The sublimation enthalpy can be determined by plotting the natural logarithm of 
     \label{fig: LogPlot}
 \end{figure}
 
-The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearanging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.
+The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearranging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.
 \begin{equation*}
     \Delta H_\mathrm{sub} = \mathrm{m} \cdot R,
 \end{equation*}
 The sublimation enthalpy of argon can be calculated as $\SI{8325.640}{\frac{J}{mol}}$.\\
 
-By using equation \ref{eq:Us2} the inner energy of argon can be calculated.
+By using equation \ref{eq:Us2} the inner energy of argon can now be calculated.
 \begin{align*}
     U_s &= \frac{5}{2}RT-\Delta H_{\mathrm{sub}}\\
     &= \frac{5}{2} \cdot \SI{8.314}{\frac{J}{mol \cdot K}} \cdot \SI{70}{K} - \SI{8325.640}{\frac{J}{mol}}\\
