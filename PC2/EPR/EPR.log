@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  18 DEC 2025 12:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  18 DEC 2025 16:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex"
-(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex
+**"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR/EPR.tex"
+(c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR/EPR.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1079,6 +1079,10 @@ File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 )) (./EPR.aux
 Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 (babel)             Reported on input line 11.
+
+
+LaTeX Warning: Label `fig: DPPH-modul-var' multiply defined.
+
 )
 \openout1 = `EPR.aux'.
 
@@ -1296,16 +1300,26 @@ l.253 D
 
 LaTeX Warning: Reference `eq:resonanz' on page 6 undefined on input line 255.
 
+<Galvinoxyl/Galvinoxyl.pdf, id=216, 462.52798pt x 346.89601pt>
+File: Galvinoxyl/Galvinoxyl.pdf Graphic file (type pdf)
+<use Galvinoxyl/Galvinoxyl.pdf>
+Package pdftex.def Info: Galvinoxyl/Galvinoxyl.pdf  used on input line 281.
+(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
 
 
 [6
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.286 \printbibliography[title={Literatur}]
-                                           ]
+l.285 \section
+              {Fehlerrechnung} % der berechneten g-Faktoren]
 
-[7] (./EPR.aux)
+[7
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.294 \end{document}
+                     <./Galvinoxyl/Galvinoxyl.pdf>] (./EPR.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1314,23 +1328,26 @@ L3 programming layer <2025-09-02>
 
 LaTeX Warning: There were undefined references.
 
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package logreq Info: Writing requests to 'EPR.run.xml'.
 \openout1 = `EPR.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41512 strings out of 467748
- 880294 string characters out of 5431137
- 1844462 words of memory out of 5000000
- 69638 multiletter control sequences out of 15000+600000
+ 41520 strings out of 467748
+ 880492 string characters out of 5431137
+ 1844501 words of memory out of 5000000
+ 69645 multiletter control sequences out of 15000+600000
  643110 words of font info for 72 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,20n,107p,11279b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,11260b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on EPR.pdf (9 pages, 348682 bytes).
+Output written on EPR.pdf (9 pages, 401690 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 196 compressed objects within 2 object streams
- 30 named destinations out of 1000 (max. 500000)
- 113 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 395 PDF objects out of 1000 (max. 8388607)
+ 207 compressed objects within 3 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
