@@ -227,27 +227,35 @@ Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der
 
 \begin{table}[H]
 \centering
-\caption{Lage der Spektrenzentren mit den zugehörigen Parametern. \\}
+\caption{Lage der Spektrenzentren mit den zugehörigen Parametern.}
 \begin{tabular}{c|c|c}
 Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
 \hline
-0.01 & 20 & 336.647 \\
-0.01 & 17 & 336.657 \\
-0.01 & 14 & 336.662 \\
-0.01 & 11 & 336.662 \\
-0.01 & 8  & 336.667 \\
-0.01 & 5  & 336.667 \\
-0.01 & 30 & 336.647 \\
-0.02 & 30 & 336.652 \\
-0.04 & 30 & 336.662 \\
-0.08 & 30 & 336.652 \\
-0.16 & 30 & 336.652 \\
-0.32 & 30 & 336.652 \\
-0.64 & 30 & 336.647 \\
+0,01 & 20 & 336,647 \\
+0,01 & 17 & 336,657 \\
+0,01 & 14 & 336,662 \\
+0,01 & 11 & 336,662 \\
+0,01 & 8  & 336,667 \\
+0,01 & 5  & 336,667 \\
+0,01 & 30 & 336,647 \\
+0,02 & 30 & 336,652 \\
+0,04 & 30 & 336,662 \\
+0,08 & 30 & 336,652 \\
+0,16 & 30 & 336,652 \\
+0,32 & 30 & 336,652 \\
+0,64 & 30 & 336,647
 \end{tabular}
 \label{tab:zentren}
 \end{table}
-
+Die Lage des Spektrenzentrums von DPPH befindet sich also am Mittelwert von $B_0 = \SI{336,656}{mT}$.
+Da als halbe Frequenz auf dem Display des Frequenzzählers 4,71701 GHz angezeigt wurde, wird für die Berechnung des g-Faktors die Frequenz $\nu = \SI{9,43402}{GHz}$ verwendet.
+Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in die umgestellte Gleichung der Resonanzbedingung \ref{eq:resonanz} wird der g-Faktor berechnet.
+\begin{align*}
+	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0} \\
+	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \\
+	&= 2{,}0022
+\end{align*}
+Mit dem Literaturwert von DPPH von $g_{\mathrm{Lit}} = 2{,}0037$ ergibt sich eine absolute Abweichung von 0,0015. Die Ungenauigkeit des g-Faktors wird in der Fehlerrechnung bestimmt.
 
 
 \subsection{}
@@ -262,7 +270,7 @@ Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
 %23_Galvin_bisschen_O2_337B_5sweep_0p03mod_10db_5_10-1_4727720
 % Alle anderen Messungen 337 B, Sweep 5, Modulation 0.03, 10 db, 5*10^1 2*4727720 Strahlung
 
-\section{Fehlerrechnung}
+\section{Fehlerrechnung} % der berechneten g-Faktoren
 
 
 \section{Zusammenfassung}

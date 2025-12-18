@@ -47,6 +47,15 @@ for i, num in enumerate(file_numbers):
 for i, c in enumerate(spectra_centers):
     print(f"Spektrum {file_numbers[i]}: Zentrum bei {c:.3f} mT")
 
+spectra_centers = [
+    336.647, 336.657, 336.662, 336.662, 336.667, 336.667,  # Messung 11-16
+    336.647, 336.652, 336.662, 336.652, 336.652, 336.652, 336.647  # Messung 21-27
+]
+
+# Mittelwert berechnen
+mean_center = np.mean(spectra_centers)
+print(f"Mittelwert aller Spektrenzentren: {mean_center:.3f} mT")
+
 plt.tick_params(direction='in', top=True, right=True)
 plt.xlim(335.75, 337.75)
 

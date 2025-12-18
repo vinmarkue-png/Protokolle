@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber EPR"] 1766042330.3841 "EPR.bcf" "EPR.bbl" "EPR" 1766054753.33759 0
-  "EPR.bcf" 1766054752 108306 21a5b28e0084ab185dddaabdc3a2c674 "pdflatex"
+["biber EPR"] 1766042330.3841 "EPR.bcf" "EPR.bbl" "EPR" 1766056197.42146 0
+  "EPR.bcf" 1766056197 108306 21a5b28e0084ab185dddaabdc3a2c674 "pdflatex"
   "lit.bib" 1765896258 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1766054750.08337 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766054753.33838 0
+["pdflatex"] 1766056194.22728 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766056197.42224 0
   "Bilder/setup.png" 1766042307 23460 4dbd8e83d49875bf8a96895763c42c0c ""
   "DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf" 1766053784 19959 d284c00644943a13aa1c5e92ca1a3fd6 ""
   "DPPH/B)/DPPH_MW_Attenuation.pdf" 1766054188 33380 76c3d08cc8e43c782b4689a12491e052 ""
-  "DPPH/C)/DPPH_Modulation.pdf" 1766054261 34467 739e0d127384daaf81b3a355e354f24c ""
-  "EPR.aux" 1766054752 6231 62b4e0de592a99e8a900ae811c7c9ef8 "pdflatex"
+  "DPPH/C)/DPPH_Modulation.pdf" 1766054867 34467 8f7b8c517104cffc099dd9965e684f4c ""
+  "EPR.aux" 1766056197 6224 7611769527dbbbf8caa1bb2aac0bacf1 "pdflatex"
   "EPR.bbl" 1766042333 1591 41e842fa6159ee6d2617c5f8da122169 "biber EPR"
-  "EPR.run.xml" 1766054752 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1766054747 10402 3cc7edddb953d4752d89af8c392f8163 ""
-  "EPR.toc" 1766054752 817 f24b118581fa5c2af4f58bcc07497c37 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766054747 10402 3cc7edddb953d4752d89af8c392f8163 ""
+  "EPR.run.xml" 1766056197 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1766056193 11341 8129813319e4be97641146e7f13d3dd3 ""
+  "EPR.toc" 1766056197 817 f24b118581fa5c2af4f58bcc07497c37 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766056193 11341 8129813319e4be97641146e7f13d3dd3 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -53,6 +53,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1761070986 32722 d7379af29a190c3f453aba36302ff5a9 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761070986 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1761070986 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761070986 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1761072433 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1761072433 135938 1a19ff976dd71ec9a67855cdbfd83710 ""
