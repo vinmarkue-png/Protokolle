@@ -41,7 +41,7 @@ for i, num in enumerate(file_numbers):
         xc, y,
         color=colors[i],
         lw=1.5,
-        label=f"modulation {modul[i]} mT"
+        label=f"modulation 0,{modul[i]:02d} mT"
     )
 
 for i, c in enumerate(spectra_centers):

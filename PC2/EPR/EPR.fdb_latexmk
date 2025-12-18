@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber EPR"] 1766059071.78815 "EPR.bcf" "EPR.bbl" "EPR" 1766059104.44085 0
-  "EPR.bcf" 1766059104 108367 94ca40161d7f067c6de4e8e226c509a2 "pdflatex"
+["biber EPR"] 1766059071.78815 "EPR.bcf" "EPR.bbl" "EPR" 1766063679.73748 0
+  "EPR.bcf" 1766063679 108367 94ca40161d7f067c6de4e8e226c509a2 "pdflatex"
   "lit.bib" 1765896258 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1766059101.17648 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766059104.44165 0
+["pdflatex"] 1766063676.47553 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766063679.73826 0
   "Bilder/setup.png" 1766042307 23460 4dbd8e83d49875bf8a96895763c42c0c ""
   "DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf" 1766053784 19959 d284c00644943a13aa1c5e92ca1a3fd6 ""
   "DPPH/B)/DPPH_MW_Attenuation.pdf" 1766054188 33380 76c3d08cc8e43c782b4689a12491e052 ""
-  "DPPH/C)/DPPH_Modulation.pdf" 1766054867 34467 8f7b8c517104cffc099dd9965e684f4c ""
-  "EPR.aux" 1766059104 6277 2a94437da9ad7bc0dceff4ed03fe79a8 "pdflatex"
+  "DPPH/C)/DPPH_Modulation.pdf" 1766063250 34655 b77b93332d7fdd3fcefba2f597a9697c ""
+  "EPR.aux" 1766063679 6277 153bc03c6f56a67ba09396c31bc9a5d6 "pdflatex"
   "EPR.bbl" 1766059083 1591 41e842fa6159ee6d2617c5f8da122169 "biber EPR"
-  "EPR.run.xml" 1766059104 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1766059100 12117 e29e92fcf26cf1aec2dbd66e16726cf9 ""
-  "EPR.toc" 1766059104 817 497f83af5ce007bae5889c68d790c567 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766059100 12117 e29e92fcf26cf1aec2dbd66e16726cf9 ""
+  "EPR.run.xml" 1766063679 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1766063672 12231 17a4207d28120d2b8dada83a8f5efef8 ""
+  "EPR.toc" 1766063679 817 497f83af5ce007bae5889c68d790c567 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766063672 12231 17a4207d28120d2b8dada83a8f5efef8 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""

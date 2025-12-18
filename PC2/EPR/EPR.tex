@@ -224,9 +224,9 @@ Aus \autoref{fig: DPPH-power-var} geht hervor, dass die Spektrenhöhe mit höher
     \label{fig: DPPH-modul-var}
 \end{figure}
 % Spektrenhöhe & Linienbreite
-In \autoref{fig: DPPH-modul-var} lässt sich erkennen, dass die Spektrenhöhe mit zunehmender Modulationsamplitude ansteigt. %Die Linienbreite nimmt bis zu einer Modulationsamplitude von 32 mT ab, aber steigt im Spektrum mit Amplitude von 64 mT wieder an.
+In \autoref{fig: DPPH-modul-var} lässt sich erkennen, dass die Spektrenhöhe mit zunehmender Modulationsamplitude ansteigt. Jedoch ist dieser Anstieg nicht linear, sondern flacht bei höheren Amplituden ab 0,32 mT ab. Die Linienbreite nimmt von der Modulationsamplitude 0,01 mT bis 0,64 mT zu.
 
-Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
+Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW-Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
 
 \begin{table}[H]
 \centering
@@ -252,12 +252,14 @@ Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
 \end{table}
 Die Lage des Spektrenzentrums von DPPH befindet sich also am Mittelwert von $B_0 = \SI{336,656}{mT}$.
 Da als halbe Frequenz auf dem Display des Frequenzzählers 4,71701 GHz angezeigt wurde, wird für die Berechnung des g-Faktors die Frequenz $\nu = \SI{9,43402}{GHz}$ verwendet.
-Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in die umgestellte Gleichung der Resonanzbedingung \ref{eq:resonanz} wird der g-Faktor berechnet.
-\begin{align*}
+Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in \ref{eq:g}, die sich durch Umstellen der Gleichung der Resonanzbedingung \ref{eq:resonanz} nach g ergibt, wird der g-Faktor berechnet.
+\begin{align}
 	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0} \\
-	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \\
-	&= 2{,}0022
-\end{align*}
+	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \nonumber \\
+	&= 2{,}0022 \nonumber
+	\label{eq:g}
+\end{align}
+
 Mit dem Literaturwert von DPPH von $g_{\mathrm{Lit}} = 2{,}0037$ ergibt sich eine absolute Abweichung von 0,0015.\supercite{Skript} Die Ungenauigkeit des g-Faktors wird in der Fehlerrechnung bestimmt.
 Die Wellenlänge der verwendeten Mikrowelle lässt sich aus der Frequenz $\nu = \SI{9,43402}{GHz}$ mit der Lichtgeschwindigkeit berechnen.
 \begin{align*}
