@@ -6,7 +6,7 @@
 \contentsline {section}{\numberline {3}Auswertung}{2}{section.3}%
 \contentsline {subsection}{\numberline {3.1}ESR-Spektren von 2,2-Diphenyl-1-pikrylhydrazyl}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}ESR-Spektren von}{7}{subsection.3.2}%
-\contentsline {subsection}{\numberline {3.3}ESR-Spektren von}{7}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}ESR-Spektren des Galvinoxylradikals}{7}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Fehlerrechnung}{7}{section.4}%
 \contentsline {section}{\numberline {5}Zusammenfassung}{7}{section.5}%
 \contentsline {section}{\numberline {6}Literatur}{7}{section.6}%
