@@ -1,19 +1,22 @@
 # Fdb version 4
-["biber EPR"] 1766042330.3841 "EPR.bcf" "EPR.bbl" "EPR" 1766044840.78207 0
-  "EPR.bcf" 1766044840 108306 21a5b28e0084ab185dddaabdc3a2c674 "pdflatex"
+["biber EPR"] 1766042330.3841 "EPR.bcf" "EPR.bbl" "EPR" 1766050153.65791 0
+  "EPR.bcf" 1766050153 108306 21a5b28e0084ab185dddaabdc3a2c674 "pdflatex"
   "lit.bib" 1765896258 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1766044836.7218 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766044840.78309 0
+["pdflatex"] 1766050149.2792 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766050153.65894 0
   "Bilder/setup.png" 1766042307 23460 4dbd8e83d49875bf8a96895763c42c0c ""
-  "EPR.aux" 1766044840 4699 c262718902e6081574aeb440389ea3aa "pdflatex"
+  "DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf" 1766049558 20322 9409319229e619d00de4b15e75bb8a10 ""
+  "DPPH/B)/DPPH_MW_Attenuation.pdf" 1766049565 33215 f027079f3cb9b33a8d97f3f0caac2c4d ""
+  "DPPH/C)/DPPH_Modulation.pdf" 1766050129 31573 8261293130e6d77d0cd520d7c15e9087 ""
+  "EPR.aux" 1766050153 5562 2c25c5943dcaf9f408fbd32a493e95ae "pdflatex"
   "EPR.bbl" 1766042333 1591 41e842fa6159ee6d2617c5f8da122169 "biber EPR"
-  "EPR.run.xml" 1766044840 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1766044835 6856 0afdd3f1bfa7fcfc7cfcb4aa8de513a4 ""
-  "EPR.toc" 1766044840 817 adcb114f9b72e5a5ced32fb2bd06b8dd "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766044835 6856 0afdd3f1bfa7fcfc7cfcb4aa8de513a4 ""
+  "EPR.run.xml" 1766050153 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1766050148 8168 681db7e852e8910fba54d657f49288ce ""
+  "EPR.toc" 1766050153 817 6b48ea289719aac801274239c1a45c47 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex" 1766050148 8168 681db7e852e8910fba54d657f49288ce ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
