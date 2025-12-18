@@ -12,15 +12,17 @@ df2 = pd.read_csv(filename2, delimiter='\t', decimal='.', header=None)
 x1, y1 = df1.iloc[:, 0], df1.iloc[:, 1]
 x2, y2 = df2.iloc[:, 0], df2.iloc[:, 1]
 
+x1c = x1 - 1.258
+x2c = x2 - 1.258
 # Normierung
 # y1 = y1 / np.max(np.abs(y1))
 # y2 = y2 / np.max(np.abs(y2))
 
-plt.plot(x1, y1, label=r"DPPH start: Gain $5\cdot10^{0}$", lw=1.5)
-plt.plot(x2, y2, label=r"DPPH opt: Gain $3\cdot10^{1}$", lw=1.5, color="black")
+plt.plot(x1c, y1, label=r"DPPH start: Gain $5\cdot10^{0}$", lw=1.5)
+plt.plot(x2c, y2, label=r"DPPH opt: Gain $3\cdot10^{1}$", lw=1.5, color="black")
 
 plt.tick_params(direction='in', top=True, right=True)
-plt.xlim(337, 339)
+plt.xlim(335.75, 337.75)
 
 plt.xlabel(r"$B$ / mT")
 plt.ylabel(r"Absorption / a.u.")

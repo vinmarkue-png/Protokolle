@@ -156,7 +156,7 @@ Probe & $B_0$-Field & Sweep & Modulation & MW attenuation & Gain \\
 DPPH - start        & 338 & 5   & 0,01        & 20     & $5\cdot10^{0}$ \\
 DPPH - optimal        & 337,91 & 1,3   & 0,01        & 20     & $3\cdot10^{1}$ \\
 DPPH - power var.   & 337,91 & 1,3   & 0,01       & 20 - 5    & $3\cdot10^{1}$ \\
-DPPH - modul. var.    & 337,91 & 1,3   & 0,01 - 0,64    & 20     & $3\cdot10^{1}$ \\
+DPPH - modul. var.    & 337,91 & 1,3   & 0,01 - 0,64    & 30     & $3\cdot10^{1}$ \\
 \hline
 Cu(AcAc)$_2$ + DPPH  & 320 & 60  & 0,4         & 20     & $5\cdot10^{1}$ \\
 VO(AcAc)$_2$ + DPPH  & 340 & 100 & 0,2         & 30     & $5\cdot10^{1}$ \\
@@ -176,6 +176,26 @@ Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
 
 \section{Auswertung}
 
+Für die Auswertung ist zu beachten, dass der Wert des $B_0$-Felds aufgrund der näheren Position der Hallsonde zum Magneten als der Position der Probe 1,258 mT höher ist als der reale Wert für $B_0$.
+Somit ergeben sich für die $B_0$-Werte aus \autoref{tab: parameter} folgende reale $B_0$-Werte:
+\begin{table}[H]
+\centering
+\caption{Reale $B_0$-Werte für die verschiedenen Messungen. \\}
+\begin{tabular}{c|c}
+Probe & $B_0$-Field \\
+\hline
+DPPH - start        & 336,742 \\
+DPPH - optimal        & 336,652 \\
+DPPH - power var.   & 336,652 \\
+DPPH - modul. var.    & 336,652 \\
+Cu(AcAc)$_2$ + DPPH  & 3 \\
+VO(AcAc)$_2$ + DPPH  & 3  \\
+Galvinoxyl           & 33 \\
+Galvinoxyl deox & \\
+\end{tabular}
+\label{tab: zentren}
+\end{table}
+
 \subsection{DPPH}
 \autoref{fig: DPPH-start} zeigt die aufgenommenen ESR-Spektren der DPPH-Probe mit den Startparametern und optimalen Parametern aus \autoref{tab: parameter}.
 
@@ -185,23 +205,50 @@ Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
     \caption{ESR-Spektrum der DPPH-Probe mit Standardparametern und optimalen Parametern.} 
     \label{fig: DPPH-start}
 \end{figure}
-Dabei wurde der Wert für $Gain$ versechsfacht, um die Spektrenhöhe zu vergrößern, $B_0$-Field leicht verringert für die Zentrierung des Spektrums und $Sweep$ auf 1,3 mT herabgesetzt, um nur den relevanten Bereich des ESR-Spektrums zu messen.
-\autoref{fig: DPPH-start} zeigt die aufgenommenen ESR-Spektren der DPPH-Probe zwischen 20 dB und 5 dB mit Verdopplung der Mikrowellenleistung jeder Probe in 3 dB Schritten.
+Dabei wurde der Wert für $Gain$ versechsfacht, um die Spektrenhöhe zu vergrößern, $B_0$-Field leicht verringert für die Zentrierung des Spektrums und $Sweep$ auf 1,3 mT herabgesetzt, um nur den relevanten Bereich des ESR-Spektrums zu messen. \\
+\autoref{fig: DPPH-power-var} zeigt die aufgenommenen ESR-Spektren der DPPH-Probe mit Werten der MW attenuation zwischen 20 dB und 5 dB. Dabei verdoppelt sich die Mikrowellenleistung von Messung zu Messung in 3 dB Schritten.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{DPPH/B)/DPPH_MW_Attenuation.pdf}
-    \caption{ESR-Spektrum der DPPH-Probe mit variierender MW attenuation zwischen 20 dB und 5 dB.} 
+    \caption{ESR-Spektren der DPPH-Probe mit variierender MW attenuation zwischen 20 dB und 5 dB.} 
     \label{fig: DPPH-power-var}
 \end{figure}
-
+Aus \autoref{fig: DPPH-power-var} geht hervor, dass die Spektrenhöhe mit höherer Mikrowellenleistung ansteigt, da das ESR-Spektrum bei geringeren Werten der MW attenuation durch eine geringere Abschwächung der Mikrowellen- Strahlung eine höhere Signalintensität aufweist. Zudem lässt sich beobachten, dass auch die Spektrenbreite mit zunehmender Mikrowellenleistung zunimmt.\\
+\autoref{fig: DPPH-modul-var} zeigt die aufgenommenen ESR-Spektren der DPPH-Probe mit Werten der Modulationsamplitude zwischen 0,01 mT und 0,064 mT mit Verdopplung von Messung zu Messung.
+Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{DPPH/C)/DPPH_Modulation.pdf}
-    \caption{ESR-Spektrum der DPPH-Probe .} 
+    \caption{ESR-Spektren der DPPH-Probe mit variierender Modulationsamplitude zwischen 0,01 mT und 0,064 mT.} 
     \label{fig: DPPH-modul-var}
 \end{figure}
+
+\begin{table}[H]
+\centering
+\caption{Lage der Spektrenzentren mit den zugehörigen Parametern. \\}
+\begin{tabular}{c|c|c}
+Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
+\hline
+0.01 & 20 & 336.647 \\
+0.01 & 17 & 336.657 \\
+0.01 & 14 & 336.662 \\
+0.01 & 11 & 336.662 \\
+0.01 & 8  & 336.667 \\
+0.01 & 5  & 336.667 \\
+0.01 & 30 & 336.647 \\
+0.02 & 30 & 336.652 \\
+0.04 & 30 & 336.662 \\
+0.08 & 30 & 336.652 \\
+0.16 & 30 & 336.652 \\
+0.32 & 30 & 336.652 \\
+0.64 & 30 & 336.647 \\
+\end{tabular}
+\label{tab:zentren}
+\end{table}
+
+
 
 \subsection{}
 
