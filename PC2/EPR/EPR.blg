@@ -1,0 +1,15 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'EPR.blg'
+[293] biber-MSWIN64:342> INFO - === 
+[354] Biber.pm:421> INFO - Reading 'EPR.bcf'
+[528] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[550] Biber.pm:4487> INFO - Processing section 0
+[566] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[647] bibtex.pm:1713> INFO - LaTeX decoding ...
+[658] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[724] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[724] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[724] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[724] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[726] bbl.pm:676> INFO - Writing 'EPR.bbl' with encoding 'UTF-8'
+[728] bbl.pm:779> INFO - Output to EPR.bbl

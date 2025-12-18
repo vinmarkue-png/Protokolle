@@ -15,7 +15,7 @@
 \usepackage{siunitx}
 \usepackage{subfigure}
 \renewcaptionname{ngerman}{\figurename}{Abb.}
-\sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
 \DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
@@ -73,7 +73,7 @@
 \newcommand{\GRUPPENNR}{A05}
 
 \newcommand{\VERSUCHSNR}{ESR}
-\newcommand{\VERSUCHSNAME}{Elektronen Spin Resonanz Spektroskopie}
+\newcommand{\VERSUCHSNAME}{Elektronenspin-Resonanz-Spektroskopie}
 
 
 \begin{document}
@@ -131,12 +131,41 @@
 
 \section{Versuchsdurchführung}
 Es wurden verschiedene Proben im ESR-Spektrometer untersucht, wobei jede Probe in den Resonator eingeführt wurde und nach Abgleichung der Mikrowellenbrücke und Einstellung der Parameter gemessen wurde.
+Der Aufbau des Spektrometers ist in \autoref{fig: setup} dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/setup.png}
+    \caption{Schema des Versuchsaufbaus mit Mikrowellen-Generator, Zirkulator, Resonator und Diode.\supercite{Skript}} 
+    \label{fig: setup}
+\end{figure}
 
 \subsection{DPPH}
-Von der Diphenylpikrylhydrazyl-Probe wurde zuerst ein ESR-Spektrum bei der Standardeinstellung des Geräts mit folgenden Parametern aufgenommen: $B_0$: 338 mT, $Sweep$: 5,0 mT, $Sweep~time$: 60 s, $Modulation$: 0,01 mT, $MW attenuation$: 20,0 dB, $Gain$: $5 \cdot 10^0$, $Smooth$: 0,1 s. Dann wurden die Parameter $B_0-Field$, $Sweep$ und $Gain$ so lange verändert, bis das Spektrum zentriert, die Bildschirmbreite gut genutzt und die Spektrenhöhe optimiert war. Dies war bei den Parametern $B_0$: 337.91 mT, $Sweep$: 1.3 mT, $Gain$: $3 \cdot 10^1$ der Fall.
+Von der Diphenylpikrylhydrazyl(DPPH)-Probe wurde zuerst ein ESR-Spektrum bei der Standardeinstellung des Geräts mit folgenden Parametern aufgenommen: $B_0$: 338 mT, $Sweep$: 5,0 mT, $Sweep~time$: 60 s, $Modulation$: 0,01 mT, $MW attenuation$: 20,0 dB, $Gain$: $5 \cdot 10^0$, $Smooth$: 0,1 s. Dann wurden die Parameter $B_0-Field$, $Sweep$ und $Gain$ so lange verändert, bis das Spektrum zentriert, die Bildschirmbreite gut genutzt und die Spektrenhöhe optimiert war. Dies war bei den Parametern $B_0$: 337.91 mT, $Sweep$: 1.3 mT, $Gain$: $3 \cdot 10^1$ der Fall.
 % 137.91 mT, Sweep: 1.3 mT, Gain:3*10^1
+Dann wurde zuerst die Mikrowellenleistung mit jeder Messung durch Abschwächung der Mikrowellenstrahlung (MW attenuation) um 3 dB verdoppelt und anschließend die Modulationsamplitude von 0,01  auf 0,64 mT durch Verdopplung von Messung zu Messung variiert.
+Die Parameter dieser Messungen sind mit den Parametern der restlichen Versuchsteile in \autoref{tab: parameter} aufgeführt.
 
-\subsection{}
+\begin{table}[H]
+\centering
+\caption{Experimentelle Parameter der ESR Messungen verschiedener Proben. \\}
+\begin{tabular}{c|c|c|c|c|c}
+Probe & $B_0$-Field & Sweep & Modulation & MW attenuation & Gain \\
+& / mT & / mT & / mT & / dB & - \\
+\hline
+DPPH - start        & 338 & 5   & 0,01        & 20     & $5\cdot10^{0}$ \\
+DPPH - optimal        & 337,91 & 1,3   & 0,01        & 20     & $3\cdot10^{1}$ \\
+DPPH - power var.   & 337,91 & 1,3   & 0,01       & 20 - 5    & $3\cdot10^{1}$ \\
+DPPH - modul. var.    & 337,91 & 1,3   & 0,01 - 0,64    & 20     & $3\cdot10^{1}$ \\
+\hline
+Cu(AcAc)$_2$ + DPPH  & 320 & 60  & 0,4         & 20     & $5\cdot10^{1}$ \\
+VO(AcAc)$_2$ + DPPH  & 340 & 100 & 0,2         & 30     & $5\cdot10^{1}$ \\
+\hline
+Galvinoxyl           & 337 & 5   & 0,1         & 10     & $5\cdot10^{1}$ \\
+Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
+\end{tabular}
+\label{tab: parameter}
+\end{table}
 
 
 \subsection{}

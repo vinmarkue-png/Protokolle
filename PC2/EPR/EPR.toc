@@ -2,10 +2,11 @@
 \contentsline {section}{\numberline {1}Theorie}{1}{section.1}%
 \contentsline {section}{\numberline {2}Versuchsdurchführung}{1}{section.2}%
 \contentsline {subsection}{\numberline {2.1}DPPH}{1}{subsection.2.1}%
-\contentsline {subsection}{\numberline {2.4}Organische Radikale}{1}{subsection.2.4}%
-\contentsline {section}{\numberline {3}Auswertung}{1}{section.3}%
-\contentsline {subsection}{\numberline {3.1}DPPH}{1}{subsection.3.1}%
-\contentsline {subsection}{\numberline {3.4}Organische Radikale}{1}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Fehlerrechnung}{1}{section.4}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{1}{section.5}%
+\contentsline {subsection}{\numberline {2.3}Organische Radikale}{2}{subsection.2.3}%
+\contentsline {section}{\numberline {3}Auswertung}{2}{section.3}%
+\contentsline {subsection}{\numberline {3.1}DPPH}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.4}Organische Radikale}{2}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Fehlerrechnung}{2}{section.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{2}{section.5}%
+\contentsline {section}{\numberline {6}Literatur}{2}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
