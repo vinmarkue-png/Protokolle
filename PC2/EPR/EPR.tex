@@ -140,8 +140,8 @@ Der Aufbau des Spektrometers ist in \autoref{fig: setup} dargestellt.
     \label{fig: setup}
 \end{figure}
 
-\subsection{DPPH}
-Von der Diphenylpikrylhydrazyl(DPPH)-Probe wurde zuerst ein ESR-Spektrum bei der Standardeinstellung des Geräts mit folgenden Parametern aufgenommen: $B_0$: 338 mT, $Sweep$: 5,0 mT, $Sweep~time$: 60 s, $Modulation$: 0,01 mT, $MW attenuation$: 20,0 dB, $Gain$: $5 \cdot 10^0$, $Smooth$: 0,1 s. Dann wurden die Parameter $B_0-Field$, $Sweep$ und $Gain$ so lange verändert, bis das Spektrum zentriert, die Bildschirmbreite gut genutzt und die Spektrenhöhe optimiert war. Dies war bei den Parametern $B_0$: 337.91 mT, $Sweep$: 1.3 mT, $Gain$: $3 \cdot 10^1$ der Fall.
+\subsection{2,2-Diphenyl-1-pikrylhydrazyl}
+Von der 2,2-Diphenyl-1-pikrylhydrazyl(DPPH)-Probe wurde zuerst ein ESR-Spektrum bei der Standardeinstellung des Geräts mit folgenden Parametern aufgenommen: $B_0$: 338 mT, $Sweep$: 5,0 mT, $Sweep~time$: 60 s, $Modulation$: 0,01 mT, $MW attenuation$: 20,0 dB, $Gain$: $5 \cdot 10^0$, $Smooth$: 0,1 s. Dann wurden die Parameter $B_0-Field$, $Sweep$ und $Gain$ so lange verändert, bis das Spektrum zentriert, die Bildschirmbreite gut genutzt und die Spektrenhöhe optimiert war. Dies war bei den Parametern $B_0$: 337.91 mT, $Sweep$: 1.3 mT, $Gain$: $3 \cdot 10^1$ der Fall.
 % 137.91 mT, Sweep: 1.3 mT, Gain:3*10^1
 Dann wurde zuerst die Mikrowellenleistung mit jeder Messung durch Abschwächung der Mikrowellenstrahlung (MW attenuation) um 3 dB verdoppelt und anschließend die Modulationsamplitude von 0,01  auf 0,64 mT durch Verdopplung von Messung zu Messung variiert.
 Die Parameter dieser Messungen sind mit den Parametern der restlichen Versuchsteile in \autoref{tab: parameter} aufgeführt.
@@ -196,7 +196,7 @@ Galvinoxyl deox & \\
 \label{tab: zentren}
 \end{table}
 
-\subsection{DPPH}
+\subsection{ESR-Spektren von 2,2-Diphenyl-1-pikrylhydrazyl}
 \autoref{fig: DPPH-start} zeigt die aufgenommenen ESR-Spektren der DPPH-Probe mit den Startparametern und optimalen Parametern aus \autoref{tab: parameter}.
 
 \begin{figure}[H]
@@ -224,9 +224,9 @@ Aus \autoref{fig: DPPH-power-var} geht hervor, dass die Spektrenhöhe mit höher
     \label{fig: DPPH-modul-var}
 \end{figure}
 % Spektrenhöhe & Linienbreite
-In \autoref{fig: DPPH-modul-var} lässt sich erkennen, dass die Spektrenhöhe mit zunehmender Modulationsamplitude ansteigt. %Die Linienbreite nimmt bis zu einer Modulationsamplitude von 32 mT ab, aber steigt im Spektrum mit Amplitude von 64 mT wieder an.
+In \autoref{fig: DPPH-modul-var} lässt sich erkennen, dass die Spektrenhöhe mit zunehmender Modulationsamplitude ansteigt. Jedoch ist dieser Anstieg nicht linear, sondern flacht bei höheren Amplituden ab 0,32 mT ab. Die Linienbreite nimmt von der Modulationsamplitude 0,01 mT bis 0,64 mT zu.
 
-Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
+Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW-Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
 
 \begin{table}[H]
 \centering
@@ -252,12 +252,14 @@ Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
 \end{table}
 Die Lage des Spektrenzentrums von DPPH befindet sich also am Mittelwert von $B_0 = \SI{336,656}{mT}$.
 Da als halbe Frequenz auf dem Display des Frequenzzählers 4,71701 GHz angezeigt wurde, wird für die Berechnung des g-Faktors die Frequenz $\nu = \SI{9,43402}{GHz}$ verwendet.
-Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in die umgestellte Gleichung der Resonanzbedingung \ref{eq:resonanz} wird der g-Faktor berechnet.
-\begin{align*}
+Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in \ref{eq:g}, die sich durch Umstellen der Gleichung der Resonanzbedingung \ref{eq:resonanz} nach g ergibt, wird der g-Faktor berechnet.
+\begin{align}
 	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0} \\
-	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \\
-	&= 2{,}0022
-\end{align*}
+	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \nonumber \\
+	&= 2{,}0022 \nonumber
+	\label{eq:g}
+\end{align}
+
 Mit dem Literaturwert von DPPH von $g_{\mathrm{Lit}} = 2{,}0037$ ergibt sich eine absolute Abweichung von 0,0015.\supercite{Skript} Die Ungenauigkeit des g-Faktors wird in der Fehlerrechnung bestimmt.
 Die Wellenlänge der verwendeten Mikrowelle lässt sich aus der Frequenz $\nu = \SI{9,43402}{GHz}$ mit der Lichtgeschwindigkeit berechnen.
 \begin{align*}
@@ -265,13 +267,10 @@ Die Wellenlänge der verwendeten Mikrowelle lässt sich aus der Frequenz $\nu = 
 \end{align*}
 Daraus lässt sich schließen, dass der Resonator 3,18 cm lang sein muss, um eine stehende Welle zu generieren, da dann die Wellenlänge der Mikrowelle und die Resonatorlänge ideal zueinander passen.
 
-\subsection{}
+\subsection{ESR-Spektren von }
 
 
-\subsection{}
-
-
-\subsection{Organische Radikale}
+\subsection{ESR-Spektren von }
 %21_Galvin_O2_337B_5sweep_0p1mod_10db_5_10-1_4727720
 % 1. Messung 337 B, Sweep 5, Modulation 0.1, 10 db, 5*10^1, 2*4727720 Strahlung
 %23_Galvin_bisschen_O2_337B_5sweep_0p03mod_10db_5_10-1_4727720
