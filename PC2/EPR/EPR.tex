@@ -283,7 +283,7 @@ Daraus lässt sich schließen, dass der Resonator 3,18 cm lang sein muss, um ein
 \end{figure}
 
 \section{Fehlerrechnung} % der berechneten g-Faktoren
-Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: g} mit den Messfehlern $\Delta \nu = \SI{0,022}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
+Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: g} mit den Messfehlern $\Delta \nu = \SI{0,021}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
 \begin{align}
 \Delta g &= \left| \frac{\partial g}{\partial \nu} \right| \cdot \Delta \nu
 + \left| \frac{\partial g}{\partial B_0} \right| \cdot \Delta B_0 \\ 
@@ -296,7 +296,7 @@ Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:g
 \Delta g_\mathrm{DPPH} &= \left| \frac{h}{\mu_0 \cdot B_0} \right| \cdot \Delta \nu + \left| \frac{h \cdot \nu}{\mu_0 \cdot B_0^{2}} \right| \cdot \Delta B_0 \\
 &= \left| \frac{\SI{6,6261e-34}{J s}}{ \SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T} } \right| \cdot \SI{0,022e9}{Hz} \\
 &+ \left| \frac{\SI{6,6261e-34}{J s} \cdot \SI{9,43402e9}{Hz} }{ \SI{9,2741e-24}{\frac{J}{T}} \cdot (\SI{336,656e-3}{T})^{2} } \right| \cdot \SI{0,005e-3}{T} \\
-&= 0{,}0047
+&= 0{,}0045
 \label{eq:gfehler}
 \end{align*}
 
@@ -306,7 +306,7 @@ Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:g
 \begin{tabular}{c|c}
 Probe & $\Delta g$ \\
 \hline
-DPPH       & 0,0047 \\
+DPPH       & 0,0045 \\
 Cu(AcAc)$_2$ + DPPH  &  \\
 VO(AcAc)$_2$ + DPPH  &   \\
 Galvinoxyl           & 
