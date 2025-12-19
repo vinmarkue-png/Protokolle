@@ -8,6 +8,6 @@
 \contentsline {subsection}{\numberline {3.2}ESR-Spektren von}{7}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}ESR-Spektren des Galvinoxylradikals}{7}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Fehlerrechnung}{7}{section.4}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{7}{section.5}%
-\contentsline {section}{\numberline {6}Literatur}{7}{section.6}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{8}{section.5}%
+\contentsline {section}{\numberline {6}Literatur}{8}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
