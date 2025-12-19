@@ -35,4 +35,8 @@ for name, nu_GHz, B0_mT in samples:
         + abs(h * nu / (mu_B * B0**2)) * delta_B0
     )
 
-    print(f"{name:<10} {g:10.5f} {delta_g:12.5e}")
+    # Ausgabe mit Komma als Dezimaltrennzeichen
+    g_str = f"{g:0.5f}".replace(".", ",")
+    delta_g_str = f"{delta_g:0.5f}".replace(".", ",")
+
+    print(f"{name:<10} {g_str:>10} {delta_g_str:>10}")
