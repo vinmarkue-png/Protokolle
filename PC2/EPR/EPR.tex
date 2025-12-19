@@ -255,7 +255,7 @@ Da als halbe Frequenz auf dem Display des Frequenzzählers 4,71701 GHz angezeigt
 Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in \autoref{eq: g}, die sich durch Umstellen der Gleichung der Resonanzbedingung \ref{eq:eres} nach g ergibt, wird der g-Faktor berechnet.
 \begin{align}
 	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0} \\
-	&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{JT^{-1}} \cdot \SI{336,656e-3}{T}} \nonumber \\
+	g_\mathrm{DPPH}&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T}} \nonumber \\
 	&= 2{,}0022 \nonumber
 	\label{eq: g}
 \end{align}
@@ -281,8 +281,9 @@ Daraus lässt sich schließen, dass der Resonator 3,18 cm lang sein muss, um ein
     \caption{ESR-Spektren der Galvinoxyl-Probe wobei die Erste mit einer Modulationsamplitude von 0,1 mT und alle anderen mit einer Modulationsamplituden von 0,03 mT aufgenommen wurden.} 
     \label{fig: DPPH-modul-var}
 \end{figure}
+
 \section{Fehlerrechnung} % der berechneten g-Faktoren
-Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: g} mit den abgeschätzten Messfehlern $\Delta \nu = $ und $\Delta B_0 = $ und \autoref{eq:gfehler} bestimmt.
+Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: g} mit den Messfehlern $\Delta \nu = \SI{0,022}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
 \begin{align}
 \Delta g &= \left| \frac{\partial g}{\partial \nu} \right| \cdot \Delta \nu
 + \left| \frac{\partial g}{\partial B_0} \right| \cdot \Delta B_0 \\ 
@@ -290,7 +291,28 @@ Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung
 + \left| \frac{h \cdot \nu}{\mu_0 \cdot B_0^{2}} \right| \cdot \Delta B_0
 \label{eq:gfehler}
 \end{align}
+Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:gfehler} dargestellt.
+\begin{align*}
+\Delta g_\mathrm{DPPH} &= \left| \frac{h}{\mu_0 \cdot B_0} \right| \cdot \Delta \nu + \left| \frac{h \cdot \nu}{\mu_0 \cdot B_0^{2}} \right| \cdot \Delta B_0 \\
+&= \left| \frac{\SI{6,6261e-34}{J s}}{ \SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T} } \right| \cdot \SI{0,022e9}{Hz} \\
+&+ \left| \frac{\SI{6,6261e-34}{J s} \cdot \SI{9,43402e9}{Hz} }{ \SI{9,2741e-24}{\frac{J}{T}} \cdot (\SI{336,656e-3}{T})^{2} } \right| \cdot \SI{0,005e-3}{T} \\
+&= 0{,}0047
+\label{eq:gfehler}
+\end{align*}
 
+\begin{table}[H]
+\centering
+\caption{Berechnete Fehler der ermittelten g-Faktoren verschiedener Proben. \\}
+\begin{tabular}{c|c}
+Probe & $\Delta g$ \\
+\hline
+DPPH       & 0,0047 \\
+Cu(AcAc)$_2$ + DPPH  &  \\
+VO(AcAc)$_2$ + DPPH  &   \\
+Galvinoxyl           & 
+\end{tabular}
+\label{tab: fehler}
+\end{table}
 
 \section{Zusammenfassung}
 

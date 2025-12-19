@@ -1,0 +1,38 @@
+import numpy as np
+
+# Konstanten (SI-Einheiten)
+mu_B = 9.2741e-24      # J/T
+h = 6.6261e-34         # J*s
+
+# Fehler der Messgrößen (anpassen!)
+delta_nu_GHz = 0.022   # GHz
+delta_B0_mT = 0.005      # mT
+
+# Umrechnung in SI
+delta_nu = delta_nu_GHz * 1e9      # Hz
+delta_B0 = delta_B0_mT * 1e-3      # T
+
+# Proben: Name, Frequenz [GHz], Magnetfeld [mT]
+samples = [
+    ("DPPH", 9.43402, 336.656),
+    # ("Probe 2", 9.50, 338.2),
+    # ("Probe 3", 9.38, 335.9),
+]
+
+print(f"{'Probe':<10} {'g':>10} {'Δg':>12}")
+
+for name, nu_GHz, B0_mT in samples:
+    # Umrechnung in SI
+    nu = nu_GHz * 1e9     # Hz
+    B0 = B0_mT * 1e-3     # T
+
+    # g-Faktor
+    g = h * nu / (mu_B * B0)
+
+    # Fehlerfortpflanzung
+    delta_g = (
+        abs(h / (mu_B * B0)) * delta_nu
+        + abs(h * nu / (mu_B * B0**2)) * delta_B0
+    )
+
+    print(f"{name:<10} {g:10.5f} {delta_g:12.5e}")
