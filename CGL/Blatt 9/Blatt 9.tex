@@ -69,7 +69,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.optimize import curve_fit
 
-# Daten mit delimiter , laden
+# Daten mit delimiter "," laden
 try:
     data = np.loadtxt('C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 9/data.txt', delimiter=',')
     x_data = data[:, 0]
@@ -79,7 +79,6 @@ except Exception as e:
     # Fallback simulation, damit der Code hier läuft
     x_data = np.linspace(0, 3, 300)
     y_data = 1.0 * np.exp(-0.8 * x_data) * np.sin(10 * x_data) + np.random.normal(0, 0.1, 300)
-
 
 # Fitfunktion definieren
 def damped_sine(x, amplitude, decay, omega, phase, offset):
@@ -92,12 +91,10 @@ def damped_sine(x, amplitude, decay, omega, phase, offset):
     """
     return amplitude * np.exp(-decay * x) * np.sin(omega * x + phase) + offset
 
-
 p0_guess = [1.0, 0.8, 10.0, 0.0, 0.0]
 
 try:
     params, covariance = curve_fit(damped_sine, x_data, y_data, p0=p0_guess)
-    
     # Parameter ausgeben
     labels = ["Amplitude", "Decay (Dämpfung)", "Omega (Frequenz)", "Phase", "Offset"]
     print("Gefundene Parameter:")
@@ -107,15 +104,12 @@ try:
     # Plotten
     plt.figure(figsize=(10, 6))
     
-    # Messdaten
+    # Messdaten und Fit-Kurve
     plt.scatter(x_data, y_data, label='Messdaten', color='black', alpha=0.5, s=15)
-    
-    # Fit-Kurve
     x_fit = np.linspace(min(x_data), max(x_data), 1000)
     y_fit = damped_sine(x_fit, *params)
     
     plt.plot(x_fit, y_fit, 'r-', linewidth=2, label='Fit: Gedämpfte Schwingung')
-    # Plot anzeigen und speichern
     plt.xlabel('x')
     plt.ylabel('y')
     plt.savefig('fit_plot.pdf')
@@ -137,20 +131,18 @@ except RuntimeError:
 import sympy as sp
 import numpy as np
 import matplotlib.pyplot as plt
-#--------Definition-----------
-# Definition der Symbole
+# ---Symbolische Definition---
 t = sp.Symbol('t', real=True)
 A = sp.Symbol('A', real=True)
 lam = sp.Symbol('lambda', positive=True, real=True)
 omega = sp.Symbol('omega', positive=True, real=True)
 
-# Definition der Funktion
 f = A * sp.exp(-lam * t) * sp.cos(omega * t)
 
 print("--- Symbolische Analyse ---")
 print(f"Funktion f(t): {f}")
 
-#------Analysis------
+# ---Analysis---
 # Erste Ableitung
 f_prime = sp.diff(f, t)
 print(f"Ableitung f'(t): {f_prime}")
@@ -164,17 +156,15 @@ limit_inf = sp.limit(f, t, sp.oo)
 print(f"Grenzwert für t->oo: {limit_inf}")
 
 # ---Numerische Konvertierung---
-# Erstellen von Python-Funktionen die mit NumPy-Arrays arbeiten können und definieren der Variablen
+# Erstellen von Python-Funktionen, die mit NumPy-Arrays arbeiten können und Definition der Variablen
 func_f = sp.lambdify((t, A, lam, omega), f, modules='numpy')
 func_f_prime = sp.lambdify((t, A, lam, omega), f_prime, modules='numpy')
 
 # ---Visualisierung---
-# Festlegung der Parameterwerte
+# Festlegung Parameterwerte und Zeitbereich
 A_val = 2
 lam_val = 0.5
 omega_val = 3
-
-# Festlegung des Zeitbereichs
 t_vals = np.linspace(0, 10, 500)
 
 # Berechnung der y-Werte durch Aufruf der erstellten Funktionen
@@ -186,11 +176,9 @@ plt.figure(figsize=(10, 6))
 plt.plot(t_vals, y_vals, label=r'$f(t) = A \cdot e^{-\lambda t} \cdot \cos(\omega t)$', color='blue')
 plt.plot(t_vals, y_prime_vals, label=r"$f'(t)$ (Ableitung)", color='orange', linestyle='--')
 
-#plt.title('Analyse einer gedämpften Schwingung')
 plt.xlabel('Zeit t')
 plt.ylabel('Amplitude')
 plt.legend(loc='upper right')
-#plt.grid(True, alpha=0.5)
 plt.savefig('Sympy.pdf')
 plt.show()
 \end{lstlisting}
