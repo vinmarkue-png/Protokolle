@@ -112,6 +112,8 @@
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
+In diesem Versuch wurden verschiedene Proben mit Elektronenspin-Resonanz-Spektroskopie untersucht. Dabei wurde der g-Faktor der DPPH-Probe wurde als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
+
 
 \end{titlepage}
 
@@ -182,7 +184,7 @@ Somit ergeben sich für die $B_0$-Werte aus \autoref{tab: parameter} folgende re
 \centering
 \caption{Reale $B_0$-Werte für die verschiedenen Messungen. \\}
 \begin{tabular}{c|c}
-Probe & $B_0$-Field \\
+Probe & $B_0$-Field / mT \\
 \hline
 DPPH - start        & 336,742 \\
 DPPH - optimal        & 336,652 \\
@@ -252,12 +254,12 @@ Modulation / mT & MW attenuation / dB & Spektrenzentrum / mT \\
 \end{table}
 Die Lage des Spektrenzentrums von DPPH befindet sich also am Mittelwert von $B_0 = \SI{336,656}{mT}$.
 Da als halbe Frequenz auf dem Display des Frequenzzählers 4,71701 GHz angezeigt wurde, wird für die Berechnung des g-Faktors die Frequenz $\nu = \SI{9,43402}{GHz}$ verwendet.
-Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in \autoref{eq: g}, die sich durch Umstellen der Gleichung der Resonanzbedingung \ref{eq:eres} nach g ergibt, wird der g-Faktor berechnet.
+Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wirkungsquantum zusammen mit dem Spektrenzentrum und der Frequenz in \autoref{eq:g}, die sich durch Umstellen der Gleichung der Resonanzbedingung \ref{eq:eres} nach g ergibt, wird der g-Faktor berechnet.
 \begin{align}
-	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0} \\
+	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0}
+    \label{eq:g} \\
 	g_\mathrm{DPPH}&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T}} \nonumber \\
 	&= 2{,}0022 \nonumber
-	\label{eq: g}
 \end{align}
 
 Mit dem Literaturwert von DPPH von $g_{\mathrm{Lit}} = 2{,}0037$ ergibt sich eine absolute Abweichung von 0,0015.\supercite{Skript} Die Ungenauigkeit des g-Faktors wird in der Fehlerrechnung bestimmt.
@@ -283,7 +285,7 @@ Daraus lässt sich schließen, dass der Resonator 3,18 cm lang sein muss, um ein
 \end{figure}
 
 \section{Fehlerrechnung} % der berechneten g-Faktoren
-Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: g} mit den Messfehlern $\Delta \nu = \SI{0,021}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
+Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq:g} mit den Messfehlern $\Delta \nu = \SI{0,021}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
 \begin{align}
 \Delta g &= \left| \frac{\partial g}{\partial \nu} \right| \cdot \Delta \nu
 + \left| \frac{\partial g}{\partial B_0} \right| \cdot \Delta B_0 \\ 
@@ -302,20 +304,20 @@ Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:g
 
 \begin{table}[H]
 \centering
-\caption{Berechnete Fehler der ermittelten g-Faktoren verschiedener Proben. \\}
-\begin{tabular}{c|c}
-Probe & $\Delta g$ \\
+\caption{Berechnete Fehler der ermittelten g-Faktoren mit den zugehörigen Werten für $\nu$ und $B_0$ verschiedener Proben. \\}
+\begin{tabular}{c|c|c|c}
+Probe & $\nu$ / GHz & $B_0$ / mT & $\Delta g$ \\
 \hline
-DPPH       & 0,0045 \\
-Cu(AcAc)$_2$ + DPPH  &  \\
-VO(AcAc)$_2$ + DPPH  &   \\
-Galvinoxyl           & 
+DPPH     & 9,43402 & 336,656 & 0,0045 \\
+Cu(AcAc)$_2$ + DPPH  &  &  &  \\
+VO(AcAc)$_2$ + DPPH  &  &  &   \\
+Galvinoxyl           &  &  & 
 \end{tabular}
 \label{tab: fehler}
 \end{table}
 
 \section{Zusammenfassung}
-
+Im ersten Versuchsteil wurde der Einfluss der Mikrowellen-Abschwächung und der Modulationsamplitude auf das ESR-Spektrum der DPPH-Probe untersucht und der g-Faktor als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ ermittelt.
 
 \printbibliography[title={Literatur}]
 
