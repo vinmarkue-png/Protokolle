@@ -5,7 +5,7 @@ mu_B = 9.2741e-24      # J/T
 h = 6.6261e-34         # J*s
 
 # Fehler der Messgrößen (anpassen!)
-delta_nu_GHz = 0.022   # GHz
+delta_nu_GHz = 0.021   # GHz
 delta_B0_mT = 0.005      # mT
 
 # Umrechnung in SI
