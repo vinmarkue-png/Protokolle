@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'EPR.blg'
-[205] biber-MSWIN64:342> INFO - === 
-[266] Biber.pm:421> INFO - Reading 'EPR.bcf'
-[466] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[496] Biber.pm:4487> INFO - Processing section 0
-[515] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[588] bibtex.pm:1713> INFO - LaTeX decoding ...
-[598] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[678] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[679] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[679] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[679] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[681] bbl.pm:676> INFO - Writing 'EPR.bbl' with encoding 'UTF-8'
-[682] bbl.pm:779> INFO - Output to EPR.bbl
+[0] Config.pm:331> INFO - Logfile is 'EPR.blg'
+[408] biber-MSWIN64:342> INFO - === 
+[595] Biber.pm:421> INFO - Reading 'EPR.bcf'
+[683] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[693] Biber.pm:4487> INFO - Processing section 0
+[718] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[789] bibtex.pm:1713> INFO - LaTeX decoding ...
+[811] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[969] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[970] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[970] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[971] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[972] bbl.pm:676> INFO - Writing 'EPR.bbl' with encoding 'UTF-8'
+[973] bbl.pm:779> INFO - Output to EPR.bbl
