@@ -1,8 +1,8 @@
-PWD c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR
+PWD c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR/EPR.tex
+INPUT c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR/EPR.tex
 OUTPUT EPR.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -37,13 +37,13 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-de.ini
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
@@ -434,6 +434,12 @@ INPUT ./DPPH/C)/DPPH_Modulation.pdf
 INPUT ./DPPH/C)/DPPH_Modulation.pdf
 INPUT ./DPPH/C)/DPPH_Modulation.pdf
 INPUT ./DPPH/C)/DPPH_Modulation.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
+INPUT ./Cu_VO/Kupfergraph.pdf
+INPUT ./Cu_VO/Kupfergraph.pdf
+INPUT ./Cu_VO/Kupfergraph.pdf
+INPUT ./Cu_VO/Kupfergraph.pdf
+INPUT ./Cu_VO/Kupfergraph.pdf
 INPUT ./Galvinoxyl/Galvinoxyl.pdf
 INPUT ./Galvinoxyl/Galvinoxyl.pdf
 INPUT ./Galvinoxyl/Galvinoxyl.pdf
