@@ -1,29 +1,29 @@
 # Fdb version 4
-["biber EPR"] 1766396960.65138 "EPR.bcf" "EPR.bbl" "EPR" 1766403996.68043 0
-  "EPR.bcf" 1766403995 108367 94ca40161d7f067c6de4e8e226c509a2 "pdflatex"
+["biber EPR"] 1766406522.72641 "EPR.bcf" "EPR.bbl" "EPR" 1766406557.97847 0
+  "EPR.bcf" 1766406557 108367 94ca40161d7f067c6de4e8e226c509a2 "pdflatex"
   "lit.bib" 1766141576 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "EPR.bbl"
   "EPR.blg"
   (rewritten before read)
-["pdflatex"] 1766403988.92322 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766403996.68173 0
+["pdflatex"] 1766406550.03928 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR/EPR.tex" "EPR.pdf" "EPR" 1766406557.9798 0
   "Bilder/setup.png" 1766141576 23460 4dbd8e83d49875bf8a96895763c42c0c ""
   "Cu_VO/Kupfergraph.pdf" 1766153485 33955 3be829e9352ad747b16203874a53221e ""
   "Cu_VO/VOgraph.pdf" 1766153588 36210 6b1c66a66ad1ca28b47032e19d6e71b8 ""
   "DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf" 1766141576 19959 d284c00644943a13aa1c5e92ca1a3fd6 ""
   "DPPH/B)/DPPH_MW_Attenuation.pdf" 1766141576 33380 76c3d08cc8e43c782b4689a12491e052 ""
   "DPPH/C)/DPPH_Modulation.pdf" 1766141576 34655 b77b93332d7fdd3fcefba2f597a9697c ""
-  "EPR.aux" 1766403995 14372 ff66dda809d785b111c8b5038f610a80 "pdflatex"
-  "EPR.bbl" 1766396253 1591 41e842fa6159ee6d2617c5f8da122169 "biber EPR"
-  "EPR.run.xml" 1766403995 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
-  "EPR.tex" 1766403987 32370 7a41bbed4a80d0390191c2e16bea5e1a ""
-  "EPR.toc" 1766403995 1360 d7f4f363266e312b48fcb33f72b074f5 "pdflatex"
+  "EPR.aux" 1766406557 14346 a6910d4b334a1b0854a9fc4fb07c7c44 "pdflatex"
+  "EPR.bbl" 1766406527 1591 41e842fa6159ee6d2617c5f8da122169 "biber EPR"
+  "EPR.run.xml" 1766406557 2430 9da8a9ff3673e4cb58e91ccdee02859d "pdflatex"
+  "EPR.tex" 1766406519 32436 cfc50bba5771fc77b9e166a459b98b22 ""
+  "EPR.toc" 1766406557 1360 d7f4f363266e312b48fcb33f72b074f5 "pdflatex"
   "Galvinoxyl/Gal_Sim.pdf" 1766371095 14924 4e9561ad30eabfa023bfb64b95da0594 ""
   "Galvinoxyl/Gal_Sim_Vgl.pdf" 1766371095 31158 c5e0e1d04a237db6b6e9259c409118f5 ""
-  "Galvinoxyl/Galvinoxyl.png" 1766371095 16162 fa32194d08769d2b459e8b0a102da9fe ""
+  "Galvinoxyl/Galvinoxyl.png" 1766406519 20785 5b0ce4d88955e2f4f2ffa6ba2d4cbddd ""
   "Galvinoxyl/Galvinoxyl_dg.pdf" 1766371095 21781 817698b989c8607b5f4341987fdeae08 ""
   "Galvinoxyl/Galvinoxyl_o2.pdf" 1766371095 22347 d53a726f7d779b1b06d00ee5ad5ac06e ""
-  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR/EPR.tex" 1766403987 32370 7a41bbed4a80d0390191c2e16bea5e1a ""
+  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/EPR/EPR.tex" 1766406519 32436 cfc50bba5771fc77b9e166a459b98b22 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1765624578 3584 402da0b29eafbad07963b1224b222f18 ""
