@@ -132,12 +132,12 @@ In diesem Versuch wurden verschiedene Proben mit Elektronenspin-Resonanz-Spektro
 Die Elektronenspinresonanz ist eine spektroskopische Methode, die sich mit der Untersuchung von Substanzen befasst, die ein ungepaartes Elektron aufweisen. Darunter fallen paramagnetische Verbindungen, organische Radikale und Übergangsmetallkomplexe. Dabei kann das Elektron mit der Spinquantenzahl $s = \frac{1}{2}$ zwei Ausrichtungsrichtungen haben. Diese werden durch die Magnetspinquantenzahl $m_s$ beschrieben und als ''Spin up'' ($m_s = + \frac{1}{2}$) und ''Spin down'' ($m_s = - \frac{1}{2}$) bezeichnet. Diese Zustände sind energetisch entartet, doch in der ESR-Spektroskopie werden diese durch Anlegen eines externen Magnetfelds aufgehoben. Diese Aufhebung der Entartung nennt sich Zeeman-Effekt. Die Energiedifferenz der beiden Niveaus lässt sich durch die Gleichung
 \begin{equation}
     \Delta E = E_{+\frac{1}{2}} - E_{-\frac{1}{2}} = g \mu_B B_0
-    \label{espin}
+    \label{eq:espin}
 \end{equation}
 berechnen. Dabei ist $g$ der g-Faktor, $\mu_B = \SI{9,2741e-24}{JT^{-1}}$ das Bohr'sche Magneton und $B_0$ die Magnetfeldstärke. Wird ein weiteres Magnetfeld, welches senkrecht zum statischen steht, angelegt, so richtet sich der Spin des Elektrons ebenfalls nach diesem aus. Dieses Phänomen wird als magnetische Resonanz bezeichnet, wobei die Resonanzbedingung auf der allgemeinen Bohrschen Frequenzbedingung basiert. Sie lässt sich durch die Formel
 \begin{equation}
     \Delta E =  g \mu_B B_0 = h \nu
-    \label{eres}
+    \label{eq:eres}
 \end{equation}
 beschreiben, wobei $h = \SI{6.6261e-34}{Js}$ das Plank'sche Wirkungsquantum und $\nu$ die Mikrowellenfrequenz ist.
 \subsection{g-Faktor}
@@ -275,7 +275,7 @@ Aus \autoref{fig: DPPH-power-var} geht hervor, dass die Spektrenhöhe mit höher
 % Spektrenhöhe & Linienbreite
 In \autoref{fig: DPPH-modul-var} lässt sich erkennen, dass die Spektrenhöhe mit zunehmender Modulationsamplitude ansteigt. Jedoch ist dieser Anstieg nicht linear, sondern flacht bei höheren Amplituden ab 0,32 mT ab. Die Linienbreite nimmt von der Modulationsamplitude 0,01 mT bis 0,64 mT zu.
 
-Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender MW-Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
+Zur Bestimmung des g-Faktors von DPPH werden die Lagen aller Spektrenzentren der Messungen mit variierender Mikrowellen-Abschwächung und Modulationsamplitude in \autoref{tab: zentren} aufgeführt und der Mittelwert berechnet. 
 
 \begin{table}[H]
 \centering
@@ -395,7 +395,7 @@ Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:g
 &= 0{,}0045
 \label{eq:gfehler}
 \end{align*}
-
+Die Fehler der g-Werte der restlichen Proben werden analog mit \autoref{eq:gfehler} mit einem Python-Skript berechnet und in \autoref{tab: fehler} mit den jeweils verwendeten Parametern aufgeführt.
 \begin{table}[H]
 \centering
 \caption{Berechnete Fehler der ermittelten g-Faktoren mit den zugehörigen Werten für $\nu$ und $B_0$ verschiedener Proben. \\}
