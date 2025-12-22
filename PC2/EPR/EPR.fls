@@ -1,8 +1,8 @@
-PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR
+PWD c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/EPR/EPR.tex
+INPUT c:/Studium/5. Semester/AC II lab/Protokolle/PC2/EPR/EPR.tex
 OUTPUT EPR.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -445,11 +445,31 @@ INPUT ./Cu_VO/VOgraph.pdf
 INPUT ./Cu_VO/VOgraph.pdf
 INPUT ./Cu_VO/VOgraph.pdf
 INPUT ./Cu_VO/VOgraph.pdf
-INPUT ./Galvinoxyl/Galvinoxyl.pdf
-INPUT ./Galvinoxyl/Galvinoxyl.pdf
-INPUT ./Galvinoxyl/Galvinoxyl.pdf
-INPUT ./Galvinoxyl/Galvinoxyl.pdf
-INPUT ./Galvinoxyl/Galvinoxyl.pdf
+INPUT ./Galvinoxyl/Galvinoxyl.png
+INPUT ./Galvinoxyl/Galvinoxyl.png
+INPUT ./Galvinoxyl/Galvinoxyl.png
+INPUT ./Galvinoxyl/Galvinoxyl.png
+INPUT ./Galvinoxyl/Galvinoxyl.png
+INPUT ./Galvinoxyl/Galvinoxyl_o2.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_o2.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_o2.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_o2.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_o2.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_dg.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_dg.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_dg.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_dg.pdf
+INPUT ./Galvinoxyl/Galvinoxyl_dg.pdf
+INPUT ./Galvinoxyl/Gal_Sim.pdf
+INPUT ./Galvinoxyl/Gal_Sim.pdf
+INPUT ./Galvinoxyl/Gal_Sim.pdf
+INPUT ./Galvinoxyl/Gal_Sim.pdf
+INPUT ./Galvinoxyl/Gal_Sim.pdf
+INPUT ./Galvinoxyl/Gal_Sim_Vgl.pdf
+INPUT ./Galvinoxyl/Gal_Sim_Vgl.pdf
+INPUT ./Galvinoxyl/Gal_Sim_Vgl.pdf
+INPUT ./Galvinoxyl/Gal_Sim_Vgl.pdf
+INPUT ./Galvinoxyl/Gal_Sim_Vgl.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT EPR.aux
 INPUT EPR.run.xml
