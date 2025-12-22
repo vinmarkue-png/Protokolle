@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  22 DEC 2025 04:40
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  22 DEC 2025 04:56
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1297,39 +1297,40 @@ l.300 D
 
 LaTeX Warning: Reference `eq:eres' on page 8 undefined on input line 302.
 
-<Cu_VO/Kupfergraph.pdf, id=253, 462.52798pt x 346.89601pt>
-File: Cu_VO/Kupfergraph.pdf Graphic file (type pdf)
-<use Cu_VO/Kupfergraph.pdf>
-Package pdftex.def Info: Cu_VO/Kupfergraph.pdf  used on input line 323.
-(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
 [8
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.326 \end{figure}
-                  ] [9
+l.320 
+      ]
+<Cu_VO/Kupfergraph.pdf, id=259, 462.52798pt x 346.89601pt>
+File: Cu_VO/Kupfergraph.pdf Graphic file (type pdf)
+<use Cu_VO/Kupfergraph.pdf>
+Package pdftex.def Info: Cu_VO/Kupfergraph.pdf  used on input line 323.
+(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
+ [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
 l.337 
        <./Cu_VO/Kupfergraph.pdf>]
-<Cu_VO/VOgraph.pdf, id=300, 462.52798pt x 346.89601pt>
+<Cu_VO/VOgraph.pdf, id=301, 462.52798pt x 346.89601pt>
 File: Cu_VO/VOgraph.pdf Graphic file (type pdf)
 <use Cu_VO/VOgraph.pdf>
-Package pdftex.def Info: Cu_VO/VOgraph.pdf  used on input line 353.
+Package pdftex.def Info: Cu_VO/VOgraph.pdf  used on input line 359.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
-<Galvinoxyl/Galvinoxyl.pdf, id=301, 462.52798pt x 346.89601pt>
+<Galvinoxyl/Galvinoxyl.pdf, id=302, 462.52798pt x 346.89601pt>
 File: Galvinoxyl/Galvinoxyl.pdf Graphic file (type pdf)
 <use Galvinoxyl/Galvinoxyl.pdf>
-Package pdftex.def Info: Galvinoxyl/Galvinoxyl.pdf  used on input line 368.
+Package pdftex.def Info: Galvinoxyl/Galvinoxyl.pdf  used on input line 374.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.372 
+l.378 
        <./Cu_VO/VOgraph.pdf>]
-Overfull \hbox (0.93146pt too wide) in paragraph at lines 374--375
+Overfull \hbox (0.93146pt too wide) in paragraph at lines 380--381
 \T1/cmr/m/n/12 aus-ge-hend von [][]Glei-chung 9[][][] mit den Mess-feh-lern $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 ^^W \OT1/cmr/m/n/12 = 0[]021 []$ \T1/cmr/m/n/12 und $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 B[] \OT1/cmr/m/n/12 = 0[]005 []$
  []
 
@@ -1337,15 +1338,15 @@ Overfull \hbox (0.93146pt too wide) in paragraph at lines 374--375
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.389 \end{align*}
+l.395 \end{align*}
                    <./Galvinoxyl/Galvinoxyl.pdf>]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 393.
+(scrartcl)           \newlinein caption text  on input line 399.
  [12
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.411 \end{document}
+l.417 \end{document}
                     ] (./EPR.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1365,16 +1366,16 @@ Package logreq Info: Writing requests to 'EPR.run.xml'.
 Here is how much of TeX's memory you used:
  41624 strings out of 467537
  882650 string characters out of 5423703
- 1852014 words of memory out of 5000000
+ 1851014 words of memory out of 5000000
  69937 multiletter control sequences out of 15000+600000
  643876 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,108p,11303b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on EPR.pdf (14 pages, 530092 bytes).
+Output written on EPR.pdf (14 pages, 531357 bytes).
 PDF statistics:
- 546 PDF objects out of 1000 (max. 8388607)
- 300 compressed objects within 3 object streams
+ 548 PDF objects out of 1000 (max. 8388607)
+ 301 compressed objects within 4 object streams
  51 named destinations out of 1000 (max. 500000)
  160 words of extra memory for PDF output out of 10000 (max. 10000000)
 
