@@ -112,9 +112,8 @@
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
-In diesem Versuch wurden verschiedene Proben mit Elektronenspin-Resonanz-Spektroskopie untersucht. Dabei wurde der g-Faktor der DPPH-Probe als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
-
-
+In diesem Versuch konnte der Einfluss der verschiedenen Parameter bei der ESR-Spektroskopie durch Messung einer DPPH-Probe gezeigt werden. Außerdem wurden Spektren der beiden Übergangsmetallkomplexe Kupfer(II)acetylacetonat und Vanadylacetylacetonat aufgenommen, aus denen deren $g$-Faktoren, so wie die Hyperfeinstrukturkopplungskonstante bestimmt werden konnte. Schließlich wurde das Galvinoxylradikal sowohl durch Messung als auch Simulation untersucht, wobei die Parameter der Simulation so angepasst wurden, dass die Simulation möglichst nah an der realen Messung liegt.
+% Dabei wurde der g-Faktor der DPPH-Probe als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
 \end{titlepage}
 
 
@@ -219,6 +218,7 @@ Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
 
 \subsection{Übergangsmetallkomplexe}
 
+Die frtigen Proben wurden im ESR-Spektrometer untersucht, hierfür wurden die in \autoref{tab: parameter} Parameter verwendet.
 
 \subsection{Galvinoxylradikal}
 Im letzten Versuchsteil wurde eine Probe aus Galvinoxyl und DPPH in Toluol (5 ml) gelöst und ein kleines Volumen dieser Probe im ESR-Spektrometer untersucht. Anschließend wurde die Lösung eingefroren, unter vermindertem Druck entgast und wieder aufgetaut. Dieser Schritt wurde fünf Mal wiederholt und die Probe wurde erneut im Spektrometer untersucht. Da das Spektrum nach fünf Zyklen noch nicht der Erwartung entsprach, wurden zwei weiter Zyklen durchgeführt, um restlichen Sauerstoff zu entfernen.Zum Schluss wurde das Spektrum von Galvinoxyl mit EPRsim simuliert um einen Vergleich zu idealen Bedingungen zu schaffen.
@@ -329,23 +329,27 @@ Das aufgenommene ESR-Spektrum von Kupfer(II)acetylacetonat \ch{Cu(AcAc)2}  ist i
 
 In \autoref{fig: Cu} sind fünf Peaks zu beobachten. Dabei besitzt der Peak mit dem höchsten Magnetfeld eine deutlich höhere Absorptionsamplitude als die anderen vier Peaks.
 Aufgrund der Position des höheren Peaks bei $B_0 = \SI{336,66}{mT}$ kann dieser dem internen Standard DPPH zugeordnet werden. Somit sind der Kupfer(II)acetylacetonat-Probe die vier Peaks mit der kleineren Amplitude zuzuordnen.
-Die Positionen der Peaks, die sich der Kupferprobe zuordnen lassen, liegen bei $B_{1,\text{Cu}} \approx \SI{304,9}{mT}$, $B_{2,\text{Cu}} \approx \SI{313,2}{mT} $, $B_{3,\text{Cu}} \approx \SI{321,5}{mT}$ und $B_{4,\text{Cu}} \approx \SI{329,7}{mT}$. Das Spektrum der Kupferprobe ist hierbei um den Mittelwert von dem ersten und dem letzten Peak der Kupferprobe zentriert. Dieses Zentrum des Spektrums berechnet sich wie folgt:
+Die Positionen der Peaks, die sich der Kupferprobe zuordnen lassen, liegen bei 
+$B_{1,\text{Cu}} \approx \SI{303,622}{mT}$, $B_{2,\text{Cu}} \approx \SI{311,982}{mT}$, 
+$B_{3,\text{Cu}} \approx \SI{320,192}{mT}$ und $B_{4,\text{Cu}} \approx \SI{328,432}{mT}$. 
+Das Spektrum der Kupferprobe ist hierbei um den Mittelwert von dem ersten und dem 
+letzten Peak der Kupferprobe zentriert. Dieses Zentrum des Spektrums berechnet sich wie folgt:
 
 \begin{equation*}
-\overline{B_{\text{Cu}}} = \frac{\SI{329,7}{\milli\tesla} + \SI{304,9}{\milli\tesla}}{2} = \SI{317,2}{\milli\tesla}
+\overline{B_{\text{Cu}}} = \frac{\SI{328,432}{\milli\tesla} + \SI{303,622}{\milli\tesla}}{2} = \SI{316,03}{\milli\tesla}
 \end{equation*}
 
 Das Spektrum der Kupferprobe ist somit um den den Wert von $ \overline{B_{\text{Cu}}} = \SI{317,2}{\milli\tesla} $ zentriert.
 
 Ausgehend von diesem Magnetfeld kann nun der $g$-Faktor mit der Mikrowellenfrequenz $ \nu \approx \SI{9,44e9} {\hertz}$ gemäß \autoref{eq:g} errechnet werden: 
 \begin{equation*}
-g_{\mathrm{Cu(AcAc)_2},1} = \frac{\SI{6,6261e-34}{Js} \cdot \SI{9,42368e9} {\hertz} }{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{317,2}{\milli\tesla}} = 2{,}1226
+g_{\mathrm{Cu(AcAc)_2},1} = \frac{\SI{6,6261e-34}{Js} \cdot \SI{9,42368e9} {\hertz} }{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{316,03}{\milli\tesla}} = 2,13048
 \end{equation*}
 
-Desweiteren lässt sich der $g$-Faktor auch wie in Gleichung \ref{eq: gx} berechnen, bei der $g$-Faktor und Magnetfeld des internen Standard mit einbezogen wird.
+Desweiteren lässt sich der $g$-Faktor auch wie in Gleichung \ref{eq: gx} berechnen, bei der $g$-Faktor und Magnetfeld des internen Standard mit einbezogen wird. Der DPPH Peak liegt hier bei $B = 336,66$ mT
 
 \begin{equation*}
-g_{\mathrm{Cu(AcAc)_2},2} = 2,0022 \cdot \frac{\SI{336,742}{\milli\tesla}}{\SI{317,2}{\milli\tesla}}
+g_{\mathrm{Cu(AcAc)_2},2} = 2,0037 \cdot \frac{\SI{336,66}{\milli\tesla}}{\SI{316,03}{\milli\tesla}} = 2,13445
 \end{equation*}
 
 Nach \autoref{eq: äqKern} lässt sich nun der Kernspin wie folgt berechnen.
@@ -357,6 +361,23 @@ N = \frac{N - 1}{2 \cdot n } = \frac{4-1}{2 \cdot 1} = \frac{3}{2}
 Der Kernspin des Kupfers berechnet sich also zu $ N = \frac{3}{2}$. 
 
 
+Die HFS-Konstante $a$ berechnet sich als Differenz zwischen den benachbarten Peaks und ist in  \autoref{tab:kopplungskonstante} dargestellt.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Berechnete Kopplungskonstante $a$ aus den korrigierten Feldstärkedifferenzen der Kupfer-Peaks ($Cu(AcAc)_2$). Die Korrektur erfolgte durch Subtraktion von $1,258\,\text{mT}$.}
+    \label{tab:kopplungskonstante}
+    \begin{tabular}{cccc}
+        \hline
+        Peak-Paar & $B_{n}$ [mT] & $B_{n+1}$ [mT] & $a$ [mT] \\ \hline
+        1 \& 2    & 303,622            & 311,982              & 8,36     \\
+        2 \& 3    & 311,982            & 320,192              & 8,21     \\
+        3 \& 4    & 320,192            & 328,432              & 8,24     \\ \hline
+       $ \bar{a}$ &          &                      & 8,27 \\ \hline
+    \end{tabular}
+\end{table}
+
+Die Kopplungskonstante $\bar{a_{\text{Cu}}}$ beträgt für das \ch{Cu(AcAc)2} dementsprechend $\bar{a_{\text{Cu}}} = 8,27\,\text{mT}$.
 
 
 In \autoref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit ebenfalls DPPH als internem Standard zu sehen. 
@@ -368,7 +389,59 @@ In \autoref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit eb
 \label{fig: Vo}
 \end{figure}
 
+Die große Peak in der Mitte ist hier wieder dem DPPH-Standard zuzuweisen, die Positionen der acht verbleibenden Peaks der Vanadylacetylacetonat-Probe sind in Tabelle \autoref{tab: bfeld} dargestellt.
 
+\begin{table}[htbp]
+    \centering
+    \caption{Magnetfeldpositionen der acht Hyperfeinpeaks von $VO(AcAc)_2$ und der berechnete Mittelwert dieser.}
+    \label{tab: bfeld}
+    \begin{tabular}{cc}
+        \hline
+        Peak Nr. & $B$ [mT] \\ \hline
+        1        & 302,90          \\
+        2        & 312,83          \\
+        3        & 323,05          \\
+        4        & 333,71          \\
+        5        & 344,52          \\
+        6        & 355,67          \\
+        7        & 367,23          \\
+        8        & 378,94          \\ \hline
+        $\bar{B}$ & 339,86         \\ \hline
+    \end{tabular}
+\end{table}
+
+Analog zur Kupferprobe kann damit nun nach \autoref{eq: gB} ein $g$-Faktor von $g_{\mathrm{VO(AcAc)_2},1} = 1,9908$ berechnet werden.
+Nach Gleichung \autoref{eq: gx} mit einer DPPH-Peakposition von $B = 336,15$ mT ergibt sich ein $g$-Faktor von  $g_{\mathrm{VO(AcAc)_2},1} = 1,98110$
+
+Wieder kann gemäß \autoref{eq: äqKern} der Kernspin berechnet werden.
+
+\begin{equation*}
+N = \frac{N - 1}{2 \cdot n } = \frac{8-1}{2 \cdot 1} = \frac{7}{2}
+\end{equation*}
+
+Der Kernspin des Vanadiums berechnet sich also zu $ N = \frac{7}{2}$. 
+
+Die Kopplungskonstanten $a$ sind in \autoref{tab avo} gelistet.
+
+\begin{table}[htbp]
+    \centering
+    \caption{Berechnete Kopplungskonstante $a$ aus den jeweiligen Feldstärkedifferenzen der Vanadium-Peaks ($VO(AcAc)_2$).}
+    \label{tab avo}
+    \begin{tabular}{ccc}
+        \hline
+        $B_a$ [mT] & $B_b$ [mT] & $a$ [mT] \\ \hline
+        302,90     & 312,83     & 9,93     \\
+        312,83     & 323,05     & 10,22    \\
+        323,05     & 333,71     & 10,66    \\
+        333,71     & 344,52     & 10,81    \\
+        344,52     & 355,67     & 11,15    \\
+        355,67     & 367,23     & 11,56    \\
+        367,23     & 378,94     & 11,71    \\ \hline
+        $\bar{a}$  &            & 10,86    \\ \hline
+    \end{tabular}
+\end{table}
+
+Die Kopplungskonstante $a$ beträgt für das \ch{VO(AcAc)2} dementsprechend $\bar{a_{\text{Vo}}} = 10,86\,\text{mT}$.
 
 
 \subsection{ESR-Spektren des Galvinoxylradikals}
@@ -467,8 +540,8 @@ Die Fehler der g-Werte der restlichen Proben werden analog mit \autoref{eq:gfehl
 Probe & $\nu$ / GHz & $B_0$ / mT & $\Delta g$ \\
 \hline
 DPPH     & 9,43402 & 336,656 & 0,0045 \\
-Cu(AcAc)$_2$ + DPPH & 9,42368 & 317,2 & 0,0048 \\
-VO(AcAc)$_2$ + DPPH  & 9,42368 & 338,2 &  0,0045 \\
+Cu(AcAc)$_2$ + DPPH & 9,42368 & 316,03 & 0,0048 \\
+VO(AcAc)$_2$ + DPPH  & 9,42368 & 339,86 &  0,0044 \\
 Galvinoxyl           & 9,45544 & 336,25 & 0,0045
 \end{tabular}
 \label{tab: fehler}
@@ -477,9 +550,12 @@ Galvinoxyl           & 9,45544 & 336,25 & 0,0045
 \section{Zusammenfassung}
 Im ersten Versuchsteil wurde der Einfluss der Mikrowellen-Abschwächung und der Modulationsamplitude auf das ESR-Spektrum der DPPH-Probe untersucht und der g-Faktor als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ ermittelt.
 
+Im zweiten Versuchsteil wurden die $g$-Faktoren, so wie die Hyperfeinstrukturkopplungskonstanten $a$ erfolgreich zu \\
+$g_{\mathrm{Cu(AcAc)_2}} = 2{,}13048 \pm 0{,}0048$ $\bar{a_{\text{Cu}}} = 8,27$ \\
+$g_{\mathrm{VO(AcAc)_2}} = 1{,}98110\pm 0{,}0044$ $\bar{a_{\text{Vo}}} = 10,86$\\ bestimmt werden.
+
 Im letzten Versuchsteil sollte der Einfluss von Sauerstoff in einer Lösung auf das ESR-Spektrum untersucht werden. Anschließend wurde das Spektrum mit Hilfe von EPRsim simuliert und die beiden Spektren verglichen. Der g-Faktor wurde als $g_\mathrm{Galvinoxyl} = 2{,}0091 \pm 0{,}0045$ ermittelt.\\
-$g_{\mathrm{Cu(AcAc)_2}} = 2{,}1226 \pm 0{,}0048$ \\
-$g_{\mathrm{VO(AcAc)_2}} = 1{,}9908 \pm 0{,}0045$ \\
+
 % $g_{\mathrm{Galvinoxyl}} = 2{,}0091 \pm 0{,}0045$
 
 \printbibliography[title={Literatur}]

@@ -14,10 +14,10 @@ delta_B0 = delta_B0_mT * 1e-3      # T
 
 # Proben: Name, Frequenz [GHz], Magnetfeld [mT]
 samples = [
-    ("DPPH", 9.43402, 336.656),
-    ("Cu", 9.42368, 317.2),
-    ("Vo", 9.42368, 338.2),
-    ("Galvinoxyl", 9.45544, 336.25),
+    # ("DPPH", 9.43402, 336.656),
+    ("Cu", 9.42368, 316.03),
+    ("Vo", 9.42368, 339.86),
+    # ("Galvinoxyl", 9.45544, 336.25),
 ]
 
 print(f"{'Probe':<10} {'g':>10} {'Δg':>12}")
