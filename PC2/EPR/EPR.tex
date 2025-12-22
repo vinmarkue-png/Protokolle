@@ -345,10 +345,8 @@ g_{\mathrm{Cu(AcAc)_2},1} = \frac{\SI{6,6261e-34}{Js} \cdot \SI{9,42368e9} {\her
 Desweiteren lässt sich der $g$-Faktor auch wie in Gleichung \ref{eq: gx} berechnen, bei der $g$-Faktor und Magnetfeld des internen Standard mit einbezogen wird.
 
 \begin{equation*}
-g_{\mathrm{Cu(AcAc)_2},2} = 2,0037 \cdot \frac{\SI{336,742}{\milli\tesla}}{\SI{317,2}{\milli\tesla}} \approx 2,127
+g_{\mathrm{Cu(AcAc)_2},2} = 2,0022 \cdot \frac{\SI{336,742}{\milli\tesla}}{\SI{317,2}{\milli\tesla}}
 \end{equation*}
-
-
 
 Nach \autoref{eq: äqKern} lässt sich nun der Kernspin wie folgt berechnen.
 
@@ -378,12 +376,71 @@ In \autoref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit eb
 % 1. Messung 337 B, Sweep 5, Modulation 0.1, 10 db, 5*10^1, 2*4727720 Strahlung
 %23_Galvin_bisschen_O2_337B_5sweep_0p03mod_10db_5_10-1_4727720
 % Alle anderen Messungen 337 B, Sweep 5, Modulation 0.03, 10 db, 5*10^1 2*4727720 Strahlung
+\autoref{fig: Gal_struk} zeigt die Struktur des Galvinoxylradikals. Dabei sind die koppelnden Wasserstoffatome farbig gekennzeichnet. Die vier äquivalenten Wasserstoffatome der beiden Phenylringen sind rot gefärbt und das der Methylgruppe blau.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{Galvinoxyl/Galvinoxyl.pdf}
-    \caption{ESR-Spektren der Galvinoxyl-Probe, wobei die erste mit einer Modulationsamplitude von 0,1 mT und alle anderen mit einer Modulationsamplitude von 0,03 mT aufgenommen wurden.} 
-    \label{fig: Galvinoxyl}
+    \includegraphics[width=0.4\textwidth]{Galvinoxyl/Galvinoxyl.png}
+    \caption{Struktur von Galvinoxyl mit den koppelnden H-Atomen.} 
+    \label{fig: Gal_struk}
 \end{figure}
+Die erwartete Aufspaltung der Linien lässt sich durch \autoref{eq: ineqKern} berechnen.
+\begin{equation*}
+    N = \left(2 \cdot \frac{1}{2} \cdot 4 + 1 \right) ~ \cdot~ \left(2 \cdot \frac{1}{2} \cdot 1 + 1 \right) = 5 \cdot 2 = 10
+\end{equation*}
+% \newpage
+\autoref{fig: Gal_o2} zeigt das aufgenommene ESR-Spektrum der hergestellten Galvinoxyl-Lösung vor dem entfernen von Sauerstoff.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Galvinoxyl/Galvinoxyl_o2.pdf}
+    \caption{ESR-Spektrum der hergestellten Galvinoxyl-Probe vor dem entgasen, aufgenommen mit einer Modulationsamplitude von 0,1 mT.} 
+    \label{fig: Gal_o2}
+\end{figure}
+% B0 = 336,25
+Im Spektrum sind nicht die erwarteten 10 Signale zu sehen. Das liegt daran, dass die Galvinoxylradikale in der Lösung mit Sauerstoffatomen und anderen Galvinoxylradikalen zusammenstoßen und dadurch ihren Spin umkehren. Um dies zu verhindern wird mit Hilfe der freeze-pump-thaw Methode der Sauerstoff entfernt. Das daraus resultierende Spektrum ist in \autoref{fig: Gal_dg} dargestellt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Galvinoxyl/Galvinoxyl_dg.pdf}
+    \caption{ESR-Spektrum der hergestellten Galvinoxyl-Probe nach dem entgasen, aufgenommen mit einer Modulationsamplitude von 0,03 mT.} 
+    \label{fig: Gal_dg}
+\end{figure}
+Das Spektrum zeigt trotz der entfernung von Sauerstoff nicht die erwarteten 10 Linien. Das lässt sich durch die Konzentration der Lösung erklären, da nur 5 ml Toluol zum erstellen der Lösung verwendet wurden, kommt es zum Spinaustausch zwischen den Radikalen. \\
+Der g-Faktor von Galvinoxyl kann, mit dem Spektrenzentrum $B_0 = \SI{336,25}{mT}$ und der Spektrometerfrequenz $\nu = \SI{9,4554}{GHz}$ nach \autoref{eq:g} berechnet werden.
+\begin{equation*}
+    g = \frac{h \cdot \nu}{\mu_0 \cdot B_0} = \frac{\SI{6,626 e-34}{Js} \cdot \SI{9,4554 e9}{Hz}}{\SI{9,2740 e-24}{\frac{J}{T} \cdot \SI{336,25 e-3}{T}}} = 2,0091
+\end{equation*}
+Dieser Wert liegt leicht über dem eines freien Elektrons, was durch die Qualität der Messung erklärt werden kann.\\
+Die Spektren von komplexen Molekülen sind oft sehr unübersichtlich oder praktisch schwer messbar, weswegen verschiedene Simulationsprogramme zur Visualisierung verwendet werden. In diesem versuch wurde EPRsim, eine Python-Erweiterung mit der es möglich ist ESR-Spektren zu simulieren verwendet. Die Parameter die verwendet wurden um das Spektrum des Galvinoxylradikals zu simulieren sind in \autoref{tab: Paras} aufgeführt. 
+\begin{table}[H]
+\centering
+\caption{Parameter die zur Simulation des ESR-Spektrums von Galvinoxyl verwendet wurden.}
+\begin{tabular}{c|c}
+Parameter & Wert \\
+\hline
+P.Range & [334,337] \\
+P.mwFreq & 9,4067 \\
+P.g  & 2,003\\  
+P.Nucs  & 'H,H' \\
+P.n  & [1,4]\\  
+P.A  & [15,3]\\
+P.lw & [0.05]  \\
+P.motion & 'fast' 
+\end{tabular}
+\label{tab: Paras}
+\end{table}
+\autoref{fig: Gal_sim} zeigt das Simulierte Spektrum von Galvinoxyl und \autoref{fig: Gal_vgl} zeigt das aufgenommene, sowie das simulierte Spektrum von Galvinoxyl.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Galvinoxyl/Gal_Sim.pdf}
+    \caption{Simuliertes ESR-Spektrum von Galvinoxyl.} 
+    \label{fig: Gal_sim}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1.0\textwidth]{Galvinoxyl/Gal_Sim_Vgl.pdf}
+    \caption{Simuliertes und experimentell aufgenommenes ESR-Spektrum von Galvinoxyl im Vergleich.} 
+    \label{fig: Gal_vgl}
+\end{figure}
+Aus dem Vergleich der Spektren wird erkenntlich, dass das experimentelle Spektrum gegenüber dem simulierten verschoben ist und sich keine scharfen Linien ergeben.
 
 \section{Fehlerrechnung} % der berechneten g-Faktoren
 Die Fehler der berechneten g-Faktoren werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq:g} mit den Messfehlern $\Delta \nu = \SI{0,021}{GHz}$ und $\Delta B_0 = \SI{0,005}{mT} $ und \autoref{eq:gfehler} bestimmt, wobei der Messfehler der Frequenz aus der Differenz der Frequenz bei der DPPH-Messung und der Frequenz der Galvinoxyl-Messung ermittelt und der Fehler des $B_0$-Werts abgeschätzt wurde.
@@ -420,10 +477,10 @@ Galvinoxyl           & 9,45544 & 336,25 & 0,0045
 \section{Zusammenfassung}
 Im ersten Versuchsteil wurde der Einfluss der Mikrowellen-Abschwächung und der Modulationsamplitude auf das ESR-Spektrum der DPPH-Probe untersucht und der g-Faktor als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ ermittelt.
 
-
+Im letzten Versuchsteil sollte der Einfluss von Sauerstoff in einer Lösung auf das ESR-Spektrum untersucht werden. Anschließend wurde das Spektrum mit Hilfe von EPRsim simuliert und die beiden Spektren verglichen. Der g-Faktor wurde als $g_\mathrm{Galvinoxyl} = 2{,}0091 \pm 0{,}0045$ ermittelt.\\
 $g_{\mathrm{Cu(AcAc)_2}} = 2{,}1226 \pm 0{,}0048$ \\
 $g_{\mathrm{VO(AcAc)_2}} = 1{,}9908 \pm 0{,}0045$ \\
-$g_{\mathrm{Galvinoxyl}} = 2{,}0091 \pm 0{,}0045$
+% $g_{\mathrm{Galvinoxyl}} = 2{,}0091 \pm 0{,}0045$
 
 \printbibliography[title={Literatur}]
 
