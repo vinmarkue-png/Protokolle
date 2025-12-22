@@ -16,7 +16,7 @@ delta_B0 = delta_B0_mT * 1e-3      # T
 samples = [
     ("DPPH", 9.43402, 336.656),
     # ("Probe 2", 9.50, 338.2),
-    # ("Probe 3", 9.38, 335.9),
+    ("Galvinoxyl", 9.4554, 336.25),
 ]
 
 print(f"{'Probe':<10} {'g':>10} {'Δg':>12}")
