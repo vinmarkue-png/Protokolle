@@ -205,16 +205,16 @@ Die Parameter dieser Messungen sind mit den Parametern der restlichen Versuchste
 Probe & $B_0$-Field & Sweep & Modulation & MW attenuation & Gain \\
 & / mT & / mT & / mT & / dB & - \\
 \hline
-DPPH - start        & 338 & 5   & 0,01        & 20     & $5\cdot10^{0}$ \\
+DPPH - start        & 338,00 & 5   & 0,01        & 20     & $5\cdot10^{0}$ \\
 DPPH - optimal        & 337,91 & 1,3   & 0,01        & 20     & $3\cdot10^{1}$ \\
 DPPH - power var.   & 337,91 & 1,3   & 0,01       & 20 - 5    & $3\cdot10^{1}$ \\
 DPPH - modul. var.    & 337,91 & 1,3   & 0,01 - 0,64    & 30     & $3\cdot10^{1}$ \\
 \hline
-Cu(AcAc)$_2$ + DPPH  & 320 & 60  & 0,4         & 20     & $5\cdot10^{1}$ \\
-VO(AcAc)$_2$ + DPPH  & 340 & 100 & 0,2         & 30     & $5\cdot10^{1}$ \\
+Cu(AcAc)$_2$ + DPPH  & 320,00 & 60  & 0,4         & 20     & $5\cdot10^{1}$ \\
+VO(AcAc)$_2$ + DPPH  & 340,00 & 100 & 0,2         & 30     & $5\cdot10^{1}$ \\
 \hline
-Galvinoxyl           & 337 & 5   & 0,1         & 10     & $5\cdot10^{1}$ \\
-Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
+Galvinoxyl           & 337,00 & 5   & 0,1         & 10     & $5\cdot10^{1}$ \\
+Galvinoxyl deox      & 337,00 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
 \end{tabular}
 \label{tab: parameter}
 \end{table}
@@ -222,7 +222,7 @@ Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
 
 \subsection{Übergangsmetallkomplexe}
 
-Die schon vorbereiteten Proben wurden im ESR-Spektrometer untersucht, hierfür wurden die in \autoref{tab: parameter} gelisteten Parameter verwendet.
+Die schon vorbereiteten Kupfer- und Vanadylacetylacetonat-Proben wurden im ESR-Spektrometer untersucht, hierfür wurden die in \autoref{tab: parameter} gelisteten Parameter verwendet.
 
 \subsection{Galvinoxylradikal}
 Im letzten Versuchsteil wurde eine Probe aus Galvinoxyl und DPPH in Toluol (5 ml) gelöst und ein kleines Volumen dieser Probe im ESR-Spektrometer untersucht. Anschließend wurde die Lösung, nache der freeze-pump-thaw Methode eingefroren, unter vermindertem Druck entgast und wieder aufgetaut. Dieser Schritt wurde fünf Mal wiederholt und die Probe wurde erneut im Spektrometer untersucht. Da das Spektrum nach fünf Zyklen noch nicht der Erwartung entsprach, wurden zwei weiter Zyklen durchgeführt, um restlichen Sauerstoff zu entfernen. Zum Schluss wurde das Spektrum von Galvinoxyl mit EPRsim simuliert um einen Vergleich zu idealen Bedingungen zu schaffen.
@@ -327,7 +327,7 @@ Das aufgenommene ESR-Spektrum von Kupfer(II)acetylacetonat \ch{Cu(AcAc)2} ist in
 \begin{figure}[H]
 \centering
 \includegraphics[width = 1.0\textwidth]{Cu_VO/Kupfergraph.pdf}
-\caption{Das ESR-Spektrum der Kupfer(II)acetylacetonat-Probe mit internem DPPH Standard.}
+\caption{Das ESR-Spektrum der Kupfer(II)acetylacetonat-Probe mit internem DPPH-Standard.}
 \label{fig: Cu}
 \end{figure}
 
@@ -348,7 +348,7 @@ g_{\mathrm{Cu(AcAc)_2}{,}1} = \frac{\SI{6{,}6261e-34}{Js} \cdot \SI{9{,}42368368
 Des Weiteren lässt sich der $g$-Faktor auch wie in \autoref{eq: gx} berechnen, bei der $g$-Faktor und Magnetfeld des internen Standard mit einbezogen wird. Der DPPH Peak liegt hier bei $B_0 = \SI{336{,}665}{mT}$:
 
 \begin{equation*}
-g_{\mathrm{Cu(AcAc)_2},2} = 2{,}0037 \cdot \frac{\SI{336{,}66}{\milli\tesla}}{\SI{316{,}03}{\milli\tesla}} = 2{,}1345
+g_{\mathrm{Cu(AcAc)_2},2} = 2{,}0037 \cdot \frac{\SI{336{,}665}{\milli\tesla}}{\SI{316{,}037}{\milli\tesla}} = 2{,}1345
 \end{equation*}
 
 Nach \autoref{eq: äqKern} lässt sich nun der Kernspin wie folgt berechnen:
@@ -379,7 +379,7 @@ In \autoref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit eb
 \begin{figure}[H]
 \centering
 \includegraphics[width = 1.0\textwidth]{Cu_VO/VOgraph.pdf}
-\caption{Das ESR-Spektrum der Vanadylacetylacetonat-Probe mit internem DPPH Standard.}
+\caption{Das ESR-Spektrum der Vanadylacetylacetonat-Probe mit internem DPPH-Standard.}
 \label{fig: Vo}
 \end{figure}
 
@@ -403,7 +403,7 @@ Der große Peak in der Mitte ist hier wieder dem DPPH-Standard zuzuweisen, die P
     \end{tabular}
 \end{table}
 
-Analog zur Kupferprobe kann damit nun nach \autoref{eq: gB} ein $g$-Faktor von $g_{\mathrm{VO(AcAc)_2},1} = 1{,}9811$ berechnet werden.
+Analog zur Kupferacetylacetonat-Probe kann damit nun nach \autoref{eq: gB} ein $g$-Faktor von $g_{\mathrm{VO(AcAc)_2},1} = 1{,}9811$ berechnet werden.
 Nach \autoref{eq: gx} mit einer DPPH-Peakposition von $B_0 = \SI{336,15}{mT}$ ergibt sich ein $g$-Faktor von $g_{\mathrm{VO(AcAc)_2},2} = 1{,}9818$.
 
 Wieder kann gemäß \autoref{eq: äqKern} der Kernspin berechnet werden:
@@ -529,8 +529,8 @@ Die Fehler der $g$-Werte der restlichen Proben werden analog mit \autoref{eq:gfe
 Probe & $\nu$ / GHz & $B_0$ / mT & $\Delta g$ \\
 \hline
 DPPH     & 9,43402 & 336,656 & 0,0045 \\
-Cu(AcAc)$_2$ + DPPH & 9,42368 & 316,03 & 0,0048 \\
-VO(AcAc)$_2$ + DPPH  & 9,42368 & 339,86 &  0,0044 \\
+Cu(AcAc)$_2$ + DPPH & 9,42368 & 316,037 & 0,0048 \\
+VO(AcAc)$_2$ + DPPH  & 9,42368 & 339,858 &  0,0044 \\
 Galvinoxyl           & 9,45544 & 336,254 & 0,0045
 \end{tabular}
 \label{tab: fehler}
