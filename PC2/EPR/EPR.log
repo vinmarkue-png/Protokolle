@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  22 DEC 2025 13:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  22 DEC 2025 13:32
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1202,14 +1202,19 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
+)
+Overfull \hbox (1.41708pt too wide) in paragraph at lines 114--120
+\T1/cmr/m/n/12 dyla-ce-tyla-ce-to-nat auf-ge-nom-men, aus de-nen de-ren $\OML/cmm/m/it/12 g$\T1/cmr/m/n/12 -Faktoren als $\OML/cmm/m/it/12 g[] \OT1/cmr/m/n/12 = 2[]13048 \OMS/cmsy/m/n/12 ^^F
+ []
+
+[1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./EPR.toc)
 \tf@toc=\write5
 \openout5 = `EPR.toc'.
 
  [2]
-Overfull \hbox (2.02469pt too wide) in paragraph at lines 154--155
+Overfull \hbox (2.02469pt too wide) in paragraph at lines 159--160
 \T1/cmr/m/n/12 Neben der Elektron-Zeeman-Wechselwirkung mit dem äu-ÿe-ren Ma-gnet-feld tre-ten eben-
  []
 
@@ -1217,101 +1222,101 @@ Overfull \hbox (2.02469pt too wide) in paragraph at lines 154--155
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.155 \begin{equation}
+l.160 \begin{equation}
                        [1
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.178 \newpage
+l.183 \newpage
                [2]
-<Bilder/setup.png, id=86, 339.06676pt x 242.1045pt>
+<Bilder/setup.png, id=87, 339.06676pt x 242.1045pt>
 File: Bilder/setup.png Graphic file (type png)
 <use Bilder/setup.png>
-Package pdftex.def Info: Bilder/setup.png  used on input line 186.
+Package pdftex.def Info: Bilder/setup.png  used on input line 191.
 (pdftex.def)             Requested size: 349.40045pt x 249.48494pt.
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 199.
+(scrartcl)           \newlinein caption text  on input line 204.
  [3
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.217 
+l.222 
        <./Bilder/setup.png>]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 232.
+(scrartcl)           \newlinein caption text  on input line 237.
  [4
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.247 
+l.252 
       ]
 <DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf, id=108, 462.52798pt x 346.89601pt>
 File: DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf Graphic file (type pdf)
 <use DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf>
-Package pdftex.def Info: DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf  used on input line 253.
+Package pdftex.def Info: DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf  used on input line 258.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.259 
+l.264 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.259 
+l.264 
        <./DPPH/A)/01_DPPH_start_0p01mod_20db_5gain_471701.pdf>]
 <DPPH/B)/DPPH_MW_Attenuation.pdf, id=157, 433.62pt x 289.08pt>
 File: DPPH/B)/DPPH_MW_Attenuation.pdf Graphic file (type pdf)
 <use DPPH/B)/DPPH_MW_Attenuation.pdf>
-Package pdftex.def Info: DPPH/B)/DPPH_MW_Attenuation.pdf  used on input line 262.
+Package pdftex.def Info: DPPH/B)/DPPH_MW_Attenuation.pdf  used on input line 267.
 (pdftex.def)             Requested size: 436.7489pt x 291.17891pt.
 <DPPH/C)/DPPH_Modulation.pdf, id=160, 433.62pt x 289.08pt>
 File: DPPH/C)/DPPH_Modulation.pdf Graphic file (type pdf)
 <use DPPH/C)/DPPH_Modulation.pdf>
-Package pdftex.def Info: DPPH/C)/DPPH_Modulation.pdf  used on input line 271.
+Package pdftex.def Info: DPPH/C)/DPPH_Modulation.pdf  used on input line 276.
 (pdftex.def)             Requested size: 436.7489pt x 291.17891pt.
  [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.276 I
+l.281 I
        n \autoref{fig: DPPH-modul-var} lÃ¤sst sich erkennen, dass die Spektr... <./DPPH/B)/DPPH_MW_Attenuation.pdf>] [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.302 D
+l.307 D
        ie Lage des Spektrenzentrums von DPPH befindet sich also am Mittelwer... <./DPPH/C)/DPPH_Modulation.pdf>] [8
 pdfTeX warning (ext4): destination with the same identifier (name{table.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.322 
+l.327 
       ]
 <Cu_VO/Kupfergraph.pdf, id=262, 462.52798pt x 346.89601pt>
 File: Cu_VO/Kupfergraph.pdf Graphic file (type pdf)
 <use Cu_VO/Kupfergraph.pdf>
-Package pdftex.def Info: Cu_VO/Kupfergraph.pdf  used on input line 325.
+Package pdftex.def Info: Cu_VO/Kupfergraph.pdf  used on input line 330.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.343 
+l.348 
        <./Cu_VO/Kupfergraph.pdf>]
 <Cu_VO/VOgraph.pdf, id=306, 462.52798pt x 346.89601pt>
 File: Cu_VO/VOgraph.pdf Graphic file (type pdf)
 <use Cu_VO/VOgraph.pdf>
-Package pdftex.def Info: Cu_VO/VOgraph.pdf  used on input line 387.
+Package pdftex.def Info: Cu_VO/VOgraph.pdf  used on input line 392.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [10
 pdfTeX warning (ext4): destination with the same identifier (name{table.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.391 
+l.396 
       ]
-Overfull \hbox (12.18378pt too wide) in paragraph at lines 413--415
+Overfull \hbox (12.18378pt too wide) in paragraph at lines 418--420
 []\T1/cmr/m/n/12 Analog zur Kup-fer-pro-be kann da-mit nun nach [][]Glei-chung 3[][][] ein $\OML/cmm/m/it/12 g$\T1/cmr/m/n/12 -Faktor von $\OML/cmm/m/it/12 g[] \OT1/cmr/m/n/12 =
  []
 
@@ -1319,76 +1324,76 @@ Overfull \hbox (12.18378pt too wide) in paragraph at lines 413--415
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.415 
+l.420 
       
 pdfTeX warning (ext4): destination with the same identifier (name{table.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.415 
+l.420 
        <./Cu_VO/VOgraph.pdf>]
-Overfull \hbox (12.1456pt too wide) in paragraph at lines 444--445
+Overfull \hbox (12.1456pt too wide) in paragraph at lines 449--450
 []\T1/cmr/m/n/12 Die Kopp-lungs-kon-stan-te $\OML/cmm/m/it/12 a$ \T1/cmr/m/n/12 be-trägt für das VO(AcAc)[] dement-spre-chend $[] \OT1/cmr/m/n/12 = 10\OML/cmm/m/it/12 ; \OT1/cmr/m/n/12 86 []$\T1/cmr/m/n/12 . 
  []
 
 <Galvinoxyl/Galvinoxyl.png, id=355, 481.8pt x 265.74281pt>
 File: Galvinoxyl/Galvinoxyl.png Graphic file (type png)
 <use Galvinoxyl/Galvinoxyl.png>
-Package pdftex.def Info: Galvinoxyl/Galvinoxyl.png  used on input line 455.
+Package pdftex.def Info: Galvinoxyl/Galvinoxyl.png  used on input line 460.
 (pdftex.def)             Requested size: 174.69688pt x 96.35262pt.
 <Galvinoxyl/Galvinoxyl_o2.pdf, id=358, 462.52798pt x 346.89601pt>
 File: Galvinoxyl/Galvinoxyl_o2.pdf Graphic file (type pdf)
 <use Galvinoxyl/Galvinoxyl_o2.pdf>
-Package pdftex.def Info: Galvinoxyl/Galvinoxyl_o2.pdf  used on input line 467.
+Package pdftex.def Info: Galvinoxyl/Galvinoxyl_o2.pdf  used on input line 472.
 (pdftex.def)             Requested size: 349.40045pt x 262.06104pt.
 [12
 pdfTeX warning (ext4): destination with the same identifier (name{table.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.470 \end{figure}
+l.475 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.470 \end{figure}
+l.475 \end{figure}
                    <./Galvinoxyl/Galvinoxyl.png>]
 <Galvinoxyl/Galvinoxyl_dg.pdf, id=367, 462.52798pt x 346.89601pt>
 File: Galvinoxyl/Galvinoxyl_dg.pdf Graphic file (type pdf)
 <use Galvinoxyl/Galvinoxyl_dg.pdf>
-Package pdftex.def Info: Galvinoxyl/Galvinoxyl_dg.pdf  used on input line 475.
+Package pdftex.def Info: Galvinoxyl/Galvinoxyl_dg.pdf  used on input line 480.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.479 D
+l.484 D
        as Spektrum zeigt trotz der Entfernung von Sauerstoff nicht die erwar... <./Galvinoxyl/Galvinoxyl_o2.pdf>] [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.503 \autoref{
+l.508 \autoref{
                fig: Gal_sim} zeigt das simulierte Spektrum von Galvinoxyl un... <./Galvinoxyl/Galvinoxyl_dg.pdf>]
 <Galvinoxyl/Gal_Sim.pdf, id=454, 722.7pt x 433.62pt>
 File: Galvinoxyl/Gal_Sim.pdf Graphic file (type pdf)
 <use Galvinoxyl/Gal_Sim.pdf>
-Package pdftex.def Info: Galvinoxyl/Gal_Sim.pdf  used on input line 506.
+Package pdftex.def Info: Galvinoxyl/Gal_Sim.pdf  used on input line 511.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 <Galvinoxyl/Gal_Sim_Vgl.pdf, id=455, 722.7pt x 433.62pt>
 File: Galvinoxyl/Gal_Sim_Vgl.pdf Graphic file (type pdf)
 <use Galvinoxyl/Gal_Sim_Vgl.pdf>
-Package pdftex.def Info: Galvinoxyl/Gal_Sim_Vgl.pdf  used on input line 512.
+Package pdftex.def Info: Galvinoxyl/Gal_Sim_Vgl.pdf  used on input line 517.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
  [15
 pdfTeX warning (ext4): destination with the same identifier (name{table.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 A
+l.521 A
        us dem Vergleich der Spektren wird erkenntlich, dass das experimentel...
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 A
+l.521 A
        us dem Vergleich der Spektren wird erkenntlich, dass das experimentel... <./Galvinoxyl/Gal_Sim.pdf>]
-Overfull \hbox (0.93146pt too wide) in paragraph at lines 519--520
+Overfull \hbox (0.93146pt too wide) in paragraph at lines 524--525
 \T1/cmr/m/n/12 aus-ge-hend von [][]Glei-chung 9[][][] mit den Mess-feh-lern $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 ^^W \OT1/cmr/m/n/12 = 0[]021 []$ \T1/cmr/m/n/12 und $\OT1/cmr/m/n/12 ^^A\OML/cmm/m/it/12 B[] \OT1/cmr/m/n/12 = 0[]005 []$
  []
 
@@ -1396,17 +1401,17 @@ Overfull \hbox (0.93146pt too wide) in paragraph at lines 519--520
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.534 \end{align*}
+l.539 \end{align*}
                    <./Galvinoxyl/Gal_Sim_Vgl.pdf>]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 538.
+(scrartcl)           \newlinein caption text  on input line 543.
 
-Overfull \hbox (13.64697pt too wide) in paragraph at lines 557--558
+Overfull \hbox (13.64697pt too wide) in paragraph at lines 562--563
 \T1/cmr/m/n/12 EPRsim si-mu-liert und die bei-den Spek-tren ver-gli-chen. Der g-Faktor wur-de als $\OML/cmm/m/it/12 g[] \OT1/cmr/m/n/12 =
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 557--558
+Underfull \hbox (badness 10000) in paragraph at lines 562--563
 
  []
 
@@ -1414,7 +1419,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 557--558
 pdfTeX warning (ext4): destination with the same identifier (name{table.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.561 \printbibliography[title={Literatur}]
+l.566 \printbibliography[title={Literatur}]
                                            ] [18] (./EPR.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1433,7 +1438,7 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  108i,20n,108p,11303b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on EPR.pdf (20 pages, 585362 bytes).
+Output written on EPR.pdf (20 pages, 585739 bytes).
 PDF statistics:
  712 PDF objects out of 1000 (max. 8388607)
  381 compressed objects within 4 object streams
