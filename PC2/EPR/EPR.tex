@@ -112,7 +112,7 @@
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
-In diesem Versuch wurden verschiedene Proben mit Elektronenspin-Resonanz-Spektroskopie untersucht. Dabei wurde der g-Faktor der DPPH-Probe wurde als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
+In diesem Versuch wurden verschiedene Proben mit Elektronenspin-Resonanz-Spektroskopie untersucht. Dabei wurde der g-Faktor der DPPH-Probe als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
 
 
 \end{titlepage}
@@ -217,11 +217,11 @@ Galvinoxyl deox      & 337 & 5   & 0,03        & 10     & $5\cdot10^{1}$ \\
 \end{table}
 
 
-\subsection{}
+\subsection{Übergangsmetallkomplexe}
 
 
-\subsection{Organische Radikale}
-Im letzten Versuchsteil wurde eine Probe aus Galvinoxyl und DPPH in Toluol (5 ml) gelöst im ESR-Spektrometer untersucht. Anschließend wurde die Lösung eingefroren und unter vermindertem Druck entgast. Dieser Schritt wurde fünf Mal wiederholt und die Probe wurde erneut im Spektrometer untersucht. Zum Schluss wurde das Spektrum von Galvinoxyl mit EPRsim simuliert um einen Vergleich zu idealen Bedingungen zu schaffen.
+\subsection{Galvinoxylradikal}
+Im letzten Versuchsteil wurde eine Probe aus Galvinoxyl und DPPH in Toluol (5 ml) gelöst und ein kleines Volumen dieser Probe im ESR-Spektrometer untersucht. Anschließend wurde die Lösung eingefroren, unter vermindertem Druck entgast und wieder aufgetaut. Dieser Schritt wurde fünf Mal wiederholt und die Probe wurde erneut im Spektrometer untersucht. Da das Spektrum nach fünf Zyklen noch nicht der Erwartung entsprach, wurden zwei weiter Zyklen durchgeführt, um restlichen Sauerstoff zu entfernen.Zum Schluss wurde das Spektrum von Galvinoxyl mit EPRsim simuliert um einen Vergleich zu idealen Bedingungen zu schaffen.
 
 \section{Auswertung}
 
@@ -237,10 +237,10 @@ DPPH - start        & 336,742 \\
 DPPH - optimal        & 336,652 \\
 DPPH - power var.   & 336,652 \\
 DPPH - modul. var.    & 336,652 \\
-Cu(AcAc)$_2$ + DPPH  & 3 \\
-VO(AcAc)$_2$ + DPPH  & 3  \\
-Galvinoxyl           & 33 \\
-Galvinoxyl deox & \\
+Cu(AcAc)$_2$ + DPPH  & 318,742 \\
+VO(AcAc)$_2$ + DPPH  & 338,742  \\
+Galvinoxyl           & 335,742 \\
+Galvinoxyl deox & 335,742 \\
 \end{tabular}
 \label{tab: zentren}
 \end{table}
@@ -305,7 +305,7 @@ Durch Einsetzen des Bohrschen Magnetons $\mu_\mathrm{B}$ und des Planck'schen Wi
 \begin{align}
 	g &= \frac{h \cdot \nu}{\mu_\mathrm{B} \cdot B_0}
     \label{eq:g} \\
-	g_\mathrm{DPPH}&= \frac{\SI{6.6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T}} \nonumber \\
+	g_\mathrm{DPPH}&= \frac{\SI{6,6261e-34}{Js} \cdot \SI{9,43402e9}{Hz}}{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{336,656e-3}{T}} \nonumber \\
 	&= 2{,}0022 \nonumber
 \end{align}
 
@@ -318,7 +318,7 @@ Daraus lässt sich schließen, dass der Resonator 3,18 cm lang sein muss, um ein
 
 \subsection{ESR-Spektren von Kupfer- und Vanadylacetylacetonat}
 
-Das aufgenommene ESR-Spektrum von Kupfer(II)acetylacetonat \ch{Cu(AcAc)2}  ist in Abbildung \ref{fig: Cu} dargestellt, dabei ist anzumerken, dass der Korekturfaktor hier bereits miteinberechnet worden ist.
+Das aufgenommene ESR-Spektrum von Kupfer(II)acetylacetonat \ch{Cu(AcAc)2}  ist in \autoref{fig: Cu} dargestellt. Dabei ist anzumerken, dass der Korrekturfaktor für $B_0$ hier bereits miteinberechnet worden ist.
 
 \begin{figure}[H]
 \centering
@@ -327,23 +327,23 @@ Das aufgenommene ESR-Spektrum von Kupfer(II)acetylacetonat \ch{Cu(AcAc)2}  ist i
 \label{fig: Cu}
 \end{figure}
 
-In Abbildung \ref{fig: Cu} sind fünf Peaks zu beobachten. Dabei besitzt der Peak mit dem höchsten Magnetfeld eine deutlich höhere Absorptionsamplitude als die anderen vier Peaks.
-Aufgrund der Poition des höheren Peaks kann dieser dem internen Standard DPPH zugeordnet werden. Somit sind der Kupfer(II)acetylacetonat-Probe die vier Peaks mit der kleineren Amplitude zuzuordnen.
-Die Positionen der Peaks, die sich der Kupferprobe zuordnen lassen liegen bei $B_{1,\text{Cu}} \approx 304,9 $ mT, $B_{2,\text{Cu}} \approx 313,2 $ mT, $B_{3,\text{Cu}} \approx 321,5 $ mT und $B_{4,\text{Cu}} \approx 329,7 $ mT. Das Spektrum der Kupferprobe ist hierbei um den Mittelwert von dem ersten und dem letzten Peak der Kupferprobe zentriert. Dieses Zentrum des Spektrums berechnet sich wie folgt:
+In \autoref{fig: Cu} sind fünf Peaks zu beobachten. Dabei besitzt der Peak mit dem höchsten Magnetfeld eine deutlich höhere Absorptionsamplitude als die anderen vier Peaks.
+Aufgrund der Position des höheren Peaks bei $B_0 = \SI{336,66}{mT}$ kann dieser dem internen Standard DPPH zugeordnet werden. Somit sind der Kupfer(II)acetylacetonat-Probe die vier Peaks mit der kleineren Amplitude zuzuordnen.
+Die Positionen der Peaks, die sich der Kupferprobe zuordnen lassen, liegen bei $B_{1,\text{Cu}} \approx \SI{304,9}{mT}$, $B_{2,\text{Cu}} \approx \SI{313,2}{mT} $, $B_{3,\text{Cu}} \approx \SI{321,5}{mT}$ und $B_{4,\text{Cu}} \approx \SI{329,7}{mT}$. Das Spektrum der Kupferprobe ist hierbei um den Mittelwert von dem ersten und dem letzten Peak der Kupferprobe zentriert. Dieses Zentrum des Spektrums berechnet sich wie folgt:
 
 \begin{equation*}
-\bar{B_{\text{Cu}}} = \frac{\SI{329,7}{\milli\tesla} + \SI{304,9}{\milli\tesla}}{2} = \SI{317,2}{\milli\tesla}
+\overline{B_{\text{Cu}}} = \frac{\SI{329,7}{\milli\tesla} + \SI{304,9}{\milli\tesla}}{2} = \SI{317,2}{\milli\tesla}
 \end{equation*}
 
-Das Spektrum der Kupferprobe ist somit um den den Wert von $ \bar{B_{\text{Cu}}} = \SI{317,2}{\milli\tesla} $ zentriert.
+Das Spektrum der Kupferprobe ist somit um den den Wert von $ \overline{B_{\text{Cu}}} = \SI{317,2}{\milli\tesla} $ zentriert.
 
-Ausgehend von diesem Magnetfeld kann nun der $g$-Faktor und der Mikrowqellenfrequenz $ \nu \approx \SI{9,44e9} {\hertz}$ gemäß Gleichung \ref{eq: gB} errechnet werden: 
+Ausgehend von diesem Magnetfeld kann nun der $g$-Faktor mit der Mikrowellenfrequenz $ \nu \approx \SI{9,44e9} {\hertz}$ gemäß \autoref{eq:g} errechnet werden: 
 \begin{equation*}
-g_{\text{Cu, Gl.1}} = \frac{\SI{6,6261}{\joule\sec} \cdot \SI{9,44e9} {\hertz} }{\SI{9,2741e-24}{\joule\per\tesla} \cdot \SI{317,2}{\milli\tesla}} \approx 2,126
+g_{\mathrm{Cu(AcAc)_2}} = \frac{\SI{6,6261e-34}{Js} \cdot \SI{9,44e9} {\hertz} }{\SI{9,2741e-24}{\frac{J}{T}} \cdot \SI{317,2}{\milli\tesla}} = 2{,}126
 \end{equation*}
 
 
-Nach Gleichung \ref{eq: äqKern} lässt sich nun der Kernspin wie folgt berechnen.
+Nach \autoref{eq: äqKern} lässt sich nun der Kernspin wie folgt berechnen.
 
 \begin{equation*}
 N = \frac{N - 1}{2 \cdot n } = \frac{4-1}{2 \cdot 1} = \frac{3}{2}
@@ -354,7 +354,7 @@ Der Kernspin des Kupfers berechnet sich also zu $ N = \frac{3}{2}$.
 
 
 
-In Abbildung \ref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit ebenfalls DPPH als internem Standard zu sehen. 
+In \autoref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe mit ebenfalls DPPH als internem Standard zu sehen. 
 
 \begin{figure}[H]
 \centering
@@ -374,8 +374,8 @@ In Abbildung \ref{fig: Vo} ist das ESR-Spektrum der Vanadylacetylacetonat-Probe 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Galvinoxyl/Galvinoxyl.pdf}
-    \caption{ESR-Spektren der Galvinoxyl-Probe wobei die Erste mit einer Modulationsamplitude von 0,1 mT und alle anderen mit einer Modulationsamplituden von 0,03 mT aufgenommen wurden.} 
-    \label{fig: DPPH-modul-var}
+    \caption{ESR-Spektren der Galvinoxyl-Probe, wobei die erste mit einer Modulationsamplitude von 0,1 mT und alle anderen mit einer Modulationsamplitude von 0,03 mT aufgenommen wurden.} 
+    \label{fig: Galvinoxyl}
 \end{figure}
 
 \section{Fehlerrechnung} % der berechneten g-Faktoren
@@ -403,7 +403,7 @@ Als Beispiel ist die Fehlerrechnung für den g-Faktor von DPPH mit \autoref{eq:g
 Probe & $\nu$ / GHz & $B_0$ / mT & $\Delta g$ \\
 \hline
 DPPH     & 9,43402 & 336,656 & 0,0045 \\
-Cu(AcAc)$_2$ + DPPH 9,44 & 317,2 & 0,0078 &  \\
+Cu(AcAc)$_2$ + DPPH & 9,44 & 317,2 & 0,0078 \\
 VO(AcAc)$_2$ + DPPH  &  &  &   \\
 Galvinoxyl           &  &  & 
 \end{tabular}
@@ -412,6 +412,11 @@ Galvinoxyl           &  &  &
 
 \section{Zusammenfassung}
 Im ersten Versuchsteil wurde der Einfluss der Mikrowellen-Abschwächung und der Modulationsamplitude auf das ESR-Spektrum der DPPH-Probe untersucht und der g-Faktor als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ ermittelt.
+
+
+$g_{\mathrm{Cu(AcAc)_2}} = 2{,}126 \pm 0{,}0078$ \\
+$g_{\mathrm{VO(AcAc)_2}} =  \pm $ \\
+$g_{\mathrm{Galvinoxyl}} =  \pm $
 
 \printbibliography[title={Literatur}]
 
