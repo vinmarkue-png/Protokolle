@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  22 DEC 2025 12:56
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  22 DEC 2025 12:46
+>>>>>>> dc300abaece031953be3d12ae6861c8e7e25d0b2
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -74,6 +78,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \baselineskip   = 14.5pt
 (typearea)              on input line 1807.
 )
+<<<<<<< HEAD
 \c@part=\count276
 \c@section=\count277
 \c@subsection=\count278
@@ -1480,3 +1485,6 @@ PDF statistics:
  66 named destinations out of 1000 (max. 500000)
  188 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+\c@part=\count
+>>>>>>> dc300abaece031953be3d12ae6861c8e7e25d0b2
