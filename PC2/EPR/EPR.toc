@@ -8,9 +8,17 @@
 \contentsline {subsection}{\numberline {2.3}Organische Radikale}{4}{subsection.2.3}%
 \contentsline {section}{\numberline {3}Auswertung}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}ESR-Spektren von 2,2-Diphenyl-1-pikrylhydrazyl}{5}{subsection.3.1}%
+<<<<<<< HEAD
 \contentsline {subsection}{\numberline {3.2}ESR-Spektren von}{9}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}ESR-Spektren des Galvinoxylradikals}{9}{subsection.3.3}%
 \contentsline {section}{\numberline {4}Fehlerrechnung}{12}{section.4}%
 \contentsline {section}{\numberline {5}Zusammenfassung}{13}{section.5}%
 \contentsline {section}{\numberline {6}Literatur}{13}{section.6}%
+=======
+\contentsline {subsection}{\numberline {3.2}ESR-Spektren von Kupfer- und Vanadylacetylacetonat}{9}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.3}ESR-Spektren des Galvinoxylradikals}{10}{subsection.3.3}%
+\contentsline {section}{\numberline {4}Fehlerrechnung}{10}{section.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{11}{section.5}%
+\contentsline {section}{\numberline {6}Literatur}{11}{section.6}%
+>>>>>>> 5ffef87b913b5dc9d2c2f56b54d78bc4801f59eb
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
