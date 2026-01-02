@@ -71,14 +71,12 @@ import random
 import matplotlib.pyplot as plt
 import time
 
-def distanz(p1, p2):
-    """Berechnet die euklidische Distanz zwischen zwei Punkten p1 und p2."""
+def distanz(p1, p2): # Euklidische Distanz berechnen
     return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
 
-def pfad_laenge(pfad):
-    """Berechnet die Gesamtlänge eines Pfades (Liste von Punkten)."""
+def pfad_laenge(pfad): # Gesamtlänge eines Pfades berechnen (Liste von Punkten)
     laenge = 0
-    # Iterieration von 0 bis zum vorletzten Punkt und addition der Distanz zum Nachfolger
+    # Iteration von 0 bis zum vorletzten Punkt und Addition der Distanz zum Nachfolger
     for i in range(len(pfad) - 1):
         laenge += distanz(pfad[i], pfad[i+1])
     return laenge
@@ -110,7 +108,6 @@ def main():
     end_time = time.time()
     print(f"Fertig in {end_time - start_time:.2f} Sekunden.")
     print(f"Kürzeste Strecke: {kuerzeste_strecke:.2f}")
-
     
     if bester_pfad:
         # Koordinaten für den Plot entpacken
@@ -119,49 +116,114 @@ def main():
 
         plt.figure(figsize=(8, 6))
         
-        # Den Weg zeichnen
+        # Weg zeichnen und Punkte anzeigen
         plt.plot(x_coords, y_coords, color='black', linestyle='-', linewidth=2, zorder=1, label='Kürzester Pfad')
-        
-        # Punkte anzeigen
         plt.scatter(x_coords, y_coords, color='green', s=100, zorder=2, label='Orte')
         
         # Start- und Endpunkt beschriften
         plt.text(x_coords[0], y_coords[0], ' Start', verticalalignment='bottom', fontweight='bold')
         plt.text(x_coords[-1], y_coords[-1], ' Ende', verticalalignment='bottom', fontweight='bold')
-
         plt.title(f'Kürzester Pfad durch {n} zufällige Punkte\nLänge: {kuerzeste_strecke:.2f}')
         plt.xlabel('X-Koordinate')
         plt.ylabel('Y-Koordinate')
         plt.grid(True)
         plt.legend()
-        
+        plt.savefig("Reisender2.pdf")
         plt.show()
-
 if __name__ == "__main__":
     main()
 \end{lstlisting}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{Reisender1.pdf}    
+    \includegraphics[width=0.8\textwidth]{Reisender1.pdf}    
     \caption{Plot einer zufälligen Reisestrecke} 
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.85\textwidth]{Reisender2.pdf}    
+    \includegraphics[width=0.8\textwidth]{Reisender2.pdf}    
     \caption{Plot einer anderen zufälligen Reisestrecke} 
 \end{figure}
 
 \section{Fehleranalyse einer gedämpften Schwingung}
 
-\begin{lstlisting}
+\subsection{Symbolische Berechnung}
 
+\begin{lstlisting}
+import sympy as sp
+# Variablen und Fehler definieren
+t, A, gamma, omega = sp.symbols('t A gamma omega')
+dA, dgamma, domega = sp.symbols('dA dgamma domega')
+
+# Funktion
+x = A * sp.exp(-gamma * t) * sp.cos(omega * t)
+
+# Partielle Ableitungen
+dx_dA = sp.diff(x, A)
+dx_dgamma = sp.diff(x, gamma)
+dx_domega = sp.diff(x, omega)
+
+# Fehlerfortpflanzung
+dx = dA * sp.Abs(dx_dA) + dgamma * sp.Abs(dx_dgamma) + domega * sp.Abs(dx_domega)
+
+# Lambdify für numerische Funktion
+x_func = sp.lambdify((t, A, gamma, omega), x, "numpy")
+dx_func = sp.lambdify((t, A, gamma, omega, dA, dgamma, domega), dx, "numpy")
 \end{lstlisting}
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.85\textwidth]{Sympy.pdf}
-%     \caption{Plot der Funktion und ihrer Ableitung} 
-%     \label{fig: sympy}
-% \end{figure}
+
+\subsection{Numerische Simulation und Plot}
+
+\begin{lstlisting}
+import numpy as np
+import matplotlib.pyplot as plt
+
+# Skript aus Teil A
+
+# Zeitvektor
+t_num = np.linspace(0, 20, 400)
+
+# Fall 1: dA = 1.0
+x_num = x_func(t_num, 10, 0.1, 2.0) # numerische x-Werte
+dx_num = dx_func(t_num, 10, 0.1, 2.0, 1.0, 0.0, 0.0)
+
+plt.plot(t_num, x_num)
+plt.fill_between(t_num, x_num - dx_num, x_num + dx_num, alpha=0.4)
+plt.xlabel("t")
+plt.ylabel("x(t)")
+plt.legend(["x(t)", "Unsicherheitsbereich"])
+plt.show()
+
+# Fall 2: domega = 0.2
+dx_num = dx_func(t_num, 10, 0.1, 2.0, 0.0, 0.0, 0.2)
+
+plt.plot(t_num, x_num)
+plt.fill_between(t_num, x_num - dx_num, x_num + dx_num, alpha=0.4)
+plt.xlabel("t")
+plt.ylabel("x(t)")
+plt.legend(["x(t)", "Unsicherheitsbereich"])
+plt.show()
+\end{lstlisting}
+
+Das Plot für Fall 1 mit $\Delta A = 1.0$ ist in Abbildung \ref{fig: Afehler} dargestellt.
+Der Verlauf des Plots mit Abnahme des Unsicherheitsbereichs lässt sich durch die Ableitung von $x$ nach $A$ erklären, die nur eine Exponentialfunktion ohne Faktor $t$ enthält, wodurch $\Delta A$ mit der Zeit stark abnimmt.
+Somit nimmt auch der Gesamtfehler ab, wenn die Schwingung abklingt.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Afehler.pdf}
+    \caption{Plot der gedämpften Schwingung mit $\Delta A = 1.0$.} 
+    \label{fig: Afehler}
+\end{figure}
+
+
+Das Plot für Fall 2 mit $\Delta \omega = 0.2$ ist in Abbildung \ref{fig: omegafehler} dargestellt.
+Der Verlauf des Plots mit Zunahme des Unsicherheitsbereichs lässt sich dadurch erklären, dass in der Ableitung von $x$ nach $\omega$ der Faktor $t$ enthalten ist, wodurch der Gesamtfehler proportional zur Zeit ist.
+Somit nimmt der Fehler mit der Zeit zu, wenn die Schwingung abklingt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{omegafehler.pdf}
+    \caption{Plot der gedämpften Schwingung mit $\Delta \omega = 0.2$.} 
+    \label{fig: omegafehler}
+\end{figure}
 
 \end{document}

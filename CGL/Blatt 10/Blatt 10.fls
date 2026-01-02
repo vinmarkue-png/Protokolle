@@ -1,8 +1,8 @@
-PWD c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 10
+PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 10
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 10/Blatt 10.tex
+INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 10/Blatt 10.tex
 OUTPUT Blatt 10.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -412,13 +412,51 @@ INPUT ./Reisender2.pdf
 INPUT ./Reisender2.pdf
 INPUT ./Reisender2.pdf
 INPUT ./Reisender2.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmr6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmex10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm10.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm7.tfm
+INPUT ./Afehler.pdf
+INPUT ./Afehler.pdf
+INPUT ./Afehler.pdf
+INPUT ./Afehler.pdf
+INPUT ./Afehler.pdf
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/euler/eurm5.tfm
+INPUT ./omegafehler.pdf
+INPUT ./omegafehler.pdf
+INPUT ./omegafehler.pdf
+INPUT ./omegafehler.pdf
+INPUT ./omegafehler.pdf
 INPUT Blatt 10.aux
 INPUT Blatt 10.run.xml
 OUTPUT Blatt 10.run.xml
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb
+INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb
 INPUT c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb

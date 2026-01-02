@@ -4,14 +4,12 @@ import random
 import matplotlib.pyplot as plt
 import time
 
-def distanz(p1, p2):
-    """Berechnet die euklidische Distanz zwischen zwei Punkten p1 und p2."""
+def distanz(p1, p2): # Euklidische Distanz berechnen
     return math.sqrt((p1[0] - p2[0])**2 + (p1[1] - p2[1])**2)
 
-def pfad_laenge(pfad):
-    """Berechnet die Gesamtlänge eines Pfades (Liste von Punkten)."""
+def pfad_laenge(pfad): # Gesamtlänge eines Pfades berechnen (Liste von Punkten)
     laenge = 0
-    # Iterieration von 0 bis zum vorletzten Punkt und addition der Distanz zum Nachfolger
+    # Iteration von 0 bis zum vorletzten Punkt und Addition der Distanz zum Nachfolger
     for i in range(len(pfad) - 1):
         laenge += distanz(pfad[i], pfad[i+1])
     return laenge
@@ -43,7 +41,6 @@ def main():
     end_time = time.time()
     print(f"Fertig in {end_time - start_time:.2f} Sekunden.")
     print(f"Kürzeste Strecke: {kuerzeste_strecke:.2f}")
-
     
     if bester_pfad:
         # Koordinaten für den Plot entpacken
@@ -52,10 +49,8 @@ def main():
 
         plt.figure(figsize=(8, 6))
         
-        # Den Weg zeichnen
+        # Weg zeichnen und Punkte anzeigen
         plt.plot(x_coords, y_coords, color='black', linestyle='-', linewidth=2, zorder=1, label='Kürzester Pfad')
-        
-        # Punkte anzeigen
         plt.scatter(x_coords, y_coords, color='green', s=100, zorder=2, label='Orte')
         
         # Start- und Endpunkt beschriften
