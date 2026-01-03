@@ -44,7 +44,7 @@
 
 \pagestyle{scrheadings}
 %Header oben links auf linker Seite (ungerade Seitenzahl) und oben rechts auf rechter Seite (gerade Seitenzahl), beinhaltet gruppennummer und VersuchskÃ¼rzel. Im Fall eine einseitigen Dokuments: Header oben rechts
-\ihead{\VERSUCHSNR} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
+\ihead{\VERSUCHSABK} %Header oben rechts auf linker Seite und oben links auf rechter Seite. Beinhaltet die Namen der Verfasser. Im Fall eine einseitigen Dokuments: Header oben links!
 \ohead{\GRUPPENNR}
 \ofoot{\thepage} 
 \cfoot{\empty}  
@@ -72,8 +72,8 @@
 \newcommand{\BETREUER}{Valentin Bayer}
 \newcommand{\GRUPPENNR}{A05}
 
-\newcommand{\VERSUCHSNR}{NMR}
-\newcommand{\VERSUCHSNAME}{}
+\newcommand{\VERSUCHSABK}{NMR}
+\newcommand{\VERSUCHSNAME}{Kernmagnetische Resonanzspektroskopie}
 
 
 \begin{document}
@@ -83,7 +83,7 @@
 \begin{titlepage}
 
 \begin{center}
-\Huge{\textbf{\VERSUCHSNR\ - \VERSUCHSNAME}}\\
+\Huge{\textbf{\VERSUCHSABK\ - \VERSUCHSNAME}}\\
 \vspace{10mm}% Abstand
 \Large{Protokoll zum Versuch des PC 2 Praktikums von \\ \textbf{\VerfasserEINS\;\& \VerfasserZWEI\;\& \VerfasserDREI}}\\
 \vspace{10mm} 
@@ -127,6 +127,63 @@ In diesem Versuch wurde
 
 
 \section{Theorie}
+
+Die Kernmagnetische Resonanzspektroskopie (nuclear magnetic resonance spectroscopy kurz NMR) ist eine Spektroskopieart, bei der Atome mit einem von null verschiedenen Kernspin detektiert werden können. Im Rahmen dieses Versuches wird der Fokus auf die Untersuchung von Spinrelaxationszeiten und der NMR-Bildgebung gelegt.
+
+\subsection{Grundlagen der Kernmagnetischen Resonanzspektroskopie}
+
+In diesem Versuch werden NMR-Spektren der Kerne \ch{^{1}H} und \ch{^{19}F} aufgenommen. Beide besitzen eine Kernspinquantenzahl von $ I = \frac{1}{2} $. Der Kernspin $\vec{I}$ der beiden Kerne mit $I = \frac{1}{2}$ hat den Betrag $| \vec{I} | = \sqrt{I(I+1)} \hbar$. Der Kernspin $\vec{I}$ ist proportional zum magnetischen Moment $\vec{\mu}$ :
+\begin{equation}
+	\vec{\mu} = \gamma \cdot \vec{I} 
+\end{equation}
+Für die potentielle Energie des Kernspins ergibt sich 
+\begin{equation}
+	E = -\vec{\mu} \cdot \vec{B_0} = - \mu_z \cdot B_0 = \hbar \cdot \gamma \cdot B_0 \cdot m_I
+	\label{eqE}
+\end{equation}
+$m_I$ ist hierbei die magnetische Kernspinquantenzahl, die die folgenden Werte annehmen kann $m_I = -I, -I+1, ...., I$, $\gamma$ beschreibt das gyromagnetische Verhältnis.
+Als Auswahlregel für den Energieniveau-Übergang gilt $\Delta m_I = \pm 1$.
+
+Bei den verwendeten Magnetfeldern im Bereich von $B_0 \approx 1 - 22$ T liegen die Einstrahlfrequenzen im Radiowellenbereich.
+
+\subsection{Magnetische Wechselwirkungen}
+
+Um die Energieeigenwerte der zu untersuchenden Kerne bestimmen zu können muss der Energieausdruck \autoref{eqE} durch den zugehörigen Hamiltonoperator ausgedrückt werden. Den entsprechenden Energieeigenwert erhält man dan durch anwenden dieses Hamiltonoperators auf die beiden Spinfunktionen $ |\alpha \rangle = |+\frac{1}{2} \rangle $ und  $|\beta \rangle = |-\frac{1}{2} \rangle $ erhält man die folgenden Energieeigenwerte:
+
+\begin{equation}
+	\begin{split}
+		\epsilon_{\frac{1}{2}} = - \frac{1}{2} \gamma \hbar B_0 \\
+		\epsilon_{-\frac{1}{2}} = + \frac{1}{2} \gamma \hbar B_0 \\
+	\end{split}
+\end{equation}
+
+In NMR-Spektren einer chemischen Verbindung gibt es allerdings weit mehr als diese beiden Werte. Wechselwirkungen und elektronische Effekte können zu Aufspaltungen oder Verschiebungen führen. Zu nennen sind hier vor allem die chemische Verschiebung $\delta$, welche von der elektronischen (=chemischen) Umgebung des betreffenden Kernes abhängt und zu einer Verschiebung dessen Frequenz $\nu$ führt. Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als sklarare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
+
+
+\subsection{Spinrelaxation}
+
+Um von der Betrachtung eines einzelnen Kerns auf die Betrachtung makroskopischer Materie überzugehen wird die Kernmagnetisiserung $M_0$ verwendet, welche alle Spins in einer Probe berücksichtigt. Da wir nur Kerne mit einem Kernspin von $I=\frac{1}{2} $ betrachten berechnet sich die Kernmagnetisiserung wie folgt.
+
+\begin{equation}
+	M_0 = N \frac{\gamma^2 \hbar^2 B_0}{4kT} 
+\end{equation}
+
+Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige µs) ausgesetzt, der das thermische (magnetische) Gleichgewicht stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $M_z$ in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem dem RF-Impuls lässt sich die Präzession dieser Quermagnetisierung als Induktionsspannung detektieren. Es wird ein mit der Relaxationszeit $T_2^*$ exponentiell abklingendes Signal detektiert, welches als freier Induktionszerfall, oder Free Induction Decay, kurz FID bezeichnet wird.
+
+Nach Bloch stellt sich diese Gleichgewichtsmagnetisierung nach einem Geschwindigkeitsgesetz erster Ordnung ein, was für die Magnetisierung in $z$-Richtung folgende Gleichung ergibt:
+\begin{equation}
+	\frac{\partial M_z}{\partial t} = - \frac{(M_z-M_0)}{T_1}
+\end{equation}
+
+Die Relaxationszeit $T_1$ ist hierbei die Spin-Gitter-Relaxationszeit, sie beschreibt den Energieaustausch zwischen Spinsystem und den Freiheitsgraden der benachbarten Atome und Moleküle, welche als Gitter aufgefasst werden.
+
+Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klassische Lorentzkurve dargestellt.
+
+\subsection{Relaxationszeiten}
+
+\subsection{Bildgebung}
+
+
 
 
 \newpage
