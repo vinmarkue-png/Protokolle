@@ -3,8 +3,8 @@
 
 <svg
    width="118.002mm"
-   height="50.996059mm"
-   viewBox="0 0 118.002 50.996059"
+   height="56.051685mm"
+   viewBox="0 0 118.002 56.051685"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.3 (0d15f75, 2025-12-25)"
@@ -28,14 +28,15 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.3772587"
-     inkscape:cx="201.4872"
+     inkscape:cx="200.39808"
      inkscape:cy="56.99728"
-     inkscape:window-width="1182"
-     inkscape:window-height="981"
-     inkscape:window-x="728"
-     inkscape:window-y="0"
-     inkscape:window-maximized="0"
-     inkscape:current-layer="layer1" />
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     showgrid="false" />
   <defs
      id="defs1">
     <linearGradient
@@ -84,7 +85,7 @@
      id="layer1"
      transform="translate(-38.587924,-19.4108)">
     <rect
-       style="fill:#666666;stroke:#616161;stroke-width:0.501999;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;stroke:#ffffff;stroke-width:0.501999;stroke-dasharray:none;stroke-opacity:1"
        id="rect6"
        width="189.09116"
        height="94.817261"
@@ -110,13 +111,13 @@
        inkscape:transform-center-y="-8.4048574"
        transform="matrix(1.5478244,0.02064989,-0.02294006,1.3933009,29.948287,-37.05302)" />
     <path
-       style="fill:#000000;stroke:#e10000;stroke-width:0.502;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.502;stroke-dasharray:none;stroke-opacity:1"
        d="M 38.646488,57.052721 89.638784,44.817258"
        id="path5"
        inkscape:transform-center-x="-2.4348788"
        inkscape:transform-center-y="7.2901331" />
     <path
-       style="fill:#ff0000;fill-opacity:1;stroke:#f80000;stroke-width:0.489314;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ff0000;fill-opacity:1;stroke:#ff0000;stroke-width:0.489314;stroke-dasharray:none;stroke-opacity:1"
        d="m 89.57933,44.826012 c 34.0355,2.991771 34.0355,2.991771 34.0355,2.991771"
        id="path6" />
     <path
@@ -124,7 +125,7 @@
        d="m 123.61562,47.816151 c 32.8736,14.399183 32.8736,14.399183 32.8736,14.399183"
        id="path7" />
     <path
-       style="fill:#656565;fill-opacity:1;stroke:#26d813;stroke-width:0.577148;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#ffffff;fill-opacity:1;stroke:#35c526;stroke-width:0.577148;stroke-dasharray:none;stroke-opacity:1"
        d="M 64.590026,51.023467 C 60.606294,63.75866 77.1541,64.077043 77.1541,64.077043"
        id="path8" />
     <text
@@ -134,16 +135,16 @@
        style="writing-mode:lr-tb;direction:ltr;white-space:pre;shape-inside:url(#rect10);display:inline;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:1.89732;stroke-dasharray:none;stroke-opacity:1" />
     <text
        xml:space="preserve"
-       style="font-size:8.01258px;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1.26687;stroke-dasharray:none;stroke-opacity:0.353808"
-       x="63.303387"
-       y="63.413357"
+       style="font-size:9.99027px;writing-mode:lr-tb;direction:ltr;opacity:1;fill:#00c400;fill-opacity:1;stroke:#3fc03f;stroke-width:0.658;stroke-dasharray:none;stroke-opacity:0.353808"
+       x="60.59409"
+       y="66.234642"
        id="text11"
-       transform="scale(1.1042966,0.90555382)"><tspan
+       transform="scale(1.1395309,0.87755406)"><tspan
          sodipodi:role="line"
          id="tspan11"
-         style="fill:#00ff00;fill-opacity:1;stroke:#00ff00;stroke-width:1.26687;stroke-opacity:0.353808"
-         x="63.303387"
-         y="63.413357">α​</tspan></text>
+         style="fill:#00c400;fill-opacity:1;stroke:#3fc03f;stroke-width:0.658;stroke-dasharray:none;stroke-opacity:0.353808"
+         x="60.59409"
+         y="66.234642">α​</tspan></text>
     <path
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:0.8, 0.4;stroke-dashoffset:0;stroke-opacity:1"
        d="m 89.57933,44.826012 17.01775,7.897532 v 0"
@@ -152,5 +153,17 @@
        style="opacity:1;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.4;stroke-dasharray:0.799999, 0.4;stroke-dashoffset:0;stroke-opacity:1"
        d="m 123.61483,47.817783 -17.85315,9.47901"
        id="path13" />
+    <text
+       xml:space="preserve"
+       style="font-size:4.64664px;writing-mode:lr-tb;direction:ltr;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0.292702;stroke-dasharray:none;stroke-opacity:1"
+       x="97.304268"
+       y="76.111916"
+       id="text2"
+       transform="scale(1.0114997,0.98863102)"><tspan
+         sodipodi:role="line"
+         id="tspan2"
+         style="stroke-width:0.292702;stroke-dasharray:none"
+         x="97.304268"
+         y="76.111916">Prisma</tspan></text>
   </g>
 </svg>
