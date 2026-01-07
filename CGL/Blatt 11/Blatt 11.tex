@@ -25,6 +25,8 @@
 \captionsetup{format=plain}
 %\usepackage{hyperref}
 \usepackage[hidelinks]{hyperref}
+\usepackage{svg}
+\usepackage{subcaption}
 \usepackage{siunitx}
 \sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
 
@@ -62,16 +64,55 @@
 
 \maketitle
 
-\section{}
+\section{Erstellen einer Vektorgrafik}
+Die Vektorgrafik zur Brechung eines Laserstrahls an einem Prisma wurde mit Inkscape erstellt. Die einzelnen Schritte sind in den folgenden Abbildungen dargestellt.
 
-\begin{lstlisting}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Bilder/Screenshot 2026-01-06 114503.png}
+        \caption{Erstellung des Dreiecks mit Polygon-Werkzeug.}
+        \label{fig:bild1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Bilder/Screenshot 2026-01-06 115313.png}
+        \caption{Erstellung des Laserstrahls.}
+        \label{fig:bild2}
+    \end{subfigure}
+\end{figure}
 
-\end{lstlisting}
-% \begin{figure}[H]
-%     \centering
-%     \includegraphics[width=0.8\textwidth]{Reisender1.pdf}    
-%     \caption{Plot einer zufälligen Reisestrecke} 
-% \end{figure}
+\begin{figure}[H]
+    \centering
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Bilder/Screenshot 2026-01-06 121853.png}
+        \caption{Hinzufügen der gebrochenen Strahlen mit dem Bezier-Werkzeug und des Winkels als Text.}
+        \label{fig:bild1}
+    \end{subfigure}
+    \begin{subfigure}[b]{0.49\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{Bilder/Screenshot 2026-01-06 123015.png}
+        \caption{Erstellung des Einfalls- und Ausfallslots.}
+        \label{fig:bild2}
+    \end{subfigure}
+\end{figure}
+Im letzten Schritt wurde die Seitengröße an den Rahmen um alle Objekte angepasst und die Grafik als PDF exportiert.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/Screenshot 2026-01-06 131836.png}    
+    \caption{Anpassung der Seitengröße an den Rahmen um alle Objekte.} 
+\end{figure}
+
+Die erstellte Vektorgrafik ist in Abbildung \ref{fig:Prisma} dargestellt.
+Sie zeigt die Brechung eines Laserstrahls an einem Prisma mit dem Einfallswinkel $\alpha$, dem Einfalls- und Ausfallslot sowie den gebrochenen Strahlen im Prisma.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Bilder/Lichtbrechung.pdf}    
+    \caption{Strahlengang eines Laserstrahls an einem Prisma mit Einfallswinkel $\alpha$.}
+    \label{fig:Prisma} 
+\end{figure}
 
 
 \section{}
