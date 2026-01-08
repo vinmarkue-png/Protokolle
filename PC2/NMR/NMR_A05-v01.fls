@@ -427,6 +427,16 @@ INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
 INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
 INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
 INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT NMR_A05-v01.aux
 INPUT NMR_A05-v01.run.xml
 OUTPUT NMR_A05-v01.run.xml
