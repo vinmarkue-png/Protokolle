@@ -417,6 +417,16 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
+INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
+INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
+INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
+INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
+INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
+INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
+INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
+INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
+INPUT ./A05/Paramagnetisch/FID/fid_pcii_FID.pdf
 INPUT NMR_A05-v01.aux
 INPUT NMR_A05-v01.run.xml
 OUTPUT NMR_A05-v01.run.xml
