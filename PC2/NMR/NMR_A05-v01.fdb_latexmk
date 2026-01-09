@@ -1,21 +1,21 @@
 # Fdb version 4
-["biber NMR_A05-v01"] 1767902211.37422 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1767971220.2247 0
-  "NMR_A05-v01.bcf" 1767971219 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
+["biber NMR_A05-v01"] 1767902211.37422 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1767971696.40723 0
+  "NMR_A05-v01.bcf" 1767971695 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
   (generated)
   "NMR_A05-v01.bbl"
   "NMR_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1767971215.96086 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1767971220.22573 0
+["pdflatex"] 1767971692.13231 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1767971696.40828 0
   "A05/Check/fid_pcii.Daylicheck.pdf" 1767862282 49777 696f1a7ea41a82cfeda4d2f726c13824 ""
   "A05/Paramagnetisch/FID/fid_pcii_FID.pdf" 1767862187 48980 fd50e1bcc0f700c42a0898d6dfa41f47 ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf" 1767865311 10601 1600d7dcf9937da9be382fb353f6c19f ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf" 1767865312 20633 ecded6aa39521373fa43898049592b6f ""
-  "NMR_A05-v01.aux" 1767971219 11588 48ae501822ac1926df4d7530afc8ba71 "pdflatex"
+  "NMR_A05-v01.aux" 1767971695 11592 1ec92d3d7c75f91adbf64bb85bbc9ca6 "pdflatex"
   "NMR_A05-v01.bbl" 1766413746 486 76d65a242ec496c9b4361af646ff12cb "biber NMR_A05-v01"
-  "NMR_A05-v01.run.xml" 1767971219 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
-  "NMR_A05-v01.tex" 1767971210 14675 2b882e94c34b2e99593ce68e587a6a5c ""
-  "NMR_A05-v01.toc" 1767971219 2020 ac580beeac8ead66b415ca24da22d32a "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1767971210 14675 2b882e94c34b2e99593ce68e587a6a5c ""
+  "NMR_A05-v01.run.xml" 1767971695 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
+  "NMR_A05-v01.tex" 1767971685 14677 9219fc14118404ab0d207139671fd54d ""
+  "NMR_A05-v01.toc" 1767971695 2020 ac580beeac8ead66b415ca24da22d32a "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1767971685 14677 9219fc14118404ab0d207139671fd54d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
