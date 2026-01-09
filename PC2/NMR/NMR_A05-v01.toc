@@ -6,7 +6,9 @@
 \contentsline {subsection}{\numberline {1.4}Relaxationszeiten}{2}{subsection.1.4}%
 \contentsline {subsection}{\numberline {1.5}Bildgebung}{2}{subsection.1.5}%
 \contentsline {section}{\numberline {2}Versuchsdurchführung}{3}{section.2}%
-\contentsline {subsection}{\numberline {2.1}Kernspinrelaxation}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}Kernspinrelaxation von Lösungen paramagnetischer Ionen}{3}{subsection.2.1}%
+\contentsline {subsubsection}{\numberline {2.1.1}Inversion-Recovery-Experiment}{3}{subsubsection.2.1.1}%
+\contentsline {subsubsection}{\numberline {2.1.2}Carr-Purcell-Experiment}{3}{subsubsection.2.1.2}%
 \contentsline {subsection}{\numberline {2.2}NMR-Bildgebung}{3}{subsection.2.2}%
 \contentsline {subsubsection}{\numberline {2.2.1}Wasserproben}{3}{subsubsection.2.2.1}%
 \contentsline {subsubsection}{\numberline {2.2.2}2D-NMR}{3}{subsubsection.2.2.2}%

@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  8 JAN 2026 20:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  9 JAN 2026 15:36
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/NMR/NMR_A05-v01.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1233,20 +1233,20 @@ l.188 \newpage
 [3]
 
 [4]
-<A05/Check/fid_pcii.Daylicheck.pdf, id=100, 578.16pt x 361.35pt>
+<A05/Check/fid_pcii.Daylicheck.pdf, id=104, 578.16pt x 361.35pt>
 File: A05/Check/fid_pcii.Daylicheck.pdf Graphic file (type pdf)
 <use A05/Check/fid_pcii.Daylicheck.pdf>
-Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 259.
+Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 269.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
-<A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=101, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=105, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/FID/fid_pcii_FID.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/FID/fid_pcii_FID.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 267.
+Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 277.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
-<A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=102, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=106, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 277.
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 287.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
 
 
@@ -1254,21 +1254,21 @@ Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used o
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.281 
+l.291 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.281 
+l.291 
        <./A05/Check/fid_pcii.Daylicheck.pdf> <./A05/Paramagnetisch/FID/fid_pcii_FID.pdf>]
-<A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=156, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=160, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 285.
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 295.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
 
 
-LaTeX Warning: Empty bibliography on input line 299.
+LaTeX Warning: Empty bibliography on input line 309.
 
 
 
@@ -1276,12 +1276,12 @@ LaTeX Warning: Empty bibliography on input line 299.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.302 \end{document}
+l.312 \end{document}
                     
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.302 \end{document}
+l.312 \end{document}
                      <./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf> <./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>] (./NMR_A05-v01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1292,18 +1292,18 @@ Package logreq Info: Writing requests to 'NMR_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41340 strings out of 467748
- 877173 string characters out of 5431137
+ 41344 strings out of 467748
+ 877280 string characters out of 5431137
  1841210 words of memory out of 5000000
- 69456 multiletter control sequences out of 15000+600000
+ 69458 multiletter control sequences out of 15000+600000
  643529 words of font info for 73 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,19n,107p,11268b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,19n,107p,11287b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on NMR_A05-v01.pdf (8 pages, 406112 bytes).
+Output written on NMR_A05-v01.pdf (8 pages, 408401 bytes).
 PDF statistics:
- 413 PDF objects out of 1000 (max. 8388607)
- 251 compressed objects within 3 object streams
- 38 named destinations out of 1000 (max. 500000)
- 201 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 423 PDF objects out of 1000 (max. 8388607)
+ 261 compressed objects within 3 object streams
+ 40 named destinations out of 1000 (max. 500000)
+ 217 words of extra memory for PDF output out of 10000 (max. 10000000)
 

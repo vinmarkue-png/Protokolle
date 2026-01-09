@@ -189,8 +189,18 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \section{Versuchsdurchführung}
 Vor Beginn der Messungen wurde der ''Daily-Chek'' durchgeführt. Dafür wurde die Probe Daily-Check Sample in das Spektrometer gestellt und die Messung gestartet.
-\subsection{Kernspinrelaxation}
+Als nächstes wurde mit derselben Probe ein FID-Signal aufgenommen, indem die Parameter auf NS = 10, RD = 1 s, Receiver Gain = 66 dB, detection mode = magnitude eingestellt wurden.
+
+\subsection{Kernspinrelaxation von Lösungen paramagnetischer Ionen}
+Die Probe der \ch{CuSO4}-Lösung (0,01 M) wurde ins Spektrometer eingesetzt und das FID-Signal in gleicher Weise wie bei der Daily-Check-Probe aufgenommen.
+\subsubsection{Inversion-Recovery-Experiment}
+Für die Messung der Spin-Gitter-Relaxationszeit $T_1$ der \ch{CuSO4}-Probe wurde die Messapplikation ''t1\_pcII'' verwendet. Vom Startwert  $\tau = $ 0,5 ms wurden insgesamt 18 Messungen mit $\tau$-Werten von 0,5 ms bis 180,5 ms durch Erhöhung in 10 ms Schritten durchgeführt und die Signalintensität aus den aufgenommenen Spektren abgelesen.
+\subsubsection{Carr-Purcell-Experiment}
+Für die Messung der Spin-Spin-Relaxationszeit $T_2$ der \ch{CuSO4}-Probe wurde die Messapplikation ''cpmg\_pcII'' verwendet. Für Carr-Purcell-Experiment wurden 20 Echos mit 20 ms verwendet, damit die Amplitude des letzten Echos ungefähr ein Zehntel der Amplitude des ersten Echos entspricht. Das Spektrum wurde gespeichert und die Echoamplitude jedes Echos nach dem Versuch abgelesen.
+
 \subsection{NMR-Bildgebung}
+
+
 \subsubsection{Wasserproben}
 Bei diesem Versuchsteil wurden zwei Wasserproben mit der Messapplikation ''imaging1\_pcII'' im Spektrometer gemessen. Dafür wurden die Proben zuerst mit einer Ausrichtung von $0^\circ $ und anschließend mit einer Ausrichtung von $90^\circ $ gemessen.
 
