@@ -180,6 +180,13 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \subsection{Relaxationszeiten}
 
+
+
+\begin{equation}
+    M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
+    \label{eq: T1}
+\end{equation}
+
 \subsection{Bildgebung}
 
 
@@ -212,7 +219,7 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
 \section{Messwerte}
 
 \subsection{Inversion-Recovery-Experiment}
-
+Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten der aufgenommenen Spektren des Inversion-Recovery-Experiments für die \ch{CuSO4}-Probe bei den jeweiligen $\tau$-Werten.
 \begin{table}[H]
     \centering
     \begin{tabular}{c|c}
@@ -242,19 +249,7 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
 \end{table}
 
 
-\subsection{Carr-Purcell-Experiment}
 
-\begin{table}[H]
-    \centering
-    \begin{tabular}{c|c}
-        $\tau$ / ms & Echoamplitude / \% \\ 
-		\hline
-         &  \\ 
-
-	\label{tab: T2}
-    \end{tabular}
-\end{table}
-\newpage
 
 \section{Auswertung}
 
@@ -280,7 +275,7 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
 \end{figure}
 
 \subsubsection{Relaxationszeiten}
-
+Die gemessenen Signalintensitäten aus \autoref{tab: T1} lassen sich gegen die zugehörigen $\tau$-Werte auftragen, wie in \autoref{fig: T1_Mess} dargestellt ist.
 
 \begin{figure}[H]
     \centering
@@ -288,7 +283,14 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
     \caption{Signalintensitäten für verschiedene $\tau$-Werte der \ch{CuSO4}-Probe.} 
     \label{fig: T1_Mess}
 \end{figure}
-
+Da die Signalintensitäten aus \autoref{fig: T1_Mess} mit de Magnetisierung $M_z(\tau)$ proportional sind, kann die Relaxationszeit $T_1$ durch \autoref{eq: T1} bestimmt werden.
+Dazu wird die Gleichung logarithmiert, wodurch sich \autoref{eq: ln_T1} ergibt.
+\begin{equation}
+    \ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right) = - \frac{\tau}{T_1}
+    \label{eq: ln_T1}   
+\end{equation}
+Als $M_0$ wird der Betrag des ersten gemessenen Intensitätswertes bei $\tau = 0,5$ ms verwendet, da dieser der negativen Gleichgewichtsmagnetisierung entspricht.
+Durch Auftragung von $\ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right)$ gegen $\tau$ lässt sich \autoref{fig: ln_T1} erstellen. Zusätzlich ist in \autoref{fig: ln_T1} eine Fitgerade im Bereich bis $\tau = 140,5$ ms eingetragen, da die Messwerte ab diesem Wert nicht mehr linear verlaufen.
 
 \begin{figure}[H]
     \centering
@@ -296,8 +298,25 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
     \caption{ln-Plot der \ch{CuSO4}-Probe.} 
     \label{fig: ln_T1}
 \end{figure}
+Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,01549$ und $c = 0,0728$ lässt sich die Spin-Gitter-Relaxationszeit $T_1$ nach \autoref{eq: ln_T1} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_1}$ entspricht.
+\begin{equation}
+    T_1 = - \frac{1}{m} = - \frac{1}{-0,01549} = \SI{64,59}{ms}
+\end{equation}
 
 
+%\subsection{Carr-Purcell-Experiment}
+
+\begin{table}[H]
+    \centering
+    \begin{tabular}{c|c}
+        $\tau$ / ms & Echoamplitude / \% \\ 
+		\hline
+         &  \\ 
+
+	\label{tab: T2}
+    \end{tabular}
+\end{table}
+\newpage
 
 % T1 = 64.59 ms
 
