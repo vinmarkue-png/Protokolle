@@ -1,24 +1,28 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 JAN 2026 20:31
+=======
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  10 JAN 2026 18:52
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+**"c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex"
+(c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
-Document Class: scrartcl 2025/09/09 v3.48 KOMA-Script document class (article)
+Document Class: scrartcl 2025/12/01 v3.49 KOMA-Script document class (article)
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrkbase.sty
-Package: scrkbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
+Package: scrkbase 2025/12/01 v3.49 KOMA-Script package (KOMA-Script-dependent basics and keyval usage)
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrbase.sty
-Package: scrbase 2025/09/09 v3.48 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
+Package: scrbase 2025/12/01 v3.49 KOMA-Script package (KOMA-Script-independent basics and keyval usage)
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile.sty
-Package: scrlfile 2025/09/09 v3.48 KOMA-Script package (file load hooks)
+Package: scrlfile 2025/12/01 v3.49 KOMA-Script package (file load hooks)
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
-Package: scrlfile-hook 2025/09/09 v3.48 KOMA-Script package (using LaTeX hooks)
+Package: scrlfile-hook 2025/12/01 v3.49 KOMA-Script package (using LaTeX hooks)
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlogo.sty
-Package: scrlogo 2025/09/09 v3.48 KOMA-Script package (logo)
+Package: scrlogo 2025/12/01 v3.49 KOMA-Script package (logo)
 ))) (c:/texlive/2025/texmf-dist/tex/latex/graphics/keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
@@ -26,7 +30,7 @@ Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 Applying: [2021/05/01] Usage of raw or classic option list on input line 254.
 Already applied: [0000/00/00] Usage of raw or classic option list on input line 370.
 )) (c:/texlive/2025/texmf-dist/tex/latex/koma-script/tocbasic.sty
-Package: tocbasic 2025/09/09 v3.48 KOMA-Script package (handling toc-files)
+Package: tocbasic 2025/12/01 v3.49 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numberwidth=\skip49
 \scr@dte@tocline@numbox=\box53
 )
@@ -39,11 +43,11 @@ Package scrartcl Info: You've used standard option `12pt'.
 (scrartcl)             If you'd like to set the option with \KOMAoptions,
 (scrartcl)             you'd have to use `fontsize=12pt' there
 (scrartcl)             instead of `12pt', too.
-Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2486.
+Class scrartcl Info: File `scrsize12pt.clo' used to setup font sizes on input line 2487.
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrsize12pt.clo
-File: scrsize12pt.clo 2025/09/09 v3.48 KOMA-Script font size class option (12pt)
+File: scrsize12pt.clo 2025/12/01 v3.49 KOMA-Script font size class option (12pt)
 ) (c:/texlive/2025/texmf-dist/tex/latex/koma-script/typearea.sty
-Package: typearea 2025/09/09 v3.48 KOMA-Script package (type area)
+Package: typearea 2025/12/01 v3.49 KOMA-Script package (type area)
 \ta@bcor=\skip50
 \ta@div=\count275
 Package typearea Info: You've used standard option `a4paper'.
@@ -72,7 +76,7 @@ Package typearea Info: These are the values describing the layout:
 (typearea)              \topskip        = 12.0pt
 (typearea)              \footskip       = 50.75pt
 (typearea)              \baselineskip   = 14.5pt
-(typearea)              on input line 1807.
+(typearea)              on input line 1808.
 )
 \c@part=\count276
 \c@section=\count277
@@ -82,78 +86,78 @@ Package typearea Info: These are the values describing the layout:
 \c@subparagraph=\count281
 \scr@dte@section@maxnumwidth=\skip55
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\section on input line 5161.
+(scrartcl)           for `\section on input line 5007.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\section on input line 5161.
+(scrartcl)           for `\section on input line 5007.
 \scr@dte@part@maxnumwidth=\skip56
 Class scrartcl Info: using compatibility default `afterindent=false'
-(scrartcl)           for `\part on input line 5169.
+(scrartcl)           for `\part on input line 5015.
 \scr@dte@subsection@maxnumwidth=\skip57
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsection on input line 5179.
+(scrartcl)           for `\subsection on input line 5025.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsection on input line 5179.
+(scrartcl)           for `\subsection on input line 5025.
 \scr@dte@subsubsection@maxnumwidth=\skip58
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subsubsection on input line 5189.
+(scrartcl)           for `\subsubsection on input line 5035.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subsubsection on input line 5189.
+(scrartcl)           for `\subsubsection on input line 5035.
 \scr@dte@paragraph@maxnumwidth=\skip59
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\paragraph on input line 5200.
+(scrartcl)           for `\paragraph on input line 5046.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\paragraph on input line 5200.
+(scrartcl)           for `\paragraph on input line 5046.
 \scr@dte@subparagraph@maxnumwidth=\skip60
 Class scrartcl Info: using compatibility default `runin=bysign'
-(scrartcl)           for `\subparagraph on input line 5210.
+(scrartcl)           for `\subparagraph on input line 5056.
 Class scrartcl Info: using compatibility default `afterindent=bysign'
-(scrartcl)           for `\subparagraph on input line 5210.
+(scrartcl)           for `\subparagraph on input line 5056.
 \abovecaptionskip=\skip61
 \belowcaptionskip=\skip62
 \c@pti@nb@sid@b@x=\box54
 Package tocbasic Info: omitting babel extension for `lof'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lof' on input line 6410.
+(tocbasic)             for `lof' on input line 6279.
 \scr@dte@figure@maxnumwidth=\skip63
 \c@figure=\count282
 Package tocbasic Info: omitting babel extension for `lot'
 (tocbasic)             because of feature `nobabel' available
-(tocbasic)             for `lot' on input line 6422.
+(tocbasic)             for `lot' on input line 6291.
 \scr@dte@table@maxnumwidth=\skip64
 \c@table=\count283
-Class scrartcl Info: Redefining `\numberline' on input line 6592.
+Class scrartcl Info: Redefining `\numberline' on input line 6461.
 \bibindent=\dimen148
 ) (c:/texlive/2025/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2024/02/08 v1.3d Input encoding file
 \inpenc@prehook=\toks18
 \inpenc@posthook=\toks19
 ) (c:/texlive/2025/texmf-dist/tex/latex/base/fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
+Package: fontenc 2025/07/18 v2.1d Standard LaTeX package
 ) (c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2025/10/01 v25.13 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count284
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2045.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2047.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2049.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2050.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2051.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2053.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2078.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
 \U@D=\dimen149
 \l@unhyphenated=\language90
  (c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def)
 \bbl@readstream=\read2
 \bbl@dirlevel=\count285
+ (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/invalid/babel-ngerman.tex)
+Package babel Info: Importing font and identification data for ngerman
+(babel)             from babel-de.ini. Reported on input line 4320.
  (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf
 Language: ngerman 2024/12/10 v2.15 German support for babel (post-1996 orthography)
- (c:/texlive/2025/texmf-dist/tex/generic/babel/locale/de/babel-ngerman.tex
-Package babel Info: Importing font and identification data for ngerman
-(babel)             from babel-de.ini. Reported on input line 12.
-) (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
+ (c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf
 Language: ngermanb 2024/12/10 v2.15 German support for babel (post-1996 orthography)
 Package babel Info: Making " an active character on input line 122.
 ))) (c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
-Package: amsmath 2025/06/16 v2.17y AMS math features
+Package: amsmath 2025/07/09 v2.17z AMS math features
 \@mathmargin=\skip65
 
 For additional information on amsmath, use the `?' option.
@@ -214,8 +218,8 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \multlinegap=\skip66
 \multlinetaggap=\skip67
 \mathdisplay@stack=\toks24
-LaTeX Info: Redefining \[ on input line 2949.
-LaTeX Info: Redefining \] on input line 2950.
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/amsfonts.sty
@@ -400,7 +404,7 @@ LaTeX Info: Redefining \addtolength on input line 87.
 \calc@Ccount=\count322
 \calc@Cskip=\skip71
 ) (c:/texlive/2025/texmf-dist/tex/latex/eso-pic/eso-pic.sty
-Package: eso-pic 2023/05/03 v3.0c eso-pic (RN)
+Package: eso-pic 2025/12/10 v3.0d eso-pic (RN)
 \ESO@tempdima=\dimen175
 \ESO@tempdimb=\dimen176
  (c:/texlive/2025/texmf-dist/tex/latex/xcolor/xcolor.sty
@@ -442,9 +446,9 @@ Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \FrameRule=\dimen182
 \FrameSep=\dimen183
 ) (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer-scrpage.sty
-Package: scrlayer-scrpage 2025/09/09 v3.48 KOMA-Script package (end user interface for scrlayer)
+Package: scrlayer-scrpage 2025/12/01 v3.49 KOMA-Script package (end user interface for scrlayer)
  (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrlayer.sty
-Package: scrlayer 2025/09/09 v3.48 KOMA-Script package (defining layers and page styles)
+Package: scrlayer 2025/12/01 v3.49 KOMA-Script package (defining layers and page styles)
 Package scrlayer Info: patching LaTeX kernel macro \pagestyle on input line 2179.
 )
 Package scrlayer-scrpage Info: Makeing stand-alone element `pagehead' from
@@ -482,7 +486,7 @@ Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages 
 \l__siunitx_unit_position_int=\count338
 \l__siunitx_unit_total_int=\count339
  (c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty
-Package: array 2025/06/08 v2.6j Tabular extension package (FMi)
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \col@sep=\dimen189
 \ar@mcellbox=\box69
 \extrarowheight=\dimen190
@@ -776,17 +780,17 @@ File: biblatex.cfg
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
  (c:/texlive/2025/texmf-dist/tex/latex/l3kernel/expl3.sty
-Package: expl3 2025-09-02 L3 programming layer (loader) 
+Package: expl3 2025-11-14 L3 programming layer (loader) 
  (c:/texlive/2025/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count474
 ))
 Package biblatex Info: ... and expl3
-(biblatex)             2025-09-02 L3 programming layer (loader) 
+(biblatex)             2025-11-14 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-case-expl3.sty (c:/texlive/2025/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
-Package: xparse 2024-08-16 L3 Experimental document command parser
+Package: xparse 2025-10-09 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (c:/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty
@@ -794,7 +798,7 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 \l__chemgreek_tmpa_int=\count475
 \g__chemgreek_tmpa_int=\count476
 ) (c:/texlive/2025/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
-Package: l3keys2e 2024-08-16 LaTeX2e option processing using LaTeX3 keys
+Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (c:/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks33
 \pgfutil@tempdima=\dimen193
@@ -1057,8 +1061,8 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions (
 \l__chemformula_plus_space_skip=\skip109
 \l__chemformula_minus_space_skip=\skip110
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
-Package hyperref Info: Option `linktocpage' set `true' on input line 36.
+Package hyperref Info: Option `colorlinks' set `true' on input line 37.
+Package hyperref Info: Option `linktocpage' set `true' on input line 37.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1070,7 +1074,7 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 79.
+(scrartcl)           before \begin{document} on input line 80.
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
@@ -1082,24 +1086,24 @@ Package babel Info: 'ngerman' activates 'ngerman' shorthands.
 )
 \openout1 = `NMR_A05-v01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 79.
-LaTeX Font Info:    ... okay on input line 79.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 80.
+LaTeX Font Info:    ... okay on input line 80.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
@@ -1119,7 +1123,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 79.
+Package hyperref Info: Link coloring ON on input line 80.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1166,7 +1170,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 79.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 80.
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/ngerman.lbx
@@ -1189,97 +1193,120 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'NMR_A05-v01.bbl' found.
  (./NMR_A05-v01.bbl)
-Package biblatex Info: Reference section=0 on input line 79.
-Package biblatex Info: Reference segment=0 on input line 79.
+Package biblatex Info: Reference section=0 on input line 80.
+Package biblatex Info: Reference segment=0 on input line 80.
 
-Package chemgreek Info: Activating mapping `default' on line 79.
+Package chemgreek Info: Activating mapping `default' on line 80.
 
-Package scrbase Info: activating ngerman \figurename on input line 79.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 94.
+Package scrbase Info: activating ngerman \figurename on input line 80.
+Package scrbase Info: activating ngerman \tablename on input line 80.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 95.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 94.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 95.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-
-[1
+) [1
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./NMR_A05-v01.toc)
 \tf@toc=\write5
 \openout5 = `NMR_A05-v01.toc'.
 
-
-
-[2]
-
-
+ [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.162 \subsection
-                 {Spinrelaxation} [1
+l.164 
+       [1
 
 ]
+Overfull \hbox (5.94505pt too wide) in paragraph at lines 183--184
+\T1/cmr/m/n/12 Um die Spin-Gitter-Relaxationszeit $\OML/cmm/m/it/12 T[]$ \T1/cmr/m/n/12 zu mes-sen wird ei-ne Inversion-Recovery-Sequenz,
+ []
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.195 \newpage
+l.202 \newpage
                [2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<<<<<<< HEAD
 
 [3]
 <A05/Check/fid_pcii.Daylicheck.pdf, id=109, 578.16pt x 361.35pt>
+=======
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 232.
+ [3] [4
+pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.260 \newpage
+              ]
+<A05/Check/fid_pcii.Daylicheck.pdf, id=115, 578.16pt x 361.35pt>
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 File: A05/Check/fid_pcii.Daylicheck.pdf Graphic file (type pdf)
 <use A05/Check/fid_pcii.Daylicheck.pdf>
-Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 264.
+Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 274.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
+<<<<<<< HEAD
 
 
 [4]
 <A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=114, 578.16pt x 361.35pt>
+=======
+<A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=116, 578.16pt x 361.35pt>
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 File: A05/Paramagnetisch/FID/fid_pcii_FID.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/FID/fid_pcii_FID.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 272.
+Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 282.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
+<<<<<<< HEAD
 <A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=117, 578.16pt x 361.35pt>
+=======
+<A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=119, 578.16pt x 361.35pt>
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 282.
-(pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
-
-
-[5
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 292.
+(pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
+ [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.285 \end{figure}
+l.295 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.285 \end{figure}
+l.295 \end{figure}
                    <./A05/Check/fid_pcii.Daylicheck.pdf> <./A05/Paramagnetisch/FID/fid_pcii_FID.pdf>]
+<<<<<<< HEAD
 <A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=176, 578.16pt x 361.35pt>
+=======
+<A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=181, 578.16pt x 361.35pt>
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 297.
-(pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
-
-
-[6
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 307.
+(pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
+ [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.301 A
+l.311 A
        us der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,0... <./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf>]
-
-[7
+<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf, id=219, 578.16pt x 361.35pt>
+File: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf Graphic file (type pdf)
+<use A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf>
+Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf  used on input line 321.
+(pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
+ [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
+<<<<<<< HEAD
 l.319 \newpage
                <./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>]
 <A05/Bildgebung/Probe 1/Wasser0.pdf, id=278, 462.52798pt x 346.89601pt>
@@ -1347,15 +1374,44 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has
                                                   \__shipout_drop_firstpage_...
 l.371 \end{document}
                      <./A05/Bildgebung/Probe 2/Probe2_unten.png>] (./NMR_A05-v01.aux)
+=======
+l.325 D
+       ie Höhen der Spinechos aus \autoref{fig: T2_Mess} werden mit den zug... <./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>]
+Class scrartcl Info: Workaround for not recommended usage of \\ or
+(scrartcl)           \newlinein caption text  on input line 329.
+ [8
+pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.356 U
+       m die Spin-Spin-Relaxationszeit $T_2$ zu bestimmen, wird zuerst \auto... <./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf>]
+<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf, id=324, 578.16pt x 361.35pt>
+File: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf Graphic file (type pdf)
+<use A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf>
+Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf  used on input line 365.
+(pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
+ [9
+pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.369 A
+       us der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = -0,0127...] [10
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.384 \printbibliography[title={Literatur}]
+                                            <./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf>] [11] (./NMR_A05-v01.aux)
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
  ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-09-02>
+LaTeX2e <2025-11-01>
+L3 programming layer <2025-11-14>
  ***********
 Package logreq Info: Writing requests to 'NMR_A05-v01.run.xml'.
 \openout1 = `NMR_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
+<<<<<<< HEAD
  41398 strings out of 467748
  878951 string characters out of 5431137
  1841701 words of memory out of 5000000
@@ -1370,4 +1426,20 @@ PDF statistics:
  329 compressed objects within 4 object streams
  56 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
+=======
+ 41632 strings out of 467537
+ 883996 string characters out of 5423703
+ 1848958 words of memory out of 5000000
+ 69938 multiletter control sequences out of 15000+600000
+ 644213 words of font info for 74 fonts, out of 8000000 for 9000
+ 1143 hyphenation exceptions out of 8191
+ 108i,20n,108p,11311b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on NMR_A05-v01.pdf (13 pages, 507689 bytes).
+PDF statistics:
+ 577 PDF objects out of 1000 (max. 8388607)
+ 342 compressed objects within 4 object streams
+ 56 named destinations out of 1000 (max. 500000)
+ 235 words of extra memory for PDF output out of 10000 (max. 10000000)
+>>>>>>> 329c895575f3a2191e8268377d17cd8cda4e1454
 
