@@ -23,8 +23,15 @@
 \contentsline {subsubsection}{\numberline {4.2.1}Wasserproben}{7}{subsubsection.4.2.1}%
 \contentsline {subsubsection}{\numberline {4.2.2}2D-NMR}{9}{subsubsection.4.2.2}%
 \contentsline {subsection}{\numberline {4.3}Chemische Verschiebung}{11}{subsection.4.3}%
+<<<<<<< HEAD
 \contentsline {section}{\numberline {5}Chemische Verschiebung}{14}{section.5}%
 \contentsline {section}{\numberline {6}Fehlerbetrachtung}{14}{section.6}%
 \contentsline {section}{\numberline {7}Zusammenfassung}{15}{section.7}%
 \contentsline {section}{\numberline {8}Literatur}{15}{section.8}%
+=======
+\contentsline {section}{\numberline {5}Chemische Verschiebung}{15}{section.5}%
+\contentsline {section}{\numberline {6}Fehlerbetrachtung}{17}{section.6}%
+\contentsline {section}{\numberline {7}Zusammenfassung}{17}{section.7}%
+\contentsline {section}{\numberline {8}Literatur}{18}{section.8}%
+>>>>>>> ea3d99a422b7ac9a2ef4915ad77c106855e9b482
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
