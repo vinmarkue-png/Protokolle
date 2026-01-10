@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 JAN 2026 09:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 JAN 2026 10:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 11/Blatt 11.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 11/Blatt 11.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 11/Blatt 11.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 11/Blatt 11.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1288,7 +1288,7 @@ Package pdftex.def Info: Bilder/Screenshot 2026-01-06 123015.png  used on input 
 File: Bilder/Screenshot 2026-01-06 131836.png Graphic file (type png)
 <use Bilder/Screenshot 2026-01-06 131836.png>
 Package pdftex.def Info: Bilder/Screenshot 2026-01-06 131836.png  used on input line 104.
-(pdftex.def)             Requested size: 349.40045pt x 155.69536pt.
+(pdftex.def)             Requested size: 393.07133pt x 175.15637pt.
 
 
 [1
@@ -1312,7 +1312,7 @@ LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 
 
 [3]
-<Bilder/fibonacci.pdf, id=97, 722.7pt x 433.62pt>
+<Bilder/fibonacci.pdf, id=94, 722.7pt x 433.62pt>
 File: Bilder/fibonacci.pdf Graphic file (type pdf)
 <use Bilder/fibonacci.pdf>
 Package pdftex.def Info: Bilder/fibonacci.pdf  used on input line 185.
@@ -1336,14 +1336,14 @@ Package logreq Info: Writing requests to '"Blatt 11".run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  43002 strings out of 467748
- 881017 string characters out of 5431137
- 1997993 words of memory out of 5000000
+ 881074 string characters out of 5431137
+ 1998011 words of memory out of 5000000
  71039 multiletter control sequences out of 15000+600000
  644374 words of font info for 89 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,8n,107p,11291b,2769s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,8n,107p,11310b,2769s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0900.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1095.pfb>
-Output written on "Blatt 11.pdf" (5 pages, 509298 bytes).
+Output written on "Blatt 11.pdf" (5 pages, 509314 bytes).
 PDF statistics:
  312 PDF objects out of 1000 (max. 8388607)
  207 compressed objects within 3 object streams
