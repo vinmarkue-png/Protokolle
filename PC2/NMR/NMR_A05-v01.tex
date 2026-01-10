@@ -149,15 +149,13 @@ Bei den verwendeten Magnetfeldern im Bereich von $B_0 \approx 1 - 22$ T liegen d
 
 \subsection{Magnetische Wechselwirkungen}
 
-Um die Energieeigenwerte der zu untersuchenden Kerne bestimmen zu können muss der Energieausdruck \autoref{eqE} durch den zugehörigen Hamiltonoperator ausgedrückt werden. Den entsprechenden Energieeigenwert erhält man dan durch anwenden dieses Hamiltonoperators auf die beiden Spinfunktionen $ |\alpha \rangle = |+\frac{1}{2} \rangle $ und  $|\beta \rangle = |-\frac{1}{2} \rangle $ erhält man die folgenden Energieeigenwerte:
+Wechselwirkungen und elektronische Effekte in chemischen Verbindungeb können zu Aufspaltungen oder Verschiebungen führen. Zu nennen sind hier vor allem die chemische Verschiebung $\delta$, welche von der elektronischen (=chemischen) Umgebung des betreffenden Kernes abhängt und zu einer Verschiebung dessen Frequenz $\nu$ führt. Sie berechnet sich nach \autoref{eq: verschiebung}
 \begin{equation}
-	\begin{split}
-		\epsilon_{\frac{1}{2}} = - \frac{1}{2} \gamma \hbar B_0 \\
-		\epsilon_{-\frac{1}{2}} = + \frac{1}{2} \gamma \hbar B_0 \\
-	\end{split}
+\delta = \frac{\nu_{\text{Probe}} - \nu_{\text{Ref}}}{\nu_{\text{Ref}}}
+\label{eq: verschiebung}
 \end{equation}
-
-In NMR-Spektren einer chemischen Verbindung gibt es allerdings weit mehr als diese beiden Werte. Wechselwirkungen und elektronische Effekte können zu Aufspaltungen oder Verschiebungen führen. Zu nennen sind hier vor allem die chemische Verschiebung $\delta$, welche von der elektronischen (=chemischen) Umgebung des betreffenden Kernes abhängt und zu einer Verschiebung dessen Frequenz $\nu$ führt. Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als sklarare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
+Da $\delta$ sehr kleine Werte ergibt, werden diese nach Konfession mit $10^6$ multipliziert und in ppm angegeben.
+Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als sklarare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
 
 
 \subsection{Spinrelaxation}
@@ -173,6 +171,7 @@ Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige µs) 
 Nach Bloch stellt sich diese Gleichgewichtsmagnetisierung nach einem Geschwindigkeitsgesetz erster Ordnung ein, was für die Magnetisierung in $z$-Richtung folgende Gleichung ergibt:
 \begin{equation}
 	\frac{\partial M_z}{\partial t} = - \frac{(M_z-M_0)}{T_1}
+    \label{eq:blo}
 \end{equation}
 
 Die Relaxationszeit $T_1$ ist hierbei die Spin-Gitter-Relaxationszeit, sie beschreibt den Energieaustausch zwischen Spinsystem und den Freiheitsgraden der benachbarten Atome und Moleküle, welche als Gitter aufgefasst werden.
@@ -181,13 +180,20 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \subsection{Relaxationszeiten}
 
-
-
+Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery-Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z =(\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
 \begin{equation}
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
 \end{equation}
-% \label{eq: T2}
+
+Die Spin-Spin-Relaxationszeit $T_2$ wird durch die folgende, nach Carr und Purcell bekannte, Impulfolge bestimmt: $[90^{\circ} - \tau - 180^{\circ} - 2 \tau - 180^{\circ} - 2 \tau - 180^{\circ} - ......]$.
+Die Amplitude des Spinechosignals ergibt sich nach \autoref{eq: T2}
+\begin{equation}
+    M(t = 2n\tau) = M_0 e^{-\frac{t}{T_2}}
+    \label{eq: T2}
+\end{equation}
+
+
 \subsection{Bildgebung}
 
 

@@ -1,15 +1,15 @@
-[1] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'NMR_A05-v01.blg'
-[416] biber-MSWIN64:342> INFO - === 
-[501] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
-[818] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[862] Biber.pm:4487> INFO - Processing section 0
-[895] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[1023] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1050] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[1159] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1160] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1160] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[1160] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[1163] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
-[1165] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'NMR_A05-v01.blg'
+[252] biber-MSWIN64:342> INFO - === 
+[328] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
+[716] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[766] Biber.pm:4487> INFO - Processing section 0
+[785] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[879] bibtex.pm:1713> INFO - LaTeX decoding ...
+[894] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[979] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[982] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[983] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[983] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[985] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
+[987] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
