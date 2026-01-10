@@ -15,6 +15,7 @@
 \usepackage{siunitx}
 \usepackage{subfigure}
 \renewcaptionname{ngerman}{\figurename}{Abb.}
+\renewcaptionname{ngerman}{\tablename}{Tab.}
 \sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
 \DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
@@ -132,7 +133,7 @@ Die Kernmagnetische Resonanzspektroskopie (nuclear magnetic resonance spectrosco
 
 \subsection{Grundlagen der Kernmagnetischen Resonanzspektroskopie}
 
-In diesem Versuch werden NMR-Spektren der Kerne \ch{^{1}H} und \ch{^{19}F} aufgenommen. Beide besitzen eine Kernspinquantenzahl von $ I = \frac{1}{2} $. Der Kernspin $\vec{I}$ der beiden Kerne mit $I = \frac{1}{2}$ hat den Betrag $| \vec{I} | = \sqrt{I(I+1)} \hbar$. Der Kernspin $\vec{I}$ ist proportional zum magnetischen Moment $\vec{\mu}$ :
+In diesem Versuch werden NMR-Spektren der Kerne \ch{^{1}H} und \ch{^{19}F} aufgenommen. Beide besitzen eine Kernspinquantenzahl von $ I = \frac{1}{2} $. Der Kernspin $\vec{I}$ der beiden Kerne mit $I = \frac{1}{2}$ hat den Betrag $| \vec{I} | = \sqrt{I(I+1)} \hbar$.\supercite{Skript} Der Kernspin $\vec{I}$ ist proportional zum magnetischen Moment $\vec{\mu}$ :
 \begin{equation}
 	\vec{\mu} = \gamma \cdot \vec{I} 
 \end{equation}
@@ -186,7 +187,7 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
 \end{equation}
-
+% \label{eq: T2}
 \subsection{Bildgebung}
 
 
@@ -203,7 +204,7 @@ Die Probe der \ch{CuSO4}-Lösung (0,01 M) wurde ins Spektrometer eingesetzt und 
 \subsubsection{Inversion-Recovery-Experiment}
 Für die Messung der Spin-Gitter-Relaxationszeit $T_1$ der \ch{CuSO4}-Probe wurde die Messapplikation ''t1\_pcII'' verwendet. Vom Startwert  $\tau = $ 0,5 ms wurden insgesamt 18 Messungen mit $\tau$-Werten von 0,5 ms bis 180,5 ms durch Erhöhung in 10 ms Schritten durchgeführt und die Signalintensität aus den aufgenommenen Spektren abgelesen.
 \subsubsection{Carr-Purcell-Experiment}
-Für die Messung der Spin-Spin-Relaxationszeit $T_2$ der \ch{CuSO4}-Probe wurde die Messapplikation ''cpmg\_pcII'' verwendet. Für Carr-Purcell-Experiment wurden 20 Echos mit 20 ms verwendet, damit die Amplitude des letzten Echos ungefähr ein Zehntel der Amplitude des ersten Echos entspricht. Das Spektrum wurde gespeichert und die Echoamplitude jedes Echos nach dem Versuch abgelesen.
+Für die Messung der Spin-Spin-Relaxationszeit $T_2$ der \ch{CuSO4}-Probe wurde die Messapplikation ''cpmg\_pcII'' verwendet. Für Carr-Purcell-Experiment wurden 20 Echos mit $\tau = 20$ ms verwendet, damit die Amplitude des letzten Echos ungefähr ein Zehntel der Amplitude des ersten Echos entspricht. Das Spektrum wurde gespeichert und die Echoamplitude jedes Echos nach dem Versuch abgelesen.
 
 \subsection{NMR-Bildgebung}
 
@@ -222,6 +223,8 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
 Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten der aufgenommenen Spektren des Inversion-Recovery-Experiments für die \ch{CuSO4}-Probe bei den jeweiligen $\tau$-Werten.
 \begin{table}[H]
     \centering
+    \caption{Signalintensitäten des Inversion-Recovery-Experiments der \ch{CuSO4}-Probe.\\}
+    \label{tab: T1}
     \begin{tabular}{c|c}
         $\tau$ / ms & Intensität / \% \\ 
 		\hline
@@ -244,18 +247,19 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
         160.5 & 68.29548230 \\ 
         170.5 & 71.12332112 \\ 
         180.5 & 73.78021978
-	\label{tab: T1}
     \end{tabular}
 \end{table}
 
 
-
+\newpage
 
 \section{Auswertung}
 
 \subsection{Kernspinrelaxation von Lösungen paramagnetischer Ionen}
 
 \subsubsection{FID-Messungen}
+Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
+
 
 % Die braucht ihr ja auch um eure Vorgehensweise zu erklären. Ihr könnt ja auch z.B. den Verlauf der beiden Signale miteinander vergleichen.
 
@@ -279,11 +283,11 @@ Die gemessenen Signalintensitäten aus \autoref{tab: T1} lassen sich gegen die z
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf}
+    \includegraphics[width=0.9\textwidth]{A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf}
     \caption{Signalintensitäten für verschiedene $\tau$-Werte der \ch{CuSO4}-Probe.} 
     \label{fig: T1_Mess}
 \end{figure}
-Da die Signalintensitäten aus \autoref{fig: T1_Mess} mit de Magnetisierung $M_z(\tau)$ proportional sind, kann die Relaxationszeit $T_1$ durch \autoref{eq: T1} bestimmt werden.
+Das aufgezeichnete Signal in \autoref{fig: T1_Mess} ist aufgrund des 180°-Pulses negativ für kleine $\tau$-Werte, da die Magnetisierung $M_z(\tau)$ entlang der z-Achse invertiert wird und für kleine $\tau$-Werte der Exponentialterm in \autoref{eq: T1} größer als 1 ist. Bei zunehmendem $\tau$-Wert wird der Exponentialterm immer kleiner, wird bei $\tau = T_1 \cdot \ln(2)$ zu $\frac{1}{2}$ und somit die Magnetisierung $M_z(\tau)$ null. Für größere $\tau$-Werte wird die Magnetisierung $M_z(\tau)$ positiv, da der Exponentialterm in \autoref{eq: T1} kleiner als $\frac{1}{2}$ ist und die Magnetisierung sich dem Gleichgewichtswert $M_0$ annähert. Der 90°-Puls überführt die Magnetisierung $M_z(\tau)$ in die Quermagnetisierung in der $xy$-Ebene, welche detektiert werden kann. Da die Signalintensitäten aus \autoref{fig: T1_Mess} folglich proportional zu der Magnetisierung $M_z(\tau)$ sind, kann die Relaxationszeit $T_1$ durch \autoref{eq: T1} bestimmt werden.
 Dazu wird die Gleichung logarithmiert, wodurch sich \autoref{eq: ln_T1} ergibt.
 \begin{equation}
     \ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right) = - \frac{\tau}{T_1}
@@ -294,34 +298,80 @@ Durch Auftragung von $\ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right)$ gegen $\t
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf}
-    \caption{ln-Plot der \ch{CuSO4}-Probe.} 
+    \includegraphics[width=0.9\textwidth]{A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf}
+    \caption{Auftragung von $\ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right)$ gegen die Zeit $\tau$.} 
     \label{fig: ln_T1}
 \end{figure}
-Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,01549$ und $c = 0,0728$ lässt sich die Spin-Gitter-Relaxationszeit $T_1$ nach \autoref{eq: ln_T1} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_1}$ entspricht.
+Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,015483$ und $c = 0,0728$ lässt sich die Spin-Gitter-Relaxationszeit $T_1$ nach \autoref{eq: ln_T1} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_1}$ entspricht.
 \begin{equation}
-    T_1 = - \frac{1}{m} = - \frac{1}{-0,01549} = \SI{64,59}{ms}
+    T_1 = - \frac{1}{m} = - \frac{1}{-0,015483} = \SI{64,59}{ms}
 \end{equation}
-
-
-%\subsection{Carr-Purcell-Experiment}
-
-\begin{table}[H]
-    \centering
-    \begin{tabular}{c|c}
-        $\tau$ / ms & Echoamplitude / \% \\ 
-		\hline
-         &  \\ 
-
-	\label{tab: T2}
-    \end{tabular}
-\end{table}
-\newpage
-
 % T1 = 64.59 ms
 
-\section{Fehlerbetrachtung} 
+%\subsection{Carr-Purcell-Experiment}
+Die im Carr-Purcell-Experiment gemessenen Signalintensitäten der 20 Spinechos lassen sich gegen die Zeit $\tau$ auftragen, wie in \autoref{fig: T2_Mess} dargestellt ist.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf}
+    \caption{Auftragung der Signalintensitäten der gemessenen 20 Spinechos gegen die Zeit $\tau$.} 
+    \label{fig: T2_Mess}
+\end{figure}
+Die Höhen der Spinechos aus \autoref{fig: T2_Mess} werden mit den zugehörigen Werten für $2n\tau$ in \autoref{tab: T2} dargestellt und entsprechen den Werten der Magnetisierung $M(2n\tau)$, die mit der Zeit $\tau$ exponentiell abnimmt.
+Diese Abnahme der Magnetisierung wird durch \autoref{eq: T2} beschrieben.
+\begin{table}[H]
+    \centering
+    \caption{Signalintensitäten des Carr-Purcell-Experiments der \ch{CuSO4}-Probe.\\}
+    \label{tab: T2}
+    \begin{tabular}{c|c}
+        $2n\tau$ / ms & $M(2n\tau)$ \\
+        \hline
+20.2 & 118.095 \\
+40.0 & 118.617 \\
+60.0 & 87.741 \\
+80.0 & 66.868 \\
+100.1 & 49.621 \\
+120.0 & 37.500 \\
+139.9 & 28.181 \\
+160.1 & 21.224 \\
+180.0 & 15.733 \\
+200.2 & 11.963 \\
+220.2 & 9.264 \\
+240.0 & 7.085 \\
+260.0 & 5.379 \\
+280.0 & 4.170 \\
+300.2 & 3.358 \\
+319.8 & 2.592 \\
+340.1 & 2.131 \\
+360.4 & 1.990 \\
+380.4 & 1.447 \\
+400.0 & 1.349
+    \end{tabular}
+\end{table}
+Um die Spin-Spin-Relaxationszeit $T_2$ zu bestimmen, wird zuerst \autoref{eq: T2} logarithmiert, wodurch sich \autoref{eq: ln_T2} ergibt.
+\begin{equation}
+    \ln M (t = 2n \tau) = - \frac{t}{T_2}
+    \label{eq: ln_T2}   
+\end{equation}
+Dann werden die Werte aus \autoref{tab: T2} verwendet, um mit \autoref{eq: ln_T2} alle logarithmierten Werte der Magnetisierung zu berechnen.
+Durch Auftragung von $\ln M (2n \tau)$ gegen $\tau$ lässt sich \autoref{fig: ln_T2} erstellen. Zusätzlich ist in \autoref{fig: ln_T2} eine Fitgerade eingetragen, um aus der Steigung die Relaxationszeit $T_2$ zu bestimmen.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf}
+    \caption{Auftragung der logarithmierten Magnetisierung der gemessenen Spinechos gegen die Zeit $\tau$.} 
+    \label{fig: ln_T2}
+\end{figure}
+Aus der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = -0,012723$ und $c = 5,1207$ lässt sich die Spin-Spin-Relaxationszeit $T_2$ nach \autoref{eq: ln_T2} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_2}$ entspricht.
+\begin{equation}
+    T_2 = - \frac{1}{m} = - \frac{1}{-0,012723} = \SI{78,60}{ms}
+\end{equation}
+%T2 = 78.60 ms
+Somit ist die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ der \ch{CuSO4}-Probe größer als die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$.
+Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $T_1$ charakterisiert wird, länger sein sollte als der Verlust der Phasenbeziehung der Spins in der Relaxationszeit $T_2$. 
 
+\section{Chemische Verschiebung}
+
+\section{Fehlerbetrachtung} 
+Ein möglicher Fehler bei der Bestimmung der Spin-Spin-Relaxationszeit $T_2$ könnte durch die Wahl der Anzahl der Echos im Carr-Purcell-Experiment entstanden sein, da die Amplitude des letzten Echos nur ungefähr ein Zehntel der Amplitude des ersten Echos betragen sollte, was den Messwerten zufolge nicht zutrifft. Die geringen Echomplituden der letzten fünf Echos könnten zu einer ungenauen Bestimmung der Relaxationszeit $T_2$ geführt haben, da die Werte für die Magnetisierung in diesem Bereich sehr klein sind und somit stärker vom expontiellen Abklingverhalten abweichen können.
 \section{Zusammenfassung}
 Im ersten Versuchsteil wurde 
 

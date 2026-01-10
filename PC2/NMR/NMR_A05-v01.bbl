@@ -16,5 +16,33 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Skript}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9622bbf2c9f51cda0317558a6ef2685e}{%
+           family={Dilger},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{fullhash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{fullhashraw}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{bibnamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorbibnamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authornamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorfullhash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorfullhashraw}{9622bbf2c9f51cda0317558a6ef2685e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2025-pc2-script-en}
+      \field{year}{2025}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
