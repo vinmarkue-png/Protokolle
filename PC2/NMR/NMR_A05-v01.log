@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 JAN 2026 13:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  10 JAN 2026 20:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1300,15 +1300,10 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has
                                                   \__shipout_drop_firstpage_...
 l.339 I
        m Spektrum sind nun zwei Signale zu sehen. Das kommt daher, dass die ... <./A05/Bildgebung/Probe 1/Wasser0.pdf>]
-<A05/Bildgebung/Probe 2/Probe2_seite2.png, id=316, 462.528pt x 346.896pt>
+<A05/Bildgebung/Probe 2/Probe2_seite2.png, id=317, 462.528pt x 346.896pt>
 File: A05/Bildgebung/Probe 2/Probe2_seite2.png Graphic file (type png)
 <use A05/Bildgebung/Probe 2/Probe2_seite2.png>
-Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_seite2.png  used on input line 343.
-(pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
-<A05/Bildgebung/Probe 2/Probe2_oben.png, id=318, 462.528pt x 346.896pt>
-File: A05/Bildgebung/Probe 2/Probe2_oben.png Graphic file (type png)
-<use A05/Bildgebung/Probe 2/Probe2_oben.png>
-Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_oben.png  used on input line 349.
+Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_seite2.png  used on input line 344.
 (pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
 
 
@@ -1316,12 +1311,17 @@ Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_oben.png  used on input l
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.352 \end{figure}
-                   <./A05/Bildgebung/Probe 1/Wasser90.pdf>]
-<A05/Bildgebung/Probe 2/Probe2_unten.png, id=351, 462.528pt x 346.896pt>
+l.348 I
+       m Spektrum sind die einzelnen Schichten in denen Wasserstoffatome det... <./A05/Bildgebung/Probe 1/Wasser90.pdf>]
+<A05/Bildgebung/Probe 2/Probe2_oben.png, id=352, 462.528pt x 346.896pt>
+File: A05/Bildgebung/Probe 2/Probe2_oben.png Graphic file (type png)
+<use A05/Bildgebung/Probe 2/Probe2_oben.png>
+Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_oben.png  used on input line 351.
+(pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
+<A05/Bildgebung/Probe 2/Probe2_unten.png, id=353, 462.528pt x 346.896pt>
 File: A05/Bildgebung/Probe 2/Probe2_unten.png Graphic file (type png)
 <use A05/Bildgebung/Probe 2/Probe2_unten.png>
-Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_unten.png  used on input line 355.
+Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_unten.png  used on input line 357.
 (pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
 
 
@@ -1329,15 +1329,15 @@ Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_unten.png  used on input 
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.359 \subsection
+l.361 \subsection
                  {Chemische Verschiebung}
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.359 \subsection
+l.361 \subsection
                  {Chemische Verschiebung} <./A05/Bildgebung/Probe 2/Probe2_seite2.png> <./A05/Bildgebung/Probe 2/Probe2_oben.png>]
 
-LaTeX Warning: Empty bibliography on input line 366.
+LaTeX Warning: Empty bibliography on input line 368.
 
 
 
@@ -1345,7 +1345,7 @@ LaTeX Warning: Empty bibliography on input line 366.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.369 \end{document}
+l.371 \end{document}
                      <./A05/Bildgebung/Probe 2/Probe2_unten.png>] (./NMR_A05-v01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
@@ -1364,10 +1364,10 @@ Here is how much of TeX's memory you used:
  1143 hyphenation exceptions out of 8191
  108i,20n,107p,11268b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
-Output written on NMR_A05-v01.pdf (13 pages, 800766 bytes).
+Output written on NMR_A05-v01.pdf (13 pages, 800959 bytes).
 PDF statistics:
- 553 PDF objects out of 1000 (max. 8388607)
- 328 compressed objects within 4 object streams
+ 554 PDF objects out of 1000 (max. 8388607)
+ 329 compressed objects within 4 object streams
  56 named destinations out of 1000 (max. 500000)
  266 words of extra memory for PDF output out of 10000 (max. 10000000)
 
