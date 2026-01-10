@@ -437,6 +437,31 @@ INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser90.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser90.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser90.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser90.pdf
+INPUT ./A05/Bildgebung/Probe 1/Wasser90.pdf
+INPUT ./A05/Bildgebung/Probe 2/Probe2_seite2.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_seite2.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_seite2.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_seite2.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_seite2.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
+INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
 INPUT NMR_A05-v01.aux
 INPUT NMR_A05-v01.run.xml
 OUTPUT NMR_A05-v01.run.xml

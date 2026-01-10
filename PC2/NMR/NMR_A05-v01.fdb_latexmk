@@ -1,21 +1,26 @@
 # Fdb version 4
-["biber NMR_A05-v01"] 1767902211.37422 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768030261.28524 0
-  "NMR_A05-v01.bcf" 1768030261 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
+["biber NMR_A05-v01"] 1767902211.37422 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768049384.8865 0
+  "NMR_A05-v01.bcf" 1768049384 108184 e4e566816dab24633976f2cd6b916386 "pdflatex"
   (generated)
   "NMR_A05-v01.bbl"
   "NMR_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768030258.76478 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768030261.28605 0
+["pdflatex"] 1768049382.26342 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768049384.88716 0
+  "A05/Bildgebung/Probe 1/Wasser0.pdf" 1768043841 13918 46285d716a30515554b7f0930ebad052 ""
+  "A05/Bildgebung/Probe 1/Wasser90.pdf" 1768043851 13554 52c3b662d8b42dadd2bae486b85b3283 ""
+  "A05/Bildgebung/Probe 2/Probe2_oben.png" 1736264376 141887 7bef51507fea8f9b54c78636642d2f5d ""
+  "A05/Bildgebung/Probe 2/Probe2_seite2.png" 1736264494 105954 4c39af205e7740919dce0cf8064e3471 ""
+  "A05/Bildgebung/Probe 2/Probe2_unten.png" 1736264420 136937 986d5791f77c43b772cb879fec8b16e3 ""
   "A05/Check/fid_pcii.Daylicheck.pdf" 1767897743 49777 696f1a7ea41a82cfeda4d2f726c13824 ""
   "A05/Paramagnetisch/FID/fid_pcii_FID.pdf" 1767897743 48980 fd50e1bcc0f700c42a0898d6dfa41f47 ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf" 1767897743 10601 1600d7dcf9937da9be382fb353f6c19f ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf" 1767897743 20633 ecded6aa39521373fa43898049592b6f ""
-  "NMR_A05-v01.aux" 1768030260 11625 ee016c6844afbf3b222e21a44103fd0d "pdflatex"
+  "NMR_A05-v01.aux" 1768049384 14407 3f084ddbbc6dced29a21acda7e1f74e8 "pdflatex"
   "NMR_A05-v01.bbl" 1767902215 486 76d65a242ec496c9b4361af646ff12cb "biber NMR_A05-v01"
-  "NMR_A05-v01.run.xml" 1768030261 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
-  "NMR_A05-v01.tex" 1768030255 14680 7682136941161aef9bff3aea8c4058ea ""
-  "NMR_A05-v01.toc" 1768030261 2023 83a75c5ce90bd99488f52c9049a03128 "pdflatex"
-  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768030255 14680 7682136941161aef9bff3aea8c4058ea ""
+  "NMR_A05-v01.run.xml" 1768049384 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
+  "NMR_A05-v01.tex" 1768049378 16834 9039035c8894729b6fcf618670db498f ""
+  "NMR_A05-v01.toc" 1768049384 2365 5946d57eb1f289f25c1c457c519cba04 "pdflatex"
+  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768049378 16834 9039035c8894729b6fcf618670db498f ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761080812 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
