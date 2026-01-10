@@ -19,8 +19,8 @@
 \contentsline {subsection}{\numberline {4.1}Kernspinrelaxation von Lösungen paramagnetischer Ionen}{5}{subsection.4.1}%
 \contentsline {subsubsection}{\numberline {4.1.1}FID-Messungen}{5}{subsubsection.4.1.1}%
 \contentsline {subsubsection}{\numberline {4.1.2}Relaxationszeiten}{6}{subsubsection.4.1.2}%
-\contentsline {section}{\numberline {5}Chemische Verschiebung}{10}{section.5}%
-\contentsline {section}{\numberline {6}Fehlerbetrachtung}{10}{section.6}%
-\contentsline {section}{\numberline {7}Zusammenfassung}{11}{section.7}%
-\contentsline {section}{\numberline {8}Literatur}{11}{section.8}%
+\contentsline {section}{\numberline {5}Chemische Verschiebung}{11}{section.5}%
+\contentsline {section}{\numberline {6}Fehlerbetrachtung}{13}{section.6}%
+\contentsline {section}{\numberline {7}Zusammenfassung}{13}{section.7}%
+\contentsline {section}{\numberline {8}Literatur}{14}{section.8}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

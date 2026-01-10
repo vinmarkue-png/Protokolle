@@ -18,8 +18,11 @@ with open(file_path, 'r') as datei:
             x.append(float(werte[0]))
             y.append(float(werte[1]))
 
+
 #Achsenbeschriftungen
-plt.xlabel("Intensität / %")
-plt.ylabel("Freqenz / kHz")
-plt.plot(x, y)
+plt.ylabel("Intensität / %")
+plt.xlabel("Freqenz / kHz")
+
+plt.plot(x, y, color = "black")
+plt.xlim(-3, 3)
 plt.show()
