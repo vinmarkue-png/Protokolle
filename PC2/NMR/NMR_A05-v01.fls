@@ -417,6 +417,11 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
+INPUT ./A05/FID.jpeg
+INPUT ./A05/FID.jpeg
+INPUT ./A05/FID.jpeg
+INPUT ./A05/FID.jpeg
+INPUT ./A05/FID.jpeg
 INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
 INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
 INPUT ./A05/Check/fid_pcii.Daylicheck.pdf
@@ -437,6 +442,16 @@ INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
 INPUT ./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
+INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
 INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
 INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
 INPUT ./A05/Bildgebung/Probe 1/Wasser0.pdf
@@ -457,24 +472,6 @@ INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
 INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
 INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
 INPUT ./A05/Bildgebung/Probe 2/Probe2_oben.png
-<<<<<<< HEAD
-=======
-INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
-INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
-INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
-INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
-INPUT ./A05/Bildgebung/Probe 2/Probe2_unten.png
->>>>>>> ea3d99a422b7ac9a2ef4915ad77c106855e9b482
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
-INPUT ./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf
 INPUT ./A05/Chemische Verschiebung/CFCl3.pdf
 INPUT ./A05/Chemische Verschiebung/CFCl3.pdf
 INPUT ./A05/Chemische Verschiebung/CFCl3.pdf

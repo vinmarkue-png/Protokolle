@@ -180,7 +180,7 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \subsection{Relaxationszeiten}
 
-Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery-Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z =(\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
+Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z =(\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
 \begin{equation}
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
@@ -264,11 +264,17 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
 \subsection{Kernspinrelaxation von Lösungen paramagnetischer Ionen}
 
 \subsubsection{FID-Messungen}
-Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
-
+%Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
+Die in diesem Versuch verwendete Messtechnik wird FT-Technik genannt. Dabei werden Radiowellen mit hoher Intensität eingestrahlt, bis die Magnetisierung die x,y-Ebene erreicht. Die Einstrahlung wird daraufhin gestoppt, wodurch die Magnetisierung sich in der xy,-Ebene frei dreht, bis die Ausgangsmagnetisierung wieder erreicht wird. Dadurch entsteht ein abklingendes Signal, welches über eine Fouriertransformation zu einem typischen Signal umgewandelt wird. Der Verlauf einer Messung ist in \autoref{fig: FID} dargestellt. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{A05/FID.jpeg}
+    \caption{Darstellung der FT-Messtechnik zur Bestimmung des FID-Signals (unterer Pfad).} 
+    \label{fig: FID}
+\end{figure}
 
 % Die braucht ihr ja auch um eure Vorgehensweise zu erklären. Ihr könnt ja auch z.B. den Verlauf der beiden Signale miteinander vergleichen.
-
+\autoref{fig: FID_Check} zeigt das aufgenommene FID-Signal der ''Daily-Check-Probe'' und \autoref{fig: FID_Cu} das der Kupfersulfat-Lösung.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{A05/Check/fid_pcii.Daylicheck.pdf}
@@ -276,13 +282,13 @@ Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
     \label{fig: FID_Check}
 \end{figure}
 
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{A05/Paramagnetisch/FID/fid_pcii_FID.pdf}
     \caption{FID-Signal der \ch{CuSO4}-Probe.} 
     \label{fig: FID_Cu}
 \end{figure}
+Der Vergleich der beiden Messungen zeigt, dass der FID der beiden Proben sehr änlich verläuft. Der einzige sichtbare Unterschied ist die gemessene Intensität beim Start der Messung, da die der ''Daily-Check-Probe'' bei ungefähr 85 und die der Kupfersulfat-Lösung bei ungefähr 105 liegt. 
 
 \subsubsection{Relaxationszeiten}
 Die gemessenen Signalintensitäten aus \autoref{tab: T1} lassen sich gegen die zugehörigen $\tau$-Werte auftragen, wie in \autoref{fig: T1_Mess} dargestellt ist.
@@ -313,43 +319,7 @@ Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,015483$ und
     T_1 = - \frac{1}{m} = - \frac{1}{-0,015483} = \SI{64,59}{ms}
 \end{equation}
 % T1 = 64.59 ms
-\subsection{NMR-Bildgebung}
-\subsubsection{Wasserproben}
-\autoref{wasser0} zeigt das aufgenommene Spektrum der Wasserproben bei einer Ausrichtung von $0^\circ$ also orthogonal zum Gradienten.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{A05/Bildgebung/Probe 1/Wasser0.pdf}
-    \caption{Gemessenes NMR-Spektrum der beiden Wasserproben bei einer orthogonalen Ausrichtung zum Gradienten des Spektrometers.} 
-    \label{wasser0}
-\end{figure}
-Im Spektrum erkennt man einen großen, sehr breiten Peak. Dieser kommt durch die Positionierung der beiden Proben zustande, da diese bei einer Ausrichtung von $0^\circ$ den gleichen Abstand zur Gradientenquelle besitzen und somit das gleiche Magnetfeld an allen Stellen in der Probe erfahren. Die Absenkung an der Seite kommt durch eine Messungenauigkeit zustande, bei der eine Probe einen leicht veränderten Abstand zur Gradientenquelle besitzt.  
-\autoref{wasser90} zeigt das aufgenommene Spektrum bei einer Ausrichtung von $90^\circ$.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.9\textwidth]{A05/Bildgebung/Probe 1/Wasser90.pdf}
-    \caption{Gemessenes NMR-Spektrum der beiden Wasserproben bei einer parallelen Ausrichtung zum Gradienten des Spektrometers.} 
-    \label{wasser90}
-\end{figure}
-Im Spektrum sind nun zwei Signale zu sehen. Das kommt daher, dass die Proben nach der Drehung hintereinander in der Richtung des Gradienten liegen und deshalb eine unterschiedliche Magnetfeldstärke erfahren. 
-\subsubsection{2D-NMR}
-\autoref{h_seit} zeigt das aufgenommene 2D-NMR der Probe von der Seite.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{A05/Bildgebung/Probe 2/Probe2_seite2.png}
-    \caption{Gemessenes 2D NMR-Spektrum der Probe von der Seite.} 
-    \label{h_seit}
-\end{figure}
-Im Spektrum sind die einzelnen Schichten in denen Wasserstoffatome detektiert wurden, farblich ihrer Intensität und damit ihrer Spindichte nach markiert. Es wird ersichtlich, dass die Probe in der Mitte die höchste Spindichte hat, was darauf deuten lässt, dass sich dort das Wasser im Probenröhrchen befindet. \autoref{h_ob} zeigt das gleiche Spektrum von oben. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{A05/Bildgebung/Probe 2/Probe2_oben.png}
-    \caption{Gemessenes 2D NMR-Spektrum der Probe von oben.} 
-    \label{h_ob}
-\end{figure}
-Durch die Ansicht von oben, wird erkenntlich, dass es sich bei der Probe um den Buchstaben H handelt der mit Wasser gefüllt ist. Man erkennt außerdem das Probenröhrchen, in dem sich die Probe befindet, an der türkisen umrandung, sowie die Probenkammer des NMR-Spektrometers an der dunkelblauen Fläche. Die Enden der beiden parallelen Striche des H's sind aufgrund von mangelnder Genauigkeit bei der Ausrichtung der Probe nicht so intensiv wie der Rest des Buchstabens.
-\subsection{Chemische Verschiebung}
 
-%\subsection{Carr-Purcell-Experiment}
 Die im Carr-Purcell-Experiment gemessenen Signalintensitäten der 20 Spinechos lassen sich gegen die Zeit $\tau$ auftragen, wie in \autoref{fig: T2_Mess} dargestellt ist.
 \begin{figure}[H]
     \centering
@@ -407,7 +377,46 @@ Aus der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = -0,012723$ und $c
 \end{equation}
 %T2 = 78.60 ms
 Somit ist die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ der \ch{CuSO4}-Probe größer als die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$.
-Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $T_1$ charakterisiert wird, länger sein sollte als der Verlust der Phasenbeziehung der Spins in der Relaxationszeit $T_2$. 
+Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $T_1$ charakterisiert wird, länger sein sollte als der Verlust der Phasenbeziehung der Spins in der Relaxationszeit $T_2$.
+
+\subsection{NMR-Bildgebung}
+\subsubsection{Wasserproben}
+\autoref{wasser0} zeigt das aufgenommene Spektrum der Wasserproben bei einer Ausrichtung von $0^\circ$ also orthogonal zum Gradienten.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{A05/Bildgebung/Probe 1/Wasser0.pdf}
+    \caption{Gemessenes NMR-Spektrum der beiden Wasserproben bei einer orthogonalen Ausrichtung zum Gradienten des Spektrometers.} 
+    \label{wasser0}
+\end{figure}
+Im Spektrum erkennt man einen großen, sehr breiten Peak. Dieser kommt durch die Positionierung der beiden Proben zustande, da diese bei einer Ausrichtung von $0^\circ$ den gleichen Abstand zur Gradientenquelle besitzen und somit das gleiche Magnetfeld an allen Stellen in der Probe erfahren. Die Absenkung an der Seite kommt durch eine Messungenauigkeit zustande, bei der eine Probe einen leicht veränderten Abstand zur Gradientenquelle besitzt.  
+\autoref{wasser90} zeigt das aufgenommene Spektrum bei einer Ausrichtung von $90^\circ$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{A05/Bildgebung/Probe 1/Wasser90.pdf}
+    \caption{Gemessenes NMR-Spektrum der beiden Wasserproben bei einer parallelen Ausrichtung zum Gradienten des Spektrometers.} 
+    \label{wasser90}
+\end{figure}
+Im Spektrum sind nun zwei Signale zu sehen. Das kommt daher, dass die Proben nach der Drehung hintereinander in der Richtung des Gradienten liegen und deshalb eine unterschiedliche Magnetfeldstärke erfahren. 
+\subsubsection{2D-NMR}
+\autoref{h_seit} zeigt das aufgenommene 2D-NMR der Probe von der Seite.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{A05/Bildgebung/Probe 2/Probe2_seite2.png}
+    \caption{Gemessenes 2D NMR-Spektrum der Probe von der Seite.} 
+    \label{h_seit}
+\end{figure}
+Im Spektrum sind die einzelnen Schichten in denen Wasserstoffatome detektiert wurden, farblich ihrer Intensität und damit ihrer Spindichte nach markiert. Es wird ersichtlich, dass die Probe in der Mitte die höchste Spindichte hat, was darauf deuten lässt, dass sich dort das Wasser im Probenröhrchen befindet. \autoref{h_ob} zeigt das gleiche Spektrum von oben. 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{A05/Bildgebung/Probe 2/Probe2_oben.png}
+    \caption{Gemessenes 2D NMR-Spektrum der Probe von oben.} 
+    \label{h_ob}
+\end{figure}
+Durch die Ansicht von oben, wird erkenntlich, dass es sich bei der Probe um den Buchstaben H handelt der mit Wasser gefüllt ist. Man erkennt außerdem das Probenröhrchen, in dem sich die Probe befindet, an der türkisen umrandung, sowie die Probenkammer des NMR-Spektrometers an der dunkelblauen Fläche. Die Enden der beiden parallelen Striche des H's sind aufgrund von mangelnder Genauigkeit bei der Ausrichtung der Probe nicht so intensiv wie der Rest des Buchstabens.
+\subsection{Chemische Verschiebung}
+
+%\subsection{Carr-Purcell-Experiment}
+ 
 
 \section{Chemische Verschiebung}
 
@@ -435,8 +444,11 @@ Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $
 
 \section{Fehlerbetrachtung} 
 Ein möglicher Fehler bei der Bestimmung der Spin-Spin-Relaxationszeit $T_2$ könnte durch die Wahl der Anzahl der Echos im Carr-Purcell-Experiment entstanden sein, da die Amplitude des letzten Echos nur ungefähr ein Zehntel der Amplitude des ersten Echos betragen sollte, was den Messwerten zufolge nicht zutrifft. Die geringen Echomplituden der letzten fünf Echos könnten zu einer ungenauen Bestimmung der Relaxationszeit $T_2$ geführt haben, da die Werte für die Magnetisierung in diesem Bereich sehr klein sind und somit stärker vom expontiellen Abklingverhalten abweichen können.
+\newpage
 \section{Zusammenfassung}
-Im ersten Versuchsteil wurde 
+Im ersten Versuchsteil wurde die Spin-Gitter-Relaxationszeit einer Kupfersulfat- Lösung über das Inversion-Recovery-Experiment als $T_1 = \SI{64,59}{ms}$ bestimmt. Anschließend wurde die Spin-Spin-Relaxationszeit derselben Lösung über das Carr-Purcell- Experiment als $T_2 = \SI{78,60}{ms}$ bestimmt.\\
+Im zweiten Versuchsteil wurde die Bildgebung des NMR-Spektrometers untersucht. Dazu wurde zuerst eine Probe mit Wasser bei einer Ausrichtung von $0^\circ$ gemessen, wobei ein Spektrum mit einem Peak entstand. Anschließend wurde die Probe um $90^\circ$ gedreht und erneut gemessen, wobei ein Spektrum mit zwei Peaks entstand. Zum Schluss wurde ein 2D-NMR eines mit Wasser gefüllten Buchstaben aufgenommen.\\
+Im letzten Versuchsteil wurde die chemische Verschiebung untersucht
 
 \printbibliography[title={Literatur}]
 
