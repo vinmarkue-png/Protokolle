@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NMR_A05-v01"] 0 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768173525.94648 -1
-  "NMR_A05-v01.bcf" 1768173525 108245 48e38ada4b3ef16e380842c42ab8d587 "pdflatex"
+["biber NMR_A05-v01"] 0 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768174214.56388 -1
+  "NMR_A05-v01.bcf" 1768174213 108245 48e38ada4b3ef16e380842c42ab8d587 "pdflatex"
   "lit.bib" 1766415262 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "NMR_A05-v01.bbl"
   "NMR_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768173519.17137 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768173525.94784 0
+["pdflatex"] 1768174207.21747 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768174214.56539 0
   "A05/Bildgebung/Probe 1/Wasser0.pdf" 1768074810 13918 46285d716a30515554b7f0930ebad052 ""
   "A05/Bildgebung/Probe 1/Wasser90.pdf" 1768074810 13554 52c3b662d8b42dadd2bae486b85b3283 ""
   "A05/Bildgebung/Probe 2/Probe2_oben.png" 1767958535 141887 7bef51507fea8f9b54c78636642d2f5d ""
@@ -21,12 +21,12 @@
   "A05/Paramagnetisch/FID/fid_pcii_FID.pdf" 1767958535 48980 fd50e1bcc0f700c42a0898d6dfa41f47 ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf" 1767958535 10601 1600d7dcf9937da9be382fb353f6c19f ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf" 1767958535 20633 ecded6aa39521373fa43898049592b6f ""
-  "NMR_A05-v01.aux" 1768173525 17439 84a1aec7220522b5b4bb25afac369022 "pdflatex"
+  "NMR_A05-v01.aux" 1768174213 17439 ae2f745bc3a6aa21313aa84e9497f3b2 "pdflatex"
   "NMR_A05-v01.bbl" 1768074823 1591 41e842fa6159ee6d2617c5f8da122169 "biber NMR_A05-v01"
-  "NMR_A05-v01.run.xml" 1768173525 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
-  "NMR_A05-v01.tex" 1768173517 26373 0f3f26db84a03d6307347493bafbeb06 ""
-  "NMR_A05-v01.toc" 1768173525 2512 fd4583d566e27f5387360c95df031403 "pdflatex"
-  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768173517 26373 0f3f26db84a03d6307347493bafbeb06 ""
+  "NMR_A05-v01.run.xml" 1768174213 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
+  "NMR_A05-v01.tex" 1768174198 26745 3d93e3d93219b3ece7e0708296200572 ""
+  "NMR_A05-v01.toc" 1768174213 2512 fd4583d566e27f5387360c95df031403 "pdflatex"
+  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768174198 26745 3d93e3d93219b3ece7e0708296200572 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765623789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -45,6 +45,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1765624579 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1765624579 3584 a5b048a4e362640a1d2d34e624589d34 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1765624579 3072 8b5a64dc91775463bc95e2d818524028 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm" 1765624579 1536 487c9b46984a816c7ed238d0674595c7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1765624579 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1765571344 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1765571344 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -84,6 +85,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1765623790 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1765623790 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb" 1765623790 198221 29e050730bc4b56b13a53cd149c0a42c ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1765623790 167085 3b331a8ed51d2a40eb9422e52a3bcab8 ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1765627504 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1765571731 2289 142d4c4e9b9454344e08718ddd1c1070 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf" 1765571731 9519 07567e6a5751b56c75ede8e38d955275 ""

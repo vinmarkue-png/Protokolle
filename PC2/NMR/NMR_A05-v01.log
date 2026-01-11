@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  12 JAN 2026 00:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  12 JAN 2026 00:30
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1223,172 +1223,172 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 l.191 \end{equation}
                      [2{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}] [3]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 227.
+(scrartcl)           \newlinein caption text  on input line 229.
  [4] [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.255 \newpage
+l.257 \newpage
               ]
-<A05/FID.jpeg, id=129, 1562.83875pt x 1037.8775pt>
+<A05/FID.jpeg, id=130, 1562.83875pt x 1037.8775pt>
 File: A05/FID.jpeg Graphic file (type jpg)
 <use A05/FID.jpeg>
-Package pdftex.def Info: A05/FID.jpeg  used on input line 266.
+Package pdftex.def Info: A05/FID.jpeg  used on input line 268.
 (pdftex.def)             Requested size: 349.40045pt x 232.02371pt.
-<A05/Check/fid_pcii.Daylicheck.pdf, id=132, 578.16pt x 361.35pt>
+<A05/Check/fid_pcii.Daylicheck.pdf, id=133, 578.16pt x 361.35pt>
 File: A05/Check/fid_pcii.Daylicheck.pdf Graphic file (type pdf)
 <use A05/Check/fid_pcii.Daylicheck.pdf>
-Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 275.
+Package pdftex.def Info: A05/Check/fid_pcii.Daylicheck.pdf  used on input line 277.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
  [6
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.279 
+l.281 
        <./A05/FID.jpeg>]
-<A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=141, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/FID/fid_pcii_FID.pdf, id=142, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/FID/fid_pcii_FID.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/FID/fid_pcii_FID.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 282.
+Package pdftex.def Info: A05/Paramagnetisch/FID/fid_pcii_FID.pdf  used on input line 284.
 (pdftex.def)             Requested size: 349.40045pt x 218.37206pt.
-<A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=144, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf, id=145, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 293.
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf  used on input line 295.
 (pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
  [7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.296 \end{figure}
+l.298 \end{figure}
                   
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.296 \end{figure}
+l.298 \end{figure}
                    <./A05/Check/fid_pcii.Daylicheck.pdf> <./A05/Paramagnetisch/FID/fid_pcii_FID.pdf>]
-<A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=204, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf, id=205, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 308.
+Package pdftex.def Info: A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf  used on input line 310.
 (pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
  [8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.312 A
+l.314 A
        us der Geradengleichung $y = m \cdot \tau + c$ des Fits mit $m = -0,0... <./A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf>]
-<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf, id=241, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf, id=242, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf  used on input line 321.
+Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf  used on input line 323.
 (pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
  [9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.325 D
+l.327 D
        ie Höhen der Spinechos aus \autoref{fig: T2_Mess} werden mit den zug... <./A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf>]
 Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 329.
+(scrartcl)           \newlinein caption text  on input line 331.
  [10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.356 U
+l.358 U
        m die Spin-Spin-Relaxationszeit $T_2$ zu bestimmen, wird zuerst \auto... <./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2.pdf>]
-<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf, id=346, 578.16pt x 361.35pt>
+<A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf, id=347, 578.16pt x 361.35pt>
 File: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf Graphic file (type pdf)
 <use A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf>
-Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf  used on input line 365.
+Package pdftex.def Info: A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf  used on input line 367.
 (pdftex.def)             Requested size: 393.07133pt x 245.66513pt.
  [11
 pdfTeX warning (ext4): destination with the same identifier (name{table.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.369 A
+l.371 A
        us der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = -0,0127...]
-<A05/Bildgebung/Probe 1/Wasser0.pdf, id=356, 462.52798pt x 346.89601pt>
+<A05/Bildgebung/Probe 1/Wasser0.pdf, id=357, 462.52798pt x 346.89601pt>
 File: A05/Bildgebung/Probe 1/Wasser0.pdf Graphic file (type pdf)
 <use A05/Bildgebung/Probe 1/Wasser0.pdf>
-Package pdftex.def Info: A05/Bildgebung/Probe 1/Wasser0.pdf  used on input line 382.
+Package pdftex.def Info: A05/Bildgebung/Probe 1/Wasser0.pdf  used on input line 384.
 (pdftex.def)             Requested size: 393.07133pt x 294.81535pt.
  [12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.386 I
+l.388 I
        m Spektrum erkennt man einen großen, sehr breiten Peak. Dieser kommt... <./A05/Paramagnetisch/Carr-Purcell/cpmg_pci_20Loops_20msi_T2_ln_Fit.pdf>]
-<A05/Bildgebung/Probe 1/Wasser90.pdf, id=414, 462.52798pt x 346.89601pt>
+<A05/Bildgebung/Probe 1/Wasser90.pdf, id=415, 462.52798pt x 346.89601pt>
 File: A05/Bildgebung/Probe 1/Wasser90.pdf Graphic file (type pdf)
 <use A05/Bildgebung/Probe 1/Wasser90.pdf>
-Package pdftex.def Info: A05/Bildgebung/Probe 1/Wasser90.pdf  used on input line 390.
+Package pdftex.def Info: A05/Bildgebung/Probe 1/Wasser90.pdf  used on input line 392.
 (pdftex.def)             Requested size: 393.07133pt x 294.81535pt.
  [13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.394 I
+l.396 I
        m Spektrum sind nun zwei Signale zu sehen. Das kommt daher, dass die ... <./A05/Bildgebung/Probe 1/Wasser0.pdf>]
-<A05/Bildgebung/Probe 2/Probe2_seite2.png, id=450, 462.528pt x 346.896pt>
+<A05/Bildgebung/Probe 2/Probe2_seite2.png, id=451, 462.528pt x 346.896pt>
 File: A05/Bildgebung/Probe 2/Probe2_seite2.png Graphic file (type png)
 <use A05/Bildgebung/Probe 2/Probe2_seite2.png>
-Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_seite2.png  used on input line 399.
+Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_seite2.png  used on input line 401.
 (pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
  [14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.403 I
+l.405 I
        m Spektrum sind die einzelnen Schichten in denen Wasserstoffatome det... <./A05/Bildgebung/Probe 1/Wasser90.pdf>]
-<A05/Bildgebung/Probe 2/Probe2_oben.png, id=487, 462.528pt x 346.896pt>
+<A05/Bildgebung/Probe 2/Probe2_oben.png, id=488, 462.528pt x 346.896pt>
 File: A05/Bildgebung/Probe 2/Probe2_oben.png Graphic file (type png)
 <use A05/Bildgebung/Probe 2/Probe2_oben.png>
-Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_oben.png  used on input line 406.
+Package pdftex.def Info: A05/Bildgebung/Probe 2/Probe2_oben.png  used on input line 408.
 (pdftex.def)             Requested size: 349.40045pt x 262.06102pt.
  [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.410 D
+l.412 D
        urch die Ansicht von oben, wird erkenntlich, dass es sich bei der Pro... <./A05/Bildgebung/Probe 2/Probe2_seite2.png>]
-<A05/Chemische Verschiebung/CFCl3.pdf, id=494, 462.52798pt x 346.89601pt>
+<A05/Chemische Verschiebung/CFCl3.pdf, id=495, 462.52798pt x 346.89601pt>
 File: A05/Chemische Verschiebung/CFCl3.pdf Graphic file (type pdf)
 <use A05/Chemische Verschiebung/CFCl3.pdf>
-Package pdftex.def Info: A05/Chemische Verschiebung/CFCl3.pdf  used on input line 420.
+Package pdftex.def Info: A05/Chemische Verschiebung/CFCl3.pdf  used on input line 422.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.424 
+l.426 
        <./A05/Bildgebung/Probe 2/Probe2_oben.png>]
-<A05/Chemische Verschiebung/CFCl3_C6H11F.pdf, id=500, 462.52798pt x 346.89601pt>
+<A05/Chemische Verschiebung/CFCl3_C6H11F.pdf, id=501, 462.52798pt x 346.89601pt>
 File: A05/Chemische Verschiebung/CFCl3_C6H11F.pdf Graphic file (type pdf)
 <use A05/Chemische Verschiebung/CFCl3_C6H11F.pdf>
-Package pdftex.def Info: A05/Chemische Verschiebung/CFCl3_C6H11F.pdf  used on input line 427.
+Package pdftex.def Info: A05/Chemische Verschiebung/CFCl3_C6H11F.pdf  used on input line 429.
 (pdftex.def)             Requested size: 393.07133pt x 294.81535pt.
  [17
 pdfTeX warning (ext4): destination with the same identifier (name{figure.12}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.431 
+l.433 
        <./A05/Chemische Verschiebung/CFCl3.pdf>]
-<A05/Chemische Verschiebung/PFTBA.pdf, id=536, 462.52798pt x 346.89601pt>
+<A05/Chemische Verschiebung/PFTBA.pdf, id=537, 462.52798pt x 346.89601pt>
 File: A05/Chemische Verschiebung/PFTBA.pdf Graphic file (type pdf)
 <use A05/Chemische Verschiebung/PFTBA.pdf>
-Package pdftex.def Info: A05/Chemische Verschiebung/PFTBA.pdf  used on input line 434.
+Package pdftex.def Info: A05/Chemische Verschiebung/PFTBA.pdf  used on input line 436.
 (pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
  [18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.13}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.438 
+l.440 
        <./A05/Chemische Verschiebung/CFCl3_C6H11F.pdf>] [19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.14}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.442 \newpage
+l.444 \newpage
                <./A05/Chemische Verschiebung/PFTBA.pdf>] [20] (./NMR_A05-v01.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1399,18 +1399,18 @@ Package logreq Info: Writing requests to 'NMR_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41721 strings out of 467537
- 886713 string characters out of 5423703
+ 41723 strings out of 467537
+ 886735 string characters out of 5423703
  1848551 words of memory out of 5000000
- 70006 multiletter control sequences out of 15000+600000
- 644213 words of font info for 74 fonts, out of 8000000 for 9000
+ 70007 multiletter control sequences out of 15000+600000
+ 644526 words of font info for 75 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  108i,20n,108p,11311b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on NMR_A05-v01.pdf (22 pages, 880612 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on NMR_A05-v01.pdf (22 pages, 902109 bytes).
 PDF statistics:
- 808 PDF objects out of 1000 (max. 8388607)
- 436 compressed objects within 5 object streams
+ 813 PDF objects out of 1000 (max. 8388607)
+ 439 compressed objects within 5 object streams
  77 named destinations out of 1000 (max. 500000)
  307 words of extra memory for PDF output out of 10000 (max. 10000000)
 
