@@ -154,20 +154,18 @@ Wechselwirkungen und elektronische Effekte in chemischen Verbindungeb können zu
 \delta = \frac{\nu_{\text{Probe}} - \nu_{\text{Ref}}}{\nu_{\text{Ref}}}
 \label{eq: verschiebung}
 \end{equation}
-Da $\delta$ sehr kleine Werte ergibt, werden diese nach Konfession mit $10^6$ multipliziert und in ppm angegeben.
-Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als sklarare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
+Da $\delta$ sehr kleine Werte ergibt, werden diese nach Konvention mit $10^6$ multipliziert und in ppm angegeben.
+Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als skalare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
 
 
 \subsection{Spinrelaxation}
 
-Um von der Betrachtung eines einzelnen Kerns auf die Betrachtung makroskopischer Materie überzugehen wird die Kernmagnetisiserung $M_0$ verwendet, welche alle Spins in einer Probe berücksichtigt. Da wir nur Kerne mit einem Kernspin von $I=\frac{1}{2} $ betrachten berechnet sich die Kernmagnetisiserung wie folgt.
-
+Die makroskopische Kernmagnetisierung $M$ ergibt sich aus der Vektorsumme der magnetischen Momente aller Kerne innerhalb der Probe. Im thermischen Gleichgewicht resultiert daraus aufgrund der energetischen Aufspaltung (Zeeman-Effekt) und der daraus folgenden Besetzungsunterschiede gemäß der Boltzmann-Statistik die Gleichgewichtsmagnetisierung $M_0$ in Richtung des äußeren Feldes. Da wir nur Kerne mit einem Kernspin von $I = 1/2$ betrachten, berechnet sich der Betrag der Magnetisierung wie folgt:
 \begin{equation}
 	M_0 = N \frac{\gamma^2 \hbar^2 B_0}{4kT} 
 \end{equation}
 
-Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige µs) ausgesetzt, der das thermische (magnetische) Gleichgewicht stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $M_z$ in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem dem RF-Impuls lässt sich die Präzession dieser Quermagnetisierung als Induktionsspannung detektieren. Es wird ein mit der Relaxationszeit $T_2^*$ exponentiell abklingendes Signal detektiert, welches als freier Induktionszerfall, oder Free Induction Decay, kurz FID bezeichnet wird.
-
+Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige \textmu s) ausgesetzt, der das thermische Gleichgewicht stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $z$-Richtung in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem RF-Impuls wird die Präzession dieser Quermagnetisierung als Induktionsspannung detektiert. Dieses Signal, der Free Induction Decay (FID), klingt mit der effektiven Relaxationszeit $T_2^*$ ab, welche sowohl die molekulare Spin-Spin-Relaxation ($T_2$) als auch Inhomogenitäten des statischen Magnetfeldes berücksichtigt.
 Nach Bloch stellt sich diese Gleichgewichtsmagnetisierung nach einem Geschwindigkeitsgesetz erster Ordnung ein, was für die Magnetisierung in $z$-Richtung folgende Gleichung ergibt:
 \begin{equation}
 	\frac{\partial M_z}{\partial t} = - \frac{(M_z-M_0)}{T_1}
@@ -180,26 +178,23 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \subsection{Relaxationszeiten}
 
-Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z =(\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
+Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z (\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
 \begin{equation}
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
 \end{equation}
 
-Die Spin-Spin-Relaxationszeit $T_2$ wird durch die folgende, nach Carr und Purcell bekannte, Impulfolge bestimmt: $[90^{\circ} - \tau - 180^{\circ} - 2 \tau - 180^{\circ} - 2 \tau - 180^{\circ} - ......]$.
-Die Amplitude des Spinechosignals ergibt sich nach \autoref{eq: T2}
+Die Bestimmung der Spin-Spin-Relaxationszeit $T_2$ erfolgt mittels der Carr-Purcell-Sequenz. Dabei wird nach einem anfänglichen $90^\circ$-Puls eine Serie von $180^\circ$-Refokus\- sierungsimpulsen eingestrahlt, um die durch Feldinhomogenitäten verursachte Dephasierung umzukehren und eine Folge von Spinechos zu erzeugen. Die Abnahme der Amplitude der Echos hängt dabei nur von der Spin-Spin-Relaxationszeit $T_2$ ab. Die Amplitude des Spinechosignals zum Zeitpunkt $t = 2n\tau$ ergibt sich nach \autoref{eq: T2}:
 \begin{equation}
-    M(t = 2n\tau) = M_0 e^{-\frac{t}{T_2}}
+    M(t) = M_0 \cdot e^{-\frac{t}{T_2}}
     \label{eq: T2}
 \end{equation}
 
 
 \subsection{Bildgebung}
 
+Bei der NMR-Bildgebung werden zwei- oder dreidimensionale Bilder von Objekten durch eine ortsaufgelöste Erfassung der Probe erstellt. Wirkt ein homogenes Magnetfeld $B_0$, welches von einem linearen Gradienten $G_x = \partial B / \partial x$ in $x$-Richtung überlagert wird, so ist ein linearer Zusammenhang zwischen der Frequenz und der $x$-Position beobachtbar. Bei modernen Methoden werden zudem Gradienten in $y$-Richtung verwendet, sowie in Abhängigkeit der Zeit gemessen. Zur Aufnahme eines zweidimensionalen Schnittbildes wird ein Gradient in z-Richtung während des Anregungsimpulses angelegt (Schichtselektion), sodass nur Kerne in einer bestimmten Ebene die Resonanzbedingung erfüllen. Die Ortskodierung innerhalb dieser Schicht erfolgt anschließend durch Gradienten in x- und y-Richtung (Frequenz- und Phasenkodierung).“ Mit ihr ist es möglich die Resonanzbedingung in abhängigkeit des Gradienten zu bestimmen. Ein frequenzselektiver RF-Impuls der Form einer sin(x)/x-Funktion wird verwendet um eine gute Auflösung zu erhalten.
 
-
-
-\newpage
 
 \section{Versuchsdurchführung}
 Vor Beginn der Messungen wurde der ''Daily-Chek'' durchgeführt. Dafür wurde die Probe Daily-Check Sample in das Spektrometer gestellt und die Messung gestartet.
