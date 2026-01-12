@@ -14,7 +14,8 @@
 \usepackage{scrlayer-scrpage}
 \usepackage{siunitx}
 \usepackage{subfigure}
-
+%\renewcaptionname{ngerman}{\figurename}{Fig.}
+%\renewcaptionname{ngerman}{\tablename}{Table}
 \sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
 \DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
@@ -246,7 +247,7 @@ Additionally, the temperature was calculated by rearranging the Henning-Otto equ
 =7.781845-\frac{341.619~\mathrm{K}}{\mathrm{T}}-0.0062649\frac{\mathrm{T}}{\mathrm{K}}
 \label{eq:HenningOtto}
 \end{equation}
-The calculated values of the temperature in the cryogenic cell are also listed in table \ref{tab: experiment1}.
+The calculated values of the temperature in the cryogenic cell are also listed in \autoref{tab: experiment1}.
    
 % Tabelle mit Messdaten von Argon Experiment
 \begin{table}[H]
@@ -346,7 +347,12 @@ p = \frac{\,p^{\ast}\,\varepsilon_0}{\sigma_0^{\,3}}
 \label{eq:p}
 \end{equation}
 For Argon the best values, which were determined from other properties of the gas, are $\varepsilon_0 = \SI{1.643 e-21}{J}$ and $\sigma_0 = \SI{3.41 e-10}{m}$.\supercite{Hirschfelder}
-By inserting these values in equation \ref{eq:T} and \ref{eq:p}, the values of $T$ and $p$ are calculated and then plotted with the experimental data from table \ref{tab: experiment1}, which is shown in \autoref{fig: T2p-exp}.
+By inserting these values in equation \ref{eq:T} and \ref{eq:p}, the values of $T$ and $p$ are calculated.
+Then the experimental data values of $p$ from \autoref{tab: experiment1} are converted from bar to pascal with
+\begin{equation*}
+    \SI{1}{bar} = \SI{1e5}{Pa}.
+\end{equation*} 
+All converted pressure values of the simulation and experiment are plotted against the temperature in \autoref{fig: T2p-exp}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Simulationen/T2p+exp.pdf}
