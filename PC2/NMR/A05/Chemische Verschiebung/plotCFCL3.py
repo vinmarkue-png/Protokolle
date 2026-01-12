@@ -4,7 +4,7 @@ import os
 # Ermittelt das Verzeichnis, in dem dieses Script liegt
 script_dir = os.path.dirname(__file__) 
 # Verbindet das Verzeichnis mit dem Dateinamen
-file_path = os.path.join(script_dir, 'fluor_ft_pcii_CFCl3.txt')
+file_path = os.path.join(script_dir, 'fluor_ft_pcii_PFTBA.txt')
 
 x, y = [], []
 
