@@ -1,17 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'NMR_A05-v01.blg'
-[198] biber-MSWIN64:342> INFO - === 
-[266] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
-[478] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[505] Biber.pm:4487> INFO - Processing section 0
-[523] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[619] bibtex.pm:1713> INFO - LaTeX decoding ...
-[630] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[698] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[698] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[698] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[698] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[700] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
-[701] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
-[701] Biber.pm:132> WARN - I didn't find a database entry for 'paper' (section 0)
-[702] Biber.pm:134> INFO - WARNINGS: 1
+[213] biber-MSWIN64:342> INFO - === 
+[285] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
+[519] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[545] Biber.pm:4487> INFO - Processing section 0
+[566] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[655] bibtex.pm:1713> INFO - LaTeX decoding ...
+[667] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[739] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[739] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[739] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[739] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[741] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
+[742] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
+[743] Biber.pm:132> WARN - I didn't find a database entry for 'paper' (section 0)
+[743] Biber.pm:134> INFO - WARNINGS: 1

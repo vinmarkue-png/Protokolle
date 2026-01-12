@@ -436,7 +436,7 @@ The lattice energy can now be calculated by rearranging equation \ref{eq:Us1}.
 An alternative method of calculating the lattice energy is by using equation \ref{eq:LatticeEnergy_Pair}. To do this, the minimal distance $a$ between atoms has to be calculated by using the equation for a face-centered cubic lattice and the lattice constant of argon wich is given as $\SI{5.43 e-10}{m}$.
 \begin{align*}
     a &= \frac{1}{\sqrt{2}} ~ \cdot ~ \SI{5.43 e-10}{m}\\
-    &= \SI{3.78 e-10}{m}
+    &= \SI{3.84 e-10}{m}
 \end{align*}
 With $\sigma_0$ for argon given as $\SI{3.41 e-10}{m}$ and $\epsilon_0$ from the lennerd-jones potential given as $\SI{1.643 e-21}{J}$ the lattice energy can now be calculated.\supercite{Hirschfelder}
 
@@ -444,11 +444,11 @@ With $\sigma_0$ for argon given as $\SI{3.41 e-10}{m}$ and $\epsilon_0$ from the
 U_{\mathrm{lattice,E}}(s) &=2 N_A \varepsilon_0
 \left[12.132\left(\frac{\sigma_0}{a}\right)^{12}-14.454\left(\frac{\sigma_0}{a}\right)^{6}\right]\\
 &= 2 ~ \cdot~ \SI{6.022 e23}{\frac{1}{mol}} ~ \cdot~ \SI{1.643 e-21}{J}\\ 
-&\cdot ~ \left[12.132~\cdot~ \left(\frac{\SI{3.41 e-10}{m}}{\SI{3.78 e-10}~\mathrm{m}}\right)^{12}
-~-~ 14.454 ~\cdot~\left(\frac{\SI{3.41 e-10}{m}}{\SI{3.78 e-10}{m}}\right)^{6} \right]\\
-&= - \SI{8441.849}{\frac{J}{mol}}
+&\cdot ~ \left[12.132~\cdot~ \left(\frac{\SI{3.41 e-10}{m}}{\SI{3.84 e-10}~\mathrm{m}}\right)^{12}
+~-~ 14.454 ~\cdot~\left(\frac{\SI{3.41 e-10}{m}}{\SI{3.84 e-10}{m}}\right)^{6} \right]\\
+&= - \SI{8252.821}{\frac{J}{mol}}
 \end{align*}
-When compared to the theoretically calculated lattice energy, the experimental lattice energy deviates by approximately 3.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.
+When compared to the theoretically calculated lattice energy, the experimental lattice energy deviates by approximately 5.6\%. This deviation can be explained by leaks in the measuring setup due to it not being perfectly isolated.
 
 
 
@@ -468,7 +468,7 @@ The isochor simulation showed a similar sublimation curve as the experimental su
 
 The three isobaric simulations showed the importance of computational accuracy, as the simulations with more iteration0 steps were much more compareable to real, experimental data. Although the simulation with the most computational accuracy showed a melting point of $T_m \approx 77$ K and a boiling point of $T_b \approx 137$ K which states strong deviation to the meassured value especially for the boiling point.
 
-In the practical part of the experiment the sublimation enthalpy of argon was determined as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$. That made the calculation of the lattice energy $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ possible. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters $U_\mathrm{lattice,E} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
+In the practical part of the experiment the sublimation enthalpy of argon was determined as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$. That made the calculation of the lattice energy $U_\mathrm{lattice,D} = -\SI{8742,961}{\frac{J}{mol}}$ possible. To verify the success of the experiment, the lattice energy calculated from the measured data was compared to the lattice energy calculated from the theoretical parameters $U_\mathrm{lattice,E} = - \SI{8252.821}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 5.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
 \newpage
 \printbibliography[title={References}]
 
