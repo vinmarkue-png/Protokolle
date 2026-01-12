@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  12 JAN 2026 17:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  12 JAN 2026 20:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex"
-(c:/Studium/5. Semester/AC II lab/Protokolle/PC2/MDGE/MDGE.tex
+**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex"
+(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/MDGE/MDGE.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1269,22 +1269,19 @@ pdfTeX warning (ext4): destination with the same identifier (name{figure.2}) has
                                                   \__shipout_drop_firstpage_...
 l.233 \newpage
                <./setup.png>]
-Class scrartcl Info: Workaround for not recommended usage of \\ or
-(scrartcl)           \newlinein caption text  on input line 254.
-
 
 [5
 pdfTeX warning (ext4): destination with the same identifier (name{table.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.314 
+l.317 
       ]
 
 [6]
 <Simulationen/T2p-red.pdf, id=126, 578.16pt x 361.35pt>
 File: Simulationen/T2p-red.pdf Graphic file (type pdf)
 <use Simulationen/T2p-red.pdf>
-Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 330.
+Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 333.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
 
 
@@ -1292,17 +1289,17 @@ Package pdftex.def Info: Simulationen/T2p-red.pdf  used on input line 330.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.344 \end{equation}
+l.347 \end{equation}
                      <./Simulationen/T2p-red.pdf>]
 <Simulationen/T2p+exp.pdf, id=168, 578.16pt x 361.35pt>
 File: Simulationen/T2p+exp.pdf Graphic file (type pdf)
 <use Simulationen/T2p+exp.pdf>
-Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 349.
+Package pdftex.def Info: Simulationen/T2p+exp.pdf  used on input line 352.
 (pdftex.def)             Requested size: 436.7489pt x 272.9637pt.
 <Simulationen/3_1.pdf, id=171, 722.7pt x 433.62pt>
 File: Simulationen/3_1.pdf Graphic file (type pdf)
 <use Simulationen/3_1.pdf>
-Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 363.
+Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 366.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1310,12 +1307,12 @@ Package pdftex.def Info: Simulationen/3_1.pdf  used on input line 363.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.367 C
+l.370 C
        urve T3V1 corresponds to the simulation performed with 50 cooling cyc... <./Simulationen/T2p+exp.pdf>]
 <Simulationen/3_2.pdf, id=222, 722.7pt x 433.62pt>
 File: Simulationen/3_2.pdf Graphic file (type pdf)
 <use Simulationen/3_2.pdf>
-Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 374.
+Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 377.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1323,12 +1320,12 @@ Package pdftex.def Info: Simulationen/3_2.pdf  used on input line 374.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.378 
+l.381 
        <./Simulationen/3_1.pdf>]
 <Simulationen/3_3.pdf, id=264, 722.7pt x 433.62pt>
 File: Simulationen/3_3.pdf Graphic file (type pdf)
 <use Simulationen/3_3.pdf>
-Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 385.
+Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 388.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
@@ -1336,22 +1333,22 @@ Package pdftex.def Info: Simulationen/3_3.pdf  used on input line 385.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.389 
+l.392 
        <./Simulationen/3_2.pdf>]
 
 [11
 pdfTeX warning (ext4): destination with the same identifier (name{figure.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.395 \newpage
+l.398 \newpage
                <./Simulationen/3_3.pdf>]
 <Hsub_plot.pdf, id=351, 722.7pt x 433.62pt>
 File: Hsub_plot.pdf Graphic file (type pdf)
 <use Hsub_plot.pdf>
-Package pdftex.def Info: Hsub_plot.pdf  used on input line 404.
+Package pdftex.def Info: Hsub_plot.pdf  used on input line 407.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 412--414
+Underfull \hbox (badness 10000) in paragraph at lines 415--417
 
  []
 
@@ -1361,7 +1358,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 412--414
 pdfTeX warning (ext4): destination with the same identifier (name{figure.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.423 \begin{align*}
+l.426 \begin{align*}
                      <./Hsub_plot.pdf>]
 
 [13]
@@ -1379,14 +1376,14 @@ Package logreq Info: Writing requests to 'MDGE.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  41517 strings out of 467748
- 880699 string characters out of 5431137
- 1837325 words of memory out of 5000000
+ 880756 string characters out of 5431137
+ 1837322 words of memory out of 5000000
  69630 multiletter control sequences out of 15000+600000
  643110 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,11262b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,11281b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on MDGE.pdf (17 pages, 428133 bytes).
+Output written on MDGE.pdf (17 pages, 428301 bytes).
 PDF statistics:
  542 PDF objects out of 1000 (max. 8388607)
  316 compressed objects within 4 object streams
