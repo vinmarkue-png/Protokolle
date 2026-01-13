@@ -1,0 +1,17 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'NMR_A05-v01.blg'
+[433] biber-MSWIN64:342> INFO - === 
+[585] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
+[828] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[857] Biber.pm:4487> INFO - Processing section 0
+[895] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[985] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1013] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[1168] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1168] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1168] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[1168] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[1170] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
+[1172] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
+[1172] Biber.pm:132> WARN - I didn't find a database entry for 'paper' (section 0)
+[1173] Biber.pm:134> INFO - WARNINGS: 1
