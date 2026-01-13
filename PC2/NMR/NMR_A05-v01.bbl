@@ -42,8 +42,46 @@
       \field{title}{2025-pc2-script-en}
       \field{year}{2025}
     \endentry
+    \entry{Ribeiro2003}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8999db15291042d691314d744609436b}{%
+           family={Ribeiro},
+           familyi={R\bibinitperiod},
+           given={Anthony\bibnamedelima A.},
+           giveni={A\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=93a72ed12b61b0dfe8ed1f9b8a6c06b9}{%
+           family={Umayahara},
+           familyi={U\bibinitperiod},
+           given={Keiko},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {John Wiley \& Sons}%
+      }
+      \strng{namehash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{fullhash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{fullhashraw}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{bibnamehash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{authorbibnamehash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{authornamehash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{authorfullhash}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \strng{authorfullhashraw}{f5a7e33bd6003ef53e4dde6fff42b07a}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Magnetic Resonance in Chemistry}
+      \field{number}{2}
+      \field{title}{19F, 13C NMR analysis of an oxygen carrier, perfluorotributylamine, and perfluoropentanoic acid}
+      \field{volume}{41}
+      \field{year}{2003}
+      \field{pages}{107\bibrangedash 114}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1002/mrc.1137
+      \endverb
+    \endentry
   \enddatalist
-  \missing{paper}
 \endrefsection
 \endinput
 
