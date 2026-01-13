@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  13 JAN 2026 19:07
 entering extended mode
  restricted \write18 enabled.
@@ -1508,3 +1509,5 @@ PDF statistics:
  79 named destinations out of 1000 (max. 500000)
  299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
+=======
+>>>>>>> 9e6d00a6c96d982a0b673240b6f4b83d740d49d1
