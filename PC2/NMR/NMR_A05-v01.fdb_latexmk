@@ -1,12 +1,11 @@
 # Fdb version 4
-["biber NMR_A05-v01"] 0 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768328998.44409 -1
-  "NMR_A05-v01.bcf" 1768328997 108433 419fabb435fd66a2d00ef01836e6e4f4 "pdflatex"
-  "lit.bib" 1768327714 994 d5de0116bf6dee17419a4d0d4f2a4dc6 ""
+["biber NMR_A05-v01"] 1768329034.02651 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768329046.28369 2
+  "NMR_A05-v01.bcf" 1768329045 108493 6badd8e1715a9bc71bedc2a89120a4c0 "pdflatex"
   (generated)
   "NMR_A05-v01.bbl"
   "NMR_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768328992.00723 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768328998.44537 0
+["pdflatex"] 1768329038.34865 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768329046.28511 2
   "A05/Bildgebung/Probe 1/Wasser0.pdf" 1768074810 13918 46285d716a30515554b7f0930ebad052 ""
   "A05/Bildgebung/Probe 1/Wasser90.pdf" 1768074810 13554 52c3b662d8b42dadd2bae486b85b3283 ""
   "A05/Bildgebung/Probe 2/Probe2_oben.png" 1767958535 141887 7bef51507fea8f9b54c78636642d2f5d ""
@@ -21,15 +20,16 @@
   "A05/Paramagnetisch/FID/fid_pcii_FID.pdf" 1767958535 48980 fd50e1bcc0f700c42a0898d6dfa41f47 ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf" 1767958535 10601 1600d7dcf9937da9be382fb353f6c19f ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf" 1767958535 20633 ecded6aa39521373fa43898049592b6f ""
-  "NMR_A05-v01.aux" 1768328997 17946 3ae573e1dbd80d34832ce5f63e80b92d "pdflatex"
-  "NMR_A05-v01.bbl" 1768327807 3230 a27720c0bb9b4d6f039e802bc8e44659 "biber NMR_A05-v01"
-  "NMR_A05-v01.run.xml" 1768328997 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
-  "NMR_A05-v01.tex" 1768328983 34821 e6052caada2d819765c91841291c96b1 ""
-  "NMR_A05-v01.toc" 1768328997 2433 0c5affc668bf368293035d43c3e24105 "pdflatex"
-  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768328983 34821 e6052caada2d819765c91841291c96b1 ""
+  "NMR_A05-v01.aux" 1768329045 17573 222cc8fb933a302210a54a62226ae957 "pdflatex"
+  "NMR_A05-v01.bbl" 0 -1 0 "biber NMR_A05-v01"
+  "NMR_A05-v01.run.xml" 1768329045 2486 6f5e120f33744a1589bff691cffefd12 "pdflatex"
+  "NMR_A05-v01.tex" 1768329031 39110 ac17f8d1e34a454318bc59a9bdeb2d63 ""
+  "NMR_A05-v01.toc" 1768329045 2367 bdd2b761477a3ad3698f50221c73ddf8 "pdflatex"
+  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768329031 39110 ac17f8d1e34a454318bc59a9bdeb2d63 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765623789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm" 1765624578 3584 269b66e921ba58750c12f7f1c8ea3ebd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1765624578 3584 402da0b29eafbad07963b1224b222f18 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1765624578 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm" 1765624578 3584 0181dbc4d429c3ba4e30feba37b5df96 ""
@@ -45,7 +45,6 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1765624579 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1765624579 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1765624579 3584 a5b048a4e362640a1d2d34e624589d34 ""
-  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1765624579 3072 8b5a64dc91775463bc95e2d818524028 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/tcrm1200.tfm" 1765624579 1536 74b7293ec3713bb7fdca8dd1bd1f469c ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1765571344 1004 54797486969f23fa377b128694d548df ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1765571344 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -75,6 +74,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1765571344 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1765571344 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb" 1765571344 34694 870c211f62cb72718a00e353f14f254d ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb" 1765623789 164252 80f1e2aedb14b70a9faa6f99c56d1770 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1765623789 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1765623789 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1765623789 135938 1a19ff976dd71ec9a67855cdbfd83710 ""
@@ -87,7 +87,6 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1765623790 148436 6a185415b8a1b77c58fee2272f3574e2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1765623790 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1765623790 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
-  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb" 1765623790 198221 29e050730bc4b56b13a53cd149c0a42c ""
   "c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1765627504 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngerman.ldf" 1765571731 2289 142d4c4e9b9454344e08718ddd1c1070 ""
   "c:/texlive/2025/texmf-dist/tex/generic/babel-german/ngermanb.ldf" 1765571731 9519 07567e6a5751b56c75ede8e38d955275 ""
