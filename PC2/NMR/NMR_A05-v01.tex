@@ -180,7 +180,7 @@ Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klass
 
 \subsection{Relaxationszeiten}
 
-Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch einsetzen von $M_Z (\tau = 0) = -M_0 $ in \autoref{eq:blo} erhält man \autoref{eq: T1}
+Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch Einsetzen von $M_Z (\tau = 0) = -M_0 $ in \autoref{eq:blo} lässt sich \autoref{eq: T1} herleiten.
 \begin{equation}
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
@@ -264,7 +264,7 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
 
 \subsubsection{FID-Messungen}
 %Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
-Die in diesem Versuch verwendete Messtechnik wird FT-Technik genannt. Dabei werden Radiowellen mit hoher Intensität eingestrahlt, bis die Magnetisierung die x,y-Ebene erreicht. Die Einstrahlung wird daraufhin gestoppt, wodurch die Magnetisierung sich in der xy,-Ebene frei dreht, bis die Ausgangsmagnetisierung wieder erreicht wird. Dadurch entsteht ein abklingendes Signal, welches über eine Fouriertransformation zu einem typischen Signal umgewandelt wird. Der Verlauf einer Messung ist in \autoref{fig: FID} dargestellt. 
+Die in diesem Versuch verwendete Messtechnik wird FT-Technik genannt. Dabei werden Radiowellen mit hoher Intensität eingestrahlt, bis die Magnetisierung die x,y-Ebene erreicht. Die Einstrahlung wird daraufhin gestoppt, wodurch die Magnetisierung sich in der x,y-Ebene frei dreht, bis die Ausgangsmagnetisierung wieder erreicht wird. Dadurch entsteht ein abklingendes FID-Signal, welches über eine Fouriertransformation anhand der Frequenz des abklingenden Signals zu einem typischen Absorptionssignal umgewandelt wird. Der Verlauf einer Messung ist in \autoref{fig: FID} dargestellt. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{A05/FID.jpeg}
@@ -287,7 +287,7 @@ Die in diesem Versuch verwendete Messtechnik wird FT-Technik genannt. Dabei werd
     \caption{FID-Signal der \ch{CuSO4}-Probe.} 
     \label{fig: FID_Cu}
 \end{figure}
-Der Vergleich der beiden Messungen zeigt, dass der FID der beiden Proben sehr änlich verläuft. Der einzige sichtbare Unterschied ist die gemessene Intensität beim Start der Messung, da die der ''Daily-Check-Probe'' bei ungefähr 85 und die der Kupfersulfat-Lösung bei ungefähr 105 liegt. 
+Der Vergleich der beiden Messungen zeigt, dass der FID der beiden Proben sehr änlich verläuft. Der einzige sichtbare Unterschied ist die gemessene Intensität beim Start der Messung, da die der ''Daily-Check-Probe'' bei ungefähr 85 \% und die der Kupfersulfat-Lösung bei ungefähr 105 \% liegt. 
 
 \subsubsection{Relaxationszeiten}
 Die gemessenen Signalintensitäten aus \autoref{tab: T1} lassen sich gegen die zugehörigen $\tau$-Werte auftragen, wie in \autoref{fig: T1_Mess} dargestellt ist.
