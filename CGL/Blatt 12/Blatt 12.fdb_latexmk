@@ -1,17 +1,17 @@
 # Fdb version 4
-["biber Blatt 12"] 0 "Blatt 12.bcf" "Blatt 12.bbl" "Blatt 12" 1768299423.9474 0
+["biber Blatt 12"] 0 "Blatt 12.bcf" "Blatt 12.bbl" "Blatt 12" 1768302552.72085 0
   "Blatt 12.bcf" 0 -1 0 "pdflatex"
   "Blatt 7.bib" 0 -1 0 ""
   (generated)
   "Blatt 12.bbl"
   "Blatt 12.blg"
   (rewritten before read)
-["pdflatex"] 1768299418.98489 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 12/Blatt 12.tex" "Blatt 12.pdf" "Blatt 12" 1768299423.949 0
-  "Blatt 12.aux" 1768299422 742 95b009872dd6ade812b1f33a0fe34094 "pdflatex"
+["pdflatex"] 1768302547.91493 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 12/Blatt 12.tex" "Blatt 12.pdf" "Blatt 12" 1768302552.72285 0
+  "Blatt 12.aux" 1768302551 742 95b009872dd6ade812b1f33a0fe34094 "pdflatex"
   "Blatt 12.bbl" 0 -1 0 "biber Blatt 12"
-  "Blatt 12.run.xml" 1768299422 2483 ad0d6ccb2d2076147f38fb2b87479944 "pdflatex"
-  "Blatt 12.tex" 1768299417 3541 4a884b5b8ca0a35c14a77003c170d855 ""
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 12/Blatt 12.tex" 1768299417 3541 4a884b5b8ca0a35c14a77003c170d855 ""
+  "Blatt 12.run.xml" 1768302551 2483 ad0d6ccb2d2076147f38fb2b87479944 "pdflatex"
+  "Blatt 12.tex" 1768302546 3545 ed2497fb128d1f2f56be7737153b92ae ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 12/Blatt 12.tex" 1768302546 3545 ed2497fb128d1f2f56be7737153b92ae ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1761073056 3584 291a5713401683441e0a8c8f4417b17b ""
