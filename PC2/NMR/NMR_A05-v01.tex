@@ -167,7 +167,15 @@ Die makroskopische Kernmagnetisierung $M$ ergibt sich aus der Vektorsumme der ma
 	M_0 = N \frac{\gamma^2 \hbar^2 B_0}{4kT} 
 \end{equation}
 
-Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige \textmu s) ausgesetzt, der das thermische Gleichgewicht stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $z$-Richtung in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem RF-Impuls wird die Präzession dieser Quermagnetisierung als Induktionsspannung detektiert. Dieses Signal, der Free Induction Decay (FID), klingt mit der effektiven Relaxationszeit $T_2^*$ ab, welche sowohl die molekulare Spin-Spin-Relaxation ($T_2$) als auch Inhomogenitäten des statischen Magnetfeldes berücksichtigt.
+Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige \textmu s) ausgesetzt, der das thermische Gleichgewicht stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $z$-Richtung in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem RF-Impuls wird die Präzession dieser Quermagnetisierung als Induktionsspannung detektiert, welche später in Form einer Intensität angegeben wird. Dieses Signal, der Free Induction Decay (FID), klingt mit der effektiven Relaxationszeit $T_2^*$ ab, welche sowohl die molekulare Spin-Spin-Relaxation ($T_2$) als auch Inhomogenitäten des statischen Magnetfeldes berücksichtigt. Der Ablauf dessen, inklusive Detektion von Sender- und Empfängerspule ist in \autoref{fig: FID} schematisch dargestellt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{A05/FID.jpeg}
+    \caption{Darstellung der FT-Messtechnik zur Bestimmung des FID-Signals (unterer Pfad).\supercite{Skript}} 
+    \label{fig: FID}
+\end{figure}
+
 Nach Bloch stellt sich diese Gleichgewichtsmagnetisierung nach einem Geschwindigkeitsgesetz erster Ordnung ein, was für die Magnetisierung in $z$-Richtung folgende Gleichung ergibt:
 \begin{equation}
 	\frac{\partial M_z}{\partial t} = - \frac{(M_z-M_0)}{T_1}
@@ -263,16 +271,7 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
 \subsection{Kernspinrelaxation von Lösungen paramagnetischer Ionen}
 
 \subsubsection{FID-Messungen}
-%Hier FEHLT noch Text \& Erklärungen zu den FID-Signalen.
-Die in diesem Versuch verwendete Messtechnik wird FT-Technik genannt. Dabei werden Radiowellen mit hoher Intensität eingestrahlt, bis die Magnetisierung die x,y-Ebene erreicht. Die Einstrahlung wird daraufhin gestoppt, wodurch die Magnetisierung sich in der x,y-Ebene frei dreht, bis die Ausgangsmagnetisierung wieder erreicht wird. Dadurch entsteht ein abklingendes FID-Signal, welches über eine Fouriertransformation anhand der Frequenz des abklingenden Signals zu einem typischen Absorptionssignal umgewandelt wird. Der Verlauf einer Messung ist in \autoref{fig: FID} dargestellt. 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.8\textwidth]{A05/FID.jpeg}
-    \caption{Darstellung der FT-Messtechnik zur Bestimmung des FID-Signals (unterer Pfad).\supercite{Skript}} 
-    \label{fig: FID}
-\end{figure}
 
-% Die braucht ihr ja auch um eure Vorgehensweise zu erklären. Ihr könnt ja auch z.B. den Verlauf der beiden Signale miteinander vergleichen.
 \autoref{fig: FID_Check} zeigt das aufgenommene FID-Signal der ''Daily-Check-Probe'' und \autoref{fig: FID_Cu} das der Kupfersulfat-Lösung.
 \begin{figure}[H]
     \centering
