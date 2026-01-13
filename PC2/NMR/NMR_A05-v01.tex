@@ -113,9 +113,9 @@
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
-In diesem Versuch wurde anhand verschiedener Proben die NMR Messtechnik untersucht. Dazu wurden im ersten Versuchsteil die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$ und die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ einer Kupfersulfat-Lösung über Messung des FIDs bestimmt.
-Anschließend wurde die NMR-Bildgebung durch die Messung von zwei Wasserproben, sowie einer 2D Messung eines Buschstabens untersucht.
-Zum Schluss wurde die chemische Verschiebung über die Messung verschiedener fluorhaltiger Proben gegen \ch{CFCl3} als Standard gemessen. Dabei ergab sich für \ch{C6H11F} eine Verschiebung von $\delta = -83,8097$ppm und für Perfluortributylamin Verschiebungen von $\delta = -135,3912$~ppm, $\delta = -122,0823$ ppm und $\delta = -26,6081$~ppm.
+In diesem Versuch wurde anhand verschiedener Proben die Messtechnik der NMR-Spektroskopie untersucht. Dazu wurden im ersten Versuchsteil die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$ und die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ einer \ch{CuSO4}-Lösung über das Inversion-Recovery- und Carr-Purcell-Experiment bestimmt.
+Anschließend wurde die NMR-Bildgebung durch die Messung von zwei Wasserproben sowie einer 2D Messung eines Buschstabens untersucht.
+Zum Schluss wurde die chemische Verschiebung über die Messung verschiedener fluorhaltiger Proben gegen \ch{CFCl3} als Standard gemessen. Dabei wurde für \ch{C6H11F} eine Verschiebung von $\delta = \SI{-83,8097}{ppm}$ und für Perfluortributylamin Verschiebungen von $\delta = \SI{-135,3912}{ppm}$, $\delta = \SI{-122,0823}{ppm}$ und $\delta = \SI{-26,6081}{ppm}$ ermittelt.
 \end{titlepage}
 %Im letzten Versuchsteil wurde zunächst ein \ch{^19F}-Spektrum von Fluorcyclohexan mit Trichlorfluormethan als internem Standard aufgenommen. Der Trichlorfluormethan-Peak ist aufgrund der entschirmenden Chlorsubstituenten gegenüber dem Fluorcyclohexan hochfeldverschoben. Es konnte eine chemische verschiebung von $ \delta_{\ch{C6H11F} = -83,8097}$ ppm für Fluorcyclohexan bestimmt werden. Die Linienbreite konnte zu $53,3$ ppm bestimmt werden. Im Perfluortributylamin-Spektrum waren drei Peaks zu beobachten. Die chemischen Verschiebungen dieser liegen bei $-135,3912$~ppm, $-122,0823$ ppm und $-26,6081$~ppm, in der Reihenfolge sind sie den $\beta$- und $\gamma$-Fluoaratomen, den endständigen \ch{CF3}-Gruppen und schließlich den $\alpha$-Fluoratomen zugeordnet. Aufgrund der sehr ähnlichen chemischen Umgebung der $\beta$- und $\gamma$-Fluorsubstituenten überlagern sich deren Peaks.
 
@@ -131,48 +131,48 @@ Zum Schluss wurde die chemische Verschiebung über die Messung verschiedener flu
 
 \section{Theorie}
 
-Die Kernmagnetische Resonanzspektroskopie (nuclear magnetic resonance spectroscopy kurz NMR) ist eine Spektroskopieart, bei der Atome mit einem von null verschiedenen Kernspin detektiert werden können. Im Rahmen dieses Versuches wird der Fokus auf die Untersuchung von Spinrelaxationszeiten und der NMR-Bildgebung gelegt.
+Die Kernmagnetische Resonanzspektroskopie (nuclear magnetic resonance spectroscopy, kurz NMR) ist eine Spektroskopieart, bei der Atome mit einem von null verschiedenen Kernspin detektiert werden können. Im Rahmen dieses Versuches wird der Fokus auf die Untersuchung von Spinrelaxationszeiten und der NMR-Bildgebung gelegt.
 
 \subsection{Grundlagen der Kernmagnetischen Resonanzspektroskopie}
 
-In diesem Versuch werden NMR-Spektren der Kerne \ch{^{1}H} und \ch{^{19}F} aufgenommen. Beide besitzen eine Kernspinquantenzahl von $ I = \frac{1}{2} $. Der Kernspin $\vec{I}$ der beiden Kerne mit $I = \frac{1}{2}$ hat den Betrag $| \vec{I} | = \sqrt{I(I+1)} \hbar$.\supercite{Skript} Der Kernspin $\vec{I}$ ist proportional zum magnetischen Moment $\vec{\mu}$ :
+In diesem Versuch werden NMR-Spektren der Kerne \ch{^{1}H} und \ch{^{19}F} aufgenommen. Beide besitzen eine Kernspinquantenzahl von $ I = \frac{1}{2} $. Der Kernspin $\vec{I}$ der beiden Kerne mit $I = \frac{1}{2}$ hat den Betrag $| \vec{I} | = \sqrt{I(I+1)} \hbar$.\supercite{Skript} Der Kernspin $\vec{I}$ ist proportional zum magnetischen Moment $\vec{\mu}$:
 \begin{equation}
 	\vec{\mu} = \gamma \cdot \vec{I} 
 \end{equation}
-Für die potentielle Energie des Kernspins ergibt sich 
+Die potentielle Energie des Kernspins, die die Zeeman-Wechselwirkung charakterisiert, ist durch \autoref{eq:E} beschrieben.
 \begin{equation}
 	E = -\vec{\mu} \cdot \vec{B_0} = - \mu_z \cdot B_0 = \hbar \cdot \gamma \cdot B_0 \cdot m_I
-	\label{eqE}
+	\label{eq:E}
 \end{equation}
-$m_I$ ist hierbei die magnetische Kernspinquantenzahl, die die folgenden Werte annehmen kann $m_I = -I, -I+1, ...., I$, $\gamma$ beschreibt das gyromagnetische Verhältnis.
+$m_I$ ist hierbei die magnetische Kernspinquantenzahl, die Werte von $m_I = -I$ bis $+I$ annehmen kann und $\gamma$ beschreibt das gyromagnetische Verhältnis.
 Als Auswahlregel für den Energieniveau-Übergang gilt $\Delta m_I = \pm 1$.
-
 Bei den verwendeten Magnetfeldern im Bereich von $B_0 \approx 1 - 22$ T liegen die Einstrahlfrequenzen im Radiowellenbereich.
 
 \subsection{Magnetische Wechselwirkungen}
 
-Wechselwirkungen und elektronische Effekte in chemischen Verbindungeb können zu Aufspaltungen oder Verschiebungen führen. Zu nennen sind hier vor allem die chemische Verschiebung $\delta$, welche von der elektronischen (=chemischen) Umgebung des betreffenden Kernes abhängt und zu einer Verschiebung dessen Frequenz $\nu$ führt. Sie berechnet sich nach \autoref{eq: verschiebung}
+Wechselwirkungen und elektronische Effekte in chemischen Verbindungen können zu Aufspaltungen oder Verschiebungen führen. Zu nennen sind hier vor allem die chemische Verschiebung $\delta$, welche von der elektronischen Umgebung des betreffenden Kernes abhängt und zu einer chemischen Verschiebung dessen Resonanzfrequenz $\nu$ führt. Diese berechnet sich nach \autoref{eq: verschiebung} mit der Resonanzfrequenz $\nu_{\text{Ref}}$ der Referenzsubstanz.
 \begin{equation}
 \delta = \frac{\nu_{\text{Probe}} - \nu_{\text{Ref}}}{\nu_{\text{Ref}}}
 \label{eq: verschiebung}
 \end{equation}
 Da $\delta$ sehr kleine Werte ergibt, werden diese nach Konvention mit $10^6$ multipliziert und in ppm angegeben.
-Anhand dieser chemischen Verschiebung ist es möglich bei \ch{^{13}C} und \ch{^1H} Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins kopppeln, was zu Aufspaltungen im Spektrum führt, dieser Effekt ist als skalare Wechselwirkung bekannt. Außerdem können die Kernspins noch mit ungepaarten Elektronen, bei Anwesenheit paramgagnetischer Substanzen, koppeln.
+Anhand dieser chemischen Verschiebung ist es möglich, bei \ch{^{13}C}- und \ch{^1H}-Spektren Rückschlüsse auf die chemische Struktur der betreffenden Substanz zu ziehen. Weiterhin können Kernspins mit anderen Kernspins koppeln, was zu Aufspaltungen im Spektrum führt. Dieser Effekt ist als skalare Wechselwirkung bekannt. Außerdem können die Kernspins bei Anwesenheit paramagnetischer Substanzen auch mit ungepaarten Elektronen koppeln.
 
 
-\subsection{Spinrelaxation}
+\subsection{Spinrelaxation} \label{Spinrelaxation}
 
-Die makroskopische Kernmagnetisierung $M$ ergibt sich aus der Vektorsumme der magnetischen Momente aller Kerne innerhalb der Probe. Im thermischen Gleichgewicht resultiert daraus aufgrund der energetischen Aufspaltung (Zeeman-Effekt) und der daraus folgenden Besetzungsunterschiede gemäß der Boltzmann-Statistik die Gleichgewichtsmagnetisierung $M_0$ in Richtung des äußeren Feldes. Da wir nur Kerne mit einem Kernspin von $I = 1/2$ betrachten, berechnet sich der Betrag der Magnetisierung wie folgt:
+Die makroskopische Kernmagnetisierung $M$ ergibt sich aus der Vektorsumme der magnetischen Momente aller Kerne innerhalb der Probe. Im thermischen Gleichgewicht resultiert daraus aufgrund der energetischen Aufspaltung des Zeeman-Effektes und der daraus folgenden Besetzungsunterschiede gemäß der Boltzmann-Statistik die Gleichgewichtsmagnetisierung $M_0$ in Richtung des äußeren Feldes. Da hier nur Kerne mit einem Kernspin von $I = \frac{1}{2}$ betrachtet werden, lässt sich der Betrag der Magnetisierung nach \autoref{eq: M0} berechnen.
 \begin{equation}
 	M_0 = N \frac{\gamma^2 \hbar^2 B_0}{4kT} 
+    \label{eq: M0}
 \end{equation}
 
-Beim FT-Verfahren wird das System einem kurzen Radiofrequenzimpuls (wenige \textmu s) ausgesetzt, der den Gleichgewichtszustand stört. Dabei wird der longitudinale Magnetisierungsvektor aus der $z$-Richtung in die transversale Ebene ($x,y$-Ebene) geklappt. Nach dem RF-Impuls wird die Präzession dieser Quermagnetisierung als Induktionsspannung detektiert, welche später in Form einer Intensität angegeben wird. Dieses Signal, der Free Induction Decay (FID), klingt mit der effektiven Relaxationszeit $T_2^*$ ab, welche sowohl die molekulare Spin-Spin-Relaxation ($T_2$) als auch Inhomogenitäten des statischen Magnetfeldes berücksichtigt. Der Ablauf dessen, inklusive Detektion von Sender- und Empfängerspule ist in \autoref{fig: FID} schematisch dargestellt.
-
+Beim FT-Verfahren wird ein starker Radiofrequenzimpuls kurz auf die Probe eingestrahlt, wodurch der Gleichgewichtszustand gestört wird. Dabei wird der longitudinale Magnetisierungsvektor aus der $z$-Richtung in die transversale Ebene ($x,y$-Ebene) ausgelenkt. Nach Erreichen der $x,y$-Ebene wird der RF-Impuls gestoppt und der zeitliche Verlauf der Präzession dieser Quermagnetisierung durch die Empfängerspule als Induktionsspannung detektiert, welche später in Form einer Intensität am Computer ausgegeben wird. Dieses Signal, der Free Induction Decay (FID), klingt mit der effektiven Relaxationszeit $T_2^*$ ab, welche sowohl die molekulare Spin-Spin-Relaxationszeit $T_2$ als auch Inhomogenitäten des statischen Magnetfeldes berücksichtigt. Der Ablauf dieser Messtechnik mit Sender- und Empfängerspule ist in \autoref{fig: FID} schematisch dargestellt.
+Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klassische Lorentzkurve dargestellt.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{A05/FID.jpeg}
-    \caption{Darstellung der FT-Messtechnik zur Bestimmung des FID-Signals (unterer Pfad).\supercite{Skript}} 
+    \caption{Schematische Darstellung der FT-Messtechnik zur Bestimmung des FID-Signals (unterer Pfad) und des Absorptionsspektrums durch Fouriertransformation.\supercite{Skript}} 
     \label{fig: FID}
 \end{figure}
 
@@ -182,19 +182,19 @@ Nach Bloch stellt sich diese Gleichgewichtsmagnetisierung nach einem Geschwindig
     \label{eq:blo}
 \end{equation}
 
-Die Relaxationszeit $T_1$ ist hierbei die Spin-Gitter-Relaxationszeit, sie beschreibt den Energieaustausch zwischen Spinsystem und den Freiheitsgraden der benachbarten Atome und Moleküle, welche als Gitter aufgefasst werden.
+Die Relaxationszeit $T_1$ ist hierbei die Spin-Gitter-Relaxationszeit, die den Energieaustausch zwischen Spinsystem und den Freiheitsgraden der benachbarten Atome und Moleküle beschreibt, welche als Gitter aufgefasst werden.
 
-Mittels Fouriertransformation wird das Signal der Präzessionsbewegung als klassische Lorentzkurve dargestellt.
 
 \subsection{Relaxationszeiten}
 
-Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen wird eine Inversion-Recovery- Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Durch Einsetzen von $M_Z (\tau = 0) = -M_0 $ in \autoref{eq:blo} lässt sich \autoref{eq: T1} herleiten.
+Um die Spin-Gitter-Relaxationszeit $ T_1 $ zu messen, wird eine Inversion-Recovery-Sequenz, bestehend aus einer $ 180^{\circ} -  \tau - 90^{\circ} -$ Impulsfolge, eingesetzt. Die Richtung der Magnetisierung wird durch den $ 180^{\circ}$-Impuls entlang der $z$-Achse invertiert und nach einer variierten Wartezeit $\tau$, in der die Spins durch die Spin-Gitter-Relaxation langsam wieder in den Gleichgewichtszustand zurückkehren, durch einen $90^{\circ}$-Impuls in die $xy$-Ebene geklappt, wo sie detektiert werden kann.
+Durch Einsetzen von $M_z (\tau = 0) = -M_0 $ in \autoref{eq:blo} lässt sich \autoref{eq: T1} herleiten.
 \begin{equation}
     M_z(\tau) = M_0 \left( 1 - 2 e^{-\frac{\tau}{T_1}} \right)
     \label{eq: T1}
 \end{equation}
 
-Die Bestimmung der Spin-Spin-Relaxationszeit $T_2$ erfolgt mittels der Carr-Purcell-Sequenz. Dabei wird nach einem anfänglichen $90^\circ$-Puls eine Serie von $180^\circ$-Refokus\- sierungsimpulsen eingestrahlt, um die durch Feldinhomogenitäten verursachte Dephasierung umzukehren und eine Folge von Spinechos zu erzeugen. Die Abnahme der Amplitude der Echos hängt dabei nur von der Spin-Spin-Relaxationszeit $T_2$ ab. Die Amplitude des Spinechosignals zum Zeitpunkt $t = 2n\tau$ ergibt sich nach \autoref{eq: T2}:
+Die Bestimmung der Spin-Spin-Relaxationszeit $T_2$ erfolgt mittels der Carr-Purcell-Impulssequenz. Dabei wird nach einem anfänglichen $90^\circ$-Puls eine Serie von $180^\circ$-Refokussierungsimpulsen eingestrahlt, um den durch Feldinhomogenitäten verursachten Phasenverlust der Spins umzukehren und eine Folge von Spinechos zu erzeugen. Die Abnahme der Amplitude der Echos hängt dabei nur von der Spin-Spin-Relaxationszeit $T_2$ ab. Die Amplitude des Spinechosignals zum Zeitpunkt $t = 2n\tau$ lässt sich durch \autoref{eq: T2} beschreiben.
 \begin{equation}
     M(t) = M_0 \cdot e^{-\frac{t}{T_2}}
     \label{eq: T2}
@@ -203,11 +203,12 @@ Die Bestimmung der Spin-Spin-Relaxationszeit $T_2$ erfolgt mittels der Carr-Purc
 
 \subsection{Bildgebung}
 
-Bei der NMR-Bildgebung werden zwei- oder dreidimensionale Bilder von Objekten durch eine ortsaufgelöste Erfassung der Probe erstellt. Wirkt ein homogenes Magnetfeld $B_0$, welches von einem linearen Gradienten $G_x = \partial B / \partial x$ in $x$-Richtung überlagert wird, so ist ein linearer Zusammenhang zwischen der Frequenz und der $x$-Position beobachtbar. Bei modernen Methoden werden zudem Gradienten in $y$-Richtung verwendet, sowie in Abhängigkeit der Zeit gemessen. Zur Aufnahme eines zweidimensionalen Schnittbildes wird ein Gradient in z-Richtung während des Anregungsimpulses angelegt (Schichtselektion), sodass nur Kerne in einer bestimmten Ebene die Resonanzbedingung erfüllen. Die Ortskodierung innerhalb dieser Schicht erfolgt anschließend durch Gradienten in x- und y-Richtung (Frequenz- und Phasenkodierung).“ Mit ihr ist es möglich die Resonanzbedingung in abhängigkeit des Gradienten zu bestimmen. Ein frequenzselektiver RF-Impuls der Form einer sin(x)/x-Funktion wird verwendet um eine gute Auflösung zu erhalten.
+Bei der NMR-Bildgebung werden zwei- oder dreidimensionale Bilder von Objekten durch eine ortsaufgelöste Erfassung der Probe erstellt. Wirkt ein homogenes Magnetfeld $B_0$, welches von einem linearen Gradienten $G_x = \frac{\partial B}{ \partial x}$ in $x$-Richtung überlagert wird, so ist ein linearer Zusammenhang zwischen der Frequenz und der $x$-Position beobachtbar. %Bei modernen Methoden werden zudem Gradienten in $y$-Richtung verwendet, sowie in Abhängigkeit der Zeit gemessen. 
+Zur Aufnahme eines zweidimensionalen Schnittbildes wird ein Gradient in z-Richtung während des Anregungsimpulses angelegt (Schichtselektion), sodass nur Kerne in einer bestimmten Ebene die Resonanzbedingung erfüllen. Die Ortskodierung innerhalb dieser Schicht erfolgt anschließend durch Gradienten in x- und y-Richtung (Frequenz- und Phasenkodierung). Mit ihr ist es möglich die Resonanzbedingung in Abhängigkeit des Gradienten zu bestimmen. Ein frequenzselektiver RF-Impuls der Form einer sin(x)/x-Funktion wird verwendet, um eine gute Auflösung zu erhalten.
 
 
 \section{Versuchsdurchführung}
-Vor Beginn der Messungen wurde der ''Daily-Chek'' durchgeführt. Dafür wurde die Probe Daily-Check Sample in das Spektrometer gestellt und die Messung gestartet.
+Vor Beginn der Messungen wurde der ''Daily-Check'' durchgeführt. Dafür wurde die Probe Daily-Check Sample in das Spektrometer gestellt und die Messung gestartet.
 Als nächstes wurde mit derselben Probe ein FID-Signal aufgenommen, indem die Parameter auf NS = 10, RD = 1 s, Receiver Gain = 66 dB, detection mode = magnitude eingestellt wurden.
 
 \subsection{Kernspinrelaxation von Lösungen paramagnetischer Ionen}
@@ -228,7 +229,7 @@ Im zweiten Teil dises Versuchs wurde eine andere Probe mit der Messapplikation '
 
 \subsection{Chemische Verschiebung}
 
-Im dritten Versuchsteil wurden drei Proben (\ch{CFCl3}, eine \ch{CFCl3}/\ch{C6H11F}-Mischung sowie PFTBA) mit der Messapplikation \texttt{fluor\_ft\_pcII} vermessen. Das für jede Probe aufgenommene FID-Signal wurde anschließend fourier-transformiert, um die entsprechenden \ch{^{19}F}-NMR-Spektren zu erhalten und die chemische Verschiebung der Signale zu bestimmen.
+Im dritten Versuchsteil wurden die Probe \ch{CFCl3}, eine \ch{CFCl3}/\ch{C6H11F}-Mischung sowie Perfluortributylamin mit der Messapplikation ''fluor\_ft\_pcII'' und den gleichen Parametern wie im Daily-Check, aber einem Receiver Gain von 79 dB vermessen. Das für jede Probe aufgenommene FID-Signal wurde anschließend fourier-transformiert, um die entsprechenden \ch{^{19}F}-NMR-Spektren zu erhalten und die chemische Verschiebung der Signale zu bestimmen.
 
 \section{Messwerte}
 
@@ -272,7 +273,7 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
 
 \subsubsection{FID-Messungen}
 
-\autoref{fig: FID_Check} zeigt das aufgenommene FID-Signal der ''Daily-Check-Probe'' und \autoref{fig: FID_Cu} das der Kupfersulfat-Lösung.
+Das aufgenommene FID-Signal der ''Daily-Check-Probe'' ist in \autoref{fig: FID_Check} und das der Kupfersulfat-Lösung in \autoref{fig: FID_Cu} dargestellt und beginnt wie in \autoref{Spinrelaxation} beschrieben, direkt nach der vollständigen Auslenkung in die $x,y$-Ebene.
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{A05/Check/fid_pcii.Daylicheck.pdf}
@@ -286,7 +287,7 @@ Die Signalintensitäten in \autoref{tab: T1} entsprechen den Startintensitäten 
     \caption{FID-Signal der \ch{CuSO4}-Probe.} 
     \label{fig: FID_Cu}
 \end{figure}
-Der Vergleich der beiden Messungen zeigt, dass der FID der beiden Proben sehr änlich verläuft. Der einzige sichtbare Unterschied ist die gemessene Intensität beim Start der Messung, da die der ''Daily-Check-Probe'' bei ungefähr 85 \% und die der Kupfersulfat-Lösung bei ungefähr 105 \% liegt. 
+Der Vergleich der beiden Messungen zeigt, dass die FID-Signale der beiden Proben sehr ähnlich verlaufen. Der einzige sichtbare Unterschied ist die gemessene Intensität beim Start der Messung, da die der ''Daily-Check-Probe'' bei ungefähr 85 \% und die der Kupfersulfat-Lösung bei ungefähr 105 \% liegt. Daraus lässt sich schließen, dass die  
 
 \subsubsection{Relaxationszeiten}
 Die gemessenen Signalintensitäten aus \autoref{tab: T1} lassen sich gegen die zugehörigen $\tau$-Werte auftragen, wie in \autoref{fig: T1_Mess} dargestellt ist.
