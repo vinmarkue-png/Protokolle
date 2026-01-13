@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber NMR_A05-v01"] 1768303359.26822 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768307918.64233 0
-  "NMR_A05-v01.bcf" 1768307917 108427 3405eb042245997b15be473ab16d78c0 "pdflatex"
+["biber NMR_A05-v01"] 1768308375.18263 "NMR_A05-v01.bcf" "NMR_A05-v01.bbl" "NMR_A05-v01" 1768308385.93861 0
+  "NMR_A05-v01.bcf" 1768308385 108427 3405eb042245997b15be473ab16d78c0 "pdflatex"
   "lit.bib" 1766415262 552 cf0b5c4e9b4157d83c5b7e79210d820a ""
   (generated)
   "NMR_A05-v01.bbl"
   "NMR_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768307912.50316 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768307918.64405 0
+["pdflatex"] 1768308378.62134 "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" "NMR_A05-v01.pdf" "NMR_A05-v01" 1768308385.93996 0
   "A05/Bildgebung/Probe 1/Wasser0.pdf" 1768074810 13918 46285d716a30515554b7f0930ebad052 ""
   "A05/Bildgebung/Probe 1/Wasser90.pdf" 1768074810 13554 52c3b662d8b42dadd2bae486b85b3283 ""
   "A05/Bildgebung/Probe 2/Probe2_oben.png" 1767958535 141887 7bef51507fea8f9b54c78636642d2f5d ""
@@ -21,12 +21,12 @@
   "A05/Paramagnetisch/FID/fid_pcii_FID.pdf" 1767958535 48980 fd50e1bcc0f700c42a0898d6dfa41f47 ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_T1.pdf" 1767958535 10601 1600d7dcf9937da9be382fb353f6c19f ""
   "A05/Paramagnetisch/T1 Inversion/NMR_data_ln_Fit.pdf" 1767958535 20633 ecded6aa39521373fa43898049592b6f ""
-  "NMR_A05-v01.aux" 1768307917 17587 d21bcad784b2029f8a0142174e65614d "pdflatex"
-  "NMR_A05-v01.bbl" 1768303373 1610 1f6e9ab0b7a0356787e83202e620d6d0 "biber NMR_A05-v01"
-  "NMR_A05-v01.run.xml" 1768307917 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
-  "NMR_A05-v01.tex" 1768307910 31961 63cef77063264350a0fe20dd847b1102 ""
-  "NMR_A05-v01.toc" 1768307917 2433 c174392a3333fa19e0ab5ba1b4d08109 "pdflatex"
-  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768307910 31961 63cef77063264350a0fe20dd847b1102 ""
+  "NMR_A05-v01.aux" 1768308385 17587 d21bcad784b2029f8a0142174e65614d "pdflatex"
+  "NMR_A05-v01.bbl" 1768308378 1610 1f6e9ab0b7a0356787e83202e620d6d0 "biber NMR_A05-v01"
+  "NMR_A05-v01.run.xml" 1768308385 2486 fc815989ace51b2b49452a9a17d098dd "pdflatex"
+  "NMR_A05-v01.tex" 1768308372 33065 5bedefe642a0ff7fafdfd223aa9cb85e ""
+  "NMR_A05-v01.toc" 1768308385 2433 c174392a3333fa19e0ab5ba1b4d08109 "pdflatex"
+  "c:/Users/49157/OneDrive/Dokumente/1. Uni Stuttgart/1.4. PC/1.4.6. PC II Lab/Protokolle/PC2/NMR/NMR_A05-v01.tex" 1768308372 33065 5bedefe642a0ff7fafdfd223aa9cb85e ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765623789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
