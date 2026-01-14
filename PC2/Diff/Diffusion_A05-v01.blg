@@ -1,9 +1,0 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'Diffusion_A05-v01.blg'
-[244] biber-MSWIN64:342> INFO - === 
-[339] Biber.pm:421> INFO - Reading 'Diffusion_A05-v01.bcf'
-[565] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[586] bbl.pm:676> INFO - Writing 'Diffusion_A05-v01.bbl' with encoding 'UTF-8'
-[586] bbl.pm:779> INFO - Output to Diffusion_A05-v01.bbl
-[587] Biber.pm:132> WARN - The file 'Diffusion_A05-v01.bcf' does not contain any citations!
-[587] Biber.pm:134> INFO - WARNINGS: 1
