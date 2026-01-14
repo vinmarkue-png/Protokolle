@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'NMR_A05-v01.blg'
-[154] biber-MSWIN64:342> INFO - === 
-[214] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
-[366] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[383] Biber.pm:4487> INFO - Processing section 0
-[398] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[475] bibtex.pm:1713> INFO - LaTeX decoding ...
-[486] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[553] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[553] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
-[553] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
-[553] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
-[555] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
-[557] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
+[225] biber-MSWIN64:342> INFO - === 
+[288] Biber.pm:421> INFO - Reading 'NMR_A05-v01.bcf'
+[525] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[554] Biber.pm:4487> INFO - Processing section 0
+[574] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[658] bibtex.pm:1713> INFO - LaTeX decoding ...
+[671] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[752] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[752] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[752] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[752] Biber.pm:4313> INFO - No sort tailoring available for locale 'de-DE'
+[755] bbl.pm:676> INFO - Writing 'NMR_A05-v01.bbl' with encoding 'UTF-8'
+[757] bbl.pm:779> INFO - Output to NMR_A05-v01.bbl
