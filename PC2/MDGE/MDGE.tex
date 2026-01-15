@@ -16,14 +16,14 @@
 \usepackage{subfigure}
 %\renewcaptionname{ngerman}{\figurename}{Fig.}
 %\renewcaptionname{ngerman}{\tablename}{Table}
-\sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+\sisetup{detect-weight=true, detect-family=true,locale=UK,range-phrase={\.bis\.},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction, exponent-product = \cdot}
 \DeclareSIUnit\curie{Ci}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
 
 \usepackage{chemgreek}
 \usepackage{chemformula}
-\sisetup{detect-weight=true, detect-family=true,locale=US,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
+
 %macht komata anstatt kreuze bei Zehnerpotenzen
 \geometry{left = 2.5cm} \geometry{top = 3cm}
 
@@ -120,7 +120,7 @@
 \textbf{Abstract:}
 Molecular Dynamics Simulations (MDS) were used to simulate the sublimation curve and phase transitions of Argon.
 The onset of the simulated sublimation curve was located 10 K lower, the melting and boiling points $T_m \approx 77$ K and $T_b \approx 137$ K deviate due to not enough iterations in the Velocity-Verlet algorithm and approximations made in the used LJ-potential.\\
-The sublimation enthalpy of argon was calculated as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$, the lattice energy with experimental values as $U_\mathrm{lattice,D} = -\SI{8742,961 \pm 4.3562}{\frac{J}{mol}}$ and the theoretical energy as $U_\mathrm{lattice,E} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 3.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
+The sublimation enthalpy of argon was calculated as $\Delta H_\mathrm{sub} = \SI{8325.640}{\frac{J}{mol}}$, the lattice energy with experimental values as $U_\mathrm{lattice,D} = -\SI{8742,961 \pm 4.3562}{\frac{J}{mol}}$ and the theoretical energy as $U_\mathrm{lattice,E} = -\SI{8441.849}{\frac{J}{mol}}.$ The deviation from the theoretical lattice energy was 5.6\%, which shows that the LJ-potential provides a good approximated value for the lattice energy of argon.
 
 
 
@@ -252,7 +252,7 @@ The calculated values of the temperature in the cryogenic cell are also listed i
 % Tabelle mit Messdaten von Argon Experiment
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system.}
+    \caption{Listed are the measured and transformed pressures of argon and nitrogen as well as the calculated temperature of the system.\\}
 \begin{tabular}{c|c|c|c|c}
 $t$  [s] & $p_\mathrm{Ar}$ [bar] & $p_\mathrm{N_2}$ [bar] & $p_\mathrm{N_2}$ [torr] & $T$ [K] \\
 \hline
@@ -415,7 +415,8 @@ The sublimation enthalpy can be determined by plotting the natural logarithm of 
     \label{fig: LogPlot}
 \end{figure}
 
-The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. By rearranging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy. Using python the error of the slope was calculated $\Delta \mathrm{m} = \pm \SI{4,3562}{K}$.  
+The resulting fit shows a straight line with the function $\mathrm{y} = \mathrm{m} \cdot \mathrm{x} + \mathrm{b}$ with slope $\mathrm{m} = \SI{-1001.4}{K}$ and $\mathrm{b} = 11.616$. Using python the error of the slope was calculated as $\Delta \mathrm{m} = \pm \SI{4,3562}{K}$.
+By rearranging the Clausius-Clapeyron equation \ref{eq:Clausius} it is possible to calculate the sublimation enthalpy.  
 \begin{equation*}
     \Delta H_\mathrm{sub} = \mathrm{m} \cdot R,
 \end{equation*}
@@ -441,7 +442,7 @@ The lattice energy can now be calculated by rearranging equation \ref{eq:Us1}.
     &= -\SI{6870.69}{\frac{J}{mol}} - \SI{1872.271}{\frac{J}{mol}}\\
     &= -\SI{8742,961}{\frac{J}{mol}}
 \end{align*}
-The uncertainty of the slope directly affects the uncertainty of the lattice energy which can then be written as $U_\mathrm{lattice,D} = -\SI{8742,961 \pm 4.3562}{\frac{J}{mol}}$
+The uncertainty of the slope $\Delta m$ directly affects the uncertainty of the lattice energy $\Delta U_\mathrm{lattice,D}$ which can then be written as $U_\mathrm{lattice,D} = -\SI{8742,961 \pm 4.3562}{\frac{J}{mol}}$
 An alternative method of calculating the lattice energy is by using equation \ref{eq:LatticeEnergy_Pair}. To do this, the minimal distance $a$ between atoms has to be calculated by using the equation for a face-centered cubic lattice and the lattice constant of argon wich is given as $\SI{5.43 e-10}{m}$.
 \begin{align*}
     a &= \frac{1}{\sqrt{2}} ~ \cdot ~ \SI{5.43 e-10}{m}\\
