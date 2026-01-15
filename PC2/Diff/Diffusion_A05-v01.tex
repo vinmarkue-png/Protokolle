@@ -134,7 +134,101 @@
 
 
 \section{Theory}
+Molecular diffusion describes the movement of particles from a region of high concentration to a region of low concentration, which leads to an even distribution of particles.\supercite{Skript}
+It was first discovered by Robert Brown, who observed the random movement of tiny particles suspended in a liquid, which is called Brownian motion. Then German physicist Adolf Fick lay the theoretical foundation for diffusion by formulating two laws. \\
+%\subsection{Fick's Laws}
+The first Fick's law describes how the particle flux density $j(z)$ is connected to the Diffusion coefficient $D$ and the concentration gradient $\frac{\partial c(z)}{\partial z}$, which is shown in \autoref{eq:2.8}.
+\begin{equation} 
+j(z) = -D \cdot \frac{\partial c}{\partial z} 
+\label{eq:2.8} 
+\end{equation}
+The physical meaning of the first Fick's law is that a concentration gradient leads to mutual diffusion of particles, leading to an even distribution.
+The diffusion coefficient can also be defined by the ,,Einstein relation'' in \autoref{eq:2.7}.
+\begin{equation}
+    D = \frac{1}{2}\nu \Delta z^2
+    \label{eq:2.7}
+\end{equation}
+$\nu$ is the jump rate and $\Delta z^2$ the mean square jump distance of particles, assuming that they can only move along the z axis.
+Second Fick's law describes the temporal course of concentration as shown in \autoref{eq:2.11}.
+\begin{equation} 
+\frac{\partial c}{\partial t} = D \cdot \frac{\partial^2 c}{\partial z^2} \label{eq:2.11} 
+\end{equation}
+\autoref{eq:2.11} states that the concentration equalization proceeds faster the stronger the concentration gradient.
+By integrating seconds Fick's law from \autoref{eq:2.11} under certain boundary conditions and using the substition $\mu = \frac{x}{\sqrt{4Dt}}$, \autoref{eq:2.14} for the profile of concentration can be obtained.
+\begin{equation} 
+c = \frac{c_2}{2} \cdot \left(1-\frac{2}{\sqrt{\pi}}\int_{0}^{\mu} e^{-\mu^2} \,d \nu \right)
+\label{eq:2.14} 
+\end{equation}
+By deriving \autoref{eq:2.14}, the function is simplified into \autoref{eq:2.15} which leads to the concentration gradient profile having the shape of a Gaussian bell curve, as is illustrated in \autoref{fig: profiles}. 
+\begin{equation} 
+\frac{dc}{dz} = -\frac{c_2}{2\sqrt{\pi Dt}} \cdot e^{-\mu^2} 
+\label{eq:2.15} 
+\end{equation}
+Assuming that the refractive index $n$ is proportional to $c$ and knowing that the gradient has an extreme value at $z=0$, as can be seen in \autoref{fig: profiles}, \autoref{eq:2.18} describes the refractive index gradient at $z=0$ with the indices of water $n_1$ and of the salt solution $n_2$.\supercite{Skript}
+\begin{equation} 
+\left( \frac{dn}{dz} \right)_{z=0} = -\frac{n_1 - n_2}{2\sqrt{\pi Dt}} \label{eq:2.18} 
+\end{equation}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.65\textwidth]{Bilder/profiles.png}
+    \caption{Profiles of the concentration and concentration gradient.\supercite{Skript}} 
+    \label{fig: profiles}
+\end{figure}
+
+%\subsection{The Schlieren Method}
+Following this argumentation, diffusion leads to a continuously changing refractive index profile which causes a light beam directed to a cuvette of a salt solution with a concentration gradient to be refracted toward the optically denser medium. That is called Snell's law of refraction and shown in \autoref{fig: setup}. 
+The exit angle $\beta$ und the degree of curvature can be described with \autoref{eq:2.21} and \ref{eq:2.19}, where $\alpha$ is the angle of incidence and $r$ the radius of the curvature of the light beam.\supercite{Skript}
+\begin{align}
+    \beta &= \frac{n}{n_0} \alpha \label{eq:2.21} \\
+    \frac{1}{r} &= \frac{1}{n} \frac{dn}{dz} = \frac{d \ln(n)}{dz} \label{eq:2.19}
+\end{align}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Bilder/setup.png}
+    \caption{Scheme of the experimental setup geometry.\supercite{Skript}} 
+    \label{fig: setup}
+\end{figure}
+The Huygen's principle states that every point of a wavefront can be seen a the origin of a spherical elementary wave. That's why the path of the light beam is curved in a medium with a spatially dependent refractive index $n(z)$ due to a lateral phase shift within the wavefront. The strongest deflection is experienced by the part of the beam that passes through the steepest concentration gradient region.
+With the small-angle approximation and \autoref{eq:2.21} and \ref{eq:2.19}, the refractive index gradient can be described by \autoref{eq:2.23}.
+\begin{equation}
+    \frac{dn}{dz} \approx \frac{Z}{L} \cdot \frac{n_0}{K}
+    \label{eq:2.23}
+\end{equation}
+$L$ is the distance between the cuvette and the screen, $K$ the thinkness of the cuvette, $n_0$ the refractive index of air and $Z$ the distance between the straight extension of the beam at the exit point and the impact point on the screen.
+By equating \autoref{eq:2.23} and \autoref{eq:2.18} and rearranging to the diffusion constant $D$, \autoref{eq:2.24} is derived to calculate $D$ using the Schlieren Method.\supercite{Skript}
+\begin{equation} 
+D = \frac{(n_1-n_2)^2L^2K^2}{4\pi n_0^2 Z^2 t}
+\label{eq:2.24} 
+\end{equation}
+
+
+
 \section{Procedure}
+
+The experimental setup was already built prior to the start of the measurements as shown in \autoref{fig: setup}. The laser beam was light path was tilted at
+about 45°.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Bilder/setupcam.png}
+    \caption{Scheme of the laser beam geometry.\supercite{Skript}} 
+    \label{fig: setupcam}
+\end{figure}
+The experiment began with 
+
+
+
+
+\section{Analysis}
+
+To evaluate \autoref{fig: }, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:Plot Formel}, which shows the connection between the slope $m$ and the diffusion coefficient.
+\begin{align} 
+Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
+&= m \cdot t
+\label{eq:Plot Formel} 
+\end{align}
+
 \section{Error Discussion}
 
 \section{Conclusion}
