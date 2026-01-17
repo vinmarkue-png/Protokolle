@@ -221,6 +221,28 @@ The experiment began with
 
 
 \section{Analysis}
+\subsection{Refractive indices}
+The refractive indices of deionized water and the different salt solutions were measured with a refractometer and are listed in \autoref{tab:refractive_indices}.
+\begin{table}[H]
+\centering
+\caption{Measured refractive indices of deionized water and different salt solutions.\\}
+\begin{tabular}{c|c}
+\text{Solution} & \text{n} \\ 
+\hline
+$\text{H}_2\text{O}$ (deionized) & 1.3375 \\
+$\text{NaCl}$ (2M) & 1.3541 \\
+$\text{KCl}$ (2M) & 1.3514 \\
+$\text{ZnSO}_4$ (2M) & 1.3725 \\
+\end{tabular}
+\label{tab:refractive_indices}
+\end{table}
+The \ch{NaCl} and \ch{KCl} solutions have similar refractive indices of $n_{\ch{NaCl}} = 1.3541$ and $n_{\ch{KCl}} = 1.3514$, while the \ch{ZnSO4} solution has a significantly higher refractive index of $n_{\ch{ZnSO4}} = 1.3725$ than the others. This is due to the much higher polarizability of the larger \ch{SO4^{2-}} ion with a higher ionic charge in comparison to the \ch{Cl^-} ion. Additionally, the higher molar mass of \ch{ZnSO4} results in a significantly higher mass density at the same molar concentration (2M).
+\ch{Na+} has a higher charge density than \ch{K+} due to its smaller size, which polarizes the surrounding water molecules more, leading to a slightly higher refractive index.
+
+\subsection{Diffusion coefficients}
+
+
+
 
 To evaluate \autoref{fig: }, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:Plot Formel}, which shows the connection between the slope $m$ and the diffusion coefficient.
 \begin{align} 
@@ -229,7 +251,17 @@ Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
 \label{eq:Plot Formel} 
 \end{align}
 
+
+
+
+\newpage
+
 \section{Error Discussion}
+The refractive indices of the salt solutions deviate from literature values due to manual adjustment of the borderline in the refractometer, which was based on subjective visual inspection. Especially in the case of \ch{ZnSO4}, the borderline was very blurred, which led to a measurement uncertainty in the refractive index. The measurements of the refractive indices were performed at room temperature without active thermal stabilization, which can lead to deviations as well, since refractive indices are temperature dependent. The influence on the diffusion coefficients calculated with \autoref{eq:2.24} is significant, since the refractive indices appear squared in the denominator.\\
+% assumptions made in the experiment that may affect the accuracy of the results. List these assumptions and evaluate the extent to which they could influence the outcome.
+It is assumed that at a concentration of 2M, the refractive index is still proportional to the concentration. However, at higher concentrations, deviations can occur due to Coulomb interactions between ions, 
+
+
 
 \section{Conclusion}
 
