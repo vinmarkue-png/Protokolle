@@ -108,12 +108,12 @@
 \vspace{0cm}\\
 \large{Betreuer:}		& \large{\BETREUER} \\
 \vspace{0cm}\\
-\large{Erstabgabedatum:} & \large{\PROTOKOLLDATUM}
+\large{Zweitabgabedatum:} & \large{\PROTOKOLLDATUM}
 \end{tabular}
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
-In diesem Versuch wurde anhand verschiedener Proben die Messtechnik der NMR-Spektroskopie untersucht. Dazu wurden im ersten Versuchsteil die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$ und die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ einer \ch{CuSO4}-Lösung über das Inversion-Recovery- und Carr-Purcell-Experiment bestimmt.
+In diesem Versuch wurde anhand verschiedener Proben die Messtechnik der NMR-Spektroskopie untersucht. Dazu wurden im ersten Versuchsteil die Spin-Gitter-Relaxationszeit $T_1 = (\SI{64,59}{} \pm \SI{1,04}{})$\,ms und die Spin-Spin-Relaxationszeit $T_2 = (\SI{78,60}{} \pm \SI{1,42}{})$\,ms einer \ch{CuSO4}-Lösung über das Inversion-Recovery- und Carr-Purcell-Experiment bestimmt.
 Anschließend wurde die NMR-Bildgebung durch die Messung von zwei Wasserproben sowie einer 2D Messung eines Buchstabens untersucht.
 Zum Schluss wurde die chemische Verschiebung über die Messung verschiedener fluorhaltiger Proben gegen \ch{CFCl3} als Standard gemessen. Dabei wurde für \ch{C6H11F} eine Verschiebung von $\delta = \SI{-83,81}{ppm}$ und für Perfluortributylamin Verschiebungen von $\delta = \SI{-135,39}{ppm}$, $\delta = \SI{-122,08}{ppm}$ und $\delta = \SI{-26,61}{ppm}$ ermittelt.
 \end{titlepage}
@@ -313,9 +313,9 @@ Durch Auftragung von $\ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right)$ gegen $\t
     \caption{Auftragung von $\ln \left(\frac{M_0 - M_z(\tau)}{2 M_0} \right)$ gegen die Zeit $\tau$.} 
     \label{fig: ln_T1}
 \end{figure}
-Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit der Steigung $m = -0{,}015483$ und $c = 0{,}0728$ lässt sich die Spin-Gitter-Relaxationszeit $T_1$ nach \autoref{eq: ln_T1} berechnen, da $m$ dem Wert $-\frac{1}{T_1}$ entspricht.
+Aus der Geradengleichung $y = m \cdot \tau + c$ des Fits mit der Steigung $m = \SI{-0,015483}{ms^{-1}}$ und $c = 0{,}0728$ lässt sich die Spin-Gitter-Relaxationszeit $T_1$ nach \autoref{eq: ln_T1} berechnen, da $m$ dem Wert $-\frac{1}{T_1}$ entspricht.
 \begin{equation}
-    T_1 = - \frac{1}{m} = - \frac{1}{-0{,}015483} = \SI{64,59}{ms}
+    T_1 = - \frac{1}{m} = - \frac{1}{\SI{-0,015483}{ms^{-1}}} = \SI{64,59}{ms} \label{eq: T1m}
 \end{equation}
 % T1 = 64.59 ms
 
@@ -370,9 +370,9 @@ Durch Auftragung von $\ln M (2n \tau)$ gegen $\tau$ lässt sich \autoref{fig: ln
     \caption{Auftragung der logarithmierten Magnetisierung der gemessenen Spinechos gegen die Zeit $\tau$.} 
     \label{fig: ln_T2}
 \end{figure}
-Aus der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = -0{,}012723$ und $c = 5{,}1207$ lässt sich die Spin-Spin-Relaxationszeit $T_2$ nach \autoref{eq: ln_T2} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_2}$ entspricht.
+Aus der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = \SI{-0,012723}{ms^{-1}}$ und $c = 5{,}1207$ lässt sich die Spin-Spin-Relaxationszeit $T_2$ nach \autoref{eq: ln_T2} berechnen, da die Steigung $m$ dem Wert $-\frac{1}{T_2}$ entspricht.
 \begin{equation}
-    T_2 = - \frac{1}{m} = - \frac{1}{-0{,}012723} = \SI{78,60}{ms}
+    T_2 = - \frac{1}{m} = - \frac{1}{\SI{-0,012723}{ms^{-1}}} = \SI{78,60}{ms} \label{eq: T2m}
 \end{equation}
 %T2 = 78.60 ms
 Somit ist die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ der \ch{CuSO4}-Probe größer als die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$.
@@ -464,17 +464,38 @@ Die Zuordnung dieser drei Peaks lässt sich durch die elektronische Struktur des
 
 Dass im Spektrum insgesamt nur drei Signale, trotz vier chemisch verschiedener Fluoratome für die Butylkette zu beobachten sind, liegt an der elektronischen / chemischen Änlichkeit der beiden mittleren Fluoratome. Wie im beigefügten Paper erläutert, weisen die Fluoratome in den mittleren $\beta$- und $\gamma$-Positionen nahezu identische chemische Umgebungen auf.\supercite{Ribeiro2003} Infolgedessen überlagern sich ihre Resonanzen zu einem gemeinsamen, intensiven Peak bei \SI{-135,3912}{ppm}, was die geringere Anzahl an beobachteten Signalen im Vergleich zur Anzahl der chemisch unterschiedlichen Kohlenstoffpositionen erklärt. Die grafisch ermittelten Linienbreiten der Signale in diesem Datensatz betragen circa \SI{0,15}{\kilo\hertz}, \SI{0,21}{\kilo\hertz} und \SI{0,50}{\kilo\hertz}, was auf der ppm-Skala Werten von \SI{7,99}{ppm}, \SI{11,19}{ppm} und \SI{26,65}{ppm} entspricht.
 
-\section{Fehlerbetrachtung} 
+\section{Fehlerbetrachtung}
+\subsection{Fehlerrechnung}
+Die Fehler der berechneten Relaxationszeiten werden durch Gaußsche Fehlerfortpflanzung ausgehend von \autoref{eq: T1m} und \autoref{eq: T2m} mit den Fehlern der Steigungen $\Delta m_1 = \SI{2,5e-04}{ ms^{-1}}$ und $\Delta m_2 = \SI{2,3e-04}{ ms^{-1}}$ der Fitgeraden bestimmt.
+\begin{align*}
+    \Delta T_1
+    &= \left| \frac{\partial T_1}{\partial m_1} \right|
+       \cdot \Delta m_1
+       = \frac{1}{m_1^2} \cdot \Delta m_1 \\[0.5em]
+    &= \frac{1}{(\SI{-0,015483}{ms^{-1}})^2}
+       \cdot \SI{2,5e-04}{ms^{-1}}
+       = \SI{1,04}{ms}
+\end{align*}
+\begin{align*}
+    \Delta T_2
+    &= \left| \frac{\partial T_2}{\partial m_2} \right|
+       \cdot \Delta m_2
+       = \frac{1}{m_2^2} \cdot \Delta m_2 \\[0.5em]
+    &= \frac{1}{(\SI{-0,012723}{ms^{-1}})^2}
+       \cdot \SI{2,3e-04}{ms^{-1}}
+       = \SI{1,42}{ms}
+\end{align*}
+
+\subsection{Fehlerdiskussion}
 Ein möglicher Fehler bei der Bestimmung der Spin-Spin-Relaxationszeit $T_2$ könnte durch die Wahl der Anzahl der Echos im Carr-Purcell-Experiment entstanden sein, da die Amplitude des letzten Echos nur ungefähr ein Zehntel der Amplitude des ersten Echos betragen sollte, was den Messwerten zufolge nicht zutrifft. Die geringen Echomplituden der letzten fünf Echos könnten zu einer ungenauen Bestimmung der Relaxationszeit $T_2$ geführt haben, da die Werte für die Magnetisierung in diesem Bereich sehr klein sind und somit stärker vom expontiellen Abklingverhalten abweichen können.
 
-\newpage
 \section{Zusammenfassung}
-Im ersten Versuchsteil wurde die Spin-Gitter-Relaxationszeit einer Kupfersulfat- Lösung über das Inversion-Recovery-Experiment als $T_1 = \SI{64,59}{ms}$ bestimmt. Anschließend wurde die Spin-Spin-Relaxationszeit derselben Lösung über das Carr-Purcell- Experiment als $T_2 = \SI{78,60}{ms}$ bestimmt.\\
+Im ersten Versuchsteil wurde die Spin-Gitter-Relaxationszeit einer Kupfersulfat- Lösung über das Inversion-Recovery-Experiment als $T_1 = (\SI{64,59}{} \pm \SI{1,04}{})$\,ms bestimmt. Anschließend wurde die Spin-Spin-Relaxationszeit derselben Lösung über das Carr-Purcell- Experiment als $T_2 = (\SI{78,60}{} \pm \SI{1,42}{})$\,ms bestimmt.\\
 Im zweiten Versuchsteil wurde die Bildgebung des NMR-Spektrometers untersucht. Dazu wurde zuerst eine Probe mit Wasser bei einer Ausrichtung von $0^\circ$ gemessen, wobei ein Spektrum mit einem Peak entstand. Anschließend wurde die Probe um $90^\circ$ gedreht und erneut gemessen, wobei ein Spektrum mit zwei Peaks entstand. Zum Schluss wurde ein 2D-NMR eines mit Wasser gefüllten Buchstaben aufgenommen.\\
 Im letzten Versuchsteil wurde zunächst ein \ch{^{19}F}-Spektrum von Fluorcyclohexan mit Trichlorfluormethan als internem Standard aufgenommen. Der Trichlorfluormethan-Peak ist aufgrund der entschirmenden Chlorsubstituenten gegenüber dem Fluorcyclohexan hochfeldverschoben. für Fluorcyclohexan konnte eine chemische Verschiebung von $ \delta_{\ch{C6H11F}} = \SI{-83,8097}{ppm}$ bestimmt werden. 
 Die Linienbreite konnte als $\SI{53,3}{ppm}$ bestimmt werden.
 Im Perfluortributylamin-Spektrum waren drei Peaks zu beobachten. Die chemischen Verschiebungen dieser liegen bei $\SI{-135,3912}{ppm}$, $\SI{-122,0823}{ppm}$ und $\SI{-26,6081}{ppm}$, in der Reihenfolge sind sie den $\beta$- und $\gamma$-Fluoaratomen, den endständigen \ch{CF3}-Gruppen und schließlich den $\alpha$-Fluoratomen zugeordnet. Aufgrund der sehr ähnlichen chemischen Umgebung der $\beta$- und $\gamma$-Fluorsubstituenten überlagern sich deren Peaks.
-
+\newpage
 \printbibliography[title={Literatur}]
 
 

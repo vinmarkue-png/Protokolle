@@ -56,7 +56,22 @@ ln_wert = np.log(argument[maske])
 fit_grenze = 140.5  # ms, wie im Plot
 fit_maske = tau_ln <= fit_grenze
 
-m, c = np.polyfit(tau_ln[fit_maske], ln_wert[fit_maske], 1)
+# LINEARER FIT + FEHLER
+(m, c), cov = np.polyfit(
+    tau_ln[fit_maske],
+    ln_wert[fit_maske],
+    1,
+    cov=True
+)
+
+m_err = np.sqrt(cov[0, 0])
+
+# T1 + FEHLER
+T1 = -1 / m
+T1_err = m_err / (m**2)
+
+print(f"Steigung m = ({m:.4e} ± {m_err:.1e}) ms^-1")
+print(f"T1 = ({T1:.2f} ± {T1_err:.2f}) ms")
 
 # Fit-Gerade
 tau_fit = np.linspace(min(tau_ln[fit_maske]),
@@ -74,7 +89,7 @@ plt.plot(
     tau_fit,
     ln_fit,
     'r',
-    label=f"Fit (bis {fit_grenze} ms): y = {m:.4e}·τ + {c:.4f}"
+    label=f"Fit (bis {fit_grenze} ms): $y$ = {m:.4e}$~\\mathrm{{ms}}^{{-1}}\\cdot \\tau$ + {c:.4f}"
 )
 
 plt.xlabel("τ / ms")
@@ -86,9 +101,3 @@ plt.tight_layout()
 plot2_name = os.path.splitext(excel_pfad)[0] + "_ln_Fit.pdf"
 plt.savefig(plot2_name)
 plt.close()
-
-# =========================
-# T1-BERECHNUNG
-# =========================
-T1 = -1 / m
-print(f"T1 = {T1:.2f} ms")

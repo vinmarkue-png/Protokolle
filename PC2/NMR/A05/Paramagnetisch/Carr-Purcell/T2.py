@@ -76,8 +76,17 @@ maske = echo_amplituden > 0
 t_ln = echo_zeiten[maske]
 ln_M = np.log(echo_amplituden[maske])
 
-# Linearer Fit
-m, c = np.polyfit(t_ln, ln_M, 1)
+# LINEARER FIT + FEHLER
+(m, c), cov = np.polyfit(t_ln, ln_M, 1, cov=True)
+m_err = np.sqrt(cov[0, 0])
+
+# T2 + FEHLER
+T2 = -1 / m
+T2_err = m_err / (m**2)
+
+print(f"Steigung m = ({m:.4e} ± {m_err:.1e}) ms^-1")
+print(f"T2 = ({T2:.2f} ± {T2_err:.2f}) ms")
+
 
 # Fit-Gerade
 t_fit = np.linspace(min(t_ln), max(t_ln), 200)
@@ -98,7 +107,7 @@ plt.plot(
     t_fit,
     ln_fit,
     'r',
-    label=f"Fit: y = {m:.4e}·t + {c:.4f}"
+    label=f"Fit: $y$ = {m:.4e}$~\\mathrm{{ms}}^{{-1}}\\cdot t$ + {c:.4f}"
 )
 
 plt.xlabel(r"$2n\tau$ / ms")
@@ -110,9 +119,3 @@ plt.tight_layout()
 plot_ln = os.path.splitext(dateipfad)[0] + "_T2_ln_Fit.pdf"
 plt.savefig(plot_ln)
 plt.close()
-
-# =========================
-# T2-BERECHNUNG
-# =========================
-T2 = -1 / m
-print(f"\nT2 = {T2:.2f} ms")
