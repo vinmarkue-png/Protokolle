@@ -377,7 +377,9 @@ Aus der Geradengleichung $y = m \cdot t + c$ des Fits mit $m = \SI{-0,012723}{ms
 \end{equation}
 %T2 = 78.60 ms
 Somit ist die Spin-Spin-Relaxationszeit $T_2 = \SI{78,60}{ms}$ der \ch{CuSO4}-Probe größer als die Spin-Gitter-Relaxationszeit $T_1 = \SI{64,59}{ms}$.
-Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $T_1$ charakterisiert wird, länger sein sollte als der Verlust der Phasenbeziehung der Spins in der Relaxationszeit $T_2$.
+Dies widerspricht der Erwartung, da die Energieabgabe an das Gitter, die durch $T_1$ charakterisiert wird, welche die Lebenszeit des angeregten Zustandes beschreibt, länger sein sollte als der Verlust der Phasenbeziehung der Spins im angeregten Zustand, der durch die Relaxationszeit $T_2$ beschrieben wird. 
+Dies könnte daran liegen, dass die Spin-Gitter-Relaxation bei \ch{CuSO4} so effizient ist, dass $T_2$ sehr nahe an $T_1$ herankommt und schon kleine Messungenauigkeiten wie eine unvollständige Relaxation in der Messung von $T_1$ oder die Auswertung von Echos mit Echoamplituden kleiner als einem Zehntel der Anfangsamplitude zu einer Abweichung in den Ergebnissen für $T_1$ und $T_2$ führen.
+
 \newpage
 \subsection{NMR-Bildgebung}
 \subsubsection{Wasserproben}
@@ -438,9 +440,9 @@ Das Maximum liegt bei einer Frequenz zwischen \SI{1,2}{kHz} und \SI{1,4}{kHz} un
     \label{fig: cv2}
 \end{figure}
 
-Der rechte Peak, dessen Maximum bei \SI{1,36}{kHz} liegt, ist aufgrund des ähnlichen Frequenzwertes dem internen Standard Trichlorfluormethan zuzuordnen. Der Peak links davon, der die höchste Intensität besitzt und dessen Frequenz bei \SI{-0,21}{kHz} liegt ist somit dem Fluor-Atom im Fluorcyclohexan zuzuordnen. Der linke, schwächere Peak bei \SI{-1,00}{kHz} ist aufgrund der 1,3-diaxialen Wechselwirkungen der weniger stabilen Konformation zuzuordnen, bei der der Fluorsubstituent axial steht. Da diese Form aber nicht die dominierende ist, was auch aus der geringeren Intensität des Peaks ersichtlich wird, wird hier der Fokus auf den Peak der stabileren Konformation mit dem Fluorsubstituenten in äquatorialer Stellung gelegt. Die Positionen der Peaks lassen sich dadurch erklären, dass die elektronegativen Chlorsubstituenten, das Fluoratom im \ch{CFCl3} entschirmen, was zu einer höheren Frequenz führt, wobei der organische Cyclohexylrest, ledeglich einen schwachen +I-Effekt ausübt, was zu einer schwachen Abschirmung führt.
+Der rechte Peak, dessen Maximum bei \SI{1,36}{kHz} liegt, ist aufgrund des ähnlichen Frequenzwertes dem internen Standard Trichlorfluormethan zuzuordnen. Der Peak links davon, der die höchste Intensität besitzt und dessen Frequenz bei \SI{-0,21}{kHz} liegt ist somit dem Fluor-Atom im Fluorcyclohexan zuzuordnen. Der linke, schwächere Peak bei \SI{-1,00}{kHz} ist aufgrund der 1,3-diaxialen Wechselwirkungen der weniger stabilen Konformation zuzuordnen, bei der der Fluorsubstituent axial steht. Da diese Form aber nicht die dominierende ist, was auch aus der geringeren Intensität des Peaks ersichtlich wird, wird hier der Fokus auf den Peak der stabileren Konformation mit dem Fluorsubstituenten in äquatorialer Stellung gelegt. Die Positionen der Peaks lassen sich dadurch erklären, dass die elektronegativen Chlorsubstituenten, das Fluoratom im \ch{CFCl3} entschirmen, was zu einer höheren Frequenz führt, wobei der organische Cyclohexylrest, lediglich einen schwachen +I-Effekt ausübt, was zu einer schwachen Abschirmung führt.
 
-Um nun nach \autoref{eq: verschiebung} die chemische Verschiebung von Fluorcyclohexan zu berechnen, muss zunächst die Messfrequenz von $\SI{18,76}{MHz}$ zu den Frequenzwerten addiert werden, ehe diese in die Formel eingesetzt werden können.
+Um nun nach \autoref{eq:verschiebung} die chemische Verschiebung von Fluorcyclohexan zu berechnen, muss zunächst die Messfrequenz von $\SI{18,76}{MHz}$ zu den Frequenzwerten addiert werden, ehe diese in die Formel eingesetzt werden können.
 
 \begin{equation}
     \delta_{\text{C}_6\text{H}_{11}\text{F}} = \frac{\nu_{\text{C}_6\text{H}_{11}\text{F}} - \nu_{\text{CFCl}_3}}{\nu_{\text{CFCl}_3}} = \frac{\SI{18,7598}{MHz} - \SI{18,76136}{MHz}}{\SI{18,76136}{MHz}} \cdot 10^6 = \SI{-83,8097}{ppm}
@@ -459,7 +461,7 @@ In \autoref{fig: cv3} ist das fouriertransformierte \ch{^{19}F}-Spektrum der PFT
 \end{figure}
 
 In diesem Spektrum lassen sich drei Peaks bei den Frequenzen \SI{-1,221}{\kilo\hertz}, \SI{-1,101}{\kilo\hertz} und \SI{-0,240}{\kilo\hertz} identifizieren. \newpage
-Unter Berücksichtigung der Betriebsfrequenz des Spektrometers ergeben sich daraus die absoluten Resonanzfrequenzen von \SI{18,7588}{\mega\hertz}, \SI{18.7589}{\mega\hertz} und \SI{18,7598}{\mega\hertz}. Durch die Berechnung nach \autoref{eq: verschiebung} resultieren daraus die Werte \SI{-135,3912}{ppm}, \SI{-122,0823}{ppm} und \SI{-26,6081}{ppm}.
+Unter Berücksichtigung der Betriebsfrequenz des Spektrometers ergeben sich daraus die absoluten Resonanzfrequenzen von \SI{18,7588}{\mega\hertz}, \SI{18.7589}{\mega\hertz} und \SI{18,7598}{\mega\hertz}. Durch die Berechnung nach \autoref{eq:verschiebung} resultieren daraus die Werte \SI{-135,3912}{ppm}, \SI{-122,0823}{ppm} und \SI{-26,6081}{ppm}.
 
 Die Zuordnung dieser drei Peaks lässt sich durch die elektronische Struktur des Perfluoro\-tributylamin-Moleküls (PFTBA) erklären, wie sie auch von Ribeiro erklärt wurde.\supercite{Ribeiro2003} Das Signal bei \SI{-26,6081}{ppm} weist den höchsten ppm-Wert auf und gehört zu den Fluoratomen am Kohlenstoff in $\alpha$-Position zum Stickstoffatom. Da Stickstoff als elektronegatives Zentrum wirkt, entzieht er der unmittelbaren Umgebung Elektronendichte, was zu einer starken Entschirmung dieser Kerne führt. Der Peak bei \SI{-122,0823}{ppm} wird den terminalen \ch{CF3}-Gruppen zugeordnet, die am Ende der fluorierten Butylketten eine charakteristische Abschirmung erfahren.
 
