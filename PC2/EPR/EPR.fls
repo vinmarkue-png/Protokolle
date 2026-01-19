@@ -406,7 +406,6 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map
 INPUT c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm
@@ -415,6 +414,7 @@ INPUT ./EPR.toc
 INPUT EPR.toc
 OUTPUT EPR.toc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT ./Bilder/setup.png
 INPUT ./Bilder/setup.png
 INPUT ./Bilder/setup.png
