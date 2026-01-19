@@ -4,7 +4,10 @@
 \contentsline {section}{\numberline {3}Analysis}{4}{section.3}%
 \contentsline {subsection}{\numberline {3.1}Refractive indices}{4}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Diffusion coefficients}{4}{subsection.3.2}%
-\contentsline {section}{\numberline {4}Error Discussion}{5}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}%
-\contentsline {section}{\numberline {6}References}{5}{section.6}%
+\contentsline {subsubsection}{\numberline {3.2.1}NaCl}{5}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.2}KCl}{7}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.3}\ch {ZnSO4}}{8}{subsubsection.3.2.3}%
+\contentsline {section}{\numberline {4}Error Discussion}{11}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{11}{section.5}%
+\contentsline {section}{\numberline {6}References}{11}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

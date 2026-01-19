@@ -34,11 +34,11 @@ y_sorted = y[sorted_indices]
 plt.clf()
 # plt.plot(x_sorted,-y_sorted)
 plt.plot(x_sorted,-y_sorted,ls='',marker='.', markersize=0.5)
-plt.title('Extrahierte Koordinaten der weißen Linie')
+
 plt.show()
 
 # Zeige die extrahierten Koordinaten der Linie
-print("Extrahierte Koordinaten der weißen Linie:")
+
 print(coordinates)
 
 # Optional: Koordinaten in einer Datei speichern

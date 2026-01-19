@@ -240,17 +240,230 @@ The \ch{NaCl} and \ch{KCl} solutions have similar refractive indices of $n_{\ch{
 
 \subsection{Diffusion coefficients}
 
+In order to determine the diffusion coefficients, the pixel value from the graphs has to be converted into a real length, using an appropriate conversion factor $F$, that is defined as:
 
-
+\begin{equation}
+    F = \SI{0.139}{\milli\meter\per pixel}
+    \label{F}
+\end{equation}
 
 To evaluate \autoref{fig: }, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:Plot Formel}, which shows the connection between the slope $m$ and the diffusion coefficient.
 \begin{align} 
 Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
 &= m \cdot t
-\label{eq:Plot Formel} 
+\label{eq:PlotFormel} 
 \end{align}
 
+\subsubsection{NaCl}
 
+\autoref{fig:NaCl1} shows the picture ot of the laserbeam on the screen plotted and quantified in pixels.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{DIFF/NaCl/beispieldata.pdf}
+    \caption{The screenshot after 30s of NaCl, plotted in pixels.} 
+    \label{fig:NaCl1}
+\end{figure}
+
+The depth of the amplitude $Z_{m,\text{NaCl}}$ was determined via python and converted into a real length using \autoref{F} 
+\begin{equation*}
+    Z_{m,\text{NaCl},10s} = \Delta y_{p,\text{NaCl},10s} \cdot F = 147.7\,\text{pixels} \cdot \qty{0,139}{\milli\meter\per\text{pixel}} = \qty{20.5}{\milli\meter} = \qty{0,0205}{\meter}
+\end{equation*}
+
+$Z_{m,\text{NaCl}}$ is calculated for every screenshot that was made in a 60 s time interval over the course of a 15 min video. To determine the fusion coefficient $D$ the amplitude $Z_{m,\text{NaCl}}$ negative squared is plotted over the time $t$ as shown in \autoref{fig:NaCl2} The values, that were used for the plot are listet in \autoref{tab:diffusion_data_NaCl}
+
+\begin{table}[H]
+\centering
+\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the NaCl-Sample}
+\label{tab:diffusion_data_NaCl}
+\begin{tabular}{r|c|c|c|c}
+Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+\hline \hline
+0   & 180.6246 & 25.1068 & 0.0251068 & 1586.4143 \\
+60  & 147.7368 & 20.5354 & 0.0205354 & 2371.3348 \\
+120 & 130.5184 & 18.1421 & 0.0181421 & 3038.2730 \\
+180 & 120.4435 & 16.7416 & 0.0167416 & 3567.8270 \\
+240 & 110.5652 & 15.3686 & 0.0153686 & 4233.8307 \\
+300 & 104.4336 & 14.5163 & 0.0145163 & 4745.5833 \\
+360 & 97.8275  & 13.5980 & 0.0135980 & 5408.1442 \\
+420 & 93.8439  & 13.0443 & 0.0130443 & 5877.0411 \\
+480 & 92.2600  & 12.8241 & 0.0128241 & 6080.5605 \\
+540 & 88.5696  & 12.3112 & 0.0123112 & 6597.8315 \\
+600 & 83.9791  & 11.6731 & 0.0116731 & 7338.8412 \\
+660 & 82.0591  & 11.4062 & 0.0114062 & 7686.2952 \\
+720 & 78.9158  & 10.9693 & 0.0109693 & 8310.7991 \\
+780 & 76.1865  & 10.5899 & 0.0105899 & 8916.9066 \\
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{DIFF/NaCl/GraphNacl.png}
+    \caption{The values of the negative squared Amplitude $Z_{m,\text{NaCl}}$ plotted over the time $t$ } 
+    \label{fig:NaCl1}
+\end{figure}
+
+The linear fit is described by the equation
+\[
+y = m \cdot t + b,
+\]
+where the slope is \( m = 8.98\,\mathrm{m^{-2}\,s^{-1}} \) and the intercept is
+\( b = 1909.2 \,\mathrm{m^{-2}} \).
+The slope of the line is defined as
+\[
+m = \frac{4 \pi D n_0^{2}}{(n_1 - n_2)^2 L^2 K^2}.
+\tag{13}
+\]
+
+The parameters are given as \( K = 0.01\,\mathrm{m} \), \( L = 0.268\,\mathrm{m} \),
+\( n_{2,\mathrm{NaCl}} = 1.3541 \), \( n_1 = 1.3375 \), and \( n_0 = 1 \).
+Using the experimentally determined slope, the diffusion coefficient of sodium chloride can be calculated as
+\[
+D_{\mathrm{NaCl}} =
+\frac{(n_1 - n_2)^2 L^2 K^2 m}{4 \pi n_0^2}.
+\tag{14}
+\]
+
+Substituting the numerical values yields
+\[
+D_{\mathrm{NaCl}} =
+\frac{(1.3541 - 1.3375)^2 (0.268\,\mathrm{m})^2 (0.01\,\mathrm{m})^2 \cdot 8.98\,\mathrm{m^{-2}\,s^{-1}}}{4\pi}
+= 1.414 \times 10^{-9}\,\mathrm{m^2\,s^{-1}}.
+\tag{15}
+\]
+
+\subsubsection{KCl}
+
+The same steps that were discussed for the NaCl sample were performed on the values of the KCl smaple. The Values are listet in \autoref{tab:diffusion_data_KCl} and plottet in \autoref{fig:KCl}
+
+\begin{table}[H]
+\centering
+\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the KCl-Sample}
+\label{tab:diffusion_data_KCl}
+\begin{tabular}{r|c|c|c|c}
+Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+\hline \hline
+0   & 112.4616 & 15.6322 & 0.0156322 & 4092.2471 \\
+30  & 102.6179 & 14.2639 & 0.0142639 & 4915.0055 \\
+60  & 97.1659  & 13.5061 & 0.0135061 & 5482.0507 \\
+90  & 87.6999  & 12.1903 & 0.0121903 & 6729.3335 \\
+120 & 84.9633  & 11.8099 & 0.0118099 & 7169.8102 \\
+150 & 82.4873  & 11.4657 & 0.0114657 & 7606.6941 \\
+180 & 76.0766  & 10.5747 & 0.0105747 & 8942.6829 \\
+210 & 73.8591  & 10.2664 & 0.0102664 & 9487.7385 \\
+240 & 71.1075  & 9.8839  & 0.0098839 & 10236.2241 \\
+270 & 68.7144  & 9.5513  & 0.0095513 & 10961.6230 \\
+300 & 69.5558  & 9.6683  & 0.0096683 & 10698.0225 \\
+330 & 64.5744  & 8.9758  & 0.0089758 & 12412.2252 \\
+360 & 65.9762  & 9.1707  & 0.0091707 & 11890.3701 \\
+420 & 59.6900  & 8.2969  & 0.0082969 & 14526.7050 \\
+480 & 57.6158  & 8.0086  & 0.0080086 & 15591.4610 \\
+540 & 56.1047  & 7.7986  & 0.0077986 & 16442.6631 \\
+600 & 51.5612  & 7.1670  & 0.0071670 & 19468.1697 \\
+660 & 50.4075  & 7.0066  & 0.0070066 & 20369.5227 \\
+720 & 47.8183  & 6.6467  & 0.0066467 & 22635.0895 \\
+780 & 47.2975  & 6.5744  & 0.0065744 & 23136.2613 \\
+840 & 45.0385  & 6.2604  & 0.0062604 & 25515.3842 \\
+900 & 41.4357  & 5.7596  & 0.0057596 & 30145.3490 \\
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{DIFF/KCl/graphkcl.png}
+    \caption{The values of the negative squared Amplitude $Z_{m,\text{KCl}}$ plotted over the time $t$ } 
+    \label{fig:KCl}
+\end{figure}
+
+The slope \( m \) is determined to be
+\[
+m = 26.077\,\mathrm{m^{-2}\,s^{-1}},
+\]
+and the refractive index of the potassium chloride solution is
+\[
+n_{1,\mathrm{KCl}} = 1.3514.
+\]
+Using these values, the diffusion coefficient of potassium chloride can be calculated according to the corresponding relation, yielding
+\[
+D_{\mathrm{KCl}} = 6.636 \times 10^{-9}\,\mathrm{m^{2}\,s^{-1}}.
+\]
+
+
+\subsubsection{\ch{ZnSO4}}
+
+The same steps that were discussed for the NaCl sample were also performed on the values of the \ch{ZnSO4} smaple. The Values are listet in \autoref{tab:diffusion_data_ZnSO4} and plottet in \autoref{fig:ZnSO4}
+
+\begin{table}[H]
+\centering
+\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the \ch{ZnSO4}-Sample}
+\label{tab:diffusion_data_ZnSO4}
+\begin{tabular}{r|c|c|c|c}
+Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+\hline
+\hline
+0    & 262.6980 & 36.5150 & 0.0365150 & 749.9926 \\
+30   & 255.8125 & 35.5579 & 0.0355579 & 790.9096 \\
+60   & 252.3181 & 35.0722 & 0.0350722 & 812.9684 \\
+90   & 249.4520 & 34.6738 & 0.0346738 & 831.7567 \\
+120  & 245.3143 & 34.0987 & 0.0340987 & 860.0517 \\
+150  & 239.1358 & 33.2399 & 0.0332399 & 905.0679 \\
+180  & 233.1782 & 32.4118 & 0.0324118 & 951.9068 \\
+210  & 233.4213 & 32.4456 & 0.0324456 & 949.9256 \\
+240  & 402.7826 & 55.9868 & 0.0559868 & 319.0282 \\
+270  & 428.8795 & 59.6142 & 0.0596142 & 281.3843 \\
+300  & 438.3061 & 60.9245 & 0.0609245 & 269.4110 \\
+330  & 416.0718 & 57.8340 & 0.0578340 & 298.9743 \\
+360  & 464.4842 & 64.5633 & 0.0645633 & 239.8990 \\
+390  & 460.6664 & 64.0326 & 0.0640326 & 243.8918 \\
+420  & 458.9758 & 63.7976 & 0.0637976 & 245.6919 \\
+480  & 469.9451 & 65.3224 & 0.0653224 & 234.3560 \\
+540  & 463.5952 & 64.4397 & 0.0644397 & 240.8200 \\
+600  & 446.6395 & 62.0829 & 0.0620829 & 259.4514 \\
+660  & 446.3221 & 62.0388 & 0.0620388 & 259.8206 \\
+720  & 420.6900 & 58.4759 & 0.0584759 & 292.4463 \\
+780  & 413.1437 & 57.4270 & 0.0574270 & 303.2272 \\
+840  & 407.4944 & 56.6417 & 0.0566417 & 311.6930 \\
+900  & 398.9835 & 55.4587 & 0.0554587 & 325.1326 \\
+960  & 381.3652 & 53.0098 & 0.0530098 & 355.8675 \\
+1020 & 370.0731 & 51.4402 & 0.0514402 & 377.9162 \\
+1080 & 361.5875 & 50.2607 & 0.0502607 & 395.8619 \\
+1140 & 345.6014 & 48.0386 & 0.0480386 & 433.3307 \\
+1200 & 334.4851 & 46.4934 & 0.0464934 & 462.6118 \\
+1260 & 323.1864 & 44.9229 & 0.0449229 & 495.5234 \\
+1320 & 312.7687 & 43.4749 & 0.0434749 & 529.0829 \\
+1380 & 302.8585 & 42.0973 & 0.0420973 & 564.2749 \\
+1440 & 292.1175 & 40.6043 & 0.0406043 & 606.5340 \\
+1500 & 283.4248 & 39.3960 & 0.0393960 & 644.3097 \\
+1560 & 284.1040 & 39.4905 & 0.0394905 & 641.2327 \\
+1620 & 277.0211 & 38.5059 & 0.0385059 & 674.4420 \\
+1680 & 272.4736 & 37.8738 & 0.0378738 & 697.1425 \\
+1740 & 267.4768 & 37.1793 & 0.0371793 & 723.4329 \\
+1800 & 229.0740 & 31.8413 & 0.0318413 & 986.3223 \\
+\end{tabular}
+\end{table}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{DIFF/ZnSO4/graphznso4.png}
+    \caption{The values of the negative squared Amplitude $Z_{m,\text{ZnSO4}}$ plotted over the time $t$ } 
+    \label{fig:ZnSO4}
+\end{figure}
+
+Due to poor linearity during the first 540 s, the data from this interval is ignored in the plot.
+Nevertheless, even without that time period the corelation coefficient shows the lowest of the three accuracies.
+
+The slope \( m \) is determined to be
+\[
+m = 0.4171\,\mathrm{m^{-2}\,s^{-1}},
+\]
+and the refractive index of the potassium chloride solution is
+\[
+n_{1,\mathrm{KCl}} = 1.3725.
+\]
+Using these values, the diffusion coefficient of potassium chloride can be calculated according to the corresponding relation, yielding
+\[
+D_{\mathrm{ZnSO4}} = 2.925 \times 10^{-10}\,\mathrm{m^{2}\,s^{-1}}.
+\]
 
 
 \newpage
