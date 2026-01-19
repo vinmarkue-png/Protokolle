@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Diffusion_A05-v01.blg'
-[143] biber-MSWIN64:342> INFO - === 
-[196] Biber.pm:421> INFO - Reading 'Diffusion_A05-v01.bcf'
-[327] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[342] Biber.pm:4487> INFO - Processing section 0
-[384] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[461] bibtex.pm:1713> INFO - LaTeX decoding ...
-[480] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[609] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[609] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[609] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[611] bbl.pm:676> INFO - Writing 'Diffusion_A05-v01.bbl' with encoding 'UTF-8'
-[612] bbl.pm:779> INFO - Output to Diffusion_A05-v01.bbl
+[107] biber-MSWIN64:342> INFO - === 
+[156] Biber.pm:421> INFO - Reading 'Diffusion_A05-v01.bcf'
+[259] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[269] Biber.pm:4487> INFO - Processing section 0
+[279] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[355] bibtex.pm:1713> INFO - LaTeX decoding ...
+[359] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[405] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[405] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[405] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[406] bbl.pm:676> INFO - Writing 'Diffusion_A05-v01.bbl' with encoding 'UTF-8'
+[407] bbl.pm:779> INFO - Output to Diffusion_A05-v01.bbl

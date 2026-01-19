@@ -112,12 +112,18 @@
 \end{center}
 \vspace{1cm}
 \textbf{Abstract:}
-In diesem Versuch wurde der Einfluss der verschiedenen Parameter bei der ESR-Spektroskopie durch Messung einer DPPH-Probe gezeigt. Anschließend wurde der $g$-Faktor von DPPH als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt. Außerdem wurden Spektren der beiden Übergangsmetallkomplexe Kupfer(II)acetylacetonat und Vanadylacetylacetonat aufgenommen, aus denen deren $g$-Faktoren als $g_{\mathrm{Cu(AcAc)_2}} = 2{,}1305 \pm 0{,}0048$ und $g_{\mathrm{VO(AcAc)_2}} = 1{,}9811\pm 0{,}0044$ bestimmt wurden. Ebenfalls wurden die Hyperfeinstrukturkopplungskonstanten $\overline{a}_{\text{Cu}} = 8{,}27$ und $\overline{a}_{\text{VO}} = 10{,}86$ bestimmt. Zum Schluss wurde das Galvinoxylradikal sowohl durch Messung als auch Simulation untersucht. Dabei wurden die Parameter der Simulation so angepasst, dass die Simulation möglichst nah an den idealen Werten liegt. Aus der experimentellen Messung wurde der $g$-Faktor als $g_\mathrm{Galvinoxyl} = 2{,}0091 \pm 0{,}0045$ bestimmt.
+In diesem Versuch wurde der Einfluss der verschiedenen Parameter bei der ESR-Spektroskopie durch Messung einer DPPH-Probe gezeigt. Anschließend wurde der $g$-Faktor von DPPH als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt. Außerdem wurden Spektren der beiden Übergangsmetallkomplexe Kupfer(II)acetylacetonat und Vanadylacetylacetonat aufgenommen, aus denen deren $g$-Faktoren als $g_{\mathrm{Cu(AcAc)_2}} = 2{,}1305 \pm 0{,}0048$ und $g_{\mathrm{VO(AcAc)_2}} = 1{,}9811\pm 0{,}0044$ bestimmt wurden. Ebenfalls wurden die Hyperfeinstrukturkopplungskonstanten $\overline{a}_{\text{Cu}} = 8{,}27$ und $\overline{a}_{\text{VO}} = 10{,}86$ bestimmt. Zum Schluss wurde das Galvinoxylradikal sowohl durch Messung als auch Simulation untersucht. Dabei wurden die Parameter der Simulation so angepasst, dass die Simulation möglichst nah an den idealen Werten liegt. Dabei wurden die Hyperfeinparameter als P.Range = [334,337], P.mwFreq = 9,4067, P.g  = 2,003, P.Nucs  = 'H,H', P.n  = [1,4] und P.A  = [15,3] bestimmt. Aus der experimentellen Messung wurde der $g$-Faktor als $g_\mathrm{Galvinoxyl} = 2{,}0091 \pm 0{,}0045$ bestimmt.
 % Dabei wurde der g-Faktor der DPPH-Probe als $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ bestimmt.
 % $g_\mathrm{DPPH} = 2{,}0022 \pm 0{,}0045$ 
 % $g_{\mathrm{Cu(AcAc)_2}} = 2{,}13048 \pm 0{,}0048$ $\bar{a_{\text{Cu}}} = 8,27$ \\
 % $g_{\mathrm{VO(AcAc)_2}} = 1{,}98110\pm 0{,}0044$ $\bar{a_{\text{Vo}}} = 10,86$\\ bestimmt werden.
 % $g_\mathrm{Galvinoxyl} = 2{,}0091 \pm 0{,}0045$
+% P.Range & [334,337] \\
+% P.mwFreq & 9,4067 \\
+% P.g  & 2,003\\  
+% P.Nucs  & 'H,H' \\
+% P.n  & [1,4]\\  
+% P.A  & [15,3]\\
 \end{titlepage}
 
 
@@ -137,7 +143,7 @@ Die Elektronenspinresonanz ist eine spektroskopische Methode, die sich mit der U
     \Delta E = E_{+\frac{1}{2}} - E_{-\frac{1}{2}} = g \mu_B B_0
     \label{eq:espin}
 \end{equation}
-Dabei ist $g$ der $g$-Faktor, $\mu_B = \SI{9,2741e-24}{JT^{-1}}$ das Bohr'sche Magneton und $B_0$ die Magnetfeldstärke. Wird ein weiteres Magnetfeld, welches senkrecht zum statischen steht, angelegt, so richtet sich der Spin des Elektrons ebenfalls nach diesem aus. Dieses Phänomen wird als magnetische Resonanz bezeichnet, wobei die Resonanzbedingung auf der allgemeinen Bohrschen Frequenzbedingung basiert. Sie lässt sich durch die Formel
+Dabei ist $g$ der $g$-Faktor, $\mu_B = \SI{9,2741e-24}{JT^{-1}}$ das Bohr'sche Magneton und $B_0$ die Magnetfeldstärke. Durch die angelegte Mikrowellenstrahlung entsteht über den Resonator ein magnetisches Wechselfeld, welches senkrecht zum statischen steht. Dadurch richtet sich der Spin des Elektrons ebenfalls nach diesem aus. Dieses Phänomen wird als magnetische Resonanz bezeichnet, wobei die Resonanzbedingung auf der allgemeinen Bohrschen Frequenzbedingung basiert. Sie lässt sich durch die Formel
 \begin{equation}
     \Delta E =  g \mu_B B_0 = h \nu
     \label{eq:eres}
@@ -469,7 +475,7 @@ Im Spektrum sind nicht die erwarteten 10 Signale zu sehen. Das liegt daran, dass
     \caption{ESR-Spektrum der hergestellten Galvinoxyl-Probe nach dem Entgasen, aufgenommen mit einer Modulationsamplitude von 0,03 mT.} 
     \label{fig: Gal_dg}
 \end{figure}
-Das Spektrum zeigt trotz der Entfernung von Sauerstoff nicht die erwarteten 10 Linien. Das lässt sich durch die Konzentration der Lösung erklären, da nur 5 ml Toluol zur Herstellung der Lösung verwendet wurden, weshalb es durch die hohe Konzentration zum Spinaustausch zwischen den Radikalen kommt. \\
+Das Spektrum zeigt trotz der Entfernung von Sauerstoff nicht die erwarteten 10 Linien. Das lässt sich durch die Konzentration des Galvinoxyls in der Lösung erklären, da vermutlich zu wenig Galvinoxyl in der Probe war.\\
 Der $g$-Faktor von Galvinoxyl kann mit dem Spektrenzentrum $B_0 = \SI{336,254}{mT}$ und der Spektrometerfrequenz $\nu = \SI{9,45544}{GHz}$ nach \autoref{eq:g} berechnet werden.
 \begin{equation*}
     g = \frac{h \cdot \nu}{\mu_0 \cdot B_0} = \frac{\SI{6,626 e-34}{Js} \cdot \SI{9,45544 e9}{Hz}}{\SI{9,2740 e-24}{\frac{J}{T} \cdot \SI{336,254 e-3}{T}}} = 2{,}0091
