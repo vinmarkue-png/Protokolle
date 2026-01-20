@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {3.1}ESR-Spektren von 2,2-Diphenyl-1-pikrylhydrazyl}{5}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}ESR-Spektren von Kupfer- und Vanadylacetylacetonat}{10}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}ESR-Spektren des Galvinoxylradikals}{13}{subsection.3.3}%
-\contentsline {section}{\numberline {4}Fehlerrechnung}{17}{section.4}%
-\contentsline {section}{\numberline {5}Zusammenfassung}{18}{section.5}%
-\contentsline {section}{\numberline {6}Literatur}{19}{section.6}%
+\contentsline {section}{\numberline {4}Fehlerrechnung}{18}{section.4}%
+\contentsline {section}{\numberline {5}Zusammenfassung}{19}{section.5}%
+\contentsline {section}{\numberline {6}Literatur}{20}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
