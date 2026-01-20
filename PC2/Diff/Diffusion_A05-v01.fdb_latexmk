@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Diffusion_A05-v01"] 1768866168.21694 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768874440.04711 0
-  "Diffusion_A05-v01.bcf" 1768874439 109039 165699705b30d297883bbe80ed381ce1 "pdflatex"
-  "lit.bib" 1768866162 2101 6837ea76d707242cca27f1285ddfb742 ""
+["biber Diffusion_A05-v01"] 1768900420.44373 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768900437.2138 0
+  "Diffusion_A05-v01.bcf" 1768900436 109039 165699705b30d297883bbe80ed381ce1 "pdflatex"
+  "lit.bib" 1768900418 2073 b9fa4f4a4752544befa4f535fd7dec16 ""
   (generated)
   "Diffusion_A05-v01.bbl"
   "Diffusion_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768874436.88889 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768874440.04786 0
+["pdflatex"] 1768900430.84351 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768900437.21525 0
   "Bilder/profiles.png" 1768487504 26456 2dbb0b34644d993de9564a76278eb2ab ""
   "Bilder/setup.png" 1768487504 10469 18fd32d521347747f0eb4efba6168a32 ""
   "Bilder/setupcam.png" 1768487504 16613 ec79c9abb64cc34266060a294dba14d0 ""
@@ -14,11 +14,11 @@
   "DIFF/NaCl/GraphNacl.png" 1768862187 27204 d80929139addbb0deabfddb55600f71c ""
   "DIFF/NaCl/beispieldata.pdf" 1768862187 39239 bb2f4b2111daaf246df2c5d29ca5a31a ""
   "DIFF/ZnSO4/graphznso4.png" 1768862188 23869 0a5c1be625805480bfcefc60c230fa43 ""
-  "Diffusion_A05-v01.aux" 1768874439 9313 3f7e1d79674c1ec7b99e6796441eb5cc "pdflatex"
-  "Diffusion_A05-v01.bbl" 1768866169 11925 0cd044495cae2407cb5a93735e596058 "biber Diffusion_A05-v01"
-  "Diffusion_A05-v01.run.xml" 1768874439 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
+  "Diffusion_A05-v01.aux" 1768900436 9313 aa4b6f5b9519a541ce14f4f55fa46b99 "pdflatex"
+  "Diffusion_A05-v01.bbl" 1768900424 11812 fe191a528c7283554110d4457dedd9ac "biber Diffusion_A05-v01"
+  "Diffusion_A05-v01.run.xml" 1768900436 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
   "Diffusion_A05-v01.tex" 1768874436 25758 606376a9ef4f4495161558fb126d814a ""
-  "Diffusion_A05-v01.toc" 1768874439 911 735c9020c15a91f34ed8e800d1a27aa3 "pdflatex"
+  "Diffusion_A05-v01.toc" 1768900436 911 735c9020c15a91f34ed8e800d1a27aa3 "pdflatex"
   "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768874436 25758 606376a9ef4f4495161558fb126d814a ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761080812 2900 1537cc8184ad1792082cd229ecc269f4 ""

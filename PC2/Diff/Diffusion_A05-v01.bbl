@@ -42,7 +42,7 @@
       \field{title}{2025-pc2-script-en}
       \field{year}{2025}
     \endentry
-    \entry{n_H2O}{article}{}{}
+    \entry{n_H2O}{online}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
@@ -51,11 +51,7 @@
       \field{langid}{ngerman}
       \field{month}{3}
       \field{title}{{Brechungsindex H2O}}
-      \field{urlday}{15}
-      \field{urlmonth}{1}
-      \field{urlyear}{2026}
       \field{year}{2025}
-      \field{urldateera}{ce}
     \endentry
     \entry{n_NaCl}{article}{}{}
       \name{author}{1}{}{%
