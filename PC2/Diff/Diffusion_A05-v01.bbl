@@ -46,7 +46,6 @@
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labeltitlesource}{title}
-      \field{annotation}{Page Version ID: 254585833}
       \field{journaltitle}{Wikipedia}
       \field{langid}{ngerman}
       \field{month}{3}
@@ -76,168 +75,20 @@
       \field{langid}{english}
       \field{title}{Saturation of {{Refractive Index}} of {{Nacl Solution Beyond}} Its {{Saturation Limit}}}
     \endentry
-    \entry{n_KCl}{article}{}{}
-      \name{author}{27}{}{%
-        {{hash=f73515589d6abc4077cfd5872380ea50}{%
-           family={{EFSA Panel~on Food Additives and Flavourings (FAF)}},
-           familyi={E\bibinitperiod}}}%
-        {{hash=6dc40e238f21d73ce641a2eb0179bf62}{%
-           family={Younes},
-           familyi={Y\bibinitperiod},
-           given={Maged},
-           giveni={M\bibinitperiod}}}%
-        {{hash=f7b219e222012b544456f25492b8cc00}{%
-           family={Aquilina},
-           familyi={A\bibinitperiod},
-           given={Gabriele},
-           giveni={G\bibinitperiod}}}%
-        {{hash=7d296d70787f82e17396881ba01e92bd}{%
-           family={Castle},
-           familyi={C\bibinitperiod},
-           given={Laurence},
-           giveni={L\bibinitperiod}}}%
-        {{hash=a7ac5191fcbe19cee692311a8c511d8c}{%
-           family={Engel},
-           familyi={E\bibinitperiod},
-           given={Karl-Heinz},
-           giveni={K\bibinithyphendelim H\bibinitperiod}}}%
-        {{hash=eff2599858c3ad29ea8ff11df10b9807}{%
-           family={Fowler},
-           familyi={F\bibinitperiod},
-           given={Paul},
-           giveni={P\bibinitperiod}}}%
-        {{hash=030d7093b571a282ce33585e4cbfa1c6}{%
-           family={Fürst},
-           familyi={F\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=773e55315bf0f2766d88e9e8c50ee377}{%
-           family={Gürtler},
-           familyi={G\bibinitperiod},
-           given={Rainer},
-           giveni={R\bibinitperiod}}}%
-        {{hash=bd4f535cc5cf8f83d01f667cae93d9ff}{%
-           family={Gundert-Remy},
-           familyi={G\bibinithyphendelim R\bibinitperiod},
-           given={Ursula},
-           giveni={U\bibinitperiod}}}%
-        {{hash=3e5dc2b307b766eb29790aa1247b95ed}{%
-           family={Hus{ø}y},
-           familyi={H\bibinitperiod},
-           given={Trine},
-           giveni={T\bibinitperiod}}}%
-        {{hash=46a41627136bb5abef2d252a1575402d}{%
-           family={Mennes},
-           familyi={M\bibinitperiod},
-           given={Wim},
-           giveni={W\bibinitperiod}}}%
-        {{hash=508735668d4326b4e93273977e612cda}{%
-           family={Moldeus},
-           familyi={M\bibinitperiod},
-           given={Peter},
-           giveni={P\bibinitperiod}}}%
-        {{hash=a7ca3d3b37130949c4c57c6af64b93e3}{%
-           family={Oskarsson},
-           familyi={O\bibinitperiod},
-           given={Agneta},
-           giveni={A\bibinitperiod}}}%
-        {{hash=6febfaeeef5bb327bc1d52f5a53bd288}{%
-           family={Shah},
-           familyi={S\bibinitperiod},
-           given={Romina},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f5b92422d43f379141404445a0700451}{%
-           family={Waalkens-Berendsen},
-           familyi={W\bibinithyphendelim B\bibinitperiod},
-           given={Ine},
-           giveni={I\bibinitperiod}}}%
-        {{hash=b29998a1ff57fd3fb02058762d1a6cc7}{%
-           family={Wölfle},
-           familyi={W\bibinitperiod},
-           given={Detlef},
-           giveni={D\bibinitperiod}}}%
-        {{hash=59b9fb9e29f64713d661695416f6c20c}{%
-           family={Boon},
-           familyi={B\bibinitperiod},
-           given={Polly},
-           giveni={P\bibinitperiod}}}%
-        {{hash=62733cd38f8e15505891327b5d8dc359}{%
-           family={Crebelli},
-           familyi={C\bibinitperiod},
-           given={Riccardo},
-           giveni={R\bibinitperiod}}}%
-        {{hash=66c74fae8cc81ccbcf583375997b717a}{%
-           family={Di\bibnamedelima Domenico},
-           familyi={D\bibinitperiod\bibinitdelim D\bibinitperiod},
-           given={Alessandro},
-           giveni={A\bibinitperiod}}}%
-        {{hash=98d69983b5cb9ceb12cceed11c2a2294}{%
-           family={Filipič},
-           familyi={F\bibinitperiod},
-           given={Metka},
-           giveni={M\bibinitperiod}}}%
-        {{hash=77e44d58dcb09f52596358553b1699ae}{%
-           family={Mortensen},
-           familyi={M\bibinitperiod},
-           given={Alicja},
-           giveni={A\bibinitperiod}}}%
-        {{hash=4fa2d9551ff36f609692758c8c146fa3}{%
-           family={Van\bibnamedelima Loveren},
-           familyi={V\bibinitperiod\bibinitdelim L\bibinitperiod},
-           given={Henk},
-           giveni={H\bibinitperiod}}}%
-        {{hash=ecfc5925a861327fb488bed9a0fa7000}{%
-           family={Woutersen},
-           familyi={W\bibinitperiod},
-           given={Ruud},
-           giveni={R\bibinitperiod}}}%
-        {{hash=f5181f17f3c6292e8e29ecae1e68c4c6}{%
-           family={Giarola},
-           familyi={G\bibinitperiod},
-           given={Alessandra},
-           giveni={A\bibinitperiod}}}%
-        {{hash=98d9b164937305c1c457b0515c6f3bf3}{%
-           family={Lodi},
-           familyi={L\bibinitperiod},
-           given={Federica},
-           giveni={F\bibinitperiod}}}%
-        {{hash=30abd812781f417e77fcc353304f4448}{%
-           family={Riolo},
-           familyi={R\bibinitperiod},
-           given={Francesca},
-           giveni={F\bibinitperiod}}}%
-        {{hash=d09c45f1335ece52f93a6fead8bdd15f}{%
-           family={Frutos\bibnamedelima Fernandez},
-           familyi={F\bibinitperiod\bibinitdelim F\bibinitperiod},
-           given={Maria\bibnamedelima Jose},
-           giveni={M\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
-      }
-      \strng{namehash}{dc5747d0993b4b03a8f8b46b10f3a96f}
-      \strng{fullhash}{f979178d00786c227e8b18870ef3dc80}
-      \strng{fullhashraw}{f979178d00786c227e8b18870ef3dc80}
-      \strng{bibnamehash}{f979178d00786c227e8b18870ef3dc80}
-      \strng{authorbibnamehash}{f979178d00786c227e8b18870ef3dc80}
-      \strng{authornamehash}{dc5747d0993b4b03a8f8b46b10f3a96f}
-      \strng{authorfullhash}{f979178d00786c227e8b18870ef3dc80}
-      \strng{authorfullhashraw}{f979178d00786c227e8b18870ef3dc80}
+    \entry{n_KCl}{online}{}{}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{issn}{18314732, 18314732}
       \field{journaltitle}{EFS2}
-      \field{langid}{english}
+      \field{langid}{ngerman}
       \field{month}{7}
-      \field{number}{7}
-      \field{title}{Re-evaluation of Hydrochloric Acid ({{E}} 507), Potassium Chloride ({{E}} 508), Calcium Chloride ({{E}} 509) and Magnesium Chloride ({{E}} 511) as Food Additives}
-      \field{urlday}{19}
-      \field{urlmonth}{1}
-      \field{urlyear}{2026}
-      \field{volume}{17}
+      \field{title}{Die Naturwissenschaftliche Datenbank}
       \field{year}{2019}
-      \field{urldateera}{ce}
-      \verb{doi}
-      \verb 10.2903/j.efsa.2019.5751
+      \verb{urlraw}
+      \verb https://www.internetchemie.info/substanz/Kaliumchlorid.php
+      \endverb
+      \verb{url}
+      \verb https://www.internetchemie.info/substanz/Kaliumchlorid.php
       \endverb
     \endentry
     \entry{n_Zn}{article}{}{}
