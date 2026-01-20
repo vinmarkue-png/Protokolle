@@ -42,6 +42,18 @@
       \field{title}{2025-pc2-script-en}
       \field{year}{2025}
     \endentry
+    \entry{Gal_real}{online}{}{}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labeltitlesource}{title}
+      \field{title}{Galvinoxyl ESR Spectrum}
+      \verb{urlraw}
+      \verb https://www.chemicalbook.com/SpectrumEN\_2370-18-5\_ESR.htm
+      \endverb
+      \verb{url}
+      \verb https://www.chemicalbook.com/SpectrumEN%5C_2370-18-5%5C_ESR.htm
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
