@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  21 JAN 2026 14:56
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  21 JAN 2026 15:25
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex
-(c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex
+**c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+(c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1089,8 +1089,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count503
-))
-No file IR-Raman_A05-v01.aux.
+)) (./IR-Raman_A05-v01.aux)
 \openout1 = `IR-Raman_A05-v01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
@@ -1120,7 +1119,7 @@ Package scrbase Info: activating english \listfigurename on input line 89.
 Package scrbase Info: activating english \listtablename on input line 89.
 Package scrbase Info: activating english \refname on input line 89.
 Package scrbase Info: activating english \indexname on input line 89.
-(c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+ (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
 \scratchdimen=\dimen345
@@ -1217,321 +1216,18 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
-No file IR-Raman_A05-v01.toc.
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./IR-Raman_A05-v01.toc)
 \tf@toc=\write5
 \openout5 = `IR-Raman_A05-v01.toc'.
 
-[2]
-
-LaTeX Warning: Citation 'Skript' on page 1 undefined on input line 144.
-
-
-LaTeX Warning: Reference `eq:2.8' on page 1 undefined on input line 147.
-
-
-LaTeX Warning: Reference `eq:2.7' on page 1 undefined on input line 153.
-
-
-LaTeX Warning: Reference `eq:2.11' on page 1 undefined on input line 159.
-
-
-LaTeX Warning: Reference `eq:2.11' on page 1 undefined on input line 163.
-
-
-LaTeX Warning: Reference `eq:2.11' on page 1 undefined on input line 164.
-
-
-LaTeX Warning: Reference `eq:2.14' on page 1 undefined on input line 164.
-
-
-LaTeX Warning: Reference `eq:2.14' on page 1 undefined on input line 169.
-
-
-LaTeX Warning: Reference `eq:2.15' on page 1 undefined on input line 169.
-
-
-LaTeX Warning: Reference `fig: profiles' on page 1 undefined on input line 169.
-
-
-LaTeX Warning: Reference `fig: profiles' on page 1 undefined on input line 174.
-
-
-LaTeX Warning: Reference `eq:2.18' on page 1 undefined on input line 174.
-
-
-LaTeX Warning: Citation 'Skript' on page 1 undefined on input line 174.
-
-
-LaTeX Warning: File `Bilder/profiles.png' not found on input line 181.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:181: Package pdftex.def Error: File `Bilder/profiles.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.181 ...idth=0.65\textwidth]{Bilder/profiles.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'Skript' on page 1 undefined on input line 182.
-
-
-LaTeX Warning: Citation 'Skript' on page 1 undefined on input line 182.
-
-
+ [2]
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.185 
-       [1
+l.146 \end{document}
+                     [1
 
-]
-
-LaTeX Warning: Reference `fig: setup' on page 2 undefined on input line 187.
-
-
-LaTeX Warning: Reference `eq:2.21' on page 2 undefined on input line 188.
-
-
-LaTeX Warning: Reference `eq:2.19' on page 2 undefined on input line 188.
-
-
-LaTeX Warning: Citation 'Skript' on page 2 undefined on input line 188.
-
-
-LaTeX Warning: File `Bilder/setup.png' not found on input line 196.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:196: Package pdftex.def Error: File `Bilder/setup.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.196 ...s[width=0.45\textwidth]{Bilder/setup.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'Skript' on page 2 undefined on input line 197.
-
-
-LaTeX Warning: Citation 'Skript' on page 2 undefined on input line 197.
-
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.200 T
-       he Huygen's principle states that every point of a wavefront can be s... [2]
-
-LaTeX Warning: Reference `eq:2.21' on page 3 undefined on input line 201.
-
-
-LaTeX Warning: Reference `eq:2.19' on page 3 undefined on input line 201.
-
-
-LaTeX Warning: Reference `eq:2.23' on page 3 undefined on input line 201.
-
-
-LaTeX Warning: Reference `eq:2.23' on page 3 undefined on input line 207.
-
-
-LaTeX Warning: Reference `eq:2.18' on page 3 undefined on input line 207.
-
-
-LaTeX Warning: Reference `eq:2.24' on page 3 undefined on input line 207.
-
-
-LaTeX Warning: Citation 'Skript' on page 3 undefined on input line 207.
-
-
-LaTeX Warning: Reference `fig: setup' on page 3 undefined on input line 217.
-
-
-LaTeX Warning: File `Bilder/setupcam.png' not found on input line 221.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:221: Package pdftex.def Error: File `Bilder/setupcam.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.221 ...idth=0.85\textwidth]{Bilder/setupcam.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Citation 'Skript' on page 3 undefined on input line 222.
-
-
-LaTeX Warning: Citation 'Skript' on page 3 undefined on input line 222.
-
-[3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
-
-LaTeX Warning: Reference `tab:refractive_indices' on page 4 undefined on input line 232.
-
-[4]
-
-LaTeX Warning: Reference `fig:NaCl1' on page 5 undefined on input line 258.
-
-
-LaTeX Warning: File `DIFF/NaCl/beispieldata.pdf' not found on input line 262.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:262: Package pdftex.def Error: File `DIFF/NaCl/beispieldata.pdf' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.262 ...85\textwidth]{DIFF/NaCl/beispieldata.pdf}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[5]
-
-LaTeX Warning: Reference `F' on page 6 undefined on input line 267.
-
-
-LaTeX Warning: Reference `fig:NaCl2' on page 6 undefined on input line 272.
-
-
-LaTeX Warning: Reference `tab:diffusion_data_NaCl' on page 6 undefined on input line 272.
-
-[6]
-
-LaTeX Warning: File `DIFF/NaCl/GraphNacl.png' not found on input line 300.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:300: Package pdftex.def Error: File `DIFF/NaCl/GraphNacl.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.300 ...=0.85\textwidth]{DIFF/NaCl/GraphNacl.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[7]
-
-LaTeX Warning: Reference `fig:NaCl2' on page 8 undefined on input line 304.
-
-
-LaTeX Warning: Reference `eq:2.24' on page 8 undefined on input line 304.
-
-
-LaTeX Warning: Reference `eq:PlotFormel' on page 8 undefined on input line 304.
-
-[8]
-
-LaTeX Warning: Reference `tab:diffusion_data_KCl' on page 9 undefined on input line 342.
-
-
-LaTeX Warning: Reference `fig:KCl' on page 9 undefined on input line 342.
-
-
-LaTeX Warning: File `DIFF/KCl/graphkcl.png' not found on input line 378.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:378: Package pdftex.def Error: File `DIFF/KCl/graphkcl.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.378 ...th=0.85\textwidth]{DIFF/KCl/graphkcl.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[9]
-
-LaTeX Warning: Reference `gleichungm' on page 10 undefined on input line 391.
-
-
-LaTeX Warning: Reference `tab:diffusion_data_ZnSO4' on page 10 undefined on input line 399.
-
-
-LaTeX Warning: Reference `fig:ZnSO4' on page 10 undefined on input line 399.
-
-[10]
-
-LaTeX Warning: File `DIFF/ZnSO4/graphznso4.png' not found on input line 452.
-
-
-c:/Users/49157/OneDrive/Desktop/Protokolle/IR-Raman/IR-Raman_A05-v01.tex:452: Package pdftex.def Error: File `DIFF/ZnSO4/graphznso4.png' not found: using draft setting.
-
-See the pdftex.def package documentation for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.452 ....85\textwidth]{DIFF/ZnSO4/graphznso4.png}
-                                                  
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-[11]
-
-LaTeX Warning: Reference `gleichungm' on page 12 undefined on input line 468.
-
-[12]
-
-LaTeX Warning: Citation 'n_H2O' on page 13 undefined on input line 477.
-
-
-LaTeX Warning: Citation 'n_NaCl' on page 13 undefined on input line 477.
-
-
-LaTeX Warning: Citation 'n_KCl' on page 13 undefined on input line 477.
-
-
-LaTeX Warning: Citation 'n_Zn' on page 13 undefined on input line 477.
-
-
-LaTeX Warning: Citation 'crc' on page 13 undefined on input line 478.
-
-
-LaTeX Warning: Citation 'atkins' on page 13 undefined on input line 480.
-
-
-LaTeX Warning: Reference `eq:2.24' on page 13 undefined on input line 481.
-
-
-LaTeX Warning: Citation 'Skript' on page 13 undefined on input line 481.
-
-
-Overfull \hbox (7.1065pt too wide) in paragraph at lines 477--482
-\T1/cmr/m/n/12 and $\OML/cmm/m/it/12 n[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 3725$\T1/cmr/m/n/12 , while the lit-er-a-ture val-ues were $\OML/cmm/m/it/12 n[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 333$$[]$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 n[] \OT1/cmr/m/n/12 =
- []
-
-
-Overfull \hbox (1.57742pt too wide) in paragraph at lines 477--482
-\T1/cmr/m/n/12 The mea-sured dif-fu-sion con-stants $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 414 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 636 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$
- []
-
-
-LaTeX Warning: Reference `fig:NaCl2' on page 13 undefined on input line 484.
-
-
-LaTeX Warning: Reference `gleichungm' on page 13 undefined on input line 484.
-
-[13] [14]
-
-LaTeX Warning: Empty bibliography on input line 496.
-
-(./IR-Raman_A05-v01.aux)
+] (./IR-Raman_A05-v01.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
@@ -1539,9 +1235,6 @@ L3 programming layer <2025-11-14>
 
 
 LaTeX Warning: There were undefined references.
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 
 Package biblatex Warning: Please (re)run Biber on the file:
@@ -1553,18 +1246,18 @@ Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42876 strings out of 467537
- 910167 string characters out of 5423703
- 1856986 words of memory out of 5000000
- 71193 multiletter control sequences out of 15000+600000
- 647579 words of font info for 81 fonts, out of 8000000 for 9000
+ 42337 strings out of 467537
+ 897528 string characters out of 5423703
+ 1838004 words of memory out of 5000000
+ 70710 multiletter control sequences out of 15000+600000
+ 640890 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,11271b,1819s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (16 pages, 371819 bytes).
+ 108i,19n,108p,11275b,2054s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb>
+Output written on IR-Raman_A05-v01.pdf (3 pages, 118236 bytes).
 PDF statistics:
- 282 PDF objects out of 1000 (max. 8388607)
- 214 compressed objects within 3 object streams
- 53 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 75 PDF objects out of 1000 (max. 8388607)
+ 51 compressed objects within 1 object stream
+ 4 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 
