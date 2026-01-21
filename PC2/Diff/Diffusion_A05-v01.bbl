@@ -16,5 +16,199 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global/global}
+    \entry{Skript}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=9622bbf2c9f51cda0317558a6ef2685e}{%
+           family={Dilger},
+           familyi={D\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \strng{namehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{fullhash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{fullhashraw}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{bibnamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorbibnamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authornamehash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorfullhash}{9622bbf2c9f51cda0317558a6ef2685e}
+      \strng{authorfullhashraw}{9622bbf2c9f51cda0317558a6ef2685e}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{2025-pc2-script-en}
+      \field{year}{2025}
+    \endentry
+    \entry{n_H2O}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Wikipedia}
+      \field{langid}{ngerman}
+      \field{month}{3}
+      \field{title}{{Brechungsindex H2O}}
+      \field{year}{2025}
+    \endentry
+    \entry{n_NaCl}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=041d28db826f1eef6842efb8ec5fdc03}{%
+           family={Patankar},
+           familyi={P\bibinitperiod},
+           given={Pratik\bibnamedelima Rajendra},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{fullhash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{fullhashraw}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{bibnamehash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{authorbibnamehash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{authornamehash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{authorfullhash}{041d28db826f1eef6842efb8ec5fdc03}
+      \strng{authorfullhashraw}{041d28db826f1eef6842efb8ec5fdc03}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IJMDES}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
+      \field{title}{Saturation of {{Refractive Index}} of {{Nacl Solution Beyond}} Its {{Saturation Limit}}}
+      \field{volume}{1}
+      \field{year}{2022}
+    \endentry
+    \entry{n_KCl}{online}{}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{EFS2}
+      \field{langid}{ngerman}
+      \field{month}{7}
+      \field{title}{Die Naturwissenschaftliche Datenbank}
+      \field{year}{2019}
+      \verb{urlraw}
+      \verb https://www.internetchemie.info/substanz/Kaliumchlorid.php
+      \endverb
+      \verb{url}
+      \verb https://www.internetchemie.info/substanz/Kaliumchlorid.php
+      \endverb
+    \endentry
+    \entry{n_Zn}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=632356887227188ec7f00af282724cc7}{%
+           family={Durou},
+           familyi={D\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+        {{hash=24cf2b0018ef2303d3f8f6ad1572ff04}{%
+           family={Giraudou},
+           familyi={G\bibinitperiod},
+           given={Jean-C.},
+           giveni={J\bibinithyphendelim C\bibinitperiod}}}%
+        {{hash=5866b6186d3a3f9ebff6528e667a0778}{%
+           family={Moutou},
+           familyi={M\bibinitperiod},
+           given={Christian},
+           giveni={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f55bbb0a1d42c3a67a4ad1eebf34770}
+      \strng{fullhash}{1d6d1208466203530441aa7b1e25a124}
+      \strng{fullhashraw}{1d6d1208466203530441aa7b1e25a124}
+      \strng{bibnamehash}{1d6d1208466203530441aa7b1e25a124}
+      \strng{authorbibnamehash}{1d6d1208466203530441aa7b1e25a124}
+      \strng{authornamehash}{8f55bbb0a1d42c3a67a4ad1eebf34770}
+      \strng{authorfullhash}{1d6d1208466203530441aa7b1e25a124}
+      \strng{authorfullhashraw}{1d6d1208466203530441aa7b1e25a124}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0021-9568, 1520-5134}
+      \field{journaltitle}{J. Chem. Eng. Data}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{3}
+      \field{title}{Refractive Indexes of Aqueous Solutions of Copper({{II}}) Sulfate, Zinc Sulfate, Silver Nitrate, Potassium Chloride, and Sulfuric Acid for Helium-Neon Laser Light at .Theta. = 25.Deg.}
+      \field{urlday}{19}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{18}
+      \field{year}{1973}
+      \field{urldateera}{ce}
+      \field{pages}{289\bibrangedash 290}
+      \range{pages}{2}
+      \verb{doi}
+      \verb 10.1021/je60058a018
+      \endverb
+    \endentry
+    \entry{crc}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7576be56fb512cb85d888db905e4e1a}{%
+           family={Haynes},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{fullhash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{fullhashraw}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{bibnamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorbibnamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authornamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorfullhash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorfullhashraw}{f7576be56fb512cb85d888db905e4e1a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{97}
+      \field{title}{{{CRC Handbook}} of {{Chemistry}} and {{Physics}}}
+      \field{year}{2017}
+    \endentry
+    \entry{atkins}{book}{}{}
+      \name{author}{2}{}{%
+        {{hash=57821e4beb2a93db394ee0b901a98d3e}{%
+           family={Atkins},
+           familyi={A\bibinitperiod},
+           given={Peter\bibnamedelima W.},
+           giveni={P\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+        {{hash=b6c88a313e4daa65dc7eaa6e5b1a115b}{%
+           family={{de Paula}},
+           familyi={d\bibinitperiod},
+           given={Julio},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Weinheim}%
+      }
+      \list{publisher}{1}{%
+        {Wiley-VCH}%
+      }
+      \strng{namehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{fullhash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{fullhashraw}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{bibnamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorbibnamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authornamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorfullhash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorfullhashraw}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{5. Auflage}
+      \field{isbn}{978-3-527-33247-2}
+      \field{langid}{german}
+      \field{title}{{Physikalische Chemie}}
+      \field{year}{2013}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
