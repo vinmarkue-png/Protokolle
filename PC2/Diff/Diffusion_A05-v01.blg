@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'Diffusion_A05-v01.blg'
-[347] biber-MSWIN64:342> INFO - === 
-[480] Biber.pm:421> INFO - Reading 'Diffusion_A05-v01.bcf'
-[714] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
-[750] Biber.pm:4487> INFO - Processing section 0
-[774] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[936] bibtex.pm:1713> INFO - LaTeX decoding ...
-[985] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[1143] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[1143] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[1143] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[1143] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[1163] bbl.pm:676> INFO - Writing 'Diffusion_A05-v01.bbl' with encoding 'UTF-8'
-[1171] bbl.pm:779> INFO - Output to Diffusion_A05-v01.bbl
+[889] biber-MSWIN64:342> INFO - === 
+[1135] Biber.pm:421> INFO - Reading 'Diffusion_A05-v01.bcf'
+[1564] Biber.pm:1002> INFO - Found 6 citekeys in bib section 0
+[1621] Biber.pm:4487> INFO - Processing section 0
+[1677] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[1762] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1800] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[2258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[2258] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[2258] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[2258] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[2410] bbl.pm:676> INFO - Writing 'Diffusion_A05-v01.bbl' with encoding 'UTF-8'
+[2420] bbl.pm:779> INFO - Output to Diffusion_A05-v01.bbl
