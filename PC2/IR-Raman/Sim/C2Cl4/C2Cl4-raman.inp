@@ -1,0 +1,7 @@
+! B3LYP OPT def2-SVP NUMFREQ
+%ELPROP
+   POLAR 1
+END 
+
+* xyzfile 0 1 C2Cl4.xyz
+
