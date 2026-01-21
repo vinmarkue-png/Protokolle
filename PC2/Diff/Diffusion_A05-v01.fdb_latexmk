@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Diffusion_A05-v01"] 1768987368.47147 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768989135.61923 0
-  "Diffusion_A05-v01.bcf" 1768989135 109222 c4fdfbc80b306298d472741e7c1cf110 "pdflatex"
+["biber Diffusion_A05-v01"] 1768987368.47147 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768989316.57363 0
+  "Diffusion_A05-v01.bcf" 1768989316 109222 c4fdfbc80b306298d472741e7c1cf110 "pdflatex"
   "lit.bib" 1768987428 1723 e2966bcda4430b058012171a1f0ede27 ""
   (generated)
   "Diffusion_A05-v01.bbl"
   "Diffusion_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768989130.58881 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768989135.62042 0
+["pdflatex"] 1768989311.46033 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768989316.57467 0
   "Bilder/profiles.png" 1768404251 26456 2dbb0b34644d993de9564a76278eb2ab ""
   "Bilder/setup.png" 1768404127 10469 18fd32d521347747f0eb4efba6168a32 ""
   "Bilder/setupcam.png" 1768404176 16613 ec79c9abb64cc34266060a294dba14d0 ""
@@ -14,12 +14,12 @@
   "DIFF/NaCl/GraphNacl.png" 1768898954 27204 d80929139addbb0deabfddb55600f71c ""
   "DIFF/NaCl/beispieldata.pdf" 1768898954 39239 bb2f4b2111daaf246df2c5d29ca5a31a ""
   "DIFF/ZnSO4/graphznso4.png" 1768898954 23869 0a5c1be625805480bfcefc60c230fa43 ""
-  "Diffusion_A05-v01.aux" 1768989135 10193 dcca0335000625a974bbe9cfc4c6ce68 "pdflatex"
+  "Diffusion_A05-v01.aux" 1768989316 10193 f0e1675751d36b77dfebdc60390183f1 "pdflatex"
   "Diffusion_A05-v01.bbl" 1768987428 8406 b593f8c8f78ae6e847bd26928b8a7b95 "biber Diffusion_A05-v01"
-  "Diffusion_A05-v01.run.xml" 1768989135 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
-  "Diffusion_A05-v01.tex" 1768989129 27335 8cfe446272a9c5f7328b27112370ed23 ""
-  "Diffusion_A05-v01.toc" 1768989135 978 72635473feb74628d80327f652e03e24 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768989129 27335 8cfe446272a9c5f7328b27112370ed23 ""
+  "Diffusion_A05-v01.run.xml" 1768989316 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
+  "Diffusion_A05-v01.tex" 1768989306 27348 2ad95776aa915706318a9384aaae5a47 ""
+  "Diffusion_A05-v01.toc" 1768989316 978 4eea9acfdf198c81973ed8b894dbb510 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768989306 27348 2ad95776aa915706318a9384aaae5a47 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
