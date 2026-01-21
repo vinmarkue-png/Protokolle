@@ -79,11 +79,11 @@
 \newcommand{\EmailDREI}{st190050@stud.uni-stuttgart.de}
 \newcommand{\StudiengangDREI}{B.Sc. Chemie}
 
-\newcommand{\BETREUER}{Xiangyin Tan}
+\newcommand{\BETREUER}{Mansha}
 \newcommand{\GRUPPENNR}{A05}
 
-\newcommand{\VERSUCHSNR}{Diffusion}
-\newcommand{\VERSUCHSNAME}{Determination of Diffusion Constants using the Schlieren Method}
+\newcommand{\VERSUCHSNR}{IR-Raman}
+\newcommand{\VERSUCHSNAME}{IR- and Raman-Spectroscopy}
 
 
 \begin{document}
@@ -125,7 +125,6 @@
 
 
 \textbf{Abstract:}
-In this experiment, the refractive indices of different salt solutions were measured as $n_{\ch{H2O}} = 1.3375$, $n_{\ch{NaCl}} = 1.3541$, $n_{\ch{KCl}} = 1.3514$ and $n_{\ch{ZnSO4}} = 1.3725$. By using the Schlieren method, the diffusion constants of the three salts \ch{NaCl}, \ch{KCl} and \ch{ZnSO4} in water were determined as $D_{\mathrm{NaCl}} = 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl}} = 6.636 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$.
 
 \end{titlepage}
 
@@ -141,359 +140,64 @@ In this experiment, the refractive indices of different salt solutions were meas
 
 
 \section{Theory}
-Molecular diffusion describes the movement of particles from a region of high concentration to a region of low concentration, which leads to an even distribution of particles.\supercite{Skript}
-It was first discovered by Robert Brown, who observed the random movement of tiny particles suspended in a liquid, which is called Brownian motion. Then German physicist Adolf Fick laid the theoretical foundation for diffusion by formulating two laws. \\
-%\subsection{Fick's Laws}
-The first Fick's law describes how the particle flux density $j(z)$ is connected to the Diffusion coefficient $D$ and the concentration gradient $\frac{\partial c(z)}{\partial z}$, which is shown in \autoref{eq:2.8}.
-\begin{equation} 
-j(z) = -D \cdot \frac{\partial c}{\partial z} 
-\label{eq:2.8} 
-\end{equation}
-The physical meaning of the first Fick's law is that a concentration gradient leads to mutual diffusion of particles, leading to an even distribution.
-The diffusion coefficient can also be defined by the ,,Einstein relation'' in \autoref{eq:2.7}.
-\begin{equation}
-    D = \frac{1}{2}\nu \Delta z^2
-    \label{eq:2.7}
-\end{equation}
-$\nu$ is the jump rate and $\Delta z^2$ the mean square jump distance of particles, assuming that they can only move along the z axis.
-Second Fick's law describes the temporal course of concentration as shown in \autoref{eq:2.11}.
-\begin{equation} 
-\frac{\partial c}{\partial t} = D \cdot \frac{\partial^2 c}{\partial z^2} \label{eq:2.11} 
-\end{equation}
-\autoref{eq:2.11} states that the concentration equalization proceeds faster the stronger the concentration gradient.
-By integrating Fick's second law from \autoref{eq:2.11} under certain boundary conditions and using the substitution $\mu = \frac{x}{\sqrt{4Dt}}$, \autoref{eq:2.14} for the profile of concentration can be obtained.
-\begin{equation}
-c = \frac{c_2}{2} \cdot \left(1-\frac{2}{\sqrt{\pi}}\int_{0}^{\mu} e^{-\mu^2} \,d \nu \right)
-\label{eq:2.14} 
-\end{equation}
-By deriving \autoref{eq:2.14}, the function is simplified into \autoref{eq:2.15}, which leads to the concentration gradient profile having the shape of a Gaussian bell curve, as is illustrated in \autoref{fig: profiles}. 
-\begin{equation} 
-\frac{dc}{dz} = -\frac{c_2}{2\sqrt{\pi Dt}} \cdot e^{-\mu^2} 
-\label{eq:2.15} 
-\end{equation}
-Assuming that the refractive index $n$ is proportional to $c$ and knowing that the gradient has an extreme value at $z=0$, as can be seen in \autoref{fig: profiles}, \autoref{eq:2.18} describes the refractive index gradient at $z=0$ with the indices of water $n_1$ and of the salt solution $n_2$.\supercite{Skript}
-\begin{equation} 
-\left( \frac{dn}{dz} \right)_{z=0} = -\frac{n_1 - n_2}{2\sqrt{\pi Dt}} \label{eq:2.18} 
-\end{equation}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.65\textwidth]{Bilder/profiles.png}
-    \caption{Profiles of the concentration and concentration gradient.\supercite{Skript}} 
-    \label{fig: profiles}
-\end{figure}
-
-%\subsection{The Schlieren Method}
-Following this argumentation, diffusion leads to a continuously changing refractive index profile, which causes a light beam directed to a cuvette of a salt solution with a concentration gradient to be refracted toward the optically denser medium. That is called Snell's law of refraction and shown in \autoref{fig: setup}. 
-The exit angle $\beta$ und the degree of curvature can be described with \autoref{eq:2.21} and \ref{eq:2.19}, where $\alpha$ is the angle of incidence and $r$ the radius of the curvature of the light beam.\supercite{Skript}
-\begin{align}
-    \beta &= \frac{n}{n_0} \alpha \label{eq:2.21} \\
-    \frac{1}{r} &= \frac{1}{n} \frac{dn}{dz} = \frac{d \ln(n)}{dz} \label{eq:2.19}
-\end{align}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.45\textwidth]{Bilder/setup.png}
-    \caption{Scheme of the experimental setup geometry.\supercite{Skript}} 
-    \label{fig: setup}
-\end{figure}
-The Huygen's principle states that every point of a wavefront can be seen a the origin of a spherical elementary wave. That's why the path of the light beam is curved in a medium with a spatially dependent refractive index $n(z)$ due to a lateral phase shift within the wavefront. The strongest deflection is experienced by the part of the beam that passes through the steepest concentration gradient region.
-With the small-angle approximation and \autoref{eq:2.21} and \ref{eq:2.19}, the refractive index gradient can be described by \autoref{eq:2.23}.
-\begin{equation}
-    \frac{dn}{dz} \approx \frac{Z}{L} \cdot \frac{n_0}{K}
-    \label{eq:2.23}
-\end{equation}
-$L$ is the distance between the cuvette and the screen, $K$ the thinkness of the cuvette, $n_0$ the refractive index of air and $Z$ the distance between the straight extension of the beam at the exit point and the impact point on the screen.
-By equating \autoref{eq:2.23} and \autoref{eq:2.18} and rearranging to the diffusion constant $D$, \autoref{eq:2.24} is derived to calculate $D$ using the Schlieren Method.\supercite{Skript}
-\begin{equation} 
-D = \frac{(n_1-n_2)^2L^2K^2}{4\pi n_0^2 Z^2 t}
-\label{eq:2.24} 
-\end{equation}
 
 
 
-\section{Procedure}
-
-The experimental setup was already built prior to the start of the measurements as shown in \autoref{fig: setup}. The laser beam light path was tilted at
-about 45°.
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{Bilder/setupcam.png}
-    \caption{Scheme of the laser beam geometry.\supercite{Skript}} 
-    \label{fig: setupcam}
-\end{figure}
-The experiment began by doing a calibration measurement where the settings of the camera were adjusted, so that the only visible part was the laser beam. Afterwards the cuvette was half filled with deionized water and underlayered with a 2 molar solution of sodium chloride. As soon as the sodium chloride solution was underlayered the video recording was started. After 15 minutes the recording was stopped the resulting video was analyzed by taking snapshots at relevant timestamps. \\
-Those snapshots were uploaded into the python skript ''convert-image.py'', which converted the snapshots into xy-value pairs. The resulting ''.dat'' file was then uploaded into the python skript ''auswertung diffusion.py'' where the amplitude was determined by adjusting slider. These steps were repeated for the 2 molar potassium chloride and zinc sulfate solutions. The potassium chloride solution was also recorded for 15 minutes and the zinc sulfate solution was recorded for 30 minutes. During the recording of the sodium chloride solution the refracting indices of deionized water, and the three solutions were measured using a refractometer.
 
 
 
-\section{Analysis}
-\subsection{Refractive indices}
-The refractive indices of deionized water and the different salt solutions were measured with a refractometer and are listed in \autoref{tab:refractive_indices}.
-\begin{table}[H]
-\centering
-\caption{Measured refractive indices of deionized water and different salt solutions.}
-\begin{tabular}{c|c}
-\text{Solution} & \text{n} \\ 
-\hline \hline
-$\text{H}_2\text{O}$ (deionized) & 1.3375 \\
-$\text{NaCl}$ (2M) & 1.3541 \\
-$\text{KCl}$ (2M) & 1.3514 \\
-$\text{ZnSO}_4$ (2M) & 1.3725 \\
-\end{tabular}
-\label{tab:refractive_indices}
-\end{table}
-The \ch{NaCl} and \ch{KCl} solutions have similar refractive indices of $n_{\ch{NaCl}} = 1.3541$ and $n_{\ch{KCl}} = 1.3514$, while the \ch{ZnSO4} solution has a significantly higher refractive index of $n_{\ch{ZnSO4}} = 1.3725$ than the others. This is due to the much higher polarizability of the larger \ch{SO4^{2-}} ion with a higher ionic charge in comparison to the \ch{Cl^-} ion. Additionally, the higher molar mass of \ch{ZnSO4} results in a significantly higher mass density at the same molar concentration (2M).
-\ch{Na+} has a higher charge density than \ch{K+} due to its smaller size, which polarizes the surrounding water molecules more, leading to a slightly higher refractive index.
-
-\subsection{Diffusion coefficients}
-
-In order to determine the diffusion coefficients, the pixel value from the graphs has to be converted into a real length, using an appropriate conversion factor $F$, that is defined as:
-\begin{equation}
-    F = \SI{0.139}{\frac{mm}{pixel}} \label{F}
-\end{equation}
-
-\subsubsection{NaCl}
-
-\autoref{fig:NaCl1} shows the picture out of the laserbeam on the screen plotted and quantified in pixels.
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{DIFF/NaCl/beispieldata.pdf}
-    \caption{The screenshot after 60 s of NaCl, plotted in pixels.} 
-    \label{fig:NaCl1}
-\end{figure}
-
-The depth of the amplitude $Z_{m,\text{NaCl}}$ was determined via python and converted into a real length using \autoref{F}. 
-\begin{equation*}
-    Z_{m,\text{NaCl},10s} = \Delta y_{p,\text{NaCl},10s} \cdot F = \SI{147.7}{pixel} \cdot \qty{0,139}{\frac{mm}{pixel}} = \qty{20.5}{\milli\meter} = \qty{0,0205}{\meter}
-\end{equation*}
-
-$Z_{m,\text{NaCl}}$ is calculated for every screenshot that was made in a 60 s time interval over the course of a 15 min video. To determine the diffusion coefficient $D$ the amplitude $Z_{m,\text{NaCl}}$ negative squared is plotted over the time $t$ as shown in \autoref{fig:NaCl2} The values, that were used for the plot are listed in \autoref{tab:diffusion_data_NaCl}.
-
-\begin{table}[H]
-\centering
-\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the NaCl sample.\\}
-\label{tab:diffusion_data_NaCl}
-\begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
-\hline \hline
-0   & 180.6246 & 25.1068 & 0.0251068 & 1586.4143 \\
-60  & 147.7368 & 20.5354 & 0.0205354 & 2371.3348 \\
-120 & 130.5184 & 18.1421 & 0.0181421 & 3038.2730 \\
-180 & 120.4435 & 16.7416 & 0.0167416 & 3567.8270 \\
-240 & 110.5652 & 15.3686 & 0.0153686 & 4233.8307 \\
-300 & 104.4336 & 14.5163 & 0.0145163 & 4745.5833 \\
-360 & 97.8275  & 13.5980 & 0.0135980 & 5408.1442 \\
-420 & 93.8439  & 13.0443 & 0.0130443 & 5877.0411 \\
-480 & 92.2600  & 12.8241 & 0.0128241 & 6080.5605 \\
-540 & 88.5696  & 12.3112 & 0.0123112 & 6597.8315 \\
-600 & 83.9791  & 11.6731 & 0.0116731 & 7338.8412 \\
-660 & 82.0591  & 11.4062 & 0.0114062 & 7686.2952 \\
-720 & 78.9158  & 10.9693 & 0.0109693 & 8310.7991 \\
-780 & 76.1865  & 10.5899 & 0.0105899 & 8916.9066 \\
-\end{tabular}
-\end{table}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{DIFF/NaCl/GraphNacl.png}
-    \caption{The values of the negative squared amplitude $Z_{m,\text{NaCl}}$ plotted over the time $t$. } 
-    \label{fig:NaCl2}
-\end{figure}
-To evaluate \autoref{fig:NaCl2}, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:PlotFormel}, which shows the connection between the slope $m$ and the diffusion coefficient.
-\begin{align} 
-Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
-&= m \cdot t
-\label{eq:PlotFormel} 
-\end{align}
-The linear fit is described by the equation
-\[
-y = m \cdot t + b,
-\]
-where the slope is \( m = 8.98\,\mathrm{m^{-2}\,s^{-1}} \) and the intercept is
-\( b = 1909.2 \,\mathrm{m^{-2}} \).
-The slope of the line is defined as
-\[
-m = \frac{4 \pi D n_0^{2}}{(n_1 - n_2)^2 L^2 K^2}.
-\tag{13}
-\]
-
-The parameters are given as \( K = 0.01\,\mathrm{m} \), \( L = 0.268\,\mathrm{m} \),
-\( n_{2,\mathrm{NaCl}} = 1.3541 \), \( n_1 = 1.3375 \), and \( n_0 = 1 \).
-Using the experimentally determined slope, the diffusion coefficient of sodium chloride can be calculated as
-\begin{equation*}
-D_{\mathrm{NaCl}} = m \cdot 
-\frac{(n_1 - n_2)^2 L^2 K^2}{4 \pi n_0^2}.
-\tag{14}
-\label{gleichungm}
-\end{equation*}
-
-Using the numerical values yields the diffusion coefficient of sodium chloride as
-\begin{equation*}
-D_{\mathrm{NaCl}} =
-\frac{(1.3541 - 1.3375)^2 (0.268\,\mathrm{m})^2 (0.01\,\mathrm{m})^2 \cdot 8.98\,\mathrm{m^{-2}\,s^{-1}}}{4\pi \cdot 1^2}
-= 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}.
-\tag{15}
-\end{equation*}
-
-\subsubsection{KCl}
-
-The same steps that were discussed for the NaCl sample were performed on the values of the KCl sample. The values are listed in \autoref{tab:diffusion_data_KCl} and plotted in \autoref{fig:KCl}.
-
-\begin{table}[H]
-\centering
-\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the KCl sample.\\}
-\label{tab:diffusion_data_KCl}
-\begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
-\hline \hline
-0   & 112.462 & 15.632 & 0.016 & 4092.247 \\
-30  & 102.618 & 14.264 & 0.014 & 4915.006 \\
-60  & 97.166  & 13.506 & 0.014 & 5482.051 \\
-90  & 87.700  & 12.190 & 0.012 & 6729.334 \\
-120 & 84.963  & 11.810 & 0.012 & 7169.810 \\
-150 & 82.487  & 11.466 & 0.011 & 7606.694 \\
-180 & 76.077  & 10.575 & 0.011 & 8942.683 \\
-210 & 73.859  & 10.266 & 0.010 & 9487.739 \\
-240 & 71.108  & 9.884  & 0.010 & 10236.224 \\
-270 & 68.714  & 9.551  & 0.010 & 10961.623 \\
-300 & 69.556  & 9.668  & 0.010 & 10698.023 \\
-330 & 64.574  & 8.976  & 0.009 & 12412.225 \\
-360 & 65.976  & 9.171  & 0.009 & 11890.370 \\
-420 & 59.690  & 8.297  & 0.008 & 14526.705 \\
-480 & 57.616  & 8.009  & 0.008 & 15591.461 \\
-540 & 56.105  & 7.799  & 0.008 & 16442.663 \\
-600 & 51.561  & 7.167  & 0.007 & 19468.170 \\
-660 & 50.408  & 7.007  & 0.007 & 20369.523 \\
-720 & 47.818  & 6.647  & 0.007 & 22635.090 \\
-780 & 47.298  & 6.574  & 0.007 & 23136.261 \\
-840 & 45.039  & 6.260  & 0.006 & 25515.384 \\
-900 & 41.436  & 5.760  & 0.006 & 30145.349 \\
-\end{tabular}
-\end{table}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{DIFF/KCl/graphkcl.png}
-    \caption{The values of the negative squared amplitude $Z_{m,\text{KCl}}$ plotted over the time $t$. } 
-    \label{fig:KCl}
-\end{figure}
-
-The slope \( m \) is determined to be
-\[
-m = 26.077\,\mathrm{m^{-2}\,s^{-1}},
-\]
-and the refractive index of the potassium chloride solution is
-\[
-n_{1,\mathrm{KCl}} = 1.3514.
-\]
-Using these values, the diffusion coefficient of potassium chloride can be calculated by inserting them in the corresponding relation to \autoref{gleichungm}, yielding the diffusion coefficient of potassium chloride as
-\[
-D_{\mathrm{KCl}} = 6.636 \times 10^{-9}\,\mathrm{m^{2}\,s^{-1}}.
-\]
 
 
-\subsubsection{\ch{ZnSO4}}
-
-The same steps that were discussed for the NaCl sample were also performed on the values of the \ch{ZnSO4} sample. The values are listed in \autoref{tab:diffusion_data_ZnSO4} and plotted in \autoref{fig:ZnSO4}.
-
-\begin{table}[H]
-\centering
-\caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the \ch{ZnSO4} sample.\\}
-\label{tab:diffusion_data_ZnSO4}
-\begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
-\hline
-\hline
-0    & 262.698 & 36.515 & 0.037 & 749.993 \\
-30   & 255.813 & 35.558 & 0.036 & 790.910 \\
-60   & 252.318 & 35.072 & 0.035 & 812.968 \\
-90   & 249.452 & 34.674 & 0.035 & 831.757 \\
-120  & 245.314 & 34.099 & 0.034 & 860.052 \\
-150  & 239.136 & 33.240 & 0.033 & 905.068 \\
-180  & 233.178 & 32.412 & 0.032 & 951.907 \\
-210  & 233.421 & 32.446 & 0.032 & 949.926 \\
-240  & 402.783 & 55.987 & 0.056 & 319.028 \\
-270  & 428.880 & 59.614 & 0.060 & 281.384 \\
-300  & 438.306 & 60.925 & 0.061 & 269.411 \\
-330  & 416.072 & 57.834 & 0.058 & 298.974 \\
-360  & 464.484 & 64.563 & 0.065 & 239.899 \\
-390  & 460.666 & 64.033 & 0.064 & 243.892 \\
-420  & 458.976 & 63.798 & 0.064 & 245.692 \\
-480  & 469.945 & 65.322 & 0.065 & 234.356 \\
-540  & 463.595 & 64.440 & 0.064 & 240.820 \\
-600  & 446.640 & 62.083 & 0.062 & 259.451 \\
-660  & 446.322 & 62.039 & 0.062 & 259.821 \\
-720  & 420.690 & 58.476 & 0.058 & 292.446 \\
-780  & 413.144 & 57.427 & 0.057 & 303.227 \\
-840  & 407.494 & 56.642 & 0.057 & 311.693 \\
-900  & 398.984 & 55.459 & 0.055 & 325.133 \\
-960  & 381.365 & 53.010 & 0.053 & 355.868 \\
-1020 & 370.073 & 51.440 & 0.051 & 377.916 \\
-1080 & 361.588 & 50.261 & 0.050 & 395.862 \\
-1140 & 345.601 & 48.039 & 0.048 & 433.331 \\
-1200 & 334.485 & 46.493 & 0.046 & 462.612 \\
-1260 & 323.186 & 44.923 & 0.045 & 495.523 \\
-1320 & 312.769 & 43.475 & 0.043 & 529.083 \\
-1380 & 302.859 & 42.097 & 0.042 & 564.275 \\
-1440 & 292.118 & 40.604 & 0.041 & 606.534 \\
-1500 & 283.425 & 39.396 & 0.039 & 644.310 \\
-1560 & 284.104 & 39.491 & 0.039 & 641.233 \\
-1620 & 277.021 & 38.506 & 0.039 & 674.442 \\
-1680 & 272.474 & 37.874 & 0.038 & 697.143 \\
-1740 & 267.477 & 37.179 & 0.037 & 723.433 \\
-1800 & 229.074 & 31.841 & 0.032 & 986.322 \\
-\end{tabular}
-\end{table}
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.85\textwidth]{DIFF/ZnSO4/graphznso4.png}
-    \caption{The values of the negative squared amplitude $Z_{m,\text{ZnSO4}}$ plotted over the time $t$. } 
-    \label{fig:ZnSO4}
-\end{figure}
-
-Due to poor linearity during the first 540 s, the data from this interval is ignored in the plot.
-Nevertheless, even without that time period the corelation coefficient shows the lowest of the three accuracies.
-
-The slope \( m \) is determined to be
-\[
-m = 0.4171\,\mathrm{m^{-2}\,s^{-1}},
-\]
-and the refractive index of the zinc sulfate solution is
-\[
-n_{1,\mathrm{ZnSO4}} = 1.3725.
-\]
-Using these values, the diffusion coefficient can be calculated by inserting them in the corresponding relation to \autoref{gleichungm}, yielding the diffusion coefficient of zinc sulfate as 
-\[
-D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}.
-\]
 
 
-\newpage
 
-\section{Discussion}
-The measured refractive indices were $n_{\ch{H2O}} = 1.3375$, $n_{\ch{NaCl}} = 1.3541$, $n_{\ch{KCl}} = 1.3514$ and $n_{\ch{ZnSO4}} = 1.3725$, while the literature values were $n_{\mathrm{H_2O, Lit}} = 1.333$ \supercite{n_H2O}, $n_{\mathrm{NaCl, Lit}} = 1.348$ \supercite{n_NaCl}, $n_{\mathrm{KCl, Lit}} = 1.352$ \supercite{n_KCl} and $n_{\mathrm{ZnSO_4, Lit}} = 1.36$ \supercite{n_Zn}  \\
-The measured diffusion constants $D_{\mathrm{NaCl}} = 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl}} = 6.636 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$ deviate from the ones obtained from literature sources which were $D_{\mathrm{NaCl, Lit}} = 1.607 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl, Lit}} = 1.994 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4, Lit}} = 8.536 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$.\supercite{crc} \\
-% assumptions made in the experiment that may affect the accuracy of the results. List these assumptions and evaluate the extent to which they could influence the outcome.
-It is assumed that at a concentration of 2M, the refractive index is still proportional to the concentration. However, at higher concentrations, deviations can occur due to strong Coulomb interactions between multivalent ions such as \ch{ZnSO4}, which lead to the formation of ion pairs and a electrostriction effect. This results in a higher density and molar refractivity of the \ch{ZnSO4} solution compared to the other salt solutions, contributing to a deviation of the linear relationship between refractive index and concentration.\supercite{atkins}
-The influence of deviations in the refractive indices on the diffusion coefficients calculated with \autoref{eq:2.24} is significant, since the refractive indices appear squared in the denominator\supercite{Skript}, resulting in a deviation of the calculated diffusion coefficients, as observed in the comparison of measured values with literature values.
 
-\section{Error Discussion}
-The standard deviation for the slope of the NaCl plot is $s_m = 0.188\,\mathrm{m^{-2}\,s^{-1}}$, which implies a solid accuracy, the correlation coefficent of $R^2 = 0.995$ as displayed in \autoref{fig:NaCl2} also implies this solid accuracy. The measurement values for KCl showed a standard deviation of $s_m = 0.701\,\mathrm{m^{-2}\,s^{-1}}$ corresponding to with a corelation coefficient of $R^2 = 0.986$, which is less accurate than for NaCl, but still in an acceptable range. The \ch{ZnSO4} plot showed a standard deviation of $s_m = 0.014\,\mathrm{m^{-2}\,s^{-1}}$ and a correlation coefficent of $R^2 = 0.977$ the accuracy of this measurement shows the poorest accuracy. The standard deviations have to be put in correlation to the slope values to interpret the accuracy of the measurement, which gives $s_m/m = 0.021$ for NaCl, $s_m/m = 0.027$ for KCl and $s_m/m = 0.034$ for \ch{ZnSO4}. Due to the fact that the slope is a linear term in \autoref{gleichungm}, the diffusion constant varies by those values, meaning an uncertainty of \SI{3.4}{\percent}. \\
-There were multiple sources for errors in this experiment that have to be considered. The refractive indices of the salt solutions deviate from literature values due to manual adjustment of the borderline in the refractometer, which was based on subjective visual inspection. Especially in the case of \ch{ZnSO4}, the borderline was very blurry, which led to a measurement uncertainty in the refractive index.
-The measurements of the refractive indices were performed at room temperature without active thermal stabilization, which can lead to deviations as well, since refractive indices are temperature dependent.
-%
-Another possible source for errors was the lamp that was used to measure the refractive indices, since the different wavelengths of light are refracted differently. \\
-The addition of the salt solutions in the cuvette is also a source for errors because the two layers started mixing during the injection process of the salt solution if it was not done careful enough.
-The last possible error source was the recording process and the following conversion into data points. The brightness in the recording could have been too low for the python script to be able to convert properly, which leads to missing points in the resulting plot. Additionally the conversion from pixels into milimeters relies on the assumption that the distance between the screen and camera is the exact distance as stated in the instruction.  
 
-\section{Conclusion}
-The refractive indices were measured as $n_{\ch{H2O}} = 1.3375$, $n_{\ch{NaCl}} = 1.3541$, $n_{\ch{KCl}} = 1.3514$ and $n_{\ch{ZnSO4}} = 1.3725$, which show small deviations from literature values.
-The diffusion constants of \ch{NaCl}, \ch{KCl} and \ch{ZnSO4} were determined as $D_{\mathrm{NaCl}} = 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl}} = 6.636 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$ by using the Schlieren method. Most deviations from literature values can be explained by mistakes during the conduction of the experiment or errors in the setup.
-\newpage
-\printbibliography[title={References}]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+g
+
+
+
+
+
+
+
+
+
+
 
 
 \end{document}
