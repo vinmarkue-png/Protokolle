@@ -72,8 +72,13 @@
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
+      \field{journaltitle}{IJMDES}
       \field{langid}{english}
+      \field{month}{1}
+      \field{number}{1}
       \field{title}{Saturation of {{Refractive Index}} of {{Nacl Solution Beyond}} Its {{Saturation Limit}}}
+      \field{volume}{1}
+      \field{year}{2022}
     \endentry
     \entry{n_KCl}{online}{}{}
       \field{sortinit}{1}
@@ -140,7 +145,7 @@
       \endverb
     \endentry
     \entry{atkins}{book}{}{}
-      \name{editor}{2}{}{%
+      \name{author}{2}{}{%
         {{hash=57821e4beb2a93db394ee0b901a98d3e}{%
            family={Atkins},
            familyi={A\bibinitperiod},
@@ -162,13 +167,13 @@
       \strng{fullhash}{d272a752f86e7a652fd4aa0175fdbfa4}
       \strng{fullhashraw}{d272a752f86e7a652fd4aa0175fdbfa4}
       \strng{bibnamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
-      \strng{editorbibnamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
-      \strng{editornamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
-      \strng{editorfullhash}{d272a752f86e7a652fd4aa0175fdbfa4}
-      \strng{editorfullhashraw}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorbibnamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authornamehash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorfullhash}{d272a752f86e7a652fd4aa0175fdbfa4}
+      \strng{authorfullhashraw}{d272a752f86e7a652fd4aa0175fdbfa4}
       \field{sortinit}{1}
       \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{editor}
+      \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{5. Auflage}
       \field{isbn}{978-3-527-33247-2}
@@ -177,6 +182,7 @@
       \field{year}{2013}
     \endentry
   \enddatalist
+  \missing{crc}
 \endrefsection
 \endinput
 

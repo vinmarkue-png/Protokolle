@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Diffusion_A05-v01"] 1768983684.10264 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768983691.71708 0
-  "Diffusion_A05-v01.bcf" 1768983691 109407 db23f4ebfba9d7fdec16cb860e0456d7 "pdflatex"
-  "lit.bib" 1768983162 1464 c0ce2a83e0ce825eb3f137529ee3d59d ""
+["biber Diffusion_A05-v01"] 1768985781.60589 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768986304.97537 0
+  "Diffusion_A05-v01.bcf" 1768986304 109222 c4fdfbc80b306298d472741e7c1cf110 "pdflatex"
+  "lit.bib" 1768985305 1554 d0eb9f59538a88a7d8bd4973a9b3d034 ""
   (generated)
   "Diffusion_A05-v01.bbl"
   "Diffusion_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768983686.83774 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768983691.71817 0
+["pdflatex"] 1768986299.90988 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768986304.97637 0
   "Bilder/profiles.png" 1768404251 26456 2dbb0b34644d993de9564a76278eb2ab ""
   "Bilder/setup.png" 1768404127 10469 18fd32d521347747f0eb4efba6168a32 ""
   "Bilder/setupcam.png" 1768404176 16613 ec79c9abb64cc34266060a294dba14d0 ""
@@ -14,15 +14,16 @@
   "DIFF/NaCl/GraphNacl.png" 1768898954 27204 d80929139addbb0deabfddb55600f71c ""
   "DIFF/NaCl/beispieldata.pdf" 1768898954 39239 bb2f4b2111daaf246df2c5d29ca5a31a ""
   "DIFF/ZnSO4/graphznso4.png" 1768898954 23869 0a5c1be625805480bfcefc60c230fa43 ""
-  "Diffusion_A05-v01.aux" 1768983691 9978 206b1d410a2273f2c8c4201d3133cf51 "pdflatex"
-  "Diffusion_A05-v01.bbl" 1768983686 7109 2008faf8cee2733f24ea0daf45f67eba "biber Diffusion_A05-v01"
-  "Diffusion_A05-v01.run.xml" 1768983691 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
-  "Diffusion_A05-v01.tex" 1768983659 27472 035d5cb0214c803467b5ec92d48b7cbb ""
-  "Diffusion_A05-v01.toc" 1768983691 911 1784e96d1c861395890ef0aa2bf0cdf2 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768983659 27472 035d5cb0214c803467b5ec92d48b7cbb ""
+  "Diffusion_A05-v01.aux" 1768986304 10123 fff22021308439aeb55125163e89a570 "pdflatex"
+  "Diffusion_A05-v01.bbl" 1768985795 7262 7948aca21019d0525bbd6fa054467bf8 "biber Diffusion_A05-v01"
+  "Diffusion_A05-v01.run.xml" 1768986304 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
+  "Diffusion_A05-v01.tex" 1768986298 26587 467007e324f1388f75ac835ccd3d4b04 ""
+  "Diffusion_A05-v01.toc" 1768986304 978 72635473feb74628d80327f652e03e24 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768986298 26587 467007e324f1388f75ac835ccd3d4b04 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1761072433 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx0800.tfm" 1761073056 3584 269b66e921ba58750c12f7f1c8ea3ebd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm" 1761073056 3584 0181dbc4d429c3ba4e30feba37b5df96 ""
@@ -67,6 +68,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761070986 32726 39f0f9e62e84beb801509898a605dbd5 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1761070986 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761070986 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb" 1761072433 164252 80f1e2aedb14b70a9faa6f99c56d1770 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1761072433 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1761072433 135938 1a19ff976dd71ec9a67855cdbfd83710 ""

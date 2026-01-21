@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  21 JAN 2026 09:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  21 JAN 2026 10:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1204,7 +1204,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Diffusion_A05-v01.bbl' found.
- (./Diffusion_A05-v01.bbl)
+ (./Diffusion_A05-v01.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                crc
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 89.
 Package biblatex Info: Reference segment=0 on input line 89.
 
@@ -1228,7 +1236,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<Bilder/profiles.png, id=66, 333.04425pt x 320.99925pt>
+<Bilder/profiles.png, id=68, 333.04425pt x 320.99925pt>
 File: Bilder/profiles.png Graphic file (type png)
 <use Bilder/profiles.png>
 Package pdftex.def Info: Bilder/profiles.png  used on input line 181.
@@ -1243,7 +1251,7 @@ l.185
        [1
 
 ]
-<Bilder/setup.png, id=90, 159.59625pt x 114.4275pt>
+<Bilder/setup.png, id=92, 159.59625pt x 114.4275pt>
 File: Bilder/setup.png Graphic file (type png)
 <use Bilder/setup.png>
 Package pdftex.def Info: Bilder/setup.png  used on input line 196.
@@ -1256,7 +1264,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.202 \begin{equation}
                        [2 <./Bilder/profiles.png> <./Bilder/setup.png>]
-<Bilder/setupcam.png, id=109, 316.18124pt x 142.131pt>
+<Bilder/setupcam.png, id=111, 316.18124pt x 142.131pt>
 File: Bilder/setupcam.png Graphic file (type png)
 <use Bilder/setupcam.png>
 Package pdftex.def Info: Bilder/setupcam.png  used on input line 221.
@@ -1264,7 +1272,7 @@ Package pdftex.def Info: Bilder/setupcam.png  used on input line 221.
 
 
 [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/setupcam.png>]
-<DIFF/NaCl/beispieldata.pdf, id=123, 462.52798pt x 346.89601pt>
+<DIFF/NaCl/beispieldata.pdf, id=125, 462.52798pt x 346.89601pt>
 File: DIFF/NaCl/beispieldata.pdf Graphic file (type pdf)
 <use DIFF/NaCl/beispieldata.pdf>
 Package pdftex.def Info: DIFF/NaCl/beispieldata.pdf  used on input line 263.
@@ -1274,7 +1282,7 @@ Package pdftex.def Info: DIFF/NaCl/beispieldata.pdf  used on input line 263.
 [4]
 
 [5 <./DIFF/NaCl/beispieldata.pdf>]
-<DIFF/NaCl/GraphNacl.png, id=156, 361.131pt x 217.248pt>
+<DIFF/NaCl/GraphNacl.png, id=158, 361.131pt x 217.248pt>
 File: DIFF/NaCl/GraphNacl.png Graphic file (type png)
 <use DIFF/NaCl/GraphNacl.png>
 Package pdftex.def Info: DIFF/NaCl/GraphNacl.png  used on input line 301.
@@ -1284,17 +1292,17 @@ Package pdftex.def Info: DIFF/NaCl/GraphNacl.png  used on input line 301.
 [6 <./DIFF/NaCl/GraphNacl.png>]
 
 [7]
-<DIFF/KCl/graphkcl.png, id=179, 361.35pt x 217.905pt>
+<DIFF/KCl/graphkcl.png, id=181, 361.35pt x 217.905pt>
 File: DIFF/KCl/graphkcl.png Graphic file (type png)
 <use DIFF/KCl/graphkcl.png>
 Package pdftex.def Info: DIFF/KCl/graphkcl.png  used on input line 379.
 (pdftex.def)             Requested size: 371.23923pt x 223.86943pt.
 
 
-[8 <./DIFF/KCl/graphkcl.png>]
+[8]
 
-[9]
-<DIFF/ZnSO4/graphznso4.png, id=194, 361.35pt x 213.087pt>
+[9 <./DIFF/KCl/graphkcl.png>]
+<DIFF/ZnSO4/graphznso4.png, id=196, 361.35pt x 213.087pt>
 File: DIFF/ZnSO4/graphznso4.png Graphic file (type png)
 <use DIFF/ZnSO4/graphznso4.png>
 Package pdftex.def Info: DIFF/ZnSO4/graphznso4.png  used on input line 453.
@@ -1304,7 +1312,11 @@ Package pdftex.def Info: DIFF/ZnSO4/graphznso4.png  used on input line 453.
 [10]
 
 [11 <./DIFF/ZnSO4/graphznso4.png>]
-Overfull \hbox (1.57742pt too wide) in paragraph at lines 481--489
+
+LaTeX Warning: Citation 'crc' on page 12 undefined on input line 479.
+
+
+Overfull \hbox (1.57742pt too wide) in paragraph at lines 478--483
 \T1/cmr/m/n/12 The mea-sured dif-fu-sion con-stants $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 414 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 636 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$
  []
 
@@ -1323,17 +1335,17 @@ Package logreq Info: Writing requests to 'Diffusion_A05-v01.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  42762 strings out of 467748
- 906288 string characters out of 5431137
- 1852416 words of memory out of 5000000
- 70858 multiletter control sequences out of 15000+600000
- 647174 words of font info for 80 fonts, out of 8000000 for 9000
+ 906217 string characters out of 5431137
+ 1852430 words of memory out of 5000000
+ 70856 multiletter control sequences out of 15000+600000
+ 647950 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,11294b,2081s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Diffusion_A05-v01.pdf (15 pages, 538639 bytes).
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Diffusion_A05-v01.pdf (15 pages, 556727 bytes).
 PDF statistics:
- 378 PDF objects out of 1000 (max. 8388607)
- 289 compressed objects within 3 object streams
- 59 named destinations out of 1000 (max. 500000)
- 136 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 385 PDF objects out of 1000 (max. 8388607)
+ 294 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
