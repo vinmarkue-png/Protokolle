@@ -13,7 +13,7 @@
 \usepackage{framed, color} 
 \usepackage{scrlayer-scrpage}
 \usepackage{siunitx}
-\usepackage{subfigure}
+\usepackage{subcaption}
 %\renewcaptionname{ngerman}{\figurename}{Fig.}
 %\renewcaptionname{ngerman}{\tablename}{Table}
 \sisetup{
@@ -22,18 +22,16 @@
     locale=UK,
     exponent-product = \cdot,
     range-phrase={\,bis\,},
-    list-final-separator ={\,\linebreak[0] \text{und}\,},
+    list-final-separator ={\,\linebreak[0] \text{and}\,},
     separate-uncertainty=true,
     per-mode = symbol-or-fraction
 }
-\DeclareSIUnit\curie{Ci}
+%macht komata anstatt kreuze bei Zehnerpotenzen
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
 
 \usepackage{chemgreek}
 \usepackage{chemformula}
-\sisetup{detect-weight=true, detect-family=true,locale=DE,range-phrase={\,bis\,},list-final-separator ={\,\linebreak[0] \text{und}\,},separate-uncertainty=true,per-mode = symbol-or-fraction}
-%macht komata anstatt kreuze bei Zehnerpotenzen
 \geometry{left = 2.5cm} \geometry{top = 3cm}
 
 \urlstyle{same}
@@ -144,7 +142,7 @@ In this experiment the diffusion constants of the salts \ch{NaCl}, \ch{KCl} and 
 
 \section{Theory}
 Molecular diffusion describes the movement of particles from a region of high concentration to a region of low concentration, which leads to an even distribution of particles.\supercite{Skript}
-It was first discovered by Robert Brown, who observed the random movement of tiny particles suspended in a liquid, which is called Brownian motion. Then German physicist Adolf Fick lay the theoretical foundation for diffusion by formulating two laws. \\
+It was first discovered by Robert Brown, who observed the random movement of tiny particles suspended in a liquid, which is called Brownian motion. Then German physicist Adolf Fick laid the theoretical foundation for diffusion by formulating two laws. \\
 %\subsection{Fick's Laws}
 The first Fick's law describes how the particle flux density $j(z)$ is connected to the Diffusion coefficient $D$ and the concentration gradient $\frac{\partial c(z)}{\partial z}$, which is shown in \autoref{eq:2.8}.
 \begin{equation} 
@@ -163,7 +161,7 @@ Second Fick's law describes the temporal course of concentration as shown in \au
 \frac{\partial c}{\partial t} = D \cdot \frac{\partial^2 c}{\partial z^2} \label{eq:2.11} 
 \end{equation}
 \autoref{eq:2.11} states that the concentration equalization proceeds faster the stronger the concentration gradient.
-By integrating seconds Fick's law from \autoref{eq:2.11} under certain boundary conditions and using the substition $\mu = \frac{x}{\sqrt{4Dt}}$, \autoref{eq:2.14} for the profile of concentration can be obtained.
+By integrating Fick's second law from \autoref{eq:2.11} under certain boundary conditions and using the substitution $\mu = \frac{x}{\sqrt{4Dt}}$, \autoref{eq:2.14} for the profile of concentration can be obtained.
 \begin{equation} 
 c = \frac{c_2}{2} \cdot \left(1-\frac{2}{\sqrt{\pi}}\int_{0}^{\mu} e^{-\mu^2} \,d \nu \right)
 \label{eq:2.14} 
@@ -265,28 +263,28 @@ Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
 
 \subsubsection{NaCl}
 
-\autoref{fig:NaCl1} shows the picture ot of the laserbeam on the screen plotted and quantified in pixels.
+\autoref{fig:NaCl1} shows the picture out of the laserbeam on the screen plotted and quantified in pixels.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{DIFF/NaCl/beispieldata.pdf}
-    \caption{The screenshot after 30s of NaCl, plotted in pixels.} 
+    \caption{The screenshot after 60 s of NaCl, plotted in pixels.} 
     \label{fig:NaCl1}
 \end{figure}
 
 The depth of the amplitude $Z_{m,\text{NaCl}}$ was determined via python and converted into a real length using \autoref{F} 
 \begin{equation*}
-    Z_{m,\text{NaCl},10s} = \Delta y_{p,\text{NaCl},10s} \cdot F = 147.7\,\text{pixels} \cdot \qty{0,139}{\milli\meter\per\text{pixel}} = \qty{20.5}{\milli\meter} = \qty{0,0205}{\meter}
+    Z_{m,\text{NaCl},10s} = \Delta y_{p,\text{NaCl},10s} \cdot F = \SI{147.7}{pixels} \cdot \qty{0,139}{\milli\meter\per pixels} = \qty{20.5}{\milli\meter} = \qty{0,0205}{\meter}
 \end{equation*}
 
-$Z_{m,\text{NaCl}}$ is calculated for every screenshot that was made in a 60 s time interval over the course of a 15 min video. To determine the fusion coefficient $D$ the amplitude $Z_{m,\text{NaCl}}$ negative squared is plotted over the time $t$ as shown in \autoref{fig:NaCl2} The values, that were used for the plot are listet in \autoref{tab:diffusion_data_NaCl}
+$Z_{m,\text{NaCl}}$ is calculated for every screenshot that was made in a 60 s time interval over the course of a 15 min video. To determine the diffusion coefficient $D$ the amplitude $Z_{m,\text{NaCl}}$ negative squared is plotted over the time $t$ as shown in \autoref{fig:NaCl2} The values, that were used for the plot are listed in \autoref{tab:diffusion_data_NaCl}
 
 \begin{table}[H]
 \centering
 \caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the NaCl-Sample}
 \label{tab:diffusion_data_NaCl}
 \begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
 \hline \hline
 0   & 180.6246 & 25.1068 & 0.0251068 & 1586.4143 \\
 60  & 147.7368 & 20.5354 & 0.0205354 & 2371.3348 \\
@@ -338,43 +336,43 @@ Substituting the numerical values yields
 \begin{equation*}
 D_{\mathrm{NaCl}} =
 \frac{(1.3541 - 1.3375)^2 (0.268\,\mathrm{m})^2 (0.01\,\mathrm{m})^2 \cdot 8.98\,\mathrm{m^{-2}\,s^{-1}}}{4\pi}
-= 1.414 \times 10^{-9}\,\mathrm{m^2\,s^{-1}}.
+= 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}.
 \tag{15}
 \end{equation*}
 
 \subsubsection{KCl}
 
-The same steps that were discussed for the NaCl sample were performed on the values of the KCl smaple. The Values are listet in \autoref{tab:diffusion_data_KCl} and plottet in \autoref{fig:KCl}
+The same steps that were discussed for the NaCl sample were performed on the values of the KCl sample. The Values are listed in \autoref{tab:diffusion_data_KCl} and plotted in \autoref{fig:KCl}
 
 \begin{table}[H]
 \centering
 \caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the KCl-Sample}
 \label{tab:diffusion_data_KCl}
 \begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
 \hline \hline
-0   & 112.4616 & 15.6322 & 0.0156322 & 4092.2471 \\
-30  & 102.6179 & 14.2639 & 0.0142639 & 4915.0055 \\
-60  & 97.1659  & 13.5061 & 0.0135061 & 5482.0507 \\
-90  & 87.6999  & 12.1903 & 0.0121903 & 6729.3335 \\
-120 & 84.9633  & 11.8099 & 0.0118099 & 7169.8102 \\
-150 & 82.4873  & 11.4657 & 0.0114657 & 7606.6941 \\
-180 & 76.0766  & 10.5747 & 0.0105747 & 8942.6829 \\
-210 & 73.8591  & 10.2664 & 0.0102664 & 9487.7385 \\
-240 & 71.1075  & 9.8839  & 0.0098839 & 10236.2241 \\
-270 & 68.7144  & 9.5513  & 0.0095513 & 10961.6230 \\
-300 & 69.5558  & 9.6683  & 0.0096683 & 10698.0225 \\
-330 & 64.5744  & 8.9758  & 0.0089758 & 12412.2252 \\
-360 & 65.9762  & 9.1707  & 0.0091707 & 11890.3701 \\
-420 & 59.6900  & 8.2969  & 0.0082969 & 14526.7050 \\
-480 & 57.6158  & 8.0086  & 0.0080086 & 15591.4610 \\
-540 & 56.1047  & 7.7986  & 0.0077986 & 16442.6631 \\
-600 & 51.5612  & 7.1670  & 0.0071670 & 19468.1697 \\
-660 & 50.4075  & 7.0066  & 0.0070066 & 20369.5227 \\
-720 & 47.8183  & 6.6467  & 0.0066467 & 22635.0895 \\
-780 & 47.2975  & 6.5744  & 0.0065744 & 23136.2613 \\
-840 & 45.0385  & 6.2604  & 0.0062604 & 25515.3842 \\
-900 & 41.4357  & 5.7596  & 0.0057596 & 30145.3490 \\
+0   & 112.462 & 15.632 & 0.016 & 4092.247 \\
+30  & 102.618 & 14.264 & 0.014 & 4915.006 \\
+60  & 97.166  & 13.506 & 0.014 & 5482.051 \\
+90  & 87.700  & 12.190 & 0.012 & 6729.334 \\
+120 & 84.963  & 11.810 & 0.012 & 7169.810 \\
+150 & 82.487  & 11.466 & 0.011 & 7606.694 \\
+180 & 76.077  & 10.575 & 0.011 & 8942.683 \\
+210 & 73.859  & 10.266 & 0.010 & 9487.739 \\
+240 & 71.108  & 9.884  & 0.010 & 10236.224 \\
+270 & 68.714  & 9.551  & 0.010 & 10961.623 \\
+300 & 69.556  & 9.668  & 0.010 & 10698.023 \\
+330 & 64.574  & 8.976  & 0.009 & 12412.225 \\
+360 & 65.976  & 9.171  & 0.009 & 11890.370 \\
+420 & 59.690  & 8.297  & 0.008 & 14526.705 \\
+480 & 57.616  & 8.009  & 0.008 & 15591.461 \\
+540 & 56.105  & 7.799  & 0.008 & 16442.663 \\
+600 & 51.561  & 7.167  & 0.007 & 19468.170 \\
+660 & 50.408  & 7.007  & 0.007 & 20369.523 \\
+720 & 47.818  & 6.647  & 0.007 & 22635.090 \\
+780 & 47.298  & 6.574  & 0.007 & 23136.261 \\
+840 & 45.039  & 6.260  & 0.006 & 25515.384 \\
+900 & 41.436  & 5.760  & 0.006 & 30145.349 \\
 \end{tabular}
 \end{table}
 
@@ -401,54 +399,54 @@ D_{\mathrm{KCl}} = 6.636 \times 10^{-9}\,\mathrm{m^{2}\,s^{-1}}.
 
 \subsubsection{\ch{ZnSO4}}
 
-The same steps that were discussed for the NaCl sample were also performed on the values of the \ch{ZnSO4} smaple. The Values are listet in \autoref{tab:diffusion_data_ZnSO4} and plottet in \autoref{fig:ZnSO4}
+The same steps that were discussed for the NaCl sample were also performed on the values of the \ch{ZnSO4} sample. The Values are listed in \autoref{tab:diffusion_data_ZnSO4} and plotted in \autoref{fig:ZnSO4}
 
 \begin{table}[H]
 \centering
 \caption{Measured values of $\Delta y$, $Z$, and $Z^{-2}$ as a function of time of the \ch{ZnSO4}-Sample}
 \label{tab:diffusion_data_ZnSO4}
 \begin{tabular}{r|c|c|c|c}
-Time [s] & $\Delta y$ & $Z$ [mm] & $z$ [m] & $z^{-2}$ [$\mathrm{m^{-2}}$] \\
+Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
 \hline
 \hline
-0    & 262.6980 & 36.5150 & 0.0365150 & 749.9926 \\
-30   & 255.8125 & 35.5579 & 0.0355579 & 790.9096 \\
-60   & 252.3181 & 35.0722 & 0.0350722 & 812.9684 \\
-90   & 249.4520 & 34.6738 & 0.0346738 & 831.7567 \\
-120  & 245.3143 & 34.0987 & 0.0340987 & 860.0517 \\
-150  & 239.1358 & 33.2399 & 0.0332399 & 905.0679 \\
-180  & 233.1782 & 32.4118 & 0.0324118 & 951.9068 \\
-210  & 233.4213 & 32.4456 & 0.0324456 & 949.9256 \\
-240  & 402.7826 & 55.9868 & 0.0559868 & 319.0282 \\
-270  & 428.8795 & 59.6142 & 0.0596142 & 281.3843 \\
-300  & 438.3061 & 60.9245 & 0.0609245 & 269.4110 \\
-330  & 416.0718 & 57.8340 & 0.0578340 & 298.9743 \\
-360  & 464.4842 & 64.5633 & 0.0645633 & 239.8990 \\
-390  & 460.6664 & 64.0326 & 0.0640326 & 243.8918 \\
-420  & 458.9758 & 63.7976 & 0.0637976 & 245.6919 \\
-480  & 469.9451 & 65.3224 & 0.0653224 & 234.3560 \\
-540  & 463.5952 & 64.4397 & 0.0644397 & 240.8200 \\
-600  & 446.6395 & 62.0829 & 0.0620829 & 259.4514 \\
-660  & 446.3221 & 62.0388 & 0.0620388 & 259.8206 \\
-720  & 420.6900 & 58.4759 & 0.0584759 & 292.4463 \\
-780  & 413.1437 & 57.4270 & 0.0574270 & 303.2272 \\
-840  & 407.4944 & 56.6417 & 0.0566417 & 311.6930 \\
-900  & 398.9835 & 55.4587 & 0.0554587 & 325.1326 \\
-960  & 381.3652 & 53.0098 & 0.0530098 & 355.8675 \\
-1020 & 370.0731 & 51.4402 & 0.0514402 & 377.9162 \\
-1080 & 361.5875 & 50.2607 & 0.0502607 & 395.8619 \\
-1140 & 345.6014 & 48.0386 & 0.0480386 & 433.3307 \\
-1200 & 334.4851 & 46.4934 & 0.0464934 & 462.6118 \\
-1260 & 323.1864 & 44.9229 & 0.0449229 & 495.5234 \\
-1320 & 312.7687 & 43.4749 & 0.0434749 & 529.0829 \\
-1380 & 302.8585 & 42.0973 & 0.0420973 & 564.2749 \\
-1440 & 292.1175 & 40.6043 & 0.0406043 & 606.5340 \\
-1500 & 283.4248 & 39.3960 & 0.0393960 & 644.3097 \\
-1560 & 284.1040 & 39.4905 & 0.0394905 & 641.2327 \\
-1620 & 277.0211 & 38.5059 & 0.0385059 & 674.4420 \\
-1680 & 272.4736 & 37.8738 & 0.0378738 & 697.1425 \\
-1740 & 267.4768 & 37.1793 & 0.0371793 & 723.4329 \\
-1800 & 229.0740 & 31.8413 & 0.0318413 & 986.3223 \\
+0    & 262.698 & 36.515 & 0.037 & 749.993 \\
+30   & 255.813 & 35.558 & 0.036 & 790.910 \\
+60   & 252.318 & 35.072 & 0.035 & 812.968 \\
+90   & 249.452 & 34.674 & 0.035 & 831.757 \\
+120  & 245.314 & 34.099 & 0.034 & 860.052 \\
+150  & 239.136 & 33.240 & 0.033 & 905.068 \\
+180  & 233.178 & 32.412 & 0.032 & 951.907 \\
+210  & 233.421 & 32.446 & 0.032 & 949.926 \\
+240  & 402.783 & 55.987 & 0.056 & 319.028 \\
+270  & 428.880 & 59.614 & 0.060 & 281.384 \\
+300  & 438.306 & 60.925 & 0.061 & 269.411 \\
+330  & 416.072 & 57.834 & 0.058 & 298.974 \\
+360  & 464.484 & 64.563 & 0.065 & 239.899 \\
+390  & 460.666 & 64.033 & 0.064 & 243.892 \\
+420  & 458.976 & 63.798 & 0.064 & 245.692 \\
+480  & 469.945 & 65.322 & 0.065 & 234.356 \\
+540  & 463.595 & 64.440 & 0.064 & 240.820 \\
+600  & 446.640 & 62.083 & 0.062 & 259.451 \\
+660  & 446.322 & 62.039 & 0.062 & 259.821 \\
+720  & 420.690 & 58.476 & 0.058 & 292.446 \\
+780  & 413.144 & 57.427 & 0.057 & 303.227 \\
+840  & 407.494 & 56.642 & 0.057 & 311.693 \\
+900  & 398.984 & 55.459 & 0.055 & 325.133 \\
+960  & 381.365 & 53.010 & 0.053 & 355.868 \\
+1020 & 370.073 & 51.440 & 0.051 & 377.916 \\
+1080 & 361.588 & 50.261 & 0.050 & 395.862 \\
+1140 & 345.601 & 48.039 & 0.048 & 433.331 \\
+1200 & 334.485 & 46.493 & 0.046 & 462.612 \\
+1260 & 323.186 & 44.923 & 0.045 & 495.523 \\
+1320 & 312.769 & 43.475 & 0.043 & 529.083 \\
+1380 & 302.859 & 42.097 & 0.042 & 564.275 \\
+1440 & 292.118 & 40.604 & 0.041 & 606.534 \\
+1500 & 283.425 & 39.396 & 0.039 & 644.310 \\
+1560 & 284.104 & 39.491 & 0.039 & 641.233 \\
+1620 & 277.021 & 38.506 & 0.039 & 674.442 \\
+1680 & 272.474 & 37.874 & 0.038 & 697.143 \\
+1740 & 267.477 & 37.179 & 0.037 & 723.433 \\
+1800 & 229.074 & 31.841 & 0.032 & 986.322 \\
 \end{tabular}
 \end{table}
 
@@ -466,7 +464,7 @@ The slope \( m \) is determined to be
 \[
 m = 0.4171\,\mathrm{m^{-2}\,s^{-1}},
 \]
-and the refractive index of the potassium chloride solution is
+and the refractive index of the zinc sulfide solution is
 \[
 n_{1,\mathrm{KCl}} = 1.3725.
 \]
@@ -480,12 +478,13 @@ D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}.
 
 \section{Error Discussion}
 
-The standard deviation for the slope of the NaCl plot is $s_m = 0.188$ which implies a solid accuracy, the correlation coefficent of $R^2 = 0.995$ as displayed in \autoref{fig:NaCl2} also implies this solid accuracy. The measurement values for KCl showed a standard deviation of $s_m = 0.701$ corresponding to with a corelation coefficient of $R^2 = 0.986$ which is less accurate than for NaCl, but still in an acceptable range. The \ch{ZnSO4} plot showed a standard deviation of $s_m = 0.014$ and a correlation coefficent of $R^2 = 0.977$ the accuracy of this measurement shows the poorest accuracy. The standard deviations have to be put in correlation to the slope values to interpret the accuracy of the measurenent. which gives $m/s_m = 0.021$ for NaCl, $m/s_m = 0.027$ for KCl and $m/s_m = 0.034$ for \ch{ZnSO4}. Due to the fact that the slope is a linear term in \autoref{gleichungm}, the diffusion constant varies by those values, meaning a maximal variety by \SI{3.4}{\percent}.
+The standard deviation for the slope of the NaCl plot is $s_m = 0.188$ which implies a solid accuracy, the correlation coefficent of $R^2 = 0.995$ as displayed in \autoref{fig:NaCl2} also implies this solid accuracy. The measurement values for KCl showed a standard deviation of $s_m = 0.701$ corresponding to with a corelation coefficient of $R^2 = 0.986$ which is less accurate than for NaCl, but still in an acceptable range. The \ch{ZnSO4} plot showed a standard deviation of $s_m = 0.014$ and a correlation coefficent of $R^2 = 0.977$ the accuracy of this measurement shows the poorest accuracy. The standard deviations have to be put in correlation to the slope values to interpret the accuracy of the measurenent. which gives $s_m/m = 0.021$ for NaCl, $s_m/m = 0.027$ for KCl and $s_m/m = 0.034$ for \ch{ZnSO4}. Due to the fact that the slope is a linear term in \autoref{gleichungm}, the diffusion constant varies by those values, meaning a maximal variety by \SI{3.4}{\percent}.
 
+There were multiple sources for errors in this experiment that have to be considered. The refractive indices of the salt solutions deviate from literature values due to manual adjustment of the borderline in the refractometer, which was based on subjective visual inspection. Especially in the case of \ch{ZnSO4}, the borderline was very blurry, which led to a measurement uncertainty in the refractive index. The  of the refractive indices were performed at room temperature without active thermal stabilization, which can lead to deviations as well, since refractive indices are temperature dependent.The measured refractive indices were $n_{\ch{H2O}} = 1.3375$, $n_{\ch{NaCl}} = 1.3541$, $n_{\ch{KCl}} = 1.3514$ and $n_{\ch{ZnSO4}} = 1.3725$, while the literature values were $n_{\ch{H2O}, Lit} = 1.333$ \supercite{n_H2O}, $n_{\ch{NaCl}, Lit} = 1.348$ \supercite{n_NaCl}, $n_{\ch{KCl}, Lit} = 1.352$ \supercite{n_KCl} and $n_{\ch{ZnSO4}, Lit} = 1.36$ \supercite{n_Zn}  \\
 There were multiple sources for errors in this experiment that have to be considered. The refractive indices of the salt solutions deviate from literature values due to manual adjustment of the borderline in the refractometer, which was based on subjective visual inspection. Especially in the case of \ch{ZnSO4}, the borderline was very blurry, which led to a measurement uncertainty in the refractive index. The measurements of the refractive indices were performed at room temperature without active thermal stabilization, which can lead to deviations as well, since refractive indices are temperature dependent.The measured refractive indices were $n_{\ch{H2O}} = 1.3375$, $n_{\ch{NaCl}} = 1.3541$, $n_{\ch{KCl}} = 1.3514$ and $n_{\ch{ZnSO4}} = 1.3725$, while the literature values were $n_{\ch{H2O}, Lit} = 1.333$ \supercite{n_H2O}, $n_{\ch{NaCl}, Lit} = 1.348$ \supercite{n_NaCl}, $n_{\ch{KCl}, Lit} = 1.352$ \supercite{n_KCl} and $n_{\ch{ZnSO4}, Lit} = 1.36$ \supercite{n_Zn}  \\
 Another possible source for errors was the lamp that was used to measure the refractive indices, since the different wavelengths of light are refracted differently. The adding of the salt solutions in the cuvette is also a source for errors because the two layers started mixing during the injection process of the salt solution if it was not done careful enough. \\
-The measured diffusion constants $D_{\mathrm{NaCl}} = 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl}} = 6.636 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$ deviate from the ones obtained from literature sources wich were $D_{\mathrm{NaCl, Lit}} = 1.6 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl, Lit}} = 1.95 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4, Lit}} = 1.1 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$.\supercite{atkins} \\
-The last possible error source was the recording process and the following conversion into data points. The brightness in the recording could have been too low for the python skript to be able to convert properly, wich leads to missing points in the resulting plot. Additionally the conversion from pixels into milimeters relies on the assumption that the distance between the screen and camera is the exact distance as stated in the instruction.  
+The measured diffusion constants $D_{\mathrm{NaCl}} = 1.414 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl}} = 6.636 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4}} = 2.925 \cdot 10^{-10}\,\mathrm{m^{2}\,s^{-1}}$ deviate from the ones obtained from literature sources which were $D_{\mathrm{NaCl, Lit}} = 1.6 \cdot 10^{-9}\,\mathrm{m^2\,s^{-1}}$, $D_{\mathrm{KCl, Lit}} = 1.95 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$ and $D_{\mathrm{ZnSO4, Lit}} = 1.1 \cdot 10^{-9}\,\mathrm{m^{2}\,s^{-1}}$.\supercite{atkins} \\
+The last possible error source was the recording process and the following conversion into data points. The brightness in the recording could have been too low for the python script to be able to convert properly, which leads to missing points in the resulting plot. Additionally the conversion from pixels into milimeters relies on the assumption that the distance between the screen and camera is the exact distance as stated in the instruction.  
 % assumptions made in the experiment that may affect the accuracy of the results. List these assumptions and evaluate the extent to which they could influence the outcome.
 It is assumed that at a concentration of 2M, the refractive index is still proportional to the concentration. However, at higher concentrations, deviations can occur due to strong Coulomb interactions between multivalent ions such as \ch{ZnSO4}, which lead to the formation of ion pairs and a electrostriction effect. This results in a higher density of the solution and a higher molar refractivity than expected, contributing to a deviation of the linear relationship between refractive index and concentration. 
 The influence of deviations in the refractive indices on the diffusion coefficients calculated with \autoref{eq:2.24} is significant, since the refractive indices appear squared in the denominator.\supercite{atkins}

@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Diffusion_A05-v01"] 1768981157.07713 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768981817.34329 0
-  "Diffusion_A05-v01.bcf" 1768981816 109163 c06768b374b38efd87573b903a71683d "pdflatex"
+["biber Diffusion_A05-v01"] 1768983018.45113 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1768983240.51918 0
+  "Diffusion_A05-v01.bcf" 1768983239 109407 db23f4ebfba9d7fdec16cb860e0456d7 "pdflatex"
   "lit.bib" 1768978719 1464 c0ce2a83e0ce825eb3f137529ee3d59d ""
   (generated)
   "Diffusion_A05-v01.bbl"
   "Diffusion_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1768981810.65662 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768981817.34477 0
+["pdflatex"] 1768983233.76001 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1768983240.52123 0
   "Bilder/profiles.png" 1768773897 26456 2dbb0b34644d993de9564a76278eb2ab ""
   "Bilder/setup.png" 1768773897 10469 18fd32d521347747f0eb4efba6168a32 ""
   "Bilder/setupcam.png" 1768773897 16613 ec79c9abb64cc34266060a294dba14d0 ""
@@ -14,12 +14,12 @@
   "DIFF/NaCl/GraphNacl.png" 1768855130 27204 d80929139addbb0deabfddb55600f71c ""
   "DIFF/NaCl/beispieldata.pdf" 1768851415 39239 bb2f4b2111daaf246df2c5d29ca5a31a ""
   "DIFF/ZnSO4/graphznso4.png" 1768855090 23869 0a5c1be625805480bfcefc60c230fa43 ""
-  "Diffusion_A05-v01.aux" 1768981816 9540 70ee936516b096ccf6df4bb384940a4f "pdflatex"
-  "Diffusion_A05-v01.bbl" 1768981174 7109 2008faf8cee2733f24ea0daf45f67eba "biber Diffusion_A05-v01"
-  "Diffusion_A05-v01.run.xml" 1768981816 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
-  "Diffusion_A05-v01.tex" 1768981808 27142 efaeabd4bdd56e56ff29bac73678924e ""
-  "Diffusion_A05-v01.toc" 1768981816 911 9c3cf2463f51a66cd2b9c0da057341f4 "pdflatex"
-  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768981808 27142 efaeabd4bdd56e56ff29bac73678924e ""
+  "Diffusion_A05-v01.aux" 1768983239 9993 f80c098cc3ab58ad6c91f43987f3d6db "pdflatex"
+  "Diffusion_A05-v01.bbl" 1768983022 7109 2008faf8cee2733f24ea0daf45f67eba "biber Diffusion_A05-v01"
+  "Diffusion_A05-v01.run.xml" 1768983239 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
+  "Diffusion_A05-v01.tex" 1768983232 27476 4d0b7a83e17afab91c5b8e21836e87a0 ""
+  "Diffusion_A05-v01.toc" 1768983239 911 9c3cf2463f51a66cd2b9c0da057341f4 "pdflatex"
+  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1768983232 27476 4d0b7a83e17afab91c5b8e21836e87a0 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765623789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -181,6 +181,8 @@
   "c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def" 1765572239 8818 aa5157b46368efebf023abff55611467 ""
   "c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty" 1765572239 18245 97e6be180cf07bb6f7008cfdaaecfce5 ""
   "c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty" 1765572382 56128 c2ccf1a29d78c33bc553880402e4fb9a ""
+  "c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty" 1765572382 72619 ee90b6612147680fd73c3b1406a74245 ""
+  "c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty" 1765572382 12494 0c0cdb824278a4d51cefeb2e79901315 ""
   "c:/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty" 1765572513 120104 16dc691645502ee13b1718d3f1dc0c8d ""
   "c:/texlive/2025/texmf-dist/tex/latex/chemgreek/chemgreek.sty" 1765572516 47530 64600845afa9c25b782d42fa33f66772 ""
   "c:/texlive/2025/texmf-dist/tex/latex/csquotes/csquotes.cfg" 1765624121 7068 06f8d141725d114847527a66439066b6 ""
@@ -246,8 +248,6 @@
   "c:/texlive/2025/texmf-dist/tex/latex/refcount/refcount.sty" 1765628884 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "c:/texlive/2025/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1765628922 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "c:/texlive/2025/texmf-dist/tex/latex/siunitx/siunitx.sty" 1765629343 344221 f0c98c737eca26294f5039e8afde731f ""
-  "c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.cfg" 1765629595 2062 a0e7d66e09e508f51289a656aec06ed2 ""
-  "c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.sty" 1765629595 15188 91281c7ddbccfa54a8e0c3b56ab5aa72 ""
   "c:/texlive/2025/texmf-dist/tex/latex/tools/array.sty" 1765630281 15651 9d7c62df82cb29a555c00550babfe364 ""
   "c:/texlive/2025/texmf-dist/tex/latex/tools/calc.sty" 1765630281 10374 2ffd4f27c7f90b8a300608069537743c ""
   "c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl" 1765630329 5588 0c1628daf15f4411ff1f463114c634a3 ""
