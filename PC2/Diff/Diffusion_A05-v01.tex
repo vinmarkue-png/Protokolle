@@ -254,13 +254,6 @@ In order to determine the diffusion coefficients, the pixel value from the graph
     \label{F}
 \end{equation}
 
-To evaluate \autoref{fig:NaCl2}, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:PlotFormel}, which shows the connection between the slope $m$ and the diffusion coefficient.
-\begin{align} 
-Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
-&= m \cdot t
-\label{eq:PlotFormel} 
-\end{align}
-
 \subsubsection{NaCl}
 
 \autoref{fig:NaCl1} shows the picture out of the laserbeam on the screen plotted and quantified in pixels.
@@ -309,7 +302,12 @@ Time [s] & $\Delta y$ & $Z$ [mm] & $Z$ [m] & $Z^{-2}$ [$\mathrm{m^{-2}}$] \\
     \caption{The values of the negative squared Amplitude $Z_{m,\text{NaCl}}$ plotted over the time $t$ } 
     \label{fig:NaCl2}
 \end{figure}
-
+To evaluate \autoref{fig:NaCl2}, \autoref{eq:2.24} is rearranged to $Z^{-2}$ to get \autoref{eq:PlotFormel}, which shows the connection between the slope $m$ and the diffusion coefficient.
+\begin{align} 
+Z^{-2} &= \frac{4\pi D n_0^2}{(n_1-n_2)^2L^2K^2} \cdot t \\
+&= m \cdot t
+\label{eq:PlotFormel} 
+\end{align}
 The linear fit is described by the equation
 \[
 y = m \cdot t + b,
