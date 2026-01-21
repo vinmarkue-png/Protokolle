@@ -144,6 +144,33 @@
       \verb 10.1021/je60058a018
       \endverb
     \endentry
+    \entry{crc}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=f7576be56fb512cb85d888db905e4e1a}{%
+           family={Haynes},
+           familyi={H\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {CRC Press}%
+      }
+      \strng{namehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{fullhash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{fullhashraw}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{bibnamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorbibnamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authornamehash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorfullhash}{f7576be56fb512cb85d888db905e4e1a}
+      \strng{authorfullhashraw}{f7576be56fb512cb85d888db905e4e1a}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{97}
+      \field{title}{{{CRC Handbook}} of {{Chemistry}} and {{Physics}}}
+      \field{year}{2017}
+    \endentry
     \entry{atkins}{book}{}{}
       \name{author}{2}{}{%
         {{hash=57821e4beb2a93db394ee0b901a98d3e}{%
@@ -182,7 +209,6 @@
       \field{year}{2013}
     \endentry
   \enddatalist
-  \missing{crc}
 \endrefsection
 \endinput
 
