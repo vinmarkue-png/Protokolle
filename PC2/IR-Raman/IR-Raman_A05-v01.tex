@@ -27,6 +27,8 @@
     per-mode = symbol-or-fraction
 }
 %macht komata anstatt kreuze bei Zehnerpotenzen
+
+\DeclareSIUnit{\angstrom}{\text{\AA}}
 \usepackage[backend=biber, style=chem-angew]{biblatex} 
 \addbibresource{lit.bib} 
 
@@ -161,11 +163,45 @@ In the experimental part, the Raman spectra of dichloromethane, dibromomethane, 
 
 \subsubsection{IR}
 
-
+\begin{table}[H]
+    \centering
+    \caption{Listed are the calculated wavenumbers and intensities of the IR signals of \ch{CH4} with the corresponding type of the vibrational mode.}
+    \begin{tabular}{c|c|c|c}
+    signal & wavenumber $\tilde{\nu}$ / cm$^{-1}$ & intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type \\
+    \hline
+    1 & 1313.45 & 13.30 & asym. bending \\ 
+    2 & 1313.68 & 13.25 & asym. bending \\
+    3 & 1313.73 & 13.25 & asym. bending \\
+    4 & 1530.79 & 0 & sym. bending \\
+    5 & 1531.05 & 0 & sym. bending \\
+    6 & 3019.38 & 0 & sym. stretching \\
+    7 & 3152.03 & 17.69 & asym. stretching \\
+    8 & 3152.33 & 17.64 & asym. stretching \\
+    9 & 3152.45 & 17.64 & asym. stretching \\
+    \end{tabular}
+    \label{tab: CH4}
+\end{table}
 
 \subsubsection{Raman}
 
-
+\begin{table}[H]
+    \centering
+    \caption{Listed are the calculated wavenumbers and intensities of the Raman signals of \ch{CH4} with the corresponding type of the vibrational mode.}
+    \begin{tabular}{c|c|c|c}
+    signal & wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4\cdot\mathrm{amu^{-1}}$ & vibration type \\
+    \hline
+    1 & 1313.38 & 1.64419 & asym. bending \\ 
+    2 & 1313.61 & 1.6422 & asym. bending \\
+    3 & 1314.1 & 1.6484 & asym. bending \\
+    4 & 1531.00 & 27.4565 & sym. bending \\
+    5 & 1531.09 & 27.449 & sym. bending \\
+    6 & 3019.41 & 145.177 & sym. stretching \\
+    7 & 3150.24 & 62.8181 & asym. stretching \\
+    8 & 3150.27 & 62.8724 & asym. stretching \\
+    9 & 3150.79 & 62.8305 & asym. stretching \\
+    \end{tabular}
+    \label{tab: CH4_R}
+\end{table}
 
 \newpage
 \subsection{Chloromethane}
