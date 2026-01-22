@@ -1,23 +1,28 @@
 # Fdb version 4
-["biber IR-Raman_A05-v01"] 1769068215.04886 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769069653.85 0
-  "IR-Raman_A05-v01.bcf" 1769069653 108245 d53785666e32fdc6f9a8dc1204daf823 "pdflatex"
+["biber IR-Raman_A05-v01"] 1769072873.33577 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769074095.0598 0
+  "IR-Raman_A05-v01.bcf" 1769074094 108245 d53785666e32fdc6f9a8dc1204daf823 "pdflatex"
   "lit.bib" 1769068194 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "IR-Raman_A05-v01.bbl"
   "IR-Raman_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769069650.61426 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769069653.85085 0
-  "IR-Raman_A05-v01.aux" 1769069653 9482 bbaaddd052598a9d77507068c140249e "pdflatex"
-  "IR-Raman_A05-v01.bbl" 1769068217 1591 41e842fa6159ee6d2617c5f8da122169 "biber IR-Raman_A05-v01"
-  "IR-Raman_A05-v01.run.xml" 1769069653 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
-  "IR-Raman_A05-v01.tex" 1769069649 5656 8966a88e575e31a71b9f69a2501b9f2e ""
-  "IR-Raman_A05-v01.toc" 1769069653 2413 d5f182201702157d6a5306796acb16fe "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769069649 5656 8966a88e575e31a71b9f69a2501b9f2e ""
+["pdflatex"] 1769074091.73558 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769074095.06071 0
+  "IR-Raman_A05-v01.aux" 1769074094 11910 bde06748b7aac40cabac107072c3eb98 "pdflatex"
+  "IR-Raman_A05-v01.bbl" 1769072875 1591 41e842fa6159ee6d2617c5f8da122169 "biber IR-Raman_A05-v01"
+  "IR-Raman_A05-v01.run.xml" 1769074094 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
+  "IR-Raman_A05-v01.tex" 1769073979 8543 406e52265551826dc43a7d7b0716b01d ""
+  "IR-Raman_A05-v01.toc" 1769074094 2413 edffbda34cb0e07ac6e2aaacda18c658 "pdflatex"
+  "IR/C2Cl4_spectrum.pdf" 1769074090 19509 5e53a133308d5ab425284c0ed6a14d67 ""
+  "IR/CH2Br2_spectrum.pdf" 1769074090 19206 d25399fc7b87e9adc8c745ce857dce22 ""
+  "IR/CH2Cl2_spectrum.pdf" 1769074090 18997 c78fd143fecbd40abf9a990ddba97d27 ""
+  "IR/CHCl3_spectrum.pdf" 1769074090 18156 40fccfba14f3bd46bb3b084ea5a08282 ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769073979 8543 406e52265551826dc43a7d7b0716b01d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1728.tfm" 1761073056 3584 ad49a18d8515beef6d92d4d3f197d0fd ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx2488.tfm" 1761073056 3584 0181dbc4d429c3ba4e30feba37b5df96 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm" 1761073056 3584 291a5713401683441e0a8c8f4417b17b ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm" 1761073056 3584 49064b465390a8e316a3c8417a050403 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm" 1761073056 3584 f80ddd985bd00e29e9a6047ebd9d4781 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1440.tfm" 1761073056 3584 3169d30142b88a27d4ab0e3468e963a2 ""
@@ -46,6 +51,10 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1761072415 1124 6c73e740cf17375f03eec0ee63599741 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1761072415 1116 933a60c408fc0a863a92debe84b2d294 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1761072415 1120 8b7d695260f3cff42e636090a8002094 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb" 1761070986 36741 0ee9e374ec3e30da87cdfb0ea3575226 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1761070986 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1761070986 32726 39f0f9e62e84beb801509898a605dbd5 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1761070986 32626 5abc8bb2f28aa647d4c70f8ea38cc0d3 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb" 1761072433 140176 d0f50dba675c56d445f84a32c1f93a79 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb" 1761072433 139826 3796482349bae544f13f54da58f9706d ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb" 1761072433 135938 1a19ff976dd71ec9a67855cdbfd83710 ""

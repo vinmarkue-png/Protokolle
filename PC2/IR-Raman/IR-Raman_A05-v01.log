@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  22 JAN 2026 09:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  22 JAN 2026 10:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1242,15 +1242,41 @@ l.152 \newpage
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.231 \printbibliography[title={References}]
-                                             [2]
+l.170 \newpage
+               [2]
+<IR/CH2Cl2_spectrum.pdf, id=97, 722.7pt x 433.62pt>
+File: IR/CH2Cl2_spectrum.pdf Graphic file (type pdf)
+<use IR/CH2Cl2_spectrum.pdf>
+Package pdftex.def Info: IR/CH2Cl2_spectrum.pdf  used on input line 187.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
+<IR/CH2Br2_spectrum.pdf, id=98, 722.7pt x 433.62pt>
+File: IR/CH2Br2_spectrum.pdf Graphic file (type pdf)
+<use IR/CH2Br2_spectrum.pdf>
+Package pdftex.def Info: IR/CH2Br2_spectrum.pdf  used on input line 227.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
-[3]
-Overfull \vbox (197.55817pt too high) has occurred while \output is active []
+
+[3 <./IR/CH2Cl2_spectrum.pdf>]
+<IR/CHCl3_spectrum.pdf, id=147, 722.7pt x 433.62pt>
+File: IR/CHCl3_spectrum.pdf Graphic file (type pdf)
+<use IR/CHCl3_spectrum.pdf>
+Package pdftex.def Info: IR/CHCl3_spectrum.pdf  used on input line 265.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
 
+[4 <./IR/CH2Br2_spectrum.pdf>]
+<IR/C2Cl4_spectrum.pdf, id=192, 722.7pt x 433.62pt>
+File: IR/C2Cl4_spectrum.pdf Graphic file (type pdf)
+<use IR/C2Cl4_spectrum.pdf>
+Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 317.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
 
-[4] (./IR-Raman_A05-v01.aux)
+
+[5 <./IR/CHCl3_spectrum.pdf>]
+
+[6 <./IR/C2Cl4_spectrum.pdf>]
+
+[7] (./IR-Raman_A05-v01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1260,18 +1286,18 @@ Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42622 strings out of 467748
- 903089 string characters out of 5431137
- 1835604 words of memory out of 5000000
- 70746 multiletter control sequences out of 15000+600000
- 643423 words of font info for 73 fonts, out of 8000000 for 9000
+ 42689 strings out of 467748
+ 904587 string characters out of 5431137
+ 1836320 words of memory out of 5000000
+ 70801 multiletter control sequences out of 15000+600000
+ 644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,11297b,2126s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (6 pages, 225903 bytes).
+ 108i,19n,107p,11297b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on IR-Raman_A05-v01.pdf (9 pages, 338816 bytes).
 PDF statistics:
- 265 PDF objects out of 1000 (max. 8388607)
- 228 compressed objects within 3 object streams
- 37 named destinations out of 1000 (max. 500000)
- 253 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 464 PDF objects out of 1000 (max. 8388607)
+ 296 compressed objects within 3 object streams
+ 48 named destinations out of 1000 (max. 500000)
+ 273 words of extra memory for PDF output out of 10000 (max. 10000000)
 
