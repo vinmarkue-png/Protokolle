@@ -37,7 +37,7 @@ folder = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\IR
 
 for mol in molecules:
     # Neues Figure-Objekt für jedes Molekül
-    plt.figure(figsize=(10, 6))
+    plt.figure(figsize=(7, 5))
     
     filename = f"{mol}.dpt"
     filepath = os.path.join(folder, filename)
