@@ -13,18 +13,20 @@
 \contentsline {subsubsection}{\numberline {3.3.2}Raman}{5}{subsubsection.3.3.2}%
 \contentsline {subsection}{\numberline {3.4}Dibromomethane}{6}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}IR}{6}{subsubsection.3.4.1}%
-\contentsline {subsubsection}{\numberline {3.4.2}Raman}{7}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Chloroform}{8}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}IR}{8}{subsubsection.3.5.1}%
-\contentsline {subsubsection}{\numberline {3.5.2}Raman}{10}{subsubsection.3.5.2}%
-\contentsline {subsection}{\numberline {3.6}Deuterated Chloroform}{11}{subsection.3.6}%
-\contentsline {subsubsection}{\numberline {3.6.1}Raman}{11}{subsubsection.3.6.1}%
-\contentsline {subsection}{\numberline {3.7}Tetrachloromethane}{12}{subsection.3.7}%
-\contentsline {subsubsection}{\numberline {3.7.1}Raman}{12}{subsubsection.3.7.1}%
-\contentsline {subsection}{\numberline {3.8}Tetrachloroethylene}{13}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}IR}{13}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}Raman}{14}{subsubsection.3.8.2}%
-\contentsline {section}{\numberline {4}Discussion}{14}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{14}{section.5}%
-\contentsline {section}{\numberline {6}References}{14}{section.6}%
+\contentsline {subsubsection}{\numberline {3.4.2}Raman}{8}{subsubsection.3.4.2}%
+\contentsline {subsection}{\numberline {3.5}Chloroform}{9}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}IR}{9}{subsubsection.3.5.1}%
+\contentsline {subsubsection}{\numberline {3.5.2}Raman}{11}{subsubsection.3.5.2}%
+\contentsline {subsection}{\numberline {3.6}Deuterated Chloroform}{12}{subsection.3.6}%
+\contentsline {subsubsection}{\numberline {3.6.1}IR}{12}{subsubsection.3.6.1}%
+\contentsline {subsubsection}{\numberline {3.6.2}Raman}{13}{subsubsection.3.6.2}%
+\contentsline {subsection}{\numberline {3.7}Tetrachloromethane}{14}{subsection.3.7}%
+\contentsline {subsubsection}{\numberline {3.7.1}IR}{14}{subsubsection.3.7.1}%
+\contentsline {subsubsection}{\numberline {3.7.2}Raman}{15}{subsubsection.3.7.2}%
+\contentsline {subsection}{\numberline {3.8}Tetrachloroethylene}{16}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}IR}{16}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Raman}{17}{subsubsection.3.8.2}%
+\contentsline {section}{\numberline {4}Discussion}{18}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{18}{section.5}%
+\contentsline {section}{\numberline {6}References}{18}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
