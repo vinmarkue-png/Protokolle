@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[1] Config.pm:331> INFO - Logfile is 'IR-Raman_A05-v01.blg'
-[572] biber-MSWIN64:342> INFO - === 
-[706] Biber.pm:421> INFO - Reading 'IR-Raman_A05-v01.bcf'
-[1643] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[1750] Biber.pm:4487> INFO - Processing section 0
-[1814] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[1947] bibtex.pm:1713> INFO - LaTeX decoding ...
-[1964] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[2177] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[2178] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[2178] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[2180] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[2186] bbl.pm:676> INFO - Writing 'IR-Raman_A05-v01.bbl' with encoding 'UTF-8'
-[2190] bbl.pm:779> INFO - Output to IR-Raman_A05-v01.bbl
+[0] Config.pm:331> INFO - Logfile is 'IR-Raman_A05-v01.blg'
+[283] biber-MSWIN64:342> INFO - === 
+[373] Biber.pm:421> INFO - Reading 'IR-Raman_A05-v01.bcf'
+[875] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[919] Biber.pm:4487> INFO - Processing section 0
+[957] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[1100] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1117] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[1329] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1330] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1335] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[1335] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[1341] bbl.pm:676> INFO - Writing 'IR-Raman_A05-v01.bbl' with encoding 'UTF-8'
+[1345] bbl.pm:779> INFO - Output to IR-Raman_A05-v01.bbl
