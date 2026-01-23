@@ -1,8 +1,8 @@
-PWD c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman
+PWD c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+INPUT c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
 OUTPUT IR-Raman_A05-v01.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -37,13 +37,13 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
