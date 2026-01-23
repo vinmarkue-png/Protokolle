@@ -402,10 +402,10 @@ INPUT ./IR-Raman_A05-v01.toc
 INPUT ./IR-Raman_A05-v01.toc
 INPUT IR-Raman_A05-v01.toc
 OUTPUT IR-Raman_A05-v01.toc
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./IR/CH2Cl2_spectrum.pdf
 INPUT ./IR/CH2Cl2_spectrum.pdf

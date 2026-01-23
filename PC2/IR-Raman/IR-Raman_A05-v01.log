@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  23 JAN 2026 22:22
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  23 JAN 2026 22:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1225,172 +1225,96 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.154 \newpage
+l.162 \newpage
                [1
 
 ]
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.170 \newpage
-               [2] [3] [4]
-<IR/CH2Cl2_spectrum.pdf, id=121, 505.89pt x 361.35pt>
+l.215 \end{table}
+                  [2] [3]
+<IR/CH2Cl2_spectrum.pdf, id=117, 505.89pt x 361.35pt>
 File: IR/CH2Cl2_spectrum.pdf Graphic file (type pdf)
 <use IR/CH2Cl2_spectrum.pdf>
-Package pdftex.def Info: IR/CH2Cl2_spectrum.pdf  used on input line 243.
+Package pdftex.def Info: IR/CH2Cl2_spectrum.pdf  used on input line 235.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [5 <./IR/CH2Cl2_spectrum.pdf>]
-<Raman/CH2Cl2_raman_spectrum.pdf, id=172, 505.89pt x 361.35pt>
+ [4 <./IR/CH2Cl2_spectrum.pdf>]
+<Raman/CH2Cl2_raman_spectrum.pdf, id=162, 505.89pt x 361.35pt>
 File: Raman/CH2Cl2_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CH2Cl2_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CH2Cl2_raman_spectrum.pdf  used on input line 293.
+Package pdftex.def Info: Raman/CH2Cl2_raman_spectrum.pdf  used on input line 285.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [6 <./Raman/CH2Cl2_raman_spectrum.pdf>]
-<IR/CH2Br2_spectrum.pdf, id=218, 505.89pt x 361.35pt>
+ [5 <./Raman/CH2Cl2_raman_spectrum.pdf>]
+<IR/CH2Br2_spectrum.pdf, id=208, 505.89pt x 361.35pt>
 File: IR/CH2Br2_spectrum.pdf Graphic file (type pdf)
 <use IR/CH2Br2_spectrum.pdf>
-Package pdftex.def Info: IR/CH2Br2_spectrum.pdf  used on input line 338.
+Package pdftex.def Info: IR/CH2Br2_spectrum.pdf  used on input line 330.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [7] [8 <./IR/CH2Br2_spectrum.pdf>]
-<Raman/CH2Br2_raman_spectrum.pdf, id=272, 505.89pt x 361.35pt>
+ [6] [7 <./IR/CH2Br2_spectrum.pdf>]
+<Raman/CH2Br2_raman_spectrum.pdf, id=260, 505.89pt x 361.35pt>
 File: Raman/CH2Br2_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CH2Br2_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CH2Br2_raman_spectrum.pdf  used on input line 387.
+Package pdftex.def Info: Raman/CH2Br2_raman_spectrum.pdf  used on input line 379.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [9 <./Raman/CH2Br2_raman_spectrum.pdf>]
-<IR/CHCl3_spectrum.pdf, id=319, 505.89pt x 361.35pt>
+ [8 <./Raman/CH2Br2_raman_spectrum.pdf>]
+<IR/CHCl3_spectrum.pdf, id=306, 505.89pt x 361.35pt>
 File: IR/CHCl3_spectrum.pdf Graphic file (type pdf)
 <use IR/CHCl3_spectrum.pdf>
-Package pdftex.def Info: IR/CHCl3_spectrum.pdf  used on input line 436.
+Package pdftex.def Info: IR/CHCl3_spectrum.pdf  used on input line 428.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [10] [11 <./IR/CHCl3_spectrum.pdf>]
-<Raman/CHCl3_raman_spectrum.pdf, id=373, 505.89pt x 361.35pt>
+ [9] [10 <./IR/CHCl3_spectrum.pdf>]
+<Raman/CHCl3_raman_spectrum.pdf, id=357, 505.89pt x 361.35pt>
 File: Raman/CHCl3_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CHCl3_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CHCl3_raman_spectrum.pdf  used on input line 481.
+Package pdftex.def Info: Raman/CHCl3_raman_spectrum.pdf  used on input line 473.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [12 <./Raman/CHCl3_raman_spectrum.pdf>]
-<Raman/CDCl3_raman_spectrum.pdf, id=418, 505.89pt x 361.35pt>
+ [11 <./Raman/CHCl3_raman_spectrum.pdf>]
+<Raman/CDCl3_raman_spectrum.pdf, id=402, 505.89pt x 361.35pt>
 File: Raman/CDCl3_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CDCl3_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 547.
+Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 539.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [13] [14 <./Raman/CDCl3_raman_spectrum.pdf>]
-<Raman/CCl4_raman_spectrum.pdf, id=472, 505.89pt x 361.35pt>
+ [12] [13 <./Raman/CDCl3_raman_spectrum.pdf>]
+<Raman/CCl4_raman_spectrum.pdf, id=453, 505.89pt x 361.35pt>
 File: Raman/CCl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CCl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 613.
+Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 605.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [15]
-<IR/C2Cl4_spectrum.pdf, id=483, 505.89pt x 361.35pt>
+ [14]
+<IR/C2Cl4_spectrum.pdf, id=462, 505.89pt x 361.35pt>
 File: IR/C2Cl4_spectrum.pdf Graphic file (type pdf)
 <use IR/C2Cl4_spectrum.pdf>
-Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 658.
+Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 650.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [16 <./Raman/CCl4_raman_spectrum.pdf>] [17 <./IR/C2Cl4_spectrum.pdf>]
-<Raman/C2Cl4_raman_spectrum.pdf, id=583, 505.89pt x 361.35pt>
+ [15 <./Raman/CCl4_raman_spectrum.pdf>] [16 <./IR/C2Cl4_spectrum.pdf>]
+<Raman/C2Cl4_raman_spectrum.pdf, id=558, 505.89pt x 361.35pt>
 File: Raman/C2Cl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/C2Cl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 711.
+Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 703.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [18] [19 <./Raman/C2Cl4_raman_spectrum.pdf>] [20] (./IR-Raman_A05-v01.aux)
+ [17] [18 <./Raman/C2Cl4_raman_spectrum.pdf>] [19] (./IR-Raman_A05-v01.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
 \openout1 = `IR-Raman_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42854 strings out of 467537
- 908425 string characters out of 5423703
+ 42829 strings out of 467537
+ 908007 string characters out of 5423703
  1853432 words of memory out of 5000000
  71111 multiletter control sequences out of 15000+600000
  644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,108p,11275b,2056s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{subsubsection.3.8.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.8.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.8} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.7.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.7.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.7} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.6.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.6.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.6} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.5.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.5} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.4.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.4.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.4} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.3.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.3.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.3} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.2.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.2.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.1.2} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsubsection.3.1.1} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not exist, replaced by a fixed one
-
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (22 pages, 505698 bytes).
+Output written on IR-Raman_A05-v01.pdf (21 pages, 504871 bytes).
 PDF statistics:
- 844 PDF objects out of 1000 (max. 8388607)
- 484 compressed objects within 5 object streams
- 113 named destinations out of 1000 (max. 500000)
+ 813 PDF objects out of 1000 (max. 8388607)
+ 454 compressed objects within 5 object streams
+ 88 named destinations out of 1000 (max. 500000)
  327 words of extra memory for PDF output out of 10000 (max. 10000000)
 
