@@ -219,7 +219,24 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
 \subsection{Chloromethane}
 
 \subsubsection{IR}
-
+\begin{table}[H]
+    \centering
+    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CH3Cl}.}
+    \begin{tabular}{c|c|c|c}
+    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / km mol$^{-1}$ & vibration type \\
+    \hline
+    1 & 725.98 & 23.93 & \ch{C-Cl} stretch\\
+    2 & 1010.21 & 3.13 & rocking \\
+    3 & 1010.42 & 3.11 & rocking \\
+    4 & 1361.61 & 14.72 & scissoring\\
+    5 & 1455.99 & 6.46 & twisting\\
+    6 & 1456.14 & 6.47 & twisting\\
+    7 & 3057.12 & 21.81 & sym. stretching\\
+    8 & 3170.28 & 6.28 & asym. stretching\\
+    9 & 3170.74 & 6.27 & asym. stretching\\
+    \label{tab: CH3Cl_sim}
+    \end{tabular}
+\end{table}
 
 \subsubsection{Raman}
 
@@ -357,8 +374,8 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
 \begin{table}[H]
     \centering
     \caption{Listed are the measured wavenumbers and intensities of the IR signals of \ch{CH2Br2}.}
-    \begin{tabular}{c|c|c}
-    Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. \\
+    \begin{tabular}{c|c|c|c}
+    Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
     1 & 455.05 & 0.52 \\
     2 & 577.49 & 0.49 \\
@@ -376,18 +393,18 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
 \begin{table}[H]
     \centering
     \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CH2Br2}.}
-    \begin{tabular}{c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ \\
+    \begin{tabular}{c|c|c|c}
+    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type \\
     \hline
-    1 & 168.72 & 0.08 \\
-    2 & 573.58 & 4.08 \\
-    3 & 628.31 & 98.95 \\
-    4 & 806.07 & 4.64 \\
-    5 & 1101.92 & 0.00 \\
-    6 & 1205.80 & 65.32 \\
-    7 & 1412.95 & 0.00 \\
-    8 & 3126.16 & 1.92 \\
-    9 & 3221.84 & 1.28 
+    1 & 168.72 & 0.08 & \ch{C-Br} scissoring\\
+    2 & 573.58 & 4.08 & \ch{C-Br} sym. stretching\\
+    3 & 628.31 & 98.95 & \ch{C-Br} asym. stretching\\
+    4 & 806.07 & 4.64 & rocking\\
+    5 & 1101.92 & 0.00 & twisting\\
+    6 & 1205.80 & 65.32 & wagging\\
+    7 & 1412.95 & 0.00 & scissoring\\
+    8 & 3126.16 & 1.92 & sym. stretching\\
+    9 & 3221.84 & 1.28 & asym. stretching
     \label{tab: CH2Br2_sim}
     \end{tabular}
 \end{table}
@@ -421,19 +438,19 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
 \begin{table}[H]
     \centering
     \caption{Listed are the simulated wavenumbers and raman intensities of the vibrational modes of \ch{CH2Br2}.}
-    \begin{tabular}{c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ \\
+    \begin{tabular}{c|c|c|c}
+    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
-    1 & 168.56 & 5.37 \\
-    2 & 574.64 & 13.43 \\
-    3 & 629.71 & 5.36 \\
-    4 & 806.60 & 2.41 \\
-    5 & 1102.17 & 8.43 \\
-    6 & 1205.71 & 0.74 \\
-    7 & 1413.22 & 13.77 \\
-    8 & 3125.63 & 97.24 \\
-    9 & 3221.31 & 58.05 
-    \label{tab: raman_CH2Br2_raman}
+    1 & 168.56 & 5.37 & \ch{C-Br} scissoring\\
+    2 & 574.64 & 13.43 & \ch{C-Br} sym. stretching\\
+    3 & 629.71 & 5.36 & \ch{C-Br} asym. stretching\\
+    4 & 806.60 & 2.41 & rocking\\
+    5 & 1102.17 & 8.43 & twisting\\
+    6 & 1205.71 & 0.74 & wagging\\
+    7 & 1413.22 & 13.77 & scissoring\\
+    8 & 3125.63 & 97.24 & sym. stretching\\
+    9 & 3221.31 & 58.05 & asym. stretching
+    \label{tab: raman_CH2Br2_sim}
     \end{tabular}
 \end{table}
 
