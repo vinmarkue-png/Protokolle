@@ -1,0 +1,37 @@
+import matplotlib.pyplot as plt
+import os
+# Daten mit den gewünschten Namen für die Legende
+data = {
+    'Methane': [1313.38, 1313.61, 1314.1, 1531.00, 1531.09, 3019.41, 3150.24, 3150.27, 3150.79],
+    'Chloromethane': [725.96, 1008.86, 1010.02, 1361.35, 1455.81, 1456.34, 3056.94, 3169.78, 3170.01],
+    'Dichloromethane': [277.06, 703.48, 732.67, 888.90, 1153.83, 1272.67, 1441.64, 3106.65, 3193.09],
+    'Chloroform': [254.60, 255.07, 362.22, 665.69, 740.88, 741.45, 1220.22, 1220.68, 3168.77],
+    'Tetrachloromethane': [212.71, 212.91, 310.52, 310.84, 311.16, 451.08, 753.44, 754.26, 754.60]
+}
+
+modes = list(range(1, 10))
+
+# Plot-Einstellungen
+plt.figure(figsize=(10, 7))
+colors = ['#1f77b4', '#ff7f0e', '#2ca02c', '#d62728', '#9467bd']
+markers = ['o', 'o', 'o', 'o', 'o']
+
+# Daten plotten: Punkte (scatter) und Linien (plot) kombiniert
+for i, (molecule, shifts) in enumerate(data.items()):
+    plt.plot(modes, shifts, label=molecule, color=colors[i], marker=markers[i], 
+             linestyle='-', linewidth=1.5, markersize=8, alpha=0.9)
+
+# Formatierung
+plt.xlabel('Vibrational Mode', fontsize=12)
+plt.ylabel(r'Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$', fontsize=12)
+plt.xticks(modes)
+plt.legend(loc='upper left')
+plt.grid(False) # Gitternetzlinien explizit aus
+
+# Layout anpassen (damit die Legende nicht abgeschnitten wird)
+plt.tight_layout()
+
+folder = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\IR-Raman\Sim"
+save_path = os.path.join(folder, 'raman_trends.pdf')
+plt.savefig(save_path)
+plt.show()

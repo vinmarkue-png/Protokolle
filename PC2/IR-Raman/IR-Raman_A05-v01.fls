@@ -457,6 +457,11 @@ INPUT ./Raman/C2Cl4_raman_spectrum.pdf
 INPUT ./Raman/C2Cl4_raman_spectrum.pdf
 INPUT ./Raman/C2Cl4_raman_spectrum.pdf
 INPUT ./Raman/C2Cl4_raman_spectrum.pdf
+INPUT ./Sim/raman_trends.pdf
+INPUT ./Sim/raman_trends.pdf
+INPUT ./Sim/raman_trends.pdf
+INPUT ./Sim/raman_trends.pdf
+INPUT ./Sim/raman_trends.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm
 INPUT IR-Raman_A05-v01.aux
 INPUT IR-Raman_A05-v01.run.xml

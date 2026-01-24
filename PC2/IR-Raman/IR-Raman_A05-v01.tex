@@ -211,7 +211,7 @@ The simulated Raman-active vibrational modes of methane are summarized in \autor
     8 & 3150.27 & 62.8724 & asym. stretching \\
     9 & 3150.79 & 62.8305 & asym. stretching 
     \end{tabular}
-    \label{tab: CH4_R}
+    \label{tab: raman_CH4_sim}
 \end{table}
 In contrast to the IR spectrum, both the symmetric bending and stretching modes are Raman-active. The symmetric stretching mode shows the highest Raman intensity among all vibrational modes, indicating that it is most prominent mode to be observed in a Raman spectrum.
 
@@ -223,6 +223,24 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
 
 \subsubsection{Raman}
 
+\begin{table}[H]
+    \centering
+    \caption{Listed are the simulated Raman shifts and intensities of the vibrational modes of \ch{CH3Cl}.}
+    \begin{tabular}{c|c|c|c}
+    Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman Intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
+    \hline
+    1 & 725.96 & 12.69 & \ch{C-Cl} stretch \\
+    2 & 1008.86 & 6.56 & rocking \\
+    3 & 1010.02 & 6.53 & rocking \\
+    4 & 1361.35 & 3.48 & - \\
+    5 & 1455.81 & 16.49 & - \\
+    6 & 1456.34 & 16.50 & - \\
+    7 & 3056.94 & 134.62 & sym. stretching \\
+    8 & 3169.78 & 66.78 & asym. stretching \\
+    9 & 3170.01 & 66.72 & asym. stretching \\
+    \end{tabular}
+    \label{tab: raman_CH3Cl_sim}
+\end{table}
 
 \subsection{Dichloromethane}
 
@@ -299,12 +317,12 @@ By visual inspection of the Raman spectrum in \autoref{fig: CH2Cl2_Ram}, five pr
     \label{tab: raman_CH2Cl2}   
     \end{tabular}
 \end{table}
-The simulated Raman-active vibrational modes of methane are summarized in \autoref{tab: CH4_R} with the corresponding wavenumber, Raman intensity and vibration type of each mode.
+The simulated Raman-active vibrational modes of dichloromethane are summarized in \autoref{tab: raman_CH2Cl2_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and raman intensities of the vibrational modes of \ch{CH2Cl2}.}
+    \caption{Listed are the simulated Raman shifts and intensities of the vibrational modes of \ch{CH2Cl2}.}
     \begin{tabular}{c|c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman Intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
+    Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman Intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
     1 & 277.06 & 6.83 & scissoring \\
     2 & 703.48 & 12.27 & sym. stretching \\
@@ -747,6 +765,15 @@ In comparison to the simulated IR spectrum of chloroform with the wavenumbers an
 In comparison to the simulated IR-active modes in \autoref{tab: C2Cl4_sim}, \autoref{tab: raman_C2Cl4_sim} shows that the most intense Raman-active mode is found at a wavenumber of 1623.90 cm$^{-1}$, which can be assigned to the $\mathrm{C=C}$ stretching mode of tetrachloroethylene, which is not present in the simulated IR spectrum. The cause for this lies in the rule of mutual exclusion, which applies to molecules with a center of symmetry, such as the inversion center of tetrachloroethylene. According to this rule, vibrational modes that are Raman-active are IR-inactive and vice versa, explaining the absence of the 1623.90 cm$^{-1}$ mode in the IR spectrum. By comparing the simulated Raman modes of \ch{C2Cl4} from \autoref{tab: raman_C2Cl4_sim} with the simulated Raman modes of \ch{CHCl3} in \autoref{tab: raman_CHCl3}, the structural differences between the two molecules can be explained. While both molecules show Raman-active modes in the low wavenumber region below 500 cm$^{-1}$, tetrachloroethylene exhibits an additional strong Raman-active mode at 1623.90 cm$^{-1}$, which can be attributed to the presence of the $\mathrm{C=C}$ double bond in \ch{C2Cl4} that is absent in \ch{CHCl3}. Additionally, the C-H stretching mode at 3168.77 cm$^{-1}$ present in chloroform is not observed in tetrachloroethylene due to the lack of hydrogen atoms in its structure.
 
 \section{Discussion}
+By plotting the calculated Raman shifts against the vibrational mode number for Methane and all Chloromethanes from \autoref{tab: raman_CH4_sim}, \autoref{tab: raman_CH3Cl_sim}, \autoref{tab: raman_CH2Cl2_sim}, \autoref{tab: raman_CHCl3_sim} and \autoref{tab: raman_CCl4_sim}, the Raman trends of the investigated molecules can be visualized in \autoref{fig: raman_trends}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{Sim/raman_trends.pdf}
+    \caption{Raman shifts plotted against the vibrational mode number for \ch{CH4}, \ch{CH3Cl}, \ch{CH2Cl2}, \ch{CHCl3}, and \ch{CCl4}.} 
+    \label{fig: raman_trends}
+\end{figure}
+
 
 
 \section{Conclusion}
