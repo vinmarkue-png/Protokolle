@@ -770,11 +770,16 @@ By plotting the calculated Raman shifts against the vibrational mode number for 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.9\textwidth]{Sim/raman_trends.pdf}
-    \caption{Raman shifts plotted against the vibrational mode number for \ch{CH4}, \ch{CH3Cl}, \ch{CH2Cl2}, \ch{CHCl3}, and \ch{CCl4}.} 
+    \caption{Raman shifts plotted against the vibrational mode number for \ch{CH4}, \ch{CH3Cl}, \ch{CH2Cl2}, \ch{CHCl3} and \ch{CCl4}.} 
     \label{fig: raman_trends}
 \end{figure}
-
-
+The first trend noticeable in \autoref{fig: raman_trends} is the decrease of the Raman shifts with increasing number of chlorine atoms in the molecule. This can be explained by the increasing reduced mass $\mu$ of the molecules due to the substitution of hydrogen atoms (mass = 1 u) with chlorine atoms (mass = 35.5 u), leading to lower vibrational frequencies $\tilde{\nu}$ according to \autoref{eq: nu}.
+\begin{equation}
+    \tilde{\nu} = \nu \cdot c = \sqrt{\frac{k}{\mu}}
+    \label{eq: nu}
+\end{equation}
+Following that argumentation, the number of vibrational modes at around 3000 cm$^{-1}$, which can be assigned to the C-H stretching vibrations, decreases with increasing number of chlorine atoms in the molecule until no C-H stretching modes are present in tetrachloromethane due to the absence of hydrogen atoms in its structure. In return, new vibrational modes appear in the low wavenumber region below 1000 cm$^{-1}$, which can be assigned to the C-Cl stretching vibrations. 
+Another trend observable in \autoref{fig: raman_trends} is that methane and tetrachloromethane show more vibrational modes with nearly the same Raman shift compared to the other chloromethanes. This can be explained by the high symmetry of both molecules, which belong to the tetrahedral point group $T_d$. This trend is especially visible in the triply degenerate asymmetric stretching vibration of methane at 3150 cm$^{-1}$ and tetrachloromethane at 754 cm$^{-1}$. 
 
 \section{Conclusion}
 
