@@ -100,11 +100,60 @@ int main() {
 % \end{figure}
 
 
-\section{}
+\section{Vektoren I}
 
 \begin{lstlisting}
+#include <iostream>
+#include <vector>
 
+double sum_below_limit(const std::vector<double>& vector, double limit) {
+    double sum = 0.0;
+    for (double element : vector) {
+        if (element < limit) {
+            sum += element;
+        }
+    }
+    return   sum;
+}
+
+int main()
+{
+    std::vector<double> v = { 1.0, 2.0, 3.0, 4.0, 5.0, 42.0, 100.00, 300.00 };
+    std::cout << sum_below_limit(v, 4.0) << "\n";
+    return 0;
+}
 \end{lstlisting}
 
+\section{Vektoren II}
+
+\begin{lstlisting}
+#include <iostream>
+#include <vector>
+
+double scalar_product(const std::vector<double>& vector1,
+    const std::vector<double>& vector2) {
+    double sum = 0.0;
+
+    for (size_t i = 0; i < vector1.size(); ++i) {
+        sum += vector1[i] * vector2[i];
+    }
+
+    return sum;
+}
+
+int main()
+{
+    std::vector<double> v1 = { 1.0, 2.0, 3.0, 4.0 };
+    std::vector<double> v2 = { 1.0, -1.0, -1.0, 1.0 };
+    std::cout << scalar_product(v1, v2) << "\n";
+    return 0;
+}
+\end{lstlisting}
+
+% \section{Vektoren III}
+
+% \begin{lstlisting}
+
+% \end{lstlisting}
 
 \end{document}
