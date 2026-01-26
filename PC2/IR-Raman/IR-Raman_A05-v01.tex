@@ -814,7 +814,7 @@ The simulated Raman-active vibrational modes of tetrachloroethylene are summariz
 In comparison to the simulated IR-active modes in \autoref{tab: C2Cl4_sim}, \autoref{tab: raman_C2Cl4_sim} shows that the most intense Raman-active mode is found at a wavenumber of 1623.90 cm$^{-1}$, which can be assigned to the $\mathrm{C=C}$ stretching mode of tetrachloroethylene, which has an intensity of 0 KM$\cdot\mathrm{mol^{-1}}$ in the simulated IR spectrum, indicating that it is not IR-active. The cause for this lies in the rule of mutual exclusion, which applies to molecules with a center of symmetry, such as the inversion center of tetrachloroethylene. According to this rule, vibrational modes that are Raman-active are IR-inactive and vice versa, explaining the absence of the 1623.90 cm$^{-1}$ mode in the IR spectrum. \\
 By comparing the simulated Raman modes of \ch{C2Cl4} from \autoref{tab: raman_C2Cl4_sim} with the simulated Raman modes of \ch{CHCl3} in \autoref{tab: raman_CHCl3}, the structural differences between the two molecules can be explained. While both molecules show Raman-active modes in the low wavenumber region below 500 cm$^{-1}$, tetrachloroethylene shows an additional strong Raman-active mode at 1623.90 cm$^{-1}$, which can be attributed to the presence of the $\mathrm{C=C}$ double bond in \ch{C2Cl4} that is absent in \ch{CHCl3}. Additionally, the C-H stretching mode at 3168.77 cm$^{-1}$ present in chloroform is not observed in tetrachloroethylene due to the lack of hydrogen atoms in its structure.
 
-\section{Discussion}
+\section{Discussion and Calculations}
 By plotting the calculated Raman shifts against the vibrational mode number for Methane and all Chloromethanes from \autoref{tab: raman_CH4_sim}, \autoref{tab: raman_CH3Cl_sim}, \autoref{tab: raman_CH2Cl2_sim}, \autoref{tab: raman_CHCl3_sim} and \autoref{tab: raman_CCl4_sim}, the Raman trends of the investigated molecules can be visualized in \autoref{fig: raman_trends}.
 
 \begin{figure}[H]
@@ -823,18 +823,51 @@ By plotting the calculated Raman shifts against the vibrational mode number for 
     \caption{Raman shifts plotted against the vibrational mode number for \ch{CH4}, \ch{CH3Cl}, \ch{CH2Cl2}, \ch{CHCl3} and \ch{CCl4}.} 
     \label{fig: raman_trends}
 \end{figure}
-The first trend noticeable in \autoref{fig: raman_trends} is the decrease of the Raman shifts with increasing number of chlorine atoms in the molecule. This can be explained by the increasing reduced mass $\mu$ of the molecules due to the substitution of hydrogen atoms (m = 1 u) with chlorine atoms (m = 35.5 u), leading to lower vibrational frequencies and wavenumbers $\tilde{\nu}$ according to \autoref{eq: nu}.
+The first trend noticeable in \autoref{fig: raman_trends} is the decrease of the Raman shifts with increasing number of chlorine atoms in the molecule. This can be explained by the increasing reduced mass $\mu$ of the molecules according to \autoref{eq: mu} due to the substitution of hydrogen atoms (m = 1 u) with chlorine atoms (m = 35.5 u).
 \begin{equation}
-    \tilde{\nu} = \nu \cdot c = \sqrt{\frac{k}{\mu}}
+    \mu = \frac{m_1 \cdot m_2}{m_1 + m_2}
+    \label{eq: mu}
+\end{equation}
+The increasing reduced mass $\mu$ leads to lower vibrational frequencies $\nu$ and wavenumbers $\tilde{\nu}$ according to \autoref{eq: nu} and \autoref{eq: tilde}.
+\begin{equation}
+    \nu = \frac{1}{2 \pi} \sqrt{\frac{k}{\mu}}
     \label{eq: nu}
+\end{equation}
+\begin{equation}
+    \nu = \tilde{\nu} \cdot c
+    \label{eq: tilde}
 \end{equation}
 Following that argumentation, the number of vibrational modes at around 3000 cm$^{-1}$, which can be assigned to the C-H stretching vibrations, decreases with increasing number of chlorine atoms in the molecule until no C-H stretching modes are present in tetrachloromethane due to the absence of hydrogen atoms in its structure. In return, new vibrational modes appear in the low wavenumber region below 1000 cm$^{-1}$, which can be assigned to the C-Cl stretching vibrations. 
 Another trend observable in \autoref{fig: raman_trends} is that methane and tetrachloromethane show more vibrational modes with nearly the same Raman shift compared to the other chloromethanes. This can be explained by the high symmetry of both molecules, which belong to the tetrahedral point group $T_d$. This trend is especially visible in the triply degenerate asymmetric stretching vibration of methane at 3150 cm$^{-1}$ and tetrachloromethane at 754 cm$^{-1}$. \\
 
-The Raman signal of the asymmetric C-H stretching vibration of dibromomethane at 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Br2} shows a higher Raman intensity than the corresponding signal of dichloromethane at 3051.13 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}, which contradicts to expectation after \autoref{eq: nu} because bromine (m = 79.9 u) has a higher atomic mass than chlorine (m = 35.5 u), which should lead to a higher reduced mass $\mu$ $^{-1}$ and therefore a lower wavenumber $\tilde{\nu}$. 
-% why is that so?
+The Raman signal of the asymmetric C-H stretching vibration of dibromomethane at 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Br2} shows a higher Raman shift and Raman intensity than the corresponding signal of dichloromethane at 3051.13 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}. % CH2Br2: 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}
+The higher Raman intensity can be explained by the higher polarizability of the electrons in bromine atoms compared to chlorine atoms, leading to a larger change in polarizability during the vibration and thus a stronger Raman signal.
 
-% CH2Br2: 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}
+% C-Cl und C-Br Berechnungen
+For the comparison of the C-Cl and C-Br force constants, the reduced masses $\mu$ for both bonds are calculated using \autoref{eq: mu}.
+\begin{equation*}
+    \mu_{\mathrm{C-Cl}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{35.5}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{35.5}{\frac{g}{mol}}} = \SI{8.97}{\frac{g}{mol}}
+\end{equation*}
+\begin{equation*}
+    \mu_{\mathrm{C-Br}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{79.9}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{79.9}{\frac{g}{mol}}} = \SI{10.43}{\frac{g}{mol}}
+\end{equation*}
+By rearranging \autoref{eq: nu} and inserting $\nu$ from \autoref{eq: tilde} the force constant $k$ can be calculated with \autoref{eq: k}.
+\begin{equation}
+    k = (2\pi \cdot \nu)^2 \cdot \mu = (2\pi \cdot \tilde{\nu} \cdot c)^2 \cdot \mu
+    \label{eq: k}
+\end{equation}
+By inserting the calculated 
+
+% Mansha fragen ob gemessene oder simulierte Werte und ob Formel so passt 
+
+% limitations of this approximation
+
+
+% C-H & C-D Berechnungen - Elvis
+
+
+
+
 
 \section{Conclusion}
 
