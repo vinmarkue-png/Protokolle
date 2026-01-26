@@ -145,15 +145,86 @@
 
 \subsection{IR-Spectroscopy}
 
-When a dipolar molecule is exposed to an electromagnetic field  the partially positive charged atom is pushed along the direction of the magnetic field lines. So if a molecule is exposed to an oscillating field, that oscillates at the natural vibration frequency of said molecule, the molecule will be in an excited vibrational state.
+When a dipolar molecule is exposed to an electromagnetic field  the partially positively charged atom is pushed along the direction of the electric field lines. So if a molecule is exposed to an oscillating field, that oscillates at the natural vibration frequency of said molecule, the molecule will be in an excited vibrational state. For a linear molecule, the amount of vibrational modes is calculated as displayed in \autoref{eq:N1}.
+\begin{equation}
+    3N - 5
+    \label{eq:N1}
+\end{equation}
+For nonlinear molecules the number of vibrational modes is defined as displayed in \autoref{eq:N2}
+\begin{equation}
+3N -  6
+\label{eq:N2}
+\end{equation}
+Where $N$ is in either case the number of atoms.
+
+\subsubsection{Diatomic molecules}
+
+When looking at just diatomic molecules, only one type of vibration can be observed, the stretching vibration, which is, figuratively speaking, the two atoms moving towards and apart from each other. Furthermore this vibration can be approximated as a harmonic oscillation. The vibrational frequency $\nu$ can be derived based on Hooke's law as shown in \autoref{eq:hook}.
+\begin{equation}
+   \nu = \frac{1}{2\pi} \sqrt{\frac{k}{\mu}} 
+   \label{eq:hook}
+\end{equation}
+The force constant of the chemical bond is defined as $k$ in \autoref{eq:hook}, whereas the reduced mass $\mu$ is defined in \autoref{eq:mu}.
+\begin{equation}
+    \mu = \frac{m_1 \cdot m_2}{m_1 + m_2}
+    \label{eq:mu}
+\end{equation}
+
+\subsubsection{Polyatomic molecules}
+
+In polyatomic molecules, multiple vibrational modes, depending on the geometry and the number of atoms, are possible. 
+As described in chapter 1.1.2 stretching vibrations represent a change in interatomic distance along the bond axis.
+Those stretching vibrations can occur symmetrically or asymmetrically. The other category of vibrational modes is called deformation vibrations. During a deformation vibration, the angles of the bonds change, whereas the bond lengths don't change significantly. The four modes of deformation vibrations are Scissoring, where two atoms move toward or away from each other like scissor blades; Wagging, where the atoms move out and back into the plane; Rocking, where the atoms swing back and forth within the same plane; and finally, Twisting, where the atoms rotate around the bond axis.
+
+\subsection{The FTIR Spectrometer}
+
+The measurement is conducted using a Fourier Transform Infrared (FTIR) spectrometer, the schematic assembly of which is depicted in \autoref{fig:iraufbau}. Central to this apparatus is a Michelson interferometer, which modulates the infrared light to allow specific wavelength patterns to interact with the sample before reaching the detector. The resulting data are presented as an IR spectrum, where the signal intensity is plotted as a function of the wavenumber. To derive this frequency-domain spectrum from the raw temporal data, a Fourier transformation is applied to the recorded interferogram, effectively resolving the individual spectral components.
+
+\begin{figure}[H]
+    \centering
+
+    \caption{Function of a FTIR spectrometer.} 
+    \label{fig:iraufbau}    \includegraphics[width=0.8\textwidth]{IR-Aufbau.png}
+\end{figure}
+
+
+To ensure a quick and non-destructive measurement, the ATR technique is used while the sample is placed on a crystal, which avoids the need for complex sample preparation.
 
 \subsection{Raman-Spectroscopy}
 
+\subsubsection{Fundamental principle of Raman scattering}
+
+When a molecule interacts with the electric field of a light wave, its electron cloud is deformed. As a result of that deformation, a dipole $\vec{p}$ is induced. This dipole depends on the electric field vector $\vec{E}$ and the polarizability of the molecule $\alpha$ as portrayed in \autoref{eq:p}.
+\begin{equation}
+    \vec{p} = \alpha \cdot \vec{E}
+    \label{eq:p}
+\end{equation}
+
+Elastic and inelastic scattering can occur due to this process. During an elastic scattering process (Rayleigh scattering) the molecule absorbs the energy of the photon and emits that same amount of energy. During the inelastic Stokes scattering process, the molecule absorbs the energy of the photon, is excited to a virtual state and relaxes to a higher vibrational level than its initial state, resulting in a loss of photon energy. Conversely, there is also inelastic Anti-Stokes scattering, in which the molecule emits more energy than it originally absorbed. These three kinds of scattering are shown in \autoref{fig:raman1}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{scattering.png}
+    \caption{Energy diagramms of the processes of a inelastic Stokes scattering, b elastic Rayleigh-Raman scattering and c inelastic Anti-Stokes scattering} 
+    \label{fig:raman1}
+\end{figure}
+
+\subsubsection{The Raman spectrometer}
+
+In a Raman spectrometer, a laser serves as the monochromatic light source directed onto the sample, where the majority of photons undergo elastic Rayleigh scattering, while only a minute fraction is scattered inelastically. To isolate the Raman signal, the scattered light is directed through a diffraction grating that separates the different wavelengths before the intensity is captured by a detector. The resulting spectrum displays various Raman shifts, which represent the energy difference between the incident and scattered light. The schematic structure of the Raman-spectrometer used is displayed in \autoref{fig:raman2}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{raman-aufbau.png}
+    \caption{Function of a Raman spectrometer.} 
+    \label{fig:raman2}
+\end{figure}
+
 \subsection{DFT-Calculations}
 
+To identify the various peaks in IR and Raman spectra, the theoretical values of each vibration are calculated via density functional theory (DFT). This quantum mechanical method is used due to its satisfactory compromise between short calculation times and precise values.
 
 \supercite{Skript}
-
 
 
 

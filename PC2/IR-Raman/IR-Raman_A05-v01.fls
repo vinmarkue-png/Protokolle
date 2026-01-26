@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 PWD c:/Studium/5. Semester/AC II lab/Protokolle/PC2/IR-Raman
 INPUT c:/texlive/2025/texmf.cnf
 INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
 INPUT c:/Studium/5. Semester/AC II lab/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+=======
+PWD c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman
+INPUT c:/texlive/2025/texmf.cnf
+INPUT c:/texlive/2025/texmf-dist/web2c/texmf.cnf
+INPUT c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt
+INPUT c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+>>>>>>> a25047541353510f014aef466e2842c1232a2634
 OUTPUT IR-Raman_A05-v01.log
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
 INPUT c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -37,13 +45,13 @@ INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm1200.tfm
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/babel.sty
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/txtbabel.def
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
-INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-english.tex
 INPUT c:/texlive/2025/texmf-dist/tex/generic/babel/locale/en/babel-en.ini
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
+INPUT c:/texlive/2025/texmf-dist/tex/generic/babel-english/english.ldf
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsmath.sty
 INPUT c:/texlive/2025/texmf-dist/tex/latex/amsmath/amsopn.sty
@@ -403,8 +411,23 @@ INPUT ./IR-Raman_A05-v01.toc
 INPUT IR-Raman_A05-v01.toc
 OUTPUT IR-Raman_A05-v01.toc
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm
-INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm
+INPUT ./IR-Aufbau.png
+INPUT ./IR-Aufbau.png
+INPUT ./IR-Aufbau.png
+INPUT ./IR-Aufbau.png
+INPUT ./IR-Aufbau.png
+INPUT ./scattering.png
+INPUT ./scattering.png
+INPUT ./scattering.png
+INPUT ./scattering.png
+INPUT ./scattering.png
+INPUT ./raman-aufbau.png
+INPUT ./raman-aufbau.png
+INPUT ./raman-aufbau.png
+INPUT ./raman-aufbau.png
+INPUT ./raman-aufbau.png
+INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0800.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./IR/CH2Cl2_spectrum.pdf
