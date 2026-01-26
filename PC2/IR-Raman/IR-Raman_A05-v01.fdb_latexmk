@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber IR-Raman_A05-v01"] 0 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769466817.67656 -1
-  "IR-Raman_A05-v01.bcf" 1769466816 108245 d53785666e32fdc6f9a8dc1204daf823 "pdflatex"
+["biber IR-Raman_A05-v01"] 0 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769466931.79969 -1
+  "IR-Raman_A05-v01.bcf" 1769466930 108245 d53785666e32fdc6f9a8dc1204daf823 "pdflatex"
   "lit.bib" 1769183125 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "IR-Raman_A05-v01.bbl"
   "IR-Raman_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769466809.92636 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769466817.67786 0
+["pdflatex"] 1769466923.93645 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769466931.80111 0
   "IR-Aufbau.png" 1769464936 8973 7b8094aea5eca4771995ff286880bd4e ""
-  "IR-Raman_A05-v01.aux" 1769466816 27722 bc0d2abafd2975628930469e91bcdc9f "pdflatex"
+  "IR-Raman_A05-v01.aux" 1769466930 27720 dec4e4a21e429e466dba8d5704dcfe2c "pdflatex"
   "IR-Raman_A05-v01.bbl" 1769459238 1591 41e842fa6159ee6d2617c5f8da122169 "biber IR-Raman_A05-v01"
-  "IR-Raman_A05-v01.run.xml" 1769466816 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
-  "IR-Raman_A05-v01.tex" 1769466799 48037 89c41ed5b1d0f3b38741301c9789c6f2 ""
-  "IR-Raman_A05-v01.toc" 1769466816 3187 d006805ffbaf9d3d8e47294a10b0d469 "pdflatex"
+  "IR-Raman_A05-v01.run.xml" 1769466930 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
+  "IR-Raman_A05-v01.tex" 1769466914 48030 aca68a0a5dbdc5a68244a49f1fc2bf5a ""
+  "IR-Raman_A05-v01.toc" 1769466930 3187 d006805ffbaf9d3d8e47294a10b0d469 "pdflatex"
   "IR/C2Cl4_spectrum.pdf" 1769466207 18633 6f65c62ee30c7f1c3161057c2f246e3d ""
   "IR/CH2Br2_spectrum.pdf" 1769466207 18466 026ae37d88115013a5a646d5497c242e ""
   "IR/CH2Cl2_spectrum.pdf" 1769466207 18167 9beb7a76047ffaba08139d1ca621de0d ""
@@ -24,7 +24,7 @@
   "Raman/CH2Cl2_raman_spectrum.pdf" 1769466207 26389 45228c11664d3b4f4916a15229c8e382 ""
   "Raman/CHCl3_raman_spectrum.pdf" 1769466207 26505 19ca16c47b67b03a58091738207d0411 ""
   "Sim/raman_trends.pdf" 1769466207 20169 1c1ae227abc88a66bca98cdb81b40d64 ""
-  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769466799 48037 89c41ed5b1d0f3b38741301c9789c6f2 ""
+  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769466914 48030 aca68a0a5dbdc5a68244a49f1fc2bf5a ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1765624578 3584 402da0b29eafbad07963b1224b222f18 ""
