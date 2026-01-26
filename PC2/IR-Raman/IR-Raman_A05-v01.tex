@@ -219,6 +219,7 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
 \subsection{Chloromethane}
 
 \subsubsection{IR}
+The simulated vibrational modes of methane are summarized in \autoref{tab: CH3Cl_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 \begin{table}[H]
     \centering
     \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CH3Cl}.}
@@ -238,8 +239,10 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
     \end{tabular}
 \end{table}
 
-\subsubsection{Raman}
+The table shows that all types of vibrations are IR active but the \ch{C-Cl} stretching mode as well as the scissoring mode and symmetrical stretching mode are the most intense ones.
 
+\subsubsection{Raman}
+The simulated Raman-active vibrational modes of methane are summarized in \autoref{tab: raman_CH3Cl_sim} with the corresponding wavenumber, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
     \caption{Listed are the simulated Raman shifts and intensities of the vibrational modes of \ch{CH3Cl}.}
@@ -249,15 +252,16 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
     1 & 725.96 & 12.69 & \ch{C-Cl} stretch \\
     2 & 1008.86 & 6.56 & rocking \\
     3 & 1010.02 & 6.53 & rocking \\
-    4 & 1361.35 & 3.48 & - \\
-    5 & 1455.81 & 16.49 & - \\
-    6 & 1456.34 & 16.50 & - \\
+    4 & 1361.35 & 3.48 & scissoring \\
+    5 & 1455.81 & 16.49 & twisting \\
+    6 & 1456.34 & 16.50 & twisting \\
     7 & 3056.94 & 134.62 & sym. stretching \\
     8 & 3169.78 & 66.78 & asym. stretching \\
     9 & 3170.01 & 66.72 & asym. stretching \\
     \end{tabular}
     \label{tab: raman_CH3Cl_sim}
 \end{table}
+The comparison to the IR table shows that all vibrational modes are also raman active but the most intense ones are now the stretching modes, with the symmetrical stretching being the most prominent one.
 
 \subsection{Dichloromethane}
 
@@ -369,7 +373,7 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
     \label{fig: CH2Br2_IR}
 \end{figure}
 
-
+By visual inspection of the IR spectrum in \autoref{fig: CH2Br2_IR}, six absorption signals can be identified, which are listed with their corresponding wavenumbers and intensities in \autoref{tab: CH2Br2}.
 % --- LaTeX Tabelle für CH2Br2 ---
 \begin{table}[H]
     \centering
@@ -377,18 +381,19 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
     \begin{tabular}{c|c|c|c}
     Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
-    1 & 455.05 & 0.52 \\
-    2 & 577.49 & 0.49 \\
-    3 & 632.58 & 0.95 \\
-    4 & 677.48 & 0.23 \\
-    5 & 812.16 & 0.23 \\
-    6 & 1095.80 & 0.08 \\
-    7 & 1189.66 & 0.53 \\
-    8 & 1389.64 & 0.02 \\
-    11 & 3064.97 & ~0.05
+    1 & 455.05 & 0.52 & -\\
+    2 & 577.49 & 0.49 & \ch{C-Br} sym. stretching\\
+    3 & 632.58 & 0.95 & \ch{C-Br} asym. stretching\\
+    4 & 677.48 & 0.23 & -\\
+    5 & 812.16 & 0.23 & rocking\\
+    6 & 1095.80 & 0.08 & twisting\\
+    7 & 1189.66 & 0.53 & wagging\\
+    8 & 1389.64 & 0.02 & scissoring\\
+    11 & 3064.97 & ~0.05 & -
     \label{tab: CH2Br2}
     \end{tabular}
 \end{table}
+The simulated vibrational modes of dibromomethane are summarized in \autoref{tab: CH2Br2_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 
 \begin{table}[H]
     \centering
@@ -409,7 +414,10 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
     \end{tabular}
 \end{table}
 
+As \autoref{tab: CH2Br2_sim} shows, the most intense IR-active modes are found at wavenumbers of 628.31 cm$^{-1}$ and 1205.80 cm$^{-1}$, which correspond well to the measured signals at 632.58 cm$^{-1}$ for the \ch{C-Br} asymmetric stretching mode and at 1189.66 cm$^{-1}$ for the wagging mode. The comparison of the two tables also shows that although the twisting mode and scissoring mode should not be IR-active they still show up in the spectrum.
+
 \subsubsection{Raman}
+The measured Raman spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_Ram}, plotting the Raman intensity against the Raman shift $\Delta \tilde{\nu}$.
 
 \begin{figure}[H]
     \centering
@@ -417,23 +425,25 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
     \caption{Measured raman spectrum of dibromomethane.} 
     \label{fig: CH2Br2_Ram}
 \end{figure}
+By visual inspection of the Raman spectrum in \autoref{fig: CH2Br2_Ram}, seven primary absorption signals can be identified, which are listed with their corresponding Raman shift, Raman intensity and vibration type of each mode.
 
 \begin{table}[H]
     \centering
     \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CH2Br2}.}
-    \begin{tabular}{c|c|c}
-    Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. \\
+    \begin{tabular}{c|c|c|c}
+    Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
-    1 & 169.61 & 4410.67 \\
-    2 & 574.79 & 6711.00 \\
-    3 & 634.60 & 2364.33 \\
-    4 & 1387.16 & 1889.33 \\
-    5 & 2432.07 & 1409.00 \\
-    6 & 2984.85 & 5162.00 \\
-    7 & 3062.11 & ~1965.67
+    1 & 169.61 & 4410.67 & \ch{C-Br} scissoring\\
+    2 & 574.79 & 6711.00 & \ch{C-Br} sym. stretching\\
+    3 & 634.60 & 2364.33 & \ch{C-Br} asym. stretching\\
+    4 & 1387.16 & 1889.33 & scissoring\\
+    5 & 2432.07 & 1409.00 & -\\
+    6 & 2984.85 & 5162.00 & sym. stretching\\
+    7 & 3062.11 & ~1965.67 & asym. stretching
     \label{tab: raman_CH2Br2}
     \end{tabular}
 \end{table}
+The simulated Raman-active vibrational modes of dibromomethane are summarized in \autoref{tab: raman_CH2Br2_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 
 \begin{table}[H]
     \centering
@@ -454,6 +464,8 @@ The measured IR spectrum of dibromomethane is shown in \autoref{fig: CH2Br2_IR},
     \end{tabular}
 \end{table}
 
+As \autoref{tab: raman_CH2Br2_sim} shows, the most intense raman-active modes are found at wavenumbers of 3125.63 cm$^{-1}$ and 3221.31 cm$^{-1}$, which correspond to the measured signals at 2984.85 cm$^{-1}$ for the symmetric stretching mode and at 3062.11 cm$^{-1}$ for the asymmetric stretching mode. That means that the symmetric and asymmetric stretching of the \ch{C-H} bonds is the most raman active type of vibration.
+
 \subsection{Chloroform}
 
 \subsubsection{IR}
@@ -467,22 +479,26 @@ The measured IR spectrum of chloroform is shown in \autoref{fig: CHCl3_IR}, plot
     \label{fig: CHCl3_IR}
 \end{figure}
 
+By visual inspection of the IR spectrum in \autoref{fig: CHCl3_IR}, three absorption signals can be identified, which are listed with their corresponding wavenumbers and intensities in \autoref{tab: CHCl3}.
+
 \begin{table}[H]
     \centering
     \caption{Listed are the measured wavenumbers and intensities of the IR signals of \ch{CHCl3}.}
-    \begin{tabular}{c|c|c}
-    Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. \\
+    \begin{tabular}{c|c|c|c}
+    Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
-    1 & 626.46 & 0.11 \\
-    2 & 667.27 & 0.27 \\
-    3 & 742.78 & 1.58 \\
-    4 & 910.10 & 0.03 \\
-    5 & 928.47 & 0.02 \\
-    6 & 1214.15 & 0.30 \\
-    7 & 3020.07 & ~0.02
+    1 & 626.46 & 0.11 & -\\
+    2 & 667.27 & 0.27 & \ch{C-Cl} sym. stretching\\
+    3 & 742.78 & 1.58 & \ch{C-Cl} asym. stretching\\
+    4 & 910.10 & 0.03 & -\\
+    5 & 928.47 & 0.02 & -\\
+    6 & 1214.15 & 0.30 & bending\\
+    7 & 3020.07 & ~0.02 & sym. stretching
     \label{tab: CHCl3}
     \end{tabular}
 \end{table}
+
+The simulated vibrational modes of chloroform are summarized in \autoref{tab: CHCl3_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 
 \begin{table}[H]
     \centering
@@ -503,7 +519,11 @@ The measured IR spectrum of chloroform is shown in \autoref{fig: CHCl3_IR}, plot
     \end{tabular}
 \end{table}
 
+As \autoref{tab: CHCl3_sim} shows, the most intense IR-active modes are found at wavenumbers of 741.92 cm$^{-1}$ and 742.13 cm$^{-1}$, which correspond to the measured signal at 742.78 cm$^{-1}$ for the \ch{C-Cl} asymmetric stretching mode. That means that the asymmetric stretching of the \ch{C-Cl} bond is the most IR active type of vibration. It is to be noted, that the simulation showed two distinct vibrational modes, while the measurement only shows one mode. The simulated bending modes at 1220.08 cm$^{-1}$ and 1220.17 cm$^{-1}$ that show the second highest intensities, were also measured as only one signal at 1214.15 cm$^{-1}$.
+
 \subsubsection{Raman}
+
+The measured Raman spectrum of chloroform is shown in \autoref{fig: CHCl3_Ram_Ram}, plotting the Raman intensity against the Raman shift $\Delta \tilde{\nu}$.
 
 \begin{figure}[H]
     \centering
@@ -512,21 +532,25 @@ The measured IR spectrum of chloroform is shown in \autoref{fig: CHCl3_IR}, plot
     \label{fig: CHCl3_Ram}
 \end{figure}
 
+By visual inspection of the Raman spectrum in \autoref{fig: CHCl3_Ram}, six primary absorption signals can be identified, which are listed with their corresponding Raman shift, Raman intensity and vibration type of each mode.
+
 \begin{table}[H]
     \centering
     \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CHCl3}.}
-    \begin{tabular}{c|c|c}
-    Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. \\
+    \begin{tabular}{c|c|c|c}
+    Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
-    1 & 258.84 & 2927.00 \\
-    2 & 362.65 & 3127.33 \\
-    3 & 664.38 & 3645.00 \\
-    4 & 756.86 & 1811.33 \\
-    5 & 1213.44 & 1437.33 \\
-    6 & 3015.32 & ~3161.67
+    1 & 258.84 & 2927.00 & \ch{C-Cl} scissoring\\
+    2 & 362.65 & 3127.33 & \ch{C-Cl} scissoring\\
+    3 & 664.38 & 3645.00 & \ch{C-Cl} sym. stretching\\
+    4 & 756.86 & 1811.33 & \ch{C-Cl} asym. stretching\\
+    5 & 1213.44 & 1437.33 & bending\\
+    6 & 3015.32 & ~3161.67 & sym. stretching
     \label{tab: raman_CHCl3}
     \end{tabular}
 \end{table}
+
+The simulated Raman-active vibrational modes of chloroform are summarized in \autoref{tab: raman_CHCl3_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 
 \begin{table}[H]
     \centering
@@ -546,6 +570,8 @@ The measured IR spectrum of chloroform is shown in \autoref{fig: CHCl3_IR}, plot
     \label{tab: raman_CHCl3_sim}
     \end{tabular}
 \end{table}
+
+As \autoref{tab: raman_CHCl3_sim} shows, the most intense raman-active mode is found at the wavenumber 3168.77 cm$^{-1}$, which corresponds to the measured signal at 3015.32 cm$^{-1}$ for the symmetric stretching mode. That means that the symmetric stretching of the \ch{C-H} bond is the most raman active type of vibration. Even though the \ch{C-Cl} vibrational modes should not be nearly as intense as the symmetric stretching mode, they almost equal the simulated values. 
 
 \subsection{Deuterated Chloroform}
 
@@ -664,15 +690,15 @@ The measured IR spectrum of chloroform is shown in \autoref{fig: CHCl3_IR}, plot
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type\\
     \hline
-    1 & 212.71 & 4.18 &\\
-    2 & 212.91 & 4.17 &\\
-    3 & 310.52 & 5.39 &\\
-    4 & 310.84 & 5.40 &\\
-    5 & 311.16 & 5.40 &\\
-    6 & 451.08 & 16.40 &\\
-    7 & 753.44 & 1.55 &\\
-    8 & 754.26 & 1.56 &\\
-    9 & 754.60 & 1.54 &
+    1 & 212.71 & 4.18 & scissoring\\
+    2 & 212.91 & 4.17 & scissoring\\
+    3 & 310.52 & 5.39 & scissoring\\
+    4 & 310.84 & 5.40 & scissoring\\
+    5 & 311.16 & 5.40 & scissoring\\
+    6 & 451.08 & 16.40 & sym. stretching\\
+    7 & 753.44 & 1.55 & asym. stretching\\
+    8 & 754.26 & 1.56 & asym. stretching\\
+    9 & 754.60 & 1.54 & asym. stretching
     \label{tab: raman_CCl4_sim}
     \end{tabular}
 \end{table}
