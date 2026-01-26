@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 JAN 2026 11:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 JAN 2026 14:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1373,22 +1373,17 @@ Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 713.
 <Raman/C2Cl4_raman_spectrum.pdf, id=602, 505.89pt x 361.35pt>
 File: Raman/C2Cl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/C2Cl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 766.
+Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 767.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
 [20]
-Overfull \hbox (5.44417pt too wide) in paragraph at lines 789--806
- [][] 
- []
-
-
 
 [21 <./Raman/C2Cl4_raman_spectrum.pdf>]
 <Sim/raman_trends.pdf, id=660, 722.7pt x 505.89pt>
 File: Sim/raman_trends.pdf Graphic file (type pdf)
 <use Sim/raman_trends.pdf>
-Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 815.
+Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 816.
 (pdftex.def)             Requested size: 393.07133pt x 275.15265pt.
 
 
@@ -1418,7 +1413,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,11297b,2128s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (26 pages, 558683 bytes).
+Output written on IR-Raman_A05-v01.pdf (26 pages, 559783 bytes).
 PDF statistics:
  944 PDF objects out of 1000 (max. 8388607)
  532 compressed objects within 6 object streams
