@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 JAN 2026 17:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  26 JAN 2026 23:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex"
-(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+**"c:/Studium/5. Semester/AC II lab/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex"
+(c:/Studium/5. Semester/AC II lab/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1334,58 +1334,57 @@ Overfull \hbox (26.08809pt too wide) in paragraph at lines 558--572
 
 
 [14 <./Raman/CHCl3_raman_spectrum.pdf>]
-<Raman/CDCl3_raman_spectrum.pdf, id=448, 505.89pt x 361.35pt>
+
+[15]
+<Raman/CDCl3_raman_spectrum.pdf, id=456, 505.89pt x 361.35pt>
 File: Raman/CDCl3_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CDCl3_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 602.
+Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 608.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[15]
-Overfull \hbox (26.08809pt too wide) in paragraph at lines 626--640
+[16 <./Raman/CDCl3_raman_spectrum.pdf>]
+Overfull \hbox (26.08809pt too wide) in paragraph at lines 636--650
  [][] 
  []
 
-
-
-[16 <./Raman/CDCl3_raman_spectrum.pdf>]
-<Raman/CCl4_raman_spectrum.pdf, id=497, 505.89pt x 361.35pt>
+<Raman/CCl4_raman_spectrum.pdf, id=503, 505.89pt x 361.35pt>
 File: Raman/CCl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CCl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 668.
+Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 680.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
 [17]
-<IR/C2Cl4_spectrum.pdf, id=506, 505.89pt x 361.35pt>
+<IR/C2Cl4_spectrum.pdf, id=512, 505.89pt x 361.35pt>
 File: IR/C2Cl4_spectrum.pdf Graphic file (type pdf)
 <use IR/C2Cl4_spectrum.pdf>
-Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 713.
+Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 725.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
 [18 <./Raman/CCl4_raman_spectrum.pdf>]
 
 [19 <./IR/C2Cl4_spectrum.pdf>]
-<Raman/C2Cl4_raman_spectrum.pdf, id=603, 505.89pt x 361.35pt>
+<Raman/C2Cl4_raman_spectrum.pdf, id=609, 505.89pt x 361.35pt>
 File: Raman/C2Cl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/C2Cl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 768.
+Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 780.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
 [20]
 
 [21 <./Raman/C2Cl4_raman_spectrum.pdf>]
-<Sim/raman_trends.pdf, id=665, 722.7pt x 505.89pt>
+<Sim/raman_trends.pdf, id=671, 722.7pt x 505.89pt>
 File: Sim/raman_trends.pdf Graphic file (type pdf)
 <use Sim/raman_trends.pdf>
-Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 822.
+Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 834.
 (pdftex.def)             Requested size: 393.07133pt x 275.15265pt.
 
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 839--842
+Underfull \hbox (badness 10000) in paragraph at lines 851--854
 
  []
 
@@ -1408,17 +1407,17 @@ Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  42903 strings out of 467748
- 909982 string characters out of 5431137
- 1854619 words of memory out of 5000000
+ 909925 string characters out of 5431137
+ 1856619 words of memory out of 5000000
  70962 multiletter control sequences out of 15000+600000
  644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,107p,11297b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 108i,20n,107p,11278b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (26 pages, 566897 bytes).
+Output written on IR-Raman_A05-v01.pdf (26 pages, 569177 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 546 compressed objects within 6 object streams
+ 964 PDF objects out of 1000 (max. 8388607)
+ 552 compressed objects within 6 object streams
  101 named destinations out of 1000 (max. 500000)
  332 words of extra memory for PDF output out of 10000 (max. 10000000)
 
