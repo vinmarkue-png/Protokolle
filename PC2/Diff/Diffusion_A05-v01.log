@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  27 JAN 2026 11:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  27 JAN 2026 11:57
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
-(c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex
+**c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex
+(c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1069,8 +1069,8 @@ Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions (
 \l__chemformula_plus_space_skip=\skip103
 \l__chemformula_minus_space_skip=\skip104
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 48.
-Package hyperref Info: Option `linktocpage' set `true' on input line 48.
+Package hyperref Info: Option `colorlinks' set `true' on input line 46.
+Package hyperref Info: Option `linktocpage' set `true' on input line 46.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1082,43 +1082,43 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 91.
+(scrartcl)           before \begin{document} on input line 89.
 
 (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count503
-)) (./IR-Raman_A05-v01.aux)
-\openout1 = `IR-Raman_A05-v01.aux'.
+)) (./Diffusion_A05-v01.aux)
+\openout1 = `Diffusion_A05-v01.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-Package scrbase Info: activating english \abstractname on input line 91.
-Package scrbase Info: activating english \partname on input line 91.
-Package scrbase Info: activating english \figurename on input line 91.
-Package scrbase Info: activating english \tablename on input line 91.
-Package scrbase Info: activating english \contentsname on input line 91.
-Package scrbase Info: activating english \listfigurename on input line 91.
-Package scrbase Info: activating english \listtablename on input line 91.
-Package scrbase Info: activating english \refname on input line 91.
-Package scrbase Info: activating english \indexname on input line 91.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
+LaTeX Font Info:    ... okay on input line 89.
+Package scrbase Info: activating english \abstractname on input line 89.
+Package scrbase Info: activating english \partname on input line 89.
+Package scrbase Info: activating english \figurename on input line 89.
+Package scrbase Info: activating english \tablename on input line 89.
+Package scrbase Info: activating english \contentsname on input line 89.
+Package scrbase Info: activating english \listfigurename on input line 89.
+Package scrbase Info: activating english \listtablename on input line 89.
+Package scrbase Info: activating english \refname on input line 89.
+Package scrbase Info: activating english \indexname on input line 89.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
@@ -1138,7 +1138,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 91.
+Package hyperref Info: Link coloring ON on input line 89.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1185,7 +1185,7 @@ Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
 File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 91.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 89.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: End \AtBeginDocument code.
 Package biblatex Info: Trying to load language 'english'...
@@ -1196,182 +1196,110 @@ File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `IR-Raman_A05-v01.bcf'.
+\openout3 = `Diffusion_A05-v01.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'IR-Raman_A05-v01.bbl' found.
- (./IR-Raman_A05-v01.bbl)
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
+Package biblatex Info: ... file 'Diffusion_A05-v01.bbl' found.
+ (./Diffusion_A05-v01.bbl)
+Package biblatex Info: Reference section=0 on input line 89.
+Package biblatex Info: Reference segment=0 on input line 89.
 
-Package chemgreek Info: Activating mapping `default' on line 91.
+Package chemgreek Info: Activating mapping `default' on line 89.
 
-Package scrbase Info: activating english \figurename on input line 91.
-Package scrbase Info: activating english \tablename on input line 91.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 104.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./IR-Raman_A05-v01.toc)
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Diffusion_A05-v01.toc)
 \tf@toc=\write5
-\openout5 = `IR-Raman_A05-v01.toc'.
+\openout5 = `Diffusion_A05-v01.toc'.
 
  [2]
+<Bilder/profiles.png, id=68, 333.04425pt x 320.99925pt>
+File: Bilder/profiles.png Graphic file (type png)
+<use Bilder/profiles.png>
+Package pdftex.def Info: Bilder/profiles.png  used on input line 181.
+(pdftex.def)             Requested size: 283.88411pt x 273.62453pt.
+
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.182 
+l.185 
        [1
 
 ]
-<IR-Aufbau.png, id=124, 169.13188pt x 113.42375pt>
-File: IR-Aufbau.png Graphic file (type png)
-<use IR-Aufbau.png>
-Package pdftex.def Info: IR-Aufbau.png  used on input line 185.
-(pdftex.def)             Requested size: 349.40045pt x 234.32356pt.
+<Bilder/setup.png, id=92, 159.59625pt x 114.4275pt>
+File: Bilder/setup.png Graphic file (type png)
+<use Bilder/setup.png>
+Package pdftex.def Info: Bilder/setup.png  used on input line 196.
+(pdftex.def)             Requested size: 196.53566pt x 140.9126pt.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.204 
-       [2 <./IR-Aufbau.png>]
-<scattering.png, id=136, 197.23688pt x 65.24374pt>
-File: scattering.png Graphic file (type png)
-<use scattering.png>
-Package pdftex.def Info: scattering.png  used on input line 207.
-(pdftex.def)             Requested size: 349.40045pt x 115.58792pt.
-<raman-aufbau.png, id=141, 238.39063pt x 101.37875pt>
-File: raman-aufbau.png Graphic file (type png)
-<use raman-aufbau.png>
-Package pdftex.def Info: raman-aufbau.png  used on input line 218.
-(pdftex.def)             Requested size: 349.40045pt x 148.59647pt.
- [3 <./scattering.png> <./raman-aufbau.png>] [4]
-Overfull \hbox (4.23305pt too wide) in paragraph at lines 267--281
- [][] 
+l.202 \begin{equation}
+                       [2 <./Bilder/profiles.png> <./Bilder/setup.png>]
+<Bilder/setupcam.png, id=111, 316.18124pt x 142.131pt>
+File: Bilder/setupcam.png Graphic file (type png)
+<use Bilder/setupcam.png>
+Package pdftex.def Info: Bilder/setupcam.png  used on input line 221.
+(pdftex.def)             Requested size: 371.23923pt x 166.89331pt.
+ [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/setupcam.png>]
+<DIFF/NaCl/beispieldata.pdf, id=125, 462.52798pt x 346.89601pt>
+File: DIFF/NaCl/beispieldata.pdf Graphic file (type pdf)
+<use DIFF/NaCl/beispieldata.pdf>
+Package pdftex.def Info: DIFF/NaCl/beispieldata.pdf  used on input line 262.
+(pdftex.def)             Requested size: 371.23923pt x 278.44348pt.
+ [4] [5 <./DIFF/NaCl/beispieldata.pdf>]
+<DIFF/NaCl/GraphNacl.png, id=157, 361.131pt x 217.248pt>
+File: DIFF/NaCl/GraphNacl.png Graphic file (type png)
+<use DIFF/NaCl/GraphNacl.png>
+Package pdftex.def Info: DIFF/NaCl/GraphNacl.png  used on input line 300.
+(pdftex.def)             Requested size: 371.23923pt x 223.33037pt.
+ [6 <./DIFF/NaCl/GraphNacl.png>] [7]
+<DIFF/KCl/graphkcl.png, id=180, 361.35pt x 217.905pt>
+File: DIFF/KCl/graphkcl.png Graphic file (type png)
+<use DIFF/KCl/graphkcl.png>
+Package pdftex.def Info: DIFF/KCl/graphkcl.png  used on input line 378.
+(pdftex.def)             Requested size: 371.23923pt x 223.86943pt.
+ [8] [9 <./DIFF/KCl/graphkcl.png>]
+<DIFF/ZnSO4/graphznso4.png, id=196, 361.35pt x 213.087pt>
+File: DIFF/ZnSO4/graphznso4.png Graphic file (type png)
+<use DIFF/ZnSO4/graphznso4.png>
+Package pdftex.def Info: DIFF/ZnSO4/graphznso4.png  used on input line 452.
+(pdftex.def)             Requested size: 371.23923pt x 218.91956pt.
+ [10] [11 <./DIFF/ZnSO4/graphznso4.png>]
+Overfull \hbox (1.57742pt too wide) in paragraph at lines 477--482
+\T1/cmr/m/n/12 The mea-sured dif-fu-sion con-stants $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 414 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 636 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$
  []
 
-[5]
-Overfull \hbox (1.36966pt too wide) in paragraph at lines 315--329
- [][] 
- []
-
-[6]
-<IR/CH2Cl2_spectrum.pdf, id=179, 505.89pt x 361.35pt>
-File: IR/CH2Cl2_spectrum.pdf Graphic file (type pdf)
-<use IR/CH2Cl2_spectrum.pdf>
-Package pdftex.def Info: IR/CH2Cl2_spectrum.pdf  used on input line 339.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [7 <./IR/CH2Cl2_spectrum.pdf>]
-<Raman/CH2Cl2_raman_spectrum.pdf, id=231, 505.89pt x 361.35pt>
-File: Raman/CH2Cl2_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/CH2Cl2_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CH2Cl2_raman_spectrum.pdf  used on input line 387.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [8]
-Overfull \hbox (34.41333pt too wide) in paragraph at lines 411--425
- [][] 
- []
-
-[9 <./Raman/CH2Cl2_raman_spectrum.pdf>]
-<IR/CH2Br2_spectrum.pdf, id=286, 505.89pt x 361.35pt>
-File: IR/CH2Br2_spectrum.pdf Graphic file (type pdf)
-<use IR/CH2Br2_spectrum.pdf>
-Package pdftex.def Info: IR/CH2Br2_spectrum.pdf  used on input line 437.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [10] [11 <./IR/CH2Br2_spectrum.pdf>]
-<Raman/CH2Br2_raman_spectrum.pdf, id=342, 505.89pt x 361.35pt>
-File: Raman/CH2Br2_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/CH2Br2_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CH2Br2_raman_spectrum.pdf  used on input line 490.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [12 <./Raman/CH2Br2_raman_spectrum.pdf>]
-Overfull \hbox (27.2281pt too wide) in paragraph at lines 517--531
- [][] 
- []
-
-<IR/CHCl3_spectrum.pdf, id=391, 505.89pt x 361.35pt>
-File: IR/CHCl3_spectrum.pdf Graphic file (type pdf)
-<use IR/CHCl3_spectrum.pdf>
-Package pdftex.def Info: IR/CHCl3_spectrum.pdf  used on input line 543.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
-[13] [14 <./IR/CHCl3_spectrum.pdf>]
-<Raman/CHCl3_raman_spectrum.pdf, id=448, 505.89pt x 361.35pt>
-File: Raman/CHCl3_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/CHCl3_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CHCl3_raman_spectrum.pdf  used on input line 596.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [15]
-Overfull \hbox (26.08809pt too wide) in paragraph at lines 624--638
- [][] 
- []
-
-[16 <./Raman/CHCl3_raman_spectrum.pdf>] [17]
-<Raman/CDCl3_raman_spectrum.pdf, id=509, 505.89pt x 361.35pt>
-File: Raman/CDCl3_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/CDCl3_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 674.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [18 <./Raman/CDCl3_raman_spectrum.pdf>]
-Overfull \hbox (26.08809pt too wide) in paragraph at lines 702--716
- [][] 
- []
-
-[19]
-<Raman/CCl4_raman_spectrum.pdf, id=565, 505.89pt x 361.35pt>
-File: Raman/CCl4_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/CCl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 750.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [20 <./Raman/CCl4_raman_spectrum.pdf>]
-<IR/C2Cl4_spectrum.pdf, id=615, 505.89pt x 361.35pt>
-File: IR/C2Cl4_spectrum.pdf Graphic file (type pdf)
-<use IR/C2Cl4_spectrum.pdf>
-Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 801.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [21 <./IR/C2Cl4_spectrum.pdf>] [22]
-<Raman/C2Cl4_raman_spectrum.pdf, id=672, 505.89pt x 361.35pt>
-File: Raman/C2Cl4_raman_spectrum.pdf Graphic file (type pdf)
-<use Raman/C2Cl4_raman_spectrum.pdf>
-Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 856.
-(pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
- [23 <./Raman/C2Cl4_raman_spectrum.pdf>]
-<Sim/raman_trends.pdf, id=730, 722.7pt x 505.89pt>
-File: Sim/raman_trends.pdf Graphic file (type pdf)
-<use Sim/raman_trends.pdf>
-Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 910.
-(pdftex.def)             Requested size: 393.07133pt x 275.15265pt.
- [24]
-Underfull \hbox (badness 10000) in paragraph at lines 919--922
-
- []
-
-[25 <./Sim/raman_trends.pdf>] [26] (./IR-Raman_A05-v01.aux)
+[12] [13] [14] (./Diffusion_A05-v01.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
-Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
-\openout1 = `IR-Raman_A05-v01.run.xml'.
+Package logreq Info: Writing requests to 'Diffusion_A05-v01.run.xml'.
+\openout1 = `Diffusion_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42975 strings out of 467537
- 911385 string characters out of 5423703
- 1864575 words of memory out of 5000000
- 71232 multiletter control sequences out of 15000+600000
- 644189 words of font info for 74 fonts, out of 8000000 for 9000
+ 42792 strings out of 467537
+ 907014 string characters out of 5423703
+ 1858962 words of memory out of 5000000
+ 71096 multiletter control sequences out of 15000+600000
+ 647174 words of font info for 80 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,11275b,2056s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (28 pages, 608818 bytes).
+ 108i,20n,108p,11272b,2081s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
+Output written on Diffusion_A05-v01.pdf (16 pages, 542484 bytes).
 PDF statistics:
- 1038 PDF objects out of 1200 (max. 8388607)
- 614 compressed objects within 7 object streams
- 113 named destinations out of 1000 (max. 500000)
- 387 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 388 PDF objects out of 1000 (max. 8388607)
+ 298 compressed objects within 3 object streams
+ 61 named destinations out of 1000 (max. 500000)
+ 144 words of extra memory for PDF output out of 10000 (max. 10000000)
 
