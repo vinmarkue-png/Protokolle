@@ -145,12 +145,12 @@
 
 \subsection{IR-Spectroscopy}
 
-When a dipolar molecule is exposed to an electromagnetic field  the partially positively charged atom is pushed along the direction of the electric field lines. So if a molecule is exposed to an oscillating field, that oscillates at the natural vibration frequency of said molecule, the molecule will be in an excited vibrational state. For a linear molecule, the amount of vibrational modes is calculated as displayed in \autoref{eq:N1}.
+When a dipolar molecule is exposed to an electromagnetic field  the partially positively charged atom is pushed along the direction of the electric field lines. So if a molecule is exposed to an oscillating field, that oscillates at the natural vibration frequency of said molecule, the molecule will be in an excited vibrational state. For a linear molecule, the amount of vibrational modes is calculated as described in \autoref{eq:N1}.\supercite{Skript}
 \begin{equation}
     3N - 5
     \label{eq:N1}
 \end{equation}
-For nonlinear molecules the number of vibrational modes is defined as displayed in \autoref{eq:N2}
+For non-linear molecules the number of vibrational modes is defined as described in \autoref{eq:N2}
 \begin{equation}
 3N -  6
 \label{eq:N2}
@@ -178,13 +178,13 @@ Those stretching vibrations can occur symmetrically or asymmetrically. The other
 
 \subsection{The FTIR Spectrometer}
 
-The measurement is conducted using a Fourier Transform Infrared (FTIR) spectrometer, the schematic assembly of which is depicted in \autoref{fig:iraufbau}. Central to this apparatus is a Michelson interferometer, which modulates the infrared light to allow specific wavelength patterns to interact with the sample before reaching the detector. The resulting data are presented as an IR spectrum, where the signal intensity is plotted as a function of the wavenumber. To derive this frequency-domain spectrum from the raw temporal data, a Fourier transformation is applied to the recorded interferogram, effectively resolving the individual spectral components.
+The measurement is conducted using a Fourier Transform Infrared (FTIR) spectrometer, the schematic assembly of which is depicted in \autoref{fig:iraufbau}. Central to this apparatus is a Michelson interferometer, which modulates the infrared light to allow specific wavelength patterns to interact with the sample before reaching the detector. The resulting data are presented as an IR spectrum, where the signal intensity is plotted as a function of the wavenumber. To derive this frequency-domain spectrum from the raw temporal data, a Fourier transformation is applied to the recorded interferogram, effectively resolving the individual spectral components.\supercite{Skript}
 
 \begin{figure}[H]
-    \centering
-
-    \caption{Function of a FTIR spectrometer.} 
-    \label{fig:iraufbau}    \includegraphics[width=0.8\textwidth]{IR-Aufbau.png}
+    \centering     
+    \includegraphics[width=0.8\textwidth]{IR-Aufbau.png} 
+    \caption{Function of a FTIR spectrometer.\supercite{Skript}}
+    \label{fig:iraufbau}
 \end{figure}
 
 
@@ -200,37 +200,32 @@ When a molecule interacts with the electric field of a light wave, its electron 
     \label{eq:p}
 \end{equation}
 
-Elastic and inelastic scattering can occur due to this process. During an elastic scattering process (Rayleigh scattering) the molecule absorbs the energy of the photon and emits that same amount of energy. During the inelastic Stokes scattering process, the molecule absorbs the energy of the photon, is excited to a virtual state and relaxes to a higher vibrational level than its initial state, resulting in a loss of photon energy. Conversely, there is also inelastic Anti-Stokes scattering, in which the molecule emits more energy than it originally absorbed. These three kinds of scattering are shown in \autoref{fig:raman1}
+Elastic and inelastic scattering can occur due to this process. During an elastic scattering process (Rayleigh scattering) the molecule absorbs the energy of the photon and emits that same amount of energy. During the inelastic Stokes scattering process, the molecule absorbs the energy of the photon, is excited to a virtual state and relaxes to a higher vibrational level than its initial state, resulting in a loss of photon energy. Conversely, there is also inelastic Anti-Stokes scattering, in which the molecule emits more energy than it originally absorbed. These three kinds of scattering are shown in \autoref{fig:raman1}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{scattering.png}
-    \caption{Energy diagramms of the processes of a inelastic Stokes scattering, b elastic Rayleigh-Raman scattering and c inelastic Anti-Stokes scattering} 
+    \caption{Energy diagramms of the processes of a inelastic Stokes scattering, b elastic Rayleigh-Raman scattering and c inelastic Anti-Stokes scattering.\supercite{Skript}} 
     \label{fig:raman1}
 \end{figure}
 
 \subsubsection{The Raman spectrometer}
 
-In a Raman spectrometer, a laser serves as the monochromatic light source directed onto the sample, where the majority of photons undergo elastic Rayleigh scattering, while only a minute fraction is scattered inelastically. To isolate the Raman signal, the scattered light is directed through a diffraction grating that separates the different wavelengths before the intensity is captured by a detector. The resulting spectrum displays various Raman shifts, which represent the energy difference between the incident and scattered light. The schematic structure of the Raman-spectrometer used is displayed in \autoref{fig:raman2}
+In a Raman spectrometer, a laser serves as the monochromatic light source directed onto the sample, where the majority of photons undergo elastic Rayleigh scattering, while only a minute fraction is scattered inelastically. To isolate the Raman signal, the scattered light is directed through a diffraction grating that separates the different wavelengths before the intensity is captured by a detector. The resulting spectrum displays various Raman shifts, which represent the energy difference between the incident and scattered light. The schematic structure of the Raman-spectrometer used is displayed in \autoref{fig:raman2}.\supercite{Skript}
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{raman-aufbau.png}
-    \caption{Function of a Raman spectrometer.} 
+    \caption{Function of a Raman spectrometer.\supercite{Skript}} 
     \label{fig:raman2}
 \end{figure}
 
 \subsection{DFT-Calculations}
 
-To identify the various peaks in IR and Raman spectra, the theoretical values of each vibration are calculated via density functional theory (DFT). This quantum mechanical method is used due to its satisfactory compromise between short calculation times and precise values.
-
-\supercite{Skript}
+To identify the various peaks in IR and Raman spectra, the theoretical values of each vibration are calculated via density functional theory (DFT). This quantum mechanical method is used due to its satisfactory compromise between short calculation times and precise values.\supercite{Skript}
 
 
 
-
-
-\newpage
 \section{Procedure}
 To simulate and calculate the vibrational normal modes, the program \texttt{Avogadro2} was used. The structures of the molecules methane, chloromethane, dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were built, their geometry was optimized and the optimized coordinates were used to calculate the vibrational modes with the \texttt{ORCA} software, resulting in a list of IR and Raman frequencies and intensities for each molecule. \\
 In the experimental part, the Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were measured and analysized with the \texttt{WPenlighten} software. The IR spectra of dichloro-\\methane, dibromomethane, chloroform and tetrachloroethylene were measured using an ATR spectrometer and analysized with the \texttt{Opus} software.
@@ -265,7 +260,7 @@ As can be seen in \autoref{tab: CH4}, only the asymmetric bending and stretching
 Furthermore, the asymmetric stretching mode shows the highest wavenumber among the IR-active modes, meaning it requires the most energy to be excited. 
 
 \subsubsection{Raman}
-The simulated Raman-active vibrational modes of methane are summarized in \autoref{tab: CH4_R} with the corresponding wavenumber, Raman intensity and vibration type of each mode.
+The simulated Raman-active vibrational modes of methane are summarized in \autoref{tab: raman_CH4_sim} with the corresponding wavenumber, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
     \caption{Listed are the simulated wavenumbers and intensities of the Raman signals of \ch{CH4} with the corresponding type of the vibrational mode.}
@@ -297,7 +292,7 @@ The simulated vibrational modes of methane are summarized in \autoref{tab: CH3Cl
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / km mol$^{-1}$ & vibration type \\
     \hline
-    1 & 725.98 & 23.93 & \ch{C-Cl} stretch\\
+    1 & 725.98 & 23.93 & \ch{C-Cl} stretching \\
     2 & 1010.21 & 3.13 & rocking \\
     3 & 1010.42 & 3.11 & rocking \\
     4 & 1361.61 & 14.72 & scissoring\\
@@ -320,7 +315,7 @@ The simulated Raman-active vibrational modes of methane are summarized in \autor
     \begin{tabular}{c|c|c|c}
     Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
-    1 & 725.96 & 12.69 & \ch{C-Cl} stretch \\
+    1 & 725.96 & 12.69 & \ch{C-Cl} stretching \\
     2 & 1008.86 & 6.56 & rocking \\
     3 & 1010.02 & 6.53 & rocking \\
     4 & 1361.35 & 3.48 & scissoring \\
@@ -355,8 +350,8 @@ By visual inspection of the IR spectrum in \autoref{fig: CH2Cl2_IR}, five absorp
     \begin{tabular}{c|c|c|c}
     Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & Vibration type \\
     \hline
-    1 & 704.00 & 0.45 & sym. stretching \\
-    2 & 730.53 & 1.01 & asym. stretching \\
+    1 & 704.00 & 0.45 & \ch{C-Cl} sym. stretching \\
+    2 & 730.53 & 1.01 & \ch{C-Cl} asym. stretching \\
     3 & 895.82 & 0.04 & rocking \\
     4 & 1265.17 & 0.29 & wagging \\
     5 & 1422.29 & ~0.02 & scissoring
@@ -371,8 +366,8 @@ The simulated vibrational modes of dichloromethane are summarized in \autoref{ta
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & Vibration type \\
     \hline
     1 & 277.23 & 0.64 & - \\
-    2 & 703.86 & 14.19 & sym. stretching \\
-    3 & 733.80 & 137.83 & asym. stretching \\
+    2 & 703.86 & 14.19 & \ch{C-Cl} sym. stretching \\
+    3 & 733.80 & 137.83 & \ch{C-Cl} asym. stretching \\
     4 & 889.17 & 1.20 & rocking \\
     5 & 1153.54 & 0.00 & - \\
     6 & 1272.86 & 41.21 & wagging \\
@@ -401,8 +396,8 @@ By visual inspection of the Raman spectrum in \autoref{fig: CH2Cl2_Ram}, five pr
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & intensity / a.u. & Vibration type \\
     \hline
-    1 & 281.99 & 2542.67 & scissoring \\
-    2 & 697.77 & 4210.67 & sym. stretching \\
+    1 & 281.99 & 2542.67 & \ch{C-Cl} scissoring \\
+    2 & 697.77 & 4210.67 & \ch{C-Cl} sym. stretching \\
     3 & 1418.07 & 1563.33 & scissoring \\
     4 & 2984.85 & 5336.00 & sym. stretching \\
     5 & 3051.13 & ~1775.33 & asym. stretching
@@ -416,9 +411,9 @@ The simulated Raman-active vibrational modes of dichloromethane are summarized i
     \begin{tabular}{c|c|c|c}
     Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & Vibration type \\
     \hline
-    1 & 277.06 & 6.83 & scissoring \\
-    2 & 703.48 & 12.27 & sym. stretching \\
-    3 & 732.67 & 5.02 & asym. stretching \\
+    1 & 277.06 & 6.83 & \ch{C-Cl} scissoring \\
+    2 & 703.48 & 12.27 & \ch{C-Cl} sym. stretching \\
+    3 & 732.67 & 5.02 & \ch{C-Cl} asym. stretching \\
     4 & 888.90 & 3.13 & - \\
     5 & 1153.83 & 11.78 & - \\
     6 & 1272.67 & 3.01 & - \\
@@ -916,16 +911,8 @@ By plotting the calculated Raman shifts against the vibrational mode number for 
     \caption{Raman shifts plotted against the vibrational mode number for \ch{CH4}, \ch{CH3Cl}, \ch{CH2Cl2}, \ch{CHCl3} and \ch{CCl4}.} 
     \label{fig: raman_trends}
 \end{figure}
-The first trend noticeable in \autoref{fig: raman_trends} is the decrease of the Raman shifts with increasing number of chlorine atoms in the molecule. This can be explained by the increasing reduced mass $\mu$ of the molecules according to \autoref{eq: mu} due to the substitution of hydrogen atoms (m = 1 u) with chlorine atoms (m = 35.5 u).
-\begin{equation}
-    \mu = \frac{m_1 \cdot m_2}{m_1 + m_2}
-    \label{eq: mu}
-\end{equation}
-The increasing reduced mass $\mu$ leads to lower vibrational frequencies $\nu$ and wavenumbers $\tilde{\nu}$ according to \autoref{eq: nu} and \autoref{eq: tilde}.
-\begin{equation}
-    \nu = \frac{1}{2 \pi} \sqrt{\frac{k}{\mu}}
-    \label{eq: nu}
-\end{equation}
+The first trend noticeable in \autoref{fig: raman_trends} is the decrease of the Raman shifts with increasing number of chlorine atoms in the molecule. This can be explained by the increasing reduced mass $\mu$ of the molecules according to \autoref{eq:mu} due to the substitution of hydrogen atoms (m = 1 u) with chlorine atoms (m = 35.5 u).
+The increasing reduced mass $\mu$ leads to lower vibrational frequencies $\nu$ and wavenumbers $\tilde{\nu}$ according to \autoref{eq:hook} and \autoref{eq: tilde}.
 \begin{equation}
     \nu = \tilde{\nu} \cdot c
     \label{eq: tilde}
@@ -937,14 +924,14 @@ The Raman signal of the asymmetric C-H stretching vibration of dibromomethane at
 The higher Raman intensity can be explained by the higher polarizability of the electrons in bromine atoms compared to chlorine atoms, leading to a larger change in polarizability during the vibration and thus a stronger Raman signal.
 
 % C-Cl und C-Br Berechnungen
-For the comparison of the C-Cl and C-Br force constants, the reduced masses $\mu$ for both bonds are calculated using \autoref{eq: mu}.
+For the comparison of the \ch{C-Cl} and \ch{C-Br} force constants, the reduced masses $\mu$ for both bonds are calculated using \autoref{eq:mu}.
 \begin{equation*}
     \mu_{\mathrm{C-Cl}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{35.5}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{35.5}{\frac{g}{mol}}} = \SI{8.97}{\frac{g}{mol}}
 \end{equation*}
 \begin{equation*}
     \mu_{\mathrm{C-Br}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{79.9}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{79.9}{\frac{g}{mol}}} = \SI{10.43}{\frac{g}{mol}}
 \end{equation*}
-By rearranging \autoref{eq: nu} and inserting $\nu$ from \autoref{eq: tilde} the force constant $k$ can be calculated with \autoref{eq: k}.
+By rearranging \autoref{eq:hook} and inserting $\nu$ from \autoref{eq: tilde} the force constant $k$ can be calculated with \autoref{eq: k}.
 \begin{equation}
     k = (2\pi \cdot \nu)^2 \cdot \mu = (2\pi \cdot \tilde{\nu} \cdot c)^2 \cdot \mu
     \label{eq: k}
