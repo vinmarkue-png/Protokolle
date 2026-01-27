@@ -936,7 +936,19 @@ By rearranging \autoref{eq:hook} and inserting $\nu$ from \autoref{eq: tilde} th
     k = (2\pi \cdot \nu)^2 \cdot \mu = (2\pi \cdot \tilde{\nu} \cdot c)^2 \cdot \mu
     \label{eq: k}
 \end{equation}
-By inserting the calculated 
+By inserting the calculated reduced masses as well as the measured frequencies the force constants can be calculated.
+
+\begin{align*}
+    k_{\mathrm{C-Cl}} &= \left(2\pi \cdot \SI{703.86}{cm^{-1}} \cdot \SI{2.99 e10}{\frac{cm}{s}}\right)^2 \cdot \SI{8.97}{\frac{g}{mol}}\\
+    &= \SI{1.568 e29}{\frac{g}{mol \cdot s}}
+\end{align*}
+
+\begin{align*}
+    k_{\mathrm{C-Br}} &= \left(2\pi \cdot \SI{577.49}{cm^{-1}} \cdot \SI{2.99 e10}{\frac{cm}{s}}\right)^2 \cdot \SI{10.43}{\frac{g}{mol}}\\
+    &= \SI{1.228 e29}{\frac{g}{mol \cdot s}}
+\end{align*}
+
+The comparison of the two force constants show that the \ch{C-Cl} bond is stronger than the \ch{C-Br} bond. That was to be expected because the atomic radii of carbon and chlorine are closer to each other than those of carbon and bromine, which enables a stronger bond. But it is to be noted that the approximation of the bond as a spring connecting the two atoms has some limitations, because it doesn't take things like electron clouds between the atoms into account.
 
 % Mansha fragen ob gemessene oder simulierte Werte und ob Formel so passt 
 
@@ -945,14 +957,26 @@ By inserting the calculated
 
 % C-H & C-D Berechnungen - Elvis
 
+The comparison of the raman spectra of deuterated chloroform and chloroform showed that the absorption signals of chloroform are generally located at higher wavenumbers than the signals of deuterated chloroform. This is most noticable for the signals of the symmetric stretching mode which is located at 3015.32 cm$^{-1}$ for chloroform and at 2248.93 cm$^{-1}$ for deuterated chloroform. This can be explained by using a simplified version of Hooke's law from \autoref{eq:hook}, which is defined as: 
 
+\begin{equation*}
+    \nu = \sqrt{\frac{k}{\mu}}
+\end{equation*}
 
+It can be assumed, that the force constants of the \ch{C-H} and \ch{C-D} bonds is identical, which means the wavenumbers of the vibrations direcly correlate to the reduced masses. Those can be calculated by using \autoref{eq: mu}.
 
+\begin{equation*}
+    \mu_{\mathrm{C-H}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{1}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{1}{\frac{g}{mol}}} = \SI{0.923}{\frac{g}{mol}}
+\end{equation*}
+\begin{equation*}
+    \mu_{\mathrm{C-D}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{2}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{2}{\frac{g}{mol}}} = \SI{1.714}{\frac{g}{mol}}
+\end{equation*}
+The calculation shows, that the reduced mass of the \ch{C-D} bond is bigger than that of the \ch{C-H} bond. That shows that due to the antiproprtional relationship between the reduced mass and the frequency, the wavenumber of the \ch{C-H} vibration is bigger than that of the \ch{C-D} vibration.
 
 \section{Conclusion}
 In this experiment, the vibrational modes of various chloromethanes, dibromomethane and tetrachloroethylene were investigated using IR and Raman spectroscopy. 
 The measured IR spectra of dichloromethane, dibromomethane, chloroform and tetrachloroethylene were compared to simulated spectra obtained by calculations using the \texttt{ORCA} software. 
-The measured Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were also compared to simulated spectra.
+The measured Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were also compared to simulated spectra. Additionaly the force constants of the \ch{C-Cl} bond of dichloromethane was calculated as \SI{1.568 e29}{\frac{g}{mol \cdot s}} and compared to that of the \ch{C-Br} bond of dibromomethane, which was calculated as \SI{1.228 e29}{\frac{g}{mol \cdot s}}. Lastly the reduced masses of the \ch{C-H} bond in chloroform and the \ch{C-D} bond in deuterated chloroform were calculated and used to show the dependence of wavenumbers on the reduced masses.
 
 
 
