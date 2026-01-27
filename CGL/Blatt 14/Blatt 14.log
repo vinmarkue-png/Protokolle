@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  27 JAN 2026 10:43
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  27 JAN 2026 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 14/Blatt 14.tex"
-(c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/CGL/Blatt 14/Blatt 14.tex
+**"c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Blatt 14.tex"
+(c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Blatt 14.tex
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -1229,14 +1229,45 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
 (Font)              Font shape `T1/cmtt/m/n' tried instead on input line 72.
+<C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Komando.jpeg, id=8, 1606.0pt x 853.1875pt>
+File: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Komando.jpeg Graphic file (type jpg)
+<use C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Komando.jpeg>
+Package pdftex.def Info: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Komando.jpeg  used on input line 105.
+(pdftex.def)             Requested size: 436.7489pt x 232.01706pt.
 
 
 [1
 
 
 {c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
+<C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch_created.jpeg, id=48, 1606.0pt x 853.1875pt>
+File: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch_created.jpeg Graphic file (type jpg)
+<use C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch_created.jpeg>
+Package pdftex.def Info: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch_created.jpeg  used on input line 112.
+(pdftex.def)             Requested size: 436.7489pt x 232.01706pt.
+<C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Commit.jpeg, id=50, 1606.0pt x 853.1875pt>
+File: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Commit.jpeg Graphic file (type jpg)
+<use C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Commit.jpeg>
+Package pdftex.def Info: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Commit.jpeg  used on input line 119.
+(pdftex.def)             Requested size: 436.7489pt x 232.01706pt.
 
-[2] (./Blatt 14.aux)
+
+[2 <c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Komando.jpeg> <c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch_created.jpeg>]
+<C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch.jpeg, id=60, 1606.0pt x 853.1875pt>
+File: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch.jpeg Graphic file (type jpg)
+<use C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch.jpeg>
+Package pdftex.def Info: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch.jpeg  used on input line 126.
+(pdftex.def)             Requested size: 436.7489pt x 232.01706pt.
+<C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Pull.jpeg, id=62, 1606.0pt x 853.1875pt>
+File: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Pull.jpeg Graphic file (type jpg)
+<use C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Pull.jpeg>
+Package pdftex.def Info: C:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Pull.jpeg  used on input line 133.
+(pdftex.def)             Requested size: 436.7489pt x 232.01706pt.
+
+
+[3 <c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Commit.jpeg> <c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Branch.jpeg>]
+
+[4 <c:/Studium/5. Semester/AC II lab/Protokolle/CGL/Blatt 14/Bilder/Pull.jpeg>] (./Blatt 14.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1246,18 +1277,18 @@ Package logreq Info: Writing requests to '"Blatt 14".run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42231 strings out of 467748
- 863426 string characters out of 5431137
- 2015836 words of memory out of 5000000
- 70360 multiletter control sequences out of 15000+600000
+ 42287 strings out of 467748
+ 866642 string characters out of 5431137
+ 2016225 words of memory out of 5000000
+ 70409 multiletter control sequences out of 15000+600000
  637484 words of font info for 64 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 108i,7n,107p,11310b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on "Blatt 14.pdf" (2 pages, 111616 bytes).
+ 108i,7n,107p,11291b,2371s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1095.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx2074.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on "Blatt 14.pdf" (4 pages, 743922 bytes).
 PDF statistics:
- 92 PDF objects out of 1000 (max. 8388607)
- 75 compressed objects within 1 object stream
- 31 named destinations out of 1000 (max. 500000)
- 29 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 123 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
+ 38 named destinations out of 1000 (max. 500000)
+ 54 words of extra memory for PDF output out of 10000 (max. 10000000)
 
