@@ -127,7 +127,8 @@
 
 
 \textbf{Abstract:}
-
+In this experiment, the IR spectra of dichloromethane, dibromomethane, chloroform and tetrachloroethylene were measured, simulated by calculations using the \texttt{ORCA} software and compared with each other.
+The Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were measured with an ATR spectrometer and also compared to simulated spectra. Additionaly the force constants of the \ch{C-Cl} bond of dichloromethane was calculated as \SI{1.568 e29}{\frac{g}{mol \cdot s}} and compared to that of the \ch{C-Br} bond of dibromomethane, which was calculated as \SI{1.216 e29}{\frac{g}{mol \cdot s}}. Lastly the reduced masses of the \ch{C-H} bond in chloroform and the \ch{C-D} bond in deuterated chloroform were calculated and used to show the dependence of the reduced mass on the wavenumbers in the Raman spectra.
 \end{titlepage}
 
 
@@ -663,7 +664,7 @@ The simulated vibrational modes of deuterated chloroform are summarized in \auto
     \label{tab: CDCl3_sim}
     \end{tabular}
 \end{table}
-
+\newpage
 As \autoref{tab: CDCl3_sim} shows, the most intense IR-active modes are found at wavenumbers of 717.83 cm$^{-1}$ for the \ch{C-Cl} asymmetric stretching mode and 717.98 cm$^{-1}$ for the second \ch{C-Cl} asymmetric stretching mode. Both of them correspond to the simulateded signals of chloroform at 741.92 cm$^{-1}$ for the \ch{C-Cl} asymmetric stretching mode and at 742.13 cm$^{-1}$ for the second \ch{C-Cl} asymmetric stretching mode. That means that the asymmetric stretching of the \ch{C-Cl} bond is the most IR active type of vibration.
 
 \subsubsection{Raman}
@@ -845,7 +846,7 @@ The simulated vibrational modes of tetrachloroethylene are summarized in \autore
     \end{tabular}
 \end{table}
 As can be seen in \autoref{tab: C2Cl4_sim}, the most intense IR-active modes are found at wavenumbers of 774.46 cm$^{-1}$ and 895.52 cm$^{-1}$, which correspond well to the measured signals at 755.02 cm$^{-1}$ and 903.98 cm$^{-1}$ in \autoref{fig: C2Cl4_IR}. The signals at 755.02 cm$^{-1}$ and 799.91 cm$^{-1}$ can be assumed to occur due to isotopic effects, as chlorine has two stable isotopes, \ch{^{35}Cl} and \ch{^{37}Cl}, leading to small shifts in the vibrational frequencies. The two signals above 1100 cm$^{-1}$ may indicate overtones or combination bands, which are weaker in intensity compared to the fundamental normal modes.
-
+\newpage
 In comparison to the simulated IR spectrum of chloroform with the wavenumbers and vibrational modes in \autoref{tab: CHCl3}, tetrachloroethylene shows additional IR-active modes in the low wavenumber region below 500 cm$^{-1}$, which can be attributed to the increased number of atoms in the molecule leading to more vibrational modes.
 
 \subsubsection{Raman}
@@ -875,7 +876,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: C2Cl4_Ram}, six prim
     \end{tabular}
 \end{table}
 
-
+\newpage
 The simulated Raman-active vibrational modes of tetrachloroethylene are summarized in \autoref{tab: raman_C2Cl4_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
@@ -917,10 +918,9 @@ The increasing reduced mass $\mu$ leads to lower vibrational frequencies $\nu$ a
     \nu = \tilde{\nu} \cdot c
     \label{eq: tilde}
 \end{equation}
-Following that argumentation, the number of vibrational modes at around 3000 cm$^{-1}$, which can be assigned to the C-H stretching vibrations, decreases with increasing number of chlorine atoms in the molecule until no C-H stretching modes are present in tetrachloromethane due to the absence of hydrogen atoms in its structure. In return, new vibrational modes appear in the low wavenumber region below 1000 cm$^{-1}$, which can be assigned to the C-Cl stretching vibrations. 
+Following that argumentation, the number of vibrational modes at around 3000 cm$^{-1}$, which can be assigned to the C-H stretching vibrations, decreases with increasing number of chlorine atoms in the molecule until no C-H stretching modes are present in tetrachloromethane due to the absence of hydrogen atoms in its structure. In return, new vibrational modes appear in the low wavenumber region below 1000 cm$^{-1}$, which can be assigned to the C-Cl stretching vibrations. \\
 Another trend observable in \autoref{fig: raman_trends} is that methane and tetrachloromethane show more vibrational modes with nearly the same Raman shift compared to the other chloromethanes. This can be explained by the high symmetry of both molecules, which belong to the tetrahedral point group $T_d$. This trend is especially visible in the triply degenerate asymmetric stretching vibration of methane at 3150 cm$^{-1}$ and tetrachloromethane at 754 cm$^{-1}$. \\
-
-The Raman signal of the asymmetric C-H stretching vibration of dibromomethane at 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Br2} shows a higher Raman shift and Raman intensity than the corresponding signal of dichloromethane at 3051.13 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}. % CH2Br2: 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}
+The Raman signal of the asymmetric C-H stretching vibration of dibromomethane at 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Br2} shows a higher Raman shift and Raman intensity than the corresponding signal of dichloromethane at 3051.13 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}. \\ % CH2Br2: 3062.11 cm$^{-1}$ in \autoref{tab: raman_CH2Cl2}
 The higher Raman intensity can be explained by the higher polarizability of the electrons in bromine atoms compared to chlorine atoms, leading to a larger change in polarizability during the vibration and thus a stronger Raman signal.
 
 % C-Cl und C-Br Berechnungen
@@ -936,16 +936,15 @@ By rearranging \autoref{eq:hook} and inserting $\nu$ from \autoref{eq: tilde} th
     k = (2\pi \cdot \nu)^2 \cdot \mu = (2\pi \cdot \tilde{\nu} \cdot c)^2 \cdot \mu
     \label{eq: k}
 \end{equation}
-By inserting the calculated reduced masses as well as the measured frequencies the force constants can be calculated.
-
+By inserting the calculated reduced masses as well as the calculated wavenumber \SI{703.86}{cm^{-1}} of the symmetric stretching vibration from \autoref{tab: raman_CH2Cl2_sim} into \autoref{eq: k}, the force constant of the \ch{C-Cl} bond can be calculated.
 \begin{align*}
     k_{\mathrm{C-Cl}} &= \left(2\pi \cdot \SI{703.86}{cm^{-1}} \cdot \SI{2.99 e10}{\frac{cm}{s}}\right)^2 \cdot \SI{8.97}{\frac{g}{mol}}\\
     &= \SI{1.568 e29}{\frac{g}{mol \cdot s}}
 \end{align*}
-
+For the corresponding calculation of the \ch{C-Br} bond, the calculated wavenumber \SI{574.64}{cm^{-1}} of the symmetric stretching vibration from \autoref{tab: raman_CH2Br2_sim} is used.
 \begin{align*}
-    k_{\mathrm{C-Br}} &= \left(2\pi \cdot \SI{577.49}{cm^{-1}} \cdot \SI{2.99 e10}{\frac{cm}{s}}\right)^2 \cdot \SI{10.43}{\frac{g}{mol}}\\
-    &= \SI{1.228 e29}{\frac{g}{mol \cdot s}}
+    k_{\mathrm{C-Br}} &= \left(2\pi \cdot \SI{574.64}{cm^{-1}} \cdot \SI{2.99 e10}{\frac{cm}{s}}\right)^2 \cdot \SI{10.43}{\frac{g}{mol}}\\
+    &= \SI{1.216 e29}{\frac{g}{mol \cdot s}}
 \end{align*}
 
 The comparison of the two force constants show that the \ch{C-Cl} bond is stronger than the \ch{C-Br} bond. That was to be expected because the atomic radii of carbon and chlorine are closer to each other than those of carbon and bromine, which enables a stronger bond. But it is to be noted that the approximation of the bond as a spring connecting the two atoms has some limitations, because it doesn't take things like electron clouds between the atoms into account.
@@ -957,13 +956,14 @@ The comparison of the two force constants show that the \ch{C-Cl} bond is strong
 
 % C-H & C-D Berechnungen - Elvis
 
-The comparison of the raman spectra of deuterated chloroform and chloroform showed that the absorption signals of chloroform are generally located at higher wavenumbers than the signals of deuterated chloroform. This is most noticable for the signals of the symmetric stretching mode which is located at 3015.32 cm$^{-1}$ for chloroform and at 2248.93 cm$^{-1}$ for deuterated chloroform. This can be explained by using a simplified version of Hooke's law from \autoref{eq:hook}, which is defined as: 
+The comparison of the raman spectra of deuterated chloroform and chloroform showed that the absorption signals of chloroform are generally located at higher wavenumbers than the signals of deuterated chloroform. This is most noticable for the Raman shifts of the symmetric stretching mode, which is located at 3015.32 cm$^{-1}$ for chloroform and at 2248.93 cm$^{-1}$ for deuterated chloroform. This can be explained by using a simplified version of Hooke's law from \autoref{eq:hook}, which is defined by \autoref{eq:nu}. 
 
 \begin{equation*}
     \nu = \sqrt{\frac{k}{\mu}}
+    \label{eq:nu}
 \end{equation*}
 
-It can be assumed, that the force constants of the \ch{C-H} and \ch{C-D} bonds is identical, which means the wavenumbers of the vibrations direcly correlate to the reduced masses. Those can be calculated by using \autoref{eq: mu}.
+It can be assumed, that the force constants of the \ch{C-H} and \ch{C-D} bonds are identical, which means the wavenumbers of the vibrations direcly correlate to the reduced masses. Those can be calculated by using \autoref{eq:mu}.
 
 \begin{equation*}
     \mu_{\mathrm{C-H}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{1}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{1}{\frac{g}{mol}}} = \SI{0.923}{\frac{g}{mol}}
@@ -971,14 +971,14 @@ It can be assumed, that the force constants of the \ch{C-H} and \ch{C-D} bonds i
 \begin{equation*}
     \mu_{\mathrm{C-D}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{2}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{2}{\frac{g}{mol}}} = \SI{1.714}{\frac{g}{mol}}
 \end{equation*}
-The calculation shows, that the reduced mass of the \ch{C-D} bond is bigger than that of the \ch{C-H} bond. That shows that due to the antiproprtional relationship between the reduced mass and the frequency, the wavenumber of the \ch{C-H} vibration is bigger than that of the \ch{C-D} vibration.
+The calculation shows, that the reduced mass of the \ch{C-D} bond is bigger than that of the \ch{C-H} bond. That shows that due to the antiproportional relationship between the reduced mass and the frequency, the wavenumber of the \ch{C-H} vibration is bigger than that of the \ch{C-D} vibration, confirming the higher Raman shift of the symmetric stretching mode of chloroform compared to deuterated chloroform.
 
 \section{Conclusion}
 In this experiment, the vibrational modes of various chloromethanes, dibromomethane and tetrachloroethylene were investigated using IR and Raman spectroscopy. 
 The measured IR spectra of dichloromethane, dibromomethane, chloroform and tetrachloroethylene were compared to simulated spectra obtained by calculations using the \texttt{ORCA} software. 
-The measured Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were also compared to simulated spectra. Additionaly the force constants of the \ch{C-Cl} bond of dichloromethane was calculated as \SI{1.568 e29}{\frac{g}{mol \cdot s}} and compared to that of the \ch{C-Br} bond of dibromomethane, which was calculated as \SI{1.228 e29}{\frac{g}{mol \cdot s}}. Lastly the reduced masses of the \ch{C-H} bond in chloroform and the \ch{C-D} bond in deuterated chloroform were calculated and used to show the dependence of wavenumbers on the reduced masses.
+The measured Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were also compared to simulated spectra. Additionaly the force constants of the \ch{C-Cl} bond of dichloromethane was calculated as \SI{1.568 e29}{\frac{g}{mol \cdot s}} and compared to that of the \ch{C-Br} bond of dibromomethane, which was calculated as \SI{1.216 e29}{\frac{g}{mol \cdot s}}. Lastly the reduced masses of the \ch{C-H} bond in chloroform and the \ch{C-D} bond in deuterated chloroform were calculated and used to show the dependence of the reduced mass on the wavenumbers in the Raman spectra.
 
-
+\newpage
 
 \printbibliography[title={References}]
 
