@@ -4,8 +4,8 @@
 \contentsline {subsubsection}{\numberline {1.1.1}Diatomic molecules}{1}{subsubsection.1.1.1}%
 \contentsline {subsubsection}{\numberline {1.1.2}Polyatomic molecules}{1}{subsubsection.1.1.2}%
 \contentsline {subsection}{\numberline {1.2}The FTIR Spectrometer}{2}{subsection.1.2}%
-\contentsline {subsection}{\numberline {1.3}Raman-Spectroscopy}{2}{subsection.1.3}%
-\contentsline {subsubsection}{\numberline {1.3.1}Fundamental principle of Raman scattering}{2}{subsubsection.1.3.1}%
+\contentsline {subsection}{\numberline {1.3}Raman-Spectroscopy}{3}{subsection.1.3}%
+\contentsline {subsubsection}{\numberline {1.3.1}Fundamental principle of Raman scattering}{3}{subsubsection.1.3.1}%
 \contentsline {subsubsection}{\numberline {1.3.2}The Raman spectrometer}{3}{subsubsection.1.3.2}%
 \contentsline {subsection}{\numberline {1.4}DFT-Calculations}{4}{subsection.1.4}%
 \contentsline {section}{\numberline {2}Procedure}{4}{section.2}%
@@ -31,10 +31,10 @@
 \contentsline {subsection}{\numberline {3.7}Tetrachloromethane}{19}{subsection.3.7}%
 \contentsline {subsubsection}{\numberline {3.7.1}IR}{19}{subsubsection.3.7.1}%
 \contentsline {subsubsection}{\numberline {3.7.2}Raman}{20}{subsubsection.3.7.2}%
-\contentsline {subsection}{\numberline {3.8}Tetrachloroethylene}{21}{subsection.3.8}%
-\contentsline {subsubsection}{\numberline {3.8.1}IR}{21}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}Raman}{24}{subsubsection.3.8.2}%
-\contentsline {section}{\numberline {4}Discussion and Calculations}{25}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{28}{section.5}%
+\contentsline {subsection}{\numberline {3.8}Tetrachloroethylene}{22}{subsection.3.8}%
+\contentsline {subsubsection}{\numberline {3.8.1}IR}{22}{subsubsection.3.8.1}%
+\contentsline {subsubsection}{\numberline {3.8.2}Raman}{23}{subsubsection.3.8.2}%
+\contentsline {section}{\numberline {4}Discussion and Calculations}{26}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{29}{section.5}%
 \contentsline {section}{\numberline {6}References}{29}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
