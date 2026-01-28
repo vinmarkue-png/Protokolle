@@ -151,12 +151,12 @@ When a dipolar molecule is exposed to an electromagnetic field  the partially po
     3N - 5
     \label{eq:N1}
 \end{equation}
-For non-linear molecules the number of vibrational modes is defined as described in \autoref{eq:N2}
+For non-linear molecules the number of vibrational modes is defined as described in \autoref{eq:N2}.
 \begin{equation}
-3N -  6
+3N -  6,
 \label{eq:N2}
 \end{equation}
-Where $N$ is in either case the number of atoms.
+where $N$ is in either case the number of atoms.
 
 \subsubsection{Diatomic molecules}
 
@@ -174,7 +174,7 @@ The force constant of the chemical bond is defined as $k$ in \autoref{eq:hook}, 
 \subsubsection{Polyatomic molecules}
 
 In polyatomic molecules, multiple vibrational modes, depending on the geometry and the number of atoms, are possible. 
-As described in chapter 1.1.2 stretching vibrations represent a change in interatomic distance along the bond axis.
+As described in chapter 1.1.1 stretching vibrations represent a change in interatomic distance along the bond axis.
 Those stretching vibrations can occur symmetrically or asymmetrically. The other category of vibrational modes is called deformation vibrations. During a deformation vibration, the angles of the bonds change, whereas the bond lengths don't change significantly. The four modes of deformation vibrations are Scissoring, where two atoms move toward or away from each other like scissor blades; Wagging, where the atoms move out and back into the plane; Rocking, where the atoms swing back and forth within the same plane; and finally, Twisting, where the atoms rotate around the bond axis.
 
 \subsection{The FTIR Spectrometer}
@@ -212,7 +212,7 @@ Elastic and inelastic scattering can occur due to this process. During an elasti
 
 \subsubsection{The Raman spectrometer}
 
-In a Raman spectrometer, a laser serves as the monochromatic light source directed onto the sample, where the majority of photons undergo elastic Rayleigh scattering, while only a minute fraction is scattered inelastically. To isolate the Raman signal, the scattered light is directed through a diffraction grating that separates the different wavelengths before the intensity is captured by a detector. The resulting spectrum displays various Raman shifts, which represent the energy difference between the incident and scattered light. The schematic structure of the Raman-spectrometer used is displayed in \autoref{fig:raman2}.\supercite{Skript}
+In a Raman spectrometer, a laser serves as the monochromatic light source directed onto the sample, where the majority of photons undergo elastic Rayleigh scattering, while only a minute fraction is scattered inelastically. To isolate the Raman signal, the scattered light is directed through a diffraction grating that separates the different wavelengths before the intensity is captured by a detector. The resulting spectrum displays various Raman shifts, which represent the energy difference between the incident and scattered light. Additionally a notch filter is used to suppress the strong signal of the Rayleigh scattering. The schematic structure of the Raman-spectrometer used is displayed in \autoref{fig:raman2}.\supercite{Skript}
 
 \begin{figure}[H]
     \centering
@@ -229,7 +229,7 @@ To identify the various peaks in IR and Raman spectra, the theoretical values of
 
 \section{Procedure}
 To simulate and calculate the vibrational normal modes, the program \texttt{Avogadro2} was used. The structures of the molecules methane, chloromethane, dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were built, their geometry was optimized and the optimized coordinates were used to calculate the vibrational modes with the \texttt{ORCA} software, resulting in a list of IR and Raman frequencies and intensities for each molecule. \\
-In the experimental part, the Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were measured and analysized with the \texttt{WPenlighten} software. The IR spectra of dichloro-\\methane, dibromomethane, chloroform and tetrachloroethylene were measured using an ATR spectrometer and analysized with the \texttt{Opus} software.
+In the experimental part, the Raman spectra of dichloromethane, dibromomethane, chloroform, deuterated chloroform, tetrachloromethane and tetrachloroethylene were measured and analysized with the \texttt{WP~enlighten} software. The IR spectra of dichloro-\\methane, dibromomethane, chloroform and tetrachloroethylene were measured using an ATR spectrometer and analysized with the \texttt{Opus} software.
 
 
 \section{Results and Analysis}
@@ -289,7 +289,7 @@ In contrast to the IR spectrum, both the symmetric bending and stretching modes 
 The simulated vibrational modes of methane are summarized in \autoref{tab: CH3Cl_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CH3Cl}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{CH3Cl}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / km mol$^{-1}$ & vibration type \\
     \hline
@@ -312,7 +312,7 @@ The table shows that all types of vibrations are IR active but the \ch{C-Cl} str
 The simulated Raman-active vibrational modes of methane are summarized in \autoref{tab: raman_CH3Cl_sim} with the corresponding wavenumber, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated Raman shifts and intensities of the vibrational modes of \ch{CH3Cl}.}
+    \caption{Listed are the simulated Raman shifts, intensities intensities and vibration types of the vibrational modes of \ch{CH3Cl}.}
     \begin{tabular}{c|c|c|c}
     Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
@@ -393,7 +393,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CH2Cl2_Ram}, five pr
  
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CH2Cl2}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{CH2Cl2}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & intensity / a.u. & Vibration type \\
     \hline
@@ -408,7 +408,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CH2Cl2_Ram}, five pr
 The simulated Raman-active vibrational modes of dichloromethane are summarized in \autoref{tab: raman_CH2Cl2_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated Raman shifts and intensities of the vibrational modes of \ch{CH2Cl2}.}
+    \caption{Listed are the simulated Raman shifts, intensities and vibration types of the vibrational modes of \ch{CH2Cl2}.}
     \begin{tabular}{c|c|c|c}
     Mode & Raman Shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & Vibration type \\
     \hline
@@ -444,7 +444,7 @@ By visual inspection of the IR spectrum in \autoref{fig: CH2Br2_IR}, six absorpt
 % --- LaTeX Tabelle für CH2Br2 ---
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured wavenumbers and intensities of the IR signals of \ch{CH2Br2}.}
+    \caption{Listed are the measured wavenumbers, intensities and vibration types of the IR signals of \ch{CH2Br2}.}
     \begin{tabular}{c|c|c|c}
     Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -464,7 +464,7 @@ The simulated vibrational modes of dibromomethane are summarized in \autoref{tab
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CH2Br2}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{CH2Br2}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type \\
     \hline
@@ -496,7 +496,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CH2Br2_Ram}, seven p
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CH2Br2}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{CH2Br2}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -514,7 +514,7 @@ The simulated Raman-active vibrational modes of dibromomethane are summarized in
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and raman intensities of the vibrational modes of \ch{CH2Br2}.}
+    \caption{Listed are the simulated wavenumbers, Raman intensities and vibration types of the vibrational modes of \ch{CH2Br2}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
@@ -550,7 +550,7 @@ By visual inspection of the IR spectrum in \autoref{fig: CHCl3_IR}, three absorp
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured wavenumbers and intensities of the IR signals of \ch{CHCl3}.}
+    \caption{Listed are the measured wavenumbers, intensities and vibration types of the IR signals of \ch{CHCl3}.}
     \begin{tabular}{c|c|c|c}
     Signal & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -569,7 +569,7 @@ The simulated vibrational modes of chloroform are summarized in \autoref{tab: CH
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CHCl3}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{CHCl3}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type \\
     \hline
@@ -603,7 +603,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CHCl3_Ram}, six prim
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CHCl3}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{CHCl3}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -621,9 +621,9 @@ The simulated Raman-active vibrational modes of tetrachloroethylene are summariz
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and Raman intensities of the vibrational modes of \ch{CHCl3}.}
+    \caption{Listed are the simulated Raman shifts, Raman intensities and vibration types of the vibrational modes of \ch{CHCl3}.}
     \begin{tabular}{c|c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
+    Mode & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
     1 & 254.60 & 5.14 & \ch{C-Cl} scissoring\\
     2 & 255.07 & 5.13 & \ch{C-Cl} scissoring\\
@@ -648,7 +648,7 @@ The simulated vibrational modes of deuterated chloroform are summarized in \auto
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CDCl3}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{CDCl3}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type\\
     \hline
@@ -681,7 +681,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CDCl3_Ram}, six prim
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CDCl3}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{CDCl3}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -699,9 +699,9 @@ The simulated Raman-active vibrational modes of deuterated chloroform are summar
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and Raman intensities of the vibrational modes of \ch{CDCl3}.}
+    \caption{Listed are the simulated Raman shifts, Raman intensities and vibration types of the vibrational modes of \ch{CDCl3}.}
     \begin{tabular}{c|c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
+    Mode & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type \\
     \hline
     1 & 253.69 & 0.06 & \ch{C-Cl} scissoring\\
     2 & 253.88 & 0.06 & \ch{C-Cl} scissoring\\
@@ -723,7 +723,7 @@ As \autoref{tab: raman_CDCl3_sim} shows, the most intense Raman-active modes are
 The simulated vibrational modes of tetrachloromethane are summarized in \autoref{tab: CCl4_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{CCl4}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{CCl4}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & vibration type\\
     \hline
@@ -757,7 +757,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: CCl4_Ram}, four prim
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{CCl4}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{CCl4}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & vibration type\\
     \hline
@@ -773,9 +773,9 @@ The simulated Raman-active vibrational modes of tetrachloromethane are summarize
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and Raman intensities of the vibrational modes of \ch{CCl4}.}
+    \caption{Listed are the simulated Raman shifts, Raman intensities and vibration types of the vibrational modes of \ch{CCl4}.}
     \begin{tabular}{c|c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type\\
+    Mode & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & vibration type\\
     \hline
     1 & 212.71 & 4.18 & scissoring\\
     2 & 212.91 & 4.17 & scissoring\\
@@ -826,7 +826,7 @@ By visual inspection of the IR spectrum in \autoref{fig: C2Cl4_IR}, six absorpti
 The simulated vibrational modes of tetrachloroethylene are summarized in \autoref{tab: C2Cl4_sim} with the corresponding wavenumber, intensity and vibration type of each mode. 
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and intensities of the vibrational modes of \ch{C2Cl4}.}
+    \caption{Listed are the simulated wavenumbers, intensities and vibration types of the vibrational modes of \ch{C2Cl4}.}
     \begin{tabular}{c|c|c|c}
     Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Intensity / KM$\cdot\mathrm{mol^{-1}}$ & Vibration type \\
     \hline
@@ -863,7 +863,7 @@ By visual inspection of the Raman spectrum in \autoref{fig: C2Cl4_Ram}, six prim
 
 \begin{table}[H]
     \centering
-    \caption{Listed are the measured Raman shifts and intensities of the signals of \ch{C2Cl4}.}
+    \caption{Listed are the measured Raman shifts, intensities and vibration types of the signals of \ch{C2Cl4}.}
     \begin{tabular}{c|c|c|c}
     Signal & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Intensity / a.u. & Vibration type \\
     \hline
@@ -880,9 +880,9 @@ By visual inspection of the Raman spectrum in \autoref{fig: C2Cl4_Ram}, six prim
 The simulated Raman-active vibrational modes of tetrachloroethylene are summarized in \autoref{tab: raman_C2Cl4_sim} with the corresponding Raman shift, Raman intensity and vibration type of each mode.
 \begin{table}[H]
     \centering
-    \caption{Listed are the simulated wavenumbers and Raman intensities of the vibrational modes of \ch{C2Cl4}.}
+    \caption{Listed are the simulated Raman shifts, Raman intensities and vibration types of the vibrational modes of \ch{C2Cl4}.}
     \begin{tabular}{c|c|c|c}
-    Mode & Wavenumber $\tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & Vibration type \\
+    Mode & Raman shift $\Delta \tilde{\nu}$ / cm$^{-1}$ & Raman intensity / \AA$^4$ amu$^{-1}$ & Vibration type \\
     \hline
     1 & 97.98 & 0.00 & twisting \\
     2 & 174.79 & 0.00 & scissoring\\

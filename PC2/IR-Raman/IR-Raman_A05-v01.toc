@@ -22,8 +22,8 @@
 \contentsline {subsection}{\numberline {3.4}Dibromomethane}{10}{subsection.3.4}%
 \contentsline {subsubsection}{\numberline {3.4.1}IR}{10}{subsubsection.3.4.1}%
 \contentsline {subsubsection}{\numberline {3.4.2}Raman}{12}{subsubsection.3.4.2}%
-\contentsline {subsection}{\numberline {3.5}Chloroform}{13}{subsection.3.5}%
-\contentsline {subsubsection}{\numberline {3.5.1}IR}{13}{subsubsection.3.5.1}%
+\contentsline {subsection}{\numberline {3.5}Chloroform}{14}{subsection.3.5}%
+\contentsline {subsubsection}{\numberline {3.5.1}IR}{14}{subsubsection.3.5.1}%
 \contentsline {subsubsection}{\numberline {3.5.2}Raman}{15}{subsubsection.3.5.2}%
 \contentsline {subsection}{\numberline {3.6}Deuterated Chloroform}{17}{subsection.3.6}%
 \contentsline {subsubsection}{\numberline {3.6.1}IR}{17}{subsubsection.3.6.1}%
@@ -33,8 +33,8 @@
 \contentsline {subsubsection}{\numberline {3.7.2}Raman}{20}{subsubsection.3.7.2}%
 \contentsline {subsection}{\numberline {3.8}Tetrachloroethylene}{21}{subsection.3.8}%
 \contentsline {subsubsection}{\numberline {3.8.1}IR}{21}{subsubsection.3.8.1}%
-\contentsline {subsubsection}{\numberline {3.8.2}Raman}{23}{subsubsection.3.8.2}%
-\contentsline {section}{\numberline {4}Discussion and Calculations}{24}{section.4}%
-\contentsline {section}{\numberline {5}Conclusion}{27}{section.5}%
-\contentsline {section}{\numberline {6}References}{28}{section.6}%
+\contentsline {subsubsection}{\numberline {3.8.2}Raman}{24}{subsubsection.3.8.2}%
+\contentsline {section}{\numberline {4}Discussion and Calculations}{25}{section.4}%
+\contentsline {section}{\numberline {5}Conclusion}{28}{section.5}%
+\contentsline {section}{\numberline {6}References}{29}{section.6}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 
