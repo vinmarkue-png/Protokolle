@@ -971,7 +971,16 @@ It can be assumed, that the force constants of the \ch{C-H} and \ch{C-D} bonds a
 \begin{equation*}
     \mu_{\mathrm{C-D}} = \frac{\SI{12}{\frac{g}{mol}} \cdot \SI{2}{\frac{g}{mol}}}{\SI{12}{\frac{g}{mol}} + \SI{2}{\frac{g}{mol}}} = \SI{1.714}{\frac{g}{mol}}
 \end{equation*}
-The calculation shows, that the reduced mass of the \ch{C-D} bond is bigger than that of the \ch{C-H} bond. That shows that due to the antiproportional relationship between the reduced mass and the frequency, the wavenumber of the \ch{C-H} vibration is bigger than that of the \ch{C-D} vibration, confirming the higher Raman shift of the symmetric stretching mode of chloroform compared to deuterated chloroform.
+The calculation shows, that the reduced mass of the \ch{C-D} bond is bigger than that of the \ch{C-H} bond. That shows that due to the antiproportional relationship between the reduced mass and the frequency, the wavenumber of the \ch{C-H} vibration is bigger than that of the \ch{C-D} vibration, confirming the higher Raman shift of the symmetric stretching mode of chloroform compared to deuterated chloroform. This can be quantitatively proven by calculating the ratio of the frequencies of both vibrations using \autoref{eq:nu}.
+\begin{equation*}
+    \frac{\nu_{\mathrm{C-H}}}{\nu_{\mathrm{C-D}}} = \frac{\sqrt{k}}{\sqrt{\mu_{\mathrm{C-H}}}} \cdot \frac{\sqrt{\mu_{\mathrm{C-D}}}}{\sqrt{k}} = 
+    \sqrt{\frac{\mu_{\mathrm{C-D}}}{\mu_{\mathrm{C-H}}}} = \sqrt{\frac{\SI{1.714}{\frac{g}{mol}}}{\SI{0.923}{\frac{g}{mol}}}} = 1.363
+\end{equation*}
+By calculating the ratio of the measured wavenumbers of the symmetric stretching modes of chloroform and deuterated chloroform, the theoretical value can be confirmed, because the wavenumber is proportional to the frequency according to \autoref{eq: tilde}.
+\begin{equation*}
+    \frac{\tilde{\nu}_{\mathrm{C-H}}}{\tilde{\nu}_{\mathrm{C-D}}} = \frac{\SI{3015.32}{cm^{-1}}}{\SI{2248.93}{cm^{-1}}} = 1.341 
+\end{equation*}
+The ratio of the measured wavenumbers of 1.341 only shows a small deviation from the theoretical value of 1.363, confirming the dependence of the reduced mass on the wavenumbers of the \ch{C-H}  and \ch{C-D} stretching vibrations in the Raman spectra.
 
 \section{Conclusion}
 In this experiment, the vibrational modes of various chloromethanes, dibromomethane and tetrachloroethylene were investigated using IR and Raman spectroscopy. 

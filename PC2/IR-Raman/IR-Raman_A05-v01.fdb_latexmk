@@ -1,18 +1,18 @@
 # Fdb version 4
-["biber IR-Raman_A05-v01"] 1769521582.09551 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769533710.48242 0
-  "IR-Raman_A05-v01.bcf" 1769533710 108795 95ec487ec1b503163fc839852197a227 "pdflatex"
+["biber IR-Raman_A05-v01"] 1769521582.09551 "IR-Raman_A05-v01.bcf" "IR-Raman_A05-v01.bbl" "IR-Raman_A05-v01" 1769584929.03359 0
+  "IR-Raman_A05-v01.bcf" 1769584928 108795 95ec487ec1b503163fc839852197a227 "pdflatex"
   "lit.bib" 1769068194 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "IR-Raman_A05-v01.bbl"
   "IR-Raman_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769533704.16542 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769533710.48358 0
+["pdflatex"] 1769584922.90358 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" "IR-Raman_A05-v01.pdf" "IR-Raman_A05-v01" 1769584929.03496 0
   "IR-Aufbau.png" 1769505252 8973 7b8094aea5eca4771995ff286880bd4e ""
-  "IR-Raman_A05-v01.aux" 1769533709 28311 8a5c9936295a324c210427fd88709349 "pdflatex"
+  "IR-Raman_A05-v01.aux" 1769584928 28311 986120bf8141f0ed063fe1bf03325f69 "pdflatex"
   "IR-Raman_A05-v01.bbl" 1769507809 1591 41e842fa6159ee6d2617c5f8da122169 "biber IR-Raman_A05-v01"
-  "IR-Raman_A05-v01.run.xml" 1769533710 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
-  "IR-Raman_A05-v01.tex" 1769533702 56286 2d88f306a2c55f2a3d061ec0b3fbd25c ""
-  "IR-Raman_A05-v01.toc" 1769533710 3187 c6bec95cca708967ce8e558ef3dbf8c0 "pdflatex"
+  "IR-Raman_A05-v01.run.xml" 1769584928 2491 b2669155e1fa04c21df7a055d409ea46 "pdflatex"
+  "IR-Raman_A05-v01.tex" 1769584921 57403 291a3792012cde285ad015b79ce8a809 ""
+  "IR-Raman_A05-v01.toc" 1769584928 3187 c6bec95cca708967ce8e558ef3dbf8c0 "pdflatex"
   "IR/C2Cl4_spectrum.pdf" 1769074317 18633 6f65c62ee30c7f1c3161057c2f246e3d ""
   "IR/CH2Br2_spectrum.pdf" 1769074317 18466 026ae37d88115013a5a646d5497c242e ""
   "IR/CH2Cl2_spectrum.pdf" 1769074317 18167 9beb7a76047ffaba08139d1ca621de0d ""
@@ -24,7 +24,7 @@
   "Raman/CH2Cl2_raman_spectrum.pdf" 1769172240 26389 45228c11664d3b4f4916a15229c8e382 ""
   "Raman/CHCl3_raman_spectrum.pdf" 1769172240 26505 19ca16c47b67b03a58091738207d0411 ""
   "Sim/raman_trends.pdf" 1769252420 20169 1c1ae227abc88a66bca98cdb81b40d64 ""
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769533702 56286 2d88f306a2c55f2a3d061ec0b3fbd25c ""
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/IR-Raman/IR-Raman_A05-v01.tex" 1769584921 57403 291a3792012cde285ad015b79ce8a809 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
