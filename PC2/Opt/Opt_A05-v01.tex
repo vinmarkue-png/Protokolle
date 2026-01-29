@@ -95,7 +95,7 @@
 \begin{titlepage}
 
 \begin{center}
-\Huge{\textbf{\VERSUCHSNR\ - \VERSUCHSNAME}}\\
+\Huge{\textbf{\VERSUCHSNAME}}\\
 \vspace{10mm}% Abstand
 \Large{Protocol for the PC 2 lab course by \\ \textbf{\VerfasserEINS\;\& \VerfasserZWEI\;\& \VerfasserDREI}}\\
 \vspace{10mm} 
@@ -143,11 +143,35 @@ In this experiment,
 
 \section{Theory}
 
+
+
+
+
+
+
+
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.85\textwidth]{setup.png}
+    \caption{Scheme of the .\supercite{Skript}} 
+    \label{fig: setup}
+\end{figure}
+
+
 \supercite{Skript}
 
 
+\begin{equation}
+	\alpha = ... + \Delta \alpha
+\label{eq: alpha2}
+\end{equation}
 
 \section{Procedure}
+The DIY spectrometer was already built prior to the start of the experiment as shown in \autoref{fig: setup} and was set up so that the zeroth diffraction order was centered on the exit slit. First, the reference spectrum of the lamp was recorded with the Python script \texttt{Spektrometersoftware.py}, using a step count of 6000 and a stepping speed of 1000 steps per second.
+Then the bandpass filter was inserted between the entrance slit and the concave mirror and the spectrum of the filtered light was recorded. For calibration, the transmission spectrum was compared to theoretical transmission data using the Python script \texttt{calibration.py} and the parameters scale, $f$ and $\Delta \alpha$ were adjusted according to \autoref{eq: alpha2} to fit the measured spectrum to the theoretical spectrum. For all subsequent measurements, the calibration parameters scale $= 1.0$, $f = 0.925$ and $\Delta \alpha = 0.59$ were used. \\
+Next, a cuvette was filled with distilled water and placed between exit slit and concave mirror. The spectrum was recorded and used as a reference for the potassium permanganate and chlorophyll solutions. After replacing the water cuvette with a cuvette filled with concentrated and then diluted potassium permanganate solution, their spectrum were recorded separately.
+In the next part, a single drop of chlorophyll solution was added to the water cuvette and the spectrum was recorded. Then, another drop was added and the spectrum recorded again. This was repeated until a total of five drops were added to the cuvette.
+In the last part of the experiment, both slits were closed first, then the entrance slit was opened by half a turn and the exit slit by 6 turns. Then the background spectra of pure nitric acid and the solution of holmium oxide in nitric acid were recorded separately. This was repeated with the exit slit opened by 3 turns and one and a half turn, respectively. 
 
 
 
