@@ -160,6 +160,10 @@ In this experiment,
 
 \supercite{Skript}
 
+\begin{equation}
+	R = \frac{\lambda}{\Delta \lambda} = k \cdot N
+	\label{eq: R}
+\end{equation}
 
 \begin{equation}
 	\alpha = ... + \Delta \alpha
@@ -189,23 +193,41 @@ In the last part of the experiment, both slits were closed first, then the entra
 
 
 
-\subsection{Holmium oxide spectra}
 
+\newpage
+\subsection{Holmium oxide spectra}
+The absorption spectra of Holmium oxide in nitric acid for different exit slit widths are generated from the measured transmission spectra analog to the spectra of \ch{KMnO4} und Chlorophyll and are plotted together in \autoref{fig: Holm}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Holm/Holm_spektrum.pdf}
-    \caption{Absorption spectrum of Holmium oxide in nitric acid for different exit slit widths.} 
+    \caption{Absorption spectrum of Holmium oxide in nitric acid for different exit slit widths between 400 and 800 nm.} 
     \label{fig: Holm}
 \end{figure}
+All three spectra show three distinct absorption peaks around 460 nm, 545 nm and 650 nm. With decreasing slit width, the absorption peaks become narrower and more pronounced. 
+The absorption spectrum of Holmium oxide with an exit slit of 1.5 turns shows additional oscillations, which can be attributed to noise due to the lower light intensity reaching the detector at this slit width. \\
+To analyze the absorption peaks further, a four-fold Lorentzian model is fitted to each of the three spectra. The fitted curves are shown together with the measured spectra in \autoref{fig: lorentz_6}, \autoref{fig: lorentz_3} and \autoref{fig: lorentz_1.5}.
 
-
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Holm/lorentz_6.pdf}
+    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 6 turns between 400 and 700 nm.} 
+    \label{fig: lorentz_6}
+\end{figure}
 
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=1.0\textwidth]{Holm/lorentz_6.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 6 turns.} 
-    \label{fig: lorentz_6}
+    \includegraphics[width=0.8\textwidth]{Holm/lorentz_3.pdf}
+    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 3 turns between 400 and 700 nm.} 
+    \label{fig: lorentz_3}
+\end{figure}
+
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Holm/lorentz_1.5.pdf}
+    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 1.5 turns between 400 and 700 nm.} 
+    \label{fig: lorentz_1.5}
 \end{figure}
 
 % % 6 turns:
@@ -229,8 +251,6 @@ In the last part of the experiment, both slits were closed first, then the entra
 %     amp3:   0.54989441 +/- 0.04850025 (8.82%) (init = 1)
 %     gam3:   12.2692980 +/- 1.29884269 (10.59%) (init = 10)
 % % 1.5 turns:
-% off:    0.03754008 +/- 0.00353159 (9.41%) (init = -0.01)
-%     slope: -6.4539e-05 +/- 6.4640e-06 (10.02%) (init = 0)
 %     pos1:   459.797356 +/- 0.45040935 (0.10%) (init = 461)
 %     amp1:   0.31189578 +/- 0.05468159 (17.53%) (init = 1)
 %     gam1:   5.94686605 +/- 1.38356683 (23.27%) (init = 10)
@@ -240,21 +260,76 @@ In the last part of the experiment, both slits were closed first, then the entra
 %     pos3:   651.638623 +/- 0.66444947 (0.10%) (init = 650)
 %     amp3:   0.51584446 +/- 0.08421779 (16.33%) (init = 1)
 %     gam3:   10.8758799 +/- 2.17152483 (19.97%) (init = 10)
+The extracted fit parameters, namely the position, half width at half maximum (HWHM, gam) and the peak amplitude of the three main absorption peaks for 6 turns in \autoref{fig: lorentz_6} are summarized in \autoref{tab: 6}.
+\begin{table}[H]
+	\centering
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 6 turns.}
+	\begin{tabular}{c|c|c}
+		pos / nm & gam / nm & amp / a.u. \\
+		\hline
+		460.45 & 8.12 & 0.39 \\
+		547.54 & 9.67 & 0.49 \\
+		651.81 & 11.40 & ~0.46
+		\label{tab: 6}
+	\end{tabular}
+\end{table}
+The corresponding fit parameters for the fits in \autoref{fig: lorentz_3} and \autoref{fig: lorentz_1.5} are summarized in \autoref{tab: 3} and \autoref{tab: 1.5}.
+\begin{table}[H]
+	\centering
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 3 turns.}
+	\begin{tabular}{c|c|c}
+		pos / nm & gam / nm & amp / a.u. \\
+		\hline
+		460.45 & 4.79 & 0.25 \\
+		547.54 & 6.82 & 0.43 \\
+		651.81 & 12.27 & ~0.55
+		\label{tab: 3}
+	\end{tabular}
+\end{table}
+\begin{table}[H]
+	\centering
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 1.5 turns.}
+	\begin{tabular}{c|c|c}
+		pos / nm & gam / nm & amp / a.u. \\
+		\hline
+		460.45 & 5.95 & 0.31 \\
+		547.54 & 5.92 & 0.41 \\
+		651.81 & 10.88 & ~0.52
+		\label{tab: 1.5}
+	\end{tabular}
+\end{table}
+What can be observed from the fit parameters is that with decreasing slit width, the HWHM of the two absorption peaks at 460.5 nm and 547.5 nm decreases, indicating a higher resolution of the spectrometer at smaller slit widths. 
+However, the peak amplitudes do not show a clear trend with changing slit width. Only the peak amplitude of the absorption peak at 547.5 nm decreases with decreasing slit width, matching the expectation that less light reaches the detector at smaller slit widths. The peak amplitude of the absorption peak at 460.5 nm first decreases from 6 turns to 3 turns, but then increases again for 1.5 turns and for the peak at 651.8 nm, the peak amplitude first increases from 6 turns to 3 turns and then decreases again for 1.5 turns. A possible explanation for this is the manual adjustments of the slit widths, which can lead to slight misalignments of the spectrometer and thus affect the measured intensities. \\
+The line width is characterized by the full width at half maximum (FWHM) of the fitted Lorentzian peaks, which is 2 times the HWHM, expressed in the fit parameter 'gamma' and can be calculated for every absorption peak and slit width from \autoref{tab: 6}, \autoref{tab: 3} and \autoref{tab: 1.5} using the equation:
+\begin{equation}
+	\mathrm{FWHM} = 2 \cdot \mathrm{gam}
+\end{equation}
+The calculated FWHM values for the three main absorption peaks at different slit widths are listed with the corresponding peak amplitudes in \autoref{tab: FWHM}.
+\begin{table}[H]
+	\centering
+	\caption{Line widths (FWHM) and peak amplitudes of the Lorentzian model fits for different slit widths.}
+	\begin{tabular}{c|cc|cc|cc}
+		& \multicolumn{2}{c|}{6-turns} & \multicolumn{2}{c|}{3-turns} & \multicolumn{2}{c}{1.5-turns} \\
+		\hline
+		pos / nm & FWHM/nm & amp/a.u. & FWHM/nm & amp/a.u. & FWHM/nm & amp/a.u. \\
+		\hline
+		460.45 & 16.24 & 0.39 & 9.58 & 0.25 & 11.90 & 0.39 \\
+		547.54 & 19.34 & 0.49 & 13.64 & 0.43 & 11.84 & 0.49 \\
+		651.81 & 22.80 & 0.46 & 24.54 & 0.55 & 21.76 & ~0.52 
+		\label{tab: FWHM}
+	\end{tabular}
+\end{table}
 
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\textwidth]{Holm/lorentz_3.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 3 turns.} 
-    \label{fig: lorentz_3}
-\end{figure}
-
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=1.0\textwidth]{Holm/lorentz_1.5.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 1.5 turns.} 
-    \label{fig: lorentz_1}
-\end{figure}
+The resolution of the spectra for the different slit widths is calculated by inserting the full width at half maximum (FWHM) with the extracted position of the absorption peak into \autoref{eq: R}.
+\begin{equation}
+	R = \frac{\lambda}{\Delta \lambda} = \mathrm{\frac{pos}{FWHM}}
+	\label{eq: R2}
+\end{equation}
+The calculation for the resolution of the spectrometer at a slit width of 6 turns yields:
+\begin{equation*}
+	R_{\mathrm{6-turns}} = \frac{1}{3} \cdot \left(\frac{460.45\;\mathrm{nm}}{16.24\;\mathrm{nm}} + \frac{547.54\;\mathrm{nm}}{19.34\;\mathrm{nm}} + \frac{651.81\;\mathrm{nm}}{22.80\;\mathrm{nm}}\right) = 26.6
+\end{equation*}
+By calculating the resolution for the slit widths of 3 turns and 1.5 turns in the same way with the mean value of the resolution for each peak from \autoref{eq: R2}, the resolution $R_{\mathrm{3-turns}} = 38.3$ and $R_{\mathrm{1.5-turns}} = 38.3$ are determined. The calculation matches the expectation that the resolution of the spectrometer increases with decreasing slit width, as less light reaches the detector and thus a more precise measurement of the absorption peaks is possible. But this trend is not observed for the reduction of the slit widths from 3 turns to 1.5 turns, indicating that a further decrease in slit width to 0.5 turns as described in the script \supercite{Skript} could have led to an even higher spectrometer resolution. 
 
 \section{Conclusion}
 In this experiment, 

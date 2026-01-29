@@ -5,7 +5,7 @@
 \contentsline {subsection}{\numberline {3.1}Lamp and filter spectra}{2}{subsection.3.1}%
 \contentsline {subsection}{\numberline {3.2}Potassium permanganate spectra}{2}{subsection.3.2}%
 \contentsline {subsection}{\numberline {3.3}Chlorophyll spectra}{2}{subsection.3.3}%
-\contentsline {subsection}{\numberline {3.4}Holmium oxide spectra}{2}{subsection.3.4}%
-\contentsline {section}{\numberline {4}Conclusion}{5}{section.4}%
-\contentsline {section}{\numberline {5}References}{6}{section.5}%
+\contentsline {subsection}{\numberline {3.4}Holmium oxide spectra}{3}{subsection.3.4}%
+\contentsline {section}{\numberline {4}Conclusion}{7}{section.4}%
+\contentsline {section}{\numberline {5}References}{8}{section.5}%
 \providecommand \tocbasic@end@toc@file {}\tocbasic@end@toc@file 

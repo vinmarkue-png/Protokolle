@@ -29,7 +29,7 @@ def multi_lorentz(x, off, slope, **pars):
 
 # Daten werden eingelesen
 # Data = pd.read_csv('./data/Ho2O2-acid-halfturns_trans.csv', skiprows=0, delimiter='\t', header=None)
-Data = pd.read_csv(r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_6-turns_abs.csv", skiprows=0, delimiter=',', header=0)
+Data = pd.read_csv(r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_1.5-turns_abs.csv", skiprows=0, delimiter=',', header=0)
 
 
 
@@ -47,7 +47,7 @@ params.add('off', value=-0.01, vary=True)
 params.add('slope', value=0.0, vary=True)
 #
 # -> Füge hier so viele pos-Werte hinzu, wie du Peaks erwartest.
-pos = [465,543,655]   # Anfangspositionen festlegen
+pos = [461,544,650]   # Anfangspositionen festlegen
 amp = 1               # Anfangsamplituden
 gamma = 10               # Anfangsbreiten
 for i in range(1,len(pos)+1):
@@ -93,4 +93,4 @@ for i in range(1,len(pos)+1):
 plt.xlabel('Lambda / nm')
 plt.ylabel('Absorption / a.u.')
 plt.legend()
-plt.savefig(os.path.join(base_path, "lorentz_6.pdf"))
+plt.savefig(os.path.join(base_path, "lorentz_1.5.pdf"))

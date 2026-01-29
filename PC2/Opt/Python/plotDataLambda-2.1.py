@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt      #Plotten
  # "./data/WATER.txt",
  # "./data/KMnO4-DILUTED.txt"
 #
-p1=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_1.5-turns.txt"
-p2=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_1.5-turns.txt"
+p1=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_6-turns.txt"
+p2=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_6-turns.txt"
 # p2=r"./data/KMnO4-HIGH-CONC.txt"
 
 

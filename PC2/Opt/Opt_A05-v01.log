@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  29 JAN 2026 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  29 JAN 2026 14:58
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1230,54 +1230,61 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 
 [2]
-<Holm/Holm_spektrum.pdf, id=48, 722.7pt x 433.62pt>
-File: Holm/Holm_spektrum.pdf Graphic file (type pdf)
-<use Holm/Holm_spektrum.pdf>
-Package pdftex.def Info: Holm/Holm_spektrum.pdf  used on input line 196.
-(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.200 
-       [1
+l.197 \newpage
+               [1
 
 ]
-<Holm/lorentz_6.pdf, id=60, 462.52798pt x 346.89601pt>
-File: Holm/lorentz_6.pdf Graphic file (type pdf)
-<use Holm/lorentz_6.pdf>
-Package pdftex.def Info: Holm/lorentz_6.pdf  used on input line 206.
-(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
-
 
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.210 
-       [2 <./Holm/Holm_spektrum.pdf>]
-<Holm/lorentz_3.pdf, id=101, 462.52798pt x 346.89601pt>
+l.197 \newpage
+               [2]
+<Holm/Holm_spektrum.pdf, id=66, 722.7pt x 433.62pt>
+File: Holm/Holm_spektrum.pdf Graphic file (type pdf)
+<use Holm/Holm_spektrum.pdf>
+Package pdftex.def Info: Holm/Holm_spektrum.pdf  used on input line 202.
+(pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
+<Holm/lorentz_6.pdf, id=70, 462.52798pt x 346.89601pt>
+File: Holm/lorentz_6.pdf Graphic file (type pdf)
+<use Holm/lorentz_6.pdf>
+Package pdftex.def Info: Holm/lorentz_6.pdf  used on input line 212.
+(pdftex.def)             Requested size: 349.40045pt x 262.06104pt.
+
+
+[3 <./Holm/Holm_spektrum.pdf>]
+<Holm/lorentz_3.pdf, id=114, 462.52798pt x 346.89601pt>
 File: Holm/lorentz_3.pdf Graphic file (type pdf)
 <use Holm/lorentz_3.pdf>
-Package pdftex.def Info: Holm/lorentz_3.pdf  used on input line 246.
-(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
-
-
-[3 <./Holm/lorentz_6.pdf>]
-<Holm/lorentz_1.5.pdf, id=145, 462.52798pt x 346.89601pt>
+Package pdftex.def Info: Holm/lorentz_3.pdf  used on input line 220.
+(pdftex.def)             Requested size: 349.40045pt x 262.06104pt.
+<Holm/lorentz_1.5.pdf, id=115, 462.52798pt x 346.89601pt>
 File: Holm/lorentz_1.5.pdf Graphic file (type pdf)
 <use Holm/lorentz_1.5.pdf>
-Package pdftex.def Info: Holm/lorentz_1.5.pdf  used on input line 254.
-(pdftex.def)             Requested size: 436.7489pt x 327.58026pt.
+Package pdftex.def Info: Holm/lorentz_1.5.pdf  used on input line 228.
+(pdftex.def)             Requested size: 349.40045pt x 262.06104pt.
 
 
-[4 <./Holm/lorentz_3.pdf>]
+[4 <./Holm/lorentz_6.pdf> <./Holm/lorentz_3.pdf>]
 
 [5 <./Holm/lorentz_1.5.pdf>]
+Overfull \hbox (21.28076pt too wide) in paragraph at lines 311--321
+ [][] 
+ []
 
-[6] (./Opt_A05-v01.aux)
+
+
+[6]
+
+[7]
+
+[8] (./Opt_A05-v01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1287,18 +1294,18 @@ Package logreq Info: Writing requests to 'Opt_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42624 strings out of 467748
- 903252 string characters out of 5431137
- 1837780 words of memory out of 5000000
- 70761 multiletter control sequences out of 15000+600000
- 643423 words of font info for 73 fonts, out of 8000000 for 9000
+ 42648 strings out of 467748
+ 903596 string characters out of 5431137
+ 1844560 words of memory out of 5000000
+ 70775 multiletter control sequences out of 15000+600000
+ 644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,19n,107p,11287b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Opt_A05-v01.pdf (8 pages, 323598 bytes).
+ 108i,20n,107p,11287b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
+Output written on Opt_A05-v01.pdf (10 pages, 390300 bytes).
 PDF statistics:
- 337 PDF objects out of 1000 (max. 8388607)
- 161 compressed objects within 2 object streams
- 24 named destinations out of 1000 (max. 500000)
+ 397 PDF objects out of 1000 (max. 8388607)
+ 208 compressed objects within 3 object streams
+ 33 named destinations out of 1000 (max. 500000)
  105 words of extra memory for PDF output out of 10000 (max. 10000000)
 
