@@ -5,8 +5,8 @@ from scipy.optimize import curve_fit   # Fit (hier nicht zwingend)
 import matplotlib.pyplot as plt      # Plotten
 import matplotlib as mpl
 from lmfit import Model, Parameters
-
-
+import os
+base_path = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm"
 
 def lorentz(x, pos, amp, gam):
     gam = gam/2.  # for full width at half maximum (FWHM)
@@ -29,13 +29,14 @@ def multi_lorentz(x, off, slope, **pars):
 
 # Daten werden eingelesen
 # Data = pd.read_csv('./data/Ho2O2-acid-halfturns_trans.csv', skiprows=0, delimiter='\t', header=None)
-Data = pd.read_csv('HNO3_Holm_6-turns_abs.csv')
+Data = pd.read_csv(r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_6-turns_abs.csv", skiprows=0, delimiter=',', header=0)
 
 
 
 # x- und y-Spalten werden extrahiert
-xData, yData = Data['x'] , Data['y']
-start=400; stop=800
+# Check actual column names: print(Data.columns)
+xData, yData = Data.iloc[:, 0], Data.iloc[:, 1]  # Use first two columns
+start=400; stop=700
 mask = (xData >= start) & (xData <= stop)
 xData , yData = xData[mask] , yData[mask]
 
@@ -75,23 +76,21 @@ params=result.params
 print(result.fit_report())
 
 #--------------------------------------------------------
-params=result.params
 
 basis = params['off'].value + params['slope'].value * xData
 
 # Visualisierung
 plt.clf()
 plt.plot(xData,yData-basis, 'x',label='Exp')
-plt.plot(xData,result.best_fit-basis,label='Fit')
+plt.plot(xData,result.best_fit-basis,label='Fit', lw = 2)
 #
-# zeichne einezelne Peaks
+# zeichne einzelne Peaks
 for i in range(1,len(pos)+1):
     yPeak = lorentz(xData, params[f'pos{i}'].value, params[f'amp{i}'].value, params[f'gam{i}'].value)
     plt.plot(xData, yPeak, label=f'Peak{i}')                  # Peaks
 #
-plt.title('Holmiumoxide')
-plt.xlabel('Wavelength / nm')
+# plt.title('Holmiumoxide')
+plt.xlabel('Lambda / nm')
 plt.ylabel('Absorption / a.u.')
 plt.legend()
-# plt.savefig('Holmiumoxide.pdf', dpi=300)
-plt.show()
+plt.savefig(os.path.join(base_path, "lorentz_6.pdf"))

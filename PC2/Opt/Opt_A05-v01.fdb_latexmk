@@ -1,18 +1,22 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1769589045.47661 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769675325.73383 0
-  "Opt_A05-v01.bcf" 1769675325 108367 7b3c6391b05cd9e67c842ffd2cf44604 "pdflatex"
+["biber Opt_A05-v01"] 1769676357.36282 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769678783.00881 0
+  "Opt_A05-v01.bcf" 1769678782 108367 7b3c6391b05cd9e67c842ffd2cf44604 "pdflatex"
   "lit.bib" 1769589036 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769675321.66604 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769675325.73521 0
-  "Opt_A05-v01.aux" 1769675325 2693 ffd3f0f92c3ca82d1c6d5360e4933c49 "pdflatex"
-  "Opt_A05-v01.bbl" 1769589048 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1769675325 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
-  "Opt_A05-v01.tex" 1769675320 6322 e7eeecebb0731ebdc637023f01d5a3fa ""
-  "Opt_A05-v01.toc" 1769675325 430 754fc357f6a159c7cd6a68a6c5a0a4ee "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1769675320 6322 e7eeecebb0731ebdc637023f01d5a3fa ""
+["pdflatex"] 1769678779.74817 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769678783.00967 0
+  "Holm/Holm_spektrum.pdf" 1769677576 27889 ac644658994d5962f5404c4da3dae9d8 ""
+  "Holm/lorentz_1.5.pdf" 1769678592 21077 2848926f761ad60753ecdea7d31a536c ""
+  "Holm/lorentz_3.pdf" 1769678618 21553 4bbdaf6935bb9cee9275925e6143590d ""
+  "Holm/lorentz_6.pdf" 1769678652 21734 449749eb8c2cd48000704473a48843ab ""
+  "Opt_A05-v01.aux" 1769678782 6064 437c8cc834d5c3078eb9bb8acea0fb1b "pdflatex"
+  "Opt_A05-v01.bbl" 1769676359 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
+  "Opt_A05-v01.run.xml" 1769678782 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.tex" 1769678775 9341 275219ca9bdd57d43ddc2cf32a6eda09 ""
+  "Opt_A05-v01.toc" 1769678782 787 6004ad5f06b38a0f9e3f1b3d7fcb7aec "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1769678775 9341 275219ca9bdd57d43ddc2cf32a6eda09 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -26,6 +30,7 @@
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsl1200.tfm" 1761073056 3584 36dd7d4b521e95b0a47034c0d524f2c5 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecss1200.tfm" 1761073056 3584 db562fb1d1c474cc55f0ce8a1dd94fe7 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1200.tfm" 1761073056 3584 36f697a6b99f29aad1ddddcfadf7a969 ""
+  "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1440.tfm" 1761073056 3584 9bd2baa3a21be3460ad52867ca0084f1 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecsx1728.tfm" 1761073056 3584 a5b048a4e362640a1d2d34e624589d34 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecti1200.tfm" 1761073056 3072 8b5a64dc91775463bc95e2d818524028 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm" 1761073056 1536 487c9b46984a816c7ed238d0674595c7 ""
@@ -56,6 +61,7 @@
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb" 1761072433 131438 c8884c67ccd7382f731c139fbb34a6cb ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb" 1761072433 150680 200f05869e9022d53b4b32fa48743f62 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb" 1761072433 148436 6a185415b8a1b77c58fee2272f3574e2 ""
+  "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb" 1761072433 148301 1e3d992f26050f6b4fb0fd3d5094d854 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb" 1761072433 144018 78ee202c0d340458a26cbb39f48b6bb2 ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb" 1761072433 198221 29e050730bc4b56b13a53cd149c0a42c ""
   "c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb" 1761072433 167085 3b331a8ed51d2a40eb9422e52a3bcab8 ""
