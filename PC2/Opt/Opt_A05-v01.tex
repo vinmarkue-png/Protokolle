@@ -142,32 +142,64 @@ In this experiment,
 
 
 \section{Theory}
+\subsection{Optical Spectroscopy}
+Optical spectroscopy studies the interactions between matter and light of the visible and ultraviolet spectrum. This is done by analyzing the characteristic absorption and transmission spectra of different materials, which enables a qualitative and quantitative measurement of that material. 
 
-
-
-
-
-
-
+\subsection{Wave interference at gratings}
+Optical gratings are often used in optical spectroscopy because they, like the classical double slit experiment, create characteristic interference patterns. But because of the higher number of slits, the gratings allow for a more complex pattern, which in turn results in better measurements. The interference patterns are created when light in the form of a linear wavefront passes trough the grating. Each slit acts as the starting point of a new spherical wave that interferes with the other spherical waves. If the path width between those waves is an integer multiple the waves interfere constructively, which leads to bright spots. If the path width is a half-integer multiple they interfere destructively, which leads to dark spots. An illustration of a grating is shown in \autoref{fig: interference}.
 
 \begin{figure}[H]
     \centering
     %\includegraphics[width=0.85\textwidth]{setup.png}
-    \caption{Scheme of the .\supercite{Skript}} 
+    \caption{A grating with the distance $d$ between the slits, the deviation angle $\theta$ of the light and the path width $\Delta S$.\supercite{Skript}} 
+    \label{fig: interference}
+\end{figure}
+
+The deviation angle of the constructive interference can be calculated by using \autoref{eq: theta}.
+
+\begin{equation}
+    \sin{\theta_k} = \frac{k ~\cdot~ \lambda}{d}
+    \label{eq: theta}
+\end{equation}
+
+Where $k$ is the order of diffraction, $\lambda$ is the wavelength and $d$ is the distance between the slits.
+
+
+
+\subsection{The spectrometer}
+
+\autoref{fig: setup} shows the setup of the DIY spectrometer used in the experiment.
+
+\begin{figure}[H]
+    \centering
+    %\includegraphics[width=0.85\textwidth]{setup.png}
+    \caption{Scheme of the different components, that make up the spectrometer used in the experiment.\supercite{Skript}} 
     \label{fig: setup}
 \end{figure}
 
+The figure shows, that the light from a LED passes trough a condenser and iris diaphragm, which collimate the light and regulate the intensity of the light used in the measurements. Afterwards it passes trough two lenses, where the first lens refracts it back into parallel beams and the second focuses it again. The focused light then passes the entrance slit, as well as the sample, which is positioned directly behind the slit. After that it gets reflected by a mirror onto the rotating reflexion grating, where it gets reflected to another mirror. After that it passes trough the exit slit and another lens to be focused onto the detector.
 
-\supercite{Skript}
+\subsection{Grating Equation for a Rotatable Grating}
+
+The reflexion grating used in the experiment has to be rotated in order to measure the sample at the different wavelengths. This is achieved by using a stepper motor, where each step rotates the grating by $1.8^{\circ}$. Each step also consists of 16 micro steps $z$ and have to factor in the gearbox of the motor which has a ratio of $\frac{1}{20}$. Using those factors, it is possible to calculate the degree of rotation $\alpha$, as is shown in \autoref{eq: alpha1}.
 
 \begin{equation}
-	R = \frac{\lambda}{\Delta \lambda} = k \cdot N
-	\label{eq: R}
+    \alpha = \frac{1.8 ~ \cdot \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z
+    \label{eq: alpha1}
 \end{equation}
 
+To account for possible measurement errors the auxiliary values $f$ and $\Delta \alpha$ are introduced into the equation, which leads to \autoref{eq: alpha2}.
+
 \begin{equation}
-	\alpha = ... + \Delta \alpha
+	\alpha = \frac{1.8 ~ \cdot \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z ~ \cdot ~ f+ \Delta \alpha
 \label{eq: alpha2}
+\end{equation}
+Where $f$ is a scaling factor and $\Delta \alpha$ accounts for the fact that the original angle of the grating is not known.\\
+The rotation angle can now be used to calculate the outgoing wavelength of the light for every possible angle. This is shown in \autoref{eq: klambda}.
+
+\begin{equation}
+    k ~ \cdot ~ \lambda = \sin{(\theta ~ + ~ \alpha)} ~ + ~ \sin{(\alpha)}
+    \label{eq: klambda}
 \end{equation}
 
 \section{Procedure}
