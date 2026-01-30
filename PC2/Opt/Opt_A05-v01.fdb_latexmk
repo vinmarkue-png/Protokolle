@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1769730668.08144 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769730673.12594 0
-  "Opt_A05-v01.bcf" 1769730672 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
+["biber Opt_A05-v01"] 1769730668.08144 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769731291.76652 0
+  "Opt_A05-v01.bcf" 1769731291 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
   "lit.bib" 1769589132 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769730670.07637 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/OPT/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769730673.1268 0
+["pdflatex"] 1769731288.94862 "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/OPT/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769731291.76721 0
   "Holm/Holm_spektrum.pdf" 1769692877 27889 ac644658994d5962f5404c4da3dae9d8 ""
   "Holm/lorentz_1.5.pdf" 1769730482 21077 9deb49ffb4ed4421286031bbfea3add4 ""
   "Holm/lorentz_3.pdf" 1769692877 21553 4bbdaf6935bb9cee9275925e6143590d ""
   "Holm/lorentz_6.pdf" 1769730482 21799 225deaa85e57d50f0e2464175319d09b ""
-  "Opt_A05-v01.aux" 1769730672 10980 e7768d91aaacac4bbf643ad844771769 "pdflatex"
+  "Opt_A05-v01.aux" 1769731291 10981 b8a847a176f7e9f7357b78ce22edca87 "pdflatex"
   "Opt_A05-v01.bbl" 1769730670 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1769730672 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
-  "Opt_A05-v01.tex" 1769730664 19164 486eea11d339c90e734ee48c8ff85f68 ""
-  "Opt_A05-v01.toc" 1769730672 1156 9c18c38c2bfbb1bbf7d4d7a48e9e7821 "pdflatex"
-  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/OPT/Opt_A05-v01.tex" 1769730664 19164 486eea11d339c90e734ee48c8ff85f68 ""
+  "Opt_A05-v01.run.xml" 1769731291 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.tex" 1769731285 19162 4645ce78da2a26b26335ea40973278f0 ""
+  "Opt_A05-v01.toc" 1769731291 1157 e3dbb3d7da08f0fb28c85c3178bf2330 "pdflatex"
+  "c:/Studium/5. Semester/AC II lab/Protokolle/PC2/OPT/Opt_A05-v01.tex" 1769731285 19162 4645ce78da2a26b26335ea40973278f0 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761080812 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761082840 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761081966 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -250,6 +250,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1761090300 5574153 af86687748baf417d9e7d549313527be ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1761090826 3629008 bcc9c69fd8736b3fb5bdac42766fcc35 ""
   "c:/texlive/2025/texmf.cnf" 1761090261 713 e69b156964470283e0530f5060668171 ""
+  "grate.png" 1769731182 28492 8af084bede3ab1ba36986444c0a15c93 ""
+  "setup.png" 1769731198 59134 52dbf99734d02e9ebce06a5dca71d22b ""
   (generated)
   "Opt_A05-v01.aux"
   "Opt_A05-v01.bcf"
