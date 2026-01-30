@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  28 JAN 2026 10:21
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.10.22)  30 JAN 2026 12:17
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1239,11 +1239,11 @@ l.183
        [1
 
 ]
-<IR-Aufbau.png, id=127, 169.13188pt x 113.42375pt>
+<IR-Aufbau.png, id=127, 1241.63875pt x 900.36375pt>
 File: IR-Aufbau.png Graphic file (type png)
 <use IR-Aufbau.png>
 Package pdftex.def Info: IR-Aufbau.png  used on input line 186.
-(pdftex.def)             Requested size: 349.40045pt x 234.32356pt.
+(pdftex.def)             Requested size: 349.40045pt x 253.36406pt.
 
 
 
@@ -1252,19 +1252,20 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
                    \relax 
 l.193 \newpage
                [2 <./IR-Aufbau.png>]
-<scattering.png, id=138, 197.23688pt x 65.24374pt>
+<scattering.png, id=136, 1481.535pt x 1030.85126pt>
 File: scattering.png Graphic file (type png)
 <use scattering.png>
 Package pdftex.def Info: scattering.png  used on input line 208.
-(pdftex.def)             Requested size: 349.40045pt x 115.58792pt.
-<raman-aufbau.png, id=143, 238.39063pt x 101.37875pt>
-File: raman-aufbau.png Graphic file (type png)
-<use raman-aufbau.png>
-Package pdftex.def Info: raman-aufbau.png  used on input line 219.
-(pdftex.def)             Requested size: 349.40045pt x 148.59647pt.
+(pdftex.def)             Requested size: 349.40045pt x 243.09947pt.
 
 
 [3 <./scattering.png>]
+<raman-aufbau.png, id=147, 1541.76pt x 805.0075pt>
+File: raman-aufbau.png Graphic file (type png)
+<use raman-aufbau.png>
+Package pdftex.def Info: raman-aufbau.png  used on input line 219.
+(pdftex.def)             Requested size: 349.40045pt x 182.4332pt.
+
 
 [4 <./raman-aufbau.png>]
 Overfull \hbox (4.23305pt too wide) in paragraph at lines 268--282
@@ -1274,13 +1275,15 @@ Overfull \hbox (4.23305pt too wide) in paragraph at lines 268--282
 
 
 [5]
+
+[6]
 Overfull \hbox (1.36966pt too wide) in paragraph at lines 316--330
  [][] 
  []
 
 
 
-[6]
+[7]
 <IR/CH2Cl2_spectrum.pdf, id=180, 505.89pt x 361.35pt>
 File: IR/CH2Cl2_spectrum.pdf Graphic file (type pdf)
 <use IR/CH2Cl2_spectrum.pdf>
@@ -1288,7 +1291,7 @@ Package pdftex.def Info: IR/CH2Cl2_spectrum.pdf  used on input line 340.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[7 <./IR/CH2Cl2_spectrum.pdf>]
+[8 <./IR/CH2Cl2_spectrum.pdf>]
 <Raman/CH2Cl2_raman_spectrum.pdf, id=232, 505.89pt x 361.35pt>
 File: Raman/CH2Cl2_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CH2Cl2_raman_spectrum.pdf>
@@ -1296,14 +1299,14 @@ Package pdftex.def Info: Raman/CH2Cl2_raman_spectrum.pdf  used on input line 388
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[8]
+[9]
 Overfull \hbox (34.41333pt too wide) in paragraph at lines 412--426
  [][] 
  []
 
 
 
-[9 <./Raman/CH2Cl2_raman_spectrum.pdf>]
+[10 <./Raman/CH2Cl2_raman_spectrum.pdf>]
 <IR/CH2Br2_spectrum.pdf, id=287, 505.89pt x 361.35pt>
 File: IR/CH2Br2_spectrum.pdf Graphic file (type pdf)
 <use IR/CH2Br2_spectrum.pdf>
@@ -1311,9 +1314,9 @@ Package pdftex.def Info: IR/CH2Br2_spectrum.pdf  used on input line 438.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[10]
+[11]
 
-[11 <./IR/CH2Br2_spectrum.pdf>]
+[12 <./IR/CH2Br2_spectrum.pdf>]
 <Raman/CH2Br2_raman_spectrum.pdf, id=343, 505.89pt x 361.35pt>
 File: Raman/CH2Br2_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CH2Br2_raman_spectrum.pdf>
@@ -1321,7 +1324,7 @@ Package pdftex.def Info: Raman/CH2Br2_raman_spectrum.pdf  used on input line 491
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[12 <./Raman/CH2Br2_raman_spectrum.pdf>]
+[13 <./Raman/CH2Br2_raman_spectrum.pdf>]
 Overfull \hbox (27.2281pt too wide) in paragraph at lines 518--532
  [][] 
  []
@@ -1333,9 +1336,9 @@ Package pdftex.def Info: IR/CHCl3_spectrum.pdf  used on input line 544.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[13]
+[14]
 
-[14 <./IR/CHCl3_spectrum.pdf>]
+[15 <./IR/CHCl3_spectrum.pdf>]
 <Raman/CHCl3_raman_spectrum.pdf, id=449, 505.89pt x 361.35pt>
 File: Raman/CHCl3_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CHCl3_raman_spectrum.pdf>
@@ -1343,16 +1346,16 @@ Package pdftex.def Info: Raman/CHCl3_raman_spectrum.pdf  used on input line 597.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[15]
+[16]
 Overfull \hbox (32.52072pt too wide) in paragraph at lines 625--639
  [][] 
  []
 
 
 
-[16 <./Raman/CHCl3_raman_spectrum.pdf>]
+[17 <./Raman/CHCl3_raman_spectrum.pdf>]
 
-[17]
+[18]
 <Raman/CDCl3_raman_spectrum.pdf, id=510, 505.89pt x 361.35pt>
 File: Raman/CDCl3_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CDCl3_raman_spectrum.pdf>
@@ -1360,14 +1363,14 @@ Package pdftex.def Info: Raman/CDCl3_raman_spectrum.pdf  used on input line 675.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[18 <./Raman/CDCl3_raman_spectrum.pdf>]
+[19 <./Raman/CDCl3_raman_spectrum.pdf>]
 Overfull \hbox (32.52072pt too wide) in paragraph at lines 703--717
  [][] 
  []
 
 
 
-[19]
+[20]
 <Raman/CCl4_raman_spectrum.pdf, id=566, 505.89pt x 361.35pt>
 File: Raman/CCl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/CCl4_raman_spectrum.pdf>
@@ -1375,14 +1378,14 @@ Package pdftex.def Info: Raman/CCl4_raman_spectrum.pdf  used on input line 751.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[20 <./Raman/CCl4_raman_spectrum.pdf>]
+[21 <./Raman/CCl4_raman_spectrum.pdf>]
 Overfull \hbox (3.39276pt too wide) in paragraph at lines 777--791
  [][] 
  []
 
 
 
-[21]
+[22]
 <IR/C2Cl4_spectrum.pdf, id=620, 505.89pt x 361.35pt>
 File: IR/C2Cl4_spectrum.pdf Graphic file (type pdf)
 <use IR/C2Cl4_spectrum.pdf>
@@ -1390,24 +1393,24 @@ Package pdftex.def Info: IR/C2Cl4_spectrum.pdf  used on input line 802.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[22 <./IR/C2Cl4_spectrum.pdf>]
-<Raman/C2Cl4_raman_spectrum.pdf, id=674, 505.89pt x 361.35pt>
+[23 <./IR/C2Cl4_spectrum.pdf>]
+<Raman/C2Cl4_raman_spectrum.pdf, id=675, 505.89pt x 361.35pt>
 File: Raman/C2Cl4_raman_spectrum.pdf Graphic file (type pdf)
 <use Raman/C2Cl4_raman_spectrum.pdf>
 Package pdftex.def Info: Raman/C2Cl4_raman_spectrum.pdf  used on input line 857.
 (pdftex.def)             Requested size: 349.40045pt x 249.57437pt.
 
 
-[23]
+[24]
 
-[24 <./Raman/C2Cl4_raman_spectrum.pdf>]
+[25 <./Raman/C2Cl4_raman_spectrum.pdf>]
 Overfull \hbox (5.10559pt too wide) in paragraph at lines 884--901
  [][] 
  []
 
 
 
-[25]
+[26]
 <Sim/raman_trends.pdf, id=740, 722.7pt x 505.89pt>
 File: Sim/raman_trends.pdf Graphic file (type pdf)
 <use Sim/raman_trends.pdf>
@@ -1415,13 +1418,13 @@ Package pdftex.def Info: Sim/raman_trends.pdf  used on input line 911.
 (pdftex.def)             Requested size: 393.07133pt x 275.15265pt.
 
 
-[26 <./Sim/raman_trends.pdf>]
-
-[27]
+[27 <./Sim/raman_trends.pdf>]
 
 [28]
 
-[29] (./IR-Raman_A05-v01.aux)
+[29]
+
+[30] (./IR-Raman_A05-v01.aux)
  ***********
 LaTeX2e <2025-06-01> patch level 1
 L3 programming layer <2025-09-02>
@@ -1431,18 +1434,18 @@ Package logreq Info: Writing requests to 'IR-Raman_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42953 strings out of 467748
- 910715 string characters out of 5431137
- 1855501 words of memory out of 5000000
+ 42954 strings out of 467748
+ 910722 string characters out of 5431137
+ 1855503 words of memory out of 5000000
  70996 multiletter control sequences out of 15000+600000
  644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  108i,20n,107p,11278b,2051s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on IR-Raman_A05-v01.pdf (31 pages, 620381 bytes).
+Output written on IR-Raman_A05-v01.pdf (32 pages, 779613 bytes).
 PDF statistics:
  1063 PDF objects out of 1200 (max. 8388607)
- 636 compressed objects within 7 object streams
- 117 named destinations out of 1000 (max. 500000)
+ 638 compressed objects within 7 object streams
+ 118 named destinations out of 1000 (max. 500000)
  387 words of extra memory for PDF output out of 10000 (max. 10000000)
 
