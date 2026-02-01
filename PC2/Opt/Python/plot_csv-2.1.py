@@ -7,8 +7,8 @@ import matplotlib.pyplot as plt      #Plotten
 
 # ### read data
 
-p1=r"./data/KMnO4-DILUTED_abs.csv"
-p2=r"./data/KMnO4-HIGH-CONC_abs.csv"
+p1=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\KMnO4-DILUTED_abs.csv"
+p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\KMnO4-HIGH-CONC_abs.csv"
 # p3=r"./data/Ho2O2-acid-halfturns_abs.csv"
 
 

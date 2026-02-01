@@ -1,22 +1,22 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1769972166.17678 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769974150.0287 0
-  "Opt_A05-v01.bcf" 1769974148 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
+["biber Opt_A05-v01"] 1769978402.98684 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1769978519.26929 0
+  "Opt_A05-v01.bcf" 1769978517 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
   "lit.bib" 1769968054 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769974137.6183 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769974150.03077 0
+["pdflatex"] 1769978508.55571 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1769978519.27135 0
   "Holm/Holm_spektrum.pdf" 1769968054 27889 ac644658994d5962f5404c4da3dae9d8 ""
   "Holm/lorentz_1.5.pdf" 1769968054 21077 9deb49ffb4ed4421286031bbfea3add4 ""
   "Holm/lorentz_3.pdf" 1769968054 21553 4bbdaf6935bb9cee9275925e6143590d ""
   "Holm/lorentz_6.pdf" 1769968054 21799 225deaa85e57d50f0e2464175319d09b ""
-  "Opt_A05-v01.aux" 1769974148 11302 c940eb8f077cb437ad407998f1359b95 "pdflatex"
-  "Opt_A05-v01.bbl" 1769972169 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1769974148 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
-  "Opt_A05-v01.tex" 1769974120 19550 5057031668453c350c3b1c2fde98aa74 ""
-  "Opt_A05-v01.toc" 1769974148 1157 e3dbb3d7da08f0fb28c85c3178bf2330 "pdflatex"
-  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1769974120 19550 5057031668453c350c3b1c2fde98aa74 ""
+  "Opt_A05-v01.aux" 1769978517 12048 53ba9f3f178a292f61188c39d950f5e8 "pdflatex"
+  "Opt_A05-v01.bbl" 1769978409 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
+  "Opt_A05-v01.run.xml" 1769978517 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.tex" 1769978495 20183 ed09f732e1e10f4a1ab8cd4c64716a34 ""
+  "Opt_A05-v01.toc" 1769978517 1158 f4507fba737ac84bd15a78f9d3d446f1 "pdflatex"
+  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1769978495 20183 ed09f732e1e10f4a1ab8cd4c64716a34 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1765624578 3584 402da0b29eafbad07963b1224b222f18 ""
@@ -250,6 +250,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1765631316 5587484 30eee748fa419a911c40b0c750dd21ba ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1765631802 3635448 fad15f6a71eef1139d30ce3b58ccc378 ""
   "c:/texlive/2025/texmf.cnf" 1765631278 713 e69b156964470283e0530f5060668171 ""
+  "data/absorption_filter.pdf" 1769976932 19807 28756ffef60718d26e44efe73e2eac67 ""
+  "data/theo_praxis_filter.pdf" 1769974999 22359 cc31073f96faca8dbf76a24a792cd7b2 ""
   "filter/plot_mit_und_ohne_filter.pdf" 1769973775 29468 60bc7a2a25aec75ef761329bf88d1db4 ""
   "grate.png" 1769968054 28492 8af084bede3ab1ba36986444c0a15c93 ""
   "setup.png" 1769968054 59134 52dbf99734d02e9ebce06a5dca71d22b ""

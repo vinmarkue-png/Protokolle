@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt      #Plotten
 # p1=r"./data/pure-acid-halfturns.txt"
 # p2=r"./data/Ho2O2-acid-halfturns.txt"
 
-p1= r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\lampe\Lamp2.txt"
-p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\filter\filter.txt"
+p1= r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\lamp.txt"
+p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\filter.txt"
 
 # p1=r"water2.txt"
 # p2=r"./data/KMnO4-DILUTED.txt"

@@ -15,9 +15,9 @@ from scipy.interpolate import interp1d
 filenames = [
     #"lamp2.txt",
     #"filter1.txt",
-    "./data/KMnO4-HIGH-CONC.txt",
-    "./data/WATER.txt",
-    "./data/KMnO4-DILUTED.txt"
+    r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\filter.txt"
+    # "./data/WATER.txt",
+    # "./data/KMnO4-DILUTED.txt"
     # weitere Dateien ...
 ]
 

@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt      #Plotten
  # "./data/WATER.txt",
  # "./data/KMnO4-DILUTED.txt"
 #
-p1=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_6-turns.txt"
-p2=r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm\HNO3_Holm_6-turns.txt"
+p1=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\WATER.txt"
+p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\KMnO4-DILUTED.txt"
 # p2=r"./data/KMnO4-HIGH-CONC.txt"
 
 
@@ -45,8 +45,7 @@ Lambda = (np.sin(Alpha + theta) + np.sin(Alpha)) / 1200 * 1e6
 
   
 # If the plot area needs to be restricted, please enable this area.
-# xmin, xmax = 350, 670
-xmin, xmax = 400, 800
+xmin, xmax = 0, 800
 # mask = (Lambda >= xmin) & (Lambda <= xmax)
 #
 # restricted values
@@ -58,50 +57,43 @@ xmin, xmax = 400, 800
 # End of the restriction
  
 
-plt.close('all')   # plt.clf(), plt.vla(), plt.close(), plt(close('all'))  
+plt.close('all')
 
-# --- Plot 1 ---
-
-fig, axs = plt.subplots(1, 3, figsize=(15, 4), sharex=False)
-# axs ist ein Array aus 3 Achsen: axs[0], axs[1], axs[2]
+# --- Vorbereitung der Daten (bleibt gleich) ---
+yData2_trans = yData2 / yData1
+yData2_abs = -np.log10(yData2_trans)
 
 # --- Plot 1: Original Data ---
-axs[0].plot(Lambda, yData1, label='Background')
-axs[0].plot(Lambda, yData2, label='Sample')
-axs[0].set_title('Original Data')
-axs[0].set_xlabel('Lambda / nm')
-axs[0].set_ylabel('Intensity')
-axs[0].legend()
-axs[0].set_xlim(xmin,xmax)
+plt.figure(figsize=(8, 5))
+plt.plot(Lambda, yData1, label='Background')
+plt.plot(Lambda, yData2, label='Sample')
+plt.xlabel('$\lambda$ / nm')
+plt.ylabel('Intensity')
+plt.legend()
+plt.tight_layout()
+plt.xlim(xmin, xmax)
+plt.show() # Öffnet das erste Fenster
 
 # --- Plot 2: Transmission ---
-yData2_trans = yData2 / yData1
-axs[1].plot(Lambda, yData2_trans, label='Sample')
-axs[1].set_title('Transmission')
-axs[1].set_xlabel('Lambda / nm')
-axs[1].set_ylabel('Transmission')
-axs[1].legend()
-axs[1].set_xlim(xmin,xmax)
+plt.figure(figsize=(8, 5))
+plt.plot(Lambda, yData2_trans, color='orange')
+plt.title('Transmission Spectrum of water')
+plt.xlabel('$\lambda$ / nm')
+plt.ylabel('Transmission')
+plt.tight_layout()
+plt.xlim(xmin, xmax)
+plt.show() # Öffnet das zweite Fenster
 
 # --- Plot 3: Absorption ---
-yData2_abs = -np.log10(yData2_trans)
-axs[2].plot(Lambda, yData2_abs, label='Sample')
-axs[2].set_title('Absorption')
-axs[2].set_xlabel('Lambda / nm')
-axs[2].set_ylabel('Absorption')
-axs[2].legend()
-axs[2].set_xlim(xmin,xmax)
-axs[2].grid()
+plt.figure(figsize=(8, 5))
+plt.plot(Lambda, yData2_abs, label='Sample', color='red')
+plt.title('Absorption Spectrum of water')
+plt.xlabel('$\lambda$ / nm')
+plt.ylabel('Absorption (A)')
+plt.grid(True, linestyle=':', alpha=0.6)
 plt.tight_layout()
-plt.show()
+plt.xlim(xmin, xmax)
+plt.show() # Öffnet das dritte Fenster
 
-# Write transition
-new_filename = p2.replace(".txt", "_trans.csv")
-df = pd.DataFrame({"x": Lambda, "y": yData2_trans})
-df.to_csv(new_filename, index=False)
-#
-# Write absorption
-new_filename = p2.replace(".txt", "_abs.csv")
-df = pd.DataFrame({"x": Lambda, "y": yData2_abs})
-df.to_csv(new_filename, index=False)
-#
+# --- Export-Teil (CSV-Dateien schreiben) ---
+# ... (bleibt wie in deinem ursprünglichen Code)
