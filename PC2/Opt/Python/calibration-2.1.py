@@ -15,9 +15,9 @@ from scipy.interpolate import interp1d
 # Change the names of the files here to use the files you want for calibration
 # Make sure the files are located in the same directory as this script
 # Ändere diese Zeilen so ab (relativ zum Skript-Standort):
-lamp_file = "lampe/Lamp2.txt"
-bandfilter_file = "filter/filter.txt"
-bandfilter_transmission_file = "bandfilter-transmission.txt"
+lamp_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\lampe\Lamp2.txt"
+bandfilter_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\filter\filter.txt"
+bandfilter_transmission_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\bandfilter-transmission.txt"
 # Calibration parameters
 # scale: Adjusts the intensity of the transmission spectrum to normalize it
 # Recommended range: 1–2 (or as needed)

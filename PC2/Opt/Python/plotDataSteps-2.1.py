@@ -10,12 +10,12 @@ import matplotlib.pyplot as plt      #Plotten
 # p1=r"./data/pure-acid-halfturns.txt"
 # p2=r"./data/Ho2O2-acid-halfturns.txt"
 
-# p1=r"./data/lamp.txt"
-# p2=r"./data/filter.txt"
+p1= r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\lampe\Lamp2.txt"
+p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\filter\filter.txt"
 
-p1=r"water2.txt"
+# p1=r"water2.txt"
 # p2=r"./data/KMnO4-DILUTED.txt"
-p2=r"kmno4_dünn.txt"
+# p2=r"kmno4_dünn.txt"
 #
 Data1=pd.read_csv(p1,skiprows=0,delimiter=' ',decimal='.',header=None)
 Data2=pd.read_csv(p2,skiprows=0,delimiter=' ',decimal='.',header=None)
@@ -37,8 +37,8 @@ plt.close('all')   # plt.clf(), plt.vla(), plt.close(), plt(close('all'))
 fig, axs = plt.subplots(1, 3, figsize=(15, 4))
 
 # --- Plot 1: Original Data ---
-axs[0].plot(xData1, yData1, label='Background')
-axs[0].plot(xData2, yData2, label='Sample')
+axs[0].plot(xData1, yData1, label='lamp without filter')
+axs[0].plot(xData2, yData2, label='lamp with filter')
 axs[0].set_title('Original Data')
 axs[0].set_xlabel('Steps')
 axs[0].set_ylabel('Intensity')
@@ -73,3 +73,35 @@ new_filename = p2.replace(".txt", "_abs.csv")
 df = pd.DataFrame({"x": xData1, "y": yData2_abs})
 df.to_csv(new_filename, index=False)
 #
+
+# macht den ersten plot alleine
+
+# plt.close('all')
+
+# # --- Plot 1 ---
+# # Hier ändern wir (1, 3) zu (1, 1) oder lassen es ganz weg. 
+# # Ich nutze hier einfach plt.subplots() für einen einzelnen Plot.
+# fig, ax = plt.subplots(figsize=(8, 6)) 
+
+# # --- Nur Plot 1: Original Data ---
+# # Da wir nur noch eine Achse haben, nutzen wir "ax" statt "axs[0]"
+# ax.plot(xData1, yData1, label='lamp without filter')
+# ax.plot(xData2, yData2, label='lamp with filter')
+# ax.set_xlabel('Steps')
+# ax.set_ylabel('Intensity')
+# ax.legend()
+
+# # Die Berechnungen für Plot 2 und 3 müssen bleiben, 
+# # damit die CSV-Dateien unten noch geschrieben werden können.
+# yData2_trans = yData2 / yData1
+# yData2_abs = -np.log10(yData2_trans)
+
+# # Die Zeilen mit axs[1]... und axs[2]... haben wir einfach entfernt.
+
+# plt.tight_layout()
+# plt.show()
+
+# # --- Der Export-Teil bleibt unverändert ---
+# # Write transition
+# new_filename = p2.replace(".txt", "_trans.csv")
+# # ... usw.
