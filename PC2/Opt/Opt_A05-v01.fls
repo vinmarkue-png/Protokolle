@@ -416,6 +416,11 @@ INPUT ./setup.png
 INPUT ./setup.png
 INPUT ./setup.png
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ectt1200.tfm
+INPUT ./filter/plot_mit_und_ohne_filter.pdf
+INPUT ./filter/plot_mit_und_ohne_filter.pdf
+INPUT ./filter/plot_mit_und_ohne_filter.pdf
+INPUT ./filter/plot_mit_und_ohne_filter.pdf
+INPUT ./filter/plot_mit_und_ohne_filter.pdf
 INPUT c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecrm0600.tfm
 INPUT ./Holm/Holm_spektrum.pdf
 INPUT ./Holm/Holm_spektrum.pdf
