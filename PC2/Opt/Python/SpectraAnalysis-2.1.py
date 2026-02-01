@@ -13,12 +13,11 @@ from scipy.interpolate import interp1d
 
 # Liste aller Dateien, die eingelesen werden sollen
 filenames = [
-    #"lamp2.txt",
-    #"filter1.txt",
-    r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\filter.txt"
-    # "./data/WATER.txt",
-    # "./data/KMnO4-DILUTED.txt"
-    # weitere Dateien ...
+r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro\chloro_1.txt",
+r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro\chloro_2.txt",
+r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro\chloro_3.txt",
+r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro\chloro_4.txt",
+r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro\chloro_5.txt"
 ]
 
 # Kalibrierungsparameter

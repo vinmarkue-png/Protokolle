@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt      # Plotten
 import matplotlib as mpl
 from lmfit import Model, Parameters
 import os
-base_path = r"C:\Users\vinma\Documents\Chemie Studium\5. Semester\Protokolle\PC2\Opt\Holm"
+base_path = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\Chloro"
 
 def lorentz(x, pos, amp, gam):
     gam = gam/2.  # for full width at half maximum (FWHM)
