@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  1 FEB 2026 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  29 JAN 2026 12:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex
-(c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex
+**c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/MDGE/MDGE.tex
+(c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/MDGE/MDGE.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
 (c:/texlive/2025/texmf-dist/tex/latex/koma-script/scrartcl.cls
@@ -493,34 +493,25 @@ Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
 \extratabsurround=\skip73
 \backup@length=\skip74
 \ar@cellbox=\box70
-)) (c:/texlive/2025/texmf-dist/tex/latex/caption/subcaption.sty
-Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
- (c:/texlive/2025/texmf-dist/tex/latex/caption/caption.sty
-Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+)) (c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip75
+\subfigcapskip=\skip76
+\subfigcaptopadj=\dimen191
+\subfigbottomskip=\skip77
+\subfigcapmargin=\dimen192
+\subfiglabelskip=\skip78
+\c@subfigure=\count340
+\c@lofdepth=\count341
+\c@subtable=\count342
+\c@lotdepth=\count343
 
-Package tocbasic Info: Loading of class-dependent code for package caption3
-(tocbasic)             prevented on line 50.
-
- (c:/texlive/2025/texmf-dist/tex/latex/caption/caption3.sty
-Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
-\caption@tempdima=\dimen191
-\captionmargin=\dimen192
-\caption@leftmargin=\dimen193
-\caption@rightmargin=\dimen194
-\caption@width=\dimen195
-\caption@indent=\dimen196
-\caption@parindent=\dimen197
-\caption@hangindent=\dimen198
-)
-\c@caption@flags=\count340
-\c@continuedfloat=\count341
-Package caption Info: float package is loaded.
-Package caption Info: hyperref package is loaded.
-)
-Package caption Info: New subtype `subfigure' on input line 238.
-\c@subfigure=\count342
-Package caption Info: New subtype `subtable' on input line 238.
-\c@subtable=\count343
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(c:/texlive/2025/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip79
+\subfig@bottom=\skip80
 )
 
 Package siunitx Info: Option "detect-weight" has been deprecated in this
@@ -607,14 +598,14 @@ File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 \blx@sectionciteorderinternal@0=\count385
 \blx@entrysetcounter=\count386
 \blx@biblioinstance=\count387
-\labelnumberwidth=\skip75
-\labelalphawidth=\skip76
-\biblabelsep=\skip77
-\bibitemsep=\skip78
-\bibnamesep=\skip79
-\bibinitsep=\skip80
-\bibparsep=\skip81
-\bibhang=\skip82
+\labelnumberwidth=\skip81
+\labelalphawidth=\skip82
+\biblabelsep=\skip83
+\bibitemsep=\skip84
+\bibnamesep=\skip85
+\bibinitsep=\skip86
+\bibparsep=\skip87
+\bibhang=\skip88
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language91
@@ -698,20 +689,20 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@savedoriglanguage=\count456
 \c@pageref=\count457
 \c@savedpageref=\count458
-\shorthandwidth=\skip83
-\shortjournalwidth=\skip84
-\shortserieswidth=\skip85
-\shorttitlewidth=\skip86
-\shortauthorwidth=\skip87
-\shorteditorwidth=\skip88
-\locallabelnumberwidth=\skip89
-\locallabelalphawidth=\skip90
-\localshorthandwidth=\skip91
-\localshortjournalwidth=\skip92
-\localshortserieswidth=\skip93
-\localshorttitlewidth=\skip94
-\localshortauthorwidth=\skip95
-\localshorteditorwidth=\skip96
+\shorthandwidth=\skip89
+\shortjournalwidth=\skip90
+\shortserieswidth=\skip91
+\shorttitlewidth=\skip92
+\shortauthorwidth=\skip93
+\shorteditorwidth=\skip94
+\locallabelnumberwidth=\skip95
+\locallabelalphawidth=\skip96
+\localshorthandwidth=\skip97
+\localshortjournalwidth=\skip98
+\localshortserieswidth=\skip99
+\localshorttitlewidth=\skip100
+\localshortauthorwidth=\skip101
+\localshorteditorwidth=\skip102
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (c:/texlive/2025/texmf-dist/tex/latex/biblatex/blx-compat.def
@@ -809,8 +800,8 @@ Package: chemgreek 2020/01/16 v1.1a interface for upright Greek letters for use 
 Package: l3keys2e 2025-10-09 LaTeX2e option processing using LaTeX3 keys
 ) (c:/texlive/2025/texmf-dist/tex/latex/chemformula/chemformula.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
 \pgfutil@everybye=\toks33
-\pgfutil@tempdima=\dimen199
-\pgfutil@tempdimb=\dimen256
+\pgfutil@tempdima=\dimen193
+\pgfutil@tempdimb=\dimen194
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
 \pgfutil@abb=\box71
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/pgf.revision.tex)
@@ -825,16 +816,16 @@ Package: pgfsys 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks36
 ))
-\pgf@x=\dimen257
-\pgf@y=\dimen258
-\pgf@xa=\dimen259
-\pgf@ya=\dimen260
-\pgf@xb=\dimen261
-\pgf@yb=\dimen262
-\pgf@xc=\dimen263
-\pgf@yc=\dimen264
-\pgf@xd=\dimen265
-\pgf@yd=\dimen266
+\pgf@x=\dimen195
+\pgf@y=\dimen196
+\pgf@xa=\dimen197
+\pgf@ya=\dimen198
+\pgf@xb=\dimen199
+\pgf@yb=\dimen256
+\pgf@xc=\dimen257
+\pgf@yc=\dimen258
+\pgf@xd=\dimen259
+\pgf@yd=\dimen260
 \w@pgf@writea=\write4
 \r@pgf@reada=\read4
 \c@pgf@counta=\count477
@@ -862,7 +853,7 @@ File: pgfsysprotocol.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
 Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
-\pgfmath@dimen=\dimen267
+\pgfmath@dimen=\dimen261
 \pgfmath@count=\count484
 \pgfmath@box=\box72
 \pgfmath@toks=\toks40
@@ -872,28 +863,28 @@ Package: pgfcore 2025-08-29 v3.1.11a (3.1.11a)
 \c@pgfmathroundto@lastzeros=\count485
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfint.code.tex) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.tex
 File: pgfcorepoints.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@picminx=\dimen268
-\pgf@picmaxx=\dimen269
-\pgf@picminy=\dimen270
-\pgf@picmaxy=\dimen271
-\pgf@pathminx=\dimen272
-\pgf@pathmaxx=\dimen273
-\pgf@pathminy=\dimen274
-\pgf@pathmaxy=\dimen275
-\pgf@xx=\dimen276
-\pgf@xy=\dimen277
-\pgf@yx=\dimen278
-\pgf@yy=\dimen279
-\pgf@zx=\dimen280
-\pgf@zy=\dimen281
+\pgf@picminx=\dimen262
+\pgf@picmaxx=\dimen263
+\pgf@picminy=\dimen264
+\pgf@picmaxy=\dimen265
+\pgf@pathminx=\dimen266
+\pgf@pathmaxx=\dimen267
+\pgf@pathminy=\dimen268
+\pgf@pathmaxy=\dimen269
+\pgf@xx=\dimen270
+\pgf@xy=\dimen271
+\pgf@yx=\dimen272
+\pgf@yy=\dimen273
+\pgf@zx=\dimen274
+\pgf@zy=\dimen275
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@path@lastx=\dimen282
-\pgf@path@lasty=\dimen283
+\pgf@path@lastx=\dimen276
+\pgf@path@lasty=\dimen277
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code.tex
 File: pgfcorepathusage.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@shorten@end@additional=\dimen284
-\pgf@shorten@start@additional=\dimen285
+\pgf@shorten@end@additional=\dimen278
+\pgf@shorten@start@additional=\dimen279
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.tex
 File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgfpic=\box73
@@ -902,12 +893,12 @@ File: pgfcorescopes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@picture@serial@count=\count486
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgflinewidth=\dimen286
+\pgflinewidth=\dimen280
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformations.code.tex
 File: pgfcoretransformations.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@pt@x=\dimen287
-\pgf@pt@y=\dimen288
-\pgf@pt@temp=\dimen289
+\pgf@pt@x=\dimen281
+\pgf@pt@y=\dimen282
+\pgf@pt@temp=\dimen283
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
 File: pgfcorequick.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.tex
@@ -916,10 +907,10 @@ File: pgfcoreobjects.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfcorepathprocessing.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.tex
 File: pgfcorearrows.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowsep=\dimen290
+\pgfarrowsep=\dimen284
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
 File: pgfcoreshade.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@max=\dimen291
+\pgf@max=\dimen285
 \pgf@sys@shading@range@num=\count487
 \pgf@shadingcount=\count488
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
@@ -942,14 +933,14 @@ File: pgfmoduleshapes.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 File: pgfmoduleplot.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65.sty
 Package: pgfcomp-version-0-65 2025-08-29 v3.1.11a (3.1.11a)
-\pgf@nodesepstart=\dimen292
-\pgf@nodesepend=\dimen293
+\pgf@nodesepstart=\dimen286
+\pgf@nodesepend=\dimen287
 ) (c:/texlive/2025/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18.sty
 Package: pgfcomp-version-1-18 2025-08-29 v3.1.11a (3.1.11a)
 )) (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgffor.sty (c:/texlive/2025/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex)) (c:/texlive/2025/texmf-dist/tex/latex/pgf/math/pgfmath.sty (c:/texlive/2025/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)) (c:/texlive/2025/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
 Package: pgffor 2025-08-29 v3.1.11a (3.1.11a)
-\pgffor@iter=\dimen294
-\pgffor@skip=\dimen295
+\pgffor@iter=\dimen288
+\pgffor@skip=\dimen289
 \pgffor@stack=\toks43
 \pgffor@toks=\toks44
 )) (c:/texlive/2025/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
@@ -957,16 +948,16 @@ Package: tikz 2025-08-29 v3.1.11a (3.1.11a)
  (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 \pgf@plot@mark@count=\count489
-\pgfplotmarksize=\dimen296
+\pgfplotmarksize=\dimen290
 )
-\tikz@lastx=\dimen297
-\tikz@lasty=\dimen298
-\tikz@lastxsaved=\dimen299
-\tikz@lastysaved=\dimen300
-\tikz@lastmovetox=\dimen301
-\tikz@lastmovetoy=\dimen302
-\tikzleveldistance=\dimen303
-\tikzsiblingdistance=\dimen304
+\tikz@lastx=\dimen291
+\tikz@lasty=\dimen292
+\tikz@lastxsaved=\dimen293
+\tikz@lastysaved=\dimen294
+\tikz@lastmovetox=\dimen295
+\tikz@lastmovetoy=\dimen296
+\tikzleveldistance=\dimen297
+\tikzsiblingdistance=\dimen298
 \tikz@figbox=\box78
 \tikz@figbox@bg=\box79
 \tikz@tempbox=\box80
@@ -988,11 +979,11 @@ File: tikzlibrarytopaths.code.tex 2025-08-29 v3.1.11a (3.1.11a)
 Package: xfrac 2024-06-04 Split-level fractions
 \l__xfrac_slash_box=\box82
 \l__xfrac_tmp_box=\box83
-\l__xfrac_denominator_bot_sep_dim=\dimen305
-\l__xfrac_numerator_bot_sep_dim=\dimen306
-\l__xfrac_numerator_top_sep_dim=\dimen307
-\l__xfrac_slash_left_sep_dim=\dimen308
-\l__xfrac_slash_right_sep_dim=\dimen309
+\l__xfrac_denominator_bot_sep_dim=\dimen299
+\l__xfrac_numerator_bot_sep_dim=\dimen300
+\l__xfrac_numerator_top_sep_dim=\dimen301
+\l__xfrac_slash_left_sep_dim=\dimen302
+\l__xfrac_slash_right_sep_dim=\dimen303
 \l__xfrac_slash_left_muskip=\muskip23
 \l__xfrac_slash_right_muskip=\muskip24
 
@@ -1010,67 +1001,67 @@ LaTeX template Info: Declaring instance 'cmtt' of type xfrac on line 392.
 
 ) (c:/texlive/2025/texmf-dist/tex/latex/units/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
-\L@UnitsRaiseDisplaystyle=\skip97
-\L@UnitsRaiseTextstyle=\skip98
-\L@UnitsRaiseScriptstyle=\skip99
+\L@UnitsRaiseDisplaystyle=\skip103
+\L@UnitsRaiseTextstyle=\skip104
+\L@UnitsRaiseScriptstyle=\skip105
 ) (c:/texlive/2025/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
 File: pgflibraryarrows.meta.code.tex 2025-08-29 v3.1.11a (3.1.11a)
-\pgfarrowinset=\dimen310
-\pgfarrowlength=\dimen311
-\pgfarrowwidth=\dimen312
-\pgfarrowlinewidth=\dimen313
+\pgfarrowinset=\dimen304
+\pgfarrowlength=\dimen305
+\pgfarrowwidth=\dimen306
+\pgfarrowlinewidth=\dimen307
 )
 Package: chemformula 2022/01/23 v4.17 typeset chemical compounds and reactions (CN)
-\l__chemformula_tmpa_dim=\dimen314
-\l__chemformula_tmpb_dim=\dimen315
-\l__chemformula_tmpc_dim=\dimen316
+\l__chemformula_tmpa_dim=\dimen308
+\l__chemformula_tmpb_dim=\dimen309
+\l__chemformula_tmpc_dim=\dimen310
 \l__chemformula_tmpa_int=\count498
 \l__chemformula_tmpb_int=\count499
 \l__chemformula_tmpc_int=\count500
 \l__chemformula_tmpa_box=\box84
 \l__chemformula_tmpb_box=\box85
-\l__chemformula_arrow_length_dim=\dimen317
-\l__chemformula_arrow_label_height_dim=\dimen318
-\l__chemformula_arrow_label_offset_dim=\dimen319
-\l__chemformula_arrow_minimum_length_dim=\dimen320
-\l__chemformula_arrow_shortage_dim=\dimen321
-\l__chemformula_arrow_offset_dim=\dimen322
-\l__chemformula_arrow_yshift_dim=\dimen323
-\l__chemformula_radical_radius_dim=\dimen324
-\l__chemformula_radical_hshift_dim=\dimen325
-\l__chemformula_radical_vshift_dim=\dimen326
-\l__chemformula_radical_space_dim=\dimen327
-\l__chemformula_arrow_head_dim=\dimen328
-\l__chemformula_name_dim=\dimen329
-\l__chemformula_adduct_space_dim=\dimen330
-\l__chemformula_charge_shift_dim=\dimen331
-\l__chemformula_subscript_shift_dim=\dimen332
-\l__chemformula_superscript_shift_dim=\dimen333
-\l__chemformula_subscript_dim=\dimen334
-\l__chemformula_superscript_dim=\dimen335
-\l__chemformula_bond_dim=\dimen336
-\l__chemformula_bond_space_dim=\dimen337
-\l__chemformula_elspec_pair_distance_dim=\dimen338
-\l__chemformula_elspec_pair_line_length_dim=\dimen339
-\l__chemformula_elspec_pair_width_dim=\dimen340
-\l__chemformula_kroegervink_positive_radius_dim=\dimen341
-\l__chemformula_kroegervink_positive_hshift_dim=\dimen342
-\l__chemformula_kroegervink_positive_vshift_dim=\dimen343
-\l__chemformula_kroegervink_positive_space_dim=\dimen344
-\l__chemformula_stoich_space_skip=\skip100
-\l__chemformula_math_space_skip=\skip101
-\l__chemformula_additions_symbol_space_skip=\skip102
+\l__chemformula_arrow_length_dim=\dimen311
+\l__chemformula_arrow_label_height_dim=\dimen312
+\l__chemformula_arrow_label_offset_dim=\dimen313
+\l__chemformula_arrow_minimum_length_dim=\dimen314
+\l__chemformula_arrow_shortage_dim=\dimen315
+\l__chemformula_arrow_offset_dim=\dimen316
+\l__chemformula_arrow_yshift_dim=\dimen317
+\l__chemformula_radical_radius_dim=\dimen318
+\l__chemformula_radical_hshift_dim=\dimen319
+\l__chemformula_radical_vshift_dim=\dimen320
+\l__chemformula_radical_space_dim=\dimen321
+\l__chemformula_arrow_head_dim=\dimen322
+\l__chemformula_name_dim=\dimen323
+\l__chemformula_adduct_space_dim=\dimen324
+\l__chemformula_charge_shift_dim=\dimen325
+\l__chemformula_subscript_shift_dim=\dimen326
+\l__chemformula_superscript_shift_dim=\dimen327
+\l__chemformula_subscript_dim=\dimen328
+\l__chemformula_superscript_dim=\dimen329
+\l__chemformula_bond_dim=\dimen330
+\l__chemformula_bond_space_dim=\dimen331
+\l__chemformula_elspec_pair_distance_dim=\dimen332
+\l__chemformula_elspec_pair_line_length_dim=\dimen333
+\l__chemformula_elspec_pair_width_dim=\dimen334
+\l__chemformula_kroegervink_positive_radius_dim=\dimen335
+\l__chemformula_kroegervink_positive_hshift_dim=\dimen336
+\l__chemformula_kroegervink_positive_vshift_dim=\dimen337
+\l__chemformula_kroegervink_positive_space_dim=\dimen338
+\l__chemformula_stoich_space_skip=\skip106
+\l__chemformula_math_space_skip=\skip107
+\l__chemformula_additions_symbol_space_skip=\skip108
 \l__chemformula_count_tokens_int=\count501
 \g__chemformula_lewis_int=\count502
 \l__chemformula_arrow_arg_i_box=\box86
 \l__chemformula_arrow_arg_ii_box=\box87
 \l__chemformula_superscript_box=\box88
 \l__chemformula_subscript_box=\box89
-\l__chemformula_plus_space_skip=\skip103
-\l__chemformula_minus_space_skip=\skip104
+\l__chemformula_plus_space_skip=\skip109
+\l__chemformula_minus_space_skip=\skip110
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 46.
-Package hyperref Info: Option `linktocpage' set `true' on input line 46.
+Package hyperref Info: Option `colorlinks' set `true' on input line 39.
+Package hyperref Info: Option `linktocpage' set `true' on input line 39.
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
@@ -1082,53 +1073,52 @@ Class scrartcl Info: loading recommended package `bookmark'.
 (scrartcl)           `bookmarkpackage=false' before \begin{document} and
 (scrartcl)           you can avoid this message adding:
 (scrartcl)             \usepackage{bookmark}
-(scrartcl)           before \begin{document} on input line 89.
-
-(c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
+(scrartcl)           before \begin{document} on input line 82.
+ (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bookmark.sty
 Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count503
-)) (./Diffusion_A05-v01.aux)
-\openout1 = `Diffusion_A05-v01.aux'.
+)) (./MDGE.aux)
+\openout1 = `MDGE.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 89.
-LaTeX Font Info:    ... okay on input line 89.
-Package scrbase Info: activating english \abstractname on input line 89.
-Package scrbase Info: activating english \partname on input line 89.
-Package scrbase Info: activating english \figurename on input line 89.
-Package scrbase Info: activating english \tablename on input line 89.
-Package scrbase Info: activating english \contentsname on input line 89.
-Package scrbase Info: activating english \listfigurename on input line 89.
-Package scrbase Info: activating english \listtablename on input line 89.
-Package scrbase Info: activating english \refname on input line 89.
-Package scrbase Info: activating english \indexname on input line 89.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 82.
+LaTeX Font Info:    ... okay on input line 82.
+Package scrbase Info: activating english \abstractname on input line 82.
+Package scrbase Info: activating english \partname on input line 82.
+Package scrbase Info: activating english \figurename on input line 82.
+Package scrbase Info: activating english \tablename on input line 82.
+Package scrbase Info: activating english \contentsname on input line 82.
+Package scrbase Info: activating english \listfigurename on input line 82.
+Package scrbase Info: activating english \listtablename on input line 82.
+Package scrbase Info: activating english \refname on input line 82.
+Package scrbase Info: activating english \indexname on input line 82.
  (c:/texlive/2025/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count504
-\scratchdimen=\dimen345
+\scratchdimen=\dimen339
 \scratchbox=\box90
 \nofMPsegments=\count505
 \nofMParguments=\count506
 \everyMPshowfont=\toks45
 \MPscratchCnt=\count507
-\MPscratchDim=\dimen346
+\MPscratchDim=\dimen340
 \MPnumerator=\count508
 \makeMPintoPDFobject=\count509
 \everyMPtoPDFconversion=\toks46
@@ -1138,168 +1128,25 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (c:/texlive/2025/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 89.
+Package hyperref Info: Link coloring ON on input line 82.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: a4paper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(71.13188pt, 436.7489pt, 89.62709pt)
-* v-part:(T,H,B)=(85.35826pt, 658.28194pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=436.7489pt
-* \textheight=658.28194pt
-* \oddsidemargin=-1.1381pt
-* \evensidemargin=-1.1381pt
-* \topmargin=-26.78673pt
-* \headheight=18.125pt
-* \headsep=21.75pt
-* \topskip=12.0pt
-* \footskip=50.75pt
-* \marginparwidth=49.79233pt
-* \marginparsep=12.8401pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
-(c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape.sty
-Package: pdflscape 2025-06-23 v0.14 Display of landscape pages in PDF
- (c:/texlive/2025/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
-Package: pdflscape-nometadata 2025-06-23 v0.14 Display of landscape pages in PDF (HO)
- (c:/texlive/2025/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
-Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)) (c:/texlive/2025/texmf-dist/tex/latex/translations/translations-basic-dictionary-english.trsl
-File: translations-basic-dictionary-english.trsl (english translation file `translations-basic-dictionary')
-)
-Package translations Info: loading dictionary `translations-basic-dictionary' for `english'. on input line 89.
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: End \AtBeginDocument code.
-Package biblatex Info: Trying to load language 'english'...
-Package biblatex Info: ... file 'english.lbx' found.
- (c:/texlive/2025/texmf-dist/tex/latex/biblatex/lbx/english.lbx
-File: english.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Input encoding 'utf8' detected.
-Package biblatex Info: Automatic encoding selection.
-(biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Diffusion_A05-v01.bcf'.
-
-Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Diffusion_A05-v01.bbl' found.
- (./Diffusion_A05-v01.bbl)
-Package biblatex Info: Reference section=0 on input line 89.
-Package biblatex Info: Reference segment=0 on input line 89.
-
-Package chemgreek Info: Activating mapping `default' on line 89.
-
-LaTeX Font Info:    Trying to load font information for U+msa on input line 104.
- (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 104.
- (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [1
-
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Diffusion_A05-v01.toc)
-\tf@toc=\write5
-\openout5 = `Diffusion_A05-v01.toc'.
-
- [2]
-<Bilder/profiles.png, id=68, 333.04425pt x 320.99925pt>
-File: Bilder/profiles.png Graphic file (type png)
-<use Bilder/profiles.png>
-Package pdftex.def Info: Bilder/profiles.png  used on input line 181.
-(pdftex.def)             Requested size: 283.88411pt x 273.62453pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/MDGE/MDGE.tex:82: I can't write on file `MDGE.pdf'.
+(Press Enter to retry, or Control-Z to exit; default file extension is `.pdf')
+Please type another file name for output
+c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/MDGE/MDGE.tex:82: Emergency stop.
 <to be read again> 
-                   \relax 
-l.185 
-       [1
+                   \edef 
+l.82 \begin{document}
+                     
+*** (job aborted, file error in nonstop mode)
 
-]
-<Bilder/setup.png, id=92, 159.59625pt x 114.4275pt>
-File: Bilder/setup.png Graphic file (type png)
-<use Bilder/setup.png>
-Package pdftex.def Info: Bilder/setup.png  used on input line 196.
-(pdftex.def)             Requested size: 196.53566pt x 140.9126pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.202 \begin{equation}
-                       [2 <./Bilder/profiles.png> <./Bilder/setup.png>]
-<Bilder/setupcam.png, id=111, 316.18124pt x 142.131pt>
-File: Bilder/setupcam.png Graphic file (type png)
-<use Bilder/setupcam.png>
-Package pdftex.def Info: Bilder/setupcam.png  used on input line 221.
-(pdftex.def)             Requested size: 371.23923pt x 166.89331pt.
- [3{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc} <./Bilder/setupcam.png>]
-<DIFF/NaCl/beispieldata.pdf, id=125, 462.52798pt x 346.89601pt>
-File: DIFF/NaCl/beispieldata.pdf Graphic file (type pdf)
-<use DIFF/NaCl/beispieldata.pdf>
-Package pdftex.def Info: DIFF/NaCl/beispieldata.pdf  used on input line 262.
-(pdftex.def)             Requested size: 371.23923pt x 278.44348pt.
- [4] [5 <./DIFF/NaCl/beispieldata.pdf>]
-<DIFF/NaCl/GraphNacl.png, id=157, 361.131pt x 217.248pt>
-File: DIFF/NaCl/GraphNacl.png Graphic file (type png)
-<use DIFF/NaCl/GraphNacl.png>
-Package pdftex.def Info: DIFF/NaCl/GraphNacl.png  used on input line 300.
-(pdftex.def)             Requested size: 371.23923pt x 223.33037pt.
- [6 <./DIFF/NaCl/GraphNacl.png>] [7]
-<DIFF/KCl/graphkcl.png, id=180, 361.35pt x 217.905pt>
-File: DIFF/KCl/graphkcl.png Graphic file (type png)
-<use DIFF/KCl/graphkcl.png>
-Package pdftex.def Info: DIFF/KCl/graphkcl.png  used on input line 378.
-(pdftex.def)             Requested size: 371.23923pt x 223.86943pt.
- [8] [9 <./DIFF/KCl/graphkcl.png>]
-<DIFF/ZnSO4/graphznso4.png, id=196, 361.35pt x 213.087pt>
-File: DIFF/ZnSO4/graphznso4.png Graphic file (type png)
-<use DIFF/ZnSO4/graphznso4.png>
-Package pdftex.def Info: DIFF/ZnSO4/graphznso4.png  used on input line 452.
-(pdftex.def)             Requested size: 371.23923pt x 218.91956pt.
- [10] [11 <./DIFF/ZnSO4/graphznso4.png>]
-Overfull \hbox (1.57742pt too wide) in paragraph at lines 477--482
-\T1/cmr/m/n/12 The mea-sured dif-fu-sion con-stants $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 1\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 414 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$\T1/cmr/m/n/12 , $\OML/cmm/m/it/12 D[] \OT1/cmr/m/n/12 = 6\OML/cmm/m/it/12 :\OT1/cmr/m/n/12 636 \OMS/cmsy/m/n/12 ^^A \OT1/cmr/m/n/12 10[] []$
- []
-
-[12] [13] [14] (./Diffusion_A05-v01.aux)
- ***********
-LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-14>
- ***********
-Package logreq Info: Writing requests to 'Diffusion_A05-v01.run.xml'.
-\openout1 = `Diffusion_A05-v01.run.xml'.
-
- ) 
+ 
 Here is how much of TeX's memory you used:
- 42792 strings out of 467537
- 907014 string characters out of 5423703
- 1858962 words of memory out of 5000000
- 71096 multiletter control sequences out of 15000+600000
- 647174 words of font info for 80 fonts, out of 8000000 for 9000
+ 39775 strings out of 467537
+ 838450 string characters out of 5423703
+ 1574510 words of memory out of 5000000
+ 68215 multiletter control sequences out of 15000+600000
+ 628783 words of font info for 42 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,11272b,2081s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0600.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb>
-Output written on Diffusion_A05-v01.pdf (16 pages, 542655 bytes).
-PDF statistics:
- 388 PDF objects out of 1000 (max. 8388607)
- 298 compressed objects within 3 object streams
- 61 named destinations out of 1000 (max. 500000)
- 144 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 108i,1n,108p,11259b,341s stack positions out of 10000i,1000n,20000p,200000b,200000s
+c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/MDGE/MDGE.tex:82:  ==> Fatal error occurred, no output PDF file produced!
