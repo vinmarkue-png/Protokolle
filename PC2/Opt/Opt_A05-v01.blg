@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
-[0] Config.pm:331> INFO - Logfile is 'Opt_A05-v01.blg'
-[151] biber-MSWIN64:342> INFO - === 
-[208] Biber.pm:421> INFO - Reading 'Opt_A05-v01.bcf'
-[355] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[372] Biber.pm:4487> INFO - Processing section 0
-[386] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
-[474] bibtex.pm:1713> INFO - LaTeX decoding ...
-[482] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
-[548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[548] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[548] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
-[548] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[550] bbl.pm:676> INFO - Writing 'Opt_A05-v01.bbl' with encoding 'UTF-8'
-[551] bbl.pm:779> INFO - Output to Opt_A05-v01.bbl
+[1] Config.pm:331> INFO - Logfile is 'Opt_A05-v01.blg'
+[197] biber-MSWIN64:342> INFO - === 
+[272] Biber.pm:421> INFO - Reading 'Opt_A05-v01.bcf'
+[512] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[540] Biber.pm:4487> INFO - Processing section 0
+[563] Biber.pm:4678> INFO - Looking for bibtex file 'lit.bib' for section 0
+[685] bibtex.pm:1713> INFO - LaTeX decoding ...
+[696] bibtex.pm:1519> INFO - Found BibTeX data source 'lit.bib'
+[765] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[765] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[765] Biber.pm:4307> INFO - Sorting list 'none/global//global/global/global' of type 'entry' with template 'none' and locale 'en-US'
+[765] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[767] bbl.pm:676> INFO - Writing 'Opt_A05-v01.bbl' with encoding 'UTF-8'
+[768] bbl.pm:779> INFO - Output to Opt_A05-v01.bbl
