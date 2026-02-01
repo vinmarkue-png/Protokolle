@@ -1,12 +1,12 @@
 # Fdb version 4
-["biber Diffusion_A05-v01"] 1769004579.78644 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1769968078.38104 0
-  "Diffusion_A05-v01.bcf" 1769968077 109222 c4fdfbc80b306298d472741e7c1cf110 "pdflatex"
+["biber Diffusion_A05-v01"] 1769004579.78644 "Diffusion_A05-v01.bcf" "Diffusion_A05-v01.bbl" "Diffusion_A05-v01" 1769969200.25162 0
+  "Diffusion_A05-v01.bcf" 1769969199 109222 c4fdfbc80b306298d472741e7c1cf110 "pdflatex"
   "lit.bib" 1769002622 1723 e2966bcda4430b058012171a1f0ede27 ""
   (generated)
   "Diffusion_A05-v01.bbl"
   "Diffusion_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1769968070.96433 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1769968078.38248 0
+["pdflatex"] 1769969192.08378 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" "Diffusion_A05-v01.pdf" "Diffusion_A05-v01" 1769969200.25298 0
   "Bilder/profiles.png" 1768773897 26456 2dbb0b34644d993de9564a76278eb2ab ""
   "Bilder/setup.png" 1768773897 10469 18fd32d521347747f0eb4efba6168a32 ""
   "Bilder/setupcam.png" 1768773897 16613 ec79c9abb64cc34266060a294dba14d0 ""
@@ -14,12 +14,12 @@
   "DIFF/NaCl/GraphNacl.png" 1768855130 27204 d80929139addbb0deabfddb55600f71c ""
   "DIFF/NaCl/beispieldata.pdf" 1769466207 39239 bb2f4b2111daaf246df2c5d29ca5a31a ""
   "DIFF/ZnSO4/graphznso4.png" 1768855090 23869 0a5c1be625805480bfcefc60c230fa43 ""
-  "Diffusion_A05-v01.aux" 1769968077 10188 c202c35272d1bcb5e64159aae4a2dd4e "pdflatex"
+  "Diffusion_A05-v01.aux" 1769969199 10188 619e1d19048a8e44ef26c8aed9182c33 "pdflatex"
   "Diffusion_A05-v01.bbl" 1769004583 8406 b593f8c8f78ae6e847bd26928b8a7b95 "biber Diffusion_A05-v01"
-  "Diffusion_A05-v01.run.xml" 1769968077 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
-  "Diffusion_A05-v01.tex" 1769968054 27369 76850ca224289da123e9525836fdea7d ""
-  "Diffusion_A05-v01.toc" 1769968077 978 4eea9acfdf198c81973ed8b894dbb510 "pdflatex"
-  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1769968054 27369 76850ca224289da123e9525836fdea7d ""
+  "Diffusion_A05-v01.run.xml" 1769969199 2498 e161c92d8db0bd74d183df0c801554c3 "pdflatex"
+  "Diffusion_A05-v01.tex" 1769969190 28329 db440c2e49f66d601255249bdbef6222 ""
+  "Diffusion_A05-v01.toc" 1769969199 978 4eea9acfdf198c81973ed8b894dbb510 "pdflatex"
+  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Diff/Diffusion_A05-v01.tex" 1769969190 28329 db440c2e49f66d601255249bdbef6222 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1765623789 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
