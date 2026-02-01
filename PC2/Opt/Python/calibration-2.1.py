@@ -14,10 +14,10 @@ from scipy.interpolate import interp1d
 # Filenames for input data
 # Change the names of the files here to use the files you want for calibration
 # Make sure the files are located in the same directory as this script
-lamp_file = 'Lamp2.txt'  # Reference file for lamp
-bandfilter_file = 'filter.txt'  # Measured bandpass filter data
-bandfilter_transmission_file = 'bandfilter-transmission.txt'  # Theoretical transmission data for the bandpass filter
-
+# Ändere diese Zeilen so ab (relativ zum Skript-Standort):
+lamp_file = "lampe/Lamp2.txt"
+bandfilter_file = "filter/filter.txt"
+bandfilter_transmission_file = "bandfilter-transmission.txt"
 # Calibration parameters
 # scale: Adjusts the intensity of the transmission spectrum to normalize it
 # Recommended range: 1–2 (or as needed)
@@ -32,7 +32,7 @@ deltaAlpha = 0.59
 
 
 # Filenames for output files
-vergleich_plot_file = 'calibration.pdf'
+# vergleich_plot_file = 'calibration.pdf'
 
 ###################################
 # Do not modify code below this line!
