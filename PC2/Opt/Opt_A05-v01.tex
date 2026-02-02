@@ -224,8 +224,7 @@ To evaluate the measuring setup the spectrum of the used lightsource with and it
     \label{fig: filter}
 \end{figure}
 
-Using \autoref{eq: alpha2} the number of steps is converted into the wavelength $\lambda$.
-
+Using \autoref{eq: alpha2} the number of steps is converted into the wavelength $\lambda$. To adjust the paramers of the parameter scale, $f$ and $\Delta \alpha$ the transmission of said bandpassfilterwas plotted over the wavelength together with the transmission spectrum for a theoretical, ideal bandpassfilter. The values were adjusted as in chapter 2 described. As a result of the adjustment the two spectra are plotted in \autoref{fig: filter2}
 
 \begin{figure}[H]
     \centering
@@ -234,10 +233,12 @@ Using \autoref{eq: alpha2} the number of steps is converted into the wavelength 
     \label{fig: filter2}
 \end{figure}
 
+To interpret the taken spectra, the transmission spectra are also converted into absorption spectra. The absorption spectrum of the used bandpass filter is plotted in \autoref{fig: filter3}. This conversion is essential to establish a linear relationship between the measured signal and the concentration of the sample, according to the Beer-Lambert law. Furthermore, the filter's characteristic absorption bands allow for a precise verification of the spectrometer's wavelength accuracy across the relevant spectral range.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.85\textwidth]{data/absorption_filter.pdf}
-    \caption{The overlayed transmittance spectra of the measured and commercial bandpassfilter} 
+    \caption{The absorption spectrum of the bandpassfilter} 
     \label{fig: filter3}
 \end{figure}
 
@@ -245,20 +246,38 @@ Using \autoref{eq: alpha2} the number of steps is converted into the wavelength 
 
 
 
-
-
-
-
-
-
 \subsection{Potassium permanganate spectra}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{kmno4/KMnO4_abs.pdf}
+    \caption{Absorption spectrum of an aqueous potassium permanganate solution.} 
+    \label{fig: KMnO4_abs}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{kmno4/KMnO4_trans.pdf}
+    \caption{Transmission spectrum of an aqueous potassium permanganate solution.} 
+    \label{fig: KMnO4_trans}
+\end{figure}
 
 \subsection{Chlorophyll spectra}
 
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Chloro/chloro_absorption.pdf}
+    \caption{The absorbance spectra of the five measured chlorophyll solutions} 
+    \label{fig: Chloro_abs}
+\end{figure}
 
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.85\textwidth]{Chloro/chloro_transmission.pdf}
+    \caption{The transmission spectra of the five measured chlorophyll solutions} 
+    \label{fig: Chloro_trans}
+\end{figure}
 
 \newpage
 \subsection{Holmium oxide spectra}
@@ -386,7 +405,7 @@ The calculated FWHM values for the three main absorption peaks at different slit
 	\end{tabular}
 \end{table}
 
-The resolution of the spectra for the different slit widths is calculated by inserting the full width at half maximum (FWHM) with the extracted position of the absorption peak into \autoref{eq: R}.
+The resolution of the spectra for the different slit widths is calculated by inserting the full width at half maximum (FWHM) with the extracted position of the absorption peak into 
 \begin{equation}
 	R = \frac{\lambda}{\Delta \lambda} = \mathrm{\frac{pos}{FWHM}}
 	\label{eq: R2}

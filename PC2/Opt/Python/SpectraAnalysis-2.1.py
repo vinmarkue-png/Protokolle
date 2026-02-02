@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 from scipy.interpolate import interp1d
-
+import os 
 # ===========================
 # BENUTZER-EDITIERBARE VARIABLEN
 # ===========================
@@ -78,17 +78,17 @@ for fname, (xData, yData) in data_dict.items():
 df_roh = pd.DataFrame(rohdaten_dict)
 df_roh.to_csv("Rohdaten.csv", index=False, sep=';', decimal=',')
 
-# Plot der Rohdaten (Schrittzahl vs. Intensität)
-plt.clf()
+# # Plot der Rohdaten (Schrittzahl vs. Intensität)
+# plt.clf()
 
-plt.figure()
-plt.title("Rohdaten in Schrittzahl")
-plt.xlabel("Schrittzahl")
-plt.ylabel("Intensität (arb.u.)")
+# plt.figure()
+# plt.title("Rohdaten in Schrittzahl")
+# plt.xlabel("Schrittzahl")
+# plt.ylabel("Intensität (arb.u.)")
 
 for fname, (xData, yData) in data_dict.items():
     plt.plot(xData, yData, label=fname)
-plt.legend()
+# plt.legend()
 
 
 # =====================================
@@ -130,18 +130,20 @@ df_ausw.to_csv("Auswertung Daten.csv", index=False, sep=';', decimal=',')
 
 # Plot der verarbeiteten Daten (Wellenlänge vs. Intensität)
 plt.figure()
-plt.title("Rohdaten in Wellenlänge")
+plt.title("Spektroskopische Auswertung: Chloro") # Etwas schönerer Titel
 plt.xlabel("Wellenlänge (nm)")
-plt.ylabel("Intensität (arb.u.)")
-
-
+plt.ylabel("Intensität (arb. u.)")
 
 for fname, (xData, yData) in data_dict.items():
     Alpha = -faktor * xData + deltaAlpha
-    Lambda = (np.sin(Alpha + theta) + np.sin(Alpha)) / 1200 * 1e6  # in nm
-    plt.plot(Lambda, yData, label=fname)
+    Lambda = (np.sin(Alpha + theta) + np.sin(Alpha)) / 1200 * 1e6
     
-plt.legend()
+    # Hier wird der Name gekürzt:
+    label_name = os.path.basename(fname).replace(".txt", "") 
+    plt.plot(Lambda, yData, label=label_name, linewidth = 0.5)
+
+plt.legend(loc='upper right', fontsize=9)
+plt.grid(True, linestyle='--', alpha=0.6) # Hilfreich für Protokolle
 plt.show()
 
 

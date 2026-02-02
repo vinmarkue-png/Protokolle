@@ -17,7 +17,7 @@ from scipy.interpolate import interp1d
 # Ändere diese Zeilen so ab (relativ zum Skript-Standort):
 lamp_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\lampe\Lamp2.txt"
 bandfilter_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\filter.txt"
-bandfilter_transmission_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\bandfilter-transmission.txt"
+# bandfilter_transmission_file = r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\bandfilter-transmission.txt"
 # Calibration parameters
 # scale: Adjusts the intensity of the transmission spectrum to normalize it
 # Recommended range: 1–2 (or as needed)

@@ -9,8 +9,8 @@ import matplotlib.pyplot as plt      #Plotten
  # "./data/WATER.txt",
  # "./data/KMnO4-DILUTED.txt"
 #
-p1=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\lamp.txt"
-p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\KMnO4-HIGH-CONC.txt"
+p1=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\WATER.txt"
+p2=r"C:\Users\49157\OneDrive\Desktop\Protokolle\PC2\Opt\data\KMnO4-DILUTED.txt"
 # p2=r"./data/KMnO4-HIGH-CONC.txt"
 
 
@@ -45,7 +45,7 @@ Lambda = (np.sin(Alpha + theta) + np.sin(Alpha)) / 1200 * 1e6
 
   
 # If the plot area needs to be restricted, please enable this area.
-xmin, xmax = 400, 800
+xmin, xmax = 200, 900
 ymin, ymax = 0,0.6
 # mask = (Lambda >= xmin) & (Lambda <= xmax)
 #
@@ -70,31 +70,31 @@ plt.plot(Lambda, yData1, label='Background')
 plt.plot(Lambda, yData2, label='Sample')
 plt.xlabel('$\lambda$ / nm')
 plt.ylabel('Intensity')
+plt.xlim(xmin, xmax)
 plt.legend()
 plt.tight_layout()
-plt.xlim(xmin, xmax)
 
 plt.show() # Öffnet das erste Fenster
 
 # --- Plot 2: Transmission ---
 plt.figure(figsize=(8, 5))
-plt.plot(Lambda, yData2_trans, color='orange')
-plt.title('Transmission Spectrum of water')
+plt.plot(Lambda, yData2_trans, color='black')
 plt.xlabel('$\lambda$ / nm')
 plt.ylabel('Transmission')
 plt.tight_layout()
 plt.xlim(xmin, xmax)
+
 plt.show() # Öffnet das zweite Fenster
 
 # --- Plot 3: Absorption ---
 plt.figure(figsize=(8, 5))
-plt.plot(Lambda, yData2_abs, label='Sample', color='red')
-plt.title('Absorption Spectrum of water')
+plt.plot(Lambda, yData2_abs, label='Sample', color='black')
 plt.xlabel('$\lambda$ / nm')
 plt.ylabel('Absorption (A)')
 plt.grid(True, linestyle=':', alpha=0.6)
 plt.tight_layout()
 plt.xlim(xmin, xmax)
+
 plt.show() # Öffnet das dritte Fenster
 
 # --- Export-Teil (CSV-Dateien schreiben) ---
