@@ -127,7 +127,11 @@
 
 
 \textbf{Abstract:}
-In this experiment, 
+In this experiment, a DIY spectrometer with a rotatable grating was used to measure the absorption spectra of different samples, including potassium permanganate, chlorophyll and holmium oxide in nitric acid. 
+% KMnO4: ligand-to-metal charge transfer (LMCT) 
+% und Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
+
+For holmium oxide in nitric acid, three absorption peaks of $f \rightarrow f$ transitions between $4f$ orbitals of holmium were measured and analyzed with a four-fold Lorentzian model fit. With decreasing slit width, the resolution of the spectrometer increased from $R_{\mathrm{6-turns}} = 26.6$ to $R_{\mathrm{3-turns}} = R_{\mathrm{1.5-turns}} = 38.3$, as indicated by the decreasing FWHM of the absorption peaks at 460.5 nm and 547.5 nm and the decreasing amplitude of the peak at 547.5 nm.
 \end{titlepage}
 
 
@@ -178,6 +182,12 @@ Where $k$ is the order of diffraction, $\lambda$ is the wavelength and $d$ is th
 \end{figure}
 
 The figure shows, that the light from a LED passes trough a condenser and iris diaphragm, which collimate the light and regulate the intensity of the light used in the measurements. Afterwards it passes trough two lenses, where the first lens refracts it back into parallel beams and the second focuses it again. The focused light then passes the entrance slit, as well as the sample, which is positioned directly behind the slit. After that it gets reflected by a mirror onto the rotating reflexion grating, where it gets reflected to another mirror. After that it passes trough the exit slit and another lens to be focused onto the detector.
+The resolution of the spectrometer can be calculated using \autoref{eq: R}.
+\begin{equation}
+	R = \frac{\lambda}{\Delta \lambda} = k \cdot N
+	\label{eq: R}
+\end{equation}
+$\Delta \lambda$ is the smallest difference in wavelength that can be resolved at a wavelength $\lambda$ and $N$ is the total number of illuminated slits on the grating.
 
 \subsection{Grating Equation for a Rotatable Grating}
 
@@ -206,7 +216,7 @@ The rotation angle can now be used to calculate the outgoing wavelength of the l
 The DIY spectrometer was already built prior to the start of the experiment as shown in \autoref{fig: setup} and was set up so that the zeroth diffraction order was centered on the exit slit. First, the reference spectrum of the lamp was recorded with the Python script \texttt{Spektrometersoftware.py}, using a step count of 6000 and a stepping speed of 1000 steps per second.
 Then the bandpass filter was inserted between the entrance slit and the concave mirror and the spectrum of the filtered light was recorded. For calibration, the transmission spectrum was compared to theoretical transmission data using the Python script \texttt{calibration.py} and the parameters scale, $f$ and $\Delta \alpha$ were adjusted according to \autoref{eq: alpha2} to fit the measured spectrum to the theoretical spectrum. For all subsequent measurements, the calibration parameters scale $= 1.0$, $f = 0.925$ and $\Delta \alpha = 0.59$ were used. \\
 Next, a cuvette was filled with distilled water and placed between exit slit and concave mirror. The spectrum was recorded and used as a reference for the potassium permanganate and chlorophyll solutions. After replacing the water cuvette with a cuvette filled with concentrated and then diluted potassium permanganate solution, their spectrum were recorded separately.
-In the next part, a single drop of chlorophyll solution was added to the water cuvette and the spectrum was recorded. Then, another drop was added and the spectrum recorded again. This was repeated until a total of five drops were added to the cuvette.
+In the next part, a single drop of chlorophyll solution was added to the water cuvette and the spectrum was recorded. Then, another drop was added and the spectrum recorded again. This was repeated until a total of five drops were added to the cuvette. \\
 In the last part of the experiment, both slits were closed first, then the entrance slit was opened by half a turn and the exit slit by 6 turns. Then the background spectra of pure nitric acid and the solution of holmium oxide in nitric acid were recorded separately. This was repeated with the exit slit opened by 3 turns and one and a half turn, respectively. 
 
 
@@ -215,7 +225,7 @@ In the last part of the experiment, both slits were closed first, then the entra
 
 \subsection{Lamp and filter spectra}
 
-To evaluate the measuring setup the spectrum of the used lightsource with and ithout filter is plotted in \autoref{fig: filter}.
+To evaluate the measuring setup the spectrum of the used lightsource with and without filter is plotted in \autoref{fig: filter}.
 
 \begin{figure}[H]
     \centering
@@ -255,28 +265,31 @@ Using \autoref{eq: alpha2} the number of steps is converted into the wavelength 
 
 
 
+% KMnO4: ligand-to-metal charge transfer (LMCT) 
+
+
 \subsection{Chlorophyll spectra}
 
 
-
+% Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
 
 \newpage
 \subsection{Holmium oxide spectra}
-The absorption spectra of Holmium oxide in nitric acid for different exit slit widths are generated from the measured transmission spectra analog to the spectra of \ch{KMnO4} und Chlorophyll and are plotted together in \autoref{fig: Holm}.
+The absorption spectra of holmium oxide in nitric acid for different exit slit widths are generated from the measured transmission spectra analog to the spectra of \ch{KMnO4} und Chlorophyll and are plotted together in \autoref{fig: Holm}.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1.0\textwidth]{Holm/Holm_spektrum.pdf}
-    \caption{Absorption spectrum of Holmium oxide in nitric acid for different exit slit widths between 400 and 800 nm.} 
+    \caption{Absorption spectrum of holmium oxide in nitric acid for different exit slit widths between 400 and 800 nm.} 
     \label{fig: Holm}
 \end{figure}
-All three spectra show three distinct absorption peaks around 460 nm, 545 nm and 650 nm. With decreasing slit width, the absorption peaks become narrower and more pronounced. 
-The absorption spectrum of Holmium oxide with an exit slit of 1.5 turns shows additional oscillations, which can be attributed to noise due to the lower light intensity reaching the detector at this slit width. \\
+All three spectra show three distinct absorption peaks at around 460 nm, 545 nm and 650 nm, which can be assigned to $f \rightarrow f$ transitions between $4f$ orbitals of holmium. With decreasing slit width, the absorption peaks become narrower and more pronounced. 
+The absorption spectrum of holmium oxide with an exit slit of 1.5 turns shows additional oscillations, which can be attributed to noise due to the lower light intensity reaching the detector at this slit width. \\
 To analyze the absorption peaks further, a four-fold Lorentzian model is fitted to each of the three spectra. The fitted curves are shown together with the measured spectra in \autoref{fig: lorentz_6}, \autoref{fig: lorentz_3} and \autoref{fig: lorentz_1.5}.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Holm/lorentz_6.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 6 turns between 400 and 700 nm.} 
+    \caption{Absorption signals of holmium oxide in nitric acid with a four-fold Lorentzian model fit for 6 turns between 400 and 700 nm.} 
     \label{fig: lorentz_6}
 \end{figure}
 
@@ -284,7 +297,7 @@ To analyze the absorption peaks further, a four-fold Lorentzian model is fitted 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Holm/lorentz_3.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 3 turns between 400 and 700 nm.} 
+    \caption{Absorption signals of holmium oxide in nitric acid with a four-fold Lorentzian model fit for 3 turns between 400 and 700 nm.} 
     \label{fig: lorentz_3}
 \end{figure}
 
@@ -292,7 +305,7 @@ To analyze the absorption peaks further, a four-fold Lorentzian model is fitted 
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.8\textwidth]{Holm/lorentz_1.5.pdf}
-    \caption{Absorption signals of Holmium oxide in nitric acid with a four-fold Lorentzian model fit for 1.5 turns between 400 and 700 nm.} 
+    \caption{Absorption signals of holmium oxide in nitric acid with a four-fold Lorentzian model fit for 1.5 turns between 400 and 700 nm.} 
     \label{fig: lorentz_1.5}
 \end{figure}
 
@@ -329,7 +342,7 @@ To analyze the absorption peaks further, a four-fold Lorentzian model is fitted 
 The extracted fit parameters, namely the position, half width at half maximum (HWHM, gam) and the peak amplitude of the three main absorption peaks for 6 turns in \autoref{fig: lorentz_6} are summarized in \autoref{tab: 6}.
 \begin{table}[H]
 	\centering
-	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 6 turns.}
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of holmium oxide in nitric acid with an exit slit width of 6 turns.}
 	\begin{tabular}{c|c|c}
 		pos / nm & gam / nm & amp / a.u. \\
 		\hline
@@ -342,7 +355,7 @@ The extracted fit parameters, namely the position, half width at half maximum (H
 The corresponding fit parameters for the fits in \autoref{fig: lorentz_3} and \autoref{fig: lorentz_1.5} are summarized in \autoref{tab: 3} and \autoref{tab: 1.5}.
 \begin{table}[H]
 	\centering
-	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 3 turns.}
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of holmium oxide in nitric acid with an exit slit width of 3 turns.}
 	\begin{tabular}{c|c|c}
 		pos / nm & gam / nm & amp / a.u. \\
 		\hline
@@ -354,7 +367,7 @@ The corresponding fit parameters for the fits in \autoref{fig: lorentz_3} and \a
 \end{table}
 \begin{table}[H]
 	\centering
-	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of Holmium oxide in nitric acid with an exit slit width of 1.5 turns.}
+	\caption{Fit parameters of the Lorentzian model for the absorption spectrum of holmium oxide in nitric acid with an exit slit width of 1.5 turns.}
 	\begin{tabular}{c|c|c}
 		pos / nm & gam / nm & amp / a.u. \\
 		\hline
@@ -398,7 +411,12 @@ The calculation for the resolution of the spectrometer at a slit width of 6 turn
 By calculating the resolution for the slit widths of 3 turns and 1.5 turns in the same way with the mean value of the resolution for each peak from \autoref{eq: R2}, the resolution $R_{\mathrm{3-turns}} = 38.3$ and $R_{\mathrm{1.5-turns}} = 38.3$ are determined. The calculation matches the expectation that the resolution of the spectrometer increases with decreasing slit width, as less light reaches the detector and thus a more precise measurement of the absorption peaks is possible. But this trend is not observed for the reduction of the slit widths from 3 turns to 1.5 turns, indicating that a further decrease in slit width to 0.5 turns as described in the script \supercite{Skript} could have led to an even higher spectrometer resolution. 
 
 \section{Conclusion}
-In this experiment, 
+In this experiment, a DIY spectrometer with a rotatable grating was used to measure the absorption spectra of different samples, including potassium permanganate, chlorophyll and holmium oxide in nitric acid. The spectrometer was calibrated using a bandpass filter and the measured spectra were analyzed to extract information about the absorption peaks of the samples.
+% Lamp, filter, KMnO4: ligand-to-metal charge transfer (LMCT) 
+% und Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
+
+The absorption spectra of holmium oxide in nitric acid were measured at different exit slit widths and analyzed using a four-fold Lorentzian model fit. The results showed three absorption peaks of $f \rightarrow f$ transitions between $4f$ orbitals of holmium. With decreasing slit width, the resolution of the spectrometer increased from $R_{\mathrm{6-turns}} = 26.6$ to $R_{\mathrm{3-turns}} = R_{\mathrm{1.5-turns}} = 38.3$, as indicated by the decreasing FWHM of the absorption peaks at 460.5 nm and 547.5 nm and the decreasing amplitude of the peak at 547.5 nm. However, the peak amplitudes of the other two absorption peaks and the FWHM of the peak at 651.8 nm did not show a clear trend with changing slit width, which could be attributed to manual adjustments of the slit widths leading to slight misalignments of the spectrometer and thus affecting the measured intensities. Overall, the experiment demonstrated the capabilities of the DIY spectrometer and showed the characteristic wavelengths of different electronic transitions in potassium permanganate, chlorophyll and holmium oxide.
+
 
 \newpage
 

@@ -47,7 +47,7 @@ for turns in turns_list:
         absorption = -np.log10(transmission)
 
         # In den gemeinsamen Plot einfügen
-        plt.plot(lambdas, absorption, label=f'Holm {turns}')
+        plt.plot(lambdas, absorption, label=f'{turns}')
 
         # Optional: Als CSV speichern (wie im Originalcode)
         output_df = pd.DataFrame({"Lambda": lambdas, "Absorption": absorption})
