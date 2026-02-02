@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  2 FEB 2026 23:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (TeX Live 2025) (preloaded format=pdflatex 2025.12.13)  2 FEB 2026 23:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1089,56 +1089,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
  (c:/texlive/2025/texmf-dist/tex/latex/bookmark/bkm-pdftex.def
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count503
-)) (./Opt_A05-v01.aux
-
-./Opt_A05-v01.aux:45: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.45 <
-      <<<<<< HEAD
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-LaTeX Warning: Label `fig: filter' multiply defined.
-
-
-LaTeX Warning: Label `fig: filter2' multiply defined.
-
-
-LaTeX Warning: Label `fig: filter3' multiply defined.
-
-
-LaTeX Warning: Label `fig: Holm' multiply defined.
-
-
-LaTeX Warning: Label `fig: lorentz_6' multiply defined.
-
-
-LaTeX Warning: Label `fig: lorentz_3' multiply defined.
-
-
-LaTeX Warning: Label `fig: lorentz_1.5' multiply defined.
-
-
-LaTeX Warning: Label `tab: 6' multiply defined.
-
-
-LaTeX Warning: Label `tab: 3' multiply defined.
-
-
-LaTeX Warning: Label `tab: 1.5' multiply defined.
-
-
-LaTeX Warning: Label `tab: FWHM' multiply defined.
-
-
-LaTeX Warning: Label `eq: R2' multiply defined.
-
-)
+)) (./Opt_A05-v01.aux)
 \openout1 = `Opt_A05-v01.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
@@ -1257,9 +1208,6 @@ Package chemgreek Info: Activating mapping `default' on line 91.
 
 Package scrbase Info: activating english \figurename on input line 91.
 Package scrbase Info: activating english \tablename on input line 91.
- [1
-
-{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}]
 LaTeX Font Info:    Trying to load font information for U+msa on input line 106.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
@@ -1267,12 +1215,14 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 LaTeX Font Info:    Trying to load font information for U+msb on input line 106.
  (c:/texlive/2025/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [2] (./Opt_A05-v01.toc)
+) [1
+
+{c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}] (./Opt_A05-v01.toc)
 \tf@toc=\write5
 \openout5 = `Opt_A05-v01.toc'.
 
- [3]
-<grate.png, id=61, 706.64pt x 505.89pt>
+ [2]
+<grate.png, id=57, 706.64pt x 505.89pt>
 File: grate.png Graphic file (type png)
 <use grate.png>
 Package pdftex.def Info: grate.png  used on input line 157.
@@ -1285,7 +1235,7 @@ l.167 \end{equation}
                      [1
 
  <./grate.png>]
-<setup.png, id=77, 810.02625pt x 492.84125pt>
+<setup.png, id=72, 810.02625pt x 492.84125pt>
 File: setup.png Graphic file (type png)
 <use setup.png>
 Package pdftex.def Info: setup.png  used on input line 179.
@@ -1295,57 +1245,52 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has b
 <to be read again> 
                    \relax 
 l.195 
-       [2 <./setup.png>]
-pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.221 
-       [3]
-<filter/plot_mit_und_ohne_filter.pdf, id=99, 925.05597pt x 448.07399pt>
+       [2 <./setup.png>] [3]
+<filter/plot_mit_und_ohne_filter.pdf, id=95, 925.05597pt x 448.07399pt>
 File: filter/plot_mit_und_ohne_filter.pdf Graphic file (type pdf)
 <use filter/plot_mit_und_ohne_filter.pdf>
 Package pdftex.def Info: filter/plot_mit_und_ohne_filter.pdf  used on input line 232.
 (pdftex.def)             Requested size: 371.23923pt x 179.82123pt.
-<data/theo_praxis_filter.pdf, id=102, 462.52798pt x 346.89601pt>
+<data/theo_praxis_filter.pdf, id=98, 462.52798pt x 346.89601pt>
 File: data/theo_praxis_filter.pdf Graphic file (type pdf)
 <use data/theo_praxis_filter.pdf>
 Package pdftex.def Info: data/theo_praxis_filter.pdf  used on input line 241.
 (pdftex.def)             Requested size: 371.23923pt x 278.44348pt.
  [4 <./filter/plot_mit_und_ohne_filter.pdf>]
-<data/absorption_filter.pdf, id=143, 578.16pt x 361.35pt>
+<data/absorption_filter.pdf, id=138, 578.16pt x 361.35pt>
 File: data/absorption_filter.pdf Graphic file (type pdf)
 <use data/absorption_filter.pdf>
 Package pdftex.def Info: data/absorption_filter.pdf  used on input line 250.
 (pdftex.def)             Requested size: 371.23923pt x 232.02411pt.
  [5 <./data/theo_praxis_filter.pdf>]
-<kmno4/KMnO4_abs.pdf, id=177, 578.16pt x 361.35pt>
+<kmno4/KMnO4_abs.pdf, id=173, 578.16pt x 361.35pt>
 File: kmno4/KMnO4_abs.pdf Graphic file (type pdf)
 <use kmno4/KMnO4_abs.pdf>
 Package pdftex.def Info: kmno4/KMnO4_abs.pdf  used on input line 263.
 (pdftex.def)             Requested size: 371.23923pt x 232.02411pt.
-<kmno4/KMnO4_trans.pdf, id=178, 578.16pt x 361.35pt>
+<kmno4/KMnO4_trans.pdf, id=174, 578.16pt x 361.35pt>
 File: kmno4/KMnO4_trans.pdf Graphic file (type pdf)
 <use kmno4/KMnO4_trans.pdf>
 Package pdftex.def Info: kmno4/KMnO4_trans.pdf  used on input line 270.
 (pdftex.def)             Requested size: 371.23923pt x 232.02411pt.
  [6 <./data/absorption_filter.pdf> <./kmno4/KMnO4_abs.pdf>]
-<Chloro/chloro_absorption.pdf, id=254, 722.7pt x 433.62pt>
+<Chloro/chloro_absorption.pdf, id=251, 722.7pt x 433.62pt>
 File: Chloro/chloro_absorption.pdf Graphic file (type pdf)
 <use Chloro/chloro_absorption.pdf>
 Package pdftex.def Info: Chloro/chloro_absorption.pdf  used on input line 280.
 (pdftex.def)             Requested size: 371.23923pt x 222.74446pt.
-<Chloro/chloro_transmission.pdf, id=255, 722.7pt x 433.62pt>
+<Chloro/chloro_transmission.pdf, id=252, 722.7pt x 433.62pt>
 File: Chloro/chloro_transmission.pdf Graphic file (type pdf)
 <use Chloro/chloro_transmission.pdf>
 Package pdftex.def Info: Chloro/chloro_transmission.pdf  used on input line 287.
 (pdftex.def)             Requested size: 371.23923pt x 222.74446pt.
  [7 <./kmno4/KMnO4_trans.pdf> <./Chloro/chloro_absorption.pdf>] [8 <./Chloro/chloro_transmission.pdf>]
-<Holm/Holm_spektrum.pdf, id=383, 722.7pt x 433.62pt>
+<Holm/Holm_spektrum.pdf, id=380, 722.7pt x 433.62pt>
 File: Holm/Holm_spektrum.pdf Graphic file (type pdf)
 <use Holm/Holm_spektrum.pdf>
 Package pdftex.def Info: Holm/Holm_spektrum.pdf  used on input line 297.
 (pdftex.def)             Requested size: 436.7489pt x 262.05309pt.
-<Holm/lorentz_6.pdf, id=387, 462.52798pt x 346.89601pt>
+<Holm/lorentz_6.pdf, id=384, 462.52798pt x 346.89601pt>
 File: Holm/lorentz_6.pdf Graphic file (type pdf)
 <use Holm/lorentz_6.pdf>
 Package pdftex.def Info: Holm/lorentz_6.pdf  used on input line 307.
@@ -1371,36 +1316,23 @@ Overfull \hbox (21.28076pt too wide) in paragraph at lines 406--416
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-11-14>
  ***********
-
-
-LaTeX Warning: There were multiply-defined labels.
-
 Package logreq Info: Writing requests to 'Opt_A05-v01.run.xml'.
 \openout1 = `Opt_A05-v01.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 42778 strings out of 467537
- 906822 string characters out of 5423703
- 1852374 words of memory out of 5000000
+ 42775 strings out of 467537
+ 906774 string characters out of 5423703
+ 1852236 words of memory out of 5000000
  71092 multiletter control sequences out of 15000+600000
  644189 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 108i,20n,108p,11265b,2058s stack positions out of 10000i,1000n,20000p,200000b,200000s
-
-pdfTeX warning (dest): name{table.caption.13} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.12} has been referenced but does not exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.11} has been referenced but does not exist, replaced by a fixed one
-
+ 108i,20n,108p,11265b,2056s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfbx2488.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm0800.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfrm1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsl1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1440.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfsx1728.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sfti1200.pfb><c:/texlive/2025/texmf-dist/fonts/type1/public/cm-super/sftt1200.pfb>
-Output written on Opt_A05-v01.pdf (17 pages, 686723 bytes).
+Output written on Opt_A05-v01.pdf (16 pages, 685365 bytes).
 PDF statistics:
- 729 PDF objects out of 1000 (max. 8388607)
- 334 compressed objects within 4 object streams
- 56 named destinations out of 1000 (max. 500000)
+ 722 PDF objects out of 1000 (max. 8388607)
+ 328 compressed objects within 4 object streams
+ 53 named destinations out of 1000 (max. 500000)
  182 words of extra memory for PDF output out of 10000 (max. 10000000)
 

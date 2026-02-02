@@ -1,23 +1,23 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1770073040.90829 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770073135.02726 0
-  "Opt_A05-v01.bcf" 1770073134 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
+["biber Opt_A05-v01"] 1770073153.1713 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770073172.45114 0
+  "Opt_A05-v01.bcf" 1770073171 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
   "lit.bib" 1769968054 126 be614b90bd4b54773c25969c52999215 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1770073128.60023 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770073135.02863 2
+["pdflatex"] 1770073166.08482 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770073172.45314 0
   "Chloro/chloro_absorption.pdf" 1770069063 55337 27cb044ab66d42aec5bd725ee4766262 ""
   "Chloro/chloro_transmission.pdf" 1770068993 53946 a59aeadd821fbc6796312db71329dd31 ""
   "Holm/Holm_spektrum.pdf" 1770073038 27545 2e4faeae85d111b7e70344b32044f6d7 ""
   "Holm/lorentz_1.5.pdf" 1769968054 21077 9deb49ffb4ed4421286031bbfea3add4 ""
   "Holm/lorentz_3.pdf" 1769968054 21553 4bbdaf6935bb9cee9275925e6143590d ""
   "Holm/lorentz_6.pdf" 1769968054 21799 225deaa85e57d50f0e2464175319d09b ""
-  "Opt_A05-v01.aux" 1770073134 13295 db5435e16a1d85ddd9133327466469f6 "pdflatex"
-  "Opt_A05-v01.bbl" 1770073128 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1770073134 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.aux" 1770073171 13295 54afb8c82e3363ab95f54eb9e2188513 "pdflatex"
+  "Opt_A05-v01.bbl" 1770073158 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
+  "Opt_A05-v01.run.xml" 1770073171 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
   "Opt_A05-v01.tex" 1770073109 24745 4c6faf22de015463f032a360353ccab5 ""
-  "Opt_A05-v01.toc" 1770073134 1158 5e909e9ec29223efce4ea621e09d50fe "pdflatex"
+  "Opt_A05-v01.toc" 1770073171 1158 5e909e9ec29223efce4ea621e09d50fe "pdflatex"
   "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1770073109 24745 4c6faf22de015463f032a360353ccab5 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
