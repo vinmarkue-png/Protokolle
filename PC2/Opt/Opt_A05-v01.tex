@@ -127,14 +127,14 @@
 
 
 \textbf{Abstract:}
-In this experiment, a DIY spectrometer with a rotatable grating was used to measure the absorption spectra of different samples, including potassium permanganate, chlorophyll and holmium oxide in nitric acid. 
-% KMnO4: ligand-to-metal charge transfer (LMCT) 
-% und Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
-
+In this experiment, a DIY spectrometer with a rotatable grating was used to measure the absorption spectra of different samples, including potassium permanganate, chlorophyll and holmium oxide in nitric acid. The spectrometer was calibrated using a bandpass filter to establish a precise relationship between motor steps and wavelength. 
+Potassium permanganate spectra were analyzed, identifying an absorption maximum at 525\,nm consistent with its characteristic LMCT-induced purple color. 
+Chlorophyll concentration series were evaluated, confirming the Beer-Lambert law while identifying detector saturation and stray light as primary sources of spectral deviation.
 For holmium oxide in nitric acid, three absorption peaks of $f \rightarrow f$ transitions between $4f$ orbitals of holmium were measured and analyzed with a four-fold Lorentzian model fit. With decreasing slit width, the resolution of the spectrometer increased from $R_{\mathrm{6-turns}} = 26.6$ to $R_{\mathrm{3-turns}} = R_{\mathrm{1.5-turns}} = 38.3$, as indicated by the decreasing FWHM of the absorption peaks at 460.5 nm and 547.5 nm and the decreasing amplitude of the peak at 547.5 nm.
 \end{titlepage}
 
-
+% KMnO4: ligand-to-metal charge transfer (LMCT) 
+% und Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
 \thispagestyle{empty}
 
 \tableofcontents 
@@ -278,6 +278,7 @@ In the transmission spectrum, a clear minimum is observed at approximately $525$
 
 As absorbed in \autoref{fig: KMnO4_abs} the maximum is around $525$ nm corresponding to the transmission minimum. This wavelength corresponds to green light, which implies a purple color of the sample, which is according to its real color. Said color is caused by the ligand to metal charge transfer from the oxygen ligands to the manganese cations.
 
+The observed absorption maxima and the characteristic structure of the $MnO_4^-$ ions are in excellent agreement with literature values reported by Den Boef et al. \cite{DenBoef1958}. Specifically, the peak at approximately $525$~nm aligns with the established spectral data for aqueous potassium permanganate solutions, confirming the accuracy of the performed measurement.
 
 \subsection{Chlorophyll spectra}
 
@@ -291,12 +292,10 @@ In \autoref{fig: Chloro_abs} the numbers in the legend of the graph corresponds 
     \label{fig: Chloro_abs}
 \end{figure}
 
-The absorption gets higher as the concentration of chlorophyll increases, in the spectra of 3; 4 an 5 there are no clear differences in the spectra recognizable, due to an oversaturation of the detector. Above a certain concentration two much molecules in the solution and all light is absorbed by said molecules. The lowest concentration gives the most accurate spectrum, whith a maximum around $600$ nm. This corresponds to an absorption of red light, leading to a green color of the sample which corresponds to the observation. However the spectrum differs strongly 
+The absorption increases proportionally with the concentration of chlorophyll; however, in the spectra of samples 3, 4, and 5, no distinct differences are recognizable due to detector saturation. Above a certain concentration, the number of molecules in the solution is too high, causing nearly all incident light to be absorbed. The lowest concentration provides the most accurate spectrum, exhibiting a maximum around 660\,nm. This corresponds to the absorption of red light, which, along with the absorption in the blue region, results in the characteristic green color of the chlorophyll sample caused by $\pi \rightarrow \pi^*$ transitions. 
 
+However, the measured spectrum differs significantly from the ideal literature spectrum \supercite{Lichtenthaler1987}. While the literature suggests a prominent "absorption gap" between 500\,nm and 600\,nm, this feature is not observed in the experimental data. This discrepancy can be attributed to the limited resolution of the self-assembled spectrometer and potential stray light effects. Furthermore, the use of a broad-band light source and the simple setup may lead to an overlap of spectral orders, effectively "filling" the expected gap in the green spectral range. Additionally, the presence of various chlorophyll derivatives (a and b) in the sample could contribute to a broader absorption profile than seen in purified literature standards.
 
-
-
-\newpage
 \subsection{Holmium oxide spectra}
 The absorption spectra of holmium oxide in nitric acid for different exit slit widths are generated from the measured transmission spectra analog to the spectra of \ch{KMnO4} und Chlorophyll and are plotted together in \autoref{fig: Holm}.
 \begin{figure}[H]
@@ -435,6 +434,13 @@ By calculating the resolution for the slit widths of 3 turns and 1.5 turns in th
 
 \section{Conclusion}
 In this experiment, a DIY spectrometer with a rotatable grating was used to measure the absorption spectra of different samples, including potassium permanganate, chlorophyll and holmium oxide in nitric acid. The spectrometer was calibrated using a bandpass filter and the measured spectra were analyzed to extract information about the absorption peaks of the samples.
+
+The spectrometer was calibrated by comparing the measured bandpass filter transmission to a theoretical model, allowing for a precise conversion of motor steps into wavelength units as shown in the resulting absorption profiles.
+
+The potassium permanganate spectra reveal a characteristic absorption maximum at $525$\,nm, where the observed purple color originates from the absorption of the green spectral component via a ligand-to-metal charge transfer (LMCT).
+
+The concentration series of chlorophyll demonstrates a proportional increase in absorbance according to the Beer-Lambert law, though detector saturation and stray light effects cause the experimental spectra to deviate from the ideal literature gap between $500$\,nm and $600$\,nm.
+
 % Lamp, filter, KMnO4: ligand-to-metal charge transfer (LMCT) 
 % und Chlorophyll: $\pi \rightarrow \pi^{*}$ transitions
 

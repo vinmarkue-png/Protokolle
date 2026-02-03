@@ -1,23 +1,23 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1770115656.91797 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770117804.18775 0
-  "Opt_A05-v01.bcf" 1770117803 108489 df3ea6ecb03a0854797476a1f3aaf5a6 "pdflatex"
-  "lit.bib" 1769968054 126 be614b90bd4b54773c25969c52999215 ""
+["biber Opt_A05-v01"] 1770121880.20611 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770121901.97868 0
+  "Opt_A05-v01.bcf" 1770121901 108627 e5c52cdc26827a7094345a28f972a6e7 "pdflatex"
+  "lit.bib" 1770121823 1099 53eaf136ae7bee0f2be9f15c922ef801 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1770117797.79541 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770117804.18907 0
+["pdflatex"] 1770121895.99339 "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770121901.9803 0
   "Chloro/chloro_absorption.pdf" 1770069063 55337 27cb044ab66d42aec5bd725ee4766262 ""
   "Holm/Holm_spektrum.pdf" 1770073038 27545 2e4faeae85d111b7e70344b32044f6d7 ""
   "Holm/lorentz_1.5.pdf" 1769968054 21077 9deb49ffb4ed4421286031bbfea3add4 ""
   "Holm/lorentz_3.pdf" 1769968054 21553 4bbdaf6935bb9cee9275925e6143590d ""
   "Holm/lorentz_6.pdf" 1769968054 21799 225deaa85e57d50f0e2464175319d09b ""
-  "Opt_A05-v01.aux" 1770117803 12980 5bfaf78db5a66472ab9a07b38354dde3 "pdflatex"
-  "Opt_A05-v01.bbl" 1770115661 1591 41e842fa6159ee6d2617c5f8da122169 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1770117803 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
-  "Opt_A05-v01.tex" 1770117795 27337 b68073ac000c1077accbcef310a15467 ""
-  "Opt_A05-v01.toc" 1770117803 1158 cfd5dd96943cdafc0bf5f4127bad85ac "pdflatex"
-  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1770117795 27337 b68073ac000c1077accbcef310a15467 ""
+  "Opt_A05-v01.aux" 1770121901 13280 6aec0b28b439cf6ccf3ec4fcb1dc24c4 "pdflatex"
+  "Opt_A05-v01.bbl" 1770121883 5292 260f2fec7a98ba83a5c7e9512704bd00 "biber Opt_A05-v01"
+  "Opt_A05-v01.run.xml" 1770121901 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.tex" 1770121872 29743 e1d9ae1b07696c2103901e8bdbdd1c1d ""
+  "Opt_A05-v01.toc" 1770121901 1158 50f79f511e2847d0eb41137220ca697a "pdflatex"
+  "c:/Users/49157/OneDrive/Desktop/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1770121872 29743 e1d9ae1b07696c2103901e8bdbdd1c1d ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1765623789 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1765625187 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1765624578 3584 402da0b29eafbad07963b1224b222f18 ""

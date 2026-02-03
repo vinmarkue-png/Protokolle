@@ -42,6 +42,90 @@
       \field{title}{2025-pc2-script-en}
       \field{year}{2025}
     \endentry
+    \entry{DenBoef1958}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=dbbedbfb890abf00825da20bdfc96572}{%
+           family={Den\bibnamedelima Boef},
+           familyi={D\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod}}}%
+        {{hash=ace44532b436bf39c4d80ffa8f8d237b}{%
+           family={Beek},
+           familyi={B\bibinitperiod},
+           given={H.\bibnamedelimi J.},
+           giveni={H\bibinitperiod\bibinitdelim J\bibinitperiod},
+           prefix={van\bibnamedelima der},
+           prefixi={v\bibinitperiod\bibinitdelim d\bibinitperiod}}}%
+        {{hash=aa4693119fb296e6b1fa243a2c2295a9}{%
+           family={Braaf},
+           familyi={B\bibinitperiod},
+           given={Th.},
+           giveni={T\bibinitperiod}}}%
+      }
+      \strng{namehash}{8e8c6266c4ac8ef1292bb09674dfa7fa}
+      \strng{fullhash}{c63f02786287188197c1abdf7d6f4926}
+      \strng{fullhashraw}{c63f02786287188197c1abdf7d6f4926}
+      \strng{bibnamehash}{c63f02786287188197c1abdf7d6f4926}
+      \strng{authorbibnamehash}{c63f02786287188197c1abdf7d6f4926}
+      \strng{authornamehash}{8e8c6266c4ac8ef1292bb09674dfa7fa}
+      \strng{authorfullhash}{c63f02786287188197c1abdf7d6f4926}
+      \strng{authorfullhashraw}{c63f02786287188197c1abdf7d6f4926}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issn}{0165-0513}
+      \field{journaltitle}{Recueil des Travaux Chimiques des Pays-Bas}
+      \field{number}{11}
+      \field{title}{Absorption spectra in the visible and U.V. region of potassium permanganate and potassium manganate in solution and their application to the analysis of mixtures of these compounds}
+      \field{volume}{77}
+      \field{year}{1958}
+      \field{pages}{1064\bibrangedash 1070}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1002/recl.19580771110
+      \endverb
+    \endentry
+    \entry{Lichtenthaler1987}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{hash=76c8d5028a2cc68f3beb65bb53418272}{%
+           family={Lichtenthaler},
+           familyi={L\bibinitperiod},
+           given={Hartmut\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{fullhash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{fullhashraw}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{bibnamehash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{authorbibnamehash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{authornamehash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{authorfullhash}{76c8d5028a2cc68f3beb65bb53418272}
+      \strng{authorfullhashraw}{76c8d5028a2cc68f3beb65bb53418272}
+      \field{sortinit}{6}
+      \field{sortinithash}{b33bc299efb3c36abec520a4c896a66d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Methods in Enzymology}
+      \field{isbn}{978-0-12-182048-0}
+      \field{title}{Chlorophylls and carotenoids: Pigments of photosynthetic biomembranes}
+      \field{volume}{148}
+      \field{year}{1987}
+      \field{pages}{350\bibrangedash 382}
+      \range{pages}{33}
+      \verb{doi}
+      \verb 10.1016/0076-6879(87)48036-1
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0076687987480361
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/0076687987480361
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
