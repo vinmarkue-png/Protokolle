@@ -1,23 +1,23 @@
 # Fdb version 4
-["biber Opt_A05-v01"] 1770123126.46927 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770126576.2754 0
-  "Opt_A05-v01.bcf" 1770126575 108873 d6eaa594387b35023bf6bc52b9f71269 "pdflatex"
+["biber Opt_A05-v01"] 1770123126.46927 "Opt_A05-v01.bcf" "Opt_A05-v01.bbl" "Opt_A05-v01" 1770126804.66526 0
+  "Opt_A05-v01.bcf" 1770126804 108873 d6eaa594387b35023bf6bc52b9f71269 "pdflatex"
   "lit.bib" 1770122865 1099 53eaf136ae7bee0f2be9f15c922ef801 ""
   (generated)
   "Opt_A05-v01.bbl"
   "Opt_A05-v01.blg"
   (rewritten before read)
-["pdflatex"] 1770126571.52425 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770126576.27637 0
+["pdflatex"] 1770126800.19815 "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" "Opt_A05-v01.pdf" "Opt_A05-v01" 1770126804.6663 0
   "Chloro/chloro_absorption.pdf" 1770113626 55337 27cb044ab66d42aec5bd725ee4766262 ""
   "Holm/Holm_spektrum.pdf" 1770039604 27545 2e4faeae85d111b7e70344b32044f6d7 ""
   "Holm/lorentz_1.5.pdf" 1769692927 21077 9deb49ffb4ed4421286031bbfea3add4 ""
   "Holm/lorentz_3.pdf" 1769678618 21553 4bbdaf6935bb9cee9275925e6143590d ""
   "Holm/lorentz_6.pdf" 1769692824 21799 225deaa85e57d50f0e2464175319d09b ""
-  "Opt_A05-v01.aux" 1770126575 13568 44f028fca9b43ec6dc290b520dc254a0 "pdflatex"
+  "Opt_A05-v01.aux" 1770126804 13568 44f028fca9b43ec6dc290b520dc254a0 "pdflatex"
   "Opt_A05-v01.bbl" 1770123129 5292 58b71b8e4e289946d6ce8560cf64bdb8 "biber Opt_A05-v01"
-  "Opt_A05-v01.run.xml" 1770126575 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
-  "Opt_A05-v01.tex" 1770126570 30434 1ffc35dc63b7372648209895af01f3d4 ""
-  "Opt_A05-v01.toc" 1770126575 1158 e7fbd3c02b16c9f0a974a5da08234ac1 "pdflatex"
-  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1770126570 30434 1ffc35dc63b7372648209895af01f3d4 ""
+  "Opt_A05-v01.run.xml" 1770126804 2456 557241ebd9841a4cb32bfe9c599f69f6 "pdflatex"
+  "Opt_A05-v01.tex" 1770126798 30467 00c650ad8531d019a0935a0d09fd4222 ""
+  "Opt_A05-v01.toc" 1770126804 1158 e7fbd3c02b16c9f0a974a5da08234ac1 "pdflatex"
+  "c:/Users/vinma/Documents/Chemie Studium/5. Semester/Protokolle/PC2/Opt/Opt_A05-v01.tex" 1770126798 30467 00c650ad8531d019a0935a0d09fd4222 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1761072433 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1761073560 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1200.tfm" 1761073056 3584 402da0b29eafbad07963b1224b222f18 ""
