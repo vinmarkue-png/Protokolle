@@ -193,13 +193,13 @@ $\Delta \lambda$ is the smallest difference in wavelength that can be resolved a
 
 The reflexion grating used in the experiment has to be rotated in order to measure the sample at the different wavelengths. This is achieved by using a stepper motor, where each step rotates the grating by $1.8^{\circ}$. Each step also consists of 16 micro steps $z$ and have to factor in the gearbox of the motor which has a ratio of $\frac{1}{20}$.\supercite{Skript} Using those factors, it is possible to calculate the degree of rotation $\alpha$, as is shown in \autoref{eq: alpha1}.
 \begin{equation}
-    \alpha = \frac{1.8 \cdot \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z
+    \alpha = \frac{1.8 \cdot ~ \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z
     \label{eq: alpha1}
 \end{equation}
 
 To account for possible measurement errors the auxiliary values $f$ and $\Delta \alpha$ are introduced into the equation, which leads to \autoref{eq: alpha2}.
 \begin{equation}
-	\alpha = \frac{1.8 ~ \cdot \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z ~ \cdot ~ f+ \Delta \alpha
+	\alpha = \frac{1.8 ~ \cdot ~ \pi}{16 ~ \cdot ~ 20 ~ \cdot ~ 180} ~ \cdot z ~ \cdot ~ f+ \Delta \alpha
 \label{eq: alpha2}
 \end{equation}
 Where $f$ is a scaling factor and $\Delta \alpha$ accounts for the fact that the original angle of the grating is not known.\supercite{Skript}\\
